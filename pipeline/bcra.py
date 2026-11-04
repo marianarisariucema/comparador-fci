@@ -1,8 +1,8 @@
 """Indicadores del BCRA para comparar los fondos contra inflación, dólar y plazo fijo.
 
 Fuente: API pública de Estadísticas del BCRA (sin clave):
-  https://api.bcra.gob.ar/estadisticas/v3.0/monetarias            -> lista de variables
-  https://api.bcra.gob.ar/estadisticas/v3.0/monetarias/{id}?desde=&hasta=  -> serie
+  https://api.bcra.gob.ar/estadisticas/v4.0/monetarias            -> lista de variables
+  https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/{id}?desde=&hasta=  -> serie
 
 Las variables se eligen por su descripción (los IDs pueden cambiar).
 Escribe data/bcra/variables.json y data/bcra/<clave>.json.
@@ -19,7 +19,9 @@ from pathlib import Path
 
 import requests
 
-BASE = "https://api.bcra.gob.ar/estadisticas/v3.0/monetarias"
+# v3.0 respondió 410 Gone el 2026-11-04; se prueba v4.0 primero.
+BASES = ["https://api.bcra.gob.ar/estadisticas/v4.0/monetarias",
+         "https://api.bcra.gob.ar/estadisticas/v3.0/monetarias"]
 HEADERS = {"User-Agent": "comparador-fci/0.1 (+https://github.com/marianarisariucema/comparador-fci)",
            "Accept-Language": "es-AR"}
 DATA = Path(__file__).resolve().parent.parent / "data" / "bcra"
@@ -69,10 +71,19 @@ def puntos(respuesta) -> list[dict]:
 def main() -> int:
     s = requests.Session()
     s.headers.update(HEADERS)
-    variables = get(s, BASE).get("results", [])
+    variables, BASE = [], None
+    for base in BASES:
+        try:
+            variables = get(s, base).get("results", [])
+            BASE = base
+            break
+        except Exception as e:
+            print(f"{base}: {e}", file=sys.stderr)
+    if not BASE:
+        return 1
     DATA.mkdir(parents=True, exist_ok=True)
     (DATA / "variables.json").write_text(json.dumps(variables, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"BCRA: {len(variables)} variables disponibles")
+    print(f"BCRA ({BASE}): {len(variables)} variables disponibles")
 
     hasta = dt.date.today()
     desde = hasta - dt.timedelta(days=DIAS)
@@ -83,7 +94,7 @@ def main() -> int:
             serie.sort(key=lambda p: p["fecha"] or "")
             (DATA / f"{clave}.json").write_text(json.dumps({
                 "clave": clave, "id_bcra": v["idVariable"], "descripcion": v.get("descripcion"),
-                "fuente": "BCRA - API de Estadísticas v3.0", "serie": serie,
+                "fuente": f"BCRA - API de Estadísticas ({BASE})", "serie": serie,
             }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
             print(f"  {clave}: id {v['idVariable']} '{v.get('descripcion')}' -> {len(serie)} puntos")
         except Exception as e:
