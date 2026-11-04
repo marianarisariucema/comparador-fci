@@ -7,6 +7,8 @@ Producto: módulo **marca blanca** de análisis didáctico de FCI para ALyCs y b
 | Qué | Dónde |
 | --- | --- |
 | Definición de producto (visión, usuarios, pantallas, datos, MVP, riesgos) | [Documento en Claude](https://claude.ai/artifact/8QEoUqsovNamA8FuJmRUXu) |
+| Prototipo para Daniel: ficha didáctica marca blanca (3 fondos reales) | https://claude.ai/artifact/J67NZfb6PQCtKfpHEyunsN (archivo: `comparador-fci/prototipo/ficha-fci.html`) |
+| Prototipo para Daniel: comparador de 2.478 fondos | https://claude.ai/artifact/MxZYFJpBTkT4hFJXsyPCfh |
 | Código y datos | Este repo: https://github.com/marianarisariucema/comparador-fci |
 | Página publicada (prototipo viejo, todavía lee de compararfondos) | https://marianarisariucema.github.io/comparador-fci/ |
 | Copia de trabajo en el proyecto | carpeta `comparador-fci/repo/` de los archivos del proyecto |
@@ -35,6 +37,7 @@ No funcionan: API vieja de CAFCI y `estadisticas.cafci.org.ar` (bloqueadas, 403)
 
 ## Pendiente para mañana
 
+0. Los dos prototipos son privados: para que Daniel los vea, usar **Compartir** en cada página.
 1. **Clave (EOD o BYMA):** no generar una nueva hasta tener abierto GitHub. Al generarla, pegarla enseguida en *Settings → Secrets and variables → Actions → New repository secret* con el nombre `EOD_API_KEY` (o `BYMA_API_KEY`) y guardarla también en un gestor de contraseñas. Los datos gratis de BYMA **no** necesitan clave. Falta confirmar para qué servicio es.
 2. **Ficha didáctica:** armar la página nueva sobre los datos propios (`data/`), con: en una frase, tipo, patrimonio, en qué invierte, a qué está atado, flujos y rendimiento contra inflación, dólar y plazo fijo.
 3. Completar el histórico con ArgentinaDatos.
