@@ -48,6 +48,10 @@ POR_POSICION = {
     "cuotapartes_anterior": ("cantidad de cuotapartes", 1),
     "patrimonio": ("patrimonio", 0),
     "patrimonio_anterior": ("patrimonio", 1),
+    # Variación de cuotaparte contra fin del mes anterior, fin del año anterior y hace 12 meses
+    "rend_mes_pct": ("variacion cuotaparte", 0),
+    "rend_anio_pct": ("variacion cuotaparte", 1),
+    "rend_12m_pct": ("variacion cuotaparte", 2),
 }
 # Resto de columnas: (texto del grupo, texto de la subcolumna o "").
 POR_NOMBRE = {
@@ -72,7 +76,7 @@ POR_NOMBRE = {
     "minimo_inversion": ("minimo de inversion", ""),
     "tipo_dinero": ("tipo de dinero", ""),
 }
-NUMERICAS = {"vcp", "vcp_anterior", "variacion_pct", "cuotapartes", "cuotapartes_anterior",
+NUMERICAS = {"rend_mes_pct", "rend_anio_pct", "rend_12m_pct", "vcp", "vcp_anterior", "variacion_pct", "cuotapartes", "cuotapartes_anterior",
              "patrimonio", "patrimonio_anterior", "market_share", "comision_ingreso",
              "comision_rescate", "honorarios_gerente", "honorarios_depositaria",
              "gastos_gestion", "honorarios_exito", "minimo_inversion"}

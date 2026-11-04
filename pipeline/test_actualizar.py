@@ -51,6 +51,7 @@ def test_formato_real():
     assert a1["fecha"] == "2026-11-03"
     assert (a1["vcp"], a1["vcp_anterior"], a1["variacion_pct"]) == (1030.248, 1018.501, 1.153)
     assert a1["cuotapartes"] == 698034918.33
+    assert a1["rend_mes_pct"] == -0.511 and a1["rend_anio_pct"] is None
     assert (a1["patrimonio"], a1["patrimonio_anterior"]) == (719149294.23, 710948031.6)
     assert a1["moneda"] == "ARS" and a1["horizonte"] == "Flex"
     assert a1["gerente"] == "BAVSA Fondos S.A." and a1["depositaria"] == "Banco Comafi S.A."
