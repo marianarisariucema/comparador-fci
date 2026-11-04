@@ -46,6 +46,17 @@ No funcionan: API vieja de CAFCI y `estadisticas.cafci.org.ar` (bloqueadas, 403)
 6. Elegir la ALyC objetivo y mapear a mano sus 30 a 60 fondos entre CAFCI y CNV.
 7. Contactos a evaluar: CAFCI (acceso formal) y, si se quisiera, Fonditos (licencia de redistribución). El socio prefiere no depender de Fonditos.
 
+## Qué nos falta frente a Fonditos (relevado 4/11)
+
+1. Duration y TIR de cartera: precios de bonos (BYMA) + cronograma de pagos de cada bono. Lo más difícil.
+2. Histórico largo de cuotaparte (ArgentinaDatos): gráficos, volatilidad, caída máxima. Lo más fácil.
+3. Histórico de flujos y patrimonio (sale del punto 2; hacia adelante se arma solo).
+4. Normalizar activos de la CNV (ticker, emisor, CER/dólar/tasa) para "qué fondos tienen tal bono" y exposición total.
+5. Cruce CAFCI-CNV completo (hoy 84%).
+6. Servirlo como API con clave por cliente (hoy son archivos JSON).
+7. Curvas de tasas (Fonditos las tiene).
+1816: falta compararla, con el repo `1816` de Mariana.
+
 ## Cómo retomar
 
 Abrí el proyecto "fondos" en Claude desde la laptop y escribí en el hilo "Definir producto marca blanca de análisis de FCI" (o en el chat del proyecto): *"seguimos con el comparador, leé ESTADO.md"*. No hace falta instalar nada.
