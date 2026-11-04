@@ -1,0 +1,86 @@
+{
+ "fondo": "Argenfunds Infraestructura",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Argenfunds S.A.",
+ "depositaria": "Banco Macro S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 6753606699.04
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.02
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.5
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.46
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.02
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Aluar Serie 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.86
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.93
+  },
+  {
+   "activo": "Bonos de Infra.Vial Prov. de Santa Fe",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.28
+  },
+  {
+   "activo": "ON CGC C 39",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.47
+  },
+  {
+   "activo": "ON Telecom C14 TLCFO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.14
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.42
+  },
+  {
+   "activo": "Letra Prov Bs As PBA28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.01
+  },
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.39
+  },
+  {
+   "activo": "FCI Max Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.46
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "83966",
+ "nombre_cnv": "ARGENFUNDS FONDO COMUN DE INVERSION ABIERTO PARA EL FINANCIAMIENTO DE LA INFRAESTRUCTURA Y LA ECONOMIA REAL F.C.I.",
+ "clave": "argenfunds"
+}

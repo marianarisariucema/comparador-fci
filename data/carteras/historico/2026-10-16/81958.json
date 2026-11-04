@@ -1,0 +1,76 @@
+{
+ "fondo": "Balanz Performance I",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Balanz S.G.F.C.I.S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 4785327710.31
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 1.84
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.65
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.42
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 26.02
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.53
+  },
+  {
+   "activo": "ON Telecom 9.5% 2031",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.63
+  },
+  {
+   "activo": "ON Edenor C10 DNCAO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.79
+  },
+  {
+   "activo": "ON Pluspetrol Clase 5",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.25
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.09
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "81958",
+ "nombre_cnv": "BALANZ PERFORMANCE I",
+ "clave": "balanz performance i"
+}

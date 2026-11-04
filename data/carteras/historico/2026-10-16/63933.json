@@ -1,0 +1,136 @@
+{
+ "fondo": "IAM Estrategia",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Industrial Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco Industrial S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 20881089.56
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 87.95
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.06
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 8.98
+  }
+ ],
+ "activos": [
+  {
+   "activo": "US Treasury Bill 271126",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.4
+  },
+  {
+   "activo": "US Treasury Bill 311226",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 11.64
+  },
+  {
+   "activo": "BC Codelco 300929",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.71
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.48
+  },
+  {
+   "activo": "ON Vista Energy 31",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.94
+  },
+  {
+   "activo": "BC Cencosud 5.95%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.88
+  },
+  {
+   "activo": "BC Brasil 110630",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.85
+  },
+  {
+   "activo": "BC Banco Do Brasil 2029",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.77
+  },
+  {
+   "activo": "CL Rep Chile 28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.71
+  },
+  {
+   "activo": "CL Rep Chile 2031",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.58
+  },
+  {
+   "activo": "BC Falabella 150132",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.25
+  },
+  {
+   "activo": "BC De Credito de Inversiones 2.875%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.18
+  },
+  {
+   "activo": "CL Rep Chile 2032",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.16
+  },
+  {
+   "activo": "BC Falabella 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.57
+  },
+  {
+   "activo": "BC Mercado Libre 2031",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.46
+  },
+  {
+   "activo": "BC Bco Credito e Inv 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.36
+  },
+  {
+   "activo": "FCI Cocos Ahorro Dólares - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.21
+  },
+  {
+   "activo": "FCI MAF Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.84
+  },
+  {
+   "activo": "FCI Megaqm Liquidez Dólar - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63933",
+ "nombre_cnv": "IAM Estrategia FCI",
+ "clave": "iam estrategia"
+}

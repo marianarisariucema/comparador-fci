@@ -1,0 +1,62 @@
+{
+ "fondo": "Gainvest Estrategia I",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "StoneX Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 3693120.72
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.35
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 74.76
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 24.89
+  }
+ ],
+ "activos": [
+  {
+   "activo": "BR Brasil 300529",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 24.89
+  },
+  {
+   "activo": "ON YPF Clase 31",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.92
+  },
+  {
+   "activo": "US Treasury Bill 150427",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 14.59
+  },
+  {
+   "activo": "US Treasury Bill 100627",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 9.75
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C29",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.63
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63885",
+ "nombre_cnv": "STONEX Estrategia I",
+ "clave": "stonex estrategia i"
+}

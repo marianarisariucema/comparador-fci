@@ -1,0 +1,76 @@
+{
+ "fondo": "Cocos Dólar Money Market",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Cocos Asset Management S.A.",
+ "depositaria": "Banco Industrial S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 71682349.77
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 20.83
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 2.42
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 76.77
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON BBVA Frances Cl 39",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 2.42
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 27.9
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 17.44
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 10.47
+  },
+  {
+   "activo": "Pzo Fi $ Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 9.08
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Sol",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 6.28
+  },
+  {
+   "activo": "Pzo Fi U$S MBA Bco",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 5.59
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88413",
+ "nombre_cnv": "COCOS DÓLAR MONEY MARKET FCI",
+ "clave": "cocos dolar money market"
+}

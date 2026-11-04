@@ -1,0 +1,52 @@
+{
+ "fondo": "IAM Renta Global",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Industrial Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco Industrial S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 25033.91
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 18.98
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 65.92
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 15.1
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bonos Rep Argentina GD30",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 23.77
+  },
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 21.26
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 20.9
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "84240",
+ "nombre_cnv": "IAM RENTA GLOBAL",
+ "clave": "iam renta global"
+}

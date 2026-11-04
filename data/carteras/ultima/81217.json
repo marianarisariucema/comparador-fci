@@ -1,0 +1,99 @@
+{
+ "fondo": "Valiant Total Return",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Valiant Asset Management S.G.F.C.I.S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 138952703.37
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.59
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 30.16
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 27.66
+  },
+  {
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 5.06
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 5.19
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 31.63
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.39
+  },
+  {
+   "activo": "ON Agrofina Clase 12",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.77
+  },
+  {
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 7.99
+  },
+  {
+   "activo": "Cedear Vista Oil Gas",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 7.67
+  },
+  {
+   "activo": "Cedear Spdr SyP 500 ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.7
+  },
+  {
+   "activo": "Cedear Vale R Doce ON ADR",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.38
+  },
+  {
+   "activo": "Cedear Mercado Libre",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.92
+  },
+  {
+   "activo": "Cedear Invesco QQQ",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 5.06
+  },
+  {
+   "activo": "FCI Tango Money Market Dinámico - Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.92
+  },
+  {
+   "activo": "FF Vicentin Export S8 A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.27
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "81217",
+ "nombre_cnv": "VALIANT TOTAL RETURN FCI",
+ "clave": "valiant total return"
+}

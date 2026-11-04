@@ -1,0 +1,198 @@
+{
+ "fondo": "Consultatio Estrategia III",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 4473718.71
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 1.04
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 75.15
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.32
+  },
+  {
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 44.35
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 22.85
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.02
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 2.23
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 24.48
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 17.71
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 13.61
+  },
+  {
+   "activo": "ON YPF Clase 31",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.42
+  },
+  {
+   "activo": "ON Pluspetrol Clase 7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.36
+  },
+  {
+   "activo": "ON Telecom 9.5% 2031",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.57
+  },
+  {
+   "activo": "Letra Prov Bs As PBA27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.68
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.64
+  },
+  {
+   "activo": "Facebook",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 7.75
+  },
+  {
+   "activo": "Mastercard Incorporated",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 6.02
+  },
+  {
+   "activo": "Morgan Stanley Capital International (MSCI)",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 4.73
+  },
+  {
+   "activo": "Pepsico Incorporated",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 4.07
+  },
+  {
+   "activo": "Canadian Pacific Kansas City",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 2.99
+  },
+  {
+   "activo": "ADR Taiwan Semiconductor",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 2.77
+  },
+  {
+   "activo": "Broadcom Inc.",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 2.72
+  },
+  {
+   "activo": "Nvidia Corp.",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 2.32
+  },
+  {
+   "activo": "Microsoft Corporation",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 2.07
+  },
+  {
+   "activo": "CME Group Inc",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 1.73
+  },
+  {
+   "activo": "Newmont Mining Corporation",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 1.63
+  },
+  {
+   "activo": "Vertex Pharmaceuticals Inc",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 1.58
+  },
+  {
+   "activo": "Comfort Systems USA Inc",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 1.35
+  },
+  {
+   "activo": "Micron Technology Incorporated",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 1.34
+  },
+  {
+   "activo": "SanDisk Corporation",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 1.28
+  },
+  {
+   "activo": "Cedear Microsoft",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 7.29
+  },
+  {
+   "activo": "Cedear Facebook",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.64
+  },
+  {
+   "activo": "Cedear Nvidia Corp.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.88
+  },
+  {
+   "activo": "Cedear Taiwan Semiconduct",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.88
+  },
+  {
+   "activo": "Cedear Mastercard",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.16
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.02
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87763",
+ "nombre_cnv": "CONSULTATIO ESTRATEGIA III",
+ "clave": "consultatio estrategia iii"
+}

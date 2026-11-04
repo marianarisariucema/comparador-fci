@@ -1,0 +1,134 @@
+{
+ "fondo": "Ciclo Nova Balanceado",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Ciclo Nova Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 7388035521.05
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.14
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 80.34
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 9.48
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.4
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 19.13
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 7.54
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.95
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.5
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.55
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.54
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.97
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.38
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.48
+  },
+  {
+   "activo": "Bono Dual TXMD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.95
+  },
+  {
+   "activo": "Pagare #UMV200970005",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.79
+  },
+  {
+   "activo": "Pagare #UMV150970056",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.79
+  },
+  {
+   "activo": "Pagare #UMV230970004",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.89
+  },
+  {
+   "activo": "Cedear Microsoft",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.89
+  },
+  {
+   "activo": "Cedear Mercado Libre",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.55
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.5
+  },
+  {
+   "activo": "Cedear Wal Mart",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.31
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.15
+  },
+  {
+   "activo": "FCI Tango Money Market Dinámico - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 19.13
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87300",
+ "nombre_cnv": "CICLO NOVA BALANCEADO",
+ "clave": "ciclo nova balanceado"
+}

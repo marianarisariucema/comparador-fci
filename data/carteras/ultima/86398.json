@@ -1,0 +1,86 @@
+{
+ "fondo": "Quiron Renta Mixta",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Quiron Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Variable",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 1134530257.64
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.09
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 99.99
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.82
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 16.42
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 15.61
+  },
+  {
+   "activo": "Central Puerto S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 15.14
+  },
+  {
+   "activo": "Cedear Shares MSCI Brazil ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 11.99
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 11.31
+  },
+  {
+   "activo": "Transportadora Gas del Sur S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 10.63
+  },
+  {
+   "activo": "Matba Rofex S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 9.85
+  },
+  {
+   "activo": "Transportadora de Gas del Norte S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 9.04
+  },
+  {
+   "activo": "FCI Premier Renta CP $ CC",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.82
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86398",
+ "nombre_cnv": "QUIRON RENTA MIXTA FONDO COMUN DE INVERSION",
+ "clave": "quiron renta mixta"
+}

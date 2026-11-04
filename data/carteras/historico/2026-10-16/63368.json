@@ -1,0 +1,110 @@
+{
+ "fondo": "SBS Tavelli Renta",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 1025917388.76
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 1.36
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 76.75
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.61
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.21
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Pan American C26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.93
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.32
+  },
+  {
+   "activo": "ON YPF C 17",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.18
+  },
+  {
+   "activo": "ON Pampa Energia C13",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.81
+  },
+  {
+   "activo": "ON YPF Luz C23",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.55
+  },
+  {
+   "activo": "ON Telecom C12 TLCDO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.32
+  },
+  {
+   "activo": "ON Aluar Serie 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.87
+  },
+  {
+   "activo": "ON Pampa Energia C23 (RegS)",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.94
+  },
+  {
+   "activo": "ON Pan American C33",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.78
+  },
+  {
+   "activo": "ON Impsa Clase 7 2036",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 16.66
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.95
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.21
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63368",
+ "nombre_cnv": "SBS TAVELLI RENTA",
+ "clave": "sbs tavelli renta"
+}

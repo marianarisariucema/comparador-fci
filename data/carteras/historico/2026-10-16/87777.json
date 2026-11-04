@@ -1,0 +1,66 @@
+{
+ "fondo": "Max Retorno Total Pesos",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Max Capital Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 46434597020.77
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 1.02
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 97.57
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.5
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON CGC C 39",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 67.6
+  },
+  {
+   "activo": "ON CGC C 36",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.0
+  },
+  {
+   "activo": "ON CGC C 40",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.29
+  },
+  {
+   "activo": "ON CGC C 37",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.68
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.5
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87777",
+ "nombre_cnv": "MAX RETORNO TOTAL PESOS FCI",
+ "clave": "max retorno total pesos"
+}

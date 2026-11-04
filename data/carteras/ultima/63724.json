@@ -1,0 +1,86 @@
+{
+ "fondo": "SBS Capital Plus",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 5070031758.82
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 3.49
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 92.98
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.82
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 31.35
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.16
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.77
+  },
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.7
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.47
+  },
+  {
+   "activo": "ON Agrofina Clase 12",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.35
+  },
+  {
+   "activo": "ON Aluar Serie 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.17
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.65
+  },
+  {
+   "activo": "FCI Novus Liquidez Fondo de Dinero - Clase D",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.17
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63724",
+ "nombre_cnv": "SBS CAPITAL PLUS FCI",
+ "clave": "sbs capital plus"
+}

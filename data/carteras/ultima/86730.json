@@ -1,0 +1,56 @@
+{
+ "fondo": "BAVSA Global II",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "BAVSA Fondos S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 3294829142.38
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.09
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 97.52
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.61
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 53.66
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 43.86
+  },
+  {
+   "activo": "FCI Zofingen Pesos Ya - Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.61
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86730",
+ "nombre_cnv": "BAVSA GLOBAL II",
+ "clave": "bavsa global ii"
+}

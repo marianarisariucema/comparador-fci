@@ -1,0 +1,76 @@
+{
+ "fondo": "Allaria Dinámico III",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 45111789420.33
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.04
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 95.86
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.24
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.44
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.17
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.44
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.8
+  },
+  {
+   "activo": "FCI ST Zero - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.66
+  },
+  {
+   "activo": "FCI Wise Capital Money Markets - Clase D",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.13
+  },
+  {
+   "activo": "FCI GMC Money Market - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.45
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85298",
+ "nombre_cnv": "ALLARIA DINÁMICO III FCI",
+ "clave": "allaria dinamico iii"
+}

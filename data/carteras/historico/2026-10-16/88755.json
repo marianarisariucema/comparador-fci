@@ -1,0 +1,47 @@
+{
+ "fondo": "GMC Multiestrategia",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "GMC Asset Management S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 1011933616.25
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.2
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 99.81
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "FCI Zofingen Pesos Ya - Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 78.18
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 21.63
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88755",
+ "nombre_cnv": "GMC MULTIESTRATEGIA",
+ "clave": "gmc multiestrategia"
+}

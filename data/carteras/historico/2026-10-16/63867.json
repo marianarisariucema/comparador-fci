@@ -1,0 +1,42 @@
+{
+ "fondo": "FCIC Inmobiliario Al Rio Ley 27260",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Cohen S.A.",
+ "depositaria": "Deutsche Bank S.A.",
+ "clasificacion": "Cerrado",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 1010038.79
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
+   "pct_pn": 1495.1
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Ribera Desarrollos 280222",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
+   "pct_pn": 1495.1
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63867",
+ "nombre_cnv": "FCIC Inmobiliario Al Río Ley 27.260",
+ "clave": "c inmobiliario al rio"
+}

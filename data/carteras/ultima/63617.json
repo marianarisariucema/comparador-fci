@@ -1,0 +1,114 @@
+{
+ "fondo": "Premier Commodities",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Supervielle Asset Management S.A.",
+ "depositaria": "Banco Supervielle S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 11425197553.95
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.13
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 80.21
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.63
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 6.8
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.58
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 3.97
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.47
+  },
+  {
+   "activo": "Bono Dual TXMJ0",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.96
+  },
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.92
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.06
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.72
+  },
+  {
+   "activo": "Letra Tesoro Nac S30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.89
+  },
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.18
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.63
+  },
+  {
+   "activo": "Cedear Vista Oil Gas",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.62
+  },
+  {
+   "activo": "Cedear Vale R Doce ON ADR",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.71
+  },
+  {
+   "activo": "Cedear Ternium ADR",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "Cedear Barrick Gold",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "FCI Lombard Renta en $",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.58
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63617",
+ "nombre_cnv": "Premier Commodities Ex Premier Commodities Agrario",
+ "clave": "premier commodities"
+}

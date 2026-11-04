@@ -1,0 +1,86 @@
+{
+ "fondo": "Novus Renta Balanceado",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Novus Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 2528307947.85
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.07
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.56
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.38
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.99
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.55
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.43
+  },
+  {
+   "activo": "Letra Prov Bs As PBA27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.05
+  },
+  {
+   "activo": "Letra Prov Rio Negro S1 031226",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.37
+  },
+  {
+   "activo": "Bono Muni Cordoba S1 26032027",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.76
+  },
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.96
+  },
+  {
+   "activo": "Letra Prov Chubut S121 C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.46
+  },
+  {
+   "activo": "Letra Entre Rios ERE27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.99
+  },
+  {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.38
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85289",
+ "nombre_cnv": "NOVUS RENTA BALANCEADO FCI",
+ "clave": "novus renta balanceado"
+}

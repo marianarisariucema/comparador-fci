@@ -1,0 +1,86 @@
+{
+ "fondo": "Crecer Renta Dólares",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Ciudad Administradora de Activos S.A.U.",
+ "depositaria": "Banco Ciudad de Buenos Aires",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 8236669.48
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.54
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 91.09
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 8.5
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.89
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 15.88
+  },
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 14.42
+  },
+  {
+   "activo": "Bono Bopreal Serie 1 D",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 11.49
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.66
+  },
+  {
+   "activo": "Bonos Rep Argentina GD41",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.02
+  },
+  {
+   "activo": "Bonos Rep Argentina GD30",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.3
+  },
+  {
+   "activo": "Bonos Rep Argentina AL35",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.43
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 8.5
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87470",
+ "nombre_cnv": "CRECER RENTA DÓLARES",
+ "clave": "crecer renta dolares"
+}

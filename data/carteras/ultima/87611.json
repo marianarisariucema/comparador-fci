@@ -1,0 +1,57 @@
+{
+ "fondo": "Balanz Renta Fija Global",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Balanz S.G.F.C.I.S.A.U.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 250248.65
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 22.31
+  },
+  {
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 79.51
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ETF IShares JPM USD EM Corp ACC",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 26.12
+  },
+  {
+   "activo": "ETF IShares USD Short HY Corp ACC",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 25.23
+  },
+  {
+   "activo": "ETF IShares USD Short Dur ACC",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 17.2
+  },
+  {
+   "activo": "ETF Ultrashort",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 10.96
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87611",
+ "nombre_cnv": "BALANZ RENTA FIJA GLOBAL",
+ "clave": "balanz renta fija global"
+}

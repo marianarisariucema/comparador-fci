@@ -1,0 +1,81 @@
+{
+ "fondo": "MAF Global",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
+ "depositaria": "Banco Mariva S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 3025780.98
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.9
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 85.2
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Cable",
+   "pct_pn": 11.32
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.58
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Corporativo 3.625% 010827",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 20.82
+  },
+  {
+   "activo": "BC Petrobras 5.6% 2031",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 15.79
+  },
+  {
+   "activo": "US Treasury Bill 300927",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 15.04
+  },
+  {
+   "activo": "BC Bradesco 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 10.47
+  },
+  {
+   "activo": "BC Centrales Elec. Brasileras 2030",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 9.98
+  },
+  {
+   "activo": "BC Minerva Luxembourg 130933",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 6.93
+  },
+  {
+   "activo": "BC Falabella 150132",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 6.17
+  },
+  {
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Cable",
+   "pct_pn": 11.32
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63985",
+ "nombre_cnv": "MAF Global FCI",
+ "clave": "maf global"
+}

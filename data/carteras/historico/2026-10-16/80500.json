@@ -1,0 +1,120 @@
+{
+ "fondo": "MEGAQM Renta Dólares",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "MEGA QM S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 14106887.55
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.02
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 78.48
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 11.35
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 10.13
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.02
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 30.38
+  },
+  {
+   "activo": "ON YPF Clase 38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.53
+  },
+  {
+   "activo": "ON BBVA Frances Cl 45",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 11.15
+  },
+  {
+   "activo": "ON Tarj Naranja C67 S2",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 7.89
+  },
+  {
+   "activo": "ON Arcor Clase 26",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.46
+  },
+  {
+   "activo": "ON Banco de Valores C4",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.87
+  },
+  {
+   "activo": "ON Banco Comafi C21",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.83
+  },
+  {
+   "activo": "Pagare UMV281060018",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.54
+  },
+  {
+   "activo": "ON Telecom C25",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.46
+  },
+  {
+   "activo": "ON ICBC Clase 6 220527",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.43
+  },
+  {
+   "activo": "ON Pan American C42",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.08
+  },
+  {
+   "activo": "ON Diesel Lange S1",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.85
+  },
+  {
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 11.35
+  },
+  {
+   "activo": "FCI IAM Liquidez en Dólares - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 8.62
+  },
+  {
+   "activo": "FCI Adcap Ahorro Dólares - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.51
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "80500",
+ "nombre_cnv": "MEGAQM RENTA DÓLAR",
+ "clave": "megaqm renta dolar"
+}

@@ -1,0 +1,86 @@
+{
+ "fondo": "Allaria Principal",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 26174250413.27
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.67
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.37
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Cheque #MAV101260016",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.67
+  },
+  {
+   "activo": "Cheque #MAV200170039",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.83
+  },
+  {
+   "activo": "Cheque #MAV200170038",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.83
+  },
+  {
+   "activo": "Cheque #MAV200170037",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.83
+  },
+  {
+   "activo": "Cheque #MAV200170035",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.53
+  },
+  {
+   "activo": "Cheque #MAV271160010",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.67
+  },
+  {
+   "activo": "Cheque #MAV201160028",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.66
+  },
+  {
+   "activo": "Cheque #MAV041260016",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.66
+  },
+  {
+   "activo": "FCI Gainvest Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.37
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "82400",
+ "nombre_cnv": "ALLARIA PRINCIPAL FCI",
+ "clave": "allaria principal"
+}

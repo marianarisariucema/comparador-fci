@@ -1,0 +1,124 @@
+{
+ "fondo": "Max Renta Fija Latam",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Max Capital Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 3818036.81
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.85
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 87.37
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 3.93
+  },
+  {
+   "tipo": "Participaciones Accionarias Chile",
+   "pct_pn": 5.8
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.44
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "US Treasury Bill 271026",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.43
+  },
+  {
+   "activo": "BC Enap 2029",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.62
+  },
+  {
+   "activo": "Bono Corporativo 3.625% 010827",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.17
+  },
+  {
+   "activo": "BC Inversiones CMPC 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 7.85
+  },
+  {
+   "activo": "BC Banco Santander Chile 201130",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 7.65
+  },
+  {
+   "activo": "BC Enel Chile 160628",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 7.43
+  },
+  {
+   "activo": "BC Enersis 2026",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.67
+  },
+  {
+   "activo": "BC Suzano 150131",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.11
+  },
+  {
+   "activo": "BC Entel 3.05",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.6
+  },
+  {
+   "activo": "BC Cencosud 5.95%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.34
+  },
+  {
+   "activo": "BC Colbun 30",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.86
+  },
+  {
+   "activo": "BC Falabella 150132",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.64
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 3.93
+  },
+  {
+   "activo": "Banco de Chile",
+   "tipo": "Participaciones Accionarias Chile",
+   "pct_pn": 5.8
+  },
+  {
+   "activo": "FCI Allaria Dólar Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.44
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86144",
+ "nombre_cnv": "MAX RENTA FIJA LATAM FCI",
+ "clave": "max renta fija latam"
+}

@@ -1,0 +1,42 @@
+{
+ "fondo": "Allaria Residencial I FCIC",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Cerrado",
+ "moneda": "Peso Argentina",
+ "region": "<Sin Asignar>",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 180139901.06
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.52
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 97.48
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "FCI Gainvest Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 97.48
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "80814",
+ "nombre_cnv": "ALLARIA RESIDENCIAL I FCICI",
+ "clave": "allaria residencial i ci"
+}

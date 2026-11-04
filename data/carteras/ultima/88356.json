@@ -1,0 +1,85 @@
+{
+ "fondo": "Pellegrini Renta Dolares III",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Pellegrini S.A.S.G.F.C.I.",
+ "depositaria": "Banco de La Nacion Argentina",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 150131.75
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 4.63
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 73.3
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 19.32
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.81
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON CGC C 40",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 19.96
+  },
+  {
+   "activo": "ON Scania Credit C1",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.03
+  },
+  {
+   "activo": "Pagare #UCU200170003",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 14.15
+  },
+  {
+   "activo": "Pagare #UVA101260003",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.4
+  },
+  {
+   "activo": "Pagare #UVA281260004",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.31
+  },
+  {
+   "activo": "Pagare #UFM310370002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.45
+  },
+  {
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 19.32
+  },
+  {
+   "activo": "FCI Adcap Ahorro Dólares - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.81
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88356",
+ "nombre_cnv": "PELLEGRINI RENTA DÓLARES III F.C.I.",
+ "clave": "pellegrini renta dolares iii"
+}

@@ -1,0 +1,115 @@
+{
+ "fondo": "Max Estrategico IV",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Max Capital Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Dolar Estadounidense",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 16499107.29
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.83
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 82.05
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 12.12
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.03
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "US Treasury Bill 271026",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 21.2
+  },
+  {
+   "activo": "ON TGS C4",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 18.66
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.55
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase B BPOB7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 9.59
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase A BPOA7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.34
+  },
+  {
+   "activo": "ON CGC C 36",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.07
+  },
+  {
+   "activo": "ON CGC C 41",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.65
+  },
+  {
+   "activo": "ON Banco de Valores C4",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.06
+  },
+  {
+   "activo": "Pagare #UVA080370001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.65
+  },
+  {
+   "activo": "Pagare #UVA170270001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.15
+  },
+  {
+   "activo": "Pagare #UVA200170003",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.15
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 12.12
+  },
+  {
+   "activo": "FCI Balanz Money Market USD - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.93
+  },
+  {
+   "activo": "FCI IEB Corto Plazo Dólar - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.1
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85376",
+ "nombre_cnv": "Max Estrategico IV FCI",
+ "clave": "max estrategico iv"
+}

@@ -1,0 +1,67 @@
+{
+ "fondo": "Pionero Renta Dólares Plus",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Macro Fondos S.G.F.C.I.S.A.",
+ "depositaria": "Banco Macro S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 12523679.45
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 3.24
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 96.91
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bonos Rep Argentina AE38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 29.0
+  },
+  {
+   "activo": "Bonos Rep Argentina AL41",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 28.81
+  },
+  {
+   "activo": "Bonos Rep Argentina AL35",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 28.47
+  },
+  {
+   "activo": "Bono Bonar 2029 AO29",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.13
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.46
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AN29",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.05
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "82291",
+ "nombre_cnv": "PIONERO RENTA DOLARES PLUS ex Goal Renta Dólares Plus",
+ "clave": "pionero renta dolares plus"
+}

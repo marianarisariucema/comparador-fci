@@ -1,0 +1,86 @@
+{
+ "fondo": "Argenfunds Renta Total",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Argenfunds S.A.",
+ "depositaria": "Banco Macro S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 5340260665.86
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 22.31
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 76.25
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.73
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pagare #MAV221260025",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.4
+  },
+  {
+   "activo": "Pagare #MAV221260024",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.31
+  },
+  {
+   "activo": "Pagare #MAV221260026",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.05
+  },
+  {
+   "activo": "Pagare #MAV190170020",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.74
+  },
+  {
+   "activo": "Pagare #MAV190170015",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.39
+  },
+  {
+   "activo": "Pagare #MAV190170024",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.26
+  },
+  {
+   "activo": "ON TGLT Clase 16",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.11
+  },
+  {
+   "activo": "FCI ST Zero - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.42
+  },
+  {
+   "activo": "FCI Allaria Residencial I FCIC",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.31
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63801",
+ "nombre_cnv": "ARGENFUNDS Renta Total F.C.I.",
+ "clave": "argenfunds renta total"
+}

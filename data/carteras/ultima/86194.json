@@ -1,0 +1,70 @@
+{
+ "fondo": "Ciclo Nova Renta Fija Dólar 2",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Ciclo Nova Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Latinoamerica",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 953696.72
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.7
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 53.8
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 13.13
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 32.51
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON BBVA Frances Cl 39",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 21.51
+  },
+  {
+   "activo": "ON Banco Hipotecario C12",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.17
+  },
+  {
+   "activo": "ON Sidersa Clase 1",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.12
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 13.13
+  },
+  {
+   "activo": "FCI Toronto Trust Money Market Dólar - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 32.51
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86194",
+ "nombre_cnv": "CICLO NOVA Renta Fija Dólar 2",
+ "clave": "ciclo nova renta fija dolar 2"
+}

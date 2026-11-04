@@ -1,0 +1,110 @@
+{
+ "fondo": "Argenfunds Renta Crecimiento",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Argenfunds S.A.",
+ "depositaria": "Banco Macro S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 4836054.03
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.2
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 86.67
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 8.27
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.82
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.04
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 19.91
+  },
+  {
+   "activo": "ON YPF Clase 38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 17.29
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase B BPOB7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.9
+  },
+  {
+   "activo": "ON Arcor Clase 26",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.67
+  },
+  {
+   "activo": "ON Banco de Galicia 33 BYZ1O",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.35
+  },
+  {
+   "activo": "ON Telecom C25",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.39
+  },
+  {
+   "activo": "ON Tecpetrol C11",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.15
+  },
+  {
+   "activo": "ON Pan American C42",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.78
+  },
+  {
+   "activo": "ON Pan American C34",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.13
+  },
+  {
+   "activo": "ON BBVA Frances Cl 49",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.07
+  },
+  {
+   "activo": "Bonos Rep Argentina GD30",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 8.27
+  },
+  {
+   "activo": "FCI IEB Corto Plazo Dólar - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.82
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63879",
+ "nombre_cnv": "ARGENFUNDS Renta Crecimiento FCI",
+ "clave": "argenfunds renta crecimiento"
+}

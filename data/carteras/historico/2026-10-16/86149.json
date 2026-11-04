@@ -1,0 +1,76 @@
+{
+ "fondo": "Max Dinamico IV",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Max Capital Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 53226902349.73
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.87
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.25
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 54.17
+  },
+  {
+   "activo": "ON Oldelval Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.63
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.51
+  },
+  {
+   "activo": "ON Oldelval Clase 2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.34
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.12
+  },
+  {
+   "activo": "ON Oldelval Clase 5",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.1
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.25
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86149",
+ "nombre_cnv": "MAX DINÁMICO IV FCI",
+ "clave": "max dinamico iv"
+}

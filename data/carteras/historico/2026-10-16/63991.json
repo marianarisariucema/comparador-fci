@@ -1,0 +1,96 @@
+{
+ "fondo": "Zofingen Dollar Linked",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Zofingen Investment S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 4059565514.61
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.03
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 90.38
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 15.12
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 26.82
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.84
+  },
+  {
+   "activo": "Bono Prov de Buenos Aires TZV28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.51
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.53
+  },
+  {
+   "activo": "ON CNH Arg. C9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.54
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C19",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.39
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.42
+  },
+  {
+   "activo": "ON MSU S11",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.33
+  },
+  {
+   "activo": "Pagare #UMV021160004",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 5.87
+  },
+  {
+   "activo": "Pagare #UMV181160013",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 5.55
+  },
+  {
+   "activo": "Pagare #UMV161160047",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 3.7
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63991",
+ "nombre_cnv": "FCI ABIERTO ZOFINGEN DOLLAR LINKED ",
+ "clave": "zofingen dollar linked"
+}

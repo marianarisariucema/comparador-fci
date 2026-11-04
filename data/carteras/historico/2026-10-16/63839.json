@@ -1,0 +1,91 @@
+{
+ "fondo": "Adcap Ahorro Dólares",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 198348549.58
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 27.39
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.04
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 48.91
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 19.66
+  }
+ ],
+ "activos": [
+  {
+   "activo": "BC Banco BTG Pactual 041126",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.52
+  },
+  {
+   "activo": "BC Banco BTG Pactual 291026",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.52
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 21.47
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Coinag",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 13.13
+  },
+  {
+   "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 5.55
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.05
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Sol",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 2.02
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Hipot",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.51
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Bibank",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 0.68
+  },
+  {
+   "activo": "Plazo Fi U$S Bco BACS",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 0.51
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63839",
+ "nombre_cnv": "Adcap Ahorro Dolares Fondo de Dinero",
+ "clave": "adcap ahorro dolares fondo de dinero"
+}

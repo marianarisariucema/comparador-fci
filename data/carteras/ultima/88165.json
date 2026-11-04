@@ -1,0 +1,90 @@
+{
+ "fondo": "Tandem Balanceado II",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Tandem Capital S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 572802142.13
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.11
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 65.6
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.44
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.75
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 30.1
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.77
+  },
+  {
+   "activo": "Cheque #MAV220170024",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.65
+  },
+  {
+   "activo": "Cheque #MAV220170017",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.86
+  },
+  {
+   "activo": "Cheque #MAV170270016",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.68
+  },
+  {
+   "activo": "Cheque #MAV170270018",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.68
+  },
+  {
+   "activo": "Cheque #MAV251160067",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.01
+  },
+  {
+   "activo": "Cheque #MAV210170015",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.94
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.44
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.75
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88165",
+ "nombre_cnv": "TANDEM - BALANCEADO II",
+ "clave": "tandem balanceado ii"
+}

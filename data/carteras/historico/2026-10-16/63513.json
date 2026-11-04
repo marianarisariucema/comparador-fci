@@ -1,0 +1,155 @@
+{
+ "fondo": "IAM Renta Variable",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Industrial Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco Industrial S.A.",
+ "clasificacion": "Renta Variable",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 3222069351.5
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.25
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 71.73
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.57
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.25
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 15.82
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 12.28
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 10.59
+  },
+  {
+   "activo": "Banco Macro S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.85
+  },
+  {
+   "activo": "Central Puerto S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.78
+  },
+  {
+   "activo": "Transportadora Gas del Sur S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.73
+  },
+  {
+   "activo": "BBVA Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.13
+  },
+  {
+   "activo": "Bolsas y Mercados Argentinos S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.76
+  },
+  {
+   "activo": "Ternium Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.29
+  },
+  {
+   "activo": "Loma Negra S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.99
+  },
+  {
+   "activo": "Grupo Supervielle S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.68
+  },
+  {
+   "activo": "Aluar Aluminio Argentino S.A.I.C.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.4
+  },
+  {
+   "activo": "Banco de Valores S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.33
+  },
+  {
+   "activo": "Transener S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.18
+  },
+  {
+   "activo": "Telecom Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.18
+  },
+  {
+   "activo": "Distribuidora de Gas del Centro S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.06
+  },
+  {
+   "activo": "Metrogas S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.88
+  },
+  {
+   "activo": "Transportadora de Gas del Norte S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.61
+  },
+  {
+   "activo": "Edenor S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.61
+  },
+  {
+   "activo": "Sociedad Comercial del Plata S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.58
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.57
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63513",
+ "nombre_cnv": "IAM Renta Variable Ex Cardinal Renta Variable Arge",
+ "clave": "iam renta variable"
+}

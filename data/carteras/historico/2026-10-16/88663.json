@@ -1,0 +1,89 @@
+{
+ "fondo": "Special Situations Fund",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "CMF Asset Management S.A.U.",
+ "depositaria": "Banco C.M.F. S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 5703741.01
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 51.23
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.06
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.72
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.51
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 17.54
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON San Miguel Serie 13 CA",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.0
+  },
+  {
+   "activo": "ON Rizobacter S 11 CC",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.63
+  },
+  {
+   "activo": "ON Rizobacter S 11 CA",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.68
+  },
+  {
+   "activo": "ON San Miguel Serie 13 CB",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.75
+  },
+  {
+   "activo": "ON Clisa 101234",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 9.97
+  },
+  {
+   "activo": "ON Impsa Clase 7 2036",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.75
+  },
+  {
+   "activo": "Cedear Bioceres",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.51
+  },
+  {
+   "activo": "Lombard Liquidez Dolares - Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 17.54
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88663",
+ "nombre_cnv": "SPECIAL SITUATIONS FUND",
+ "clave": "special situations fund"
+}

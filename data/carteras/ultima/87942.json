@@ -1,0 +1,42 @@
+{
+ "fondo": "Cocos Premium Equity",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Cocos Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 27.24
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 18808.7
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 101.17
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 101.17
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87942",
+ "nombre_cnv": "COCOS PREMIUM EQUITY FCI",
+ "clave": "cocos premium equity"
+}

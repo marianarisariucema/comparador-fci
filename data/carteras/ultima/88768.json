@@ -1,0 +1,76 @@
+{
+ "fondo": "Puente Renta Fija Pesos III",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Puente Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 17701314209.66
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 93.14
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 12.28
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Prov Chubut S120 C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.28
+  },
+  {
+   "activo": "Letra Prov Chubut S119 C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.88
+  },
+  {
+   "activo": "Letra Prov Chubut S123 C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.13
+  },
+  {
+   "activo": "Letra Prov Chubut S119 C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.25
+  },
+  {
+   "activo": "Letra Prov Chaco BLN26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.78
+  },
+  {
+   "activo": "ON Bco Ciudad C23",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.83
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 12.28
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88768",
+ "nombre_cnv": "Puente Renta Fija Pesos III",
+ "clave": "puente renta fija pesos iii"
+}

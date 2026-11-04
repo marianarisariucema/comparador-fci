@@ -1,0 +1,111 @@
+{
+ "fondo": "Delta Gestion X",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Delta Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 6412123364.98
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.25
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 83.7
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 16.19
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.22
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.1
+  },
+  {
+   "activo": "Letra Prov Bs As LB2O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.36
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.63
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.79
+  },
+  {
+   "activo": "Bono Boncer TZXD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.61
+  },
+  {
+   "activo": "ON FCA Comp. Finac CL 22 S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.47
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.37
+  },
+  {
+   "activo": "ON GEMSA y CTR C35",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.15
+  },
+  {
+   "activo": "FF Mercado Credito 49 CA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 5.72
+  },
+  {
+   "activo": "FF Mercado Credito 50 CA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.64
+  },
+  {
+   "activo": "FCI Gainvest Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.31
+  },
+  {
+   "activo": "FF Mercado Credito 45 CA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.24
+  },
+  {
+   "activo": "FCI Allaria Dólar Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.28
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "81508",
+ "nombre_cnv": "Delta Gestion X",
+ "clave": "delta gestion x"
+}

@@ -1,0 +1,115 @@
+{
+ "fondo": "Axis Estrategia 25",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Axis S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 10546971987.48
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 72.41
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 24.5
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 3.12
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.4
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.02
+  },
+  {
+   "activo": "Bono Dual TXMD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.2
+  },
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.02
+  },
+  {
+   "activo": "Pagare #UMV270460026",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.43
+  },
+  {
+   "activo": "Pagare #UMV250360065",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.34
+  },
+  {
+   "activo": "Cedear Facebook",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.28
+  },
+  {
+   "activo": "Cedear Google",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.97
+  },
+  {
+   "activo": "Cedear Nvidia Corp.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.49
+  },
+  {
+   "activo": "Cedear Shares MSCI Brazil ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.21
+  },
+  {
+   "activo": "Cedear ASML",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.88
+  },
+  {
+   "activo": "Cedear Micron Technology",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.81
+  },
+  {
+   "activo": "Cedear Oracle",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.86
+  },
+  {
+   "activo": "FCI BAVSA Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.04
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86699",
+ "nombre_cnv": "AXIS ESTRATEGIA 25",
+ "clave": "axis estrategia 25"
+}

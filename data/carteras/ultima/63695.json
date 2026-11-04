@@ -1,0 +1,55 @@
+{
+ "fondo": "Cohen Cobertura",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Cohen S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 10580.74
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
+   "pct_pn": 8.64
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.1
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 90.26
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Impsa Clase 7 2036",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
+   "pct_pn": 8.64
+  },
+  {
+   "activo": "ON Varcam Clase 1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.1
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63695",
+ "nombre_cnv": "Cohen Cobertura",
+ "clave": "cohen cobertura"
+}

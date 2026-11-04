@@ -1,0 +1,86 @@
+{
+ "fondo": "Toronto Trust Liquidez Dólar",
+ "fecha_cartera": "2026-10-16",
+ "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
+ "depositaria": "Banco Credito y Securitizacion S.A. (BACS)",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 9103987.99
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.09
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 78.67
+  },
+  {
+   "tipo": "Participaciones Accionarias Chile",
+   "pct_pn": 16.53
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 2.71
+  }
+ ],
+ "activos": [
+  {
+   "activo": "BC Bradesco 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 19.81
+  },
+  {
+   "activo": "CL Rep Chile 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 16.81
+  },
+  {
+   "activo": "US Treasury Bill 031226",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 12.53
+  },
+  {
+   "activo": "US Treasury Bill 241226",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 9.83
+  },
+  {
+   "activo": "BR Rep Brasil 28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 7.76
+  },
+  {
+   "activo": "PAR Rep del Paraguay 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 5.4
+  },
+  {
+   "activo": "Bono Corporativo 3.625% 010827",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 3.28
+  },
+  {
+   "activo": "CL Rep Chile 28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 3.24
+  },
+  {
+   "activo": "Caja los Andes",
+   "tipo": "Participaciones Accionarias Chile",
+   "pct_pn": 16.53
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63856",
+ "nombre_cnv": "TORONTO TRUST LIQUIDEZ DOLAR FCI ",
+ "clave": "toronto trust liquidez dolar"
+}
