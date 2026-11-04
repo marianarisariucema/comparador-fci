@@ -237,7 +237,7 @@ def flujo_neto(r: dict):
 
 def escribir_json(ruta: Path, datos) -> None:
     ruta.parent.mkdir(parents=True, exist_ok=True)
-    ruta.write_text(json.dumps(datos, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
+    ruta.write_text(json.dumps(datos, ensure_ascii=False, separators=(",", ":"), default=str), encoding="utf-8")
 
 
 def main() -> int:
