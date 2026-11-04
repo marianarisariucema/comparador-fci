@@ -24,7 +24,7 @@ from pathlib import Path
 import requests
 
 BASE = "https://www.cnv.gov.ar/SitioWeb/FondosComunesInversion"
-URL_LISTADO = f"{BASE}/GetFCIPorTipo"  # POST idTipo=0 abiertos, 1 cerrados, 2 todos
+URL_LISTADO = f"{BASE}/GetFCIPorTipo"  # POST idTipo=0 abiertos, 1 cerrados
 URL_FICHA = f"{BASE}/DetallesFCI/{{id}}"
 HEADERS = {"User-Agent": "comparador-fci/0.1 (+https://github.com/marianarisariucema/comparador-fci)"}
 PAUSA_SEG = 1.0
@@ -154,11 +154,21 @@ def parsear_ficha(html: str) -> dict:
     }
 
 
-def listar_fondos(sesion: requests.Session, id_tipo: int = 2) -> list[dict]:
-    r = sesion.post(URL_LISTADO, data={"idTipo": id_tipo}, timeout=60)
-    r.raise_for_status()
-    return [{"id": x["Value"], "nombre_cnv": x["Text"], "clave": nombre_clave(x["Text"])}
-            for x in r.json() if x.get("Value")]
+def listar_fondos(sesion: requests.Session) -> list[dict]:
+    """Fondos abiertos (idTipo=0) y cerrados (idTipo=1) de la CNV."""
+    fondos, vistos = [], set()
+    for id_tipo in (0, 1):
+        r = sesion.post(URL_LISTADO, data={"idTipo": id_tipo}, timeout=60)
+        r.raise_for_status()
+        items = r.json()
+        print(f"Listado CNV idTipo={id_tipo}: {len(items)} elementos")
+        for x in items:
+            v = str(x.get("Value") or "").strip()
+            if v and v not in vistos:
+                vistos.add(v)
+                fondos.append({"id": v, "nombre_cnv": x.get("Text", ""),
+                               "clave": nombre_clave(x.get("Text", "")), "abierto": id_tipo == 0})
+    return fondos
 
 
 def bajar_ficha(sesion: requests.Session, fondo_id: str, fecha: str | None = None) -> str:
@@ -188,7 +198,11 @@ def main() -> int:
     s.headers.update(HEADERS)
     listado = listar_fondos(s)
     escribir_json(DATA / "listado_cnv.json", listado)
-    elegidos = [f for f in listado if not args.ids or f["id"] in set(args.ids)]
+    if args.ids:
+        por_id = {f["id"]: f for f in listado}
+        elegidos = [por_id.get(i, {"id": i, "nombre_cnv": "", "clave": ""}) for i in args.ids]
+    else:
+        elegidos = listado
 
     ok, errores = 0, []
     for i, f in enumerate(elegidos):
