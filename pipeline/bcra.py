@@ -27,16 +27,19 @@ HEADERS = {"User-Agent": "comparador-fci/0.1 (+https://github.com/marianarisariu
 DATA = Path(__file__).resolve().parent.parent / "data" / "bcra"
 DIAS = 730
 
-# clave -> palabras que deben aparecer en la descripción (sin acentos, minúsculas)
-BUSCADAS = {
-    "cer": ["cer"],
-    "dolar_mayorista": ["tipo de cambio", "mayorista"],
-    "dolar_minorista": ["tipo de cambio", "minorista"],
-    "tasa_plazo_fijo": ["plazo fijo"],
-    "badlar": ["badlar"],
-    "inflacion_mensual": ["inflacion mensual"],
-    "inflacion_interanual": ["inflacion interanual"],
-    "uva": ["uva"],
+# Variables elegidas por ID (verificadas contra la descripción el 2026-11-04).
+# Elegir por palabras fallaba: "cer" coincide con "terceros".
+VARIABLES = {
+    "dolar_minorista": 4,       # Tipo de cambio minorista (promedio vendedor)
+    "dolar_mayorista": 5,       # Tipo de cambio mayorista de referencia (A3500)
+    "badlar": 7,                # Tasa BADLAR de bancos privados
+    "tasa_plazo_fijo_30d": 12,  # Tasa de depósitos a 30 días
+    "inflacion_mensual": 27,
+    "inflacion_interanual": 28,
+    "inflacion_esperada_12m": 29,  # REM
+    "cer": 30,                  # Coeficiente de estabilización de referencia
+    "uva": 31,
+    "tamar": 44,                # Tasa TAMAR de bancos privados
 }
 
 
@@ -52,13 +55,8 @@ def get(sesion, url, **params):
 
 
 def elegir(variables: list[dict]) -> dict[str, dict]:
-    elegidas = {}
-    for clave, palabras in BUSCADAS.items():
-        candidatas = [v for v in variables if all(p in norm(v.get("descripcion", "")) for p in palabras)]
-        if candidatas:
-            # la descripción más corta suele ser la serie principal
-            elegidas[clave] = min(candidatas, key=lambda v: len(v.get("descripcion", "")))
-    return elegidas
+    por_id = {v["idVariable"]: v for v in variables}
+    return {clave: por_id.get(i, {"idVariable": i, "descripcion": None}) for clave, i in VARIABLES.items()}
 
 
 def puntos(respuesta) -> list[dict]:
@@ -100,9 +98,6 @@ def main() -> int:
         except Exception as e:
             print(f"  {clave}: error {e}", file=sys.stderr)
         time.sleep(0.5)
-    faltan = sorted(set(BUSCADAS) - set(elegidas))
-    if faltan:
-        print(f"No encontré variables para: {faltan}")
     return 0 if elegidas else 1
 
 
