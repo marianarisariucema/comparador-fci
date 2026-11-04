@@ -16,7 +16,7 @@ permissions:
 jobs:
   carteras:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,8 +26,12 @@ jobs:
           cache-dependency-path: pipeline/requirements.txt
       - run: pip install -r pipeline/requirements.txt
       - name: Bajar carteras
+        # ~1.700 fondos tardan más de 90 min. Si se corta, igual se guarda lo bajado.
+        timeout-minutes: 300
+        continue-on-error: true
         run: python pipeline/carteras_cnv.py ${{ github.event.inputs.ids && format('--ids {0}', github.event.inputs.ids) || '' }}
       - name: Guardar datos
+        if: always()
         run: |
           git config user.name "datos-bot"
           git config user.email "actions@users.noreply.github.com"
