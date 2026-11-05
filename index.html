@@ -100,6 +100,15 @@ p{margin:0}
 .carpeta:hover{border-color:var(--accent)}
 .carpeta .cuenta{color:var(--muted);font-weight:400;font-size:.8rem;margin:0;white-space:nowrap}
 .item{padding:12px 14px;gap:4px 12px}
+.torta{display:grid;grid-template-columns:170px 1fr;gap:18px;align-items:center}
+.torta-svg{width:170px;height:170px;display:block}
+.torta-svg .seg{cursor:pointer;transition:opacity .15s}
+.torta-svg:hover .seg{opacity:.45}.torta-svg .seg:hover{opacity:1}
+.torta-svg text{pointer-events:none}
+.torta-svg .t1{font-size:20px;font-weight:700;fill:var(--ink);font-family:var(--sans)}
+.torta-svg .t2{font-size:11px;fill:var(--muted);font-family:var(--sans)}
+@media (max-width:480px){.torta{grid-template-columns:1fr}.torta-svg{margin:0 auto}}
+.chip.plazo{background:var(--brand-soft);color:var(--accent);font-weight:600}
 .item .pat{color:var(--muted);font-size:.82rem}.item .pat b{color:var(--ink);font-weight:600}
 .objetivos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,135px),1fr));gap:10px}
 .obj{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 14px;text-align:left;cursor:pointer;display:grid;gap:2px;box-shadow:var(--shadow)}
@@ -352,6 +361,22 @@ const CARPETAS={
     ['largo','Largo plazo','Más de 2 años. Aguanta subas y bajas.']]},
 };
 let vista='tipo', carpeta=null, perfilF=null;
+const PLAZO_TXT={corto:'Corto plazo',mediano:'Mediano plazo',largo:'Largo plazo'};
+/* Torta de la cartera. Colores en un orden validado para daltonismo; más de 6 partes se juntan en "Otros". */
+const PALETA_TORTA=['var(--accent)','var(--c3)','var(--c2)','var(--c5)','var(--c7)','var(--c4)'];
+function partesTorta(atado){
+  const pos=atado.filter(a=>a[1]>0).sort((a,b)=>b[1]-a[1]);
+  const ps=pos.length>6?[...pos.slice(0,5),['Otros',pos.slice(5).reduce((t,a)=>t+a[1],0)]]:pos;
+  return ps.map((a,i)=>({n:a[0],v:a[1],col:a[0]==='Otros'&&pos.length>6?'var(--c6)':PALETA_TORTA[i]}));
+}
+function torta(partes,centro){
+  const tot=partes.reduce((t,x)=>t+x.v,0)||1, R=62, C=2*Math.PI*R; let ac=0;
+  const seg=partes.map((x,i)=>{const len=x.v/tot*C, d=`<circle class="seg" data-i="${i}" r="${R}" cx="90" cy="90" fill="none" stroke="${x.col}" stroke-width="30"
+      stroke-dasharray="${Math.max(len-2,.5).toFixed(2)} ${C.toFixed(2)}" stroke-dashoffset="${(-ac).toFixed(2)}"><title>${esc(x.n)}: ${nf(x.v,1)}%</title></circle>`;ac+=len;return d}).join('');
+  return `<svg viewBox="0 0 180 180" class="torta-svg" role="img" aria-label="Composición de la cartera: ${esc(partes.map(x=>x.n+' '+nf(x.v,0)+'%').join(', '))}">
+    <g transform="rotate(-90 90 90)">${seg}</g>
+    <text x="90" y="86" text-anchor="middle" class="t1" data-c1>${esc(centro[0])}</text><text x="90" y="106" text-anchor="middle" class="t2" data-c2>${esc(centro[1])}</text></svg>`;
+}
 function filtrados(){
   const t=norm(texto);
   let l;
@@ -463,7 +488,7 @@ function filas(){
   $('#lista').innerHTML=l.length?l.slice(0,mostrar).map(f=>`<a class="item" href="#${encodeURIComponent(f.id)}">
     <span><span class="n">${esc(f.nombre)}</span><br><span class="g">${esc(gestora(f.gerente))}</span><br><span class="pat">Patrimonio: <b>${plata(f.patrimonio,f.moneda)}</b></span></span>
     <span class="r"><span class="num ${f.rend_1a<0?'neg':''}">${pct(f.rend_1a)}</span><br><span class="g">en 12 meses${f.moneda==='USD'?'<br>en dólares':''}</span></span>
-    <span class="chips">${medidor(f.riesgo_nivel)}<span class="chip">${esc(f.tipo)}</span>${veredictoCorto(f)}</span></a>`).join('')
+    <span class="chips">${medidor(f.riesgo_nivel)}<span class="chip plazo">${PLAZO_TXT[plazoDe(f)]}</span><span class="chip">${esc(f.tipo)}</span>${veredictoCorto(f)}</span></a>`).join('')
     :'<p class="vacio">No encontramos fondos con esa búsqueda.</p>';
   $('#mas').hidden=l.length<=mostrar;
 }
@@ -550,7 +575,7 @@ async function ficha(id){
   if(c&&c.tasas&&c.tasas.cobertura_pct>=15)await cargarCurvas();
   const costo=f.clases.length?Math.min(...f.clases.map(x=>(x.honorarios_gerente||0)+(x.honorarios_depositaria||0))):null;
   const atado=c?Object.entries(c.atado).filter(a=>Math.abs(a[1])>=0.05):[];
-  const tot=atado.reduce((s,a)=>s+Math.max(a[1],0),0)||100;
+  const PT=partesTorta(atado);
   const fl=f.flujo_30d??f.flujo_dia, flTxt=f.flujo_30d!=null?'el último mes':'el último día hábil';
   const n=f.riesgo_nivel; X=X||{};
   const dudosas=new Set((X.dudoso||[]).map(d=>d.clase));
@@ -563,7 +588,7 @@ async function ficha(id){
   $('#app').innerHTML=`
   ${EMBED?'':'<button class="volver" type="button" id="volver">← Todos los fondos</button>'}
   <article class="card ficha">
-    <div class="cab"><h2>${esc(f.nombre)}</h2><p class="peq">Lo administra ${esc(gestora(f.gerente)||'s/d')} · ${f.moneda==='USD'?'En dólares':'En pesos'}</p>
+    <div class="cab"><h2>${esc(f.nombre)}</h2><p class="peq">Lo administra ${esc(gestora(f.gerente)||'s/d')} · ${f.moneda==='USD'?'En dólares':'En pesos'} · <b>${PLAZO_TXT[plazoDe(f)]}</b></p>
       ${EMBED?'':`<button type="button" class="btncmp" id="btncmp" data-id="${esc(f.id)}" aria-pressed="false">＋ Comparar con otros</button>`}</div>
     ${disponible(f)?'':`<p class="alerta">${esc(f.tipo_explicacion||'Este fondo no recibe inversiones nuevas.')}</p>`}
     ${f.frase?`<p class="frase">${esc(f.frase)}</p>`:''}
@@ -581,9 +606,9 @@ async function ficha(id){
       <div class="sim" id="sim"></div>
       <div class="comp" id="comp"></div></div>
     ${grafico(f)}
-    ${c?`<div class="bloque"><h3>A qué está atada tu plata</h3>
-      <div class="barra" role="img" aria-label="Composición de la cartera">${atado.filter(a=>a[1]>0).map((a,i)=>`<span style="width:${a[1]/tot*100}%;background:${colores[i%8]}"></span>`).join('')}</div>
-      <div class="leyenda">${atado.map((a,i)=>`<div><i style="background:${a[1]>0?colores[i%8]:'transparent'}"></i><span>${glos(a[0])}</span><span class="num">${nf(a[1],1)}%</span></div>`).join('')}</div>
+    ${c?`<div class="bloque"><h3>En qué está invertida tu plata</h3>
+      <div class="torta">${torta(PT,[c.n_activos+'',c.n_activos===1?'inversión':'inversiones'])}
+      <div class="leyenda">${PT.map((x,i)=>`<div data-li="${i}"><i style="background:${x.col}"></i><span>${x.n==='Otros'?'Otros':glos(x.n)}</span><span class="num">${nf(x.v,1)}%</span></div>`).join('')}${atado.filter(a=>a[1]<=0).map(a=>`<div><i style="background:transparent"></i><span>${glos(a[0])}</span><span class="num">${nf(a[1],1)}%</span></div>`).join('')}</div></div>
       <p class="peq">Según la cartera al ${fecha(c.fecha)} que el fondo informó a la CNV (${c.n_activos} inversiones en total).${c.vencimiento_promedio_anios!=null&&c.vencimiento_cobertura_pct>=30?` Lo que tiene fecha de ${T('vencimiento','vencimiento')} vence en promedio en ${c.vencimiento_promedio_anios<1?nf(c.vencimiento_promedio_anios*12,0)+' meses':nf(c.vencimiento_promedio_anios,1)+' años'}.`:''}</p></div>
     ${tasasBloque(c.tasas,c.principales)}
     <div class="grid2">
@@ -592,7 +617,7 @@ async function ficha(id){
         <p class="peq">En ${flTxt} la gente ${fl>=0?'puso':'retiró'} esa plata de más, sin contar lo que ganó o perdió el fondo.${flPct!=null?` Es ${flPct<0.1?'menos del 0,1':'el '+nf(flPct,flPct<10?1:0)}% de todo lo que maneja${fl<0&&flPct<5?': que salga un poco de plata es normal, la gente usa sus ahorros':''}.`:''}</p>`}
         <h3 style="margin-top:8px">${T('patrimonio','Cuánto maneja')}</h3><p class="dato num" style="font-size:1.2rem">${plata(f.patrimonio,f.moneda)}</p>
         <p class="peq">Es el n.º ${f.puesto} de ${f.en_categoria} en su categoría por tamaño.</p></div>
-    </div>`:`<div class="bloque"><h3>En qué invierte</h3><p class="peq">Este fondo todavía no tiene una cartera publicada en la CNV.</p>
+    </div>`:`<div class="bloque"><h3>En qué invierte</h3><p>Este fondo no publica su cartera en la CNV, así que no podemos mostrar en qué invierte.</p>
       <h3 style="margin-top:8px">${T('patrimonio','Cuánto maneja')}</h3><p class="dato num" style="font-size:1.2rem">${plata(f.patrimonio,f.moneda)}</p></div>`}
     <div class="bloque"><h3>Lo práctico</h3><table><tbody>
       <tr><td>${T('rescate','Si querés sacar la plata')}</td><td>te la devuelven ${plazo(f.plazo_rescate)}${cobro(f.plazo_rescate)}</td></tr>
@@ -607,10 +632,13 @@ async function ficha(id){
       <li>Buscá “${esc(f.nombre)}” en la sección de fondos y elegí la clase que te ofrezcan.</li>`}
       <li>Poné cuánto querés invertir. A veces el botón dice “${T('suscribir','suscribir')}”: es lo mismo.</li>
       <li>Cuando necesites la plata, pedí el ${T('rescate','rescate')}: te la devuelven ${plazo(f.plazo_rescate)}.</li></ol></div>`}
-    <p class="aviso">Fuentes: CAFCI (valores diarios), CNV (cartera semanal), BCRA (inflación, dólar, plazo fijo), ArgentinaDatos (historia de valores). Los rendimientos son de la clase principal, ya con costos descontados. "A qué está atada tu plata" y el nivel de riesgo se calculan en forma automática. Rendimientos pasados no garantizan rendimientos futuros. Información con fines educativos: no es una recomendación de inversión.</p>
+    <p class="aviso">Fuentes: CAFCI (valores diarios), CNV (cartera semanal), BCRA (inflación, dólar, plazo fijo), ArgentinaDatos (historia de valores). Los rendimientos son de la clase principal, ya con costos descontados. La composición de la cartera y el nivel de riesgo se calculan en forma automática. Rendimientos pasados no garantizan rendimientos futuros. Información con fines educativos: no es una recomendación de inversión.</p>
   </article>`;
   if($('#volver'))$('#volver').onclick=()=>{location.hash=''};
   if($('#btncmp'))$('#btncmp').onclick=()=>toggleCmp(f.id);barra();
+  if(c){const c1=$('[data-c1]'),c2=$('[data-c2]'),base=[c1.textContent,c2.textContent];
+    const ver=i=>{if(i==null){c1.textContent=base[0];c2.textContent=base[1];return}const x=PT[i];c1.textContent=nf(x.v,0)+'%';c2.textContent=x.n.length>22?x.n.slice(0,21)+'…':x.n};
+    $$('.seg,[data-li]').forEach(el=>{const i=+(el.dataset.i??el.dataset.li);el.addEventListener('pointerenter',()=>ver(i));el.addEventListener('pointerleave',()=>ver(null))})}
   const pinta=()=>{
     const P=REF.periodos[periodo]||{}, v=(X.dudoso||[]).length&&f.clases.every(c=>dudosas.has(c.nombre))?null:(f.rendimientos||{})[periodo];
     const nom={'30d':'hace un mes','anio':'a principio de año','1a':'hace 12 meses','2a':'hace 2 años'}[periodo];
