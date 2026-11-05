@@ -108,7 +108,7 @@ def referencias(hoy: dt.date) -> dict:
 
 # ------------------------------------------------------------------ textos didácticos
 TIPOS = {
-    "Money market": ("Mercado de dinero (money market)", "Funciona como una cuenta remunerada: casi no baja y la plata se retira en el día.", "bajo"),
+    "Money market": ("Mercado de dinero (money market)", "Funciona como una cuenta remunerada: tu plata rinde todos los días y la rescatás en el día.", "bajo"),
     "Renta fija corto plazo (T+1)": ("Renta fija de corto plazo", "Invierte a muy corto plazo. Se mueve poco y rinde algo más que un money market.", "bajo"),
     "Renta fija CER": ("Renta fija atada a la inflación (CER)", "Compra bonos que ajustan por inflación. Sirve para cubrirse de la suba de precios.", "medio"),
     "Renta fija tasa fija (Lecap)": ("Renta fija a tasa fija", "Compra letras del Tesoro que pagan una tasa fija. Le va bien si la inflación baja.", "medio"),
@@ -116,19 +116,19 @@ TIPOS = {
     "Dólar linked": ("Atado al dólar oficial (dólar linked)", "Compra bonos en pesos que ajustan por el dólar oficial. Sirve para cubrirse de una devaluación.", "medio"),
     "Renta fija pesos: empresas (ON)": ("Deuda de empresas en pesos", "Les presta a empresas a cambio de intereses.", "medio"),
     "Renta fija pesos: mixta": ("Renta fija en pesos", "Compra deuda en pesos de distinto tipo: te pagan intereses. Se mueve menos que las acciones.", "medio"),
-    "Renta fija dólares: bonos soberanos": ("Bonos del Estado en dólares", "Compra bonos argentinos en dólares. Puede subir o bajar según el riesgo país.", "medio"),
+    "Renta fija dólares: bonos soberanos": ("Bonos del Estado en dólares", "Invierte en bonos argentinos en dólares. Su precio acompaña al riesgo país.", "medio"),
     "Renta fija dólares: empresas (ON)": ("Deuda de empresas en dólares", "Les presta dólares a empresas a cambio de intereses.", "medio"),
     "Renta fija dólares: mixta": ("Renta fija en dólares", "Compra deuda en dólares de distinto tipo.", "medio"),
-    "Acciones argentinas": ("Acciones argentinas", "Compra partes de empresas argentinas. Gana o pierde según la bolsa: es para varios años.", "alto"),
-    "Acciones del exterior": ("Acciones del exterior", "Compra acciones de afuera (CEDEAR o ETF). Gana o pierde según la bolsa y el dólar.", "alto"),
-    "Renta mixta": ("Renta mixta", "Combina bonos y acciones. Se mueve más que la renta fija y menos que las acciones.", "medio"),
+    "Acciones argentinas": ("Acciones argentinas", "Invierte en acciones de empresas argentinas, pensado para hacer crecer tu capital en varios años.", "alto"),
+    "Acciones del exterior": ("Acciones del exterior", "Invierte en empresas de todo el mundo, a través de CEDEAR o ETF.", "alto"),
+    "Renta mixta": ("Renta mixta", "Combina bonos y acciones para diversificar en un solo fondo.", "medio"),
     # Fondos sin cartera en la CNV: se clasifican por su categoría CAFCI (ver CATEGORIA_CAFCI)
     "PyMEs": ("Deuda de PyMEs", "Les presta a pequeñas y medianas empresas, sobre todo con cheques y pagarés. Por ley, la mayor parte tiene que ir a PyMEs.", "medio"),
-    "Retorno total": ("Retorno total (el administrador elige)", "El administrador puede comprar de todo (bonos, acciones y más) buscando rendir lo máximo. Es más difícil saber qué tenés.", "alto"),
+    "Retorno total": ("Retorno total (el administrador elige)", "El administrador puede comprar de todo (bonos, acciones y más) buscando el mejor rendimiento.", "alto"),
     "Infraestructura": ("Infraestructura", "Financia obras y proyectos, como energía, rutas o viviendas. Es para varios años.", "medio"),
     "ASG": ("Sustentable (ASG)", "Invierte en empresas y proyectos que cumplen reglas ambientales, sociales y de buen gobierno.", "medio"),
     "Régimen especial": ("Fondo de régimen especial", "Fondo armado bajo una norma especial de la CNV, con reglas propias sobre en qué puede invertir.", "medio"),
-    "Fondo cerrado": ("Fondo cerrado", "No podés entrar ni sacar la plata cuando quieras: se compra y vende en la bolsa, o se cobra cuando el fondo termina. No es para empezar.", "alto"),
+    "Fondo cerrado": ("Fondo cerrado", "No podés entrar ni sacar la plata cuando quieras: se opera en la bolsa o se cobra cuando el fondo termina.", "alto"),
     "En liquidación": ("Fondo en liquidación", "El fondo está cerrando y devolviendo la plata a quienes ya estaban. Ya no se puede invertir.", "medio"),
     "En trámite": ("Fondo en trámite", "Todavía no empezó a funcionar.", "medio"),
 }
@@ -227,7 +227,7 @@ def frase(tipo: str, atado: dict) -> str:
     txt = " y ".join(QUE_ES[g] for g, _ in partes)
     principal = partes[0][1]
     cuanto = "casi todo en" if principal >= 80 else "más que nada en" if principal >= 50 else "sobre todo en"
-    return f"Junta la plata de muchos ahorristas y la invierte {cuanto} {txt}."
+    return f"Invierte {cuanto} {txt}."
 
 
 
@@ -298,17 +298,17 @@ PARA_QUE = {
     "Dólar linked": ("Para cubrirte si pensás que el dólar oficial va a subir, sin comprar dólares.", ["dolar"]),
     "Renta fija pesos: empresas (ON)": ("Para ahorros de 1 año o más en pesos.", ["anio"]),
     "Renta fija pesos: mixta": ("Para ahorros en pesos de varios meses.", ["anio"]),
-    "Renta fija dólares: bonos soberanos": ("Para hacer rendir dólares durante uno o varios años, aceptando subas y bajas.", ["dolar", "largo"]),
+    "Renta fija dólares: bonos soberanos": ("Para hacer rendir tus dólares en uno o varios años.", ["dolar", "largo"]),
     "Renta fija dólares: empresas (ON)": ("Para hacer rendir dólares con deuda de empresas, a más de un año.", ["dolar", "largo"]),
     "Renta fija dólares: mixta": ("Para hacer rendir dólares.", ["dolar"]),
-    "Acciones argentinas": ("Para plata que no vas a tocar en varios años y aguanta caídas fuertes.", ["largo"]),
-    "Acciones del exterior": ("Para plata a varios años, invertida en empresas de afuera.", ["largo", "dolar"]),
+    "Acciones argentinas": ("Para hacer crecer tu capital en varios años.", ["largo"]),
+    "Acciones del exterior": ("Para hacer crecer tu capital en varios años, con empresas de todo el mundo.", ["largo", "dolar"]),
     "Renta mixta": ("Para plata a mediano o largo plazo, con algo de bonos y algo de acciones.", ["largo"]),
     "PyMEs": ("Para ahorros en pesos de varios meses, prestándoles a empresas chicas y medianas.", ["anio"]),
     "Retorno total": ("Para plata a varios años, si aceptás que el administrador decida en qué invertir.", ["largo"]),
     "Infraestructura": ("Para plata que no vas a tocar en varios años.", ["largo"]),
     "ASG": ("Para ahorros de varios meses o más, con criterios sustentables.", ["anio"]),
-    "Fondo cerrado": ("No es para empezar: no podés sacar la plata cuando quieras.", []),
+    "Fondo cerrado": ("Para horizontes largos: no se rescata en cualquier momento.", []),
     "En liquidación": ("Ya no recibe inversiones: está devolviendo la plata.", []),
     "En trámite": ("Todavía no recibe inversiones.", []),
     "Régimen especial": ("Tiene reglas propias: antes de invertir, preguntá en tu banco o broker para qué sirve.", []),
