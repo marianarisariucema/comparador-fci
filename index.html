@@ -77,6 +77,14 @@ p{margin:0}
 .contexto{background:var(--sunk);border-radius:10px;padding:10px 12px}
 .alerta{border-radius:10px;padding:10px 12px;background:color-mix(in srgb,var(--warn) 14%,transparent);font-size:.93rem}
 .alerta::before{content:"⚠ ";color:var(--warn)}
+.test{padding:16px 18px;display:grid;gap:12px}
+.test-cab{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.test-q{margin:0;font-weight:600;font-size:1.02rem}
+.cajones{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,130px),1fr));gap:8px}
+.cajon{font:inherit;font-size:.95rem;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:14px;cursor:pointer;box-shadow:var(--shadow)}
+.cajon:hover{border-color:var(--accent);background:var(--brand-soft)}
+.carpeta .cuenta{color:var(--accent);font-weight:600;margin-top:4px}
+.plegado{padding:12px 16px}.plegado summary{cursor:pointer;font-weight:600;font-size:.92rem}
 .objetivos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,135px),1fr));gap:10px}
 .obj{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 14px;text-align:left;cursor:pointer;display:grid;gap:2px;box-shadow:var(--shadow)}
 .obj b{font-size:.95rem}
@@ -253,7 +261,7 @@ const OBJ=[['todos','Ver todos','Los fondos de todos los tipos'],['pronto','La v
 const RIESGO_TXT=['','Muy bajo: casi no se mueve','Bajo: se mueve poco','Medio: puede bajar algunas semanas','Alto: puede bajar bastante algunos meses','Muy alto: puede caer fuerte y tardar en recuperarse'];
 const medidor=(n,grande)=>n?`<span class="riesgo rv${n}${grande?' grande':''}" role="img" aria-label="Riesgo ${n} de 5">${[1,2,3,4,5].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')}</span>`:'';
 
-let RES=null, FERIADOS=new Set(), CAT=null, REF=null, objetivo='todos', texto='', orden='patrimonio', mostrar=30, periodo='1a', monto=100000, tope=0, perfil=null;
+let RES=null, FERIADOS=new Set(), CAT=null, REF=null, texto='', orden='patrimonio', mostrar=30, periodo='1a', monto=100000;
 async function cargar(){
   const [c,r,fe,rs]=await Promise.all([fetch(BASE+'catalogo.json').then(x=>x.json()),fetch(BASE+'referencias.json').then(x=>x.json()),
     fetch(BASE+'feriados.json').then(x=>x.ok?x.json():null).catch(()=>null),fetch(BASE+'resumen.json').then(x=>x.ok?x.json():null).catch(()=>null)]);
@@ -301,90 +309,117 @@ async function comparar(){
   $('#volver').onclick=()=>{location.hash=''};
   $$('[data-q]').forEach(b=>b.onclick=()=>{toggleCmp(b.dataset.q);comparar()});
 }
+/* ---------- Carpetas: los mismos fondos agrupados por tipo, por riesgo o por plazo ---------- */
+const grupoTipo=f=>{const t=(f.tipo||'')+' '+(f.subtipo||'');
+  if(/money market|corto plazo/i.test(t))return 'mm';
+  if(/CER|inflaci/i.test(t))return 'cer';
+  if(/acciones|renta variable/i.test(t))return 'acciones';
+  if(f.moneda==='USD'||/d[oó]lar/i.test(t))return 'dolar';
+  if(/renta fija|deuda|pymes|tasa|ASG/i.test(t))return 'pesos';
+  return 'mixtos'};
+const plazoDe=f=>{const g=grupoTipo(f),t=f.tipo||'';
+  if(g==='mm')return 'corto';
+  if(g==='acciones'||/mixta|retorno total|infraestructura|bonos del estado en d|empresas en d/i.test(t)||(f.riesgo_nivel||0)>=4)return 'largo';
+  return 'mediano'};
+const CARPETAS={
+  tipo:{nombre:'Por tipo',de:grupoTipo,items:[
+    ['mm','Money market','Para tener la plata a mano. Casi no baja.'],
+    ['pesos','Bonos en pesos','Préstamos al Estado o a empresas, en pesos.'],
+    ['cer','Atados a la inflación','Bonos que ajustan por la suba de precios.'],
+    ['dolar','En dólares o atados al dólar','Para pensar en dólares.'],
+    ['acciones','Acciones','Partes de empresas. Suben y bajan mucho.'],
+    ['mixtos','Mixtos y otros','Un poco de todo.']]},
+  riesgo:{nombre:'Por riesgo',de:f=>String(f.riesgo_nivel||''),items:[1,2,3,4,5].map(n=>[String(n),RIESGO_TXT[n].split(':')[0]+' ('+n+' de 5)',RIESGO_TXT[n].split(': ')[1].replace(/^./,m=>m.toUpperCase())+'.'])},
+  plazo:{nombre:'Por plazo',de:plazoDe,items:[
+    ['corto','Corto plazo','Plata que vas a usar en semanas o pocos meses.'],
+    ['mediano','Mediano plazo','De unos meses a 2 años.'],
+    ['largo','Largo plazo','Más de 2 años. Aguanta subas y bajas.']]},
+};
+let vista='tipo', carpeta=null, perfilF=null;
 function filtrados(){
   const t=norm(texto);
-  let l=CAT.fondos.filter(f=>(objetivo==='todos'||(f.objetivos||[]).includes(objetivo))&&(t?norm(f.nombre+' '+f.gerente+' '+f.tipo).includes(t):disponible(f))
-    &&(!tope||(f.riesgo_nivel&&f.riesgo_nivel<=tope)));
+  let l;
+  if(t)l=CAT.fondos.filter(f=>norm(f.nombre+' '+f.gerente+' '+f.tipo).includes(t));
+  else if(perfilF)l=CAT.fondos.filter(f=>disponible(f)&&f.riesgo_nivel&&f.riesgo_nivel<=perfilF.tope&&perfilF.plazos.includes(plazoDe(f))
+    &&(perfilF.moneda==='dolares'?grupoTipo(f)==='dolar':f.moneda!=='USD'));
+  else l=CAT.fondos.filter(f=>disponible(f)&&(!carpeta||CARPETAS[vista].de(f)===carpeta));
   if(orden==='rend')l=[...l].sort((a,b)=>(b.rend_1a??-1e9)-(a.rend_1a??-1e9));
   if(orden==='riesgo')l=[...l].sort((a,b)=>(a.riesgo_nivel??9)-(b.riesgo_nivel??9)||b.patrimonio-a.patrimonio);
   return l;
 }
-/* ---------- Test de 4 preguntas: lleva a un tipo de fondo y a un tope de riesgo ---------- */
+/* ---------- Perfil del inversor: 4 preguntas, de a una, tocando un cajón ---------- */
 const PREG=[
- ['colchon','¿Tenés guardada plata para imprevistos, unos 3 meses de tus gastos?',[['si','Sí, ya la tengo aparte'],['no','No, o no sé']]],
- ['cuando','¿Cuándo vas a necesitar esta plata?',[['ya','En cualquier momento, o en pocas semanas'],['meses','En menos de un año'],['anios','En 1 a 3 años'],['largo','En más de 3 años']]],
- ['baja','Imaginá que un mes ves que tu plata bajó un 10%. ¿Qué hacés?',[['saco','La saco enseguida: no lo soporto'],['espero','Me preocupo, pero espero a ver qué pasa'],['tranqui','Espero tranquilo: sé que puede pasar y que después suele recuperarse']]],
+ ['colchon','¿Tenés plata guardada para imprevistos?',[['si','Sí'],['no','No, o no sé']]],
+ ['cuando','¿Cuándo vas a necesitar esta plata?',[['ya','En semanas'],['meses','En menos de un año'],['anios','En 1 a 3 años'],['largo','En más de 3 años']]],
+ ['baja','Si un mes ves que bajó un 10%, ¿qué hacés?',[['saco','La saco'],['espero','Me preocupo y espero'],['tranqui','Espero tranquilo']]],
  ['moneda','¿Pensás tus ahorros en pesos o en dólares?',[['pesos','En pesos'],['dolares','En dólares']]],
 ];
-const NOMBRE_OBJ=Object.fromEntries(OBJ.map(o=>[o[0],o[1].toLowerCase()]));
 function resultadoTest(r){
-  if(r.colchon==='no'||r.cuando==='ya')return {obj:'pronto',tope:1,titulo:'Empezá por tu colchón',
-    txt:`Antes de buscar que rinda más, armá tu ${T('emergencia','fondo de emergencia')}. Para eso se usan los fondos money market: casi no bajan, rinden algo todos los días y te devuelven la plata en el día. Cuando ya lo tengas, volvé a hacer el test con el resto de tus ahorros.`};
+  if(r.colchon==='no'||r.cuando==='ya')return {nombre:'Muy conservador',tope:1,plazos:['corto'],moneda:r.moneda||'pesos',
+    txt:`Antes que nada, armá tu ${T('emergencia','fondo de emergencia')}: unos meses de gastos en un money market, que casi no baja y se saca en el día.`};
   const aguanta={saco:0,espero:1,tranqui:2}[r.baja], plazo={meses:0,anios:1,largo:2}[r.cuando], n=Math.min(aguanta,plazo);
-  const tope=[2,3,r.baja==='tranqui'&&r.cuando==='largo'?5:4][n];
-  const obj=r.moneda==='dolares'?'dolar':['anio','inflacion','largo'][n];
-  const perfil=['tranquilo (conservador)','intermedio (moderado)','que aguanta subas y bajas (arriesgado)'][n];
-  const por=aguanta<plazo?'Pesa más que no te gustaría ver bajar tu plata.':plazo<aguanta?'Pesa más que vas a necesitar la plata en poco tiempo.':'';
-  return {obj,tope,titulo:'Tu perfil: '+perfil,
-    txt:`${por} Te mostramos fondos para “${NOMBRE_OBJ[obj]}” con riesgo de hasta ${tope} de 5, empezando por los más grandes, que son los más conocidos.`};
+  return Object.assign({moneda:r.moneda},[
+    {nombre:'Conservador',tope:2,plazos:['corto','mediano'],txt:'Preferís que tu plata se mueva poco.'},
+    {nombre:'Moderado',tope:3,plazos:['mediano'],txt:'Aceptás algunas bajas a cambio de rendir más.'},
+    {nombre:'Arriesgado',tope:r.baja==='tranqui'&&r.cuando==='largo'?5:4,plazos:['mediano','largo'],txt:'Podés aguantar subas y bajas porque no vas a necesitar la plata pronto.'},
+  ][n]);
 }
+let RESP={};
 function test(){
-  const box=$('#test');if(!box)return;box.hidden=false;
-  const r={};
-  box.innerHTML=`<h3 style="margin:0">Ayudame a elegir</h3><p class="peq" style="margin:-8px 0 0">4 preguntas rápidas. No guardamos tus respuestas.</p>
-   ${PREG.map(([k,q,ops])=>`<fieldset><legend>${q}</legend>${ops.map(([v,t])=>`<label><input type="radio" name="${k}" value="${v}"><span>${t}</span></label>`).join('')}</fieldset>`).join('')}
-   <div id="res" aria-live="polite"></div>`;
-  box.onchange=e=>{r[e.target.name]=e.target.value;
-    const listo=PREG.every(([k])=>r[k])||r.colchon==='no'||r.cuando==='ya';
-    if(!listo){$('#res').innerHTML='';return}
-    const x=resultadoTest(r);
-    $('#res').innerHTML=`<div class="resultado"><h3>${x.titulo}</h3><p style="margin:0">${x.txt}</p>
-      <button type="button" class="boton" id="verRes">Ver esos fondos</button>
-      <p class="peq" style="margin:0">Es una orientación general según el tipo de fondo, no una recomendación personal. Tu banco o broker te va a pedir su propio test de ${T('perfil','perfil de inversor')}.</p></div>`;
-    $('#verRes').onclick=()=>{objetivo=x.obj;tope=x.tope;perfil=x.titulo;orden='patrimonio';mostrar=30;texto='';listado();$('#lista').scrollIntoView({behavior:'smooth',block:'start'})};
-  };
-  box.scrollIntoView({behavior:'smooth',block:'start'});
+  const box=$('#test');if(!box)return;
+  const paso=PREG.findIndex(([k])=>!RESP[k]), corto=RESP.colchon==='no'||RESP.cuando==='ya';
+  if(paso>=0&&!corto){
+    const [k,q,ops]=PREG[paso];
+    box.innerHTML=`<div class="test-cab"><b>Tu perfil de inversor</b><span class="peq">${paso+1} de ${PREG.length}</span></div>
+      <p class="test-q">${q}</p>
+      <div class="cajones">${ops.map(([v,t])=>`<button type="button" class="cajon" data-r="${v}">${t}</button>`).join('')}</div>
+      ${paso?'<button type="button" class="quitar" id="atras">← Volver</button>':''}`;
+    $$('#test [data-r]').forEach(b=>b.onclick=()=>{RESP[k]=b.dataset.r;test()});
+    if($('#atras'))$('#atras').onclick=()=>{delete RESP[PREG[paso-1][0]];test()};
+    return;
+  }
+  const x=resultadoTest(RESP);
+  box.innerHTML=`<div class="test-cab"><b>Tu perfil: ${esc(x.nombre)}</b><button type="button" class="quitar" id="otraVez">Hacer de nuevo</button></div>
+    <p class="test-q" style="font-weight:400">${x.txt} Te conviene riesgo de hasta ${x.tope} de 5.</p>
+    <button type="button" class="boton" id="verRes">Ver fondos para mi perfil</button>
+    <p class="peq" style="margin:0">Orientación general, no una recomendación personal.</p>`;
+  $('#otraVez').onclick=()=>{RESP={};perfilF=null;listado()};
+  $('#verRes').onclick=()=>{perfilF=x;carpeta=null;texto='';orden='patrimonio';mostrar=30;zona();$('#zona').scrollIntoView({behavior:'smooth',block:'start'})};
 }
 function listado(){
   document.title='Fondos explicados';
-  const inf=REF&&REF.periodos&&REF.periodos['1a']&&REF.periodos['1a'].inflacion;
   $('#app').innerHTML=`
-  <section class="hero">
-    <h1>Entendé en qué se invierte tu plata</h1>
-    <p>Cada fondo explicado en simple: qué hace con tu plata, a qué está atada, cuánto riesgo tiene y cómo le fue comparado con la inflación, el plazo fijo y el dólar.</p>
-  </section>
-  <section class="card empezar" aria-label="Por dónde empezar"><h2>¿Nunca invertiste? Empezá acá</h2>
-    <p style="margin:0;font-size:.93rem">Un ${T('fci','fondo común de inversión')} junta la plata de mucha gente y una ${T('administradora','administradora')} la invierte por todos. Podés entrar con poca plata y sacarla cuando quieras. Tocá cualquier palabra subrayada para ver qué significa.</p>
-    <ol class="pasos">
-      <li><b>Primero, tu colchón.</b>Antes de buscar que rinda, separá unos 3 a 6 meses de gastos para imprevistos. Esa plata va a fondos money market: casi no bajan y la sacás en el día.</li>
-      <li><b>Después, pensá cuándo vas a necesitar el resto.</b>Si la vas a usar en unos meses, elegí fondos de riesgo bajo. Cuanto más tiempo puedas dejarla, más subas y bajas podés aguantar.</li>
-      <li><b>Fijate si le ganó a la inflación.</b>Que un fondo diga “+20%” no quiere decir que ganaste: si los precios subieron más que eso, con tu plata comprás menos que antes.</li>
-      <li><b>Para invertir necesitás una cuenta.</b>${MARCA?`Lo hacés desde tu cuenta en ${esc(MARCA)}.`:`Se abre gratis y online en un ${T('broker','banco o broker (ALyC)')} registrado en la CNV.`} Ahí buscás el fondo, ponés la plata y la pedís de vuelta cuando la necesites.</li>
-    </ol>
-    <button type="button" class="boton" id="abrirTest">Ayudame a elegir (4 preguntas)</button>
-  </section>
-  <section class="card test" id="test" hidden></section>
-  <section class="bloque" aria-label="Elegí según para qué es la plata"><h3>¿Para qué es tu plata?</h3>
-    <div class="objetivos">${OBJ.map(o=>`<button type="button" class="obj" data-o="${o[0]}" aria-pressed="${objetivo===o[0]}"><b>${o[1]}</b><span>${o[2]}</span></button>`).join('')}</div>
-    <p class="peq">Es una guía para orientarte según el tipo de fondo. Información educativa: no es una recomendación de inversión.</p></section>
-  <div class="buscar"><input id="q" type="search" placeholder="Buscá por nombre del fondo o administradora" aria-label="Buscar fondo" value="${esc(texto)}"></div>
-  ${tope?`<div class="filtro"><span class="chip">${esc(perfil||'')}: riesgo hasta ${tope} de 5</span><button type="button" class="quitar" id="quitarTope">Quitar filtro</button></div>`:''}
-  ${inf!=null?`<p class="peq contexto" id="contexto"></p>`:''}
-  <div class="orden"><span class="peq" id="cuantos"></span>
-    <label class="peq">Ordenar por <select id="ord"><option value="patrimonio">Más grandes</option><option value="riesgo">Menos riesgo</option><option value="rend">Más rindieron en 12 meses</option></select></label></div>
-  <p class="peq" id="avisoOrden" hidden>Ojo: lo que más rindió el año pasado suele ser lo que más riesgo tiene, y no asegura que vuelva a rendir lo mismo.</p>
-  <div class="card lista" id="lista"></div>
-  <button class="mas" id="mas" type="button" hidden>Ver más fondos</button>
-  ${movida()}
+  <section class="hero"><h1>Entendé en qué se invierte tu plata</h1>
+    <p>Cada fondo explicado en simple. Tocá cualquier palabra subrayada para ver qué significa.</p></section>
+  <section class="card test" id="test" aria-live="polite"></section>
+  <section class="bloque" id="zona" aria-label="Fondos"></section>
+  ${RES&&RES.grupos?`<details class="card plegado"><summary>Qué hizo la gente con su plata el último mes</summary>${movida()}</details>`:''}
   <footer>Datos de fuentes oficiales: CAFCI, CNV, BCRA, ArgentinaDatos y BYMA. Información con fines educativos: no es una recomendación de inversión. Rendimientos pasados no garantizan rendimientos futuros.</footer>`;
-  $('#ord').value=orden;
-  $('#q').oninput=e=>{texto=e.target.value;mostrar=30;filas()};
-  $('#ord').onchange=e=>{orden=e.target.value;filas()};
-  $$('[data-o]').forEach(b=>b.onclick=()=>{objetivo=b.dataset.o;mostrar=30;$$('[data-o]').forEach(x=>x.setAttribute('aria-pressed',x===b));filas()});
-  $('#mas').onclick=()=>{mostrar+=30;filas()};
-  $('#abrirTest').onclick=test;
-  if($('#quitarTope'))$('#quitarTope').onclick=()=>{tope=0;perfil=null;listado()};
-  filas();
+  test();zona();
+}
+/* La zona de fondos: carpetas, o la lista de una carpeta, del perfil o de la búsqueda */
+function zona(){
+  const z=$('#zona');if(!z)return;
+  const C=CARPETAS[vista], enLista=carpeta||perfilF||texto;
+  const titulo=texto?'Resultados':perfilF?'Fondos para tu perfil: '+esc(perfilF.nombre):carpeta?esc((C.items.find(i=>i[0]===carpeta)||[])[1]||''):'';
+  z.innerHTML=`<div class="buscar"><input id="q" type="search" placeholder="Buscá un fondo por nombre" aria-label="Buscar fondo" value="${esc(texto)}"></div>
+    ${enLista?`<div class="orden"><button type="button" class="volver" id="aCarpetas">← ${perfilF&&!texto?'Ver todas las carpetas':'Volver a las carpetas'}</button></div>
+      <h3 style="margin:0">${titulo}</h3>
+      <div class="orden"><span class="peq" id="cuantos"></span>
+        <label class="peq">Ordenar por <select id="ord"><option value="patrimonio">Más grandes</option><option value="riesgo">Menos riesgo</option><option value="rend">Más rindieron en 12 meses</option></select></label></div>
+      <p class="peq" id="avisoOrden" hidden>Lo que más rindió el año pasado suele ser lo que más riesgo tiene, y no asegura que vuelva a rendir lo mismo.</p>
+      <div class="card lista" id="lista"></div>
+      <button class="mas" id="mas" type="button" hidden>Ver más fondos</button>`
+    :`<div class="tabs" role="group" aria-label="Agrupar fondos">${Object.entries(CARPETAS).map(([k,c])=>`<button type="button" data-v="${k}" aria-pressed="${vista===k}">${c.nombre}</button>`).join('')}</div>
+      <div class="objetivos">${C.items.map(([k,n,d])=>{const c=CAT.fondos.filter(f=>disponible(f)&&C.de(f)===k).length;
+        return c?`<button type="button" class="obj carpeta" data-c="${k}"><b>${n}</b><span>${d}</span><span class="cuenta">${c.toLocaleString('es-AR')} fondos</span></button>`:''}).join('')}</div>`}`;
+  const q=$('#q');q.oninput=e=>{const antes=!!texto;texto=e.target.value;mostrar=30;if(!!texto!==antes){zona();const n=$('#q');n.focus();n.setSelectionRange(n.value.length,n.value.length)}else filas()};
+  $$('[data-v]').forEach(b=>b.onclick=()=>{vista=b.dataset.v;zona()});
+  $$('[data-c]').forEach(b=>b.onclick=()=>{carpeta=b.dataset.c;mostrar=30;zona();z.scrollIntoView({behavior:'smooth',block:'start'})});
+  if($('#aCarpetas'))$('#aCarpetas').onclick=()=>{carpeta=null;perfilF=null;texto='';zona()};
+  if($('#ord')){$('#ord').value=orden;$('#ord').onchange=e=>{orden=e.target.value;filas()}}
+  if($('#mas'))$('#mas').onclick=()=>{mostrar+=30;filas()};
+  if(enLista)filas();
 }
 /* Portada: a dónde llevó la plata la gente en el último mes */
 const FRASE_G={'En dólares o atados al dólar':'fondos en dólares o atados al dólar','Money market y corto plazo':'money market y fondos de corto plazo','Renta fija en pesos':'renta fija en pesos','Acciones':'fondos de acciones','Mixtos y otros':'fondos mixtos y otros'};
@@ -394,7 +429,7 @@ function movida(){
   const g=RES.grupos.filter(x=>x.flujo_30d);if(!g.length)return '';
   const max=Math.max(...g.map(x=>Math.abs(x.flujo_30d)));
   const ent=[...g].sort((a,b)=>b.flujo_30d-a.flujo_30d)[0], sal=[...g].sort((a,b)=>a.flujo_30d-b.flujo_30d)[0];
-  return `<section class="card movida"><h3>Qué hizo la gente con su plata el último mes</h3>
+  return `<section class="movida">
    <p>${ent.flujo_30d>0?`Puso <b class="pos">${plata(ent.flujo_30d)}</b> en ${FRASE_G[ent.grupo]||ent.grupo.toLowerCase()}`:''}${sal.flujo_30d<0?`${ent.flujo_30d>0?' y sacó':'Sacó'} <b class="neg">${plata(-sal.flujo_30d)}</b> de ${FRASE_G[sal.grupo]||sal.grupo.toLowerCase()}`:''}.</p>
    <div class="mv">${g.map(x=>`<div class="mvr"><span>${esc(x.grupo)}</span><span class="mvt"><span class="mvf ${x.flujo_30d<0?'neg':'pos'}" style="width:${Math.abs(x.flujo_30d)/max*50}%;${x.flujo_30d<0?'right:50%':'left:50%'}"></span></span><span class="num ${x.flujo_30d<0?'neg':'pos'}">${x.flujo_30d<0?'−':'+'}$${corto(x.flujo_30d)}</span></div>`).join('')}</div>
    <p class="peq">Plata que entró menos plata que salió, sin contar lo que ganaron o perdieron los fondos. Los fondos en dólares están pasados a pesos al dólar oficial. Es una estimación con los fondos que tienen datos de hace un mes.</p></section>`;
@@ -408,9 +443,6 @@ function veredictoCorto(f){
 function filas(){
   const l=filtrados();
   if($('#avisoOrden'))$('#avisoOrden').hidden=orden!=='rend';
-  const inf=REF&&REF.periodos&&REF.periodos['1a']&&REF.periodos['1a'].inflacion;
-  if($('#contexto'))$('#contexto').innerHTML=`En los últimos 12 meses los precios subieron <b>${nf(inf,1)}%</b>. Un fondo en pesos que rindió menos que eso te dejó con menos poder de compra, aunque el número sea positivo.`
-    +(objetivo==='pronto'?' Los money market casi nunca le ganan a la inflación, y está bien: no son para eso, sino para tener la plata a mano y que rinda algo mientras tanto.':'');
   $('#cuantos').textContent=l.length.toLocaleString('es-AR')+(l.length===1?' fondo':' fondos');
   $('#lista').innerHTML=l.length?l.slice(0,mostrar).map(f=>`<a class="item" href="#${encodeURIComponent(f.id)}">
     <span><span class="n">${esc(f.nombre)}</span><br><span class="g">${esc(gestora(f.gerente))}</span></span>
