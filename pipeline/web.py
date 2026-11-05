@@ -267,6 +267,79 @@ def mensual(s: list[tuple[dt.date, float]]) -> list[list]:
     return [[f.isoformat(), round(v, 4)] for f, v in pts]
 
 
+SIN_PREMIO = {"Money market", "Renta fija corto plazo (T+1)"}
+
+
+def premio_por_riesgo(fondos: list[dict], refs: dict) -> None:
+    """Rendimiento del último año por encima del plazo fijo (en dólares, por encima de 0), dividido
+    por la volatilidad del año: cuánto pagó cada punto de riesgo (índice de Sharpe).
+    Se compara solo entre fondos del mismo subtipo y moneda; no se calcula para money market y
+    corto plazo, que casi no se mueven y el cociente da cualquier cosa."""
+    pf = ((refs.get("periodos") or {}).get("1a") or {}).get("plazo_fijo")
+    grupos = collections.defaultdict(list)
+    for f in fondos:
+        r, vol = (f.get("_r") or {}).get("1a"), f.get("volatilidad_1a")
+        if f.get("subtipo") in SIN_PREMIO or r is None or not vol or vol < 0.5:
+            continue
+        base = 0 if f["moneda"] == "USD" else pf
+        if base is None:
+            continue
+        f["premio_riesgo"] = {"valor": round((r - base) / vol, 2), "contra": "dólar sin interés" if f["moneda"] == "USD" else "plazo fijo"}
+        grupos[(f["subtipo"], f["moneda"])].append(f)
+    for lista in grupos.values():
+        if len(lista) < 5:
+            for f in lista:
+                f["premio_riesgo"]["puesto"] = None
+            continue
+        lista.sort(key=lambda f: -f["premio_riesgo"]["valor"])
+        for i, f in enumerate(lista, 1):
+            f["premio_riesgo"].update(puesto=i, de=len(lista))
+
+
+def por_dia(f: dict):
+    """Money market y corto plazo: cuánto ganan $100.000 (o US$1.000) por día, con el ritmo de la última semana."""
+    r7 = (f.get("_r") or {}).get("7d")
+    if f.get("subtipo") not in SIN_PREMIO or r7 is None or not -1 < r7 < 5:
+        return None
+    monto = 1000 if f["moneda"] == "USD" else 100000
+    diario = (1 + r7 / 100) ** (1 / 7) - 1
+    return {"monto": monto, "gana": round(monto * diario, 2), "tna": round(r7 * 365 / 7, 2)}
+
+
+def nombre_gestora(g: str) -> str:
+    """'Santander Asset Management G.F.C.I.S.A.' -> 'Santander Asset Management'."""
+    n = re.split(r"\s+(?:S\.\s?A\b|S\.A\.|S\.?G\.?F\.?C|G\.?F\.?C|S\.?A\.?U\b|S\.A\.S|Sociedad Gerente)", g or "")[0]
+    n = re.sub(r"[\s.,-]+$", "", n).strip().replace("Managemet", "Management")
+    return n or g
+
+
+def ranking_gestoras(catalogo: list[dict], fondos: list[dict], refs: dict, fecha) -> dict:
+    """Gestoras ordenadas por la plata que manejan (todo en pesos), con su parte del mercado."""
+    dolar = refs.get("dolar_hoy") or 0
+    flujo = {f["id"]: f.get("flujo_30d_total") for f in fondos}
+    g = collections.defaultdict(lambda: {"patrimonio": 0.0, "flujo_30d": 0.0, "fondos": [], "por_tipo": collections.Counter()})
+    for f in catalogo:
+        k = dolar if f["moneda"] == "USD" else 1
+        x = g[f["gerente"]]
+        x["patrimonio"] += (f["patrimonio"] or 0) * k
+        x["flujo_30d"] += (flujo.get(f["id"]) or 0) * k
+        x["fondos"].append(f)
+        x["por_tipo"][f.get("subtipo") or f.get("tipo")] += (f["patrimonio"] or 0) * k
+    total = sum(x["patrimonio"] for x in g.values()) or 1
+    lista = []
+    for nombre, x in g.items():
+        fs = sorted(x["fondos"], key=lambda f: -(f["patrimonio"] or 0) * (dolar if f["moneda"] == "USD" else 1))
+        lista.append({"gerente": nombre, "nombre": nombre_gestora(nombre), "patrimonio": round(x["patrimonio"], 2),
+                      "market_share_pct": round(100 * x["patrimonio"] / total, 2), "flujo_30d": round(x["flujo_30d"], 2),
+                      "cantidad_fondos": len(fs),
+                      "fuerte_en": [{"tipo": t, "pct": round(100 * v / (x["patrimonio"] or 1), 1)} for t, v in x["por_tipo"].most_common(3) if v > 0],
+                      "principales": [{"id": f["id"], "nombre": f["nombre"]} for f in fs[:5]]})
+    lista.sort(key=lambda x: -x["patrimonio"])
+    for i, x in enumerate(lista, 1):
+        x["puesto"] = i
+    return {"fecha": fecha, "moneda": "ARS", "dolar": dolar, "total": round(total, 2), "gestoras": lista}
+
+
 def riesgo_medido(s: list[tuple[dt.date, float]], hoy: dt.date):
     """Peor caída (desde un máximo) y volatilidad anual del último año, en %."""
     pts = [(f, v) for f, v in s if f >= hoy - dt.timedelta(days=365)]
@@ -395,6 +468,11 @@ def main() -> int:
         f["objetivos"] = (pq[1] if pq else []) + (["dolar"] if f["disponible"] and f["moneda"] == "USD" and (not pq or "dolar" not in pq[1]) else [])
         f["_para_que"] = pq[0] if pq else None
 
+    refs = referencias(hoy)
+    premio_por_riesgo(fondos, refs)
+    for f in fondos:
+        f["por_dia"] = por_dia(f)
+
     # Puesto por tamaño dentro de su categoría CAFCI
     por_cat = collections.defaultdict(list)
     for f in fondos:
@@ -414,9 +492,10 @@ def main() -> int:
         div_f = f.pop("_div")
         serie_f, para_que = f.pop("_serie"), f.pop("_para_que")
         f.pop("_clave")
-        catalogo.append({k: f[k] for k in ("id", "nombre", "gerente", "tipo", "subtipo", "riesgo", "moneda",
+        catalogo.append({**{k: f[k] for k in ("id", "nombre", "gerente", "tipo", "subtipo", "riesgo", "moneda",
                                            "plazo_rescate", "patrimonio", "rend_1a", "rend_anio",
-                                           "riesgo_nivel", "objetivos", "disponible")})
+                                           "riesgo_nivel", "objetivos", "disponible")},
+                        "premio": (f.get("premio_riesgo") or {}).get("valor"), "por_dia": f.get("por_dia")})
         atado = (cart or {}).get("atado") or {}
         escribir(WEB / "fondos" / f"{f['id']}.json", {
             **f, "tipo_explicacion": expl, "para_que": para_que, "evolucion": mensual(serie_f), "frase": frase(f["subtipo"], atado),
@@ -443,7 +522,7 @@ def main() -> int:
         })
 
     escribir(WEB / "catalogo.json", {"fecha": fecha, "cantidad": len(catalogo), "fondos": catalogo})
-    refs = referencias(hoy)
+    escribir(WEB / "gestoras.json", ranking_gestoras(catalogo, fondos, refs, fecha))
     escribir(WEB / "referencias.json", refs)
     tas = leer(DATA / "tasas" / "ultimo.json")
     if tas:
