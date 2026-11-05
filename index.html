@@ -150,6 +150,7 @@ main{padding-bottom:90px}
 .mvt::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--muted);opacity:.5}
 .mvf{position:absolute;top:0;bottom:0;border-radius:6px}
 .mvf.pos{background:var(--good)}.mvf.neg{background:var(--bad)}
+.curva{margin:10px 0 0}.curva svg{width:100%;height:auto;display:block}.curva text{font-size:11px;fill:var(--muted)}.curva .eje{stroke:var(--line)}
 .tasas{margin:0;padding-left:18px;display:grid;gap:6px;font-size:.93rem}
 .aviso{font-size:.76rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 footer{font-size:.76rem;color:var(--muted);text-align:center;max-width:62ch;justify-self:center}
@@ -367,11 +368,32 @@ const FAM_TXT={'Tasa fija':['Las letras a tasa fija','rinden hoy',x=>nf(x,1)+'% 
   'Inflación (CER)':['Lo atado a la inflación','rinde hoy',x=>'la inflación '+(x>=0?'más ':'menos ')+nf(Math.abs(x),1)+'% por año'],
   'Dólar linked':['Lo atado al dólar oficial','rinde hoy',x=>'lo que suba el dólar '+(x>=0?'más ':'menos ')+nf(Math.abs(x),1)+'% por año'],
   'Bonos en dólares':['Los bonos en dólares','rinden hoy',x=>nf(x,1)+'% por año en dólares']};
-function tasasBloque(ts){
+let CURVAS;
+const cargarCurvas=()=>CURVAS!==undefined?Promise.resolve(CURVAS):fetch(BASE+'tasas.json').then(x=>x.ok?x.json():null).catch(()=>null).then(j=>CURVAS=j);
+/* Curva: tasa de cada bono o letra de la familia según cuánto falta para que venza; en color los que tiene el fondo */
+function curvaSvg(fam,suyos){
+  const cv=CURVAS&&CURVAS.curvas&&CURVAS.curvas[fam];const pts=(cv||[]).filter(p=>p.dias>0&&p.tasa!=null);if(pts.length<4)return '';
+  const W=Math.round(Math.max(280,Math.min(600,($('#app').clientWidth||600)-60))),H=170,PL=38,PR=10,PT=10,PB=26;
+  const x1=Math.max(...pts.map(p=>p.dias)),ys=pts.map(p=>p.tasa);let y0=Math.min(0,...ys),y1=Math.max(...ys);const pad=(y1-y0)*.1||1;y1+=pad;if(y0<0)y0-=pad;
+  const X=d=>PL+d/x1*(W-PL-PR),Y=v=>PT+(1-(v-y0)/(y1-y0))*(H-PT-PB);
+  const ty=[0,1,2,3].map(i=>y0+(y1-y0)*i/3),an=x1/365;
+  const tx=(an>3?[1,2,3,5,10].filter(a=>a<an):[.5,1,2,3].filter(a=>a<an)).map(a=>[a*365,a<1?'6 meses':a+(a===1?' año':' años')]);
+  const mio=p=>suyos.has(p.ticker)||suyos.has(p.ticker+'D');
+  return `<figure class="curva"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Tasa de cada ${fam} según el plazo, con los que tiene el fondo resaltados">
+    ${ty.map(v=>`<line class="eje" x1="${PL}" x2="${W-PR}" y1="${Y(v)}" y2="${Y(v)}"/><text x="${PL-6}" y="${Y(v)+4}" text-anchor="end">${nf(v,0)}%</text>`).join('')}
+    ${tx.map(([d,l])=>`<text x="${X(d)}" y="${H-6}" text-anchor="middle">${l}</text>`).join('')}
+    <polyline fill="none" stroke="var(--line)" stroke-width="2" points="${pts.map(p=>X(p.dias).toFixed(1)+','+Y(p.tasa).toFixed(1)).join(' ')}"/>
+    ${pts.map(p=>`<circle cx="${X(p.dias).toFixed(1)}" cy="${Y(p.tasa).toFixed(1)}" r="${mio(p)?6:3.5}" fill="${mio(p)?'var(--accent)':'var(--muted)'}" fill-opacity="${mio(p)?1:.5}"><title>${p.ticker}: ${nf(p.tasa,1)}%</title></circle>`).join('')}
+  </svg><figcaption class="peq">${FAM_TXT[fam][0]}: cada punto es uno que hoy cotiza en la bolsa, más a la derecha vence más lejos. <b style="color:var(--accent)">Los grandes</b> los tiene este fondo.</figcaption></figure>`;
+}
+function tasasBloque(ts,princ){
   if(!ts||!ts.por_familia||!ts.por_familia.length||ts.cobertura_pct<15)return '';
   const md=ts.duracion_modificada;
+  const suyos=new Set((princ||[]).map(a=>a.ticker).filter(Boolean));
+  const fam0=ts.por_familia[0].familia;
   return `<div class="bloque"><h3>${T('tir','Cuánto rinden hoy sus bonos y letras')}</h3>
     <ul class="tasas">${ts.por_familia.map(x=>{const d=FAM_TXT[x.familia];return d?`<li><b>${d[0]}</b> (${nf(x.pct,0)}% del fondo) ${d[1]} <b class="num">${d[2](x.tasa)}</b>.</li>`:''}).join('')}</ul>
+    ${curvaSvg(fam0,suyos)}
     ${md!=null?`<p class="peq">${T('duracion','Duración')}: ${nf(md,2)}. ${md<0.3?'Son inversiones muy cortas: casi no se mueven si cambian las tasas.':`Si las tasas del mercado subieran 1 punto, esta parte del fondo bajaría cerca de ${nf(md,1)}%.`}</p>`:''}
     <p class="peq">Calculado con los precios de cierre de BYMA y la cartera informada a la CNV, para el ${nf(ts.cobertura_pct,0)}% del fondo que tiene bonos y letras con tasa conocida. Es lo que rendirían si se tuvieran hasta el vencimiento, antes de los costos del fondo.</p></div>`;
 }
@@ -384,6 +406,7 @@ async function ficha(id){
   catch(e){$('#app').innerHTML=`${EMBED?'':'<button class="volver" type="button" id="volver">← Todos los fondos</button>'}<p class="vacio">No encontramos ese fondo.</p>`;if($('#volver'))$('#volver').onclick=()=>{location.hash=''};return}
   document.title=f.nombre+' · Fondos explicados';
   const c=f.cartera;
+  if(c&&c.tasas&&c.tasas.cobertura_pct>=15)await cargarCurvas();
   const costo=f.clases.length?Math.min(...f.clases.map(x=>(x.honorarios_gerente||0)+(x.honorarios_depositaria||0))):null;
   const atado=c?Object.entries(c.atado).filter(a=>Math.abs(a[1])>=0.05):[];
   const tot=atado.reduce((s,a)=>s+Math.max(a[1],0),0)||100;
@@ -418,7 +441,7 @@ async function ficha(id){
       <div class="barra" role="img" aria-label="Composición de la cartera">${atado.filter(a=>a[1]>0).map((a,i)=>`<span style="width:${a[1]/tot*100}%;background:${colores[i%8]}"></span>`).join('')}</div>
       <div class="leyenda">${atado.map((a,i)=>`<div><i style="background:${a[1]>0?colores[i%8]:'transparent'}"></i><span>${glos(a[0])}</span><span class="num">${nf(a[1],1)}%</span></div>`).join('')}</div>
       <p class="peq">Según la cartera al ${fecha(c.fecha)} que el fondo informó a la CNV (${c.n_activos} inversiones en total).${c.vencimiento_promedio_anios!=null&&c.vencimiento_cobertura_pct>=30?` Lo que tiene fecha de ${T('vencimiento','vencimiento')} vence en promedio en ${c.vencimiento_promedio_anios<1?nf(c.vencimiento_promedio_anios*12,0)+' meses':nf(c.vencimiento_promedio_anios,1)+' años'}.`:''}</p></div>
-    ${tasasBloque(c.tasas)}
+    ${tasasBloque(c.tasas,c.principales)}
     <div class="grid2">
       <div class="bloque"><h3>Sus inversiones más grandes</h3><table><tbody>${c.principales.slice(0,8).map(t=>`<tr><td>${esc(t.en_palabras||t.activo)}${t.en_palabras&&t.en_palabras!==t.activo?`<br><span class="peq">${esc(t.activo)}</span>`:''}</td><td class="num">${nf(t.pct,1)}%</td></tr>`).join('')}</tbody></table></div>
       <div class="bloque"><h3>${T('flujo','Plata que entró o salió')}</h3>${fl==null?'<p class="peq">Sin dato.</p>':`<p class="dato num ${fl>=0?'pos':'neg'}">${fl>=0?'+':'−'} ${plata(Math.abs(fl),f.moneda)}</p>
