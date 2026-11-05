@@ -1,0 +1,104 @@
+name: Publicar API para clientes
+
+# Sube los datos del día a la API (Cloudflare Workers, plan gratis) apenas termina la actualización nocturna.
+# Mientras no estén cargados los secretos de Cloudflare, solo corre las pruebas y avisa: no falla.
+#
+# Secretos (Settings → Secrets and variables → Actions):
+#   CLOUDFLARE_API_TOKEN   token con permiso "Edit Cloudflare Workers"
+#   CLOUDFLARE_ACCOUNT_ID  id de la cuenta de Cloudflare
+#   FIRMA_SECRETA          texto largo al azar: firma tokens y huellas (no cambiarlo sin motivo)
+# Variable (pestaña Variables): API_URL, ej. https://fondos-api.<tu-subdominio>.workers.dev
+
+on:
+  workflow_run:
+    workflows: ["Datos diarios CAFCI"]
+    types: [completed]
+  push:
+    branches: [main]
+    paths: ["api/**", "embed/**", "pipeline/indice_ids.py", ".github/workflows/api-desplegar.yml"]
+  pull_request:
+    paths: ["api/**", "embed/**", "pipeline/indice_ids.py", ".github/workflows/api-desplegar.yml"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: api-desplegar
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Después de la corrida nocturna hay que tomar el commit con los datos nuevos, no el que la disparó.
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'main' }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: api/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar
+        working-directory: api
+        run: npm ci --no-audit --no-fund
+      - name: Pruebas de la API
+        working-directory: api
+        run: npm test
+      - name: Índice de códigos CAFCI/CNV
+        run: python pipeline/indice_ids.py
+      - name: Armar archivos (componente minificado)
+        working-directory: api
+        run: |
+          npx esbuild ../embed/fondos-fci.js --minify --format=esm --target=es2020 --outfile="$RUNNER_TEMP/fondos-fci.min.js"
+          WIDGET_MIN="$RUNNER_TEMP/fondos-fci.min.js" node preparar.mjs
+      - name: Probar el componente en un navegador (con los datos de hoy)
+        run: |
+          npm i --no-save --prefix "$RUNNER_TEMP/pw" playwright@1.63.0
+          "$RUNNER_TEMP/pw/node_modules/.bin/playwright" install --with-deps chromium
+          NODE_PATH="$RUNNER_TEMP/pw/node_modules" node api/test/navegador.e2e.mjs
+      - name: ¿Hay cuenta de Cloudflare?
+        id: cf
+        env:
+          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::notice::Falta CLOUDFLARE_API_TOKEN: la API no se publica todavía (ver docs/integracion.md)."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Publicar
+        if: steps.cf.outputs.ok == 'true'
+        working-directory: api
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          FIRMA_SECRETA: ${{ secrets.FIRMA_SECRETA }}
+        run: |
+          npx wrangler deploy
+          # El secreto de firma se carga una sola vez (si ya está, no se toca).
+          if [ -n "$FIRMA_SECRETA" ] && ! npx wrangler secret list | grep -q '"FIRMA_SECRETA"'; then
+            printf '%s' "$FIRMA_SECRETA" | npx wrangler secret put FIRMA_SECRETA
+          fi
+      - name: Comprobar que quedó andando y protegida
+        if: steps.cf.outputs.ok == 'true' && vars.API_URL != ''
+        env:
+          API: ${{ vars.API_URL }}
+        run: |
+          sleep 10
+          curl -fsS "$API/v1/salud"
+          echo
+          codigo=$(curl -s -o /dev/null -w '%{http_code}' "$API/v1/catalogo")
+          [ "$codigo" = "401" ] || { echo "::error::/v1/catalogo sin clave devolvió $codigo (tendría que ser 401)"; exit 1; }
+          codigo=$(curl -s -o /dev/null -w '%{http_code}' "$API/datos/catalogo.json")
+          [ "$codigo" = "404" ] || { echo "::error::Los archivos de datos se pueden bajar directo ($codigo)"; exit 1; }
+          echo "API publicada y cerrada sin clave."

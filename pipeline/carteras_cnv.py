@@ -27,7 +27,8 @@ BASE = "https://www.cnv.gov.ar/SitioWeb/FondosComunesInversion"
 URL_LISTADO = f"{BASE}/GetFCIPorTipo"  # POST idTipo=0 abiertos, 1 cerrados
 URL_FICHA = f"{BASE}/DetallesFCI/{{id}}"
 HEADERS = {"User-Agent": "comparador-fci/0.1 (+https://github.com/marianarisariucema/comparador-fci)"}
-PAUSA_SEG = 1.0
+PAUSA_SEG = 1.5
+HILOS = 4
 RAIZ = Path(__file__).resolve().parent.parent
 DATA = RAIZ / "data" / "carteras"
 
@@ -204,19 +205,40 @@ def main() -> int:
     else:
         elegidos = listado
 
-    ok, errores = 0, []
-    for i, f in enumerate(elegidos):
-        try:
-            cartera = parsear_ficha(bajar_ficha(s, f["id"], args.fecha))
-            cartera.update(id_cnv=f["id"], nombre_cnv=f["nombre_cnv"], clave=f["clave"])
-            escribir_json(DATA / "ultima" / f"{f['id']}.json", cartera)
-            if cartera["fecha_cartera"]:
-                escribir_json(DATA / "historico" / cartera["fecha_cartera"] / f"{f['id']}.json", cartera)
-            ok += 1
-        except Exception as e:  # un fondo sin cartera no frena el resto
-            errores.append({"id": f["id"], "nombre": f["nombre_cnv"], "error": str(e)[:200]})
-        if i < len(elegidos) - 1:
-            time.sleep(PAUSA_SEG)
+    # 4 descargas en paralelo, cada una con su pausa: ~4 veces más rápido y sigue siendo
+    # un ritmo moderado para la CNV (unas 4 páginas cada 1,5 segundos).
+    import threading
+    from concurrent.futures import ThreadPoolExecutor
+    local = threading.local()
+
+    def sesion():
+        if not hasattr(local, "s"):
+            local.s = requests.Session()
+            local.s.headers.update(HEADERS)
+        return local.s
+
+    def una(f):
+        for intento in range(3):
+            try:
+                cartera = parsear_ficha(bajar_ficha(sesion(), f["id"], args.fecha))
+                cartera.update(id_cnv=f["id"], nombre_cnv=f["nombre_cnv"], clave=f["clave"])
+                escribir_json(DATA / "ultima" / f"{f['id']}.json", cartera)
+                if cartera["fecha_cartera"]:
+                    escribir_json(DATA / "historico" / cartera["fecha_cartera"] / f"{f['id']}.json", cartera)
+                return None
+            except ValueError as e:  # la ficha no tiene cartera: no tiene sentido reintentar
+                return {"id": f["id"], "nombre": f["nombre_cnv"], "error": str(e)[:200]}
+            except Exception as e:  # corte de red: reintentar
+                err = e
+                time.sleep(3 * (intento + 1))
+            finally:
+                time.sleep(PAUSA_SEG)
+        return {"id": f["id"], "nombre": f["nombre_cnv"], "error": str(err)[:200]}
+
+    with ThreadPoolExecutor(max_workers=HILOS) as ex:
+        resultados = list(ex.map(una, elegidos))
+    errores = [r for r in resultados if r]
+    ok = len(elegidos) - len(errores)
 
     escribir_json(DATA / "errores.json", errores)
     print(f"OK: {ok} carteras, {len(errores)} sin cartera o con error, de {len(elegidos)} fondos.")

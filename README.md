@@ -11,7 +11,7 @@ La información es informativa y no constituye recomendación de inversión.
 `pipeline/actualizar.py` baja todas las noches la planilla diaria pública de CAFCI y el catálogo de fondos, calcula el flujo neto estimado de cada fondo y escribe JSON estáticos en `data/`:
 
 - `data/ultimo.json`: todos los fondos del último día.
-- `data/fichas/<fondo>.json`: un archivo por fondo, para el widget.
+- `data/web/`: catálogo y una ficha por fondo que lee la página.
 - `data/historico/<fecha>.json`: el histórico se arma día a día.
 - `data/estructura_planilla.json`: columnas detectadas, para controlar si CAFCI cambia el formato.
 

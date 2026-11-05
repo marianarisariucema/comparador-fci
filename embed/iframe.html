@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fondos explicados</title>
+<!-- Las completa la API al servir /embed/<cliente> (token corto y atado a este dominio). -->
+<meta name="fci-api" content="">
+<meta name="fci-token" content="">
+<style>
+html,body{margin:0;background:transparent}
+body{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:1px}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script type="module">
+// Versión iframe: para ALyCs que no pueden agregar scripts a su sitio.
+//   <iframe src="https://API/embed/<cliente>?fondo=fima-premium&marca=%231a3d7c" style="width:100%;border:0"></iframe>
+// Parámetros: fondo (sin él muestra el buscador), marca (#color), fuente, radio, tema (claro|oscuro|auto), invertir (texto del botón).
+// Avisa al sitio que lo contiene su alto (fci-alto) y los clics en Invertir (fci-invertir) con postMessage.
+import { configurar } from './fondos-fci.js';
+const Q = new URLSearchParams(location.search);
+const meta = n => document.querySelector(`meta[name="${n}"]`)?.content || '';
+if (meta('fci-api')) {
+  const t = meta('fci-token');
+  configurar({ api: new URL(meta('fci-api'), location.href).href.replace(/\/$/, ''), obtenerToken: () => t });
+} else configurar({ datos: new URL(Q.get('datos') || '../data/web/', location.href).href });
+
+const fondo = (Q.get('fondo') || '').slice(0, 140);
+const el = document.createElement(fondo ? 'fondos-fci-ficha' : 'fondos-fci');
+if (fondo) el.setAttribute('fondo', fondo);
+if (Q.has('invertir')) el.setAttribute('invertir', Q.get('invertir').slice(0, 40));
+if (/^(claro|oscuro|auto)$/.test(Q.get('tema') || '')) el.setAttribute('tema', Q.get('tema'));
+const css = [];
+if (/^#[0-9a-f]{3,8}$/i.test(Q.get('marca') || '')) css.push('--fci-marca:' + Q.get('marca'));
+if (/^[\w\s,"'-]{1,80}$/.test(Q.get('fuente') || '')) css.push('--fci-fuente:' + Q.get('fuente'));
+if (/^\d{1,2}px$/.test(Q.get('radio') || '')) css.push('--fci-radio:' + Q.get('radio'));
+el.setAttribute('style', css.join(';'));
+document.getElementById('app').append(el);
+
+const destino = document.referrer ? new URL(document.referrer).origin : '*';
+const avisar = m => parent !== window && parent.postMessage({ fuente: 'fondos-fci', ...m }, destino);
+new ResizeObserver(() => avisar({ tipo: 'fci-alto', alto: Math.ceil(document.documentElement.scrollHeight) })).observe(document.body);
+['fci-invertir', 'fci-fondo'].forEach(n => document.addEventListener(n, e => avisar({ tipo: n, ...e.detail })));
+</script>
+</body>
+</html>

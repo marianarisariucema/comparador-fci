@@ -265,10 +265,10 @@ def main() -> int:
         "aviso": "Información con fines informativos. No constituye recomendación de inversión.",
     }
     escribir_json(DATA / "ultimo.json", {**resumen, "fondos": fondos})
-    escribir_json(DATA / "historico" / f"{fecha}.json", fondos)
+    # Histórico compacto: {id: [cuotaparte, patrimonio, cuotapartes]} (unos 200 KB por día)
+    escribir_json(DATA / "historico" / f"{fecha}.json",
+                  {f["id"]: [f.get("vcp"), f.get("patrimonio"), f.get("cuotapartes")] for f in fondos if f.get("vcp")})
     escribir_json(DATA / "estructura_planilla.json", info)
-    for f in fondos:
-        escribir_json(DATA / "fichas" / f"{f['id']}.json", {**resumen, "fondo": f})
 
     if not args.sin_catalogo:
         try:

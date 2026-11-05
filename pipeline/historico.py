@@ -30,6 +30,7 @@ AD = DATA / "historico_ad"
 URL = "https://api.argentinadatos.com/v1/finanzas/fci/{cat}/{fecha}"
 CATEGORIAS = ["mercadoDinero", "rentaFija", "rentaVariable", "rentaMixta", "otros"]
 HEADERS = {"User-Agent": "comparador-fci/0.1 (+https://github.com/marianarisariucema/comparador-fci)"}
+LIMITE_SUBA = {"7d": 25, "30d": 50, "90d": 100, "anio": 200, "1a": 250, "2a": 600, "5a": 3000}
 PERIODOS = {"7d": 7, "30d": 30, "90d": 90, "1a": 365, "2a": 730, "5a": 1825}
 
 
@@ -148,7 +149,7 @@ def rendimientos() -> int:
     f0 = orden[-1]
     hoy = cargar(fechas[f0])
 
-    tolerancias = {"7d": 3, "30d": 6, "90d": 15, "1a": 15, "2a": 31, "5a": 45, "anio": 10}
+    tolerancias = {"7d": 3, "30d": 6, "90d": 20, "1a": 15, "2a": 31, "5a": 45, "anio": 10}
     objetivos = {k: f0 - dt.timedelta(days=d) for k, d in PERIODOS.items()}
     objetivos["anio"] = dt.date(f0.year - 1, 12, 31)
     cache: dict[dt.date, dict] = {}
@@ -169,7 +170,13 @@ def rendimientos() -> int:
             for f in fs:
                 vb, pb = vcps(f).get(fid, (None, None))
                 if vb:
-                    r[k] = round((v0 / vb - 1) * 100, 3)
+                    cambio = (v0 / vb - 1) * 100
+                    # Saltos imposibles (cambio de unidad de la cuotaparte, fondo en liquidación):
+                    # mejor no mostrar nada que mostrar un rendimiento falso
+                    if cambio > LIMITE_SUBA.get(k, 300) or cambio < -90:
+                        r.setdefault("dudoso", []).append(k)
+                        break
+                    r[k] = round(cambio, 3)
                     # Plata que entró (+) o salió (-) en el período: lo que creció el patrimonio
                     # por encima de lo que explica el rendimiento
                     if k in ("7d", "30d") and p0 and pb:

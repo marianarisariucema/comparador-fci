@@ -4,221 +4,481 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Fondos explicados</title>
+<meta name="description" content="Fondos comunes de inversión explicados en simple: qué son, en qué invierten, a qué está atada tu plata y cómo les fue.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Módulo marca blanca: lista de fondos + ficha didáctica. Marca y color se cambian por URL:
-   ?marca=Mi%20Broker&color=%230f6b5c  ·  ficha sola para embeber: ?fondo=fima-premium&embed=1 */
+/* Módulo marca blanca: lista de fondos + ficha didáctica.
+   Marca y color por URL: ?marca=Mi%20Broker&color=%230f6b5c
+   Ficha sola para embeber en otra web: ?fondo=fima-premium&embed=1
+   Solo los fondos que ofrece la plataforma: ?fondos=fima-premium,adcap-acciones  o  ?gestora=galicia */
 :root{
-  --bg:#f3f5f4; --surface:#fff; --ink:#15201c; --muted:#5b6964; --line:#dde3e0;
-  --brand:#0f6b5c; --brand-soft:#e3f1ed; --good:#1d7a45; --bad:#b4372b; --warn:#a36a00;
+  --bg:#f4f6f5; --surface:#fff; --sunk:#eef2f0; --ink:#15201c; --muted:#5b6964; --line:#dde3e0;
+  --brand:#0f6b5c; --accent:var(--brand); --brand-ink:#fff; --brand-soft:#e3f1ed; --good:#1d7a45; --bad:#b4372b; --warn:#a36a00;
   --c2:#3f8fd1; --c3:#d39a2b; --c4:#8a5cc2; --c5:#c4553d; --c6:#7a8a84; --c7:#2f9e8f; --c8:#b07aa1;
   --sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --radius:16px; --shadow:0 1px 2px rgba(20,32,28,.04),0 4px 16px rgba(20,32,28,.05);
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0f1513; --surface:#17201d; --ink:#e7eeeb; --muted:#9aaba5; --line:#2a3632;
-  --brand-soft:#173430; --good:#5cc98a; --bad:#ef7d70; --warn:#e3b04f;
+  --bg:#0f1513; --surface:#17201d; --sunk:#121a17; --accent:#4cc2a8; --ink:#e7eeeb; --muted:#9aaba5; --line:#2a3632;
+  --brand-soft:#173430; --good:#5cc98a; --bad:#ef7d70; --warn:#e3b04f; --shadow:none;
   --c2:#6fb2ec; --c3:#e3b04f; --c4:#b18ae6; --c5:#ef7d70; --c6:#93a39d; --c7:#5fc7b8; --c8:#d39ac4; color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0f1513; --surface:#17201d; --ink:#e7eeeb; --muted:#9aaba5; --line:#2a3632;
-  --brand-soft:#173430; --good:#5cc98a; --bad:#ef7d70; --warn:#e3b04f;
+  --bg:#0f1513; --surface:#17201d; --sunk:#121a17; --accent:#4cc2a8; --ink:#e7eeeb; --muted:#9aaba5; --line:#2a3632;
+  --brand-soft:#173430; --good:#5cc98a; --bad:#ef7d70; --warn:#e3b04f; --shadow:none;
   --c2:#6fb2ec; --c3:#e3b04f; --c4:#b18ae6; --c5:#ef7d70; --c6:#93a39d; --c7:#5fc7b8; --c8:#d39ac4; color-scheme:dark}
 *{box-sizing:border-box}
 html,body{margin:0}
-body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5}
-.top{background:var(--brand);color:#fff;padding:14px max(16px,env(safe-area-inset-left));display:flex;align-items:center;justify-content:space-between;gap:12px}
-.top b{font-weight:700;letter-spacing:.02em;font-size:1.05rem}
-.top small{opacity:.85}
-main{max-width:900px;margin:0 auto;padding:20px max(16px,env(safe-area-inset-left)) 48px;display:grid;gap:18px}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.top{background:var(--brand);color:var(--brand-ink);padding:14px max(16px,env(safe-area-inset-left))}
+.top-in{max-width:920px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.top b{font-weight:700;letter-spacing:.01em;font-size:1.05rem}
+.top small{opacity:.85;font-size:.8rem}
+main{max-width:920px;margin:0 auto;padding:22px max(16px,env(safe-area-inset-left)) 56px;display:grid;gap:20px}
 h1,h2,h3{margin:0;line-height:1.2;text-wrap:balance}
-h1{font-size:1.5rem}h2{font-size:1.35rem}
-h3{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+h1{font-size:clamp(1.5rem,4.5vw,2rem);letter-spacing:-.01em}
+h2{font-size:clamp(1.3rem,4vw,1.6rem);letter-spacing:-.01em}
+h3{font-size:.76rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
 p{margin:0}
 .num{font-family:var(--mono);font-variant-numeric:tabular-nums}
-.peq{color:var(--muted);font-size:.86rem}
-.buscar{display:grid;gap:10px}
-.buscar input{font:inherit;width:100%;padding:11px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
-.buscar input:focus{outline:2px solid var(--brand);outline-offset:1px}
-.filtros{display:flex;gap:6px;flex-wrap:wrap}
-.filtros button,.tabs button,.mas{font:inherit;font-size:.82rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:4px 12px;cursor:pointer}
-.filtros button[aria-pressed="true"],.tabs button[aria-pressed="true"]{border-color:var(--brand);color:var(--brand);font-weight:600;background:var(--brand-soft)}
+.peq{color:var(--muted);font-size:.87rem}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+/* glosario */
+.t{background:none;border:0;padding:0;cursor:help;text-align:left;text-decoration:underline dotted;text-decoration-color:var(--muted);text-underline-offset:3px;font-weight:inherit}
+.t:hover{color:var(--accent)}
+#glosa{position:fixed;inset:auto 12px 12px 12px;max-width:460px;margin:0 auto;z-index:20;padding:16px 18px;display:none;gap:6px}
+#glosa.abierto{display:grid}
+#glosa b{font-size:1rem}
+#glosa .cerrar{position:absolute;top:8px;right:10px;background:none;border:0;font-size:1.3rem;cursor:pointer;color:var(--muted);line-height:1}
+/* portada */
+.hero{display:grid;gap:12px}
+.hero p{max-width:62ch;color:var(--muted)}
+.queesfci{padding:16px 18px;display:grid;gap:6px;background:var(--brand-soft);border-color:transparent}
+.queesfci p{color:var(--ink);font-size:.93rem}
+.objetivos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,135px),1fr));gap:10px}
+.obj{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 14px;text-align:left;cursor:pointer;display:grid;gap:2px;box-shadow:var(--shadow)}
+.obj b{font-size:.95rem}
+.obj span{color:var(--muted);font-size:.8rem;line-height:1.35}
+.obj[aria-pressed="true"]{border-color:var(--accent);background:var(--brand-soft)}
+.obj[aria-pressed="true"] b{color:var(--accent)}
+.buscar input{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);font-size:1rem}
 .orden{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
-.orden select{font:inherit;font-size:.85rem;padding:4px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
-.lista{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
-.item{display:grid;grid-template-columns:1fr auto;gap:4px 14px;padding:12px 16px;border-bottom:1px solid var(--line);text-decoration:none;color:inherit}
+.orden select{font:inherit;font-size:.85rem;padding:5px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.lista{overflow:hidden}
+.item{display:grid;grid-template-columns:1fr auto;gap:6px 14px;padding:14px 16px;border-bottom:1px solid var(--line);text-decoration:none;color:inherit}
 .item:last-child{border-bottom:0}
-.item:hover{background:var(--brand-soft)}
-.item:focus-visible{outline:2px solid var(--brand);outline-offset:-2px}
-.item .n{font-weight:600}
+.item:hover{background:var(--sunk)}
+.item .n{font-weight:600;font-size:1rem}
 .item .g{color:var(--muted);font-size:.82rem}
-.item .r{text-align:right;grid-row:span 2;align-self:center}
-.item .r .num{font-weight:600}
-.chips{display:flex;gap:6px;flex-wrap:wrap;grid-column:1}
-.chip{font-size:.72rem;padding:1px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
-.chip.r-bajo{color:var(--good);border-color:currentColor}.chip.r-medio{color:var(--warn);border-color:currentColor}.chip.r-alto{color:var(--bad);border-color:currentColor}
-.mas{justify-self:center}
-.volver{font:inherit;background:none;border:0;color:var(--brand);cursor:pointer;padding:0;font-weight:600;justify-self:start}
-.ficha{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px 18px;display:grid;gap:26px}
-.cab{display:grid;gap:6px}
-.frase{font-size:1.1rem;line-height:1.45;max-width:62ch}
-.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:22px}
+.item .r{text-align:right;grid-row:span 2;align-self:center;white-space:nowrap}
+.item .r .num{font-weight:600;font-size:1.02rem}
+.chips{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.chip{font-size:.72rem;padding:2px 8px;border-radius:999px;background:var(--sunk);color:var(--muted);white-space:nowrap}
+.mas{justify-self:center;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 18px;cursor:pointer}
+.vacio{padding:24px 16px;color:var(--muted)}
+/* medidor de riesgo */
+.riesgo{display:inline-flex;gap:3px;align-items:center}
+.riesgo i{width:7px;height:7px;border-radius:2px;background:var(--line);display:block}
+.riesgo i.on{background:var(--rc)}
+.riesgo.grande i{width:22px;height:8px;border-radius:4px}
+.rv1,.rv2{--rc:var(--good)}.rv3{--rc:var(--warn)}.rv4,.rv5{--rc:var(--bad)}
+/* ficha */
+.volver{background:none;border:0;color:var(--accent);cursor:pointer;padding:0;font-weight:600;justify-self:start}
+.ficha{padding:clamp(18px,4vw,28px);display:grid;gap:30px}
+.cab{display:grid;gap:8px}
+.frase{font-size:1.12rem;line-height:1.5;max-width:60ch}
+.paraque{display:flex;gap:10px;align-items:flex-start;padding:12px 14px;border-radius:12px;background:var(--brand-soft);font-size:.93rem}
+.paraque b{color:var(--accent);white-space:nowrap}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:24px}
 .bloque{display:grid;gap:10px;align-content:start;min-width:0}
-.dato{font-size:1.5rem;font-weight:600}
-.barra{display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--line)}
+.dato{font-size:1.55rem;font-weight:600;line-height:1.15}
+.barra{display:flex;height:16px;border-radius:8px;overflow:hidden;background:var(--line);gap:2px}
 .barra span{display:block;height:100%}
-.leyenda{display:grid;gap:6px;font-size:.88rem}
+.leyenda{display:grid;gap:6px;font-size:.9rem}
 .leyenda div{display:grid;grid-template-columns:12px 1fr auto;gap:8px;align-items:center}
 .leyenda i{width:12px;height:12px;border-radius:3px;display:block}
 table{width:100%;border-collapse:collapse;font-size:.88rem}
-td,th{padding:6px 0;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+td,th{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
 td:last-child,th:last-child{text-align:right;padding-left:12px}
-th{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600}
+th{font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600}
 .scroll{overflow-x:auto}
-.scroll table{min-width:520px}
-.comp{display:grid;gap:8px}
-.comp-row{display:grid;grid-template-columns:minmax(100px,170px) 1fr 70px;gap:10px;align-items:center;font-size:.88rem}
+.scroll table{min-width:340px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tabs button{font-size:.82rem;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 12px;cursor:pointer}
+.tabs button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);font-weight:600;background:var(--brand-soft)}
+.sim{display:grid;gap:14px;padding:18px;border-radius:14px;background:var(--sunk)}
+.sim label{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.93rem}
+.sim input{font:inherit;font-family:var(--mono);width:9.5em;padding:6px 10px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.sim .grande{font-size:clamp(1.6rem,6vw,2.1rem);font-weight:700;line-height:1.1}
+.comp{display:grid;gap:9px}
+.comp-row{display:grid;grid-template-columns:minmax(96px,150px) 1fr 74px;gap:10px;align-items:center;font-size:.88rem}
 .track{height:12px;background:var(--line);border-radius:6px;position:relative;overflow:hidden}
 .fill{position:absolute;top:0;bottom:0;left:0;border-radius:6px;background:var(--c6)}
-.comp-row.fondo .fill{background:var(--brand)}
-.fill.neg{background:var(--bad)}
-.tabs{display:flex;gap:6px;flex-wrap:wrap}
-.flujo.pos{color:var(--good)}.flujo.neg{color:var(--bad)}
-.aviso{font-size:.76rem;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
-.vacio{padding:24px 16px;color:var(--muted)}
-footer{font-size:.76rem;color:var(--muted);text-align:center}
-@media (prefers-reduced-motion:no-preference){.barra span,.fill{transition:width .4s ease}}
+.comp-row.fondo .fill{background:var(--accent)}
+.comp-row .fill.neg{background:var(--bad)}
+.veredicto{font-weight:600}
+.pos{color:var(--good)}.neg{color:var(--bad)}
+.graf svg{width:100%;height:auto;display:block;overflow:visible}
+.graf .eje{stroke:var(--line)}
+.graf text{fill:var(--muted);font-size:11px;font-family:var(--sans)}
+.ley2{display:flex;gap:14px;flex-wrap:wrap;font-size:.82rem;color:var(--muted)}
+.ley2 i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+.senales{list-style:none;margin:0;padding:0;display:flex;gap:8px;flex-wrap:wrap}
+.senales li{font-size:.82rem;padding:6px 10px;border-radius:10px;background:var(--sunk);color:var(--muted)}
+.senales li.aten{background:color-mix(in srgb,var(--warn) 14%,transparent);color:var(--ink)}
+.senales li.aten::before{content:"⚠ ";color:var(--warn)}
+.btncmp{justify-self:start;margin-top:4px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:.84rem;cursor:pointer}
+.btncmp[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--brand-soft)}
+#cmpbar{position:fixed;left:50%;transform:translateX(-50%);bottom:max(14px,env(safe-area-inset-bottom));z-index:15;display:flex;gap:14px;align-items:center;padding:8px 8px 8px 18px;border-radius:999px;background:var(--ink);color:var(--bg);box-shadow:0 6px 24px rgba(0,0,0,.18);font-size:.88rem;white-space:nowrap}
+#cmpbar[hidden]{display:none}
+#cmpbar a{background:var(--brand);color:var(--brand-ink);text-decoration:none;font-weight:600;padding:6px 14px;border-radius:999px}
+.cmp table{min-width:520px}.cmp td,.cmp th{padding:10px 12px;text-align:left!important;vertical-align:top}
+.cmp th a{color:var(--ink);font-size:.95rem;text-transform:none;letter-spacing:0;text-decoration:none;font-weight:700}
+.cmp td:first-child{color:var(--muted);font-size:.84rem;min-width:110px}
+.quitar{background:none;border:0;padding:0;color:var(--muted);font-size:.75rem;text-decoration:underline;cursor:pointer;text-transform:none;letter-spacing:0;font-weight:400}
+.cmp .chip{background:var(--brand-soft);color:var(--accent)}
+main{padding-bottom:90px}
+.movida{padding:18px;display:grid;gap:12px}
+.mv{display:grid;gap:8px}
+.mvr{display:grid;grid-template-columns:minmax(110px,190px) 1fr 104px;gap:10px;align-items:center;font-size:.86rem}
+.mvr .num{text-align:right;white-space:nowrap}
+@media (max-width:520px){.mvr{grid-template-columns:1fr 104px;gap:2px 10px}.mvr>span:first-child{grid-column:1/-1}}
+.mvt{position:relative;height:12px;background:var(--sunk);border-radius:6px}
+.mvt::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--muted);opacity:.5}
+.mvf{position:absolute;top:0;bottom:0;border-radius:6px}
+.mvf.pos{background:var(--good)}.mvf.neg{background:var(--bad)}
+.curva{margin:10px 0 0}.curva svg{width:100%;height:auto;display:block}.curva text{font-size:11px;fill:var(--muted)}.curva .eje{stroke:var(--line)}
+.tasas{margin:0;padding-left:18px;display:grid;gap:6px;font-size:.93rem}
+.aviso{font-size:.76rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer{font-size:.76rem;color:var(--muted);text-align:center;max-width:62ch;justify-self:center}
+@media (prefers-reduced-motion:no-preference){.barra span,.fill{transition:width .5s ease}}
 </style>
 </head>
 <body>
-<header class="top"><b id="marca">Fondos explicados</b><small id="fecha"></small></header>
+<header class="top"><div class="top-in"><b id="marca">Fondos explicados</b><small id="fecha"></small></div></header>
 <main id="app"><p class="peq">Cargando fondos…</p></main>
+<div id="glosa" class="card" role="dialog" aria-live="polite" aria-label="Qué significa"><button class="cerrar" type="button" aria-label="Cerrar">×</button><b></b><p></p></div>
 <script>
-const $=s=>document.querySelector(s);
-const Q=new URLSearchParams(location.search);
-const BASE='data/web/';
+const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+const Q=new URLSearchParams(location.search), EMBED=!!Q.get('embed');
+const BASE=window.FONDOS_DATOS||'data/web/';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const nf=(v,d=1)=>v==null?'s/d':v.toLocaleString('es-AR',{minimumFractionDigits:d,maximumFractionDigits:d});
+const nf=(v,d=1)=>v==null||isNaN(v)?'s/d':v.toLocaleString('es-AR',{minimumFractionDigits:d,maximumFractionDigits:d});
 const pct=(v,d=1)=>v==null?'s/d':(v>0?'+':'')+nf(v,d)+'%';
+const sim=(v,mon)=>(mon==='USD'?'US$ ':'$ ')+Math.round(v).toLocaleString('es-AR');
 const plata=(v,mon)=>{if(v==null)return 's/d';const a=Math.abs(v),s=mon==='USD'?'US$ ':'$ ';
   if(a>=1e12)return s+nf(v/1e12,2)+' billones';if(a>=1e9)return s+nf(v/1e9,1)+' mil millones';if(a>=1e6)return s+nf(v/1e6,1)+' millones';return s+nf(v,0)};
-const plazo=p=>p==null||p===''?'s/d':p==0||p==='0'?'en el día':p==1||p==='1'?'al día siguiente hábil':'en '+p+' días hábiles';
+const plazo=p=>p==null||p===''?'s/d':+p===0?'en el día':+p===1?'al día hábil siguiente':'en '+p+' días hábiles';
 const horiz={Cor:'corto plazo',Med:'mediano plazo',Lar:'largo plazo',Flex:'cualquier plazo'};
-const colores=['var(--brand)','var(--c2)','var(--c3)','var(--c4)','var(--c5)','var(--c7)','var(--c8)','var(--c6)'];
+const colores=['var(--accent)','var(--c2)','var(--c3)','var(--c4)','var(--c5)','var(--c7)','var(--c8)','var(--c6)'];
 const fecha=f=>{if(!f)return '';const [y,m,d]=f.split('-');return d+'/'+m+'/'+y};
-const FILTROS=[['todos','Todos',()=>true],['mm','Money market',f=>/Money market|corto plazo/.test(f.subtipo)],
-  ['cer','Inflación (CER)',f=>/CER/.test(f.subtipo)],['fija','Tasa fija y pesos',f=>/tasa fija|pesos|TAMAR/i.test(f.subtipo)],
-  ['usd','Dólares',f=>f.moneda==='USD'||/dólar/i.test(f.subtipo)],['acc','Acciones',f=>/Acciones/.test(f.subtipo)],
-  ['mixta','Mixtos',f=>/mixta/i.test(f.subtipo)]];
+const MESES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+const mes=f=>{const [y,m]=f.split('-');return MESES[+m-1]+' '+y};
+const norm=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
 
-// Marca blanca por URL
+/* ---------- Glosario: cada término técnico se puede tocar para ver qué significa ---------- */
+const G={
+ fci:['Fondo común de inversión','Mucha gente pone su plata en un mismo pozo y una empresa especializada (la administradora) la invierte por todos. Cada uno puede sacar su parte cuando quiera, según el plazo del fondo.'],
+ administradora:['Administradora','La empresa que decide en qué se invierte la plata del fondo. Cobra un porcentaje por año por hacerlo.'],
+ depositaria:['Custodia (depositaria)','Un banco que guarda la plata y los activos del fondo, separados de los de la administradora. Si la administradora tuviera problemas, la plata sigue siendo de los inversores.'],
+ rescate:['Rescate','Es sacar tu plata del fondo. El plazo de rescate es cuánto tarda en volver a tu cuenta.'],
+ patrimonio:['Patrimonio','La plata total que maneja el fondo, sumando la de todos sus inversores.'],
+ cer:['CER (inflación)','Un índice que sigue a la inflación. Un bono "CER" te devuelve tu plata ajustada por inflación más un interés.'],
+ lecap:['Lecap (tasa fija)','Letras del Tesoro que pagan una tasa fija acordada de antemano. Ganan más si la inflación termina siendo menor a lo esperado.'],
+ tamar:['TAMAR','La tasa que pagan los bancos por plazos fijos grandes. Un bono TAMAR paga intereses que suben o bajan con esa tasa.'],
+ linked:['Dólar linked','Bonos en pesos que ajustan por el dólar oficial. Si el dólar sube, suben. Se compran y cobran en pesos.'],
+ on:['Obligación negociable (ON)','Un préstamo que le hacés a una empresa: te devuelve la plata con intereses en las fechas pactadas.'],
+ caucion:['Caución','Un préstamo de muy corto plazo (de 1 a 7 días) con garantía, que se hace en la bolsa. Es de muy bajo riesgo.'],
+ plazofijo:['Plazo fijo','Un depósito en un banco a un plazo y tasa fijos. Los fondos de mercado de dinero tienen muchos, en varios bancos.'],
+ mm:['Money market (mercado de dinero)','Fondos que invierten en lo más seguro y corto: plazos fijos, cuentas remuneradas y cauciones. La plata se retira en el día.'],
+ riesgo:['Riesgo','Cuánto puede subir y bajar el valor de tu inversión de un día para otro. Más riesgo suele significar más rendimiento posible, pero también más chances de ver pérdidas por un tiempo.'],
+ caida:['Peor caída','En el último año, lo máximo que llegó a estar abajo comparado con su mejor momento anterior. Muestra cuánto te hubiera tocado aguantar en el peor momento.'],
+ costo:['Costo anual','Lo que cobran la administradora y el banco custodio por año, como porcentaje de tu plata. Ya está descontado del rendimiento que ves.'],
+ clase:['Clases','Un mismo fondo puede tener varias "clases" con distintos costos o montos mínimos, por ejemplo una para personas y otra para empresas. Invierten exactamente en lo mismo.'],
+ flujo:['Plata que entró o salió','Lo que la gente puso menos lo que retiró. Si entra mucha plata, más gente confía en el fondo; si sale, la gente está retirándose.'],
+ vencimiento:['Vencimiento','La fecha en que un bono o letra devuelve la plata. Cuanto más lejos, más se mueve su precio si cambian las tasas.'],
+ duracion:['Duración','Mide cuánto se mueve el precio de un bono cuando cambian las tasas. Con duración 0,5, si las tasas suben 1 punto el precio baja cerca de 0,5%. Cuanto más corta, menos se mueve.'],
+ tir:['Tasa a la que rinden','Lo que ganarías por año si comprás hoy ese bono o letra y lo tenés hasta que vence, con los precios de hoy. No incluye los costos del fondo.'],
+ inflacion:['Inflación','Cuánto subieron los precios en general. Si tu plata rinde menos que la inflación, con el tiempo te alcanza para comprar menos cosas.'],
+};
+const T=(k,txt)=>`<button type="button" class="t" data-g="${k}">${txt}</button>`;
+function glosa(k,btn){const g=G[k];if(!g)return;const d=$('#glosa');d.querySelector('b').textContent=g[0];d.querySelector('p').textContent=g[1];d.classList.add('abierto');d._btn=btn;d.querySelector('.cerrar').focus()}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-g]');if(b){glosa(b.dataset.g,b);return}
+  if(!e.target.closest('#glosa'))$('#glosa').classList.remove('abierto')});
+$('#glosa .cerrar').onclick=()=>{const d=$('#glosa');d.classList.remove('abierto');d._btn&&d._btn.focus()};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')$('#glosa').classList.remove('abierto')});
+
+/* ---------- Marca blanca por URL ---------- */
 if(Q.get('marca'))$('#marca').textContent=Q.get('marca');
-if(/^#[0-9a-f]{3,8}$/i.test(Q.get('color')||''))document.documentElement.style.setProperty('--brand',Q.get('color'));
-if(Q.get('embed'))$('.top').hidden=true;
+if(/^#[0-9a-f]{3,8}$/i.test(Q.get('color')||'')){document.documentElement.style.setProperty('--brand',Q.get('color'));document.documentElement.style.setProperty('--accent',Q.get('color'))}
+if(EMBED)$('.top').hidden=true;
 
-let CAT=null, REF=null, filtro='todos', texto='', orden='patrimonio', mostrar=40, periodo='1a';
+const OBJ=[['todos','Ver todos','Los fondos de todos los tipos'],['pronto','La voy a usar pronto','Gastos del mes, emergencias'],
+ ['anio','Ahorro para el año','Plata que no tocás por meses'],['inflacion','Que no le gane la inflación','Bonos que ajustan por precios'],
+ ['dolar','Pensar en dólares','En dólares o atado al dólar'],['largo','Invertir a largo plazo','Varios años, aguanta subas y bajas']];
+const RIESGO_TXT=['','Muy bajo: casi no se mueve','Bajo: se mueve poco','Medio: puede bajar algunas semanas','Alto: puede bajar bastante algunos meses','Muy alto: puede caer fuerte y tardar en recuperarse'];
+const medidor=(n,grande)=>n?`<span class="riesgo rv${n}${grande?' grande':''}" role="img" aria-label="Riesgo ${n} de 5">${[1,2,3,4,5].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')}</span>`:'';
+
+let RES=null, FERIADOS=new Set(), CAT=null, REF=null, objetivo='todos', texto='', orden='patrimonio', mostrar=30, periodo='1a', monto=100000;
 async function cargar(){
-  const [c,r]=await Promise.all([fetch(BASE+'catalogo.json').then(x=>x.json()),fetch(BASE+'referencias.json').then(x=>x.json())]);
-  CAT=c;REF=r;$('#fecha').textContent='Datos al '+fecha(c.fecha);
+  const [c,r,fe,rs]=await Promise.all([fetch(BASE+'catalogo.json').then(x=>x.json()),fetch(BASE+'referencias.json').then(x=>x.json()),
+    fetch(BASE+'feriados.json').then(x=>x.ok?x.json():null).catch(()=>null),fetch(BASE+'resumen.json').then(x=>x.ok?x.json():null).catch(()=>null)]);
+  RES=rs;
+  // Marca blanca: la plataforma puede mostrar solo sus fondos (por id o por administradora)
+  const ids=(Q.get('fondos')||'').split(',').map(s=>s.trim()).filter(Boolean), ges=norm(Q.get('gestora')||'');
+  if(ids.length||ges){const set=new Set(ids);c.fondos=c.fondos.filter(f=>set.has(f.id)||(ges&&norm(f.gerente).includes(ges)));c.cantidad=c.fondos.length}
+  CAT=c;REF=r;FERIADOS=new Set((fe&&fe.feriados)||[]);$('#fecha').textContent='Datos al '+fecha(c.fecha);
   window.addEventListener('hashchange',ruta);ruta();
 }
-function ruta(){
-  const id=Q.get('fondo')||decodeURIComponent(location.hash.slice(1));
-  id?ficha(id):listado();
+function ruta(){const id=Q.get('fondo')||decodeURIComponent(location.hash.slice(1));barra();id==='comparar'?comparar():id?ficha(id):listado()}
+/* ---------- Comparar hasta 3 fondos ---------- */
+let CMP=[];try{CMP=JSON.parse(localStorage.getItem('fci_comparar')||'[]').slice(0,3)}catch(e){}
+const guardarCmp=()=>{try{localStorage.setItem('fci_comparar',JSON.stringify(CMP))}catch(e){}barra()};
+function toggleCmp(id){CMP=CMP.includes(id)?CMP.filter(x=>x!==id):[...CMP,id].slice(-3);guardarCmp()}
+function barra(){
+  let b=$('#cmpbar');if(!b){b=document.createElement('div');b.id='cmpbar';document.body.appendChild(b)}
+  b.hidden=EMBED||!CMP.length||location.hash==='#comparar';
+  b.innerHTML=`<span>${CMP.length} ${CMP.length===1?'fondo elegido':'fondos elegidos'}</span><a href="#comparar">Comparar</a>`;
+  const bt=$('#btncmp');if(bt){const on=CMP.includes(bt.dataset.id);bt.setAttribute('aria-pressed',on);bt.textContent=on?'✓ Elegido para comparar':'＋ Comparar con otros'}
 }
-const norm=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+async function comparar(){
+  document.title='Comparar fondos';
+  const volver=`<button class="volver" type="button" id="volver">← Todos los fondos</button>`;
+  if(!CMP.length){$('#app').innerHTML=volver+`<p class="vacio">Todavía no elegiste fondos. Entrá a la ficha de un fondo y tocá "Comparar con otros".</p>`;$('#volver').onclick=()=>{location.hash=''};return}
+  $('#app').innerHTML='<p class="peq">Cargando…</p>';
+  const fs=(await Promise.all(CMP.map(id=>fetch(BASE+'fondos/'+encodeURIComponent(id)+'.json').then(x=>x.ok?x.json():null).catch(()=>null)))).filter(Boolean);
+  const costo=f=>f.clases.length?Math.min(...f.clases.map(x=>(x.honorarios_gerente||0)+(x.honorarios_depositaria||0))):null;
+  const R=(f,k)=>(f.rendimientos||{})[k];
+  const mejor=(vals,alto=true)=>{const v=vals.filter(x=>x!=null);if(v.length<2)return -1;const m=alto?Math.max(...v):Math.min(...v);return vals.indexOf(m)};
+  const filas=[
+    ['Qué es',fs.map(f=>esc(f.tipo))],
+    [T('riesgo','Riesgo'),fs.map(f=>f.riesgo_nivel?medidor(f.riesgo_nivel)+' '+f.riesgo_nivel+' de 5':'s/d')],
+    ...[['30d','Rindió en 1 mes'],['anio','Rindió en el año'],['1a','Rindió en 12 meses'],['2a','Rindió en 2 años']].map(([k,n])=>{const v=fs.map(f=>R(f,k));const i=mejor(v);return [n,v.map((x,j)=>`<span class="num ${x<0?'neg':''}">${pct(x)}</span>${j===i?' <span class="chip">el que más</span>':''}`)]}),
+    [T('caida','Peor caída en 1 año'),fs.map(f=>f.peor_caida_1a==null?'s/d':`<span class="num">${nf(f.peor_caida_1a,1)}%</span>`)],
+    [T('costo','Costo anual'),(()=>{const v=fs.map(costo);const i=mejor(v,false);return v.map((x,j)=>`<span class="num">${x==null?'s/d':'desde '+nf(x,2)+'%'}</span>${j===i?' <span class="chip">el más barato</span>':''}`)})()],
+    [T('rescate','Te devuelven la plata'),fs.map(f=>plazo(f.plazo_rescate))],
+    ['A qué está atada',fs.map(f=>f.cartera?Object.entries(f.cartera.atado).filter(a=>a[0]!=='Efectivo').slice(0,3).map(a=>esc(a[0])+' '+nf(a[1],0)+'%').join('<br>'):'s/d')],
+    [T('patrimonio','Tamaño'),fs.map(f=>plata(f.patrimonio,f.moneda))],
+  ];
+  $('#app').innerHTML=volver+`<h2>Comparar fondos</h2>
+   <div class="card scroll cmp"><table><thead><tr><th></th>${fs.map(f=>`<th><a href="#${encodeURIComponent(f.id)}">${esc(f.nombre)}</a><br><button type="button" class="quitar" data-q="${esc(f.id)}">Quitar</button></th>`).join('')}</tr></thead>
+   <tbody>${filas.map(r=>`<tr><td>${r[0]}</td>${r[1].map(x=>`<td>${x}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
+   <p class="peq">Rendimientos con costos ya descontados. Comparar fondos de tipos distintos puede confundir: uno de acciones puede rendir más en un año y caer mucho al siguiente. Información educativa: no es una recomendación de inversión.</p>`;
+  $('#volver').onclick=()=>{location.hash=''};
+  $$('[data-q]').forEach(b=>b.onclick=()=>{toggleCmp(b.dataset.q);comparar()});
+}
 function filtrados(){
-  const fn=FILTROS.find(f=>f[0]===filtro)[2], t=norm(texto);
-  let l=CAT.fondos.filter(f=>fn(f)&&(!t||norm(f.nombre+' '+f.gerente).includes(t)));
+  const t=norm(texto);
+  let l=CAT.fondos.filter(f=>(objetivo==='todos'||(f.objetivos||[]).includes(objetivo))&&(!t||norm(f.nombre+' '+f.gerente+' '+f.tipo).includes(t)));
   if(orden==='rend')l=[...l].sort((a,b)=>(b.rend_1a??-1e9)-(a.rend_1a??-1e9));
+  if(orden==='riesgo')l=[...l].sort((a,b)=>(a.riesgo_nivel??9)-(b.riesgo_nivel??9)||b.patrimonio-a.patrimonio);
   return l;
 }
 function listado(){
   document.title='Fondos explicados';
   $('#app').innerHTML=`
-  <section class="buscar">
-    <h1>¿Qué es cada fondo?</h1>
-    <p class="peq">${CAT.cantidad.toLocaleString('es-AR')} fondos comunes de inversión explicados en simple: en qué invierten, a qué está atada tu plata y cómo les fue.</p>
-    <input id="q" type="search" placeholder="Buscá por fondo o administradora" aria-label="Buscar fondo" value="${esc(texto)}">
-    <div class="filtros" role="group" aria-label="Tipo de fondo">${FILTROS.map(f=>`<button type="button" data-f="${f[0]}" aria-pressed="${filtro===f[0]}">${f[1]}</button>`).join('')}</div>
+  <section class="hero">
+    <h1>Entendé en qué se invierte tu plata</h1>
+    <p>Cada fondo explicado en simple: qué hace con tu plata, a qué está atada, cuánto riesgo tiene y cómo le fue comparado con la inflación, el plazo fijo y el dólar.</p>
   </section>
+  <div class="card queesfci"><b>¿Qué es un fondo común de inversión?</b>
+    <p>Mucha gente pone su plata en un mismo pozo y una ${T('administradora','administradora')} la invierte por todos. Podés entrar con poca plata y sacarla cuando quieras: algunos te la devuelven en el día y otros tardan un par de días. Tocá cualquier palabra subrayada para ver qué significa.</p></div>
+  <section class="bloque" aria-label="Elegí según para qué es la plata"><h3>¿Para qué es tu plata?</h3>
+    <div class="objetivos">${OBJ.map(o=>`<button type="button" class="obj" data-o="${o[0]}" aria-pressed="${objetivo===o[0]}"><b>${o[1]}</b><span>${o[2]}</span></button>`).join('')}</div>
+    <p class="peq">Es una guía para orientarte según el tipo de fondo. Información educativa: no es una recomendación de inversión.</p></section>
+  ${movida()}
+  <div class="buscar"><input id="q" type="search" placeholder="Buscá por nombre del fondo o administradora" aria-label="Buscar fondo" value="${esc(texto)}"></div>
   <div class="orden"><span class="peq" id="cuantos"></span>
-    <label class="peq">Ordenar por <select id="ord"><option value="patrimonio">Tamaño</option><option value="rend">Rendimiento 12 meses</option></select></label></div>
-  <div class="lista" id="lista"></div>
+    <label class="peq">Ordenar por <select id="ord"><option value="patrimonio">Más grandes</option><option value="rend">Más rindieron en 12 meses</option><option value="riesgo">Menos riesgo</option></select></label></div>
+  <div class="card lista" id="lista"></div>
   <button class="mas" id="mas" type="button" hidden>Ver más fondos</button>
-  <footer>Fuentes oficiales: CAFCI, CNV, BCRA, ArgentinaDatos y BYMA. Información con fines educativos, no es una recomendación de inversión.</footer>`;
+  <footer>Datos de fuentes oficiales: CAFCI, CNV, BCRA, ArgentinaDatos y BYMA. Información con fines educativos: no es una recomendación de inversión. Rendimientos pasados no garantizan rendimientos futuros.</footer>`;
   $('#ord').value=orden;
-  $('#q').oninput=e=>{texto=e.target.value;mostrar=40;filas()};
+  $('#q').oninput=e=>{texto=e.target.value;mostrar=30;filas()};
   $('#ord').onchange=e=>{orden=e.target.value;filas()};
-  document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{filtro=b.dataset.f;mostrar=40;
-    document.querySelectorAll('[data-f]').forEach(x=>x.setAttribute('aria-pressed',x===b));filas()});
-  $('#mas').onclick=()=>{mostrar+=40;filas()};
+  $$('[data-o]').forEach(b=>b.onclick=()=>{objetivo=b.dataset.o;mostrar=30;$$('[data-o]').forEach(x=>x.setAttribute('aria-pressed',x===b));filas()});
+  $('#mas').onclick=()=>{mostrar+=30;filas()};
   filas();
+}
+/* Portada: a dónde llevó la plata la gente en el último mes */
+const FRASE_G={'En dólares o atados al dólar':'fondos en dólares o atados al dólar','Money market y corto plazo':'money market y fondos de corto plazo','Renta fija en pesos':'renta fija en pesos','Acciones':'fondos de acciones','Mixtos y otros':'fondos mixtos y otros'};
+const corto=v=>{const a=Math.abs(v);return a>=1e12?nf(a/1e12,1)+' billones':a>=1e9?nf(a/1e9,0)+' mil M':nf(a/1e6,0)+' M'};
+function movida(){
+  if(!RES||!RES.grupos||Q.get('fondos')||Q.get('gestora'))return '';
+  const g=RES.grupos.filter(x=>x.flujo_30d);if(!g.length)return '';
+  const max=Math.max(...g.map(x=>Math.abs(x.flujo_30d)));
+  const ent=[...g].sort((a,b)=>b.flujo_30d-a.flujo_30d)[0], sal=[...g].sort((a,b)=>a.flujo_30d-b.flujo_30d)[0];
+  return `<section class="card movida"><h3>Qué hizo la gente con su plata el último mes</h3>
+   <p>${ent.flujo_30d>0?`Puso <b class="pos">${plata(ent.flujo_30d)}</b> en ${FRASE_G[ent.grupo]||ent.grupo.toLowerCase()}`:''}${sal.flujo_30d<0?`${ent.flujo_30d>0?' y sacó':'Sacó'} <b class="neg">${plata(-sal.flujo_30d)}</b> de ${FRASE_G[sal.grupo]||sal.grupo.toLowerCase()}`:''}.</p>
+   <div class="mv">${g.map(x=>`<div class="mvr"><span>${esc(x.grupo)}</span><span class="mvt"><span class="mvf ${x.flujo_30d<0?'neg':'pos'}" style="width:${Math.abs(x.flujo_30d)/max*50}%;${x.flujo_30d<0?'right:50%':'left:50%'}"></span></span><span class="num ${x.flujo_30d<0?'neg':'pos'}">${x.flujo_30d<0?'−':'+'}$${corto(x.flujo_30d)}</span></div>`).join('')}</div>
+   <p class="peq">Plata que entró menos plata que salió, sin contar lo que ganaron o perdieron los fondos. Los fondos en dólares están pasados a pesos al dólar oficial. Es una estimación con los fondos que tienen datos de hace un mes.</p></section>`;
 }
 function filas(){
   const l=filtrados();
-  $('#cuantos').textContent=l.length.toLocaleString('es-AR')+' fondos';
+  $('#cuantos').textContent=l.length.toLocaleString('es-AR')+(l.length===1?' fondo':' fondos');
   $('#lista').innerHTML=l.length?l.slice(0,mostrar).map(f=>`<a class="item" href="#${encodeURIComponent(f.id)}">
     <span><span class="n">${esc(f.nombre)}</span><br><span class="g">${esc(f.gerente||'')}</span></span>
-    <span class="r"><span class="num ${f.rend_1a<0?'flujo neg':''}">${pct(f.rend_1a)}</span><br><span class="g">12 meses</span></span>
-    <span class="chips"><span class="chip">${esc(f.tipo)}</span><span class="chip">${f.moneda==='USD'?'Dólares':'Pesos'}</span><span class="chip">Rescate ${plazo(f.plazo_rescate)}</span>${f.riesgo?`<span class="chip r-${f.riesgo}">Riesgo ${f.riesgo}</span>`:''}</span></a>`).join('')
-    :'<p class="vacio">No encontramos fondos con ese nombre.</p>';
+    <span class="r"><span class="num ${f.rend_1a<0?'neg':''}">${pct(f.rend_1a)}</span><br><span class="g">últimos 12 meses</span></span>
+    <span class="chips">${medidor(f.riesgo_nivel)}<span class="chip">${esc(f.tipo)}</span><span class="chip">${f.moneda==='USD'?'En dólares':'En pesos'}</span><span class="chip">Te la devuelven ${plazo(f.plazo_rescate)}</span></span></a>`).join('')
+    :'<p class="vacio">No encontramos fondos con esa búsqueda.</p>';
   $('#mas').hidden=l.length<=mostrar;
+}
+
+/* ---------- Gráfico: cómo evolucionó una inversión contra inflación y dólar ---------- */
+function grafico(f){
+  const ev=f.evolucion||[];if(ev.length<4)return '';
+  const t0=ev[0][0], base=ev[0][1];
+  const ref=(s)=>{const p=(s||[]).filter(x=>x[0]>=t0.slice(0,7));if(p.length<3)return null;const b=p[0][1];return p.map(x=>[x[0],x[1]/b*100])};
+  const series=[['Este fondo',ev.map(x=>[x[0],x[1]/base*100]),'var(--accent)']];
+  if(f.moneda!=='USD'){const c=ref(REF.serie_cer);if(c)series.push(['Inflación',c,'var(--c3)']);}
+  const d=ref(REF.serie_dolar);if(d&&f.moneda!=='USD')series.push(['Dólar oficial',d,'var(--c2)']);
+  const W=Math.round(Math.max(300,Math.min(640,($('#app').clientWidth||640)-50))),H=Math.round(W*.42)+40,PL=40,PR=10,PT=12,PB=26;
+  const ts=s=>Date.parse(s);const x0=ts(t0),x1=Math.max(...series.flatMap(s=>s[1].map(p=>ts(p[0]))));
+  const ys=series.flatMap(s=>s[1].map(p=>p[1]));let y0=Math.min(...ys),y1=Math.max(...ys);const pad=(y1-y0)*.08||5;y0-=pad;y1+=pad;
+  const X=v=>PL+(ts(v)-x0)/(x1-x0||1)*(W-PL-PR), Y=v=>PT+(1-(v-y0)/(y1-y0))*(H-PT-PB);
+  const ticks=4,ty=[...Array(ticks+1)].map((_,i)=>y0+(y1-y0)*i/ticks);
+  const xl=[ev[0][0],ev[Math.floor(ev.length/2)][0],ev[ev.length-1][0]];
+  const fin=series.map(s=>s[1][s[1].length-1][1]);
+  return `<div class="bloque graf"><h3>Si hubieras puesto $100 al principio</h3>
+   <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Evolución de 100 pesos invertidos en el fondo comparado con inflación y dólar">
+    ${ty.map(v=>`<line class="eje" x1="${PL}" x2="${W-PR}" y1="${Y(v)}" y2="${Y(v)}"/><text x="${PL-6}" y="${Y(v)+4}" text-anchor="end">${Math.round(v)}</text>`).join('')}
+    ${xl.map(v=>`<text x="${X(v)}" y="${H-6}" text-anchor="middle">${mes(v)}</text>`).join('')}
+    ${series.map(s=>`<polyline fill="none" stroke="${s[2]}" stroke-width="${s[0]==='Este fondo'?3:2}" stroke-linejoin="round" stroke-linecap="round" points="${s[1].map(p=>X(p[0]).toFixed(1)+','+Y(p[1]).toFixed(1)).join(' ')}"/>`).join('')}
+   </svg>
+   <div class="ley2">${series.map((s,i)=>`<span><i style="background:${s[2]}"></i>${s[0]}: <b class="num">${nf(fin[i],0)}</b></span>`).join('')}</div>
+   <p class="peq">Desde ${mes(t0)}. Si la línea del fondo termina arriba de la de ${T('inflacion','inflación')}, tu plata ganó poder de compra.</p></div>`;
+}
+
+/* Fecha en que cobrás si pedís el rescate hoy: suma días hábiles salteando fines de semana y feriados */
+const DIAS=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+function cobro(p){
+  const n=+p; if(isNaN(n)||p===''||p==null)return '';
+  const iso=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+  const habil=d=>d.getDay()%6!==0&&!FERIADOS.has(iso(d));
+  const d=new Date();d.setHours(12);
+  if(!habil(d))while(!habil(d))d.setDate(d.getDate()+1);
+  for(let i=0;i<n;){d.setDate(d.getDate()+1);if(habil(d))i++}
+  return n===0?'':`<br><span class="peq">Si la pedís hoy, la cobrás el ${DIAS[d.getDay()]} ${d.getDate()}/${d.getMonth()+1}</span>`;
+}
+/* Cuánto rinden hoy los bonos y letras que tiene el fondo (tasas de la calculadora con precios BYMA) */
+const FAM_TXT={'Tasa fija':['Las letras a tasa fija','rinden hoy',x=>nf(x,1)+'% por año en pesos'],
+  'Inflación (CER)':['Lo atado a la inflación','rinde hoy',x=>'la inflación '+(x>=0?'más ':'menos ')+nf(Math.abs(x),1)+'% por año'],
+  'Dólar linked':['Lo atado al dólar oficial','rinde hoy',x=>'lo que suba el dólar '+(x>=0?'más ':'menos ')+nf(Math.abs(x),1)+'% por año'],
+  'Bonos en dólares':['Los bonos en dólares','rinden hoy',x=>nf(x,1)+'% por año en dólares']};
+let CURVAS;
+const cargarCurvas=()=>CURVAS!==undefined?Promise.resolve(CURVAS):fetch(BASE+'tasas.json').then(x=>x.ok?x.json():null).catch(()=>null).then(j=>CURVAS=j);
+/* Curva: tasa de cada bono o letra de la familia según cuánto falta para que venza; en color los que tiene el fondo */
+function curvaSvg(fam,suyos){
+  const cv=CURVAS&&CURVAS.curvas&&CURVAS.curvas[fam];const pts=(cv||[]).filter(p=>p.dias>0&&p.tasa!=null);if(pts.length<4)return '';
+  const W=Math.round(Math.max(280,Math.min(600,($('#app').clientWidth||600)-60))),H=170,PL=38,PR=10,PT=10,PB=26;
+  const x1=Math.max(...pts.map(p=>p.dias)),ys=pts.map(p=>p.tasa);let y0=Math.min(0,...ys),y1=Math.max(...ys);const pad=(y1-y0)*.1||1;y1+=pad;if(y0<0)y0-=pad;
+  const X=d=>PL+d/x1*(W-PL-PR),Y=v=>PT+(1-(v-y0)/(y1-y0))*(H-PT-PB);
+  const ty=[0,1,2,3].map(i=>y0+(y1-y0)*i/3),an=x1/365;
+  const tx=(an>3?[1,2,3,5,10].filter(a=>a<an):[.5,1,2,3].filter(a=>a<an)).map(a=>[a*365,a<1?'6 meses':a+(a===1?' año':' años')]);
+  const mio=p=>suyos.has(p.ticker)||suyos.has(p.ticker+'D');
+  return `<figure class="curva"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Tasa de cada ${fam} según el plazo, con los que tiene el fondo resaltados">
+    ${ty.map(v=>`<line class="eje" x1="${PL}" x2="${W-PR}" y1="${Y(v)}" y2="${Y(v)}"/><text x="${PL-6}" y="${Y(v)+4}" text-anchor="end">${nf(v,0)}%</text>`).join('')}
+    ${tx.map(([d,l])=>`<text x="${X(d)}" y="${H-6}" text-anchor="middle">${l}</text>`).join('')}
+    <polyline fill="none" stroke="var(--line)" stroke-width="2" points="${pts.map(p=>X(p.dias).toFixed(1)+','+Y(p.tasa).toFixed(1)).join(' ')}"/>
+    ${pts.map(p=>`<circle cx="${X(p.dias).toFixed(1)}" cy="${Y(p.tasa).toFixed(1)}" r="${mio(p)?6:3.5}" fill="${mio(p)?'var(--accent)':'var(--muted)'}" fill-opacity="${mio(p)?1:.5}"><title>${p.ticker}: ${nf(p.tasa,1)}%</title></circle>`).join('')}
+  </svg><figcaption class="peq">${FAM_TXT[fam][0]}: cada punto es uno que hoy cotiza en la bolsa, más a la derecha vence más lejos. <b style="color:var(--accent)">Los grandes</b> los tiene este fondo.</figcaption></figure>`;
+}
+function tasasBloque(ts,princ){
+  if(!ts||!ts.por_familia||!ts.por_familia.length||ts.cobertura_pct<15)return '';
+  const md=ts.duracion_modificada;
+  const suyos=new Set((princ||[]).map(a=>a.ticker).filter(Boolean));
+  const fam0=ts.por_familia[0].familia;
+  return `<div class="bloque"><h3>${T('tir','Cuánto rinden hoy sus bonos y letras')}</h3>
+    <ul class="tasas">${ts.por_familia.map(x=>{const d=FAM_TXT[x.familia];return d?`<li><b>${d[0]}</b> (${nf(x.pct,0)}% del fondo) ${d[1]} <b class="num">${d[2](x.tasa)}</b>.</li>`:''}).join('')}</ul>
+    ${curvaSvg(fam0,suyos)}
+    ${md!=null?`<p class="peq">${T('duracion','Duración')}: ${nf(md,2)}. ${md<0.3?'Son inversiones muy cortas: casi no se mueven si cambian las tasas.':`Si las tasas del mercado subieran 1 punto, esta parte del fondo bajaría cerca de ${nf(md,1)}%.`}</p>`:''}
+    <p class="peq">Calculado con los precios de cierre de BYMA y la cartera informada a la CNV, para el ${nf(ts.cobertura_pct,0)}% del fondo que tiene bonos y letras con tasa conocida. Es lo que rendirían si se tuvieran hasta el vencimiento, antes de los costos del fondo.</p></div>`;
 }
 async function ficha(id){
   $('#app').innerHTML='<p class="peq">Cargando ficha…</p>';
   let f;
-  try{f=await fetch(BASE+'fondos/'+encodeURIComponent(id)+'.json').then(x=>{if(!x.ok)throw 0;return x.json()})}
-  catch(e){$('#app').innerHTML=`${Q.get('embed')?'':'<button class="volver" onclick="location.hash=\'\'">← Todos los fondos</button>'}<p class="vacio">No encontramos ese fondo.</p>`;return}
+  let X=null;
+  try{[f,X]=await Promise.all([fetch(BASE+'fondos/'+encodeURIComponent(id)+'.json').then(x=>{if(!x.ok)throw 0;return x.json()}),
+    fetch(BASE+'experiencia/'+encodeURIComponent(id)+'.json').then(x=>x.ok?x.json():null).catch(()=>null)])}
+  catch(e){$('#app').innerHTML=`${EMBED?'':'<button class="volver" type="button" id="volver">← Todos los fondos</button>'}<p class="vacio">No encontramos ese fondo.</p>`;if($('#volver'))$('#volver').onclick=()=>{location.hash=''};return}
   document.title=f.nombre+' · Fondos explicados';
-  const c=f.cartera, R=f.rendimientos||{};
+  const c=f.cartera;
+  if(c&&c.tasas&&c.tasas.cobertura_pct>=15)await cargarCurvas();
   const costo=f.clases.length?Math.min(...f.clases.map(x=>(x.honorarios_gerente||0)+(x.honorarios_depositaria||0))):null;
-  const atado=c?Object.entries(c.atado):[];
+  const atado=c?Object.entries(c.atado).filter(a=>Math.abs(a[1])>=0.05):[];
   const tot=atado.reduce((s,a)=>s+Math.max(a[1],0),0)||100;
   const fl=f.flujo_30d??f.flujo_dia, flTxt=f.flujo_30d!=null?'el último mes':'el último día hábil';
+  const n=f.riesgo_nivel; X=X||{};
+  const dudosas=new Set((X.dudoso||[]).map(d=>d.clase));
+  const senales=(X.senales||[]).filter(s=>s.texto);
+  const glos=s=>esc(s).replace(/Inflación \(CER\)/,T('cer','Inflación (CER)')).replace(/Tasa fija \(Tesoro\)/,T('lecap','Tasa fija (Tesoro)'))
+    .replace(/^Tasa TAMAR/,T('tamar','Tasa TAMAR')).replace(/^Dólar linked/,T('linked','Dólar linked')).replace(/\(ON\)/,'('+T('on','ON')+')')
+    .replace(/^Cauciones/,T('caucion','Cauciones')).replace(/^Plazo fijo/,T('plazofijo','Plazo fijo'));
   $('#app').innerHTML=`
-  ${Q.get('embed')?'':'<button class="volver" type="button" id="volver">← Todos los fondos</button>'}
-  <article class="ficha">
-    <div class="cab"><h2>${esc(f.nombre)}</h2><p class="peq">${esc(f.gerente||'')} · ${esc(f.categoria||'')}</p></div>
+  ${EMBED?'':'<button class="volver" type="button" id="volver">← Todos los fondos</button>'}
+  <article class="card ficha">
+    <div class="cab"><h2>${esc(f.nombre)}</h2><p class="peq">Lo administra ${esc(f.gerente||'s/d')} · ${f.moneda==='USD'?'En dólares':'En pesos'}</p>
+      ${EMBED?'':`<button type="button" class="btncmp" id="btncmp" data-id="${esc(f.id)}" aria-pressed="false">＋ Comparar con otros</button>`}</div>
     ${f.frase?`<p class="frase">${esc(f.frase)}</p>`:''}
+    ${senales.length?`<ul class="senales">${senales.map(s=>`<li class="${s.nivel==='atencion'?'aten':''}">${esc(s.texto)}</li>`).join('')}</ul>`:''}
+    ${f.para_que?`<div class="paraque"><b>Sirve para</b><span>${esc(f.para_que.replace(/^Para /,'').replace(/^./,m=>m.toLowerCase()))}</span></div>`:''}
     <div class="grid2">
-      <div class="bloque"><h3>Qué tipo de fondo es</h3><p class="dato" style="font-size:1.15rem">${esc(f.tipo)}</p>
+      <div class="bloque"><h3>Qué tipo de fondo es</h3><p class="dato" style="font-size:1.15rem">${/money market/i.test(f.tipo)?T('mm',esc(f.tipo)):esc(f.tipo)}</p>
         <p class="peq">${esc(f.tipo_explicacion||'')} ${f.horizonte&&horiz[f.horizonte]?'Pensado para '+horiz[f.horizonte]+'.':''}</p></div>
-      <div class="bloque"><h3>Cuánto maneja</h3><p class="dato num">${plata(f.patrimonio,f.moneda)}</p>
-        <p class="peq">Es el n.º ${f.puesto} de ${f.en_categoria} fondos de su categoría por tamaño.</p></div>
+      <div class="bloque"><h3>${T('riesgo','Cuánto riesgo tiene')}</h3>${n?`${medidor(n,true)}<p><b>${n} de 5.</b> ${RIESGO_TXT[n]}.</p>`:'<p class="peq">Sin dato.</p>'}
+        ${f.peor_caida_1a!=null?`<p class="peq">${f.peor_caida_1a>-0.5?'En el último año prácticamente no tuvo caídas.':`En su ${T('caida','peor momento')} del último año llegó a estar ${nf(Math.abs(f.peor_caida_1a),1)}% abajo.`}</p>`:''}</div>
     </div>
-    ${c?`<div class="bloque"><h3>A qué está atada tu plata</h3>
-      <div class="barra" role="img" aria-label="Composición de la cartera">${atado.filter(a=>a[1]>0).map((a,i)=>`<span style="width:${a[1]/tot*100}%;background:${colores[i%8]}"></span>`).join('')}</div>
-      <div class="leyenda">${atado.map((a,i)=>`<div><i style="background:${a[1]>0?colores[i%8]:'transparent'}"></i><span>${esc(a[0])}</span><span class="num">${nf(a[1],1)}%</span></div>`).join('')}</div>
-      <p class="peq">Cartera al ${fecha(c.fecha)} publicada por la CNV, con ${c.n_activos} activos.${c.vencimiento_promedio_anios!=null&&c.vencimiento_cobertura_pct>=30?` Lo que tiene fecha de vencimiento (${nf(c.vencimiento_cobertura_pct,0)}% de la cartera) vence en promedio en ${c.vencimiento_promedio_anios<1?nf(c.vencimiento_promedio_anios*12,0)+' meses':nf(c.vencimiento_promedio_anios,1)+' años'}.`:''}</p></div>
-    <div class="grid2">
-      <div class="bloque"><h3>Lo que más tiene</h3><table><tbody>${c.principales.slice(0,8).map(t=>`<tr><td>${esc(t.activo)}</td><td class="num">${nf(t.pct,2)}%</td></tr>`).join('')}</tbody></table></div>
-      <div class="bloque"><h3>Cuánta plata entró o salió</h3>${fl==null?'<p class="peq">Sin dato.</p>':`<p class="dato num flujo ${fl>=0?'pos':'neg'}">${fl>=0?'+':'−'} ${plata(Math.abs(fl),f.moneda)}</p>
-        <p class="peq">En ${flTxt} ${fl>=0?'entró':'salió'} esa plata, sin contar lo que ganó o perdió el fondo. Es la diferencia entre lo que la gente puso y lo que retiró.</p>`}</div>
-    </div>`:`<div class="bloque"><h3>En qué invierte</h3><p class="peq">La CNV todavía no publicó la cartera de este fondo.</p></div>`}
     <div class="bloque"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><h3>Cómo le fue</h3>
       <div class="tabs" role="group" aria-label="Período">${[['30d','1 mes'],['anio','En el año'],['1a','12 meses'],['2a','2 años']].map(p=>`<button type="button" data-p="${p[0]}" aria-pressed="${periodo===p[0]}">${p[1]}</button>`).join('')}</div></div>
-      <div class="comp" id="comp"></div><p class="peq" id="compTxt"></p></div>
-    <div class="bloque"><h3>Datos prácticos</h3><table><tbody>
-      <tr><td>Te devuelven la plata</td><td>${plazo(f.plazo_rescate)}</td></tr>
-      <tr><td>Costo anual de administración</td><td class="num">${costo==null?'s/d':(f.clases.length>1?'desde ':'')+nf(costo,2)+'%'}</td></tr>
-      <tr><td>Quién custodia la plata</td><td>${esc(f.depositaria||'s/d')}</td></tr>
-      <tr><td>Clases disponibles</td><td class="num">${f.clases.length}</td></tr></tbody></table>
-      ${f.clases.length>1?`<div class="scroll"><table><thead><tr><th>Clase</th><th>Costo anual</th><th>Mínimo</th><th>12 meses</th></tr></thead><tbody>${f.clases.map(x=>`<tr><td>${esc(x.nombre.split(' - ').slice(1).join(' - ')||x.nombre)}</td><td class="num">${nf((x.honorarios_gerente||0)+(x.honorarios_depositaria||0),2)}%</td><td class="num">${x.minimo!=null?plata(x.minimo,f.moneda):'s/d'}</td><td class="num">${pct(x.rend_1a)}</td></tr>`).join('')}</tbody></table></div>`:''}</div>
-    <p class="aviso">Fuentes: CAFCI (planilla diaria), CNV (cartera semanal), BCRA (inflación, dólar, plazo fijo), ArgentinaDatos (histórico). Rendimientos de la clase de referencia. "A qué está atada tu plata" se calcula en forma automática con la cartera publicada. Rendimientos pasados no garantizan rendimientos futuros. Información con fines educativos; no es una recomendación de inversión.</p>
+      ${X.movimiento&&X.movimiento.texto?`<p class="peq"><b>Último día:</b> ${esc(X.movimiento.texto)}</p>`:''}
+      <div class="sim" id="sim"></div>
+      <div class="comp" id="comp"></div></div>
+    ${grafico(f)}
+    ${c?`<div class="bloque"><h3>A qué está atada tu plata</h3>
+      <div class="barra" role="img" aria-label="Composición de la cartera">${atado.filter(a=>a[1]>0).map((a,i)=>`<span style="width:${a[1]/tot*100}%;background:${colores[i%8]}"></span>`).join('')}</div>
+      <div class="leyenda">${atado.map((a,i)=>`<div><i style="background:${a[1]>0?colores[i%8]:'transparent'}"></i><span>${glos(a[0])}</span><span class="num">${nf(a[1],1)}%</span></div>`).join('')}</div>
+      <p class="peq">Según la cartera al ${fecha(c.fecha)} que el fondo informó a la CNV (${c.n_activos} inversiones en total).${c.vencimiento_promedio_anios!=null&&c.vencimiento_cobertura_pct>=30?` Lo que tiene fecha de ${T('vencimiento','vencimiento')} vence en promedio en ${c.vencimiento_promedio_anios<1?nf(c.vencimiento_promedio_anios*12,0)+' meses':nf(c.vencimiento_promedio_anios,1)+' años'}.`:''}</p></div>
+    ${tasasBloque(c.tasas,c.principales)}
+    <div class="grid2">
+      <div class="bloque"><h3>Sus inversiones más grandes</h3><table><tbody>${c.principales.slice(0,8).map(t=>`<tr><td>${esc(t.en_palabras||t.activo)}${t.en_palabras&&t.en_palabras!==t.activo?`<br><span class="peq">${esc(t.activo)}</span>`:''}</td><td class="num">${nf(t.pct,1)}%</td></tr>`).join('')}</tbody></table></div>
+      <div class="bloque"><h3>${T('flujo','Plata que entró o salió')}</h3>${fl==null?'<p class="peq">Sin dato.</p>':`<p class="dato num ${fl>=0?'pos':'neg'}">${fl>=0?'+':'−'} ${plata(Math.abs(fl),f.moneda)}</p>
+        <p class="peq">En ${flTxt} la gente ${fl>=0?'puso':'retiró'} esa plata de más, sin contar lo que ganó o perdió el fondo.</p>`}
+        <h3 style="margin-top:8px">${T('patrimonio','Cuánto maneja')}</h3><p class="dato num" style="font-size:1.2rem">${plata(f.patrimonio,f.moneda)}</p>
+        <p class="peq">Es el n.º ${f.puesto} de ${f.en_categoria} en su categoría por tamaño.</p></div>
+    </div>`:`<div class="bloque"><h3>En qué invierte</h3><p class="peq">Este fondo todavía no tiene una cartera publicada en la CNV.</p>
+      <h3 style="margin-top:8px">${T('patrimonio','Cuánto maneja')}</h3><p class="dato num" style="font-size:1.2rem">${plata(f.patrimonio,f.moneda)}</p></div>`}
+    <div class="bloque"><h3>Lo práctico</h3><table><tbody>
+      <tr><td>${T('rescate','Si querés sacar la plata')}</td><td>te la devuelven ${plazo(f.plazo_rescate)}${cobro(f.plazo_rescate)}</td></tr>
+      <tr><td>${T('costo','Costo anual')}</td><td class="num">${costo==null?'s/d':(f.clases.length>1?'desde ':'')+nf(costo,2)+'%'}</td></tr>
+      <tr><td>${T('depositaria','Quién guarda la plata')}</td><td>${esc(f.depositaria||'s/d')}</td></tr></tbody></table>
+      ${X.costo&&X.costo.texto?`<p class="peq">${esc(X.costo.texto)}</p>`:''}
+      ${f.clases.length>1?`<p class="peq">Tiene ${f.clases.length} ${T('clase','clases')}: invierten en lo mismo, pero cambian el costo o el monto mínimo.</p><div class="scroll"><table><thead><tr><th>Clase</th><th>Costo anual</th><th>Mínimo</th><th>12 meses</th></tr></thead><tbody>${f.clases.map(x=>`<tr><td>${esc(x.nombre.split(' - ').slice(1).join(' - ')||x.nombre)}</td><td class="num">${nf((x.honorarios_gerente||0)+(x.honorarios_depositaria||0),2)}%</td><td class="num">${x.minimo!=null?plata(x.minimo,x.moneda||f.moneda):'s/d'}</td><td class="num">${dudosas.has(x.nombre)?'en revisión':pct(x.rend_1a)}</td></tr>`).join('')}</tbody></table></div>`:''}</div>
+    ${(X.parecidos=(X.parecidos||[]).filter(p=>!CAT||CAT.fondos.some(f=>f.id===p.id))).length?`<div class="bloque"><h3>Fondos parecidos</h3><p class="peq">Tienen buena parte de las mismas inversiones.</p>
+      <div class="lista card">${X.parecidos.slice(0,4).map(p=>`<a class="item" href="#${encodeURIComponent(p.id)}"><span><span class="n">${esc(p.nombre)}</span><br><span class="g">${esc(p.gerente||'')}</span></span><span class="r"><span class="num">${nf(p.en_comun_pct,0)}%</span><br><span class="g">en común</span></span></a>`).join('')}</div></div>`:''}
+    <p class="aviso">Fuentes: CAFCI (valores diarios), CNV (cartera semanal), BCRA (inflación, dólar, plazo fijo), ArgentinaDatos (historia de valores). Los rendimientos son de la clase principal, ya con costos descontados. "A qué está atada tu plata" y el nivel de riesgo se calculan en forma automática. Rendimientos pasados no garantizan rendimientos futuros. Información con fines educativos: no es una recomendación de inversión.</p>
   </article>`;
   if($('#volver'))$('#volver').onclick=()=>{location.hash=''};
-  const comp=()=>{
-    const P=REF.periodos[periodo]||{}, v=R[periodo];
-    const filas=[['Este fondo',v,true],['Inflación',P.inflacion],['Plazo fijo',P.plazo_fijo],['Dólar oficial',P.dolar]].filter(r=>r[2]||r[1]!=null);
+  if($('#btncmp'))$('#btncmp').onclick=()=>toggleCmp(f.id);barra();
+  const pinta=()=>{
+    const P=REF.periodos[periodo]||{}, v=(X.dudoso||[]).length&&f.clases.every(c=>dudosas.has(c.nombre))?null:(f.rendimientos||{})[periodo];
+    const nom={'30d':'hace un mes','anio':'a principio de año','1a':'hace 12 meses','2a':'hace 2 años'}[periodo];
+    const usd=f.moneda==='USD';
+    const refs=usd?[]:[['Inflación',P.inflacion,'inflacion'],['Plazo fijo',P.plazo_fijo,'plazofijo'],['Dólar oficial',P.dolar]];
+    const d=v!=null&&P.inflacion!=null&&!usd?v-P.inflacion:null;
+    $('#sim').innerHTML=v==null?`<p class="peq">Todavía no tenemos el dato del fondo para este período.</p>`:`
+      <label>Si hubieras puesto <input id="monto" inputmode="numeric" value="${monto.toLocaleString('es-AR')}" aria-label="Monto"> ${nom},</label>
+      <div>hoy tendrías <span class="grande num ${v<0?'neg':''}">${sim(monto*(1+v/100),f.moneda)}</span></div>
+      ${d!=null?`<p class="veredicto ${d>=0?'pos':'neg'}">${d>=0?'Le ganó':'Le perdió'} a la inflación${P.inflacion_hasta?' (medida hasta '+mes(P.inflacion_hasta)+')':''}: para no perder poder de compra necesitabas ${sim(monto*(1+P.inflacion/100),f.moneda)}.</p>`:''}`;
+    const inp=$('#monto');if(inp){inp.onchange=()=>{const m=+inp.value.replace(/\D/g,'');if(m>0){monto=m;pinta()}}}
+    const filas=[['Este fondo',v,null,true],...refs].filter(r=>r[3]||r[1]!=null);
     const max=Math.max(...filas.map(r=>Math.abs(r[1]||0)),1);
-    $('#comp').innerHTML=filas.map(([n,x,es])=>`<div class="comp-row ${es?'fondo':''}"><span>${n}</span><span class="track"><span class="fill ${x<0?'neg':''}" style="width:${Math.abs(x||0)/max*100}%"></span></span><span class="num" style="text-align:right">${pct(x)}</span></div>`).join('');
-    const d=v!=null&&P.inflacion!=null?v-P.inflacion:null;
-    $('#compTxt').textContent=(v==null?'No hay datos del fondo para este período. ':d!=null?`${d>=0?'Le ganó':'Le perdió'} a la inflación por ${nf(Math.abs(d),1)} puntos. `:'')+
-      (P.inflacion_hasta?`Inflación hasta ${fecha(P.inflacion_hasta).slice(3)} (último dato del INDEC vía BCRA).`:'');
+    $('#comp').innerHTML=filas.length>1?filas.map(([nm,x,g,es])=>`<div class="comp-row ${es?'fondo':''}"><span>${g?T(g,nm):nm}</span><span class="track"><span class="fill ${x<0?'neg':''}" style="width:${Math.abs(x||0)/max*100}%"></span></span><span class="num" style="text-align:right">${pct(x)}</span></div>`).join(''):'';
   };
-  document.querySelectorAll('[data-p]').forEach(b=>b.onclick=()=>{periodo=b.dataset.p;document.querySelectorAll('[data-p]').forEach(x=>x.setAttribute('aria-pressed',x===b));comp()});
-  comp();window.scrollTo(0,0);
+  $$('[data-p]').forEach(b=>b.onclick=()=>{periodo=b.dataset.p;$$('[data-p]').forEach(x=>x.setAttribute('aria-pressed',x===b));pinta()});
+  pinta();window.scrollTo(0,0);
 }
 cargar().catch(()=>{$('#app').innerHTML='<p class="vacio">No se pudieron cargar los datos. Probá de nuevo en un rato.</p>'});
 </script>

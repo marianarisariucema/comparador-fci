@@ -20,6 +20,8 @@ from pathlib import Path
 
 import requests
 
+from cruce import Cruce
+
 RAIZ = Path(__file__).resolve().parent.parent
 DATA = RAIZ / "data"
 URL_CALCULADORA = "https://raw.githubusercontent.com/marianarisariucema/calculadora-renta-fija/main/{archivo}"
@@ -189,6 +191,8 @@ def main() -> int:
         print(f"Precios BYMA no disponibles: {e}")
         precios = {"fecha": None, "precios": {}}
     P = precios["precios"]
+    # Tasas por instrumento (pipeline/tasas.js, sale de la calculadora de renta fija)
+    TASAS = (leer(DATA / "tasas" / "ultimo.json", {}) or {}).get("por_ticker", {})
     hoy = dt.date.fromisoformat(precios["fecha"]) if precios.get("fecha") else dt.date.today()
 
     # Fondo (clave) = suma de sus clases
@@ -206,11 +210,23 @@ def main() -> int:
 
     salida, activos = {}, collections.defaultdict(lambda: {"fondos": [], "monto_estimado": 0.0})
     con_ticker = sin_ticker = 0
+    # Cruce CNV -> CAFCI por gestora y nombre (ver cruce.py)
+    carteras = {}
     for ruta in sorted((DATA / "carteras" / "ultima").glob("*.json")):
         cart = leer(ruta)
-        if not cart or not cart.get("activos"):
-            continue
-        f = fondos.get(cart.get("clave"))
+        if cart and cart.get("activos"):
+            carteras[str(cart.get("id_cnv") or ruta.stem)] = cart
+    cruces = Cruce(clases).todas(carteras)
+    resumen_cruce = collections.Counter(m for _, m in cruces.values())
+    escribir(DATA / "analisis" / "cruce.json", {
+        "resumen": dict(resumen_cruce),
+        "sin_cruce": sorted(({"id_cnv": i, "fondo": carteras[i].get("fondo"), "gerente": carteras[i].get("gerente"), "motivo": m}
+                             for i, (k, m) in cruces.items() if not k), key=lambda x: x["gerente"] or ""),
+    })
+    print("Cruce CNV-CAFCI:", dict(resumen_cruce))
+    for idc, cart in carteras.items():
+        cart["clave"] = cruces[idc][0] or cart.get("clave")
+        f = fondos.get(cruces[idc][0])
         # Algunas gestoras cargan mal los porcentajes en la CNV (suman miles de %): se marca y no se usa
         suma = sum(a.get("pct_pn") or 0 for a in cart["activos"])
         if suma > 130:
@@ -219,6 +235,8 @@ def main() -> int:
                                       "error": f"La cartera publicada en la CNV suma {suma:.0f}% del patrimonio"}
             continue
         grupos, venc_suma, venc_peso, top = collections.Counter(), 0.0, 0.0, []
+        fam = collections.defaultdict(lambda: [0.0, 0.0, None])  # pct, pct*tasa, tipo de tasa
+        md_suma = md_peso = 0.0
         for a in cart["activos"]:
             pct = a.get("pct_pn") or 0
             g = atado(a["activo"], a.get("tipo"))
@@ -235,7 +253,17 @@ def main() -> int:
                 if anios >= 0:
                     venc_suma += anios * pct
                     venc_peso += pct
+            ts = TASAS.get(tk) if tk else None
+            if ts and ts.get("tasa") is not None and pct > 0:
+                fm = fam[ts["familia"]]
+                fm[0] += pct
+                fm[1] += pct * ts["tasa"]
+                fm[2] = ts.get("tasa_tipo")
+                if ts.get("md") is not None:
+                    md_suma += pct * ts["md"]
+                    md_peso += pct
             top.append({"activo": a["activo"], "ticker": tk, "pct": pct, "atado": g,
+                        "tasa": ts.get("tasa") if ts else None, "tasa_tipo": ts.get("tasa_tipo") if ts else None,
                         "precio": info.get("px"), "vto": vto})
             k = tk or (g if g == "Cheques, pagarés y deuda PyME" else a["activo"])
             idx = activos[k]
@@ -256,6 +284,13 @@ def main() -> int:
             "categoria": categoria, "subtipo": subtipo(categoria, grupos),
             "fecha_cartera": cart.get("fecha_cartera"), "atado": grupos,
             "vencimiento_promedio_anios": round(venc_suma / venc_peso, 2) if venc_peso else None,
+            # Tasa promedio de lo que tiene en cada familia y duración modificada de la parte con tasa
+            "tasas": {
+                "cobertura_pct": round(sum(v[0] for v in fam.values()), 1),
+                "duracion_modificada": round(md_suma / md_peso, 3) if md_peso else None,
+                "por_familia": sorted(({"familia": k, "pct": round(v[0], 1), "tasa": round(v[1] / v[0], 2), "tasa_tipo": v[2]}
+                                       for k, v in fam.items() if v[0] > 0), key=lambda x: -x["pct"]),
+            },
             "vencimiento_cobertura_pct": round(venc_peso, 1),
             "patrimonio": round(f["patrimonio"], 2) if f else None,
             "activos": sorted(top, key=lambda x: -x["pct"])[:15], "n_activos": len(top),
