@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Demo de integración</title>
+<!-- En GitHub Pages lee los archivos estáticos; publicada desde la API usa la clave de demo (las completa api/preparar.mjs). -->
+<meta name="fci-api" content="">
+<meta name="fci-clave" content="">
+<style>
+/* Todo esto representa el sitio que la ALyC ya tiene. El componente se adapta a él con 3 o 4 variables. */
+:root{--ink:#16202a;--muted:#5d6b78;--line:#e2e6ea;--bg:#f5f7f9;--card:#fff;--brand:#1a3d7c}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+body.t-verde{--brand:#0f6b5c;font-family:Georgia,"Times New Roman",serif}
+body.t-oscuro{--ink:#e9edf1;--muted:#9aa7b3;--line:#2b3440;--bg:#10151b;--card:#18202a;--brand:#e0a526}
+.nav{background:var(--card);border-bottom:1px solid var(--line);padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{font-weight:800;letter-spacing:-.02em;color:var(--brand);font-size:1.15rem}
+.nav small{color:var(--muted)}
+.temas{display:flex;gap:6px;flex-wrap:wrap}
+.temas button{font:inherit;font-size:.82rem;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px;padding:4px 10px;cursor:pointer}
+.temas button[aria-pressed="true"]{border-color:var(--brand);color:var(--brand);font-weight:700}
+main{max-width:980px;margin:0 auto;padding:20px 16px 48px;display:grid;gap:28px}
+h1{font-size:1.4rem;margin:0}
+h2{font-size:1.1rem;margin:0 0 4px}
+.nota{color:var(--muted);font-size:.88rem;margin:4px 0 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+table{width:100%;border-collapse:collapse}
+th,td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+th{font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+td.r,th.r{text-align:right}
+tr:last-child td{border-bottom:0}
+.fondo b{display:block}
+.btn{font:inherit;font-weight:700;border:0;border-radius:6px;padding:7px 14px;background:var(--brand);color:#fff;cursor:pointer}
+body.t-oscuro .btn{color:#10151b}
+.toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:8px;font-size:.9rem;max-width:calc(100vw - 32px)}
+code{font-size:.85em;background:var(--line);padding:1px 5px;border-radius:4px}
+@media (max-width:640px){.ocultar-movil{display:none}th,td{padding:10px}}
+/* Así la ALyC adapta el componente a su marca: */
+fondos-fci,fondos-fci-ficha,fondos-fci-etiqueta{
+  --fci-marca:var(--brand);--fci-superficie:var(--card);--fci-texto:var(--ink);--fci-suave:var(--muted);--fci-linea:var(--line);--fci-radio:10px;
+}
+body.t-oscuro fondos-fci,body.t-oscuro fondos-fci-etiqueta{--fci-marca-texto:#10151b;--fci-positivo:#5cc98a;--fci-negativo:#ef7d70;--fci-alerta:#e3b04f}
+</style>
+</head>
+<body>
+<header class="nav">
+  <span><span class="logo">Broker Ejemplo</span> <small>· sitio ficticio para mostrar la integración</small></span>
+  <div class="temas" role="group" aria-label="Probar con otra marca">
+    <button type="button" data-t="" aria-pressed="true">Marca azul</button>
+    <button type="button" data-t="t-verde" aria-pressed="false">Marca verde, otra tipografía</button>
+    <button type="button" data-t="t-oscuro" aria-pressed="false">Modo oscuro</button>
+  </div>
+</header>
+<main>
+  <section>
+    <h1>Fondos comunes de inversión</h1>
+    <p class="nota">Esta tabla es "el front que la ALyC ya tiene". Lo único agregado es la etiqueta <code>&lt;fondos-fci-etiqueta&gt;</code> al lado de cada nombre: muestra el tipo y el riesgo, y con un toque abre la ficha explicada.</p>
+  </section>
+  <div class="card">
+    <table>
+      <thead><tr><th>Fondo</th><th class="r ocultar-movil">Rendimiento 12m</th><th></th></tr></thead>
+      <tbody id="tabla"></tbody>
+    </table>
+  </div>
+  <section>
+    <h2>Buscador completo</h2>
+    <p class="nota">El mismo producto como página entera: <code>&lt;fondos-fci invertir="Suscribir"&gt;</code>. El botón "Suscribir" dispara el evento <code>fci-invertir</code> para que la ALyC siga con su propio circuito de suscripción.</p>
+  </section>
+  <fondos-fci invertir="Suscribir"></fondos-fci>
+</main>
+<script type="module">
+import { configurar } from './fondos-fci.js';
+const meta = n => document.querySelector(`meta[name="${n}"]`)?.content || '';
+if (meta('fci-api')) configurar({ api: new URL(meta('fci-api'), location.href).href.replace(/\/$/, ''), clave: meta('fci-clave') });
+else configurar({ datos: new URL('../data/web/', location.href).href });
+
+// Los fondos "del broker": la ALyC los identifica con su id o con el código CAFCI que ya usa.
+const FONDOS = [
+  ['fima-premium', 'Fima Premium', 'Clase A', 20.8],
+  ['superfondo-renta-fija', 'Superfondo Renta Fija', 'Clase A', 42.7],
+  ['balanz-lecaps', 'Balanz Lecaps', 'Clase A', 29.6],
+  ['max-cobertura', 'MAX Cobertura', 'Clase A', 9.0],
+  ['balanz-ahorro-en-dolares', 'Balanz Ahorro en Dólares', 'Clase A', 7.4],
+  ['superfondo-acciones', 'Superfondo Acciones', 'Clase A', -10.8],
+];
+document.getElementById('tabla').innerHTML = FONDOS.map(([id, n, c, r]) => `<tr>
+  <td class="fondo"><b>${n}</b><fondos-fci-etiqueta fondo="${id}"></fondos-fci-etiqueta></td>
+  <td class="r ocultar-movil">${r.toLocaleString('es-AR')}%</td>
+  <td class="r"><button class="btn" data-id="${id}">Suscribir</button></td></tr>`).join('');
+
+const toast = t => { const d = Object.assign(document.createElement('div'), { className: 'toast', textContent: t }); document.body.append(d); setTimeout(() => d.remove(), 3000); };
+document.addEventListener('fci-invertir', e => toast(`La ALyC recibe el evento y abre su suscripción a "${e.detail.nombre}".`));
+document.addEventListener('click', e => { const b = e.target.closest('.btn[data-id]'); if (b) toast('Circuito de suscripción propio de la ALyC.'); });
+document.querySelectorAll('[data-t]').forEach(b => b.onclick = () => {
+  document.body.className = b.dataset.t;
+  document.querySelectorAll('[data-t]').forEach(x => x.setAttribute('aria-pressed', x === b));
+  const oscuro = b.dataset.t === 't-oscuro';
+  document.querySelectorAll('fondos-fci,fondos-fci-etiqueta').forEach(el => oscuro ? el.setAttribute('tema', 'oscuro') : el.removeAttribute('tema'));
+});
+</script>
+</body>
+</html>
