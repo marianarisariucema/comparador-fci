@@ -55,16 +55,19 @@ No funcionan: API vieja de CAFCI y `estadisticas.cafci.org.ar` (bloqueadas, 403)
 - **Proceso más liviano:** histórico diario compacto (de ~4 MB a ~200 KB por día), sin las 4.300 fichas por clase, carteras CNV en paralelo (de 2 h a 42 min), rendimientos imposibles descartados, fondos con clases en pesos y dólares sumados en su moneda principal.
 - **Pendiente de revisión de Mariana:** PR #1 (datos de experiencia: señales, parecidos, costo por clase; la página ya los muestra apenas se mergee) y PR #2 (vigilancia diaria y reintentos).
 
+- **Madrugada del 5/11 (para revisar):**
+  - PR #4: cuánto rinden hoy los bonos y letras de cada fondo (tasa fija, CER, dólar linked, dólares) y su duración, en palabras simples, con la curva de tasas y los bonos del fondo resaltados. Sale de las tablas de la calculadora de renta fija, con precios BYMA; se calcula cada noche.
+  - PR #5: cruce de carteras CNV con fondos CAFCI de 966 a 1.071 de 1.078 (99%); fichas con cartera de 954 a 1.060. Las que quedan sin cruzar se listan en `data/analisis/cruce.json`.
+  - La parte larga de la curva CER sale en 10% real en la calculadora: vale chequear que esos precios estén bien.
+
 ## Pendiente para mañana
 
 0. Los dos prototipos son privados: para que Daniel los vea, usar **Compartir** en cada página.
-1. **Clave (EOD o BYMA):** no generar una nueva hasta tener abierto GitHub. Al generarla, pegarla enseguida en *Settings → Secrets and variables → Actions → New repository secret* con el nombre `EOD_API_KEY` (o `BYMA_API_KEY`) y guardarla también en un gestor de contraseñas. Los datos gratis de BYMA **no** necesitan clave. Falta confirmar para qué servicio es.
-2. **Ficha didáctica:** armar la página nueva sobre los datos propios (`data/`), con: en una frase, tipo, patrimonio, en qué invierte, a qué está atado, flujos y rendimiento contra inflación, dólar y plazo fijo.
-3. Completar el histórico con ArgentinaDatos.
-4. Calcular rankings por gestora, AUM, facturación estimada y "qué fondos tienen tal activo".
-5. Revisar los términos de uso de BYMA Data antes de mostrar precios.
-6. Elegir la ALyC objetivo y mapear a mano sus 30 a 60 fondos entre CAFCI y CNV.
-7. Contactos a evaluar: CAFCI (acceso formal) y, si se quisiera, Fonditos (licencia de redistribución). El socio prefiere no depender de Fonditos.
+1. **Precios de bonos:** ya no hace falta ninguna clave acá: el comparador lee los precios BYMA que publica cada noche la calculadora de renta fija.
+2. Calcular rankings por gestora, AUM, facturación estimada y "qué fondos tienen tal activo".
+3. Revisar los términos de uso de BYMA Data antes de mostrar precios.
+4. Elegir la ALyC objetivo y revisar a mano sus fondos que queden sin cruzar (ver `data/analisis/cruce.json`).
+5. Contactos a evaluar: CAFCI (acceso formal) y, si se quisiera, Fonditos (licencia de redistribución). El socio prefiere no depender de Fonditos.
 
 ## Qué nos falta frente a Fonditos (relevado 4/11)
 
