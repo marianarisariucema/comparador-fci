@@ -36,6 +36,15 @@ No funcionan: API vieja de CAFCI y `estadisticas.cafci.org.ar` (bloqueadas, 403)
 - `bcra/<indicador>.json`: series de 2 años.
 - Planilla y carteras se cruzan por el campo `clave` (nombre normalizado). Cruza solo el 84% de los fondos; el resto se mapea a mano.
 
+## Agregado el 5/11
+
+- **Precios BYMA sin clave:** `pipeline/analisis.py` lee `datos.json` y `mercado.json` del repo público `calculadora-renta-fija` (su robot ya baja BYMA End of Day con las credenciales guardadas allá: secretos `BYMA_CLIENT_ID`, `BYMA_CLIENT_SECRET`, `BYMA_SCOPE`). La "clave de EOD" era esa: no hace falta generar otra.
+- `data/analisis/fondos.json`: por fondo, a qué está atado, subtipo, vencimiento promedio de lo que tiene fecha de vencimiento, activos con ticker y precio. 11 fondos tienen la cartera mal cargada en la CNV (suma miles de %): quedan marcados con `error`.
+- `data/analisis/activos.json`: qué fondos tienen cada activo y monto estimado. `data/analisis/gestoras.json`: ranking por patrimonio, market share, flujo del día y facturación estimada (solo fondos en pesos).
+- `data/analisis/rendimientos.json`: 7d, 30d, 90d, año, 1, 2 y 5 años (`pipeline/historico.py`). El histórico se completa una vez con el workflow "Completar histórico (ArgentinaDatos)" y después crece solo cada noche.
+- Todo corre de noche en GitHub Actions (22:30, después de la calculadora; carteras sábados 2:00). Nada usa la PC ni Claude.
+- Falta: TIR y duration de verdad (hacen falta los flujos de cada bono), mapear acciones con nombres raros a ticker, ficha didáctica nueva sobre estos datos.
+
 ## Pendiente para mañana
 
 0. Los dos prototipos son privados: para que Daniel los vea, usar **Compartir** en cada página.
