@@ -85,6 +85,22 @@ p{margin:0}
 .cajon:hover{border-color:var(--accent);background:var(--brand-soft)}
 .carpeta .cuenta{color:var(--accent);font-weight:600;margin-top:4px}
 .plegado{padding:12px 16px}.plegado summary{cursor:pointer;font-weight:600;font-size:.92rem}
+/* Versión compacta: el test y las carpetas no tienen que ocupar toda la pantalla */
+.hero{gap:4px}.hero h1{font-size:1.35rem}.hero p{font-size:.9rem;margin:0}
+.test{padding:12px 14px;gap:8px}
+.test-cab b{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.test-q{font-size:.98rem}
+.cajones{display:flex;flex-wrap:wrap;gap:6px}
+.cajon{font-size:.88rem;padding:7px 14px;border-radius:999px;box-shadow:none}
+.tabs.seg{display:inline-flex;gap:0;background:var(--sunk);border-radius:999px;padding:3px;flex-wrap:nowrap}
+.tabs.seg button{border:0;background:transparent;padding:6px 14px;font-size:.84rem}
+.tabs.seg button[aria-pressed="true"]{background:var(--surface);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.carpetas{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,160px),1fr));gap:6px}
+.carpeta{display:flex;justify-content:space-between;align-items:center;gap:8px;font:inherit;font-size:.9rem;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:9px 12px;cursor:pointer}
+.carpeta:hover{border-color:var(--accent)}
+.carpeta .cuenta{color:var(--muted);font-weight:400;font-size:.8rem;margin:0;white-space:nowrap}
+.item{padding:12px 14px;gap:4px 12px}
+.item .pat{color:var(--muted);font-size:.82rem}.item .pat b{color:var(--ink);font-weight:600}
 .objetivos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,135px),1fr));gap:10px}
 .obj{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 14px;text-align:left;cursor:pointer;display:grid;gap:2px;box-shadow:var(--shadow)}
 .obj b{font-size:.95rem}
@@ -329,7 +345,7 @@ const CARPETAS={
     ['dolar','En dólares o atados al dólar','Para pensar en dólares.'],
     ['acciones','Acciones','Partes de empresas. Suben y bajan mucho.'],
     ['mixtos','Mixtos y otros','Un poco de todo.']]},
-  riesgo:{nombre:'Por riesgo',de:f=>String(f.riesgo_nivel||''),items:[1,2,3,4,5].map(n=>[String(n),RIESGO_TXT[n].split(':')[0]+' ('+n+' de 5)',RIESGO_TXT[n].split(': ')[1].replace(/^./,m=>m.toUpperCase())+'.'])},
+  riesgo:{nombre:'Por riesgo',de:f=>String(f.riesgo_nivel||''),items:[1,2,3,4,5].map(n=>[String(n),'Riesgo '+RIESGO_TXT[n].split(':')[0].toLowerCase(),RIESGO_TXT[n].split(': ')[1].replace(/^./,m=>m.toUpperCase())+'.'])},
   plazo:{nombre:'Por plazo',de:plazoDe,items:[
     ['corto','Corto plazo','Plata que vas a usar en semanas o pocos meses.'],
     ['mediano','Mediano plazo','De unos meses a 2 años.'],
@@ -390,7 +406,7 @@ function listado(){
   document.title='Fondos explicados';
   $('#app').innerHTML=`
   <section class="hero"><h1>Entendé en qué se invierte tu plata</h1>
-    <p>Cada fondo explicado en simple. Tocá cualquier palabra subrayada para ver qué significa.</p></section>
+    <p>Cada fondo explicado en simple.</p></section>
   <section class="card test" id="test" aria-live="polite"></section>
   <section class="bloque" id="zona" aria-label="Fondos"></section>
   ${RES&&RES.grupos?`<details class="card plegado"><summary>Qué hizo la gente con su plata el último mes</summary>${movida()}</details>`:''}
@@ -404,15 +420,15 @@ function zona(){
   const titulo=texto?'Resultados':perfilF?'Fondos para tu perfil: '+esc(perfilF.nombre):carpeta?esc((C.items.find(i=>i[0]===carpeta)||[])[1]||''):'';
   z.innerHTML=`<div class="buscar"><input id="q" type="search" placeholder="Buscá un fondo por nombre" aria-label="Buscar fondo" value="${esc(texto)}"></div>
     ${enLista?`<div class="orden"><button type="button" class="volver" id="aCarpetas">← ${perfilF&&!texto?'Ver todas las carpetas':'Volver a las carpetas'}</button></div>
-      <h3 style="margin:0">${titulo}</h3>
+      <h3 style="margin:0">${titulo}</h3>${carpeta&&!texto&&!perfilF?`<p class="peq" style="margin:-4px 0 0">${esc((C.items.find(i=>i[0]===carpeta)||[])[2]||'')}</p>`:''}
       <div class="orden"><span class="peq" id="cuantos"></span>
-        <label class="peq">Ordenar por <select id="ord"><option value="patrimonio">Más grandes</option><option value="riesgo">Menos riesgo</option><option value="rend">Más rindieron en 12 meses</option></select></label></div>
+        <label class="peq">Ordenar por <select id="ord"><option value="patrimonio">Más patrimonio</option><option value="riesgo">Menos riesgo</option><option value="rend">Más rindieron en 12 meses</option></select></label></div>
       <p class="peq" id="avisoOrden" hidden>Lo que más rindió el año pasado suele ser lo que más riesgo tiene, y no asegura que vuelva a rendir lo mismo.</p>
       <div class="card lista" id="lista"></div>
       <button class="mas" id="mas" type="button" hidden>Ver más fondos</button>`
-    :`<div class="tabs" role="group" aria-label="Agrupar fondos">${Object.entries(CARPETAS).map(([k,c])=>`<button type="button" data-v="${k}" aria-pressed="${vista===k}">${c.nombre}</button>`).join('')}</div>
-      <div class="objetivos">${C.items.map(([k,n,d])=>{const c=CAT.fondos.filter(f=>disponible(f)&&C.de(f)===k).length;
-        return c?`<button type="button" class="obj carpeta" data-c="${k}"><b>${n}</b><span>${d}</span><span class="cuenta">${c.toLocaleString('es-AR')} fondos</span></button>`:''}).join('')}</div>`}`;
+    :`<div class="tabs seg" role="group" aria-label="Agrupar fondos">${Object.entries(CARPETAS).map(([k,c])=>`<button type="button" data-v="${k}" aria-pressed="${vista===k}">${c.nombre}</button>`).join('')}</div>
+      <div class="carpetas">${C.items.map(([k,n,d])=>{const c=CAT.fondos.filter(f=>disponible(f)&&C.de(f)===k).length;
+        return c?`<button type="button" class="carpeta" data-c="${k}" title="${esc(d)}"><span>${n}</span><span class="cuenta">${c.toLocaleString('es-AR')}</span></button>`:''}).join('')}</div>`}`;
   const q=$('#q');q.oninput=e=>{const antes=!!texto;texto=e.target.value;mostrar=30;if(!!texto!==antes){zona();const n=$('#q');n.focus();n.setSelectionRange(n.value.length,n.value.length)}else filas()};
   $$('[data-v]').forEach(b=>b.onclick=()=>{vista=b.dataset.v;zona()});
   $$('[data-c]').forEach(b=>b.onclick=()=>{carpeta=b.dataset.c;mostrar=30;zona();z.scrollIntoView({behavior:'smooth',block:'start'})});
@@ -445,9 +461,9 @@ function filas(){
   if($('#avisoOrden'))$('#avisoOrden').hidden=orden!=='rend';
   $('#cuantos').textContent=l.length.toLocaleString('es-AR')+(l.length===1?' fondo':' fondos');
   $('#lista').innerHTML=l.length?l.slice(0,mostrar).map(f=>`<a class="item" href="#${encodeURIComponent(f.id)}">
-    <span><span class="n">${esc(f.nombre)}</span><br><span class="g">${esc(gestora(f.gerente))}</span></span>
+    <span><span class="n">${esc(f.nombre)}</span><br><span class="g">${esc(gestora(f.gerente))}</span><br><span class="pat">Patrimonio: <b>${plata(f.patrimonio,f.moneda)}</b></span></span>
     <span class="r"><span class="num ${f.rend_1a<0?'neg':''}">${pct(f.rend_1a)}</span><br><span class="g">en 12 meses${f.moneda==='USD'?'<br>en dólares':''}</span></span>
-    <span class="chips">${medidor(f.riesgo_nivel)}${veredictoCorto(f)}<span class="chip">${esc(f.tipo)}</span><span class="chip">${f.moneda==='USD'?'En dólares':'En pesos'}</span><span class="chip">Te la devuelven ${plazo(f.plazo_rescate)}</span></span></a>`).join('')
+    <span class="chips">${medidor(f.riesgo_nivel)}<span class="chip">${esc(f.tipo)}</span>${veredictoCorto(f)}</span></a>`).join('')
     :'<p class="vacio">No encontramos fondos con esa búsqueda.</p>';
   $('#mas').hidden=l.length<=mostrar;
 }
