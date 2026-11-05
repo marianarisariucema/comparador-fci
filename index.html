@@ -10,7 +10,8 @@
 <style>
 /* Módulo marca blanca: lista de fondos + ficha didáctica.
    Marca y color por URL: ?marca=Mi%20Broker&color=%230f6b5c
-   Ficha sola para embeber en otra web: ?fondo=fima-premium&embed=1 */
+   Ficha sola para embeber en otra web: ?fondo=fima-premium&embed=1
+   Solo los fondos que ofrece la plataforma: ?fondos=fima-premium,adcap-acciones  o  ?gestora=galicia */
 :root{
   --bg:#f4f6f5; --surface:#fff; --sunk:#eef2f0; --ink:#15201c; --muted:#5b6964; --line:#dde3e0;
   --brand:#0f6b5c; --accent:var(--brand); --brand-ink:#fff; --brand-soft:#e3f1ed; --good:#1d7a45; --bad:#b4372b; --warn:#a36a00;
@@ -212,6 +213,9 @@ let FERIADOS=new Set(), CAT=null, REF=null, objetivo='todos', texto='', orden='p
 async function cargar(){
   const [c,r,fe]=await Promise.all([fetch(BASE+'catalogo.json').then(x=>x.json()),fetch(BASE+'referencias.json').then(x=>x.json()),
     fetch(BASE+'feriados.json').then(x=>x.ok?x.json():null).catch(()=>null)]);
+  // Marca blanca: la plataforma puede mostrar solo sus fondos (por id o por administradora)
+  const ids=(Q.get('fondos')||'').split(',').map(s=>s.trim()).filter(Boolean), ges=norm(Q.get('gestora')||'');
+  if(ids.length||ges){const set=new Set(ids);c.fondos=c.fondos.filter(f=>set.has(f.id)||(ges&&norm(f.gerente).includes(ges)));c.cantidad=c.fondos.length}
   CAT=c;REF=r;FERIADOS=new Set((fe&&fe.feriados)||[]);$('#fecha').textContent='Datos al '+fecha(c.fecha);
   window.addEventListener('hashchange',ruta);ruta();
 }
@@ -388,7 +392,7 @@ async function ficha(id){
       <tr><td>${T('depositaria','Quién guarda la plata')}</td><td>${esc(f.depositaria||'s/d')}</td></tr></tbody></table>
       ${X.costo&&X.costo.texto?`<p class="peq">${esc(X.costo.texto)}</p>`:''}
       ${f.clases.length>1?`<p class="peq">Tiene ${f.clases.length} ${T('clase','clases')}: invierten en lo mismo, pero cambian el costo o el monto mínimo.</p><div class="scroll"><table><thead><tr><th>Clase</th><th>Costo anual</th><th>Mínimo</th><th>12 meses</th></tr></thead><tbody>${f.clases.map(x=>`<tr><td>${esc(x.nombre.split(' - ').slice(1).join(' - ')||x.nombre)}</td><td class="num">${nf((x.honorarios_gerente||0)+(x.honorarios_depositaria||0),2)}%</td><td class="num">${x.minimo!=null?plata(x.minimo,f.moneda):'s/d'}</td><td class="num">${dudosas.has(x.nombre)?'en revisión':pct(x.rend_1a)}</td></tr>`).join('')}</tbody></table></div>`:''}</div>
-    ${(X.parecidos||[]).length?`<div class="bloque"><h3>Fondos parecidos</h3><p class="peq">Tienen buena parte de las mismas inversiones.</p>
+    ${(X.parecidos=(X.parecidos||[]).filter(p=>!CAT||CAT.fondos.some(f=>f.id===p.id))).length?`<div class="bloque"><h3>Fondos parecidos</h3><p class="peq">Tienen buena parte de las mismas inversiones.</p>
       <div class="lista card">${X.parecidos.slice(0,4).map(p=>`<a class="item" href="#${encodeURIComponent(p.id)}"><span><span class="n">${esc(p.nombre)}</span><br><span class="g">${esc(p.gerente||'')}</span></span><span class="r"><span class="num">${nf(p.en_comun_pct,0)}%</span><br><span class="g">en común</span></span></a>`).join('')}</div></div>`:''}
     <p class="aviso">Fuentes: CAFCI (valores diarios), CNV (cartera semanal), BCRA (inflación, dólar, plazo fijo), ArgentinaDatos (historia de valores). Los rendimientos son de la clase principal, ya con costos descontados. "A qué está atada tu plata" y el nivel de riesgo se calculan en forma automática. Rendimientos pasados no garantizan rendimientos futuros. Información con fines educativos: no es una recomendación de inversión.</p>
   </article>`;
