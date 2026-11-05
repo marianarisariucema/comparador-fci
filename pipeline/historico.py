@@ -106,7 +106,7 @@ def completar(dias: int, anios: int) -> int:
         else:
             vacias += 1  # feriado, o fecha anterior al inicio de ArgentinaDatos
             vacias_seguidas += 1
-            if f.day >= 25 and vacias_seguidas >= 3:
+            if f.day >= 25 and (f.month != (f + dt.timedelta(days=1)).month or vacias_seguidas >= 3):
                 # fin de mes sin datos: probar unos días antes
                 for k in range(1, 5):
                     g = f - dt.timedelta(days=k)
@@ -148,33 +148,44 @@ def rendimientos() -> int:
     f0 = orden[-1]
     hoy = cargar(fechas[f0])
 
-    def punto(objetivo: dt.date, tolerancia: int):
-        previas = [f for f in orden if f <= objetivo]
-        return previas[-1] if previas and (objetivo - previas[-1]).days <= tolerancia else None
+    tolerancias = {"7d": 3, "30d": 6, "90d": 15, "1a": 15, "2a": 31, "5a": 45, "anio": 10}
+    objetivos = {k: f0 - dt.timedelta(days=d) for k, d in PERIODOS.items()}
+    objetivos["anio"] = dt.date(f0.year - 1, 12, 31)
+    cache: dict[dt.date, dict] = {}
 
-    bases = {k: punto(f0 - dt.timedelta(days=d), max(5, d // 30)) for k, d in PERIODOS.items()}
-    bases["anio"] = punto(dt.date(f0.year - 1, 12, 31), 7)
-    vcps = {k: cargar(fechas[f]) for k, f in bases.items() if f}
+    def vcps(f):
+        if f not in cache:
+            cache[f] = cargar(fechas[f])
+        return cache[f]
 
+    # Para cada período, las fechas candidatas de la más cercana a la más lejana (ArgentinaDatos
+    # trae días incompletos, así que cada fondo usa la fecha más cercana en la que figura)
+    candidatas = {k: [f for f in reversed(orden) if objetivos[k] - dt.timedelta(days=tolerancias[k]) <= f <= objetivos[k]]
+                  for k in objetivos}
     out = {}
     for fid, v0 in hoy.items():
         r = {}
-        for k, base in vcps.items():
-            vb = base.get(fid)
-            if vb:
-                r[k] = round((v0 / vb - 1) * 100, 3)
+        for k, fs in candidatas.items():
+            for f in fs:
+                vb = vcps(f).get(fid)
+                if vb:
+                    r[k] = round((v0 / vb - 1) * 100, 3)
+                    break
         for k, anios in (("2a", 2), ("5a", 5)):
             if k in r and r[k] > -100:
                 r[f"{k}_anual"] = round(((1 + r[k] / 100) ** (1 / anios) - 1) * 100, 3)
         if r:
             out[fid] = r
+    bases = {k: (fs[0] if fs else None) for k, fs in candidatas.items()}
+    cobertura = {k: sum(1 for r in out.values() if k in r) for k in objetivos}
     escribir(DATA / "analisis" / "rendimientos.json", {
         "fecha": f0.isoformat(), "fuente": "Planilla CAFCI (propia) y ArgentinaDatos",
         "fechas_base": {k: (f.isoformat() if f else None) for k, f in bases.items()},
+        "clases_con_dato": cobertura,
         "nota": "Variación % de la cuotaparte. *_anual = rendimiento anual equivalente.",
         "fondos": out})
-    print(f"Rendimientos al {f0}: {len(out)} clases. Bases: " +
-          ", ".join(f"{k}={f}" for k, f in bases.items()))
+    print(f"Rendimientos al {f0}: {len(out)} clases. Con dato por período: " +
+          ", ".join(f"{k}={n}" for k, n in cobertura.items()))
     return 0
 
 
@@ -182,8 +193,20 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--completar", action="store_true", help="Bajar histórico de ArgentinaDatos")
     ap.add_argument("--dias", type=int, default=550, help="Días hacia atrás con dato diario")
+    ap.add_argument("--diagnostico", help="Mostrar qué devuelve ArgentinaDatos para esa fecha (AAAA-MM-DD)")
     ap.add_argument("--anios", type=int, default=5, help="Años hacia atrás con dato de fin de mes")
     args = ap.parse_args()
+    if args.diagnostico:
+        s = requests.Session(); s.headers.update(HEADERS)
+        f = dt.date.fromisoformat(args.diagnostico)
+        for cat in CATEGORIAS + ["ultimo"]:
+            u = URL.format(cat=cat, fecha=f.strftime("%Y/%m/%d")) if cat != "ultimo" else URL.format(cat="rentaFija", fecha="ultimo")
+            r = s.get(u, timeout=60)
+            j = r.json() if r.ok and r.text.strip() else None
+            fechas = sorted({x.get("fecha") for x in j}) if isinstance(j, list) else None
+            print(cat, r.status_code, len(j) if isinstance(j, list) else j if not r.ok else type(j).__name__,
+                  "fechas:", (fechas[:3], fechas[-3:]) if fechas else None, "ej:", (j[0] if isinstance(j, list) and j else None))
+        return 0
     rc = completar(args.dias, args.anios) if args.completar else 0
     rendimientos()
     return rc
