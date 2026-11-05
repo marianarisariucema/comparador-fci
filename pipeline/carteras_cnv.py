@@ -49,6 +49,7 @@ def nombre_clave(nombre: str) -> str:
     n = re.sub(r"\s*\bfondo comun de inv\w*.*$", "", n)
     n = n.replace("ley 27.260", " ")
     n = re.split(r"\s+-\s+clase\b", n)[0]                     # " - Clase A"
+    n = re.sub(r"\s+clase\s+[a-z0-9]{1,2}\s*$", "", n)          # "Liquidez Pesos Clase C" sin guion
     n = re.sub(r"\bf\.?\s*c\.?\s*i\.?(\s*abierto)?\.?", " ", n)  # "F.C.I."
     n = re.sub(r"[^a-z0-9]+", " ", n)
     n = re.sub(r"\bargentinas\b", "argentina", n)
