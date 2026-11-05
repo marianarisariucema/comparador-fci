@@ -46,7 +46,7 @@ p{margin:0}
 .peq{color:var(--muted);font-size:.87rem}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
 /* glosario */
-.t{background:none;border:0;padding:0;cursor:help;text-decoration:underline dotted;text-decoration-color:var(--muted);text-underline-offset:3px;font-weight:inherit}
+.t{background:none;border:0;padding:0;cursor:help;text-align:left;text-decoration:underline dotted;text-decoration-color:var(--muted);text-underline-offset:3px;font-weight:inherit}
 .t:hover{color:var(--accent)}
 #glosa{position:fixed;inset:auto 12px 12px 12px;max-width:460px;margin:0 auto;z-index:20;padding:16px 18px;display:none;gap:6px}
 #glosa.abierto{display:grid}
@@ -129,6 +129,17 @@ th{font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mut
 .senales li{font-size:.82rem;padding:6px 10px;border-radius:10px;background:var(--sunk);color:var(--muted)}
 .senales li.aten{background:color-mix(in srgb,var(--warn) 14%,transparent);color:var(--ink)}
 .senales li.aten::before{content:"⚠ ";color:var(--warn)}
+.btncmp{justify-self:start;margin-top:4px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:.84rem;cursor:pointer}
+.btncmp[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--brand-soft)}
+#cmpbar{position:fixed;left:50%;transform:translateX(-50%);bottom:max(14px,env(safe-area-inset-bottom));z-index:15;display:flex;gap:14px;align-items:center;padding:8px 8px 8px 18px;border-radius:999px;background:var(--ink);color:var(--bg);box-shadow:0 6px 24px rgba(0,0,0,.18);font-size:.88rem;white-space:nowrap}
+#cmpbar[hidden]{display:none}
+#cmpbar a{background:var(--brand);color:var(--brand-ink);text-decoration:none;font-weight:600;padding:6px 14px;border-radius:999px}
+.cmp table{min-width:520px}.cmp td,.cmp th{padding:10px 12px;text-align:left!important;vertical-align:top}
+.cmp th a{color:var(--ink);font-size:.95rem;text-transform:none;letter-spacing:0;text-decoration:none;font-weight:700}
+.cmp td:first-child{color:var(--muted);font-size:.84rem;min-width:110px}
+.quitar{background:none;border:0;padding:0;color:var(--muted);font-size:.75rem;text-decoration:underline;cursor:pointer;text-transform:none;letter-spacing:0;font-weight:400}
+.cmp .chip{background:var(--brand-soft);color:var(--accent)}
+main{padding-bottom:90px}
 .aviso{font-size:.76rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 footer{font-size:.76rem;color:var(--muted);text-align:center;max-width:62ch;justify-self:center}
 @media (prefers-reduced-motion:no-preference){.barra span,.fill{transition:width .5s ease}}
@@ -204,7 +215,43 @@ async function cargar(){
   CAT=c;REF=r;FERIADOS=new Set((fe&&fe.feriados)||[]);$('#fecha').textContent='Datos al '+fecha(c.fecha);
   window.addEventListener('hashchange',ruta);ruta();
 }
-function ruta(){const id=Q.get('fondo')||decodeURIComponent(location.hash.slice(1));id?ficha(id):listado()}
+function ruta(){const id=Q.get('fondo')||decodeURIComponent(location.hash.slice(1));barra();id==='comparar'?comparar():id?ficha(id):listado()}
+/* ---------- Comparar hasta 3 fondos ---------- */
+let CMP=[];try{CMP=JSON.parse(localStorage.getItem('fci_comparar')||'[]').slice(0,3)}catch(e){}
+const guardarCmp=()=>{try{localStorage.setItem('fci_comparar',JSON.stringify(CMP))}catch(e){}barra()};
+function toggleCmp(id){CMP=CMP.includes(id)?CMP.filter(x=>x!==id):[...CMP,id].slice(-3);guardarCmp()}
+function barra(){
+  let b=$('#cmpbar');if(!b){b=document.createElement('div');b.id='cmpbar';document.body.appendChild(b)}
+  b.hidden=EMBED||!CMP.length||location.hash==='#comparar';
+  b.innerHTML=`<span>${CMP.length} ${CMP.length===1?'fondo elegido':'fondos elegidos'}</span><a href="#comparar">Comparar</a>`;
+  const bt=$('#btncmp');if(bt){const on=CMP.includes(bt.dataset.id);bt.setAttribute('aria-pressed',on);bt.textContent=on?'✓ Elegido para comparar':'＋ Comparar con otros'}
+}
+async function comparar(){
+  document.title='Comparar fondos';
+  const volver=`<button class="volver" type="button" id="volver">← Todos los fondos</button>`;
+  if(!CMP.length){$('#app').innerHTML=volver+`<p class="vacio">Todavía no elegiste fondos. Entrá a la ficha de un fondo y tocá "Comparar con otros".</p>`;$('#volver').onclick=()=>{location.hash=''};return}
+  $('#app').innerHTML='<p class="peq">Cargando…</p>';
+  const fs=(await Promise.all(CMP.map(id=>fetch(BASE+'fondos/'+encodeURIComponent(id)+'.json').then(x=>x.ok?x.json():null).catch(()=>null)))).filter(Boolean);
+  const costo=f=>f.clases.length?Math.min(...f.clases.map(x=>(x.honorarios_gerente||0)+(x.honorarios_depositaria||0))):null;
+  const R=(f,k)=>(f.rendimientos||{})[k];
+  const mejor=(vals,alto=true)=>{const v=vals.filter(x=>x!=null);if(v.length<2)return -1;const m=alto?Math.max(...v):Math.min(...v);return vals.indexOf(m)};
+  const filas=[
+    ['Qué es',fs.map(f=>esc(f.tipo))],
+    [T('riesgo','Riesgo'),fs.map(f=>f.riesgo_nivel?medidor(f.riesgo_nivel)+' '+f.riesgo_nivel+' de 5':'s/d')],
+    ...[['30d','Rindió en 1 mes'],['anio','Rindió en el año'],['1a','Rindió en 12 meses'],['2a','Rindió en 2 años']].map(([k,n])=>{const v=fs.map(f=>R(f,k));const i=mejor(v);return [n,v.map((x,j)=>`<span class="num ${x<0?'neg':''}">${pct(x)}</span>${j===i?' <span class="chip">el que más</span>':''}`)]}),
+    [T('caida','Peor caída en 1 año'),fs.map(f=>f.peor_caida_1a==null?'s/d':`<span class="num">${nf(f.peor_caida_1a,1)}%</span>`)],
+    [T('costo','Costo anual'),(()=>{const v=fs.map(costo);const i=mejor(v,false);return v.map((x,j)=>`<span class="num">${x==null?'s/d':'desde '+nf(x,2)+'%'}</span>${j===i?' <span class="chip">el más barato</span>':''}`)})()],
+    [T('rescate','Te devuelven la plata'),fs.map(f=>plazo(f.plazo_rescate))],
+    ['A qué está atada',fs.map(f=>f.cartera?Object.entries(f.cartera.atado).filter(a=>a[0]!=='Efectivo').slice(0,3).map(a=>esc(a[0])+' '+nf(a[1],0)+'%').join('<br>'):'s/d')],
+    [T('patrimonio','Tamaño'),fs.map(f=>plata(f.patrimonio,f.moneda))],
+  ];
+  $('#app').innerHTML=volver+`<h2>Comparar fondos</h2>
+   <div class="card scroll cmp"><table><thead><tr><th></th>${fs.map(f=>`<th><a href="#${encodeURIComponent(f.id)}">${esc(f.nombre)}</a><br><button type="button" class="quitar" data-q="${esc(f.id)}">Quitar</button></th>`).join('')}</tr></thead>
+   <tbody>${filas.map(r=>`<tr><td>${r[0]}</td>${r[1].map(x=>`<td>${x}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
+   <p class="peq">Rendimientos con costos ya descontados. Comparar fondos de tipos distintos puede confundir: uno de acciones puede rendir más en un año y caer mucho al siguiente. Información educativa: no es una recomendación de inversión.</p>`;
+  $('#volver').onclick=()=>{location.hash=''};
+  $$('[data-q]').forEach(b=>b.onclick=()=>{toggleCmp(b.dataset.q);comparar()});
+}
 function filtrados(){
   const t=norm(texto);
   let l=CAT.fondos.filter(f=>(objetivo==='todos'||(f.objetivos||[]).includes(objetivo))&&(!t||norm(f.nombre+' '+f.gerente+' '+f.tipo).includes(t)));
@@ -306,7 +353,8 @@ async function ficha(id){
   $('#app').innerHTML=`
   ${EMBED?'':'<button class="volver" type="button" id="volver">← Todos los fondos</button>'}
   <article class="card ficha">
-    <div class="cab"><h2>${esc(f.nombre)}</h2><p class="peq">Lo administra ${esc(f.gerente||'s/d')} · ${f.moneda==='USD'?'En dólares':'En pesos'}</p></div>
+    <div class="cab"><h2>${esc(f.nombre)}</h2><p class="peq">Lo administra ${esc(f.gerente||'s/d')} · ${f.moneda==='USD'?'En dólares':'En pesos'}</p>
+      ${EMBED?'':`<button type="button" class="btncmp" id="btncmp" data-id="${esc(f.id)}" aria-pressed="false">＋ Comparar con otros</button>`}</div>
     ${f.frase?`<p class="frase">${esc(f.frase)}</p>`:''}
     ${senales.length?`<ul class="senales">${senales.map(s=>`<li class="${s.nivel==='atencion'?'aten':''}">${esc(s.texto)}</li>`).join('')}</ul>`:''}
     ${f.para_que?`<div class="paraque"><b>Sirve para</b><span>${esc(f.para_que.replace(/^Para /,'').replace(/^./,m=>m.toLowerCase()))}</span></div>`:''}
@@ -345,6 +393,7 @@ async function ficha(id){
     <p class="aviso">Fuentes: CAFCI (valores diarios), CNV (cartera semanal), BCRA (inflación, dólar, plazo fijo), ArgentinaDatos (historia de valores). Los rendimientos son de la clase principal, ya con costos descontados. "A qué está atada tu plata" y el nivel de riesgo se calculan en forma automática. Rendimientos pasados no garantizan rendimientos futuros. Información con fines educativos: no es una recomendación de inversión.</p>
   </article>`;
   if($('#volver'))$('#volver').onclick=()=>{location.hash=''};
+  if($('#btncmp'))$('#btncmp').onclick=()=>toggleCmp(f.id);barra();
   const pinta=()=>{
     const P=REF.periodos[periodo]||{}, v=(X.dudoso||[]).length&&f.clases.every(c=>dudosas.has(c.nombre))?null:(f.rendimientos||{})[periodo];
     const nom={'30d':'hace un mes','anio':'a principio de año','1a':'hace 12 meses','2a':'hace 2 años'}[periodo];
