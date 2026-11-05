@@ -130,6 +130,53 @@ QUE_ES = {
 }
 
 
+
+MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+
+
+def en_palabras(activo: str, atado: str | None, vto: str | None, tipo_activo: str | None = None) -> str:
+    """'Lecer X30N6' -> 'Letra del Tesoro que ajusta por inflación, vence en noviembre de 2026'."""
+    a = activo.strip()
+    n = a.lower()
+    vence = ""
+    if vto:
+        try:
+            f = dt.date.fromisoformat(vto)
+            vence = f", vence en {MESES[f.month - 1]} de {f.year}"
+        except ValueError:
+            pass
+    usd = "u$s" in n or "usd" in n or "dolar" in n or "dólar" in n
+    m = re.match(r"(?:pzo|plazo) ?fi\w*\s*(?:\$|u\$s|usd)?\s*(?:bco\.?|banco)?\s*(.*)", a, re.I)
+    if m:
+        banco = m.group(1).strip()
+        for x, y in ((r"\bRi$", "Río"), (r"\bNacion\b", "Nación"), (r"\bNvo\b", "Nuevo"), (r"\bBco\b", "Banco"),
+                     (r"\bIndus$", "Industrial"), (r"\bCdad\b", "Ciudad"), (r"\bBs\.? ?As\.?", "Buenos Aires")):
+            banco = re.sub(x, y, banco)
+        return f"Plazo fijo en {'dólares' if usd else 'pesos'} en el Banco {banco}".replace("Banco Banco", "Banco")
+    if "caucion" in n or "caución" in n or "pase colocador" in n:
+        return f"Préstamo de 1 a 7 días en la bolsa, en {'dólares' if usd else 'pesos'} (caución)"
+    if n.startswith("fci ") or re.search(r" - clase [a-z0-9]", n):
+        return "Otro fondo: " + re.sub(r"^FCI\s+", "", a, flags=re.I)
+    if n.startswith("on "):
+        return "Deuda de la empresa " + re.sub(r"\s+(C|Clase|Serie)\s*\w+.*$", "", a[3:], flags=re.I).strip()
+    textos = {
+        "Inflación (CER)": "Bono o letra del Tesoro que ajusta por inflación",
+        "Tasa fija (Tesoro)": "Letra del Tesoro que paga una tasa fija",
+        "Tasa TAMAR": "Bono que paga la tasa TAMAR de los bancos",
+        "Dólar linked": "Letra del Tesoro atada al dólar oficial",
+        "Bonos duales (tasa fija o TAMAR)": "Bono dual del Tesoro (paga tasa fija o TAMAR, la que sea mayor)",
+        "Bonos en dólares": "Bono del Estado argentino en dólares",
+        "Cheques, pagarés y deuda PyME": "Cheques y pagarés de empresas",
+    }
+    if atado in textos:
+        return textos[atado] + vence
+    if atado == "Acciones argentinas":
+        return "Acciones de " + re.sub(r"\s+S\.?A\.?.*$", "", a)
+    if atado == "Acciones del exterior":
+        return "Acciones del exterior: " + a
+    return a + vence
+
+
 def frase(tipo: str, atado: dict) -> str:
     partes = [(g, v) for g, v in atado.items() if g in QUE_ES and g not in ("Efectivo",) and v >= 10][:2]
     if not partes:
@@ -316,7 +363,9 @@ def main() -> int:
                 "fecha": cart.get("fecha_cartera"), "atado": atado, "n_activos": cart.get("n_activos"),
                 "vencimiento_promedio_anios": cart.get("vencimiento_promedio_anios"),
                 "vencimiento_cobertura_pct": cart.get("vencimiento_cobertura_pct"),
-                "principales": [{k: a.get(k) for k in ("activo", "ticker", "pct", "atado")} for a in cart.get("activos", [])[:10]],
+                "principales": [{**{k: a.get(k) for k in ("activo", "ticker", "pct", "atado", "vto")},
+                                 "en_palabras": en_palabras(a["activo"], a.get("atado"), a.get("vto"))}
+                                for a in cart.get("activos", [])[:10]],
             },
             "clases": [{"nombre": c["fondo"], "patrimonio": c.get("patrimonio"), "vcp": c.get("vcp"),
                         "honorarios_gerente": c.get("honorarios_gerente"), "honorarios_depositaria": c.get("honorarios_depositaria"),

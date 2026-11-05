@@ -197,10 +197,11 @@ const OBJ=[['todos','Ver todos','Los fondos de todos los tipos'],['pronto','La v
 const RIESGO_TXT=['','Muy bajo: casi no se mueve','Bajo: se mueve poco','Medio: puede bajar algunas semanas','Alto: puede bajar bastante algunos meses','Muy alto: puede caer fuerte y tardar en recuperarse'];
 const medidor=(n,grande)=>n?`<span class="riesgo rv${n}${grande?' grande':''}" role="img" aria-label="Riesgo ${n} de 5">${[1,2,3,4,5].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')}</span>`:'';
 
-let CAT=null, REF=null, objetivo='todos', texto='', orden='patrimonio', mostrar=30, periodo='1a', monto=100000;
+let FERIADOS=new Set(), CAT=null, REF=null, objetivo='todos', texto='', orden='patrimonio', mostrar=30, periodo='1a', monto=100000;
 async function cargar(){
-  const [c,r]=await Promise.all([fetch(BASE+'catalogo.json').then(x=>x.json()),fetch(BASE+'referencias.json').then(x=>x.json())]);
-  CAT=c;REF=r;$('#fecha').textContent='Datos al '+fecha(c.fecha);
+  const [c,r,fe]=await Promise.all([fetch(BASE+'catalogo.json').then(x=>x.json()),fetch(BASE+'referencias.json').then(x=>x.json()),
+    fetch(BASE+'feriados.json').then(x=>x.ok?x.json():null).catch(()=>null)]);
+  CAT=c;REF=r;FERIADOS=new Set((fe&&fe.feriados)||[]);$('#fecha').textContent='Datos al '+fecha(c.fecha);
   window.addEventListener('hashchange',ruta);ruta();
 }
 function ruta(){const id=Q.get('fondo')||decodeURIComponent(location.hash.slice(1));id?ficha(id):listado()}
@@ -272,6 +273,17 @@ function grafico(f){
    <p class="peq">Desde ${mes(t0)}. Si la línea del fondo termina arriba de la de ${T('inflacion','inflación')}, tu plata ganó poder de compra.</p></div>`;
 }
 
+/* Fecha en que cobrás si pedís el rescate hoy: suma días hábiles salteando fines de semana y feriados */
+const DIAS=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+function cobro(p){
+  const n=+p; if(isNaN(n)||p===''||p==null)return '';
+  const iso=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+  const habil=d=>d.getDay()%6!==0&&!FERIADOS.has(iso(d));
+  const d=new Date();d.setHours(12);
+  if(!habil(d))while(!habil(d))d.setDate(d.getDate()+1);
+  for(let i=0;i<n;){d.setDate(d.getDate()+1);if(habil(d))i++}
+  return n===0?'':`<br><span class="peq">Si la pedís hoy, la cobrás el ${DIAS[d.getDay()]} ${d.getDate()}/${d.getMonth()+1}</span>`;
+}
 async function ficha(id){
   $('#app').innerHTML='<p class="peq">Cargando ficha…</p>';
   let f;
@@ -315,7 +327,7 @@ async function ficha(id){
       <div class="leyenda">${atado.map((a,i)=>`<div><i style="background:${a[1]>0?colores[i%8]:'transparent'}"></i><span>${glos(a[0])}</span><span class="num">${nf(a[1],1)}%</span></div>`).join('')}</div>
       <p class="peq">Según la cartera al ${fecha(c.fecha)} que el fondo informó a la CNV (${c.n_activos} inversiones en total).${c.vencimiento_promedio_anios!=null&&c.vencimiento_cobertura_pct>=30?` Lo que tiene fecha de ${T('vencimiento','vencimiento')} vence en promedio en ${c.vencimiento_promedio_anios<1?nf(c.vencimiento_promedio_anios*12,0)+' meses':nf(c.vencimiento_promedio_anios,1)+' años'}.`:''}</p></div>
     <div class="grid2">
-      <div class="bloque"><h3>Sus inversiones más grandes</h3><table><tbody>${c.principales.slice(0,8).map(t=>`<tr><td>${esc(t.activo)}</td><td class="num">${nf(t.pct,1)}%</td></tr>`).join('')}</tbody></table></div>
+      <div class="bloque"><h3>Sus inversiones más grandes</h3><table><tbody>${c.principales.slice(0,8).map(t=>`<tr><td>${esc(t.en_palabras||t.activo)}${t.en_palabras&&t.en_palabras!==t.activo?`<br><span class="peq">${esc(t.activo)}</span>`:''}</td><td class="num">${nf(t.pct,1)}%</td></tr>`).join('')}</tbody></table></div>
       <div class="bloque"><h3>${T('flujo','Plata que entró o salió')}</h3>${fl==null?'<p class="peq">Sin dato.</p>':`<p class="dato num ${fl>=0?'pos':'neg'}">${fl>=0?'+':'−'} ${plata(Math.abs(fl),f.moneda)}</p>
         <p class="peq">En ${flTxt} la gente ${fl>=0?'puso':'retiró'} esa plata de más, sin contar lo que ganó o perdió el fondo.</p>`}
         <h3 style="margin-top:8px">${T('patrimonio','Cuánto maneja')}</h3><p class="dato num" style="font-size:1.2rem">${plata(f.patrimonio,f.moneda)}</p>
@@ -323,7 +335,7 @@ async function ficha(id){
     </div>`:`<div class="bloque"><h3>En qué invierte</h3><p class="peq">Este fondo todavía no tiene una cartera publicada en la CNV.</p>
       <h3 style="margin-top:8px">${T('patrimonio','Cuánto maneja')}</h3><p class="dato num" style="font-size:1.2rem">${plata(f.patrimonio,f.moneda)}</p></div>`}
     <div class="bloque"><h3>Lo práctico</h3><table><tbody>
-      <tr><td>${T('rescate','Si querés sacar la plata')}</td><td>te la devuelven ${plazo(f.plazo_rescate)}${X.rescate&&X.rescate.ejemplo?`<br><span class="peq">Si la pedís hoy, la cobrás el ${fecha(X.rescate.ejemplo.cobro)}</span>`:''}</td></tr>
+      <tr><td>${T('rescate','Si querés sacar la plata')}</td><td>te la devuelven ${plazo(f.plazo_rescate)}${cobro(f.plazo_rescate)}</td></tr>
       <tr><td>${T('costo','Costo anual')}</td><td class="num">${costo==null?'s/d':(f.clases.length>1?'desde ':'')+nf(costo,2)+'%'}</td></tr>
       <tr><td>${T('depositaria','Quién guarda la plata')}</td><td>${esc(f.depositaria||'s/d')}</td></tr></tbody></table>
       ${X.costo&&X.costo.texto?`<p class="peq">${esc(X.costo.texto)}</p>`:''}
