@@ -51,3 +51,8 @@ def test_sin_cartera():
     except ValueError:
         return
     raise AssertionError("debió fallar")
+
+
+def test_nombre_clave_clase_sin_guion():
+    assert c.nombre_clave("Pellegrini Liquidez Pesos Clase C") == "pellegrini liquidez pesos"
+    assert c.nombre_clave("Fondo Clase Ley 27.743") != "fondo"
