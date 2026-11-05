@@ -148,7 +148,7 @@ def rendimientos() -> int:
     f0 = orden[-1]
     hoy = cargar(fechas[f0])
 
-    tolerancias = {"7d": 3, "30d": 6, "90d": 15, "1a": 15, "2a": 31, "5a": 45, "anio": 10}
+    tolerancias = {"7d": 3, "30d": 6, "90d": 20, "1a": 15, "2a": 31, "5a": 45, "anio": 10}
     objetivos = {k: f0 - dt.timedelta(days=d) for k, d in PERIODOS.items()}
     objetivos["anio"] = dt.date(f0.year - 1, 12, 31)
     cache: dict[dt.date, dict] = {}
