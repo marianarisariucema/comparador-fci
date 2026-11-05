@@ -1,0 +1,13 @@
+{
+  "name": "fondos-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "preparar": "node preparar.mjs",
+    "desplegar": "node preparar.mjs && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.150.0"
+  }
+}

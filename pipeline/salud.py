@@ -45,6 +45,7 @@ MAX_RELANZAMIENTOS_POR_DIA = 2
 # Workflow que vuelve a generar cada cosa.
 WF_DIARIO = "datos-diarios.yml"
 WF_CARTERAS = "carteras-semanales.yml"
+WF_API = "api-desplegar.yml"
 
 
 @dataclass
@@ -378,7 +379,7 @@ class GitHub:
         return r.json() if r.text.strip() else {}
 
     def corridas(self, workflow: str, n: int = 10) -> list[dict]:
-        return self.api("GET", f"/actions/workflows/{workflow}/runs", params={"per_page": n}).get("workflow_runs", [])
+        return self.api("GET", f"/actions/workflows/{workflow}/runs", params={"per_page": n, "branch": "main"}).get("workflow_runs", [])
 
     def relanzar(self, workflow: str, rama: str = "main") -> None:
         self.api("POST", f"/actions/workflows/{workflow}/dispatches", json={"ref": rama})
@@ -386,7 +387,9 @@ class GitHub:
 
 def chequear_workflows(gh: GitHub) -> list[Chequeo]:
     out = []
-    for wf, nombre in [(WF_DIARIO, "Workflow de datos diarios"), (WF_CARTERAS, "Workflow de carteras")]:
+    # "Publicar API" termina en verde (con un aviso) mientras no estén los secretos de Cloudflare: no alerta.
+    for wf, nombre in [(WF_DIARIO, "Workflow de datos diarios"), (WF_CARTERAS, "Workflow de carteras"),
+                       (WF_API, "Workflow que publica la API")]:
         c = Chequeo(f"wf_{wf.split('.')[0]}", nombre)
         try:
             runs = gh.corridas(wf)

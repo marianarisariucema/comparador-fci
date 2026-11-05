@@ -20,6 +20,7 @@ from pathlib import Path
 
 import requests
 
+from cruce import Cruce
 from red import pedir
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -208,11 +209,23 @@ def main() -> int:
 
     salida, activos = {}, collections.defaultdict(lambda: {"fondos": [], "monto_estimado": 0.0})
     con_ticker = sin_ticker = 0
+    # Cruce CNV -> CAFCI por gestora y nombre (ver cruce.py)
+    carteras = {}
     for ruta in sorted((DATA / "carteras" / "ultima").glob("*.json")):
         cart = leer(ruta)
-        if not cart or not cart.get("activos"):
-            continue
-        f = fondos.get(cart.get("clave"))
+        if cart and cart.get("activos"):
+            carteras[str(cart.get("id_cnv") or ruta.stem)] = cart
+    cruces = Cruce(clases).todas(carteras)
+    resumen_cruce = collections.Counter(m for _, m in cruces.values())
+    escribir(DATA / "analisis" / "cruce.json", {
+        "resumen": dict(resumen_cruce),
+        "sin_cruce": sorted(({"id_cnv": i, "fondo": carteras[i].get("fondo"), "gerente": carteras[i].get("gerente"), "motivo": m}
+                             for i, (k, m) in cruces.items() if not k), key=lambda x: x["gerente"] or ""),
+    })
+    print("Cruce CNV-CAFCI:", dict(resumen_cruce))
+    for idc, cart in carteras.items():
+        cart["clave"] = cruces[idc][0] or cart.get("clave")
+        f = fondos.get(cruces[idc][0])
         # Algunas gestoras cargan mal los porcentajes en la CNV (suman miles de %): se marca y no se usa
         suma = sum(a.get("pct_pn") or 0 for a in cart["activos"])
         if suma > 130:
