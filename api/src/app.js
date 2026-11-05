@@ -14,6 +14,7 @@ const SEGURIDAD = {
   'Referrer-Policy': 'strict-origin-when-cross-origin',
   'X-Frame-Options': 'DENY',
   'Cross-Origin-Resource-Policy': 'cross-origin',
+  'X-Robots-Tag': 'noindex, nofollow',   // que los buscadores no indexen los datos
 };
 
 function respuesta(cuerpo, status = 200, extra = {}) {

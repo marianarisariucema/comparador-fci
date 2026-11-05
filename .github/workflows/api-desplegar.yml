@@ -58,6 +58,11 @@ jobs:
         run: |
           npx esbuild ../embed/fondos-fci.js --minify --format=esm --target=es2020 --outfile="$RUNNER_TEMP/fondos-fci.min.js"
           WIDGET_MIN="$RUNNER_TEMP/fondos-fci.min.js" node preparar.mjs
+      - name: Probar el componente en un navegador (con los datos de hoy)
+        run: |
+          npm i --no-save --prefix "$RUNNER_TEMP/pw" playwright@1.63.0
+          "$RUNNER_TEMP/pw/node_modules/.bin/playwright" install --with-deps chromium
+          NODE_PATH="$RUNNER_TEMP/pw/node_modules" node api/test/navegador.e2e.mjs
       - name: ¿Hay cuenta de Cloudflare?
         id: cf
         env:

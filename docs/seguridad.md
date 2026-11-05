@@ -24,7 +24,7 @@ Los datos de base son públicos (CAFCI, CNV, BCRA), así que nadie puede impedir
    - **Huella en cada respuesta** (`_licencia` y encabezado `X-Licencia`): si los datos aparecen copiados en otro lado, la huella dice de qué cliente salieron.
    - Los archivos de datos no se pueden pedir directo: `/datos/...` devuelve 404.
    - Registro de cada pedido (cliente, ruta, IP) en los logs de Cloudflare.
-   - 23 pruebas automáticas que corren antes de cada publicación (`api/test/`).
+   - 22 pruebas automáticas que corren antes de cada publicación (`api/test/`).
 2. **iframe solo para los dominios del cliente** (`frame-ancestors`): el navegador lo bloquea en cualquier otro sitio.
 3. **Componente sin dependencias externas** y con Shadow DOM: no carga código de terceros (nadie puede meter código malicioso por ahí) y no interfiere con el sitio de la ALyC.
 4. **Componente minificado** en la versión publicada, con aviso de licencia.
