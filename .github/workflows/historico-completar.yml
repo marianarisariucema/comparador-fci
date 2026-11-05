@@ -39,5 +39,5 @@ jobs:
           git add data
           git diff --cached --quiet && echo "Sin cambios" && exit 0
           git commit -m "Histórico ArgentinaDatos $(date -u +%F)"
-          git pull --rebase
+          git pull --rebase -X theirs
           git push
