@@ -61,6 +61,9 @@ jobs:
       - name: Datos para explicar cada fondo (movimiento del día, costo, señales, rescate, parecidos)
         continue-on-error: true
         run: python pipeline/experiencia.py
+      - name: Comparador de bonos (precio, tasa, duración y qué fondos tiene cada uno)
+        continue-on-error: true
+        run: python pipeline/bonos.py
       - name: Guardar datos
         run: |
           git config user.name "datos-bot"

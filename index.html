@@ -210,11 +210,30 @@ footer{font-size:.76rem;color:var(--muted);text-align:center;max-width:62ch;just
 .legal summary{cursor:pointer;list-style:none;text-decoration:underline;text-underline-offset:2px}
 .legal summary::-webkit-details-marker{display:none}
 .legal p{margin:6px 0 0}
+/* comparador de bonos */
+.nav{display:flex;gap:4px;margin-left:auto}
+.nav a{color:var(--brand-ink);text-decoration:none;font-size:.86rem;padding:4px 12px;border-radius:999px;opacity:.8}
+.nav a[aria-current="page"]{background:rgba(255,255,255,.18);opacity:1;font-weight:600}
+.nav a[hidden],.nav[hidden]{display:none}
+.top-in small{white-space:nowrap}
+@media (max-width:480px){.top-in{flex-wrap:wrap}.top-in small{width:100%;order:3}}
+.bonos .item{grid-template-columns:auto 1fr auto;align-items:center;cursor:pointer}
+.bonos .item input{width:18px;height:18px;accent-color:var(--accent);margin:0}
+.bonos .item:has(input:checked){background:var(--brand-soft)}
+.bonos .item:has(input:disabled){opacity:.55;cursor:default}
+.bonos .item .r{grid-row:auto}
+.bcmp table{min-width:0;table-layout:fixed}.bcmp td,.bcmp th{padding:10px 12px;text-align:left!important;vertical-align:top}
+.bcmp th{font-size:1rem;text-transform:none;letter-spacing:0;color:var(--ink)}
+.bcmp td:first-child{color:var(--muted);font-size:.84rem;width:30%}
+.bcmp .chip{background:var(--brand-soft);color:var(--accent)}
+.bcmp ul{margin:4px 0 0;padding:0;list-style:none;display:grid;gap:4px;font-size:.86rem}
+.bcmp ul a{color:inherit}
+@media (max-width:520px){.bcmp td:first-child{width:28%;font-size:.78rem}.bcmp td,.bcmp th{padding:8px 6px}}
 @media (prefers-reduced-motion:no-preference){.barra span,.fill{transition:width .5s ease}}
 </style>
 </head>
 <body>
-<header class="top"><div class="top-in"><b id="marca">Fondos explicados</b><small id="fecha"></small></div></header>
+<header class="top"><div class="top-in"><b id="marca">Fondos explicados</b><nav class="nav" id="nav" aria-label="Secciones"><a href="#" data-n="fondos">Fondos</a><a href="#bonos" data-n="bonos" hidden>Bonos</a></nav><small id="fecha"></small></div></header>
 <main id="app"><p class="peq">Cargando fondos…</p></main>
 <div id="glosa" class="card" role="dialog" aria-live="polite" aria-label="Qué significa"><button class="cerrar" type="button" aria-label="Cerrar">×</button><b></b><p></p></div>
 <script>
@@ -299,16 +318,19 @@ async function cargar(){
   const ids=(Q.get('fondos')||'').split(',').map(s=>s.trim()).filter(Boolean), ges=norm(Q.get('gestora')||'');
   if(ids.length||ges){const set=new Set(ids);c.fondos=c.fondos.filter(f=>set.has(f.id)||(ges&&norm(f.gerente).includes(ges)));c.cantidad=c.fondos.length}
   CAT=c;REF=r;FERIADOS=new Set((fe&&fe.feriados)||[]);$('#fecha').textContent='Datos al '+fecha(c.fecha);
+  if(EMBED)$('#nav').hidden=true;else cargarBonos().then(b=>{if(b&&b.bonos&&b.bonos.length)$('[data-n="bonos"]').hidden=false});
   window.addEventListener('hashchange',ruta);ruta();
 }
-function ruta(){const id=Q.get('fondo')||decodeURIComponent(location.hash.slice(1));barra();id==='comparar'?comparar():id?ficha(id):listado()}
+function ruta(){const id=Q.get('fondo')||decodeURIComponent(location.hash.slice(1));const enBonos=id==='bonos'||id.startsWith('bonos/');
+  $$('#nav a').forEach(a=>{if(a.dataset.n===(enBonos?'bonos':'fondos'))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
+  barra();enBonos?bonos(id.slice(6)):id==='comparar'?comparar():id?ficha(id):listado()}
 /* ---------- Comparar hasta 3 fondos ---------- */
 let CMP=[];try{CMP=JSON.parse(localStorage.getItem('fci_comparar')||'[]').slice(0,3)}catch(e){}
 const guardarCmp=()=>{try{localStorage.setItem('fci_comparar',JSON.stringify(CMP))}catch(e){}barra()};
 function toggleCmp(id){CMP=CMP.includes(id)?CMP.filter(x=>x!==id):[...CMP,id].slice(-3);guardarCmp()}
 function barra(){
   let b=$('#cmpbar');if(!b){b=document.createElement('div');b.id='cmpbar';document.body.appendChild(b)}
-  b.hidden=EMBED||!CMP.length||location.hash==='#comparar';
+  b.hidden=EMBED||!CMP.length||location.hash==='#comparar'||location.hash.startsWith('#bonos');
   b.innerHTML=`<span>${CMP.length} ${CMP.length===1?'fondo elegido':'fondos elegidos'}</span><a href="#comparar">Comparar</a>`;
   const bt=$('#btncmp');if(bt){const on=CMP.includes(bt.dataset.id);bt.setAttribute('aria-pressed',on);bt.textContent=on?'✓ Elegido para comparar':'＋ Comparar con otros'}
 }
@@ -661,6 +683,73 @@ async function ficha(id){
   };
   $$('[data-p]').forEach(b=>b.onclick=()=>{periodo=b.dataset.p;$$('[data-p]').forEach(x=>x.setAttribute('aria-pressed',x===b));pinta()});
   pinta();window.scrollTo(0,0);
+}
+/* ---------- Comparador de bonos: tildá dos y miralos lado a lado ---------- */
+let BONOS, famB='', textoB='', SELB=[];
+const cargarBonos=()=>BONOS!==undefined?Promise.resolve(BONOS):fetch(BASE+'bonos.json').then(x=>x.ok?x.json():null).catch(()=>null).then(j=>BONOS=j);
+const FAM_B={'Tasa fija':['Tasa fija','Sabés desde hoy cuánto vas a cobrar en pesos.','Pesos'],
+  'Inflación (CER)':['Ajustan por inflación','Tu plata sigue a la inflación y suma una tasa extra.','Pesos, ajustados por inflación (CER)'],
+  'Dólar linked':['Atados al dólar','Se pagan en pesos, al valor del dólar oficial.','Pesos, al valor del dólar oficial'],
+  'Bonos en dólares':['En dólares','Pagan intereses y capital en dólares.','Dólares']};
+const tasaB=b=>({'Tasa fija':nf(b.tasa,1)+'% por año','Inflación (CER)':'Inflación + '+nf(b.tasa,1)+'%','Dólar linked':'Dólar + '+nf(b.tasa,1)+'%','Bonos en dólares':nf(b.tasa,1)+'% por año en US$'}[b.familia]||nf(b.tasa,1)+'%');
+const faltaB=d=>d<45?d+' días':d<730?Math.round(d/30.4)+' meses':nf(d/365,1)+' años';
+async function bonos(sel){
+  document.title='Comparar bonos';
+  $('#app').innerHTML='<p class="peq">Cargando bonos…</p>';
+  const D=await cargarBonos();
+  if(!D||!D.bonos||!D.bonos.length){$('#app').innerHTML='<p class="vacio">Todavía no tenemos los precios de los bonos. Volvé mañana.</p>';return}
+  const por=Object.fromEntries(D.bonos.map(b=>[b.ticker,b]));
+  if(sel)SELB=sel.split(',').map(s=>s.trim().toUpperCase()).filter(t=>por[t]).slice(0,2);
+  $('#app').innerHTML=`
+  <section class="hero"><h1>Compará bonos</h1>
+    <p>Tildá dos y miralos lado a lado: cuánto rinden, cuándo vencen y qué fondos los tienen.</p></section>
+  <section id="bcmp" aria-live="polite"></section>
+  <section class="bloque bonos">
+    <div class="buscar"><input id="qb" type="search" placeholder="Buscá por código o nombre (ej. GD30, Boncer)" aria-label="Buscar bono" value="${esc(textoB)}"></div>
+    <div class="tabs" role="group" aria-label="Tipo de bono">${[['','Todos'],...Object.entries(FAM_B).map(([k,v])=>[k,v[0]])].map(([k,n])=>`<button type="button" data-fb="${esc(k)}" aria-pressed="${famB===k}">${n}</button>`).join('')}</div>
+    <p class="peq" id="famtxt"></p>
+    <div class="card lista" id="listab"></div>
+  </section>
+  <details class="legal"><summary>Aviso legal</summary><p>Información con fines educativos: no es una recomendación de inversión. Tasas calculadas con precios de cierre de BYMA${D.precios?' ('+esc(D.precios.replace(/^Cierre BYMA del /,''))+')':''}; cambian con cada operación. Tenencias de los fondos según las carteras que informan a la CNV.</p></details>`;
+  const marca=()=>history.replaceState(null,'','#bonos'+(SELB.length?'/'+SELB.join(','):''));
+  const pintaLista=()=>{
+    const t=norm(textoB);
+    const ls=D.bonos.filter(b=>(!famB||b.familia===famB)&&(!t||norm(b.ticker+' '+b.nombre).includes(t)));
+    $('#famtxt').textContent=famB?FAM_B[famB][1]:'';
+    $('#famtxt').hidden=!famB;
+    $('#listab').innerHTML=ls.length?ls.map(b=>{const on=SELB.includes(b.ticker),off=!on&&SELB.length>=2;
+      return `<label class="item"><input type="checkbox" data-b="${b.ticker}" ${on?'checked':''} ${off?'disabled':''} aria-label="Comparar ${esc(b.ticker)}">
+        <span><span class="n">${esc(b.ticker)}</span> <span class="g">${esc(b.nombre)}</span><br><span class="chips"><span class="chip">${esc(FAM_B[b.familia]?FAM_B[b.familia][0]:b.familia)}</span><span class="chip">vence en ${faltaB(b.dias)}</span></span></span>
+        <span class="r"><span class="num">${tasaB(b)}</span></span></label>`}).join(''):'<p class="vacio">No encontramos bonos con ese nombre.</p>';
+    $$('[data-b]').forEach(i=>i.onchange=()=>{const k=i.dataset.b;SELB=i.checked?[...SELB,k].slice(-2):SELB.filter(x=>x!==k);marca();pintaLista();pintaCmp(SELB.length===2)});
+  };
+  const pintaCmp=(mover)=>{
+    const z=$('#bcmp'),bs=SELB.map(k=>por[k]).filter(Boolean);
+    if(bs.length<2){z.innerHTML=bs.length?`<p class="contexto peq">Elegiste <b>${esc(bs[0].ticker)}</b>. Tildá otro para compararlos.</p>`:'';return}
+    const [a,b]=bs, igual=a.familia===b.familia;
+    const gana=(f,alto)=>{const x=f(a),y=f(b);if(x==null||y==null||x===y)return -1;return (alto?x>y:x<y)?0:1};
+    const chip=(i,j,txt)=>i===j?` <span class="chip">${txt}</span>`:'';
+    const iT=igual?gana(x=>x.tasa,true):-1, iM=gana(x=>x.md,false);
+    const precio=x=>x.precio==null?'s/d':`<span class="num">${x.moneda==='USD'?'US$ ':'$ '}${nf(x.precio,x.precio>=1000?0:2)}</span><br><span class="peq">cada 100 de valor nominal</span>`;
+    const fondos=x=>x.fondos_cantidad?`<b>${x.fondos_cantidad} ${x.fondos_cantidad===1?'fondo':'fondos'}</b>${x.fondos_cantidad>1?', los que más tienen:':''}<ul>${x.fondos.slice(0,5).map(f=>`<li><a href="#${encodeURIComponent(f.id)}">${esc(f.nombre)}</a> <span class="num peq">${nf(f.pct,1)}%</span></li>`).join('')}</ul>`:'<span class="peq">Ningún fondo lo informa con este código.</span>';
+    const filas=[
+      ['Qué es',x=>esc(x.nombre)+'<br><span class="peq">'+esc(FAM_B[x.familia]?FAM_B[x.familia][1]:'')+'</span>'],
+      ['Te paga en',x=>esc(FAM_B[x.familia]?FAM_B[x.familia][2]:x.moneda)+(x.ley?`<br><span class="peq">Ley ${x.ley==='NY'?'Nueva York':/^arg/i.test(x.ley)?'argentina':esc(x.ley)}</span>`:'')],
+      ['Precio',precio],
+      [T('tir','Tasa a la que rinde'),(x,i)=>`<span class="num">${tasaB(x)}</span>${chip(i,iT,'rinde más')}`],
+      [T('duracion','Duración'),(x,i)=>x.md==null?'s/d':`<span class="num">${nf(x.md,2)}</span>${chip(i,iM,'se mueve menos')}`],
+      [T('vencimiento','Vence'),x=>`${fecha(x.vto)}<br><span class="peq">en ${faltaB(x.dias)}</span>`],
+      ['Fondos que lo tienen',fondos],
+    ];
+    z.innerHTML=`<div class="card scroll bcmp"><table><thead><tr><th></th>${bs.map(x=>`<th>${esc(x.ticker)}<br><button type="button" class="quitar" data-qb="${x.ticker}">quitar</button></th>`).join('')}</tr></thead>
+      <tbody>${filas.map(([n,f])=>`<tr><td>${n}</td>${bs.map((x,i)=>`<td>${f(x,i)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
+      ${igual?'':`<p class="peq" style="margin-top:8px">Son de tipos distintos, así que la tasa se lee distinto: ${esc(a.ticker)} rinde ${esc(a.tasa_tipo||'')} y ${esc(b.ticker)}, ${esc(b.tasa_tipo||'')}.</p>`}`;
+    $$('[data-qb]').forEach(q=>q.onclick=()=>{SELB=SELB.filter(x=>x!==q.dataset.qb);marca();pintaLista();pintaCmp()});
+    if(mover)z.scrollIntoView({behavior:'smooth',block:'start'});
+  };
+  $('#qb').oninput=e=>{textoB=e.target.value;pintaLista()};
+  $$('[data-fb]').forEach(x=>x.onclick=()=>{famB=x.dataset.fb;$$('[data-fb]').forEach(y=>y.setAttribute('aria-pressed',y===x));pintaLista()});
+  pintaLista();pintaCmp();window.scrollTo(0,0);
 }
 cargar().catch(()=>{$('#app').innerHTML='<p class="vacio">No se pudieron cargar los datos. Probá de nuevo en un rato.</p>'});
 </script>

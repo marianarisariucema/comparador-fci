@@ -26,3 +26,7 @@ Pruebas: `pip install -r pipeline/requirements.txt pytest && pytest pipeline`.
 `pipeline/carteras_cnv.py` lee la cartera de cada fondo de su ficha pública en la CNV (`cnv.gov.ar/SitioWeb/FondosComunesInversion/DetallesFCI/{id}`, sección "Composición Semanal Cartera"): totales por tipo de activo y cada activo con su % del patrimonio. El listado de fondos sale de `GetFCIPorTipo`. Escribe `data/carteras/ultima/<id>.json` y un histórico por fecha. Lo corre `.github/workflows/carteras-semanales.yml` los sábados, con 1 segundo de pausa entre fondos.
 
 Planilla y carteras se cruzan por el campo `clave` (nombre del fondo normalizado, sin prefijo de la CNV, "F.C.I." ni "Clase").
+
+## Comparador de bonos
+
+`pipeline/tasas.js` lee las tablas de la calculadora de renta fija (precios de cierre BYMA) y `pipeline/bonos.py` arma `data/web/bonos.json`: un renglón por bono o letra con precio, tasa, duración, vencimiento y los fondos que lo tienen según las carteras de la CNV. La página lo muestra en `#bonos`: se tildan dos y se ven lado a lado (link para compartir: `#bonos/GD30,AL30`). Corre en la misma tanda nocturna de `datos-diarios.yml`.
