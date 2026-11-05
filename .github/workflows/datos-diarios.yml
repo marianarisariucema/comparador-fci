@@ -25,6 +25,12 @@ jobs:
       - name: Indicadores BCRA
         continue-on-error: true
         run: python pipeline/bcra.py
+      - name: Análisis (atado a, subtipo, activos, gestoras, precios BYMA de la calculadora)
+        continue-on-error: true
+        run: python pipeline/analisis.py
+      - name: Rendimientos por período
+        continue-on-error: true
+        run: python pipeline/historico.py
       - name: Guardar datos
         run: |
           git config user.name "datos-bot"
@@ -32,4 +38,5 @@ jobs:
           git add data
           git diff --cached --quiet && echo "Sin cambios" && exit 0
           git commit -m "Datos CAFCI $(date -u +%F)"
+          git pull --rebase
           git push

@@ -1,0 +1,43 @@
+name: Completar histórico (ArgentinaDatos)
+
+# Se corre a mano una vez (Actions → Completar histórico → Run workflow).
+# Solo baja las fechas que faltan, así que se puede volver a correr si se corta.
+on:
+  workflow_dispatch:
+    inputs:
+      dias:
+        description: "Días hacia atrás con dato diario"
+        default: "550"
+      anios:
+        description: "Años hacia atrás con dato de fin de mes"
+        default: "5"
+
+permissions:
+  contents: write
+
+jobs:
+  historico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+      - run: pip install -r pipeline/requirements.txt
+      - name: Bajar histórico
+        timeout-minutes: 300
+        continue-on-error: true
+        run: python pipeline/historico.py --completar --dias ${{ github.event.inputs.dias || '550' }} --anios ${{ github.event.inputs.anios || '5' }}
+      - name: Guardar datos
+        if: always()
+        run: |
+          git config user.name "datos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && echo "Sin cambios" && exit 0
+          git commit -m "Histórico ArgentinaDatos $(date -u +%F)"
+          git pull --rebase
+          git push
