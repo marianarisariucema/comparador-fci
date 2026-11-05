@@ -39,5 +39,9 @@ jobs:
           git add data
           git diff --cached --quiet && echo "Sin cambios" && exit 0
           git commit -m "Histórico ArgentinaDatos $(date -u +%F)"
-          git pull --rebase -X theirs
-          git push
+          # Si otra corrida guardó al mismo tiempo, reintenta (hasta 4 veces)
+          for i in 1 2 3 4; do
+            git pull --rebase -X theirs && git push && exit 0
+            echo "Push falló, reintento en $((i * 15)) s"; sleep $((i * 15))
+          done
+          exit 1

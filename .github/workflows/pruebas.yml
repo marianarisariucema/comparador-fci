@@ -1,0 +1,30 @@
+name: Pruebas
+
+# Corre las pruebas del pipeline antes de que un cambio llegue a main,
+# así un error de código no rompe la corrida de la noche.
+on:
+  pull_request:
+    paths: ["pipeline/**", ".github/workflows/**"]
+  push:
+    branches: [main]
+    paths: ["pipeline/**"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+      - run: pip install -r pipeline/requirements.txt pytest
+      - run: pytest -q pipeline
+      - name: El chequeo de salud corre sobre los datos actuales
+        run: python pipeline/salud.py --sin-red

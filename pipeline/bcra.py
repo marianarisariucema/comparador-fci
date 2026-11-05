@@ -19,6 +19,8 @@ from pathlib import Path
 
 import requests
 
+from red import pedir
+
 # v3.0 respondió 410 Gone el 2026-11-04; se prueba v4.0 primero.
 BASES = ["https://api.bcra.gob.ar/estadisticas/v4.0/monetarias",
          "https://api.bcra.gob.ar/estadisticas/v3.0/monetarias"]
@@ -49,7 +51,7 @@ def norm(t: str) -> str:
 
 
 def get(sesion, url, **params):
-    r = sesion.get(url, params=params or None, timeout=60)
+    r = pedir(url, sesion=sesion, params=params or None)
     r.raise_for_status()
     return r.json()
 
@@ -90,6 +92,12 @@ def main() -> int:
         try:
             serie = puntos(get(s, f"{BASE}/{v['idVariable']}", desde=desde.isoformat(), hasta=hasta.isoformat()))
             serie.sort(key=lambda p: p["fecha"] or "")
+            previa = DATA / f"{clave}.json"
+            n_previa = len(json.loads(previa.read_text(encoding="utf-8")).get("serie", [])) if previa.exists() else 0
+            if len(serie) < 0.5 * n_previa:
+                # Respuesta incompleta: se conserva la serie que ya estaba.
+                print(f"  {clave}: vinieron {len(serie)} puntos y había {n_previa}; conservo la anterior", file=sys.stderr)
+                continue
             (DATA / f"{clave}.json").write_text(json.dumps({
                 "clave": clave, "id_bcra": v["idVariable"], "descripcion": v.get("descripcion"),
                 "fuente": f"BCRA - API de Estadísticas ({BASE})", "serie": serie,
