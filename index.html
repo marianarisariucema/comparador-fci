@@ -84,6 +84,14 @@ p{margin:0}
 .cajon{font:inherit;font-size:.95rem;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:14px;cursor:pointer;box-shadow:var(--shadow)}
 .cajon:hover{border-color:var(--accent);background:var(--brand-soft)}
 .carpeta .cuenta{color:var(--accent);font-weight:600;margin-top:4px}
+.extra{margin:8px 0 0;font-size:.93rem}
+.gest{padding:0}.gst{border-bottom:1px solid var(--line)}.gst:last-child{border-bottom:0}
+.gst summary{display:grid;grid-template-columns:2em 1fr 30% 3.2em;gap:10px;align-items:center;padding:10px 14px;cursor:pointer;list-style:none}
+.gst summary::-webkit-details-marker{display:none}.gn{display:grid;font-weight:600;font-size:.93rem}.gn small{font-weight:400}
+.gp{color:var(--muted);text-align:right}.gs{text-align:right;font-weight:600}
+.gb{height:8px;background:var(--sunk);border-radius:4px;overflow:hidden}.gb span{display:block;height:100%;background:var(--accent);border-radius:4px}
+.gd{padding:0 14px 12px 3.4em}.gd ul{margin:6px 0 0;padding-left:18px}
+@media(max-width:520px){.gst summary{grid-template-columns:1.6em 1fr 3em}.gb{display:none}}
 .plegado{padding:12px 16px}.plegado summary{cursor:pointer;font-weight:600;font-size:.92rem}
 /* Versión compacta: el test y las carpetas no tienen que ocupar toda la pantalla */
 .hero{gap:4px}.hero h1{font-size:1.35rem}.hero p{font-size:.9rem;margin:0}
@@ -273,6 +281,7 @@ const G={
  on:['Obligación negociable (ON)','Un préstamo que le hacés a una empresa: te devuelve la plata con intereses en las fechas pactadas.'],
  caucion:['Caución','Un préstamo de muy corto plazo (de 1 a 7 días) con garantía, que se hace en la bolsa. Es de muy bajo riesgo.'],
  plazofijo:['Plazo fijo','Un depósito en un banco a un plazo y tasa fijos. Los fondos de mercado de dinero tienen muchos, en varios bancos.'],
+ premio:['Premio por el riesgo','Cuánto más que un plazo fijo ganó el fondo en el último año, por cada punto que subió y bajó en el camino (los expertos lo llaman índice de Sharpe). Sirve para comparar fondos del mismo tipo: entre dos que ganaron lo mismo, es mejor el que lo logró con menos sobresaltos.'],
  mm:['Money market (mercado de dinero)','Fondos que invierten en lo más seguro y corto: plazos fijos, cuentas remuneradas y cauciones. La plata se retira en el día.'],
  riesgo:['Nivel de riesgo','Cuánto varía el valor de tu inversión en el tiempo. A más riesgo, más potencial de rendimiento, con más subas y bajas en el camino.'],
  caida:['Mayor baja','La mayor diferencia, en el último año, entre el mejor valor del fondo y un valor posterior. Te da una idea de cuánto puede variar en el camino.'],
@@ -323,7 +332,7 @@ async function cargar(){
 }
 function ruta(){const id=Q.get('fondo')||decodeURIComponent(location.hash.slice(1));const enBonos=id==='bonos'||id.startsWith('bonos/');
   $$('#nav a').forEach(a=>{if(a.dataset.n===(enBonos?'bonos':'fondos'))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
-  barra();enBonos?bonos(id.slice(6)):id==='comparar'?comparar():id?ficha(id):listado()}
+  barra();enBonos?bonos(id.slice(6)):id==='comparar'?comparar():id==='gestoras'?gestoras():id?ficha(id):listado()}
 /* ---------- Comparar hasta 3 fondos ---------- */
 let CMP=[];try{CMP=JSON.parse(localStorage.getItem('fci_comparar')||'[]').slice(0,3)}catch(e){}
 const guardarCmp=()=>{try{localStorage.setItem('fci_comparar',JSON.stringify(CMP))}catch(e){}barra()};
@@ -411,6 +420,7 @@ function filtrados(){
     &&(perfilF.moneda==='dolares'?grupoTipo(f)==='dolar':f.moneda!=='USD'));
   else l=CAT.fondos.filter(f=>disponible(f)&&(!carpeta||CARPETAS[vista].de(f)===carpeta));
   if(orden==='rend')l=[...l].sort((a,b)=>(b.rend_1a??-1e9)-(a.rend_1a??-1e9));
+  if(orden==='premio')l=[...l].sort((a,b)=>(b.premio??-1e9)-(a.premio??-1e9));
   if(orden==='riesgo')l=[...l].sort((a,b)=>(a.riesgo_nivel??9)-(b.riesgo_nivel??9)||b.patrimonio-a.patrimonio);
   return l;
 }
@@ -461,6 +471,7 @@ function listado(){
   <section class="card test" id="test" aria-live="polite"></section>
   <section class="bloque" id="zona" aria-label="Fondos"></section>
   ${RES&&RES.grupos?`<details class="card plegado"><summary>Hacia dónde se movió la plata este mes</summary>${movida()}</details>`:''}
+  ${EMBED||Q.get('gestora')?'':`<a class="card plegado" href="#gestoras" style="display:block;font-weight:600;font-size:.92rem;text-decoration:none;color:inherit">Las administradoras de fondos más grandes →</a>`}
   <details class="legal"><summary>Aviso legal</summary><p>Información con fines educativos: no es una recomendación de inversión. Rendimientos pasados no garantizan rendimientos futuros. Fuentes: CAFCI, CNV, BCRA, ArgentinaDatos y BYMA.</p></details>`;
   test();zona();
 }
@@ -473,7 +484,7 @@ function zona(){
     ${enLista?`<div class="orden"><button type="button" class="volver" id="aCarpetas">← ${perfilF&&!texto?'Ver todas las carpetas':'Volver a las carpetas'}</button></div>
       <h3 style="margin:0">${titulo}</h3>${carpeta&&!texto&&!perfilF?`<p class="peq" style="margin:-4px 0 0">${esc((C.items.find(i=>i[0]===carpeta)||[])[2]||'')}</p>`:''}
       <div class="orden"><span class="peq" id="cuantos"></span>
-        <label class="peq">Ordenar por <select id="ord"><option value="patrimonio">Más patrimonio</option><option value="riesgo">Menos riesgo</option><option value="rend">Más rindieron en 12 meses</option></select></label></div>
+        <label class="peq">Ordenar por <select id="ord"><option value="patrimonio">Más patrimonio</option><option value="riesgo">Menos riesgo</option><option value="rend">Más rindieron en 12 meses</option><option value="premio">Mejor premio por el riesgo</option></select></label></div>
       <p class="peq" id="avisoOrden" hidden>Lo que más rindió el año pasado suele ser lo que más riesgo tiene, y no asegura que vuelva a rendir lo mismo.</p>
       <div class="card lista" id="lista"></div>
       <button class="mas" id="mas" type="button" hidden>Ver más fondos</button>`
@@ -491,6 +502,34 @@ function zona(){
 /* Portada: a dónde llevó la plata la gente en el último mes */
 const FRASE_G={'En dólares o atados al dólar':'fondos en dólares o atados al dólar','Money market y corto plazo':'money market y fondos de corto plazo','Renta fija en pesos':'renta fija en pesos','Acciones':'fondos de acciones','Mixtos y otros':'fondos mixtos y otros'};
 const corto=v=>{const a=Math.abs(v);return a>=1e12?nf(a/1e12,1)+' billones':a>=1e9?nf(a/1e9,0)+' mil M':nf(a/1e6,0)+' M'};
+/* Money market: cuánto ganás por día. Otros: cómo pagó el riesgo frente a fondos parecidos. */
+function extrasRend(f){
+  const d=f.por_dia,p=f.premio_riesgo;let h='';
+  if(d)h+=`<p class="extra">Con <b>${plata(d.monto,f.moneda)}</b> hoy ganás unos <b class="num pos">${plata(d.gana,f.moneda)}</b> por día, al ritmo de la última semana (${nf(d.tna,1)}% por año).</p>`;
+  if(p&&p.puesto){const top=p.puesto/p.de;
+    h+=`<p class="extra">${T('premio','Premio por el riesgo')}: de ${p.de} fondos parecidos, es el n.º ${p.puesto}. ${top<=.25?'Ganó bien para los sobresaltos que tuvo.':top>=.75?'Otros parecidos ganaron más con menos sobresaltos.':'Está en la mitad del grupo.'}</p>`}
+  return h;
+}
+/* Ranking de administradoras: cuánta plata maneja cada una y qué parte del mercado tiene */
+let GEST=null;
+async function gestoras(){
+  document.title='Administradoras de fondos · Fondos explicados';
+  const volver='<button class="volver" type="button" id="volver">← Todos los fondos</button>';
+  $('#app').innerHTML=volver+'<p class="peq">Cargando…</p>';
+  if(!GEST)GEST=await fetch(BASE+'gestoras.json').then(x=>x.ok?x.json():null).catch(()=>null);
+  if(!GEST){$('#app').innerHTML=volver+'<p class="vacio">Todavía no hay datos de administradoras.</p>';$('#volver').onclick=()=>{location.hash=''};return}
+  const L=GEST.gestoras,max=L[0].market_share_pct,top3=L.slice(0,3).reduce((s,g)=>s+g.market_share_pct,0);
+  $('#app').innerHTML=volver+`<section class="hero"><h1>Las administradoras de fondos</h1>
+    <p>Cada fondo lo maneja una administradora (en la jerga, "sociedad gerente"). Hay ${L.length}. Las tres más grandes manejan el ${nf(top3,0)}% de toda la plata invertida en fondos.</p></section>
+    <div class="card lista gest">${L.map(g=>`<details class="gst"><summary>
+      <span class="gp num">${g.puesto}</span><span class="gn">${esc(g.nombre)}<small class="peq">${g.cantidad_fondos} ${g.cantidad_fondos===1?'fondo':'fondos'} · ${plata(g.patrimonio)}</small></span>
+      <span class="gb"><span style="width:${Math.max(g.market_share_pct/max*100,1.5)}%"></span></span><span class="num gs">${nf(g.market_share_pct,g.market_share_pct<1?1:0)}%</span></summary>
+      <div class="gd"><p class="peq">${g.fuerte_en.length?'Su plata está más que nada en '+g.fuerte_en.map(x=>esc(x.tipo.toLowerCase())+' ('+nf(x.pct,0)+'%)').join(', ')+'.':''}
+        ${g.flujo_30d?` En el último mes la gente ${g.flujo_30d>0?'le puso':'le sacó'} <b class="${g.flujo_30d>0?'pos':'neg'}">${plata(Math.abs(g.flujo_30d))}</b>.`:''}</p>
+        <ul>${g.principales.map(f=>`<li><a href="#${encodeURIComponent(f.id)}">${esc(f.nombre)}</a></li>`).join('')}</ul></div></details>`).join('')}</div>
+    <p class="peq">Parte del mercado según el patrimonio de sus fondos al ${fecha(GEST.fecha)}, con los fondos en dólares pasados a pesos al dólar oficial. Fuente: CAFCI.</p>`;
+  $('#volver').onclick=()=>{location.hash=''};
+}
 function movida(){
   if(!RES||!RES.grupos||Q.get('fondos')||Q.get('gestora'))return '';
   const g=RES.grupos.filter(x=>x.flujo_30d);if(!g.length)return '';
@@ -630,7 +669,7 @@ async function ficha(id){
       <div class="tabs" role="group" aria-label="Período">${[['30d','1 mes'],['anio','En el año'],['1a','12 meses'],['2a','2 años']].map(p=>`<button type="button" data-p="${p[0]}" aria-pressed="${periodo===p[0]}">${p[1]}</button>`).join('')}</div></div>
       ${X.movimiento&&X.movimiento.texto?`<p class="peq"><b>Último día:</b> ${esc(X.movimiento.texto)}</p>`:''}
       <div class="sim" id="sim"></div>
-      <div class="comp" id="comp"></div></div>
+      <div class="comp" id="comp"></div>${extrasRend(f)}</div>
     ${grafico(f)}
     ${c?`<div class="bloque"><h3>En qué está invertida tu plata</h3>
       <div class="torta">${torta(PT,[c.n_activos+'',c.n_activos===1?'inversión':'inversiones'])}
