@@ -136,6 +136,18 @@ def test_rechaza_planilla_rota():
     assert actualizar.rechazar(fondos(10), "2026-11-05", None) is None  # primera corrida
 
 
-def test_api_sin_variable_no_se_chequea(monkeypatch):
-    monkeypatch.delenv("API_URL", raising=False)
-    assert "API_URL" not in __import__("os").environ
+class Resp:
+    def __init__(self, status, datos):
+        self.status_code, self._d = status, datos
+        self.headers = {"content-type": "application/json"}
+
+    def json(self):
+        return self._d
+
+
+def test_api_salud(monkeypatch):
+    import red
+    monkeypatch.setattr(red, "pedir", lambda *a, **k: Resp(200, {"ok": True, "fecha_datos": "2026-11-04"}))
+    assert salud.chequear_api("https://api").estado == "ok"
+    monkeypatch.setattr(red, "pedir", lambda *a, **k: Resp(503, {"ok": False, "dias_de_atraso": 7}))
+    assert salud.chequear_api("https://api").estado == "error"
