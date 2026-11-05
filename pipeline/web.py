@@ -340,6 +340,82 @@ def ranking_gestoras(catalogo: list[dict], fondos: list[dict], refs: dict, fecha
     return {"fecha": fecha, "moneda": "ARS", "dolar": dolar, "total": round(total, 2), "gestoras": lista}
 
 
+
+def meses_movimiento(s: list[tuple[dt.date, float]]):
+    """Cómo se movió mes a mes (cierre contra cierre del mes anterior): peor mes, mejor mes y en cuántos subió.
+    Solo se usan meses seguidos con dato de fin de mes (día 25 o después), para no mezclar huecos ni el mes en curso."""
+    cierres = {}
+    for f, v in s:
+        if f.day >= 25 and v > 0:
+            cierres[(f.year, f.month)] = (f, v)
+    ks = sorted(cierres)
+    rets = []
+    for a, b in zip(ks, ks[1:]):
+        if (b[0] * 12 + b[1]) - (a[0] * 12 + a[1]) == 1:
+            rets.append((cierres[b][0], (cierres[b][1] / cierres[a][1] - 1) * 100))
+    if len(rets) < 6:
+        return None
+    peor, mejor = min(rets, key=lambda x: x[1]), max(rets, key=lambda x: x[1])
+    return {"peor_mes": peor[0].strftime("%Y-%m"), "peor_pct": round(peor[1], 2),
+            "mejor_mes": mejor[0].strftime("%Y-%m"), "mejor_pct": round(mejor[1], 2),
+            "positivos": sum(1 for _, r in rets if r >= 0), "total": len(rets)}
+
+
+def primera_fecha(ids: set[str]) -> dict[str, str]:
+    """Primera fecha con valor de cada clase en lo guardado (ArgentinaDatos desde 2022 + planilla propia)."""
+    primera = {}
+    for carpeta in (DATA / "historico_ad", DATA / "historico"):
+        for p in sorted(carpeta.glob("*.json")):
+            d = leer(p, {}) or {}
+            claves = d.keys() if isinstance(d, dict) else [x.get("id") for x in d]
+            for i in ids & set(claves):
+                primera[i] = min(primera.get(i, p.stem), p.stem)
+    return primera
+
+
+def costo_clase(c: dict):
+    g, d = c.get("honorarios_gerente"), c.get("honorarios_depositaria")
+    return None if g is None and d is None else round((g or 0) + (d or 0), 3)
+
+
+def lo_que_valoramos(fondos: list[dict], gestoras: dict, primera: dict) -> None:
+    """Datos para el bloque "Lo que valoramos de este fondo": lo mismo que mira un inversor con experiencia
+    (quién lo maneja, cuánto hace que existe, si le fue bien de forma pareja, cuánto cobra, cuánto maneja y
+    cómo se entra y se sale), siempre comparado con fondos del mismo tipo y moneda."""
+    grupos = collections.defaultdict(list)
+    for f in fondos:
+        if f.get("disponible"):
+            grupos[(f["subtipo"], f["moneda"])].append(f)
+
+    def puesto(f, lista, clave, alto=True):
+        vals = [(x, clave(x)) for x in lista if clave(x) is not None]
+        mio = clave(f)
+        if mio is None or len(vals) < 5:
+            return None
+        mejor = sum(1 for _, v in vals if (v > mio if alto else v < mio))
+        return {"puesto": mejor + 1, "de": len(vals)}
+
+    for f in fondos:
+        lista = grupos.get((f["subtipo"], f["moneda"]), [])
+        ref = f["_ref"]
+        costos = sorted(c for c in (costo_clase(x["_ref"]) for x in lista) if c is not None)
+        mi_costo = costo_clase(ref)
+        g = gestoras.get(f["gerente"]) or {}
+        desde = min((primera[c["id"]] for c in f["_cs"] if c["id"] in primera), default=None)
+        f["valoramos"] = {
+            "desde": desde,
+            "costo": None if mi_costo is None or len(costos) < 5 else {
+                "pct": mi_costo, "mediana": costos[len(costos) // 2], "de": len(costos),
+                "cobran_mas": sum(1 for c in costos if c > mi_costo)},
+            "rend_1a": puesto(f, lista, lambda x: (x.get("_r") or {}).get("1a")),
+            "rend_2a": puesto(f, lista, lambda x: (x.get("_r") or {}).get("2a")),
+            "meses": meses_movimiento(f.get("_serie") or []),
+            "comision_ingreso": ref.get("comision_ingreso"), "comision_rescate": ref.get("comision_rescate"),
+            "gestora": None if not g else {"nombre": g["nombre"], "puesto": g["puesto"], "de": len(gestoras),
+                                           "fondos": g["cantidad_fondos"], "patrimonio": g["patrimonio"]},
+        }
+
+
 def riesgo_medido(s: list[tuple[dt.date, float]], hoy: dt.date):
     """Peor caída (desde un máximo) y volatilidad anual del último año, en %."""
     pts = [(f, v) for f, v in s if f >= hoy - dt.timedelta(days=365)]
@@ -473,6 +549,9 @@ def main() -> int:
     for f in fondos:
         f["por_dia"] = por_dia(f)
 
+    rank = {g["gerente"]: g for g in ranking_gestoras(fondos, fondos, refs, fecha)["gestoras"]}
+    lo_que_valoramos(fondos, rank, primera_fecha({f["_ref"]["id"] for f in fondos} | {c["id"] for f in fondos for c in f["_cs"]}))
+
     # Puesto por tamaño dentro de su categoría CAFCI
     por_cat = collections.defaultdict(list)
     for f in fondos:
@@ -495,7 +574,8 @@ def main() -> int:
         catalogo.append({**{k: f[k] for k in ("id", "nombre", "gerente", "tipo", "subtipo", "riesgo", "moneda",
                                            "plazo_rescate", "patrimonio", "rend_1a", "rend_anio",
                                            "riesgo_nivel", "objetivos", "disponible")},
-                        "premio": (f.get("premio_riesgo") or {}).get("valor"), "por_dia": f.get("por_dia")})
+                        "premio": (f.get("premio_riesgo") or {}).get("valor"), "por_dia": f.get("por_dia"),
+                        "peor_mes": ((f.get("valoramos") or {}).get("meses") or {}).get("peor_pct")})
         atado = (cart or {}).get("atado") or {}
         escribir(WEB / "fondos" / f"{f['id']}.json", {
             **f, "tipo_explicacion": expl, "para_que": para_que, "evolucion": mensual(serie_f), "frase": frase(f["subtipo"], atado),
