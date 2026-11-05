@@ -301,10 +301,20 @@ def main() -> int:
     for c in clases:
         grupos[c.get("clave") or c["id"]].append(c)
 
+    # Un fondo puede tener clases en pesos y en dólares: todo se suma en la moneda principal
+    dolar_s = serie("dolar_mayorista")
+    DOLAR = dolar_s[-1][1] if dolar_s else 1.0
+    es_usd = lambda c: c.get("moneda") in ("USD", "USB")
+    a_pesos = lambda c, v: (v or 0) * (DOLAR if es_usd(c) else 1)
+
     fondos = []
     for clave, cs in grupos.items():
-        pat = sum(c.get("patrimonio") or 0 for c in cs)
-        ref = next((c for c in cs if re.search(r"clase a\b", c["fondo"], re.I)), None) or max(cs, key=lambda c: c.get("patrimonio") or 0)
+        usd_main = sum(a_pesos(c, c.get("patrimonio")) for c in cs if es_usd(c)) > sum(a_pesos(c, c.get("patrimonio")) for c in cs if not es_usd(c))
+        div = DOLAR if usd_main else 1.0
+        conv = lambda c, v: a_pesos(c, v) / div
+        pat = sum(conv(c, c.get("patrimonio")) for c in cs)
+        principales = [c for c in cs if es_usd(c) == usd_main] or cs
+        ref = next((c for c in principales if re.search(r"clase a\b", c["fondo"], re.I)), None) or max(principales, key=lambda c: c.get("patrimonio") or 0)
         cart = carteras.get(clave)
         sub = (cart or {}).get("subtipo") or ref.get("categoria")
         tipo_nombre, tipo_expl, riesgo = TIPOS.get(sub, (sub or "Sin clasificar", "", None))
@@ -312,7 +322,7 @@ def main() -> int:
             cat = (ref.get("categoria") or "").lower()
             riesgo = "bajo" if "dinero" in cat else "alto" if "variable" in cat else "medio"
         r = rend.get(ref["id"], {})
-        flujo_30 = sum((rend.get(c["id"], {}) or {}).get("flujo_30d") or 0 for c in cs) if any("flujo_30d" in rend.get(c["id"], {}) for c in cs) else None
+        flujo_30 = sum(conv(c, (rend.get(c["id"], {}) or {}).get("flujo_30d")) for c in cs) if any("flujo_30d" in rend.get(c["id"], {}) for c in cs) else None
         fid = slug(ref.get("fondo_base") or clave)
         fondos.append({
             "id": fid, "nombre": ref.get("fondo_base") or ref["fondo"], "gerente": ref.get("gerente"),
@@ -320,7 +330,7 @@ def main() -> int:
             "moneda": "USD" if ref.get("moneda") in ("USD", "USB") else ref.get("moneda"), "plazo_rescate": ref.get("plazo_liquidacion"),
             "patrimonio": round(pat, 2), "rend_1a": r.get("1a", None if "1a" in r.get("dudoso", []) else sano(ref.get("rend_12m_pct"), 250)),
             "rend_anio": r.get("anio", None if "anio" in r.get("dudoso", []) else sano(ref.get("rend_anio_pct"), 200)), "rend_30d": r.get("30d"),
-            "_clave": clave, "_cs": cs, "_ref": ref, "_cart": cart, "_r": r, "_flujo30": flujo_30,
+            "_clave": clave, "_div": div, "_cs": cs, "_ref": ref, "_cart": cart, "_r": r, "_flujo30": flujo_30,
             "_tipo_expl": tipo_expl,
         })
 
@@ -350,6 +360,8 @@ def main() -> int:
     for f in sorted(fondos, key=lambda f: -f["patrimonio"]):
         ref, cart, r, cs = f.pop("_ref"), f.pop("_cart"), f.pop("_r"), f.pop("_cs")
         flujo30, expl = f.pop("_flujo30"), f.pop("_tipo_expl")
+        f["flujo_30d_total"] = flujo30
+        div_f = f.pop("_div")
         serie_f, para_que = f.pop("_serie"), f.pop("_para_que")
         f.pop("_clave")
         catalogo.append({k: f[k] for k in ("id", "nombre", "gerente", "tipo", "subtipo", "riesgo", "moneda",
@@ -359,7 +371,7 @@ def main() -> int:
         escribir(WEB / "fondos" / f"{f['id']}.json", {
             **f, "tipo_explicacion": expl, "para_que": para_que, "evolucion": mensual(serie_f), "frase": frase(f["subtipo"], atado),
             "horizonte": ref.get("horizonte"), "depositaria": ref.get("depositaria"),
-            "flujo_dia": (round(sum(c.get("flujo_neto_estimado") or 0 for c in cs), 2)
+            "flujo_dia": (round(sum(a_pesos(c, c.get("flujo_neto_estimado")) / div_f for c in cs), 2)
                           if any(c.get("flujo_neto_estimado") is not None for c in cs) else None),
             "flujo_30d": round(flujo30, 2) if flujo30 is not None else None,
             "rendimientos": {k: r.get(k) for k in ("7d", "30d", "anio", "1a", "2a", "2a_anual")},
@@ -372,7 +384,7 @@ def main() -> int:
                                  "en_palabras": en_palabras(a["activo"], a.get("atado"), a.get("vto"))}
                                 for a in cart.get("activos", [])[:10]],
             },
-            "clases": [{"nombre": c["fondo"], "patrimonio": c.get("patrimonio"), "vcp": c.get("vcp"),
+            "clases": [{"nombre": c["fondo"], "moneda": "USD" if es_usd(c) else "ARS", "patrimonio": c.get("patrimonio"), "vcp": c.get("vcp"),
                         "honorarios_gerente": c.get("honorarios_gerente"), "honorarios_depositaria": c.get("honorarios_depositaria"),
                         "comision_ingreso": c.get("comision_ingreso"), "comision_rescate": c.get("comision_rescate"),
                         "minimo": c.get("minimo_inversion"), "rend_1a": (rend.get(c["id"]) or {}).get("1a", None if "1a" in (rend.get(c["id"]) or {}).get("dudoso", []) else sano(c.get("rend_12m_pct"), 250))}
@@ -380,7 +392,31 @@ def main() -> int:
         })
 
     escribir(WEB / "catalogo.json", {"fecha": fecha, "cantidad": len(catalogo), "fondos": catalogo})
-    escribir(WEB / "referencias.json", referencias(hoy))
+    refs = referencias(hoy)
+    escribir(WEB / "referencias.json", refs)
+
+    # Portada: a dónde fue la plata de la gente el último mes, por grupo simple
+    def grupo(sub, mon):
+        if mon == "USD" or "dólar" in (sub or "").lower():
+            return "En dólares o atados al dólar"
+        if sub in ("Money market", "Renta fija corto plazo (T+1)"):
+            return "Money market y corto plazo"
+        if (sub or "").startswith("Renta fija"):
+            return "Renta fija en pesos"
+        if "Acciones" in (sub or ""):
+            return "Acciones"
+        return "Mixtos y otros"
+    dolar = refs.get("dolar_hoy") or 0
+    res = collections.defaultdict(lambda: {"patrimonio": 0.0, "flujo_30d": 0.0, "fondos": 0})
+    for f in fondos:
+        g = res[grupo(f["subtipo"], f["moneda"])]
+        k = dolar if f["moneda"] == "USD" else 1  # todo en pesos para poder sumar
+        g["patrimonio"] += (f["patrimonio"] or 0) * k
+        g["flujo_30d"] += (f.get("flujo_30d_total") or 0) * k
+        g["fondos"] += 1
+    escribir(WEB / "resumen.json", {"fecha": fecha, "moneda": "ARS", "dolar_usado": dolar,
+                                    "grupos": sorted(({"grupo": k, **{x: round(y, 2) if isinstance(y, float) else y for x, y in v.items()}}
+                                                      for k, v in res.items()), key=lambda g: -g["patrimonio"])})
     print(f"Web: {len(catalogo)} fondos, {sum(1 for f in fondos if f.get('subtipo'))} con subtipo.")
     return 0
 

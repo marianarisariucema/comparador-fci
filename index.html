@@ -141,6 +141,15 @@ th{font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mut
 .quitar{background:none;border:0;padding:0;color:var(--muted);font-size:.75rem;text-decoration:underline;cursor:pointer;text-transform:none;letter-spacing:0;font-weight:400}
 .cmp .chip{background:var(--brand-soft);color:var(--accent)}
 main{padding-bottom:90px}
+.movida{padding:18px;display:grid;gap:12px}
+.mv{display:grid;gap:8px}
+.mvr{display:grid;grid-template-columns:minmax(110px,190px) 1fr 104px;gap:10px;align-items:center;font-size:.86rem}
+.mvr .num{text-align:right;white-space:nowrap}
+@media (max-width:520px){.mvr{grid-template-columns:1fr 104px;gap:2px 10px}.mvr>span:first-child{grid-column:1/-1}}
+.mvt{position:relative;height:12px;background:var(--sunk);border-radius:6px}
+.mvt::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--muted);opacity:.5}
+.mvf{position:absolute;top:0;bottom:0;border-radius:6px}
+.mvf.pos{background:var(--good)}.mvf.neg{background:var(--bad)}
 .aviso{font-size:.76rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 footer{font-size:.76rem;color:var(--muted);text-align:center;max-width:62ch;justify-self:center}
 @media (prefers-reduced-motion:no-preference){.barra span,.fill{transition:width .5s ease}}
@@ -209,10 +218,11 @@ const OBJ=[['todos','Ver todos','Los fondos de todos los tipos'],['pronto','La v
 const RIESGO_TXT=['','Muy bajo: casi no se mueve','Bajo: se mueve poco','Medio: puede bajar algunas semanas','Alto: puede bajar bastante algunos meses','Muy alto: puede caer fuerte y tardar en recuperarse'];
 const medidor=(n,grande)=>n?`<span class="riesgo rv${n}${grande?' grande':''}" role="img" aria-label="Riesgo ${n} de 5">${[1,2,3,4,5].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')}</span>`:'';
 
-let FERIADOS=new Set(), CAT=null, REF=null, objetivo='todos', texto='', orden='patrimonio', mostrar=30, periodo='1a', monto=100000;
+let RES=null, FERIADOS=new Set(), CAT=null, REF=null, objetivo='todos', texto='', orden='patrimonio', mostrar=30, periodo='1a', monto=100000;
 async function cargar(){
-  const [c,r,fe]=await Promise.all([fetch(BASE+'catalogo.json').then(x=>x.json()),fetch(BASE+'referencias.json').then(x=>x.json()),
-    fetch(BASE+'feriados.json').then(x=>x.ok?x.json():null).catch(()=>null)]);
+  const [c,r,fe,rs]=await Promise.all([fetch(BASE+'catalogo.json').then(x=>x.json()),fetch(BASE+'referencias.json').then(x=>x.json()),
+    fetch(BASE+'feriados.json').then(x=>x.ok?x.json():null).catch(()=>null),fetch(BASE+'resumen.json').then(x=>x.ok?x.json():null).catch(()=>null)]);
+  RES=rs;
   // Marca blanca: la plataforma puede mostrar solo sus fondos (por id o por administradora)
   const ids=(Q.get('fondos')||'').split(',').map(s=>s.trim()).filter(Boolean), ges=norm(Q.get('gestora')||'');
   if(ids.length||ges){const set=new Set(ids);c.fondos=c.fondos.filter(f=>set.has(f.id)||(ges&&norm(f.gerente).includes(ges)));c.cantidad=c.fondos.length}
@@ -275,6 +285,7 @@ function listado(){
   <section class="bloque" aria-label="Elegí según para qué es la plata"><h3>¿Para qué es tu plata?</h3>
     <div class="objetivos">${OBJ.map(o=>`<button type="button" class="obj" data-o="${o[0]}" aria-pressed="${objetivo===o[0]}"><b>${o[1]}</b><span>${o[2]}</span></button>`).join('')}</div>
     <p class="peq">Es una guía para orientarte según el tipo de fondo. Información educativa: no es una recomendación de inversión.</p></section>
+  ${movida()}
   <div class="buscar"><input id="q" type="search" placeholder="Buscá por nombre del fondo o administradora" aria-label="Buscar fondo" value="${esc(texto)}"></div>
   <div class="orden"><span class="peq" id="cuantos"></span>
     <label class="peq">Ordenar por <select id="ord"><option value="patrimonio">Más grandes</option><option value="rend">Más rindieron en 12 meses</option><option value="riesgo">Menos riesgo</option></select></label></div>
@@ -287,6 +298,19 @@ function listado(){
   $$('[data-o]').forEach(b=>b.onclick=()=>{objetivo=b.dataset.o;mostrar=30;$$('[data-o]').forEach(x=>x.setAttribute('aria-pressed',x===b));filas()});
   $('#mas').onclick=()=>{mostrar+=30;filas()};
   filas();
+}
+/* Portada: a dónde llevó la plata la gente en el último mes */
+const FRASE_G={'En dólares o atados al dólar':'fondos en dólares o atados al dólar','Money market y corto plazo':'money market y fondos de corto plazo','Renta fija en pesos':'renta fija en pesos','Acciones':'fondos de acciones','Mixtos y otros':'fondos mixtos y otros'};
+const corto=v=>{const a=Math.abs(v);return a>=1e12?nf(a/1e12,1)+' billones':a>=1e9?nf(a/1e9,0)+' mil M':nf(a/1e6,0)+' M'};
+function movida(){
+  if(!RES||!RES.grupos||Q.get('fondos')||Q.get('gestora'))return '';
+  const g=RES.grupos.filter(x=>x.flujo_30d);if(!g.length)return '';
+  const max=Math.max(...g.map(x=>Math.abs(x.flujo_30d)));
+  const ent=[...g].sort((a,b)=>b.flujo_30d-a.flujo_30d)[0], sal=[...g].sort((a,b)=>a.flujo_30d-b.flujo_30d)[0];
+  return `<section class="card movida"><h3>Qué hizo la gente con su plata el último mes</h3>
+   <p>${ent.flujo_30d>0?`Puso <b class="pos">${plata(ent.flujo_30d)}</b> en ${FRASE_G[ent.grupo]||ent.grupo.toLowerCase()}`:''}${sal.flujo_30d<0?`${ent.flujo_30d>0?' y sacó':'Sacó'} <b class="neg">${plata(-sal.flujo_30d)}</b> de ${FRASE_G[sal.grupo]||sal.grupo.toLowerCase()}`:''}.</p>
+   <div class="mv">${g.map(x=>`<div class="mvr"><span>${esc(x.grupo)}</span><span class="mvt"><span class="mvf ${x.flujo_30d<0?'neg':'pos'}" style="width:${Math.abs(x.flujo_30d)/max*50}%;${x.flujo_30d<0?'right:50%':'left:50%'}"></span></span><span class="num ${x.flujo_30d<0?'neg':'pos'}">${x.flujo_30d<0?'−':'+'}$${corto(x.flujo_30d)}</span></div>`).join('')}</div>
+   <p class="peq">Plata que entró menos plata que salió, sin contar lo que ganaron o perdieron los fondos. Los fondos en dólares están pasados a pesos al dólar oficial. Es una estimación con los fondos que tienen datos de hace un mes.</p></section>`;
 }
 function filas(){
   const l=filtrados();
@@ -391,7 +415,7 @@ async function ficha(id){
       <tr><td>${T('costo','Costo anual')}</td><td class="num">${costo==null?'s/d':(f.clases.length>1?'desde ':'')+nf(costo,2)+'%'}</td></tr>
       <tr><td>${T('depositaria','Quién guarda la plata')}</td><td>${esc(f.depositaria||'s/d')}</td></tr></tbody></table>
       ${X.costo&&X.costo.texto?`<p class="peq">${esc(X.costo.texto)}</p>`:''}
-      ${f.clases.length>1?`<p class="peq">Tiene ${f.clases.length} ${T('clase','clases')}: invierten en lo mismo, pero cambian el costo o el monto mínimo.</p><div class="scroll"><table><thead><tr><th>Clase</th><th>Costo anual</th><th>Mínimo</th><th>12 meses</th></tr></thead><tbody>${f.clases.map(x=>`<tr><td>${esc(x.nombre.split(' - ').slice(1).join(' - ')||x.nombre)}</td><td class="num">${nf((x.honorarios_gerente||0)+(x.honorarios_depositaria||0),2)}%</td><td class="num">${x.minimo!=null?plata(x.minimo,f.moneda):'s/d'}</td><td class="num">${dudosas.has(x.nombre)?'en revisión':pct(x.rend_1a)}</td></tr>`).join('')}</tbody></table></div>`:''}</div>
+      ${f.clases.length>1?`<p class="peq">Tiene ${f.clases.length} ${T('clase','clases')}: invierten en lo mismo, pero cambian el costo o el monto mínimo.</p><div class="scroll"><table><thead><tr><th>Clase</th><th>Costo anual</th><th>Mínimo</th><th>12 meses</th></tr></thead><tbody>${f.clases.map(x=>`<tr><td>${esc(x.nombre.split(' - ').slice(1).join(' - ')||x.nombre)}</td><td class="num">${nf((x.honorarios_gerente||0)+(x.honorarios_depositaria||0),2)}%</td><td class="num">${x.minimo!=null?plata(x.minimo,x.moneda||f.moneda):'s/d'}</td><td class="num">${dudosas.has(x.nombre)?'en revisión':pct(x.rend_1a)}</td></tr>`).join('')}</tbody></table></div>`:''}</div>
     ${(X.parecidos=(X.parecidos||[]).filter(p=>!CAT||CAT.fondos.some(f=>f.id===p.id))).length?`<div class="bloque"><h3>Fondos parecidos</h3><p class="peq">Tienen buena parte de las mismas inversiones.</p>
       <div class="lista card">${X.parecidos.slice(0,4).map(p=>`<a class="item" href="#${encodeURIComponent(p.id)}"><span><span class="n">${esc(p.nombre)}</span><br><span class="g">${esc(p.gerente||'')}</span></span><span class="r"><span class="num">${nf(p.en_comun_pct,0)}%</span><br><span class="g">en común</span></span></a>`).join('')}</div></div>`:''}
     <p class="aviso">Fuentes: CAFCI (valores diarios), CNV (cartera semanal), BCRA (inflación, dólar, plazo fijo), ArgentinaDatos (historia de valores). Los rendimientos son de la clase principal, ya con costos descontados. "A qué está atada tu plata" y el nivel de riesgo se calculan en forma automática. Rendimientos pasados no garantizan rendimientos futuros. Información con fines educativos: no es una recomendación de inversión.</p>
