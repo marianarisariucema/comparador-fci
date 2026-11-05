@@ -30,7 +30,7 @@ No funcionan: API vieja de CAFCI y `estadisticas.cafci.org.ar` (bloqueadas, 403)
 
 ## Datos que genera el repo (`data/`)
 
-- `ultimo.json`: todos los fondos del último día. `fichas/<clase>.json`: uno por clase. `historico/<fecha>.json`: se arma día a día.
+- `ultimo.json`: todos los fondos del último día. `historico/<fecha>.json`: cuotaparte, patrimonio y cuotapartes de cada clase, se arma día a día. `web/`: datos de la página.
 - `carteras/ultima/<id_cnv>.json` y `carteras/historico/<fecha>/`: carteras. `carteras/listado_cnv.json`: 1.668 abiertos + 45 cerrados.
 - Primera corrida completa de carteras (4/11, 2 h): 1.451 fichas leídas, 1.074 con activos, casi todas con cartera al 16/10/2026; 261 fondos sin sección de cartera en la CNV. Cruzan con la planilla 1.026 de 1.230 fondos (83%).
 - `bcra/<indicador>.json`: series de 2 años.
