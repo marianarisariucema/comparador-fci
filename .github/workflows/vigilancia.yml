@@ -1,0 +1,50 @@
+name: Vigilancia (chequeo de salud)
+
+# Revisa que los datos estén al día y sanos, relanza lo que falló y abre un
+# issue solo si algo necesita una persona. Script plano, sin Claude ni claves.
+on:
+  # Apenas termina cada corrida de datos: si falló, se reintenta enseguida.
+  workflow_run:
+    workflows: ["Datos diarios CAFCI", "Carteras semanales CNV"]
+    types: [completed]
+  schedule:
+    # 05:30 UTC = 2:30 AR: por si la corrida de las 22:30 nunca arrancó (GitHub a veces saltea crons).
+    - cron: "30 5 * * *"
+    # 10:00 UTC = 7:00 AR: veredicto de la mañana.
+    - cron: "0 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  actions: write   # relanzar workflows
+  issues: write    # abrir y cerrar el aviso
+
+concurrency:
+  group: vigilancia
+  cancel-in-progress: false
+
+jobs:
+  chequear:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main   # siempre los datos más nuevos, no los del commit que disparó
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+      - run: pip install -r pipeline/requirements.txt
+      - name: Chequear, reparar y avisar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          API_URL: ${{ vars.API_URL }}   # vacío hasta que se publique la API
+        run: python pipeline/salud.py --reparar --avisar --salida salud.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: salud
+          path: salud.json
+          retention-days: 30

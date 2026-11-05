@@ -21,6 +21,7 @@ from pathlib import Path
 import requests
 
 from cruce import Cruce
+from red import pedir
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATA = RAIZ / "data"
@@ -72,7 +73,7 @@ def cargar_precios(carpeta: str | None) -> dict:
     def traer(archivo):
         if carpeta:
             return json.loads((Path(carpeta) / archivo).read_text(encoding="utf-8"))
-        r = requests.get(URL_CALCULADORA.format(archivo=archivo), timeout=60)
+        r = pedir(URL_CALCULADORA.format(archivo=archivo))
         r.raise_for_status()
         return r.json()
 

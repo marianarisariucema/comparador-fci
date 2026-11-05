@@ -25,6 +25,7 @@ import pandas as pd
 import requests
 
 from carteras_cnv import nombre_clave  # misma clave para cruzar con las carteras de la CNV
+from red import pedir
 
 URL_PLANILLA = "https://api.pub.cafci.org.ar/pb_get"
 # El sitio de estadísticas bloquea pedidos automáticos (CloudFront 403, probado 2026-11-04);
@@ -93,7 +94,7 @@ def slug(texto: str) -> str:
 
 
 def bajar(url: str) -> bytes:
-    r = requests.get(url, headers=HEADERS, timeout=60)
+    r = pedir(url, headers=HEADERS)
     if r.status_code != 200:
         raise RuntimeError(f"{url} respondió HTTP {r.status_code}: {r.text[:200]}")
     return r.content
@@ -239,6 +240,30 @@ def flujo_neto(r: dict):
     return round(p - p0 * (v / v0), 2)
 
 
+def leer_previo() -> dict | None:
+    try:
+        d = json.loads((DATA / "ultimo.json").read_text(encoding="utf-8"))
+        return {"fecha_datos": d.get("fecha_datos"), "cantidad_fondos": d.get("cantidad_fondos") or len(d.get("fondos", []))}
+    except (FileNotFoundError, ValueError):
+        return None
+
+
+def rechazar(fondos: list[dict], fecha: str, previo: dict | None) -> str | None:
+    """Motivo para no publicar una planilla que parece rota (o None si está bien).
+
+    Protege el último dato bueno: una planilla a medio cargar, de una fecha vieja
+    o con las columnas corridas no pisa lo que ya está publicado.
+    """
+    if previo and previo.get("fecha_datos") and fecha < previo["fecha_datos"]:
+        return f"trae datos del {fecha}, más viejos que los publicados ({previo['fecha_datos']})"
+    if previo and previo.get("cantidad_fondos") and len(fondos) < 0.7 * previo["cantidad_fondos"]:
+        return f"trae {len(fondos)} clases y la anterior {previo['cantidad_fondos']} (cayó más de 30%)"
+    con_vcp = sum(1 for f in fondos if f.get("vcp"))
+    if con_vcp < 0.8 * len(fondos):
+        return f"solo {con_vcp} de {len(fondos)} clases tienen cuotaparte (¿columnas corridas?)"
+    return None
+
+
 def escribir_json(ruta: Path, datos) -> None:
     ruta.parent.mkdir(parents=True, exist_ok=True)
     ruta.write_text(json.dumps(datos, ensure_ascii=False, separators=(",", ":"), default=str), encoding="utf-8")
@@ -257,6 +282,15 @@ def main() -> int:
         raise RuntimeError("La planilla no tuvo fondos; no sobrescribo los datos.")
 
     fecha = next((f["fecha"] for f in fondos if f.get("fecha")), None) or hoy
+    previo = leer_previo()
+    if previo and previo.get("fecha_datos") and fecha < previo["fecha_datos"]:
+        # CAFCI devolvió una planilla vieja (pasa a veces de madrugada): no es un error, se deja lo publicado.
+        print(f"La planilla es del {fecha} y ya está publicada la del {previo['fecha_datos']}: no cambio nada.")
+        return 0
+    motivo = rechazar(fondos, fecha, previo)
+    if motivo:
+        # Se conserva el último dato bueno publicado; el chequeo de salud avisa si se repite.
+        raise RuntimeError(f"Planilla rechazada, no sobrescribo los datos: {motivo}")
     resumen = {
         "actualizado": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "fecha_datos": fecha,

@@ -9,9 +9,15 @@ on:
 permissions:
   contents: write
 
+# Nunca dos corridas a la vez (la vigilancia puede relanzarla).
+concurrency:
+  group: datos-diarios
+  cancel-in-progress: false
+
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -62,5 +68,9 @@ jobs:
           git add data
           git diff --cached --quiet && echo "Sin cambios" && exit 0
           git commit -m "Datos CAFCI $(date -u +%F)"
-          git pull --rebase -X theirs
-          git push
+          # Si otra corrida guardó al mismo tiempo, reintenta (hasta 4 veces)
+          for i in 1 2 3 4; do
+            git pull --rebase -X theirs && git push && exit 0
+            echo "Push falló, reintento en $((i * 15)) s"; sleep $((i * 15))
+          done
+          exit 1

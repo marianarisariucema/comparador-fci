@@ -24,6 +24,8 @@ from pathlib import Path
 
 import requests
 
+from red import pedir
+
 RAIZ = Path(__file__).resolve().parent.parent
 DATA = RAIZ / "data"
 AD = DATA / "historico_ad"
@@ -70,7 +72,7 @@ def bajar_fecha(s: requests.Session, fecha: dt.date) -> dict:
     """{id: [vcp, patrimonio]} de todas las categorías para esa fecha ({} si no hubo datos)."""
     out = {}
     for cat in CATEGORIAS:
-        r = s.get(URL.format(cat=cat, fecha=fecha.strftime("%Y/%m/%d")), timeout=60)
+        r = pedir(URL.format(cat=cat, fecha=fecha.strftime("%Y/%m/%d")), sesion=s)
         if r.status_code == 404:
             continue
         r.raise_for_status()
