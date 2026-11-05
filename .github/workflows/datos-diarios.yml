@@ -25,6 +25,24 @@ jobs:
       - name: Indicadores BCRA
         continue-on-error: true
         run: python pipeline/bcra.py
+      - name: Calculadora de renta fija (para tasas de bonos y letras)
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          repository: marianarisariucema/calculadora-renta-fija
+          path: calc
+      - uses: actions/setup-node@v4
+        continue-on-error: true
+        with:
+          node-version: "20"
+      - name: Tasas y duración de bonos y letras (lee las tablas de la calculadora)
+        continue-on-error: true
+        timeout-minutes: 10
+        run: |
+          npm i --no-save --no-package-lock playwright@1.48.2
+          npx playwright install --with-deps chromium
+          node pipeline/tasas.js calc data/tasas/ultimo.json
+          rm -rf node_modules calc
       - name: Análisis (atado a, subtipo, activos, gestoras, precios BYMA de la calculadora)
         continue-on-error: true
         run: python pipeline/analisis.py

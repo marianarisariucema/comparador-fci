@@ -380,6 +380,7 @@ def main() -> int:
                 "fecha": cart.get("fecha_cartera"), "atado": atado, "n_activos": cart.get("n_activos"),
                 "vencimiento_promedio_anios": cart.get("vencimiento_promedio_anios"),
                 "vencimiento_cobertura_pct": cart.get("vencimiento_cobertura_pct"),
+                "tasas": cart.get("tasas"),
                 "principales": [{**{k: a.get(k) for k in ("activo", "ticker", "pct", "atado", "vto")},
                                  "en_palabras": en_palabras(a["activo"], a.get("atado"), a.get("vto"))}
                                 for a in cart.get("activos", [])[:10]],
@@ -394,6 +395,9 @@ def main() -> int:
     escribir(WEB / "catalogo.json", {"fecha": fecha, "cantidad": len(catalogo), "fondos": catalogo})
     refs = referencias(hoy)
     escribir(WEB / "referencias.json", refs)
+    tas = leer(DATA / "tasas" / "ultimo.json")
+    if tas:
+        escribir(WEB / "tasas.json", {"precios": tas.get("precios"), "fuente": tas.get("fuente"), "curvas": tas.get("curvas")})
 
     # Portada: a dónde fue la plata de la gente el último mes, por grupo simple
     def grupo(sub, mon):
