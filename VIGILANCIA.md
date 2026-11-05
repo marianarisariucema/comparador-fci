@@ -35,6 +35,7 @@ Si no te llega ningún mail, está todo bien. El detalle de cada chequeo está e
 | Carteras CNV | cartera típica de más de 30 días | más de 45 días o menos de 800 carteras |
 | Precios BYMA (calculadora) | 3 a 5 días hábiles | más de 5 |
 | Página publicada | muestra otra fecha que el repo | no responde |
+| API para las ALyCs (`/v1/salud`, solo si existe la variable de repo `API_URL`) | — | no responde o datos de más de 5 días |
 | Workflows | la última corrida falló | las dos últimas fallaron |
 | Tamaño del repo | más de 1 GB | más de 3 GB |
 

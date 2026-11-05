@@ -311,6 +311,28 @@ def chequear_pagina(local_fecha: str | None) -> Chequeo:
     return c
 
 
+def chequear_api(base: str) -> Chequeo:
+    """La API publicada (Cloudflare Workers) expone GET /v1/salud: {ok, fecha_datos, dias_de_atraso}."""
+    import requests
+    from red import pedir
+    c = Chequeo("api", "API para las ALyCs")
+    try:
+        r = pedir(base.rstrip("/") + "/v1/salud", intentos=3, espera=10, timeout=30)
+        d = r.json() if r.headers.get("content-type", "").startswith("application/json") else {}
+        c.datos = {"http": r.status_code, **{k: d.get(k) for k in ("ok", "fecha_datos", "dias_de_atraso")}}
+        if r.status_code == 200 and d.get("ok"):
+            c.detalle = f"Responde, datos al {d.get('fecha_datos')}."
+        elif r.status_code == 503:
+            c.estado = "error"
+            c.detalle = (f"Responde pero con datos viejos ({d.get('fecha_datos')}, {d.get('dias_de_atraso')} días). "
+                         "Revisar el workflow que la publica.")
+        else:
+            c.estado, c.detalle = "error", f"{base}/v1/salud responde HTTP {r.status_code}."
+    except (requests.RequestException, ValueError) as e:
+        c.estado, c.detalle = "error", f"No responde: {type(e).__name__}."
+    return c
+
+
 # ------------------------------------------------------------------ GitHub
 class GitHub:
     def __init__(self, repo: str, token: str):
@@ -503,6 +525,8 @@ def main() -> int:
     chequeos += [chequear_bcra(hoy), chequear_carteras(hoy), chequear_precios(hoy)]
     if not args.sin_red:
         chequeos.append(chequear_pagina((leer(DATA / "ultimo.json") or {}).get("fecha_datos")))
+        if os.environ.get("API_URL"):  # variable del repo, cuando la API esté publicada
+            chequeos.append(chequear_api(os.environ["API_URL"]))
 
     gh = None
     token, repo = os.environ.get("GITHUB_TOKEN"), os.environ.get("GITHUB_REPOSITORY")

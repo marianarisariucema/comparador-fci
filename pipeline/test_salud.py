@@ -134,3 +134,8 @@ def test_rechaza_planilla_rota():
     assert "cayó" in actualizar.rechazar(fondos(1000), "2026-11-05", previo)
     assert "columnas" in actualizar.rechazar(fondos(4290, con_vcp=100), "2026-11-05", previo)
     assert actualizar.rechazar(fondos(10), "2026-11-05", None) is None  # primera corrida
+
+
+def test_api_sin_variable_no_se_chequea(monkeypatch):
+    monkeypatch.delenv("API_URL", raising=False)
+    assert "API_URL" not in __import__("os").environ

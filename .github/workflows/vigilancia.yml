@@ -40,6 +40,7 @@ jobs:
       - name: Chequear, reparar y avisar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          API_URL: ${{ vars.API_URL }}   # vacío hasta que se publique la API
         run: python pipeline/salud.py --reparar --avisar --salida salud.json
       - uses: actions/upload-artifact@v4
         if: always()
