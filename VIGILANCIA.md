@@ -36,6 +36,8 @@ Si no te llega ningún mail, está todo bien. El detalle de cada chequeo está e
 | Precios BYMA (calculadora) | 3 a 5 días hábiles | más de 5 |
 | Página publicada | muestra otra fecha que el repo | no responde |
 | API para las ALyCs (`/v1/salud`, solo si existe la variable de repo `API_URL`) | — | no responde o datos de más de 5 días |
+| Tasas y duración (`data/tasas/ultimo.json`, cuando exista) | menos de 30 instrumentos | sigue así después de 2 reintentos |
+| Cruce CNV-CAFCI (`data/analisis/cruce.json`, cuando exista) | más de 5% de carteras sin cruzar (cambió el nombre de algún fondo) | — |
 | Workflows | la última corrida falló | las dos últimas fallaron |
 | Tamaño del repo | más de 1 GB | más de 3 GB |
 

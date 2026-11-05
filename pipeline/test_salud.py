@@ -151,3 +151,15 @@ def test_api_salud(monkeypatch):
     assert salud.chequear_api("https://api").estado == "ok"
     monkeypatch.setattr(red, "pedir", lambda *a, **k: Resp(503, {"ok": False, "dias_de_atraso": 7}))
     assert salud.chequear_api("https://api").estado == "error"
+
+
+def test_opcionales(tmp_path, monkeypatch):
+    data = preparar(tmp_path, monkeypatch)
+    assert salud.chequear_opcionales() == []  # todavía no existen: no se chequean
+    (data / "tasas").mkdir()
+    (data / "tasas" / "ultimo.json").write_text(json.dumps({"por_ticker": {f"T{i}": {} for i in range(5)}}))
+    (data / "analisis").mkdir()
+    (data / "analisis" / "cruce.json").write_text(json.dumps({"resumen": {"exacto": 900, "sin cruce": 150},
+                                                              "sin_cruce": [{}] * 150}))
+    c = por_id(salud.chequear_opcionales())
+    assert c["tasas"].estado == "aviso" and c["cruce"].estado == "aviso" and not c["cruce"].escalar

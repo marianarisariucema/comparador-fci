@@ -265,6 +265,34 @@ def chequear_carteras(hoy: dt.date) -> Chequeo:
     return c
 
 
+def chequear_opcionales() -> list[Chequeo]:
+    """Salidas que se suman con PRs nuevos: si el archivo todavía no existe, no se chequea."""
+    out = []
+    tasas = leer(DATA / "tasas" / "ultimo.json")
+    if tasas is not None:
+        n = len(tasas.get("por_ticker") or {})
+        c = Chequeo("tasas", "Tasas y duración (curvas)", datos={"instrumentos": n})
+        if n < 30:
+            c.estado, c.reparar_con = "aviso", WF_DIARIO
+            c.detalle = f"Solo {n} instrumentos (lo normal es más de 30): revisar pipeline/tasas.js o la calculadora."
+        else:
+            c.detalle = f"{n} instrumentos."
+        out.append(c)
+    cruce = leer(DATA / "analisis" / "cruce.json")
+    if cruce is not None:
+        total = sum(v for v in (cruce.get("resumen") or {}).values() if isinstance(v, int))
+        sin = len(cruce.get("sin_cruce") or [])
+        c = Chequeo("cruce", "Cruce carteras CNV con fondos CAFCI", escalar=False, datos={"total": total, "sin_cruce": sin})
+        if total and sin > 0.05 * total:
+            c.estado = "aviso"
+            c.detalle = (f"{sin} de {total} carteras sin cruzar (normal: menos de 10). Probablemente cambió el nombre "
+                         "de algún fondo: ver data/analisis/cruce.json → sin_cruce.")
+        else:
+            c.detalle = f"{sin} de {total} carteras sin cruzar."
+        out.append(c)
+    return out
+
+
 def chequear_precios(hoy: dt.date) -> Chequeo:
     d = leer(DATA / "precios" / "ultimo.json") or {}
     f = fecha(d.get("fecha"))
@@ -523,6 +551,7 @@ def main() -> int:
 
     chequeos = chequear_planilla(ahora_ar)
     chequeos += [chequear_bcra(hoy), chequear_carteras(hoy), chequear_precios(hoy)]
+    chequeos += chequear_opcionales()
     if not args.sin_red:
         chequeos.append(chequear_pagina((leer(DATA / "ultimo.json") or {}).get("fecha_datos")))
         if os.environ.get("API_URL"):  # variable del repo, cuando la API esté publicada
