@@ -52,6 +52,7 @@ CAMBIO_CARTERA = 40.0     # la cartera cambió más de 40% desde la anterior
 MOVIMIENTO_MIN = 0.5      # solo explicar movimientos del día de más de 0,5%
 PARECIDO_MIN = 40.0       # fondos con al menos 40% de cartera en común
 MILLON = 1_000_000
+MINIMO_MINORISTA = 10_000_000  # clases con mínimo mayor a esto son para inversores grandes
 # Grupos donde los fondos compran cosas parecidas: ahí sí se puede decir "fue algo propio de este fondo".
 # En los grupos mixtos (renta mixta, renta fija mixta, retorno total) cada fondo hace algo distinto.
 GRUPOS_PAREJOS = {
@@ -264,7 +265,7 @@ def main() -> int:
         if v is not None and abs(v) >= MOVIMIENTO_MIN and g in mediana:
             m = mediana[g]
             verbo = "subió" if v > 0 else "bajó"
-            parecido = (v > 0) == (m > 0) and abs(v - m) <= max(0.3, abs(v) / 2)
+            parecido = (v > 0) == (m > 0) and abs(v - m) <= max(0.5, abs(v) / 2)
             if not parecido and g[0] not in GRUPOS_PAREJOS:
                 texto = None  # grupo mixto: no alcanza para decir que fue algo propio
             elif parecido:
@@ -291,7 +292,10 @@ def main() -> int:
                            "patrimonio": c.get("patrimonio")})
         if costos:
             costos.sort(key=lambda x: x["honorarios_pct"])
-            barata, cara = costos[0], costos[-1]
+            for x in costos:
+                x["para_minoristas"] = x["minimo"] is None or x["minimo"] <= MINIMO_MINORISTA
+            minoristas = [x for x in costos if x["para_minoristas"]] or costos
+            barata, cara = minoristas[0], minoristas[-1]
             out["costo"] = {"moneda": moneda, "por_clase": costos}
             if cara["honorarios_pct"] - barata["honorarios_pct"] >= 0.5:
                 out["costo"]["diferencia_max_pct"] = round(cara["honorarios_pct"] - barata["honorarios_pct"], 4)
