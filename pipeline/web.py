@@ -34,6 +34,11 @@ def escribir(ruta: Path, datos) -> None:
     ruta.write_text(json.dumps(datos, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
+def sano(v, limite):
+    """Descarta rendimientos imposibles (cambio de unidad de la cuotaparte, fondo liquidándose)."""
+    return v if v is not None and -90 <= v <= limite else None
+
+
 def slug(texto: str) -> str:
     t = unicodedata.normalize("NFKD", str(texto))
     t = "".join(c for c in t if not unicodedata.combining(c)).lower().strip()
@@ -312,9 +317,9 @@ def main() -> int:
         fondos.append({
             "id": fid, "nombre": ref.get("fondo_base") or ref["fondo"], "gerente": ref.get("gerente"),
             "categoria": ref.get("categoria"), "subtipo": sub, "tipo": tipo_nombre, "riesgo": riesgo,
-            "moneda": ref.get("moneda"), "plazo_rescate": ref.get("plazo_liquidacion"),
-            "patrimonio": round(pat, 2), "rend_1a": r.get("1a", ref.get("rend_12m_pct")),
-            "rend_anio": r.get("anio", ref.get("rend_anio_pct")), "rend_30d": r.get("30d"),
+            "moneda": "USD" if ref.get("moneda") in ("USD", "USB") else ref.get("moneda"), "plazo_rescate": ref.get("plazo_liquidacion"),
+            "patrimonio": round(pat, 2), "rend_1a": r.get("1a", None if "1a" in r.get("dudoso", []) else sano(ref.get("rend_12m_pct"), 250)),
+            "rend_anio": r.get("anio", None if "anio" in r.get("dudoso", []) else sano(ref.get("rend_anio_pct"), 200)), "rend_30d": r.get("30d"),
             "_clave": clave, "_cs": cs, "_ref": ref, "_cart": cart, "_r": r, "_flujo30": flujo_30,
             "_tipo_expl": tipo_expl,
         })
@@ -370,7 +375,7 @@ def main() -> int:
             "clases": [{"nombre": c["fondo"], "patrimonio": c.get("patrimonio"), "vcp": c.get("vcp"),
                         "honorarios_gerente": c.get("honorarios_gerente"), "honorarios_depositaria": c.get("honorarios_depositaria"),
                         "comision_ingreso": c.get("comision_ingreso"), "comision_rescate": c.get("comision_rescate"),
-                        "minimo": c.get("minimo_inversion"), "rend_1a": (rend.get(c["id"]) or {}).get("1a", c.get("rend_12m_pct"))}
+                        "minimo": c.get("minimo_inversion"), "rend_1a": (rend.get(c["id"]) or {}).get("1a", None if "1a" in (rend.get(c["id"]) or {}).get("dudoso", []) else sano(c.get("rend_12m_pct"), 250))}
                        for c in sorted(cs, key=lambda c: c["fondo"])],
         })
 
