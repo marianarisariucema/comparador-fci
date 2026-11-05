@@ -58,6 +58,25 @@ p{margin:0}
 .hero p{max-width:62ch;color:var(--muted)}
 .queesfci{padding:16px 18px;display:grid;gap:6px;background:var(--brand-soft);border-color:transparent}
 .queesfci p{color:var(--ink);font-size:.93rem}
+.empezar{padding:18px;display:grid;gap:12px;background:var(--brand-soft);border-color:transparent}
+.empezar h2{font-size:1.15rem;margin:0}
+.pasos{margin:0;padding-left:22px;display:grid;gap:10px;font-size:.93rem}
+.pasos b{display:block}
+.boton{justify-self:start;font:inherit;font-weight:700;border:0;border-radius:999px;padding:10px 18px;background:var(--brand);color:var(--brand-ink);cursor:pointer}
+.boton.sec{background:var(--surface);color:var(--accent);border:1px solid var(--accent)}
+.test{padding:18px;display:grid;gap:16px}
+.test fieldset{border:0;margin:0;padding:0;display:grid;gap:8px}
+.test legend{font-weight:700;margin-bottom:6px}
+.test label{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer;font-size:.93rem}
+.test label:has(input:checked){border-color:var(--accent);background:var(--brand-soft)}
+.test input{margin-top:3px;accent-color:var(--accent)}
+.resultado{padding:14px 16px;border-radius:12px;background:var(--brand-soft);display:grid;gap:8px}
+.resultado h3{margin:0;font-size:1rem;text-transform:none;letter-spacing:0;color:var(--ink)}
+.filtro{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.86rem}
+.chip.infl{font-weight:600;background:color-mix(in srgb,currentColor 10%,transparent)}
+.contexto{background:var(--sunk);border-radius:10px;padding:10px 12px}
+.alerta{border-radius:10px;padding:10px 12px;background:color-mix(in srgb,var(--warn) 14%,transparent);font-size:.93rem}
+.alerta::before{content:"⚠ ";color:var(--warn)}
 .objetivos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,135px),1fr));gap:10px}
 .obj{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 14px;text-align:left;cursor:pointer;display:grid;gap:2px;box-shadow:var(--shadow)}
 .obj b{font-size:.95rem}
@@ -178,6 +197,11 @@ const fecha=f=>{if(!f)return '';const [y,m,d]=f.split('-');return d+'/'+m+'/'+y}
 const MESES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
 const mes=f=>{const [y,m]=f.split('-');return MESES[+m-1]+' '+y};
 const norm=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+// "Balanz S.G.F.C.I.S.A.U." -> "Balanz": las siglas legales no le dicen nada a quien empieza
+const gestora=s=>{const p=String(s||'').trim().split(/\s+/);while(p.length>1&&/^(?:[SAUGFCI]\.){2,}[SAUGFCI]?\.?$/.test(p[p.length-1]))p.pop();return p.join(' ')};
+// Fondos cerrados o en liquidación: no se puede entrar, así que no se ofrecen salvo que se los busque por nombre
+const disponible=f=>f.disponible!==false&&!/liquidaci|cerrad|tr[aá]mite/i.test(f.tipo||'');
+const MARCA=Q.get('marca')||'';
 
 /* ---------- Glosario: cada término técnico se puede tocar para ver qué significa ---------- */
 const G={
@@ -197,12 +221,19 @@ const G={
  riesgo:['Riesgo','Cuánto puede subir y bajar el valor de tu inversión de un día para otro. Más riesgo suele significar más rendimiento posible, pero también más chances de ver pérdidas por un tiempo.'],
  caida:['Peor caída','En el último año, lo máximo que llegó a estar abajo comparado con su mejor momento anterior. Muestra cuánto te hubiera tocado aguantar en el peor momento.'],
  costo:['Costo anual','Lo que cobran la administradora y el banco custodio por año, como porcentaje de tu plata. Ya está descontado del rendimiento que ves.'],
- clase:['Clases','Un mismo fondo puede tener varias "clases" con distintos costos o montos mínimos, por ejemplo una para personas y otra para empresas. Invierten exactamente en lo mismo.'],
- flujo:['Plata que entró o salió','Lo que la gente puso menos lo que retiró. Si entra mucha plata, más gente confía en el fondo; si sale, la gente está retirándose.'],
+ clase:['Clases','Un mismo fondo puede tener varias "clases" con distintos costos o montos mínimos, por ejemplo una para personas y otra para empresas. Invierten exactamente en lo mismo. La clase que te toca la define el banco o broker donde invertís.'],
+ flujo:['Plata que entró o salió','Lo que la gente puso menos lo que retiró. Que un día salga plata es normal: la gente usa sus ahorros. Llama la atención solo si sale mucha, comparada con el tamaño del fondo, durante varias semanas.'],
  vencimiento:['Vencimiento','La fecha en que un bono o letra devuelve la plata. Cuanto más lejos, más se mueve su precio si cambian las tasas.'],
  duracion:['Duración','Mide cuánto se mueve el precio de un bono cuando cambian las tasas. Con duración 0,5, si las tasas suben 1 punto el precio baja cerca de 0,5%. Cuanto más corta, menos se mueve.'],
  tir:['Tasa a la que rinden','Lo que ganarías por año si comprás hoy ese bono o letra y lo tenés hasta que vence, con los precios de hoy. No incluye los costos del fondo.'],
  inflacion:['Inflación','Cuánto subieron los precios en general. Si tu plata rinde menos que la inflación, con el tiempo te alcanza para comprar menos cosas.'],
+ bono:['Bono o letra','Un préstamo que le hacés al Estado o a una empresa: te devuelve la plata en una fecha (el vencimiento) y te paga intereses. Las letras son bonos de plazo corto.'],
+ dual:['Bono dual','Un bono del Tesoro que al final paga lo que más convenga entre dos tasas: una fija y la TAMAR de los bancos.'],
+ fideicomiso:['Fideicomiso','Una forma de juntar plata para un fin concreto, por ejemplo financiar créditos o una obra. Algunos fondos ponen una parte ahí.'],
+ broker:['Banco o broker (ALyC)','La empresa donde abrís tu cuenta para invertir. Los brokers se llaman ALyC y tienen que estar registrados en la CNV, el organismo del Estado que los controla. Abrir la cuenta suele ser gratis y se hace online.'],
+ emergencia:['Fondo de emergencia','Plata guardada para imprevistos: si te quedás sin trabajo, se rompe algo o tenés un gasto de salud. Lo habitual es tener de 3 a 6 meses de gastos, en algo que no baje y que puedas sacar en el día.'],
+ suscribir:['Suscribir','Es el nombre técnico de poner plata en un fondo. Sacarla se llama rescatar.'],
+ perfil:['Perfil de inversor','Una forma de resumir cuánto riesgo podés aguantar: depende de cuándo vas a necesitar la plata y de cómo te sentís si ves que baja. Los brokers te lo piden antes de invertir.'],
 };
 const T=(k,txt)=>`<button type="button" class="t" data-g="${k}">${txt}</button>`;
 function glosa(k,btn){const g=G[k];if(!g)return;const d=$('#glosa');d.querySelector('b').textContent=g[0];d.querySelector('p').textContent=g[1];d.classList.add('abierto');d._btn=btn;d.querySelector('.cerrar').focus()}
@@ -222,7 +253,7 @@ const OBJ=[['todos','Ver todos','Los fondos de todos los tipos'],['pronto','La v
 const RIESGO_TXT=['','Muy bajo: casi no se mueve','Bajo: se mueve poco','Medio: puede bajar algunas semanas','Alto: puede bajar bastante algunos meses','Muy alto: puede caer fuerte y tardar en recuperarse'];
 const medidor=(n,grande)=>n?`<span class="riesgo rv${n}${grande?' grande':''}" role="img" aria-label="Riesgo ${n} de 5">${[1,2,3,4,5].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')}</span>`:'';
 
-let RES=null, FERIADOS=new Set(), CAT=null, REF=null, objetivo='todos', texto='', orden='patrimonio', mostrar=30, periodo='1a', monto=100000;
+let RES=null, FERIADOS=new Set(), CAT=null, REF=null, objetivo='todos', texto='', orden='patrimonio', mostrar=30, periodo='1a', monto=100000, tope=0, perfil=null;
 async function cargar(){
   const [c,r,fe,rs]=await Promise.all([fetch(BASE+'catalogo.json').then(x=>x.json()),fetch(BASE+'referencias.json').then(x=>x.json()),
     fetch(BASE+'feriados.json').then(x=>x.ok?x.json():null).catch(()=>null),fetch(BASE+'resumen.json').then(x=>x.ok?x.json():null).catch(()=>null)]);
@@ -272,35 +303,87 @@ async function comparar(){
 }
 function filtrados(){
   const t=norm(texto);
-  let l=CAT.fondos.filter(f=>(objetivo==='todos'||(f.objetivos||[]).includes(objetivo))&&(!t||norm(f.nombre+' '+f.gerente+' '+f.tipo).includes(t)));
+  let l=CAT.fondos.filter(f=>(objetivo==='todos'||(f.objetivos||[]).includes(objetivo))&&(t?norm(f.nombre+' '+f.gerente+' '+f.tipo).includes(t):disponible(f))
+    &&(!tope||(f.riesgo_nivel&&f.riesgo_nivel<=tope)));
   if(orden==='rend')l=[...l].sort((a,b)=>(b.rend_1a??-1e9)-(a.rend_1a??-1e9));
   if(orden==='riesgo')l=[...l].sort((a,b)=>(a.riesgo_nivel??9)-(b.riesgo_nivel??9)||b.patrimonio-a.patrimonio);
   return l;
 }
+/* ---------- Test de 4 preguntas: lleva a un tipo de fondo y a un tope de riesgo ---------- */
+const PREG=[
+ ['colchon','¿Tenés guardada plata para imprevistos, unos 3 meses de tus gastos?',[['si','Sí, ya la tengo aparte'],['no','No, o no sé']]],
+ ['cuando','¿Cuándo vas a necesitar esta plata?',[['ya','En cualquier momento, o en pocas semanas'],['meses','En menos de un año'],['anios','En 1 a 3 años'],['largo','En más de 3 años']]],
+ ['baja','Imaginá que un mes ves que tu plata bajó un 10%. ¿Qué hacés?',[['saco','La saco enseguida: no lo soporto'],['espero','Me preocupo, pero espero a ver qué pasa'],['tranqui','Espero tranquilo: sé que puede pasar y que después suele recuperarse']]],
+ ['moneda','¿Pensás tus ahorros en pesos o en dólares?',[['pesos','En pesos'],['dolares','En dólares']]],
+];
+const NOMBRE_OBJ=Object.fromEntries(OBJ.map(o=>[o[0],o[1].toLowerCase()]));
+function resultadoTest(r){
+  if(r.colchon==='no'||r.cuando==='ya')return {obj:'pronto',tope:1,titulo:'Empezá por tu colchón',
+    txt:`Antes de buscar que rinda más, armá tu ${T('emergencia','fondo de emergencia')}. Para eso se usan los fondos money market: casi no bajan, rinden algo todos los días y te devuelven la plata en el día. Cuando ya lo tengas, volvé a hacer el test con el resto de tus ahorros.`};
+  const aguanta={saco:0,espero:1,tranqui:2}[r.baja], plazo={meses:0,anios:1,largo:2}[r.cuando], n=Math.min(aguanta,plazo);
+  const tope=[2,3,r.baja==='tranqui'&&r.cuando==='largo'?5:4][n];
+  const obj=r.moneda==='dolares'?'dolar':['anio','inflacion','largo'][n];
+  const perfil=['tranquilo (conservador)','intermedio (moderado)','que aguanta subas y bajas (arriesgado)'][n];
+  const por=aguanta<plazo?'Pesa más que no te gustaría ver bajar tu plata.':plazo<aguanta?'Pesa más que vas a necesitar la plata en poco tiempo.':'';
+  return {obj,tope,titulo:'Tu perfil: '+perfil,
+    txt:`${por} Te mostramos fondos para “${NOMBRE_OBJ[obj]}” con riesgo de hasta ${tope} de 5, empezando por los más grandes, que son los más conocidos.`};
+}
+function test(){
+  const box=$('#test');if(!box)return;box.hidden=false;
+  const r={};
+  box.innerHTML=`<h3 style="margin:0">Ayudame a elegir</h3><p class="peq" style="margin:-8px 0 0">4 preguntas rápidas. No guardamos tus respuestas.</p>
+   ${PREG.map(([k,q,ops])=>`<fieldset><legend>${q}</legend>${ops.map(([v,t])=>`<label><input type="radio" name="${k}" value="${v}"><span>${t}</span></label>`).join('')}</fieldset>`).join('')}
+   <div id="res" aria-live="polite"></div>`;
+  box.onchange=e=>{r[e.target.name]=e.target.value;
+    const listo=PREG.every(([k])=>r[k])||r.colchon==='no'||r.cuando==='ya';
+    if(!listo){$('#res').innerHTML='';return}
+    const x=resultadoTest(r);
+    $('#res').innerHTML=`<div class="resultado"><h3>${x.titulo}</h3><p style="margin:0">${x.txt}</p>
+      <button type="button" class="boton" id="verRes">Ver esos fondos</button>
+      <p class="peq" style="margin:0">Es una orientación general según el tipo de fondo, no una recomendación personal. Tu banco o broker te va a pedir su propio test de ${T('perfil','perfil de inversor')}.</p></div>`;
+    $('#verRes').onclick=()=>{objetivo=x.obj;tope=x.tope;perfil=x.titulo;orden='patrimonio';mostrar=30;texto='';listado();$('#lista').scrollIntoView({behavior:'smooth',block:'start'})};
+  };
+  box.scrollIntoView({behavior:'smooth',block:'start'});
+}
 function listado(){
   document.title='Fondos explicados';
+  const inf=REF&&REF.periodos&&REF.periodos['1a']&&REF.periodos['1a'].inflacion;
   $('#app').innerHTML=`
   <section class="hero">
     <h1>Entendé en qué se invierte tu plata</h1>
     <p>Cada fondo explicado en simple: qué hace con tu plata, a qué está atada, cuánto riesgo tiene y cómo le fue comparado con la inflación, el plazo fijo y el dólar.</p>
   </section>
-  <div class="card queesfci"><b>¿Qué es un fondo común de inversión?</b>
-    <p>Mucha gente pone su plata en un mismo pozo y una ${T('administradora','administradora')} la invierte por todos. Podés entrar con poca plata y sacarla cuando quieras: algunos te la devuelven en el día y otros tardan un par de días. Tocá cualquier palabra subrayada para ver qué significa.</p></div>
+  <section class="card empezar" aria-label="Por dónde empezar"><h2>¿Nunca invertiste? Empezá acá</h2>
+    <p style="margin:0;font-size:.93rem">Un ${T('fci','fondo común de inversión')} junta la plata de mucha gente y una ${T('administradora','administradora')} la invierte por todos. Podés entrar con poca plata y sacarla cuando quieras. Tocá cualquier palabra subrayada para ver qué significa.</p>
+    <ol class="pasos">
+      <li><b>Primero, tu colchón.</b>Antes de buscar que rinda, separá unos 3 a 6 meses de gastos para imprevistos. Esa plata va a fondos money market: casi no bajan y la sacás en el día.</li>
+      <li><b>Después, pensá cuándo vas a necesitar el resto.</b>Si la vas a usar en unos meses, elegí fondos de riesgo bajo. Cuanto más tiempo puedas dejarla, más subas y bajas podés aguantar.</li>
+      <li><b>Fijate si le ganó a la inflación.</b>Que un fondo diga “+20%” no quiere decir que ganaste: si los precios subieron más que eso, con tu plata comprás menos que antes.</li>
+      <li><b>Para invertir necesitás una cuenta.</b>${MARCA?`Lo hacés desde tu cuenta en ${esc(MARCA)}.`:`Se abre gratis y online en un ${T('broker','banco o broker (ALyC)')} registrado en la CNV.`} Ahí buscás el fondo, ponés la plata y la pedís de vuelta cuando la necesites.</li>
+    </ol>
+    <button type="button" class="boton" id="abrirTest">Ayudame a elegir (4 preguntas)</button>
+  </section>
+  <section class="card test" id="test" hidden></section>
   <section class="bloque" aria-label="Elegí según para qué es la plata"><h3>¿Para qué es tu plata?</h3>
     <div class="objetivos">${OBJ.map(o=>`<button type="button" class="obj" data-o="${o[0]}" aria-pressed="${objetivo===o[0]}"><b>${o[1]}</b><span>${o[2]}</span></button>`).join('')}</div>
     <p class="peq">Es una guía para orientarte según el tipo de fondo. Información educativa: no es una recomendación de inversión.</p></section>
-  ${movida()}
   <div class="buscar"><input id="q" type="search" placeholder="Buscá por nombre del fondo o administradora" aria-label="Buscar fondo" value="${esc(texto)}"></div>
+  ${tope?`<div class="filtro"><span class="chip">${esc(perfil||'')}: riesgo hasta ${tope} de 5</span><button type="button" class="quitar" id="quitarTope">Quitar filtro</button></div>`:''}
+  ${inf!=null?`<p class="peq contexto" id="contexto"></p>`:''}
   <div class="orden"><span class="peq" id="cuantos"></span>
-    <label class="peq">Ordenar por <select id="ord"><option value="patrimonio">Más grandes</option><option value="rend">Más rindieron en 12 meses</option><option value="riesgo">Menos riesgo</option></select></label></div>
+    <label class="peq">Ordenar por <select id="ord"><option value="patrimonio">Más grandes</option><option value="riesgo">Menos riesgo</option><option value="rend">Más rindieron en 12 meses</option></select></label></div>
+  <p class="peq" id="avisoOrden" hidden>Ojo: lo que más rindió el año pasado suele ser lo que más riesgo tiene, y no asegura que vuelva a rendir lo mismo.</p>
   <div class="card lista" id="lista"></div>
   <button class="mas" id="mas" type="button" hidden>Ver más fondos</button>
+  ${movida()}
   <footer>Datos de fuentes oficiales: CAFCI, CNV, BCRA, ArgentinaDatos y BYMA. Información con fines educativos: no es una recomendación de inversión. Rendimientos pasados no garantizan rendimientos futuros.</footer>`;
   $('#ord').value=orden;
   $('#q').oninput=e=>{texto=e.target.value;mostrar=30;filas()};
   $('#ord').onchange=e=>{orden=e.target.value;filas()};
   $$('[data-o]').forEach(b=>b.onclick=()=>{objetivo=b.dataset.o;mostrar=30;$$('[data-o]').forEach(x=>x.setAttribute('aria-pressed',x===b));filas()});
   $('#mas').onclick=()=>{mostrar+=30;filas()};
+  $('#abrirTest').onclick=test;
+  if($('#quitarTope'))$('#quitarTope').onclick=()=>{tope=0;perfil=null;listado()};
   filas();
 }
 /* Portada: a dónde llevó la plata la gente en el último mes */
@@ -316,13 +399,23 @@ function movida(){
    <div class="mv">${g.map(x=>`<div class="mvr"><span>${esc(x.grupo)}</span><span class="mvt"><span class="mvf ${x.flujo_30d<0?'neg':'pos'}" style="width:${Math.abs(x.flujo_30d)/max*50}%;${x.flujo_30d<0?'right:50%':'left:50%'}"></span></span><span class="num ${x.flujo_30d<0?'neg':'pos'}">${x.flujo_30d<0?'−':'+'}$${corto(x.flujo_30d)}</span></div>`).join('')}</div>
    <p class="peq">Plata que entró menos plata que salió, sin contar lo que ganaron o perdieron los fondos. Los fondos en dólares están pasados a pesos al dólar oficial. Es una estimación con los fondos que tienen datos de hace un mes.</p></section>`;
 }
+// Al lado del rendimiento: si un fondo en pesos le ganó o no a la inflación de los mismos 12 meses
+function veredictoCorto(f){
+  const inf=REF&&REF.periodos&&REF.periodos['1a']&&REF.periodos['1a'].inflacion;
+  if(f.moneda==='USD'||f.rend_1a==null||inf==null)return '';
+  return f.rend_1a>=inf?'<span class="chip infl pos">✓ Le ganó a la inflación</span>':'<span class="chip infl neg">✗ Rindió menos que la inflación</span>';
+}
 function filas(){
   const l=filtrados();
+  if($('#avisoOrden'))$('#avisoOrden').hidden=orden!=='rend';
+  const inf=REF&&REF.periodos&&REF.periodos['1a']&&REF.periodos['1a'].inflacion;
+  if($('#contexto'))$('#contexto').innerHTML=`En los últimos 12 meses los precios subieron <b>${nf(inf,1)}%</b>. Un fondo en pesos que rindió menos que eso te dejó con menos poder de compra, aunque el número sea positivo.`
+    +(objetivo==='pronto'?' Los money market casi nunca le ganan a la inflación, y está bien: no son para eso, sino para tener la plata a mano y que rinda algo mientras tanto.':'');
   $('#cuantos').textContent=l.length.toLocaleString('es-AR')+(l.length===1?' fondo':' fondos');
   $('#lista').innerHTML=l.length?l.slice(0,mostrar).map(f=>`<a class="item" href="#${encodeURIComponent(f.id)}">
-    <span><span class="n">${esc(f.nombre)}</span><br><span class="g">${esc(f.gerente||'')}</span></span>
-    <span class="r"><span class="num ${f.rend_1a<0?'neg':''}">${pct(f.rend_1a)}</span><br><span class="g">últimos 12 meses</span></span>
-    <span class="chips">${medidor(f.riesgo_nivel)}<span class="chip">${esc(f.tipo)}</span><span class="chip">${f.moneda==='USD'?'En dólares':'En pesos'}</span><span class="chip">Te la devuelven ${plazo(f.plazo_rescate)}</span></span></a>`).join('')
+    <span><span class="n">${esc(f.nombre)}</span><br><span class="g">${esc(gestora(f.gerente))}</span></span>
+    <span class="r"><span class="num ${f.rend_1a<0?'neg':''}">${pct(f.rend_1a)}</span><br><span class="g">en 12 meses${f.moneda==='USD'?'<br>en dólares':''}</span></span>
+    <span class="chips">${medidor(f.riesgo_nivel)}${veredictoCorto(f)}<span class="chip">${esc(f.tipo)}</span><span class="chip">${f.moneda==='USD'?'En dólares':'En pesos'}</span><span class="chip">Te la devuelven ${plazo(f.plazo_rescate)}</span></span></a>`).join('')
     :'<p class="vacio">No encontramos fondos con esa búsqueda.</p>';
   $('#mas').hidden=l.length<=mostrar;
 }
@@ -416,12 +509,15 @@ async function ficha(id){
   const senales=(X.senales||[]).filter(s=>s.texto);
   const glos=s=>esc(s).replace(/Inflación \(CER\)/,T('cer','Inflación (CER)')).replace(/Tasa fija \(Tesoro\)/,T('lecap','Tasa fija (Tesoro)'))
     .replace(/^Tasa TAMAR/,T('tamar','Tasa TAMAR')).replace(/^Dólar linked/,T('linked','Dólar linked')).replace(/\(ON\)/,'('+T('on','ON')+')')
-    .replace(/^Cauciones/,T('caucion','Cauciones')).replace(/^Plazo fijo/,T('plazofijo','Plazo fijo'));
+    .replace(/^Cauciones/,T('caucion','Cauciones')).replace(/^Plazo fijo/,T('plazofijo','Plazo fijo'))
+    .replace(/^Bonos duales/,T('dual','Bonos duales')).replace(/fideicomisos/,T('fideicomiso','fideicomisos'));
+  const flPct=fl!=null&&f.patrimonio?Math.abs(fl)/f.patrimonio*100:null;
   $('#app').innerHTML=`
   ${EMBED?'':'<button class="volver" type="button" id="volver">← Todos los fondos</button>'}
   <article class="card ficha">
-    <div class="cab"><h2>${esc(f.nombre)}</h2><p class="peq">Lo administra ${esc(f.gerente||'s/d')} · ${f.moneda==='USD'?'En dólares':'En pesos'}</p>
+    <div class="cab"><h2>${esc(f.nombre)}</h2><p class="peq">Lo administra ${esc(gestora(f.gerente)||'s/d')} · ${f.moneda==='USD'?'En dólares':'En pesos'}</p>
       ${EMBED?'':`<button type="button" class="btncmp" id="btncmp" data-id="${esc(f.id)}" aria-pressed="false">＋ Comparar con otros</button>`}</div>
+    ${disponible(f)?'':`<p class="alerta">${esc(f.tipo_explicacion||'Este fondo no recibe inversiones nuevas.')}</p>`}
     ${f.frase?`<p class="frase">${esc(f.frase)}</p>`:''}
     ${senales.length?`<ul class="senales">${senales.map(s=>`<li class="${s.nivel==='atencion'?'aten':''}">${esc(s.texto)}</li>`).join('')}</ul>`:''}
     ${f.para_que?`<div class="paraque"><b>Sirve para</b><span>${esc(f.para_que.replace(/^Para /,'').replace(/^./,m=>m.toLowerCase()))}</span></div>`:''}
@@ -443,9 +539,9 @@ async function ficha(id){
       <p class="peq">Según la cartera al ${fecha(c.fecha)} que el fondo informó a la CNV (${c.n_activos} inversiones en total).${c.vencimiento_promedio_anios!=null&&c.vencimiento_cobertura_pct>=30?` Lo que tiene fecha de ${T('vencimiento','vencimiento')} vence en promedio en ${c.vencimiento_promedio_anios<1?nf(c.vencimiento_promedio_anios*12,0)+' meses':nf(c.vencimiento_promedio_anios,1)+' años'}.`:''}</p></div>
     ${tasasBloque(c.tasas,c.principales)}
     <div class="grid2">
-      <div class="bloque"><h3>Sus inversiones más grandes</h3><table><tbody>${c.principales.slice(0,8).map(t=>`<tr><td>${esc(t.en_palabras||t.activo)}${t.en_palabras&&t.en_palabras!==t.activo?`<br><span class="peq">${esc(t.activo)}</span>`:''}</td><td class="num">${nf(t.pct,1)}%</td></tr>`).join('')}</tbody></table></div>
+      <div class="bloque"><h3>Sus inversiones más grandes</h3><p class="peq">Cada ${T('bono','bono o letra')} es un préstamo que el fondo le hizo al Estado o a una empresa. En gris va el código con el que se lo conoce en la bolsa.</p><table><tbody>${c.principales.slice(0,8).map(t=>`<tr><td>${esc(t.en_palabras||t.activo)}${t.en_palabras&&t.en_palabras!==t.activo?`<br><span class="peq">${esc(t.activo)}</span>`:''}</td><td class="num">${nf(t.pct,1)}%</td></tr>`).join('')}</tbody></table></div>
       <div class="bloque"><h3>${T('flujo','Plata que entró o salió')}</h3>${fl==null?'<p class="peq">Sin dato.</p>':`<p class="dato num ${fl>=0?'pos':'neg'}">${fl>=0?'+':'−'} ${plata(Math.abs(fl),f.moneda)}</p>
-        <p class="peq">En ${flTxt} la gente ${fl>=0?'puso':'retiró'} esa plata de más, sin contar lo que ganó o perdió el fondo.</p>`}
+        <p class="peq">En ${flTxt} la gente ${fl>=0?'puso':'retiró'} esa plata de más, sin contar lo que ganó o perdió el fondo.${flPct!=null?` Es ${flPct<0.1?'menos del 0,1':'el '+nf(flPct,flPct<10?1:0)}% de todo lo que maneja${fl<0&&flPct<5?': que salga un poco de plata es normal, la gente usa sus ahorros':''}.`:''}</p>`}
         <h3 style="margin-top:8px">${T('patrimonio','Cuánto maneja')}</h3><p class="dato num" style="font-size:1.2rem">${plata(f.patrimonio,f.moneda)}</p>
         <p class="peq">Es el n.º ${f.puesto} de ${f.en_categoria} en su categoría por tamaño.</p></div>
     </div>`:`<div class="bloque"><h3>En qué invierte</h3><p class="peq">Este fondo todavía no tiene una cartera publicada en la CNV.</p>
@@ -455,9 +551,14 @@ async function ficha(id){
       <tr><td>${T('costo','Costo anual')}</td><td class="num">${costo==null?'s/d':(f.clases.length>1?'desde ':'')+nf(costo,2)+'%'}</td></tr>
       <tr><td>${T('depositaria','Quién guarda la plata')}</td><td>${esc(f.depositaria||'s/d')}</td></tr></tbody></table>
       ${X.costo&&X.costo.texto?`<p class="peq">${esc(X.costo.texto)}</p>`:''}
-      ${f.clases.length>1?`<p class="peq">Tiene ${f.clases.length} ${T('clase','clases')}: invierten en lo mismo, pero cambian el costo o el monto mínimo.</p><div class="scroll"><table><thead><tr><th>Clase</th><th>Costo anual</th><th>Mínimo</th><th>12 meses</th></tr></thead><tbody>${f.clases.map(x=>`<tr><td>${esc(x.nombre.split(' - ').slice(1).join(' - ')||x.nombre)}</td><td class="num">${nf((x.honorarios_gerente||0)+(x.honorarios_depositaria||0),2)}%</td><td class="num">${x.minimo!=null?plata(x.minimo,x.moneda||f.moneda):'s/d'}</td><td class="num">${dudosas.has(x.nombre)?'en revisión':pct(x.rend_1a)}</td></tr>`).join('')}</tbody></table></div>`:''}</div>
+      ${f.clases.length>1?`<p class="peq">Tiene ${f.clases.length} ${T('clase','clases')}: invierten en lo mismo, pero cambian el costo o el monto mínimo. <b>¿Cuál te toca?</b> La define ${MARCA?esc(MARCA):'el banco o broker donde invertís'}: a las personas casi siempre les ofrecen la clase A. Las que rinden más suelen ser para empresas o montos grandes, porque cobran menos.${f.clases.some(x=>/27\.?743/.test(x.nombre))?' Las que dicen “Ley 27.743” son para plata que entró con el blanqueo de 2024.':''}</p><div class="scroll"><table><thead><tr><th>Clase</th><th>Costo anual</th><th>Mínimo</th><th>12 meses</th></tr></thead><tbody>${f.clases.map(x=>`<tr><td>${esc(x.nombre.split(' - ').slice(1).join(' - ')||x.nombre)}</td><td class="num">${nf((x.honorarios_gerente||0)+(x.honorarios_depositaria||0),2)}%</td><td class="num">${x.minimo!=null?plata(x.minimo,x.moneda||f.moneda):'s/d'}</td><td class="num">${dudosas.has(x.nombre)?'en revisión':pct(x.rend_1a)}</td></tr>`).join('')}</tbody></table></div>`:''}</div>
     ${(X.parecidos=(X.parecidos||[]).filter(p=>!CAT||CAT.fondos.some(f=>f.id===p.id))).length?`<div class="bloque"><h3>Fondos parecidos</h3><p class="peq">Tienen buena parte de las mismas inversiones.</p>
       <div class="lista card">${X.parecidos.slice(0,4).map(p=>`<a class="item" href="#${encodeURIComponent(p.id)}"><span><span class="n">${esc(p.nombre)}</span><br><span class="g">${esc(p.gerente||'')}</span></span><span class="r"><span class="num">${nf(p.en_comun_pct,0)}%</span><br><span class="g">en común</span></span></a>`).join('')}</div></div>`:''}
+    ${EMBED||!disponible(f)?'':`<div class="bloque"><h3>Cómo invertir en este fondo</h3><ol class="pasos" style="font-size:.93rem">
+      ${MARCA?`<li>Entrá a tu cuenta en ${esc(MARCA)} y buscá “${esc(f.nombre)}” en la sección de fondos.</li>`:`<li>Abrí una cuenta en un ${T('broker','banco o broker (ALyC)')}, si todavía no tenés. Suele ser gratis y se hace online.</li>
+      <li>Buscá “${esc(f.nombre)}” en la sección de fondos y elegí la clase que te ofrezcan.</li>`}
+      <li>Poné cuánto querés invertir. A veces el botón dice “${T('suscribir','suscribir')}”: es lo mismo.</li>
+      <li>Cuando necesites la plata, pedí el ${T('rescate','rescate')}: te la devuelven ${plazo(f.plazo_rescate)}.</li></ol></div>`}
     <p class="aviso">Fuentes: CAFCI (valores diarios), CNV (cartera semanal), BCRA (inflación, dólar, plazo fijo), ArgentinaDatos (historia de valores). Los rendimientos son de la clase principal, ya con costos descontados. "A qué está atada tu plata" y el nivel de riesgo se calculan en forma automática. Rendimientos pasados no garantizan rendimientos futuros. Información con fines educativos: no es una recomendación de inversión.</p>
   </article>`;
   if($('#volver'))$('#volver').onclick=()=>{location.hash=''};
@@ -471,7 +572,8 @@ async function ficha(id){
     $('#sim').innerHTML=v==null?`<p class="peq">Todavía no tenemos el dato del fondo para este período.</p>`:`
       <label>Si hubieras puesto <input id="monto" inputmode="numeric" value="${monto.toLocaleString('es-AR')}" aria-label="Monto"> ${nom},</label>
       <div>hoy tendrías <span class="grande num ${v<0?'neg':''}">${sim(monto*(1+v/100),f.moneda)}</span></div>
-      ${d!=null?`<p class="veredicto ${d>=0?'pos':'neg'}">${d>=0?'Le ganó':'Le perdió'} a la inflación${P.inflacion_hasta?' (medida hasta '+mes(P.inflacion_hasta)+')':''}: para no perder poder de compra necesitabas ${sim(monto*(1+P.inflacion/100),f.moneda)}.</p>`:''}`;
+      ${d!=null?`<p class="veredicto ${d>=0?'pos':'neg'}">${d>=0?'Le ganó':'Le perdió'} a la inflación${P.inflacion_hasta?' (medida hasta '+mes(P.inflacion_hasta)+')':''}: para no perder poder de compra necesitabas ${sim(monto*(1+P.inflacion/100),f.moneda)}.</p>`:''}
+      ${d!=null&&d<0&&(f.riesgo_nivel||9)<=1?`<p class="peq">Es lo habitual en fondos así: sirven para tener la plata a mano y que rinda algo, no para ganarle a la inflación.</p>`:''}`;
     const inp=$('#monto');if(inp){inp.onchange=()=>{const m=+inp.value.replace(/\D/g,'');if(m>0){monto=m;pinta()}}}
     const filas=[['Este fondo',v,null,true],...refs].filter(r=>r[3]||r[1]!=null);
     const max=Math.max(...filas.map(r=>Math.abs(r[1]||0)),1);

@@ -114,6 +114,10 @@ const mesAnio = f => { if (!f) return ''; const [y, m] = String(f).split('-'); r
 const plazo = p => p == null || p === '' ? 's/d' : +p === 0 ? 'en el día' : +p === 1 ? 'al día hábil siguiente' : `en ${p} días hábiles`;
 const HORIZ = { Cor: 'unos días o semanas', Med: 'varios meses', Lar: 'varios años', Flex: 'cualquier plazo' };
 const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+// "Balanz S.G.F.C.I.S.A.U." -> "Balanz": las siglas legales no le dicen nada a quien empieza
+const gestora = s => { const p = String(s || '').trim().split(/\s+/); while (p.length > 1 && /^(?:[SAUGFCI]\.){2,}[SAUGFCI]?\.?$/.test(p[p.length - 1])) p.pop(); return p.join(' '); };
+// Fondos cerrados o en liquidación: no se puede entrar, así que solo aparecen si se los busca por nombre
+const disponible = f => f.disponible !== false && !/liquidaci|cerrad|tr[aá]mite/i.test(f.tipo || '');
 
 const RIESGO = {
   1: ['Muy bajo', 'Casi no cambia de valor día a día.'],
@@ -138,7 +142,9 @@ const GLOSARIO = {
   'costo anual': 'Lo que te cobran por año por administrar el fondo. Ya está descontado del rendimiento que ves.',
   inflacion: 'Cuánto suben los precios. Si tu inversión rinde menos que la inflación, perdiste poder de compra.',
   'plazo fijo': 'Depósito en un banco a 30 días con tasa fija. Sirve como punto de comparación.',
-  clase: 'Un mismo fondo puede tener varias “clases” con distinto costo o monto mínimo. Invierten en lo mismo.',
+  clase: 'Un mismo fondo puede tener varias “clases” con distinto costo o monto mínimo. Invierten en lo mismo. La que te toca la define la plataforma donde invertís: a las personas casi siempre les ofrecen la clase A.',
+  emergencia: 'Plata guardada para imprevistos: de 3 a 6 meses de gastos, en algo que no baje y que puedas sacar en el día.',
+  suscribir: 'Es el nombre técnico de poner plata en un fondo. Sacarla se llama rescatar.',
 };
 const termino = (clave, texto) => `<button type="button" class="term" data-term="${esc(clave)}" data-label="${esc(texto || clave)}" part="termino">${esc(texto || clave)}</button>`;
 
@@ -191,6 +197,8 @@ button{font:inherit;color:inherit}
 .pill{font-size:.84em;border:1px solid var(--_linea);background:var(--_sup);border-radius:999px;padding:5px 12px;cursor:pointer}
 .pill[aria-pressed="true"]{border-color:var(--_marca);color:var(--_marca);background:var(--_marca-suave);font-weight:600}
 .pregunta{display:grid;gap:8px}
+.empezar{padding:12px 14px}.empezar summary{font-weight:700;cursor:pointer}.empezar ol{margin:10px 0 0;padding-left:20px;display:grid;gap:8px;font-size:.93em}
+.chip.pos{color:var(--_bien)}.chip.neg{color:var(--_mal)}
 .pregunta p{font-weight:600}
 .lista{overflow:hidden}
 .item{display:grid;grid-template-columns:1fr auto;gap:4px 14px;padding:12px 16px;border:0;border-bottom:1px solid var(--_linea);background:none;width:100%;text-align:left;cursor:pointer}
@@ -361,7 +369,7 @@ class Base extends HTMLElement {
     <article class="ficha caja" part="ficha" aria-labelledby="t-${esc(f.id)}">
       <header class="cab">
         <h2 id="t-${esc(f.id)}">${esc(f.nombre)}</h2>
-        <p class="peq">Lo administra ${esc(f.gerente || 's/d')}</p>
+        <p class="peq">Lo administra ${esc(gestora(f.gerente) || 's/d')}</p>
         <div class="chips">
           <span class="chip" part="chip">${esc(f.tipo)}</span>
           <span class="chip" part="chip">${f.moneda === 'USD' ? 'En dólares' : 'En pesos'}</span>
@@ -369,6 +377,7 @@ class Base extends HTMLElement {
           ${nivel ? `<span class="chip r${nivel}" part="chip">Riesgo ${rg[0].toLowerCase()}</span>` : ''}
         </div>
       </header>
+      ${disponible(f) ? '' : `<p class="frase">⚠ ${esc(f.tipo_explicacion || 'Este fondo no recibe inversiones nuevas.')}</p>`}
       ${f.frase ? `<p class="frase">${glos(esc(f.frase))}</p>` : ''}
       <div class="grid">
         <section class="bloque"><h3>Para qué sirve</h3>
@@ -405,7 +414,7 @@ class Base extends HTMLElement {
         ${minimo != null && Number.isFinite(minimo) ? `<tr><td>Monto mínimo</td><td class="num">${minimo > 0 ? plata(minimo, f.moneda) : 'sin mínimo'}</td></tr>` : ''}
         <tr><td>Quién guarda la plata (${termino('custodia')})</td><td>${esc(f.depositaria || 's/d')}</td></tr>
       </tbody></table>
-      ${f.clases && f.clases.length > 1 ? `<details><summary class="peq" style="cursor:pointer">Ver las ${f.clases.length} ${termino('clase', 'clases')} del fondo</summary><div class="scroll"><table><thead><tr><th>Clase</th><th>Costo anual</th><th>Mínimo</th><th>12 meses</th></tr></thead><tbody>${f.clases.map(x => `<tr><td>${esc(x.nombre.split(' - ').slice(1).join(' - ') || x.nombre)}</td><td class="num">${nf((x.honorarios_gerente || 0) + (x.honorarios_depositaria || 0), 2)}%</td><td class="num">${x.minimo != null ? plata(x.minimo, f.moneda) : 's/d'}</td><td class="num">${pct(x.rend_1a)}</td></tr>`).join('')}</tbody></table></div></details>` : ''}
+      ${f.clases && f.clases.length > 1 ? `<details><summary class="peq" style="cursor:pointer">Ver las ${f.clases.length} ${termino('clase', 'clases')} del fondo</summary><p class="peq">Invierten en lo mismo. Las que rinden más suelen ser para empresas o montos grandes, porque cobran menos.${f.clases.some(x => /27\.?743/.test(x.nombre)) ? ' Las que dicen “Ley 27.743” son para plata que entró con el blanqueo de 2024.' : ''}</p><div class="scroll"><table><thead><tr><th>Clase</th><th>Costo anual</th><th>Mínimo</th><th>12 meses</th></tr></thead><tbody>${f.clases.map(x => `<tr><td>${esc(x.nombre.split(' - ').slice(1).join(' - ') || x.nombre)}</td><td class="num">${nf((x.honorarios_gerente || 0) + (x.honorarios_depositaria || 0), 2)}%</td><td class="num">${x.minimo != null ? plata(x.minimo, f.moneda) : 's/d'}</td><td class="num">${pct(x.rend_1a)}</td></tr>`).join('')}</tbody></table></div></details>` : ''}
       </section>
       ${invertir !== null ? `<div class="acciones"><button type="button" class="boton" data-accion="invertir" part="boton invertir">${esc(invertir || 'Invertir en este fondo')}</button></div>` : ''}
       <p class="aviso">Fuentes oficiales: CAFCI, CNV, BCRA y ArgentinaDatos. Rendimientos de la clase principal, ya descontados los costos. Lo que rindió antes no asegura lo que va a rendir. Información con fines educativos: no es una recomendación de inversión.</p>
@@ -428,13 +437,15 @@ class Base extends HTMLElement {
     const f = this.fondoActual, ref = this.ref || { periodos: {} };
     const pintar = periodo => {
       const P = ref.periodos?.[periodo] || {}, v = f.rendimientos?.[periodo];
-      const filas = [['Este fondo', v, true], ['Inflación', P.inflacion], ['Plazo fijo', P.plazo_fijo], ['Dólar oficial', P.dolar]].filter(r => r[2] || r[1] != null);
+      const usd = f.moneda === 'USD';
+      const filas = [['Este fondo', v, true], ...(usd ? [] : [['Inflación', P.inflacion], ['Plazo fijo', P.plazo_fijo], ['Dólar oficial', P.dolar]])].filter(r => r[2] || r[1] != null);
       const max = Math.max(...filas.map(r => Math.abs(r[1] || 0)), 1);
       cont.querySelector('[data-comp]').innerHTML = filas.map(([n, x, yo]) => `<div class="comp-row ${yo ? 'yo' : ''}"><span>${n === 'Inflación' ? termino('inflacion', n) : n === 'Plazo fijo' ? termino('plazo fijo', n) : n}</span><span class="track"><span class="fill ${x < 0 ? 'neg' : ''}" style="width:${Math.abs(x || 0) / max * 100}%"></span></span><span class="num" style="text-align:right">${pct(x)}</span></div>`).join('');
-      const d = v != null && P.inflacion != null ? v - P.inflacion : null;
+      const d = v != null && P.inflacion != null && !usd ? v - P.inflacion : null;
       cont.querySelector('[data-veredicto]').innerHTML = v == null ? 'No hay datos del fondo para este período.'
+        : usd ? `Rindió <b class="num">${pct(v)}</b> en dólares. Como está en dólares, no se compara con la inflación en pesos.`
         : d == null ? `Rindió <b class="num">${pct(v)}</b>. Todavía no hay dato de inflación para comparar este período.`
-        : `${d >= 0 ? '✓ Le ganó' : '✗ Le perdió'} a la inflación por <b class="num">${nf(Math.abs(d), 1)} puntos</b>: ${d >= 0 ? 'con lo que ganaste podías comprar más cosas que antes.' : 'con lo que tenías podías comprar menos cosas que antes.'}${P.inflacion_hasta ? ` <span class="peq">Inflación hasta ${mesAnio(P.inflacion_hasta)}.</span>` : ''}`;
+        : `${d >= 0 ? '✓ Le ganó' : '✗ Le perdió'} a la inflación por <b class="num">${nf(Math.abs(d), 1)} puntos</b>: ${d >= 0 ? 'con lo que ganaste podías comprar más cosas que antes.' : 'con lo que tenías podías comprar menos cosas que antes.' + ((nivelRiesgo(f) || 9) <= 1 ? ' Es lo habitual en fondos así: sirven para tener la plata a mano, no para ganarle a la inflación.' : '')}${P.inflacion_hasta ? ` <span class="peq">Inflación hasta ${mesAnio(P.inflacion_hasta)}.</span>` : ''}`;
     };
     cont.querySelectorAll('[data-periodo]').forEach(b => b.onclick = () => {
       cont.querySelectorAll('[data-periodo]').forEach(x => x.setAttribute('aria-pressed', x === b)); pintar(b.dataset.periodo);
@@ -455,6 +466,7 @@ class FondosFCI extends Base {
     if (id) return this.mostrarFicha(id, false);
     this.vista.innerHTML = this.esqueleto();
     try { this.cat = await datos.catalogo(this); } catch (e) { this.vista.innerHTML = this.fallo(e, 'catalogo'); return; }
+    this.refLista = await datos.referencias(this).catch(() => null);
     this.listado();
   }
   async mostrarFicha(id, volver) {
@@ -468,6 +480,11 @@ class FondosFCI extends Base {
     const s = this.estado, cat = this.cat;
     this.vista.innerHTML = `
     <div class="buscador">
+      <details class="caja empezar" part="empezar"><summary>¿Nunca invertiste? Empezá acá</summary><ol>
+        <li><b>Primero, tu colchón.</b> Separá unos 3 a 6 meses de gastos para imprevistos (${termino('emergencia', 'fondo de emergencia')}) en un ${termino('money market')}: casi no baja y la sacás en el día.</li>
+        <li><b>Después, pensá cuándo vas a necesitar el resto.</b> Si es en unos meses, elegí riesgo bajo. Cuanto más tiempo puedas dejarla, más subas y bajas podés aguantar.</li>
+        <li><b>Fijate si le ganó a la inflación.</b> Un “+20%” no es ganancia si los precios subieron más que eso.</li>
+        <li><b>Invertir es tocar el botón del fondo</b> (a veces dice “${termino('suscribir')}”). Para sacar la plata pedís el ${termino('rescate')}.</li></ol></details>
       <div class="pregunta"><p>¿Qué querés hacer con tu plata?</p>
         <div class="pills" role="group" aria-label="Objetivo">${OBJETIVOS.map(o => `<button type="button" class="pill" data-obj="${o[0]}" aria-pressed="${s.objetivo === o[0]}">${o[1]}</button>`).join('')}</div></div>
       <input type="search" placeholder="O buscá un fondo por nombre o administradora" aria-label="Buscar fondo" value="${esc(s.texto)}">
@@ -491,15 +508,16 @@ class FondosFCI extends Base {
   }
   filas() {
     const s = this.estado, fn = OBJETIVOS.find(o => o[0] === s.objetivo)[2], t = norm(s.texto);
-    let l = this.cat.fondos.filter(f => fn(f) && (!t || norm(f.nombre + ' ' + f.gerente).includes(t)));
+    let l = this.cat.fondos.filter(f => fn(f) && (t ? norm(f.nombre + ' ' + f.gerente).includes(t) : disponible(f)));
+    const inf = this.refLista?.periodos?.['1a']?.inflacion;
     if (s.orden === 'rend') l = [...l].sort((a, b) => (b.rend_1a ?? -1e9) - (a.rend_1a ?? -1e9));
     this.vista.querySelector('[data-cuantos]').textContent = l.length.toLocaleString('es-AR') + (l.length === 1 ? ' fondo' : ' fondos');
     this.vista.querySelector('[data-lista]').innerHTML = l.length ? l.slice(0, s.mostrar).map(f => {
       const n = nivelRiesgo(f);
       return `<button type="button" class="item" part="item" data-id="${esc(f.id)}">
-        <span><span class="n">${esc(f.nombre)}</span><br><span class="g">${esc(f.gerente || '')}</span></span>
+        <span><span class="n">${esc(f.nombre)}</span><br><span class="g">${esc(gestora(f.gerente))}</span></span>
         <span class="r"><span class="num ${f.rend_1a < 0 ? 'neg' : ''}" style="font-weight:600">${pct(f.rend_1a)}</span><br><span class="g">últimos 12 meses</span></span>
-        <span class="chips"><span class="chip">${esc(f.tipo)}</span><span class="chip">${f.moneda === 'USD' ? 'Dólares' : 'Pesos'}</span><span class="chip">Retirás ${plazo(f.plazo_rescate)}</span>${n ? `<span class="chip r${n}">Riesgo ${RIESGO[n][0].toLowerCase()}</span>` : ''}</span></button>`;
+        <span class="chips"><span class="chip">${esc(f.tipo)}</span><span class="chip">${f.moneda === 'USD' ? 'Dólares' : 'Pesos'}</span><span class="chip">Retirás ${plazo(f.plazo_rescate)}</span>${n ? `<span class="chip r${n}">Riesgo ${RIESGO[n][0].toLowerCase()}</span>` : ''}${inf != null && f.moneda !== 'USD' && f.rend_1a != null ? `<span class="chip ${f.rend_1a >= inf ? 'pos' : 'neg'}">${f.rend_1a >= inf ? '✓ Le ganó a la inflación' : '✗ Menos que la inflación'}</span>` : ''}</span></button>`;
     }).join('') : '<p class="vacio">No encontramos fondos con ese nombre.</p>';
     this.vista.querySelector('[data-mas]').hidden = l.length <= s.mostrar;
   }
