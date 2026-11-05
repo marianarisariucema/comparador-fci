@@ -45,6 +45,16 @@ No funcionan: API vieja de CAFCI y `estadisticas.cafci.org.ar` (bloqueadas, 403)
 - Todo corre de noche en GitHub Actions (22:30, después de la calculadora; carteras sábados 2:00). Nada usa la PC ni Claude.
 - Falta: TIR y duration de verdad (hacen falta los flujos de cada bono), mapear acciones con nombres raros a ticker, ficha didáctica nueva sobre estos datos.
 
+## Noche del 5/11 (página y proceso)
+
+- **Página nueva publicada** (https://marianarisariucema.github.io/comparador-fci/), lee `data/web/` que arma `pipeline/web.py` cada noche:
+  - Portada: qué es un FCI, elegir por objetivo (la uso pronto, ahorro del año, inflación, dólares, largo plazo), qué hizo la gente con su plata el último mes, buscador.
+  - Ficha: frase simple, "sirve para", riesgo de 1 a 5 medido con la peor caída del último año, simulador "si hubieras puesto $100.000", gráfico contra inflación (CER) y dólar, a qué está atada la plata, inversiones explicadas en palabras con vencimiento, plata que entró o salió en el mes, costos por clase, fecha de cobro si rescatás hoy, glosario tocando las palabras subrayadas.
+  - Comparar hasta 3 fondos.
+  - Marca blanca por URL: `?marca=`, `?color=%23hex`, `?embed=1`, `?fondo=<id>`, `?fondos=id1,id2`, `?gestora=texto`.
+- **Proceso más liviano:** histórico diario compacto (de ~4 MB a ~200 KB por día), sin las 4.300 fichas por clase, carteras CNV en paralelo (de 2 h a 42 min), rendimientos imposibles descartados, fondos con clases en pesos y dólares sumados en su moneda principal.
+- **Pendiente de revisión de Mariana:** PR #1 (datos de experiencia: señales, parecidos, costo por clase; la página ya los muestra apenas se mergee) y PR #2 (vigilancia diaria y reintentos).
+
 ## Pendiente para mañana
 
 0. Los dos prototipos son privados: para que Daniel los vea, usar **Compartir** en cada página.
