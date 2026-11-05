@@ -92,6 +92,10 @@ def referencias(hoy: dt.date) -> dict:
             inf, hasta = infl_a[-1][1], infl_a[-1][0].isoformat()
         ref["periodos"][clave] = {"inflacion": inf, "inflacion_hasta": hasta,
                                   "plazo_fijo": plazo_fijo(desde), "dolar": cambio(dolar, desde)}
+    def mensual_bcra(s):
+        return mensual([(f, v) for f, v in s if f >= hoy - dt.timedelta(days=740)])
+    ref["serie_cer"] = mensual_bcra(serie("cer"))
+    ref["serie_dolar"] = mensual_bcra(dolar)
     ref["dolar_hoy"] = dolar[-1][1] if dolar else None
     ref["plazo_fijo_tna_hoy"] = pf[-1][1] if pf else None
     return ref
@@ -134,6 +138,95 @@ def frase(tipo: str, atado: dict) -> str:
     principal = partes[0][1]
     cuanto = "casi todo en" if principal >= 80 else "más que nada en" if principal >= 50 else "sobre todo en"
     return f"Junta la plata de muchos ahorristas y la invierte {cuanto} {txt}."
+
+
+
+# ------------------------------------------------------------------ series de cuotaparte
+def series_historicas(ids: set[str], desde: dt.date) -> dict[str, list[tuple[dt.date, float]]]:
+    """Cuotaparte de esas clases en todas las fechas guardadas desde `desde`."""
+    archivos = {}
+    for carpeta in (DATA / "historico_ad", DATA / "historico"):  # la planilla propia pisa
+        for p in carpeta.glob("*.json"):
+            try:
+                f = dt.date.fromisoformat(p.stem)
+            except ValueError:
+                continue
+            if f >= desde:
+                archivos[f] = p
+    out = collections.defaultdict(list)
+    for f in sorted(archivos):
+        d = leer(archivos[f], {})
+        if isinstance(d, dict):
+            for i in ids & d.keys():
+                v = d[i]
+                if v and v[0]:
+                    out[i].append((f, float(v[0])))
+        else:
+            for x in d:
+                if x.get("id") in ids and x.get("vcp"):
+                    out[x["id"]].append((f, float(x["vcp"])))
+    return out
+
+
+def mensual(s: list[tuple[dt.date, float]]) -> list[list]:
+    """Último dato de cada mes + el último disponible."""
+    por_mes = {}
+    for f, v in s:
+        por_mes[(f.year, f.month)] = (f, v)
+    pts = [por_mes[k] for k in sorted(por_mes)]
+    return [[f.isoformat(), round(v, 4)] for f, v in pts]
+
+
+def riesgo_medido(s: list[tuple[dt.date, float]], hoy: dt.date):
+    """Peor caída (desde un máximo) y volatilidad anual del último año, en %."""
+    pts = [(f, v) for f, v in s if f >= hoy - dt.timedelta(days=365)]
+    if len(pts) < 20:
+        return None, None
+    pico, peor = pts[0][1], 0.0
+    for _, v in pts:
+        pico = max(pico, v)
+        peor = min(peor, v / pico - 1)
+    import math
+    rets = []
+    for (f1, v1), (f2, v2) in zip(pts, pts[1:]):
+        dias = max((f2 - f1).days, 1)
+        if v1 > 0 and v2 > 0 and dias <= 10:
+            rets.append(math.log(v2 / v1) / math.sqrt(dias))
+    if len(rets) < 15:
+        return round(peor * 100, 2), None
+    m = sum(rets) / len(rets)
+    var = sum((r - m) ** 2 for r in rets) / (len(rets) - 1)
+    return round(peor * 100, 2), round(math.sqrt(var * 365) * 100, 2)
+
+
+PARA_QUE = {
+    "Money market": ("Para la plata que vas a usar pronto: sueldo, gastos del mes o un fondo de emergencia.", ["pronto"]),
+    "Renta fija corto plazo (T+1)": ("Para plata que podés dejar algunas semanas o meses.", ["pronto", "anio"]),
+    "Renta fija CER": ("Para ahorros de 6 meses o más que querés que no pierdan contra la inflación.", ["inflacion", "anio"]),
+    "Renta fija tasa fija (Lecap)": ("Para ahorros de algunos meses si creés que la inflación va a bajar.", ["anio"]),
+    "Renta fija TAMAR": ("Para ahorros de algunos meses, con una tasa que sigue a la de los bancos.", ["anio"]),
+    "Dólar linked": ("Para cubrirte si pensás que el dólar oficial va a subir, sin comprar dólares.", ["dolar"]),
+    "Renta fija pesos: empresas (ON)": ("Para ahorros de 1 año o más en pesos.", ["anio"]),
+    "Renta fija pesos: mixta": ("Para ahorros en pesos de varios meses.", ["anio"]),
+    "Renta fija dólares: bonos soberanos": ("Para hacer rendir dólares durante uno o varios años, aceptando subas y bajas.", ["dolar", "largo"]),
+    "Renta fija dólares: empresas (ON)": ("Para hacer rendir dólares con deuda de empresas, a más de un año.", ["dolar", "largo"]),
+    "Renta fija dólares: mixta": ("Para hacer rendir dólares.", ["dolar"]),
+    "Acciones argentinas": ("Para plata que no vas a tocar en varios años y aguanta caídas fuertes.", ["largo"]),
+    "Acciones del exterior": ("Para plata a varios años, invertida en empresas de afuera.", ["largo", "dolar"]),
+    "Renta mixta": ("Para plata a mediano o largo plazo, con algo de bonos y algo de acciones.", ["largo"]),
+}
+NIVEL = {"bajo": 1, "medio": 3, "alto": 5}
+
+
+def nivel_riesgo(sub: str, riesgo: str, vol):
+    """1 a 5. Si hay volatilidad medida, manda el dato; si no, el tipo de fondo."""
+    if vol is not None:
+        return 1 if vol < 1.5 else 2 if vol < 5 else 3 if vol < 12 else 4 if vol < 25 else 5
+    if sub == "Renta fija corto plazo (T+1)":
+        return 2
+    if sub == "Renta mixta":
+        return 4
+    return NIVEL.get(riesgo, 3)
 
 
 # ------------------------------------------------------------------ main
@@ -179,6 +272,17 @@ def main() -> int:
             "_tipo_expl": tipo_expl,
         })
 
+    series = series_historicas({f["_ref"]["id"] for f in fondos}, hoy - dt.timedelta(days=740))
+    for f in fondos:
+        s = series.get(f["_ref"]["id"], [])
+        f["_serie"] = s
+        peor, vol = riesgo_medido(s, hoy)
+        f["peor_caida_1a"], f["volatilidad_1a"] = peor, vol
+        f["riesgo_nivel"] = nivel_riesgo(f["subtipo"], f["riesgo"], vol)
+        pq = PARA_QUE.get(f["subtipo"])
+        f["objetivos"] = (pq[1] if pq else []) + (["dolar"] if f["moneda"] == "USD" and (not pq or "dolar" not in pq[1]) else [])
+        f["_para_que"] = pq[0] if pq else None
+
     # Puesto por tamaño dentro de su categoría CAFCI
     por_cat = collections.defaultdict(list)
     for f in fondos:
@@ -194,12 +298,14 @@ def main() -> int:
     for f in sorted(fondos, key=lambda f: -f["patrimonio"]):
         ref, cart, r, cs = f.pop("_ref"), f.pop("_cart"), f.pop("_r"), f.pop("_cs")
         flujo30, expl = f.pop("_flujo30"), f.pop("_tipo_expl")
+        serie_f, para_que = f.pop("_serie"), f.pop("_para_que")
         f.pop("_clave")
         catalogo.append({k: f[k] for k in ("id", "nombre", "gerente", "tipo", "subtipo", "riesgo", "moneda",
-                                           "plazo_rescate", "patrimonio", "rend_1a", "rend_anio")})
+                                           "plazo_rescate", "patrimonio", "rend_1a", "rend_anio",
+                                           "riesgo_nivel", "objetivos")})
         atado = (cart or {}).get("atado") or {}
         escribir(WEB / "fondos" / f"{f['id']}.json", {
-            **f, "tipo_explicacion": expl, "frase": frase(f["subtipo"], atado),
+            **f, "tipo_explicacion": expl, "para_que": para_que, "evolucion": mensual(serie_f), "frase": frase(f["subtipo"], atado),
             "horizonte": ref.get("horizonte"), "depositaria": ref.get("depositaria"),
             "flujo_dia": (round(sum(c.get("flujo_neto_estimado") or 0 for c in cs), 2)
                           if any(c.get("flujo_neto_estimado") is not None for c in cs) else None),
