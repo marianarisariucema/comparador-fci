@@ -2,8 +2,8 @@ name: Carteras semanales CNV
 
 on:
   schedule:
-    # Sábados 12:00 UTC (9:00 hora argentina). La CNV publica la cartera semanal con atraso.
-    - cron: "0 12 * * 6"
+    # Sábados 05:00 UTC (2:00 hora argentina, de noche). La CNV publica la cartera semanal con atraso.
+    - cron: "0 5 * * 6"
   workflow_dispatch:
     inputs:
       ids:
