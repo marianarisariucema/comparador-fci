@@ -31,6 +31,9 @@ jobs:
       - name: Rendimientos por período
         continue-on-error: true
         run: python pipeline/historico.py
+      - name: Datos de la página (catálogo y fichas)
+        continue-on-error: true
+        run: python pipeline/web.py
       - name: Guardar datos
         run: |
           git config user.name "datos-bot"

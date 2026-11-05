@@ -135,8 +135,8 @@ def fechas_disponibles() -> dict[dt.date, Path]:
 def cargar(p: Path) -> dict:
     d = json.loads(p.read_text(encoding="utf-8"))
     if isinstance(d, dict):
-        return {k: v[0] for k, v in d.items() if v and v[0]}
-    return {x["id"]: x["vcp"] for x in d if x.get("id") and x.get("vcp")}
+        return {k: (v[0], v[1] if len(v) > 1 else None) for k, v in d.items() if v and v[0]}
+    return {x["id"]: (x["vcp"], x.get("patrimonio")) for x in d if x.get("id") and x.get("vcp")}
 
 
 def rendimientos() -> int:
@@ -163,13 +163,17 @@ def rendimientos() -> int:
     candidatas = {k: [f for f in reversed(orden) if objetivos[k] - dt.timedelta(days=tolerancias[k]) <= f <= objetivos[k]]
                   for k in objetivos}
     out = {}
-    for fid, v0 in hoy.items():
+    for fid, (v0, p0) in hoy.items():
         r = {}
         for k, fs in candidatas.items():
             for f in fs:
-                vb = vcps(f).get(fid)
+                vb, pb = vcps(f).get(fid, (None, None))
                 if vb:
                     r[k] = round((v0 / vb - 1) * 100, 3)
+                    # Plata que entró (+) o salió (-) en el período: lo que creció el patrimonio
+                    # por encima de lo que explica el rendimiento
+                    if k in ("7d", "30d") and p0 and pb:
+                        r[f"flujo_{k}"] = round(p0 - pb * (v0 / vb), 2)
                     break
         for k, anios in (("2a", 2), ("5a", 5)):
             if k in r and r[k] > -100:
