@@ -120,11 +120,11 @@ const gestora = s => { const p = String(s || '').trim().split(/\s+/); while (p.l
 const disponible = f => f.disponible !== false && !/liquidaci|cerrad|tr[aá]mite/i.test(f.tipo || '');
 
 const RIESGO = {
-  1: ['Muy bajo', 'Casi no cambia de valor día a día.'],
-  2: ['Bajo', 'Puede tener días en negativo, pero se mueve poco.'],
-  3: ['Medio', 'Puede bajar algunos meses. Conviene no necesitar la plata enseguida.'],
-  4: ['Alto', 'Puede bajar bastante en poco tiempo. Es para dejar la plata un buen rato.'],
-  5: ['Muy alto', 'Puede tener caídas fuertes. Es para plazos largos y plata que no vas a necesitar.'],
+  1: ['Muy bajo', 'Estabilidad: ideal para tu liquidez del día a día.'],
+  2: ['Bajo', 'Movimientos suaves y un rendimiento un poco mayor.'],
+  3: ['Medio', 'Equilibrio entre estabilidad y crecimiento.'],
+  4: ['Alto', 'Más potencial de crecimiento, con variaciones en el camino.'],
+  5: ['Muy alto', 'El mayor potencial de crecimiento, pensado para el largo plazo.'],
 };
 const nivelRiesgo = f => f.riesgo_nivel || ({ bajo: 2, medio: 3, alto: 4 })[f.riesgo] || null;
 
@@ -383,10 +383,10 @@ class Base extends HTMLElement {
         <section class="bloque"><h3>Para qué sirve</h3>
           <p>${glos(esc(f.para_que || f.tipo_explicacion || ''))}</p>
           ${f.horizonte && HORIZ[f.horizonte] ? `<p class="peq">Pensado para dejar la plata ${HORIZ[f.horizonte]}.</p>` : ''}</section>
-        ${nivel ? `<section class="bloque"><h3>Cuánto se puede mover</h3>
+        ${nivel ? `<section class="bloque"><h3>Nivel de riesgo</h3>
           <div class="medidor" role="img" aria-label="Riesgo ${rg[0]}, ${nivel} de 5" style="--_c:${nivel <= 2 ? 'var(--_bien)' : nivel === 3 ? 'var(--_alerta)' : 'var(--_mal)'}">${[1, 2, 3, 4, 5].map(i => `<i class="${i <= nivel ? 'on' : ''}"></i>`).join('')}</div>
-          <div class="medidor-txt"><span>Tranquilo</span><span>Movido</span></div>
-          <p>${esc(rg[1])}${caida != null && caida < -0.5 ? ` En el último año, en su peor momento llegó a estar <b class="num neg">${pct(caida)}</b> abajo.` : ''}</p></section>` : ''}
+          <div class="medidor-txt"><span>Estable</span><span>Dinámico</span></div>
+          <p>${esc(rg[1])}${caida != null && caida < -0.5 ? ` En el último año, su mayor baja fue de <b class="num">${pct(caida)}</b>.` : ''}</p></section>` : ''}
       </div>
       <section class="bloque">
         <div class="barra-sup"><h3>Cómo le fue</h3>
@@ -445,7 +445,7 @@ class Base extends HTMLElement {
       cont.querySelector('[data-veredicto]').innerHTML = v == null ? 'No hay datos del fondo para este período.'
         : usd ? `Rindió <b class="num">${pct(v)}</b> en dólares. Como está en dólares, no se compara con la inflación en pesos.`
         : d == null ? `Rindió <b class="num">${pct(v)}</b>. Todavía no hay dato de inflación para comparar este período.`
-        : `${d >= 0 ? '✓ Le ganó' : '✗ Le perdió'} a la inflación por <b class="num">${nf(Math.abs(d), 1)} puntos</b>: ${d >= 0 ? 'con lo que ganaste podías comprar más cosas que antes.' : 'con lo que tenías podías comprar menos cosas que antes.' + ((nivelRiesgo(f) || 9) <= 1 ? ' Es lo habitual en fondos así: sirven para tener la plata a mano, no para ganarle a la inflación.' : '')}${P.inflacion_hasta ? ` <span class="peq">Inflación hasta ${mesAnio(P.inflacion_hasta)}.</span>` : ''}`;
+        : `${d >= 0 ? '↑ Superó a la inflación' : 'Quedó debajo de la inflación'} por <b class="num">${nf(Math.abs(d), 1)} puntos</b>: ${d >= 0 ? 'con lo que ganaste podías comprar más cosas que antes.' : 'con lo que tenías podías comprar menos cosas que antes.' + ((nivelRiesgo(f) || 9) <= 1 ? ' Es lo habitual en fondos así: sirven para tener la plata a mano, no para ganarle a la inflación.' : '')}${P.inflacion_hasta ? ` <span class="peq">Inflación hasta ${mesAnio(P.inflacion_hasta)}.</span>` : ''}`;
     };
     cont.querySelectorAll('[data-periodo]').forEach(b => b.onclick = () => {
       cont.querySelectorAll('[data-periodo]').forEach(x => x.setAttribute('aria-pressed', x === b)); pintar(b.dataset.periodo);
@@ -517,7 +517,7 @@ class FondosFCI extends Base {
       return `<button type="button" class="item" part="item" data-id="${esc(f.id)}">
         <span><span class="n">${esc(f.nombre)}</span><br><span class="g">${esc(gestora(f.gerente))}</span></span>
         <span class="r"><span class="num ${f.rend_1a < 0 ? 'neg' : ''}" style="font-weight:600">${pct(f.rend_1a)}</span><br><span class="g">últimos 12 meses</span></span>
-        <span class="chips"><span class="chip">${esc(f.tipo)}</span><span class="chip">${f.moneda === 'USD' ? 'Dólares' : 'Pesos'}</span><span class="chip">Retirás ${plazo(f.plazo_rescate)}</span>${n ? `<span class="chip r${n}">Riesgo ${RIESGO[n][0].toLowerCase()}</span>` : ''}${inf != null && f.moneda !== 'USD' && f.rend_1a != null ? `<span class="chip ${f.rend_1a >= inf ? 'pos' : 'neg'}">${f.rend_1a >= inf ? '✓ Le ganó a la inflación' : '✗ Menos que la inflación'}</span>` : ''}</span></button>`;
+        <span class="chips"><span class="chip">${esc(f.tipo)}</span><span class="chip">${f.moneda === 'USD' ? 'Dólares' : 'Pesos'}</span><span class="chip">Retirás ${plazo(f.plazo_rescate)}</span>${n ? `<span class="chip r${n}">Riesgo ${RIESGO[n][0].toLowerCase()}</span>` : ''}${inf != null && f.moneda !== 'USD' && f.rend_1a != null ? `<span class="chip ${f.rend_1a >= inf ? 'pos' : 'neg'}">${f.rend_1a >= inf ? '↑ Superó a la inflación' : 'Debajo de la inflación'}</span>` : ''}</span></button>`;
     }).join('') : '<p class="vacio">No encontramos fondos con ese nombre.</p>';
     this.vista.querySelector('[data-mas]').hidden = l.length <= s.mostrar;
   }
