@@ -392,7 +392,7 @@ class Base extends HTMLElement {
         <p class="peq">Según la cartera publicada por la CNV al ${fecha(c.fecha)}, con ${c.n_activos} inversiones distintas.${c.vencimiento_promedio_anios != null && c.vencimiento_cobertura_pct >= 30 ? ` Lo que tiene fecha de vencimiento vence en promedio en ${c.vencimiento_promedio_anios < 1 ? nf(c.vencimiento_promedio_anios * 12, 0) + ' meses' : nf(c.vencimiento_promedio_anios, 1) + ' años'}.` : ''}</p></section>`
         : `<section class="bloque"><h3>En qué invierte</h3><p class="peq">La CNV todavía no publicó la cartera de este fondo.</p></section>`}
       <div class="grid">
-        ${c && c.principales && c.principales.length ? `<section class="bloque"><h3>Lo que más tiene</h3><table><tbody>${c.principales.slice(0, 6).map(t => `<tr><td>${esc(t.activo)}</td><td class="num">${nf(t.pct, 1)}%</td></tr>`).join('')}</tbody></table></section>` : ''}
+        ${c && c.principales && c.principales.length ? `<section class="bloque"><h3>Lo que más tiene</h3><table><tbody>${c.principales.slice(0, 6).map(t => `<tr><td>${esc(t.en_palabras || t.activo)}${t.en_palabras ? `<br><span class="peq">${esc(t.activo)}</span>` : ''}</td><td class="num">${nf(t.pct, 1)}%</td></tr>`).join('')}</tbody></table></section>` : ''}
         <section class="bloque"><h3>Qué tan grande es</h3>
           <p class="dato num">${plata(f.patrimonio, f.moneda)}</p>
           <p class="peq">Es su ${termino('patrimonio')}. ${f.puesto ? `Está ${f.puesto === 1 ? 'primero' : `en el puesto ${f.puesto}`} entre ${f.en_categoria} fondos parecidos.` : ''}</p>
