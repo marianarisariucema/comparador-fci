@@ -122,7 +122,45 @@ TIPOS = {
     "Acciones argentinas": ("Acciones argentinas", "Compra partes de empresas argentinas. Gana o pierde según la bolsa: es para varios años.", "alto"),
     "Acciones del exterior": ("Acciones del exterior", "Compra acciones de afuera (CEDEAR o ETF). Gana o pierde según la bolsa y el dólar.", "alto"),
     "Renta mixta": ("Renta mixta", "Combina bonos y acciones. Se mueve más que la renta fija y menos que las acciones.", "medio"),
+    # Fondos sin cartera en la CNV: se clasifican por su categoría CAFCI (ver CATEGORIA_CAFCI)
+    "PyMEs": ("Deuda de PyMEs", "Les presta a pequeñas y medianas empresas, sobre todo con cheques y pagarés. Por ley, la mayor parte tiene que ir a PyMEs.", "medio"),
+    "Retorno total": ("Retorno total (el administrador elige)", "El administrador puede comprar de todo (bonos, acciones y más) buscando rendir lo máximo. Es más difícil saber qué tenés.", "alto"),
+    "Infraestructura": ("Infraestructura", "Financia obras y proyectos, como energía, rutas o viviendas. Es para varios años.", "medio"),
+    "ASG": ("Sustentable (ASG)", "Invierte en empresas y proyectos que cumplen reglas ambientales, sociales y de buen gobierno.", "medio"),
+    "Régimen especial": ("Fondo de régimen especial", "Fondo armado bajo una norma especial de la CNV, con reglas propias sobre en qué puede invertir.", "medio"),
+    "Fondo cerrado": ("Fondo cerrado", "No podés entrar ni sacar la plata cuando quieras: se compra y vende en la bolsa, o se cobra cuando el fondo termina. No es para empezar.", "alto"),
+    "En liquidación": ("Fondo en liquidación", "El fondo está cerrando y devolviendo la plata a quienes ya estaban. Ya no se puede invertir.", "medio"),
+    "En trámite": ("Fondo en trámite", "Todavía no empezó a funcionar.", "medio"),
 }
+# Categorías CAFCI tal como vienen en la planilla -> el tipo de arriba que les corresponde.
+# Sin esto, un tercio de los fondos se mostraba con el nombre técnico ("Renta Fija Dolar Estadounidense Billete").
+CATEGORIA_CAFCI = [
+    (r"^en proceso de liquidaci", "En liquidación"),
+    (r"^solicitud en tr", "En trámite"),
+    (r"^fondos cerrados", "Fondo cerrado"),
+    (r"^mercado de dinero", "Money market"),
+    (r"^renta fija peso", "Renta fija pesos: mixta"),
+    (r"^renta fija d[oó]lar", "Renta fija dólares: mixta"),
+    (r"^renta mixta", "Renta mixta"),
+    (r"^renta variable peso", "Acciones argentinas"),
+    (r"^renta variable d[oó]lar", "Acciones del exterior"),
+    (r"^pymes", "PyMEs"),
+    (r"^retorno total", "Retorno total"),
+    (r"^infraestructura", "Infraestructura"),
+    (r"^asg", "ASG"),
+    (r"^rg ?\d+", "Régimen especial"),
+]
+NO_DISPONIBLE = {"Fondo cerrado", "En liquidación", "En trámite"}
+
+
+def tipo_de(sub: str | None) -> str | None:
+    """Lleva una categoría CAFCI cruda a uno de los tipos explicados en TIPOS."""
+    if not sub or sub in TIPOS:
+        return sub
+    for patron, destino in CATEGORIA_CAFCI:
+        if re.search(patron, sub, re.I):
+            return destino
+    return sub
 QUE_ES = {
     "Plazo fijo en bancos": "plazos fijos en bancos", "Cauciones (préstamos de 1 a 7 días)": "préstamos de muy corto plazo",
     "Inflación (CER)": "bonos que ajustan por inflación", "Tasa fija (Tesoro)": "letras del Tesoro a tasa fija",
@@ -266,6 +304,14 @@ PARA_QUE = {
     "Acciones argentinas": ("Para plata que no vas a tocar en varios años y aguanta caídas fuertes.", ["largo"]),
     "Acciones del exterior": ("Para plata a varios años, invertida en empresas de afuera.", ["largo", "dolar"]),
     "Renta mixta": ("Para plata a mediano o largo plazo, con algo de bonos y algo de acciones.", ["largo"]),
+    "PyMEs": ("Para ahorros en pesos de varios meses, prestándoles a empresas chicas y medianas.", ["anio"]),
+    "Retorno total": ("Para plata a varios años, si aceptás que el administrador decida en qué invertir.", ["largo"]),
+    "Infraestructura": ("Para plata que no vas a tocar en varios años.", ["largo"]),
+    "ASG": ("Para ahorros de varios meses o más, con criterios sustentables.", ["anio"]),
+    "Fondo cerrado": ("No es para empezar: no podés sacar la plata cuando quieras.", []),
+    "En liquidación": ("Ya no recibe inversiones: está devolviendo la plata.", []),
+    "En trámite": ("Todavía no recibe inversiones.", []),
+    "Régimen especial": ("Tiene reglas propias: antes de invertir, preguntá en tu banco o broker para qué sirve.", []),
 }
 NIVEL = {"bajo": 1, "medio": 3, "alto": 5}
 
@@ -314,9 +360,12 @@ def main() -> int:
         conv = lambda c, v: a_pesos(c, v) / div
         pat = sum(conv(c, c.get("patrimonio")) for c in cs)
         principales = [c for c in cs if es_usd(c) == usd_main] or cs
-        ref = next((c for c in principales if re.search(r"clase a\b", c["fondo"], re.I)), None) or max(principales, key=lambda c: c.get("patrimonio") or 0)
+        # La clase A es la que suelen comprar las personas, salvo que esté vacía (sin plata, cuotaparte quieta):
+        # tomarla igual mostraba "+0,0% en 12 meses" en unos 190 fondos.
+        ref = next((c for c in principales if re.search(r"clase a\b", c["fondo"], re.I) and (c.get("patrimonio") or 0) > 0), None) \
+            or max(principales, key=lambda c: c.get("patrimonio") or 0)
         cart = carteras.get(clave)
-        sub = (cart or {}).get("subtipo") or ref.get("categoria")
+        sub = tipo_de((cart or {}).get("subtipo") or ref.get("categoria"))
         tipo_nombre, tipo_expl, riesgo = TIPOS.get(sub, (sub or "Sin clasificar", "", None))
         if riesgo is None:
             cat = (ref.get("categoria") or "").lower()
@@ -342,7 +391,8 @@ def main() -> int:
         f["peor_caida_1a"], f["volatilidad_1a"] = peor, vol
         f["riesgo_nivel"] = nivel_riesgo(f["subtipo"], f["riesgo"], vol)
         pq = PARA_QUE.get(f["subtipo"])
-        f["objetivos"] = (pq[1] if pq else []) + (["dolar"] if f["moneda"] == "USD" and (not pq or "dolar" not in pq[1]) else [])
+        f["disponible"] = f["subtipo"] not in NO_DISPONIBLE
+        f["objetivos"] = (pq[1] if pq else []) + (["dolar"] if f["disponible"] and f["moneda"] == "USD" and (not pq or "dolar" not in pq[1]) else [])
         f["_para_que"] = pq[0] if pq else None
 
     # Puesto por tamaño dentro de su categoría CAFCI
@@ -366,7 +416,7 @@ def main() -> int:
         f.pop("_clave")
         catalogo.append({k: f[k] for k in ("id", "nombre", "gerente", "tipo", "subtipo", "riesgo", "moneda",
                                            "plazo_rescate", "patrimonio", "rend_1a", "rend_anio",
-                                           "riesgo_nivel", "objetivos")})
+                                           "riesgo_nivel", "objetivos", "disponible")})
         atado = (cart or {}).get("atado") or {}
         escribir(WEB / "fondos" / f"{f['id']}.json", {
             **f, "tipo_explicacion": expl, "para_que": para_que, "evolucion": mensual(serie_f), "frase": frase(f["subtipo"], atado),

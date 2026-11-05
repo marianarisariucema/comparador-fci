@@ -64,9 +64,9 @@ body.t-oscuro fondos-fci,body.t-oscuro fondos-fci-etiqueta{--fci-marca-texto:#10
   </div>
   <section>
     <h2>Buscador completo</h2>
-    <p class="nota">El mismo producto como página entera: <code>&lt;fondos-fci invertir="Suscribir"&gt;</code>. El botón "Suscribir" dispara el evento <code>fci-invertir</code> para que la ALyC siga con su propio circuito de suscripción.</p>
+    <p class="nota">El mismo producto como página entera: <code>&lt;fondos-fci invertir="Invertir"&gt;</code>. El botón "Invertir" dispara el evento <code>fci-invertir</code> para que la ALyC siga con su propio circuito de suscripción.</p>
   </section>
-  <fondos-fci invertir="Suscribir"></fondos-fci>
+  <fondos-fci invertir="Invertir"></fondos-fci>
 </main>
 <script type="module">
 import { configurar } from './fondos-fci.js';
@@ -86,7 +86,7 @@ const FONDOS = [
 document.getElementById('tabla').innerHTML = FONDOS.map(([id, n, c, r]) => `<tr>
   <td class="fondo"><b>${n}</b><fondos-fci-etiqueta fondo="${id}"></fondos-fci-etiqueta></td>
   <td class="r ocultar-movil">${r.toLocaleString('es-AR')}%</td>
-  <td class="r"><button class="btn" data-id="${id}">Suscribir</button></td></tr>`).join('');
+  <td class="r"><button class="btn" data-id="${id}">Invertir</button></td></tr>`).join('');
 
 const toast = t => { const d = Object.assign(document.createElement('div'), { className: 'toast', textContent: t }); document.body.append(d); setTimeout(() => d.remove(), 3000); };
 document.addEventListener('fci-invertir', e => toast(`La ALyC recibe el evento y abre su suscripción a "${e.detail.nombre}".`));
