@@ -188,8 +188,23 @@ th{font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mut
 .ley2 i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
 .senales{list-style:none;margin:0;padding:0;display:flex;gap:8px;flex-wrap:wrap}
 .senales li{font-size:.82rem;padding:6px 10px;border-radius:10px;background:var(--sunk);color:var(--muted)}
-.senales li.aten{background:color-mix(in srgb,var(--warn) 14%,transparent);color:var(--ink)}
-.senales li.aten::before{content:"⚠ ";color:var(--warn)}
+.senales li.aten{color:var(--ink)}
+/* Lo que valoramos: cada punto como fortaleza; si un dato es más flojo se cuenta neutro, sin alarmas */
+.valor{display:grid;gap:12px;padding:18px;border-radius:14px;background:var(--brand-soft)}
+.valor ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.valor li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;font-size:.93rem}
+.valor li b{display:block}
+.valor .ic{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:.75rem;font-weight:700;background:var(--accent);color:var(--brand-ink)}
+.valor li.neutro .ic{background:var(--surface);color:var(--muted);border:1px solid var(--line)}
+.valor .sub{color:var(--muted);font-size:.85rem}
+.quepasa{display:grid;gap:4px;padding:12px 14px;border-radius:12px;background:var(--sunk);font-size:.93rem}
+.sugeridos{display:grid;gap:8px}
+.sug{display:grid;gap:2px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);text-decoration:none;color:inherit}
+.sug:hover{border-color:var(--accent)}
+.sug .n{font-weight:600}
+.sug .peq{font-size:.82rem}
+.curiosos{display:grid;gap:10px;margin-top:10px}
+.curiosos>a{display:block;font-weight:600;font-size:.92rem;text-decoration:none;color:var(--accent)}
 .btncmp{justify-self:start;margin-top:4px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:.84rem;cursor:pointer}
 .btncmp[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--brand-soft)}
 #cmpbar{position:fixed;left:50%;transform:translateX(-50%);bottom:max(14px,env(safe-area-inset-bottom));z-index:15;display:flex;gap:14px;align-items:center;padding:8px 8px 8px 18px;border-radius:999px;background:var(--ink);color:var(--bg);box-shadow:0 6px 24px rgba(0,0,0,.18);font-size:.88rem;white-space:nowrap}
@@ -273,7 +288,7 @@ const G={
  administradora:['Administradora','La empresa que decide en qué se invierte la plata del fondo. Cobra un porcentaje por año por hacerlo.'],
  depositaria:['Custodia (depositaria)','Un banco que guarda la plata y los activos del fondo, separados de los de la administradora. Si la administradora tuviera problemas, la plata sigue siendo de los inversores.'],
  rescate:['Rescate','Es sacar tu plata del fondo. El plazo de rescate es cuánto tarda en volver a tu cuenta.'],
- patrimonio:['Patrimonio','La plata total que maneja el fondo, sumando la de todos sus inversores.'],
+ patrimonio:['Patrimonio','La plata total que maneja el fondo, sumando la de todas las personas y empresas que lo eligieron. Cuanto más grande, más gente lo eligió, mejor puede repartir sus inversiones y más fácil le resulta devolver la plata cuando alguien la pide.'],
  cer:['CER (inflación)','Un índice que sigue a la inflación. Un bono "CER" te devuelve tu plata ajustada por inflación más un interés.'],
  lecap:['Lecap (tasa fija)','Letras del Tesoro que pagan una tasa fija acordada de antemano. Ganan más si la inflación termina siendo menor a lo esperado.'],
  tamar:['TAMAR','La tasa que pagan los bancos por plazos fijos grandes. Un bono TAMAR paga intereses que suben o bajan con esa tasa.'],
@@ -327,7 +342,8 @@ async function cargar(){
   const ids=(Q.get('fondos')||'').split(',').map(s=>s.trim()).filter(Boolean), ges=norm(Q.get('gestora')||'');
   if(ids.length||ges){const set=new Set(ids);c.fondos=c.fondos.filter(f=>set.has(f.id)||(ges&&norm(f.gerente).includes(ges)));c.cantidad=c.fondos.length}
   CAT=c;REF=r;FERIADOS=new Set((fe&&fe.feriados)||[]);$('#fecha').textContent='Datos al '+fecha(c.fecha);
-  if(EMBED)$('#nav').hidden=true;else cargarBonos().then(b=>{if(b&&b.bonos&&b.bonos.length)$('[data-n="bonos"]').hidden=false});
+  // Bonos y administradoras no compiten con la entrada principal: viven en "Para curiosos", al pie
+  $('#nav').hidden=true;
   window.addEventListener('hashchange',ruta);ruta();
 }
 function ruta(){const id=Q.get('fondo')||decodeURIComponent(location.hash.slice(1));const enBonos=id==='bonos'||id.startsWith('bonos/');
@@ -416,8 +432,7 @@ function filtrados(){
   const t=norm(texto);
   let l;
   if(t)l=CAT.fondos.filter(f=>norm(f.nombre+' '+f.gerente+' '+f.tipo).includes(t));
-  else if(perfilF)l=CAT.fondos.filter(f=>disponible(f)&&f.riesgo_nivel&&f.riesgo_nivel<=perfilF.tope&&perfilF.plazos.includes(plazoDe(f))
-    &&(perfilF.moneda==='dolares'?grupoTipo(f)==='dolar':f.moneda!=='USD'));
+  else if(perfilF)l=delPerfil(perfilF);
   else l=CAT.fondos.filter(f=>disponible(f)&&(!carpeta||CARPETAS[vista].de(f)===carpeta));
   if(orden==='rend')l=[...l].sort((a,b)=>(b.rend_1a??-1e9)-(a.rend_1a??-1e9));
   if(orden==='premio')l=[...l].sort((a,b)=>(b.premio??-1e9)-(a.premio??-1e9));
@@ -438,7 +453,7 @@ function resultadoTest(r){
   return Object.assign({moneda:r.moneda},[
     {nombre:'Conservador',tope:2,plazos:['corto','mediano'],txt:'Priorizás la estabilidad de tu inversión.'},
     {nombre:'Moderado',tope:3,plazos:['mediano'],txt:'Buscás equilibrio entre estabilidad y crecimiento.'},
-    {nombre:'Agresivo',tope:r.baja==='tranqui'&&r.cuando==='largo'?5:4,plazos:['mediano','largo'],txt:'Buscás el mayor potencial de crecimiento y tenés tiempo para esperar.'},
+    {nombre:'Dinámico',tope:r.baja==='tranqui'&&r.cuando==='largo'?5:4,plazos:['mediano','largo'],txt:'Buscás el mayor potencial de crecimiento y tenés tiempo para esperar.'},
   ][n]);
 }
 let RESP={};
@@ -455,14 +470,33 @@ function test(){
     if($('#atras'))$('#atras').onclick=()=>{delete RESP[PREG[paso-1][0]];test()};
     return;
   }
-  const x=resultadoTest(RESP);
+  const x=resultadoTest(RESP), todos=delPerfil(x), tres=tresParaEmpezar(todos);
   box.innerHTML=`<div class="test-cab"><b>Tu perfil: ${esc(x.nombre)}</b><button type="button" class="quitar" id="otraVez">Hacer de nuevo</button></div>
-    <p class="test-q" style="font-weight:400">${x.txt} Tus fondos: riesgo hasta ${x.tope} de 5.</p>
-    <button type="button" class="boton" id="verRes">Ver fondos para mi perfil</button>
+    <p class="test-q" style="font-weight:400">${x.txt}</p>
+    ${tres.length?`<p class="peq">Tres fondos para empezar a mirar, entre los más elegidos para tu perfil:</p>
+    <div class="sugeridos">${tres.map(f=>`<a class="sug" href="#${encodeURIComponent(f.id)}"><span class="n">${esc(f.nombre)}</span>
+      <span class="peq">${esc(f.tipo)} · ${esc(gestora(f.gerente))} · Patrimonio ${plata(f.patrimonio,f.moneda)}</span>
+      ${f.peor_mes!=null?`<span class="peq">${peorMesTxt(f.peor_mes,f.moneda)}</span>`:''}</a>`).join('')}</div>`:''}
+    ${todos.length>tres.length?`<button type="button" class="boton sec" id="verRes">Ver los ${todos.length.toLocaleString('es-AR')} fondos de tu perfil</button>`:''}
+    <p class="peq">Elegidos por tamaño entre los que coinciden con tu perfil. Es información para comparar, no una recomendación.</p>
 `;
   $('#otraVez').onclick=()=>{RESP={};perfilF=null;listado()};
-  $('#verRes').onclick=()=>{perfilF=x;carpeta=null;texto='';orden='patrimonio';mostrar=30;zona();$('#zona').scrollIntoView({behavior:'smooth',block:'start'})};
+  if($('#verRes'))$('#verRes').onclick=()=>{perfilF=x;carpeta=null;texto='';orden='patrimonio';mostrar=30;zona();$('#zona').scrollIntoView({behavior:'smooth',block:'start'})};
 }
+/* Después del test: como mucho 3 fondos, para no abrumar. Los más grandes del perfil, de tipos y administradoras distintos. */
+const delPerfil=p=>CAT.fondos.filter(f=>disponible(f)&&f.riesgo_nivel&&f.riesgo_nivel<=p.tope&&p.plazos.includes(plazoDe(f))
+  &&(p.moneda==='dolares'?grupoTipo(f)==='dolar':f.moneda!=='USD'));
+function tresParaEmpezar(l){
+  const orden=[...l].filter(f=>f.rend_1a!=null).sort((a,b)=>b.patrimonio-a.patrimonio), out=[];
+  for(const f of orden){if(out.length>=3)break;if(!out.some(o=>grupoTipo(o)===grupoTipo(f)||o.gerente===f.gerente))out.push(f)}
+  for(const f of orden){if(out.length>=3)break;if(!out.includes(f)&&!out.some(o=>o.gerente===f.gerente))out.push(f)}
+  for(const f of orden){if(out.length>=3)break;if(!out.includes(f))out.push(f)}
+  return out;
+}
+/* "Qué puede pasar", en pesos y con calma: el mes más flojo de los últimos dos años */
+const peorMesTxt=(p,mon,m)=>{const b=m||(mon==='USD'?1000:100000);
+  return p>=0?`Hasta en su mes más flojo sumó: tus ${sim(b,mon)} pasaron a ${sim(b*(1+p/100),mon)}.`
+    :`En su mes más flojo, tus ${sim(b,mon)} quedaron en ${sim(b*(1+p/100),mon)}.`};
 function listado(){
   document.title='Fondos explicados';
   $('#app').innerHTML=`
@@ -470,10 +504,18 @@ function listado(){
     <p>Encontrá el fondo para tu perfil y mirá en qué invierte cada uno.</p></section>
   <section class="card test" id="test" aria-live="polite"></section>
   <section class="bloque" id="zona" aria-label="Fondos"></section>
-  ${RES&&RES.grupos?`<details class="card plegado"><summary>Hacia dónde se movió la plata este mes</summary>${movida()}</details>`:''}
-  ${EMBED||Q.get('gestora')?'':`<a class="card plegado" href="#gestoras" style="display:block;font-weight:600;font-size:.92rem;text-decoration:none;color:inherit">Las administradoras de fondos más grandes →</a>`}
+  ${curiosos()}
   <details class="legal"><summary>Aviso legal</summary><p>Información con fines educativos: no es una recomendación de inversión. Rendimientos pasados no garantizan rendimientos futuros. Fuentes: CAFCI, CNV, BCRA, ArgentinaDatos y BYMA.</p></details>`;
   test();zona();
+}
+/* Lo que no hace falta para empezar, juntado en un solo lugar al pie */
+function curiosos(){
+  const mv=RES&&RES.grupos?movida():'', b=!EMBED, g=!EMBED&&!Q.get('gestora');
+  if(!mv&&!b&&!g)return '';
+  return `<details class="card plegado"><summary>Para curiosos</summary><div class="curiosos">
+    ${b?'<a href="#bonos">Comparar bonos y letras →</a>':''}
+    ${g?'<a href="#gestoras">Las administradoras de fondos más grandes →</a>':''}
+    ${mv?`<details><summary class="peq">Hacia dónde se movió la plata este mes</summary>${mv}</details>`:''}</div></details>`;
 }
 /* La zona de fondos: carpetas, o la lista de una carpeta, del perfil o de la búsqueda */
 function zona(){
@@ -628,6 +670,51 @@ function tasasBloque(ts,princ){
     ${md!=null?`<p class="peq">${T('duracion','Duración')}: ${nf(md,2)}. ${md<0.3?'Son inversiones muy cortas: casi no se mueven si cambian las tasas.':`Si las tasas del mercado subieran 1 punto, esta parte del fondo bajaría cerca de ${nf(md,1)}%.`}</p>`:''}
     <p class="peq">Calculado con los precios de cierre de BYMA y la cartera informada a la CNV, para el ${nf(ts.cobertura_pct,0)}% del fondo que tiene bonos y letras con tasa conocida. Es lo que rendirían si se tuvieran hasta el vencimiento, antes de los costos del fondo.</p></div>`;
 }
+/* Patrimonio: la plata de toda la gente que eligió el fondo. Se cuenta como algo que suma, sin alarmas. */
+function patrimonioTxt(f){
+  const top=f.puesto&&f.en_categoria?f.puesto<=3||f.puesto/f.en_categoria<=.25:false;
+  const pos=f.puesto&&f.en_categoria?` Es el n.º ${f.puesto} de ${f.en_categoria} de su categoría por tamaño.`:'';
+  return top?`Es la plata de todas las personas y empresas que lo eligieron.${pos} Un fondo grande reparte mejor sus inversiones y devuelve la plata sin demoras cuando alguien la pide.`
+    :`Es la plata de todas las personas y empresas que lo eligieron.${pos}`;
+}
+/* Qué puede pasar, en pesos: el peor y el mejor mes de los últimos dos años, con el monto del simulador */
+function quePasa(f,M){
+  if(!M)return '';const m=monto, mon=f.moneda;
+  const mesTxt=k=>mes(k+'-01');
+  const sube=`Subió en ${M.positivos===M.total?'todos los':M.positivos+' de los'} ${M.total} meses que medimos.`;
+  if(M.peor_pct>=0)return `<p>${sube}</p><p class="peq">En su mes más flojo (${mesTxt(M.peor_mes)}) tus ${sim(m,mon)} igual sumaron: pasaron a ${sim(m*(1+M.peor_pct/100),mon)}.</p>`;
+  return `<p><b>Qué puede pasar en el camino.</b> ${sube}</p>
+    <p class="peq">En su mes más flojo (${mesTxt(M.peor_mes)}), tus ${sim(m,mon)} quedaron en ${sim(m*(1+M.peor_pct/100),mon)}. En el mejor (${mesTxt(M.mejor_mes)}), ${sim(m*(1+M.mejor_pct/100),mon)}.
+    ${(f.riesgo_nivel||0)>=3?`En fondos así los meses flojos se alternan con meses buenos: por eso están pensados para dejarlos ${plazoDe(f)==='largo'?'varios años':'varios meses'}.`:''}</p>`;
+}
+/* Lo que valoramos de este fondo: lo que mira un inversor con experiencia antes de entrar.
+   Cada punto se cuenta como fortaleza; si un dato es más flojo que el de fondos parecidos, se dice neutro. */
+function valoramos(f,costo,senales){
+  const V=f.valoramos;if(!V)return '';
+  const P=[], ok=(t,x)=>P.push([1,t,x]), neu=(t,x)=>P.push([0,t,x]);
+  const g=V.gestora, dep=f.depositaria?` Tu plata la guarda ${esc(f.depositaria)}, separada de la administradora.`:'';
+  if(g)(g.puesto<=15?ok:neu)(g.puesto<=15?'Lo maneja una de las administradoras más grandes':'Quién lo maneja',
+    `${esc(g.nombre)} ${g.puesto<=15?`es la n.º ${g.puesto} de ${g.de} del país por plata manejada`:'es una administradora registrada y controlada por la CNV'} y tiene ${g.fondos} ${g.fondos===1?'fondo':'fondos'}.${dep}`);
+  const a=V.rend_1a, b=V.rend_2a, arriba=x=>x&&x.puesto<=Math.ceil(x.de/2);
+  if(arriba(a)&&arriba(b))ok('Le fue bien de forma pareja',`Rindió más que la mitad de los fondos parecidos en 12 meses (n.º ${a.puesto} de ${a.de}) y en 2 años (n.º ${b.puesto} de ${b.de}).`);
+  else if(arriba(b))ok('Le fue bien a lo largo del tiempo',`En 2 años rindió más que la mayoría de los fondos parecidos (n.º ${b.puesto} de ${b.de}).${a?` En el último año quedó n.º ${a.puesto} de ${a.de}.`:''}`);
+  else if(arriba(a))ok('Le fue bien en el último año',`En 12 meses rindió más que la mitad de los fondos parecidos (n.º ${a.puesto} de ${a.de}).${b?` Mirando 2 años quedó n.º ${b.puesto} de ${b.de}.`:''}`);
+  else if(a)neu('Cómo le fue frente a otros parecidos',`En 12 meses quedó n.º ${a.puesto} de ${a.de}${b?` y en 2 años, n.º ${b.puesto} de ${b.de}`:''}. Entre fondos del mismo tipo las diferencias suelen ser chicas.`);
+  if(b)ok('Tiene historia para mirar','Lleva más de 2 años con datos: se puede ver cómo le fue en momentos buenos y en momentos más movidos.');
+  const C=V.costo;
+  if(C){const barato=C.cobran_mas>=C.de/2;
+    (barato?ok:neu)(barato?'Cobra menos que la mayoría':'Lo que cobra',`${nf(C.pct,2)}% por año${barato?`: ${C.cobran_mas} de ${C.de} fondos parecidos cobran más`:`; la mitad de los fondos parecidos cobra ${nf(C.mediana,2)}% o menos`}. Ya está descontado del rendimiento que ves.${f.clases.length>1&&costo!=null&&costo<C.pct?' Otras clases de este fondo cobran menos.':''}`)}
+  if(f.puesto&&f.en_categoria){const top=f.puesto<=3||f.puesto/f.en_categoria<=.25;
+    (top?ok:neu)(top?'Lo eligen muchos inversores':'Su tamaño',`Maneja ${plata(f.patrimonio,f.moneda)}, el n.º ${f.puesto} de ${f.en_categoria} de su categoría.${top?' Un fondo grande reparte mejor sus inversiones y devuelve la plata sin demoras.':' Funciona igual que uno grande; los más grandes suelen moverse con más calma cuando entra o sale plata.'}`)}
+  const ci=V.comision_ingreso, cr=V.comision_rescate, sin=!ci&&!cr;
+  (sin?ok:neu)(sin?'Entrás y salís sin comisiones':'Cómo entrás y salís',`${sin?'No cobra por entrar ni por salir':`Cobra ${ci?nf(ci,2)+'% al entrar':''}${ci&&cr?' y ':''}${cr?nf(cr,2)+'% al salir':''}`}, y te devuelve la plata ${plazo(f.plazo_rescate)}.${MARCA?` Lo comprás y lo rescatás desde tu cuenta en ${esc(MARCA)}.`:''}`);
+  P.sort((x,y)=>y[0]-x[0]);
+  return `<div class="bloque valor"><h3>Lo que valoramos de este fondo</h3>
+    <p class="sub">Lo mismo que mira un inversor con experiencia antes de entrar, comparado con fondos del mismo tipo.</p>
+    <ul>${P.map(([k,t,x])=>`<li class="${k?'':'neutro'}"><span class="ic" aria-hidden="true">${k?'✓':'·'}</span><span><b>${t}</b><span class="sub">${x}</span></span></li>`).join('')}</ul>
+    ${senales.length?`<p class="sub"><b style="display:inline;color:var(--ink)">Para tener en cuenta:</b> ${senales.map(s=>esc(s.texto)).join(' ')}</p>`:''}
+    <p class="sub">Datos de CAFCI y la CNV.</p></div>`;
+}
 async function ficha(id){
   $('#app').innerHTML='<p class="peq">Cargando ficha…</p>';
   let f;
@@ -650,6 +737,7 @@ async function ficha(id){
     .replace(/^Cauciones/,T('caucion','Cauciones')).replace(/^Plazo fijo/,T('plazofijo','Plazo fijo'))
     .replace(/^Bonos duales/,T('dual','Bonos duales')).replace(/fideicomisos/,T('fideicomiso','fideicomisos'));
   const flPct=fl!=null&&f.patrimonio?Math.abs(fl)/f.patrimonio*100:null;
+  const M=(f.valoramos||{}).meses;
   $('#app').innerHTML=`
   ${EMBED?'':'<button class="volver" type="button" id="volver">← Todos los fondos</button>'}
   <article class="card ficha">
@@ -657,14 +745,14 @@ async function ficha(id){
       ${EMBED?'':`<button type="button" class="btncmp" id="btncmp" data-id="${esc(f.id)}" aria-pressed="false">＋ Comparar con otros</button>`}</div>
     ${disponible(f)?'':`<p class="alerta">${esc(f.tipo_explicacion||'Este fondo no recibe inversiones nuevas.')}</p>`}
     ${f.frase?`<p class="frase">${esc(f.frase)}</p>`:''}
-    ${senales.length?`<ul class="senales">${senales.map(s=>`<li class="${s.nivel==='atencion'?'aten':''}">${esc(s.texto)}</li>`).join('')}</ul>`:''}
     ${f.para_que?`<div class="paraque"><b>Ideal para</b><span>${esc(f.para_que.replace(/^Para /,'').replace(/^./,m=>m.toLowerCase()))}</span></div>`:''}
     <div class="grid2">
       <div class="bloque"><h3>Qué tipo de fondo es</h3><p class="dato" style="font-size:1.15rem">${/money market/i.test(f.tipo)?T('mm',esc(f.tipo)):esc(f.tipo)}</p>
         <p class="peq">${esc(f.tipo_explicacion||'')} ${f.horizonte&&horiz[f.horizonte]?'Pensado para '+horiz[f.horizonte]+'.':''}</p></div>
       <div class="bloque"><h3>${T('riesgo','Nivel de riesgo')}</h3>${n?`${medidor(n,true)}<p><b>${n} de 5.</b> ${RIESGO_TXT[n]}.</p>`:'<p class="peq">Sin dato.</p>'}
-        ${f.peor_caida_1a!=null?`<p class="peq">${f.peor_caida_1a>-0.5?'En el último año se mantuvo estable.':`En el último año, su ${T('caida','mayor baja')} fue de ${nf(Math.abs(f.peor_caida_1a),1)}%.`}</p>`:''}</div>
+        ${M?'<div class="quepasa" id="quepasa"></div>':f.peor_caida_1a!=null?`<p class="peq">${f.peor_caida_1a>-0.5?'En el último año se mantuvo estable.':`En el último año, su ${T('caida','mayor baja')} fue de ${nf(Math.abs(f.peor_caida_1a),1)}%.`}</p>`:''}</div>
     </div>
+    ${valoramos(f,costo,senales)}
     <div class="bloque"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><h3>Cómo le fue</h3>
       <div class="tabs" role="group" aria-label="Período">${[['30d','1 mes'],['anio','En el año'],['1a','12 meses'],['2a','2 años']].map(p=>`<button type="button" data-p="${p[0]}" aria-pressed="${periodo===p[0]}">${p[1]}</button>`).join('')}</div></div>
       ${X.movimiento&&X.movimiento.texto?`<p class="peq"><b>Último día:</b> ${esc(X.movimiento.texto)}</p>`:''}
@@ -681,9 +769,10 @@ async function ficha(id){
       <div class="bloque"><h3>${T('flujo','Plata que entró o salió')}</h3>${fl==null?'<p class="peq">Sin dato.</p>':`<p class="dato num ${fl>=0?'pos':'neg'}">${fl>=0?'+':'−'} ${plata(Math.abs(fl),f.moneda)}</p>
         <p class="peq">En ${flTxt} la gente ${fl>=0?'puso':'retiró'} esa plata de más, sin contar lo que ganó o perdió el fondo.${flPct!=null?` Es ${flPct<0.1?'menos del 0,1':'el '+nf(flPct,flPct<10?1:0)}% de todo lo que maneja${fl<0&&flPct<5?': que salga un poco de plata es normal, la gente usa sus ahorros':''}.`:''}</p>`}
         <h3 style="margin-top:8px">${T('patrimonio','Cuánto maneja')}</h3><p class="dato num" style="font-size:1.2rem">${plata(f.patrimonio,f.moneda)}</p>
-        <p class="peq">Es el n.º ${f.puesto} de ${f.en_categoria} en su categoría por tamaño.</p></div>
+        <p class="peq">${patrimonioTxt(f)}</p></div>
     </div>`:`<div class="bloque"><h3>En qué invierte</h3><p>Este fondo no publica su cartera en la CNV, así que no podemos mostrar en qué invierte.</p>
-      <h3 style="margin-top:8px">${T('patrimonio','Cuánto maneja')}</h3><p class="dato num" style="font-size:1.2rem">${plata(f.patrimonio,f.moneda)}</p></div>`}
+      <h3 style="margin-top:8px">${T('patrimonio','Cuánto maneja')}</h3><p class="dato num" style="font-size:1.2rem">${plata(f.patrimonio,f.moneda)}</p>
+      <p class="peq">${patrimonioTxt(f)}</p></div>`}
     <div class="bloque"><h3>Lo práctico</h3><table><tbody>
       <tr><td>${T('rescate','Si querés sacar la plata')}</td><td>te la devuelven ${plazo(f.plazo_rescate)}${cobro(f.plazo_rescate)}</td></tr>
       <tr><td>${T('costo','Costo anual')}</td><td class="num">${costo==null?'s/d':(f.clases.length>1?'desde ':'')+nf(costo,2)+'%'}</td></tr>
@@ -715,6 +804,7 @@ async function ficha(id){
       <div>hoy tendrías <span class="grande num ${v<0?'neg':''}">${sim(monto*(1+v/100),f.moneda)}</span></div>
       ${d!=null?`<p class="veredicto ${d>=0?'pos':'neg'}">${d>=0?'Superó a la inflación':'Quedó debajo de la inflación'}${P.inflacion_hasta?' (medida hasta '+mes(P.inflacion_hasta)+')':''}: para mantener tu poder de compra necesitabas ${sim(monto*(1+P.inflacion/100),f.moneda)}.</p>`:''}
       ${d!=null&&d<0&&(f.riesgo_nivel||9)<=1?`<p class="peq">Es normal en este tipo de fondo: su objetivo es darte disponibilidad inmediata, no superar a la inflación.</p>`:''}`;
+    if($('#quepasa'))$('#quepasa').innerHTML=quePasa(f,M);
     const inp=$('#monto');if(inp){inp.onchange=()=>{const m=+inp.value.replace(/\D/g,'');if(m>0){monto=m;pinta()}}}
     const filas=[['Este fondo',v,null,true],...refs].filter(r=>r[3]||r[1]!=null);
     const max=Math.max(...filas.map(r=>Math.abs(r[1]||0)),1);
@@ -736,10 +826,10 @@ async function bonos(sel){
   document.title='Comparar bonos';
   $('#app').innerHTML='<p class="peq">Cargando bonos…</p>';
   const D=await cargarBonos();
-  if(!D||!D.bonos||!D.bonos.length){$('#app').innerHTML='<p class="vacio">Todavía no tenemos los precios de los bonos. Volvé mañana.</p>';return}
+  if(!D||!D.bonos||!D.bonos.length){$('#app').innerHTML='<button class="volver" type="button" id="volver">← Todos los fondos</button><p class="vacio">Todavía no tenemos los precios de los bonos. Volvé mañana.</p>';$('#volver').onclick=()=>{location.hash=''};return}
   const por=Object.fromEntries(D.bonos.map(b=>[b.ticker,b]));
   if(sel)SELB=sel.split(',').map(s=>s.trim().toUpperCase()).filter(t=>por[t]).slice(0,2);
-  $('#app').innerHTML=`
+  $('#app').innerHTML=`<button class="volver" type="button" id="volver">← Todos los fondos</button>
   <section class="hero"><h1>Compará bonos</h1>
     <p>Tildá dos y miralos lado a lado: cuánto rinden, cuándo vencen y qué fondos los tienen.</p></section>
   <section id="bcmp" aria-live="polite"></section>
@@ -786,6 +876,7 @@ async function bonos(sel){
     $$('[data-qb]').forEach(q=>q.onclick=()=>{SELB=SELB.filter(x=>x!==q.dataset.qb);marca();pintaLista();pintaCmp()});
     if(mover)z.scrollIntoView({behavior:'smooth',block:'start'});
   };
+  $('#volver').onclick=()=>{location.hash=''};
   $('#qb').oninput=e=>{textoB=e.target.value;pintaLista()};
   $$('[data-fb]').forEach(x=>x.onclick=()=>{famB=x.dataset.fb;$$('[data-fb]').forEach(y=>y.setAttribute('aria-pressed',y===x));pintaLista()});
   pintaLista();pintaCmp();window.scrollTo(0,0);
