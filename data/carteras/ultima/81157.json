@@ -1,6 +1,6 @@
 {
  "fondo": "Argenfunds Renta Mixta Plus",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Argenfunds S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,12 +8,12 @@
  "region": "Latinoamerica",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 1693039.94
+  "Dolar Estadounidense": 1693240.5
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.68
+   "pct_pn": 0.69
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
@@ -33,7 +33,7 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.1
+   "pct_pn": 0.09
   }
  ],
  "activos": [
@@ -53,14 +53,14 @@
    "pct_pn": 6.05
   },
   {
-   "activo": "ON Banco Nacion Argentina Clase 5",
+   "activo": "ON Profertil C3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 6.02
   },
   {
-   "activo": "ON Profertil C3",
+   "activo": "ON Banco Nacion Argentina Clase 5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.01
+   "pct_pn": 6.02
   },
   {
    "activo": "ON Banco Hipotecario C14",
@@ -75,27 +75,27 @@
   {
    "activo": "ON Banco Comafi C27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.97
+   "pct_pn": 5.96
   },
   {
    "activo": "ON Bco Serv Transac C28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.9
+   "pct_pn": 5.92
   },
   {
    "activo": "ON Pampa Energia C27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.73
+   "pct_pn": 4.71
   },
   {
    "activo": "ON Loma Negra C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.55
+   "pct_pn": 4.56
   },
   {
    "activo": "ON Cresud Clase 51",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.22
+   "pct_pn": 4.23
   },
   {
    "activo": "ON Central Puerto Clase F",
@@ -145,7 +145,7 @@
   {
    "activo": "ON Pan American C35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.61
+   "pct_pn": 0.62
   },
   {
    "activo": "ON YPF C 17",
@@ -158,14 +158,14 @@
    "pct_pn": 0.42
   },
   {
-   "activo": "ON Edenor C7 DNC7O",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.32
-  },
-  {
    "activo": "ON Cresud S31 C47",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.31
+  },
+  {
+   "activo": "ON Edenor C7 DNC7O",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.3
   },
   {
    "activo": "ON Telecom 9.5% 2031",

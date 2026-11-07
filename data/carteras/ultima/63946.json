@@ -1,6 +1,6 @@
 {
  "fondo": "Consultatio SMSV Renta en Pesos",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 15889142147.81
+  "Peso Argentina": 15943093780.14
  },
  "por_tipo": [
   {
@@ -17,11 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.69
+   "pct_pn": 94.99
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.78
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.2
+   "pct_pn": 0.16
   },
   {
    "tipo": "Otros Activos",
@@ -36,22 +40,32 @@
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.29
-  },
-  {
-   "activo": "Lecer X29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.59
+   "pct_pn": 29.25
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.23
+   "pct_pn": 16.3
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.42
+   "pct_pn": 12.45
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.96
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.41
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.53
   },
   {
    "activo": "Boncer TZXY7",
@@ -59,14 +73,9 @@
    "pct_pn": 4.78
   },
   {
-   "activo": "Bono del Tesoro Nacional T31Y7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.09
-  },
-  {
    "activo": "ON Arcor C8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.87
+   "pct_pn": 2.88
   },
   {
    "activo": "Bono Boncer TZX28",
@@ -81,12 +90,17 @@
   {
    "activo": "ON P. Aconcagua Energia C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.78
   },
   {
    "activo": "FCI Argenfunds Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.16
+   "pct_pn": 0.12
   },
   {
    "activo": "FCI MEGAQM Pesos - Clase A",

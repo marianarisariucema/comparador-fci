@@ -1,0 +1,86 @@
+{
+ "fondo": "CYC Renta Fija en Dolares",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "C y C Administradora de Fondos S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 542077187.39
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 20.73
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 78.35
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.99
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.11
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.99
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.05
+  },
+  {
+   "activo": "Lecap S29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.86
+  },
+  {
+   "activo": "Bono del Tesoro 2.5% 2031",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.42
+  },
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.29
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.39
+  },
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.24
+  },
+  {
+   "activo": "FF Vicentin Export S8 A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.99
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63971",
+ "nombre_cnv": "CYC RENTA FIJA EN USD",
+ "clave": "cyc renta fija en usd"
+}

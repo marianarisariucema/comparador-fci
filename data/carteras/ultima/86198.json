@@ -1,6 +1,6 @@
 {
  "fondo": "Gainvest Balanceado VIII",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "StoneX Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,28 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 11385567096.19
+  "Peso Argentina": 11439455328.56
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.42
+   "pct_pn": 1.27
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 91.09
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.39
+   "pct_pn": 96.14
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.95
+   "pct_pn": 0.94
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.14
+   "pct_pn": 1.64
   },
   {
    "tipo": "Otros Activos",
@@ -49,7 +45,7 @@
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.66
+   "pct_pn": 10.52
   },
   {
    "activo": "Lecer X30N6",
@@ -59,32 +55,37 @@
   {
    "activo": "Pagare #MAV110170023",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.38
-  },
-  {
-   "activo": "ON Banco Nacion Argentina Clase 1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.88
+   "pct_pn": 9.37
   },
   {
    "activo": "Bonos Rep Argentina 2030",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.88
+   "pct_pn": 6.91
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.89
   },
   {
    "activo": "ON Volkswagen Financial Services C15",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.48
+   "pct_pn": 4.49
   },
   {
    "activo": "Bono Dual TXMJ8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.93
+   "pct_pn": 3.95
   },
   {
    "activo": "ON Banco Comafi C22",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.75
+   "pct_pn": 3.51
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.5
   },
   {
    "activo": "ON Bco Provincia Cl 4",
@@ -129,7 +130,12 @@
   {
    "activo": "Letra Muni Cordoba S53",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.9
+   "pct_pn": 0.91
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.88
   },
   {
    "activo": "ON Toyota Clase 34",
@@ -139,27 +145,22 @@
   {
    "activo": "ON Fundación IFI C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.02
-  },
-  {
-   "activo": "Caucion Colocadora $ BYMA",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.39
+   "pct_pn": 0.01
   },
   {
    "activo": "Bonos Rep Argentina AL35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.95
+   "pct_pn": 0.94
   },
   {
    "activo": "FF Comafi Leasing 18 Cl A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.07
+   "pct_pn": 0.78
   },
   {
    "activo": "FF Comafi Leasing 17 Cl A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.91
+   "pct_pn": 0.7
   },
   {
    "activo": "FF Megabono 335 Clase A",

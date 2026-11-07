@@ -1,6 +1,6 @@
 {
  "fondo": "Gainvest Balanceado VII",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "StoneX Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,24 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 12540080120.67
+  "Peso Argentina": 12655575196.85
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.18
+   "pct_pn": 1.57
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 96.67
+   "pct_pn": 94.69
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.16
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.63
+   "pct_pn": 0.67
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.61
+   "pct_pn": null
   },
   {
    "tipo": "Otros Activos",
@@ -45,7 +49,7 @@
   {
    "activo": "Pagare #UMV151260099",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.19
+   "pct_pn": 4.2
   },
   {
    "activo": "Pagare #UMV290170018",
@@ -55,17 +59,12 @@
   {
    "activo": "Pagare #UMV290370011",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.13
+   "pct_pn": 4.14
   },
   {
    "activo": "Pagare #UMV110170011",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 3.25
-  },
-  {
-   "activo": "Pagare #UMV161060020",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.02
   },
   {
    "activo": "Pagare #UMV161160052",
@@ -75,7 +74,7 @@
   {
    "activo": "Pagare #UMV101260035",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.99
+   "pct_pn": 3.0
   },
   {
    "activo": "Pagare #UMV211260097",
@@ -88,17 +87,12 @@
    "pct_pn": 2.98
   },
   {
-   "activo": "Pagare #UMV181060002",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.78
-  },
-  {
-   "activo": "Pagare #UMV261060034",
+   "activo": "Pagare #UMV271060069",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.41
   },
   {
-   "activo": "Pagare #UMV271060069",
+   "activo": "Pagare #UMV261060034",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.41
   },
@@ -118,6 +112,11 @@
    "pct_pn": 2.37
   },
   {
+   "activo": "Pagare #UMV260470012",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.36
+  },
+  {
    "activo": "Pagare #UMV200470014",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.36
@@ -128,22 +127,17 @@
    "pct_pn": 2.35
   },
   {
-   "activo": "Pagare #UMV260470012",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.35
-  },
-  {
    "activo": "Pagare #UMV180670005",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.34
   },
   {
-   "activo": "Pagare #UMV150770064",
+   "activo": "Pagare #UMV300670025",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.33
+   "pct_pn": 2.34
   },
   {
-   "activo": "Pagare #UMV300670025",
+   "activo": "Pagare #UMV150770064",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.33
   },
@@ -156,6 +150,11 @@
    "activo": "Pagare #UMV310870012",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.3
+  },
+  {
+   "activo": "Pagare #UMV251070007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.05
   },
   {
    "activo": "Pagare #UMV310770020",
@@ -171,6 +170,11 @@
    "activo": "Pagare #UMV260270017",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.78
+  },
+  {
+   "activo": "Pagare #UMV130970012",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.72
   },
   {
    "activo": "Pagare #UMV301060020",
@@ -218,12 +222,12 @@
    "pct_pn": 1.19
   },
   {
-   "activo": "Pagare #UMV150470064",
+   "activo": "Pagare #UMV230370006",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.18
   },
   {
-   "activo": "Pagare #UMV230370006",
+   "activo": "Pagare #UMV150470064",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.18
   },
@@ -255,12 +259,12 @@
   {
    "activo": "Pagare #MAV241160013",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.78
+   "pct_pn": 0.77
   },
   {
    "activo": "Pagare #UMV140170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.59
+   "pct_pn": 0.6
   },
   {
    "activo": "Pagare #UMV030260015",
@@ -295,7 +299,7 @@
   {
    "activo": "Pagare #UMV030260016",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.21
+   "pct_pn": 0.2
   },
   {
    "activo": "Cheque #MAV251060002",
@@ -333,14 +337,14 @@
    "pct_pn": 0.01
   },
   {
-   "activo": "Grupo Supervielle S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.63
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.16
   },
   {
-   "activo": "FCI Delta $ - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.61
+   "activo": "Grupo Supervielle S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.67
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

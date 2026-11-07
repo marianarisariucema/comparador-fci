@@ -1,0 +1,80 @@
+{
+ "fondo": "SBS Patrimonio X",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 5199094256.47
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 79.64
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 23.02
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.68
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecap S29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.9
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.74
+  },
+  {
+   "activo": "Bono Muni Cordoba S2 13022027",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.76
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.02
+  },
+  {
+   "activo": "Letra Prov Bs As PBA27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.22
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 23.02
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.68
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86775",
+ "nombre_cnv": "SBS PATRIMONIO X FCI",
+ "clave": "sbs patrimonio x"
+}

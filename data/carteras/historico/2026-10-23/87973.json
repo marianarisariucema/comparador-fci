@@ -1,0 +1,66 @@
+{
+ "fondo": "Wise Capital Focus II",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Wise Capital Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 7896198880.16
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.13
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 32.07
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 9.56
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 58.24
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.62
+  },
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.27
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.18
+  },
+  {
+   "activo": "FCI SBS Ahorro Pesos Cl B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 7.85
+  },
+  {
+   "activo": "FCI BM Smart Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.71
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87973",
+ "nombre_cnv": "WISE CAPITAL WORKING CAPITAL",
+ "clave": "wise capital working capital"
+}

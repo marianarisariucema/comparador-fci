@@ -1,0 +1,75 @@
+{
+ "fondo": "Schroder Crecimiento Tres",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Schroder S.A.S.G.F.C.I.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 17428980220.06
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 82.16
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 17.26
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.75
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.09
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.84
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.96
+  },
+  {
+   "activo": "Letra Prov Bs As LBN26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.27
+  },
+  {
+   "activo": "Pzo Fi $ Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 17.26
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.75
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86668",
+ "nombre_cnv": "SCHRODER CRECIMIENTO TRES F.C.I.",
+ "clave": "schroder crecimiento tres"
+}

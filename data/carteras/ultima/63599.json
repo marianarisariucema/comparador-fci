@@ -1,6 +1,6 @@
 {
  "fondo": "SBS Retorno Total",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6387003431.3
+  "Peso Argentina": 6060576472.88
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 7.33
+   "pct_pn": 1.48
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 91.09
+   "pct_pn": 96.93
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.97
+   "pct_pn": 2.07
   },
   {
    "tipo": "Otros Activos",
@@ -29,44 +29,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.61
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Bonos Rep Argentina GD35",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.73
+   "pct_pn": 30.46
   },
   {
    "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.34
+   "pct_pn": 18.54
   },
   {
    "activo": "ON YPF Clase 34",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.81
+   "pct_pn": 14.82
   },
   {
    "activo": "Bonos Rep Argentina GD38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.48
+   "pct_pn": 14.15
   },
   {
    "activo": "ON Pampa Energia C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.96
+   "pct_pn": 9.6
   },
   {
    "activo": "Bonos Rep Argentina 2030",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.8
+   "pct_pn": 5.1
   },
   {
    "activo": "ON Transp Gas Sur Cl 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.92
+   "pct_pn": 4.2
   },
   {
    "activo": "ON Impsa Clase 7 2036",
@@ -76,7 +76,7 @@
   {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.97
+   "pct_pn": 2.07
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

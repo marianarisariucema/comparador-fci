@@ -1,6 +1,6 @@
 {
  "fondo": "FCIC Inmobiliario Reit Ciclo Nova",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Ciclo Nova Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Cerrado",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 69156482597.27
+  "Peso Argentina": 73246045198.89
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.54
+   "pct_pn": 0.44
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 55.24
+   "pct_pn": 49.91
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
@@ -25,7 +25,7 @@
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 5.21
+   "pct_pn": 4.95
   },
   {
    "tipo": "Otros Activos",
@@ -33,74 +33,74 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 38.98
+   "pct_pn": 44.67
   }
  ],
  "activos": [
   {
-   "activo": "Bono del Tesoro Nacional AO27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.01
-  },
-  {
    "activo": "Bonos Rep Argentina 2030",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.36
+   "pct_pn": 12.69
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.79
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.23
+   "pct_pn": 5.9
   },
   {
    "activo": "Bono del Tesoro Nacional TZV27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.52
+   "pct_pn": 4.28
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.99
+   "pct_pn": 3.78
   },
   {
    "activo": "ON IEB Construcciones C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.86
+   "pct_pn": 2.73
   },
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.39
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.03
+   "pct_pn": 2.26
   },
   {
    "activo": "Bono Bonar 2029 AO29",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.02
+   "pct_pn": 1.94
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.93
   },
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.41
+   "pct_pn": 1.32
   },
   {
    "activo": "Bono Dual TXMJ0",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.24
+   "pct_pn": 1.17
   },
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.15
+   "pct_pn": 1.08
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.04
   },
   {
    "activo": "Caucion Colocadora $ Merval",
@@ -110,12 +110,12 @@
   {
    "activo": "FCI Allaria Dólar Ahorro - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.4
+   "pct_pn": 4.18
   },
   {
    "activo": "FCI Max Money Market Dólares - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.81
+   "pct_pn": 0.77
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

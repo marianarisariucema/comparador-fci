@@ -1,0 +1,110 @@
+{
+ "fondo": "FBA Renta Fija Pesos II",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "BBVA Asset Management Argentina S.A.U.S.G.F.C.I.",
+ "depositaria": "BBVA Argentina S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 244172820471.45
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.42
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 94.34
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.87
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.71
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.26
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.14
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.66
+  },
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.32
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.16
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.63
+  },
+  {
+   "activo": "Letra Tesoro Nac S30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.05
+  },
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.46
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.96
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.56
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.31
+  },
+  {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.05
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63272",
+ "nombre_cnv": "FBA RENTA FIJA PESOS II",
+ "clave": "fba renta fija pesos ii"
+}

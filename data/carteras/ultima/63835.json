@@ -1,6 +1,6 @@
 {
  "fondo": "CMA Renta Dólar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Capital Markets Argentina Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,28 +8,28 @@
  "region": "Latinoamerica",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 36498075.49
+  "Dolar Estadounidense": 36608048.42
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 3.99
+   "pct_pn": 3.52
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 52.19
+   "pct_pn": 51.88
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 38.26
+   "pct_pn": 39.21
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.8
+   "pct_pn": 0.79
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.99
+   "pct_pn": 4.97
   },
   {
    "tipo": "Otros Activos",
@@ -44,17 +44,17 @@
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 7.13
+   "pct_pn": 6.84
   },
   {
    "activo": "ON Loma Negra C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 6.65
+   "pct_pn": 6.74
   },
   {
    "activo": "ON YPF Energia Electrica C21",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.56
+   "pct_pn": 2.57
   },
   {
    "activo": "ON Camuzzi Gas C1 USD",
@@ -64,7 +64,7 @@
   {
    "activo": "ON Pan American C36",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.23
+   "pct_pn": 2.25
   },
   {
    "activo": "ON Tarj Naranja C67 S2",
@@ -74,17 +74,17 @@
   {
    "activo": "ON Pluspetrol Clase 2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.77
+   "pct_pn": 1.78
   },
   {
    "activo": "ON Tecpetrol C9",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.61
+   "pct_pn": 1.56
   },
   {
    "activo": "ON Pampa Energia C25",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.5
+   "pct_pn": 1.49
   },
   {
    "activo": "ON YPF Clase 42",
@@ -94,7 +94,7 @@
   {
    "activo": "ON Oldelval Clase 5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.46
+   "pct_pn": 1.45
   },
   {
    "activo": "ON Pan American C35",
@@ -102,19 +102,14 @@
    "pct_pn": 1.29
   },
   {
-   "activo": "ON Telecom C23",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.16
-  },
-  {
    "activo": "ON Pluspetrol Clase 6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 1.16
   },
   {
-   "activo": "ON Pluspetrol Clase 3",
+   "activo": "ON Telecom C23",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.12
+   "pct_pn": 1.15
   },
   {
    "activo": "ON Telecom C30",
@@ -122,12 +117,17 @@
    "pct_pn": 1.12
   },
   {
-   "activo": "ON CGC C 37",
+   "activo": "ON Loma Negra C7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 1.1
+  },
+  {
+   "activo": "ON YPF Luz C20",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.97
   },
   {
-   "activo": "ON YPF Luz C20",
+   "activo": "ON CGC C 37",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.97
   },
@@ -142,9 +142,9 @@
    "pct_pn": 0.91
   },
   {
-   "activo": "ON Tecpetrol C11",
+   "activo": "ON Pluspetrol Clase 3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.84
+   "pct_pn": 0.87
   },
   {
    "activo": "ON Telecom C28",
@@ -152,9 +152,9 @@
    "pct_pn": 0.84
   },
   {
-   "activo": "ON PCR Clase R",
+   "activo": "ON Tecpetrol C11",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.84
+   "pct_pn": 0.83
   },
   {
    "activo": "ON BBVA Frances Cl 50",
@@ -164,12 +164,17 @@
   {
    "activo": "ON YPF Clase 43",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.83
+  },
+  {
+   "activo": "ON PCR Clase R",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.82
   },
   {
    "activo": "ON Arcor C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.8
+   "pct_pn": 0.79
   },
   {
    "activo": "ON YPF Luz C24",
@@ -180,11 +185,6 @@
    "activo": "ON Otamerica S7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.77
-  },
-  {
-   "activo": "ON YPF Clase 37",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.7
   },
   {
    "activo": "ON CGC C 36",
@@ -199,12 +199,12 @@
   {
    "activo": "ON Banco de Galicia 30 BYCWO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.57
+   "pct_pn": 0.56
   },
   {
    "activo": "ON Tecpetrol C13",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.56
+   "pct_pn": 0.55
   },
   {
    "activo": "ON Aluar Serie 7",
@@ -214,12 +214,7 @@
   {
    "activo": "Bonos Rep Argentina AE38",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.35
-  },
-  {
-   "activo": "Bonos Rep Argentina 2029",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.3
+   "pct_pn": 0.34
   },
   {
    "activo": "ON Supervielle Clase V",
@@ -237,6 +232,11 @@
    "pct_pn": 0.21
   },
   {
+   "activo": "ON YPF Clase 37",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.17
+  },
+  {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.15
@@ -247,39 +247,39 @@
    "pct_pn": 0.13
   },
   {
-   "activo": "Bonos Rep Argentina AL35",
+   "activo": "ON YPF Clase 38",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.12
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Bonos Rep Argentina 2029",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.1
   },
   {
    "activo": "Bonos Rep Argentina AL41",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.11
-  },
-  {
-   "activo": "ON YPF Clase 38",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.1
   },
   {
    "activo": "Brasil 2033",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 4.82
+   "pct_pn": 4.7
   },
   {
    "activo": "ON Transp Gas Sur Cl 3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 4.35
+   "pct_pn": 4.33
   },
   {
    "activo": "US Treasury Bill 271126",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 4.31
+   "pct_pn": 4.32
   },
   {
    "activo": "BR Brasil 2035",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 3.19
+   "pct_pn": 3.22
   },
   {
    "activo": "BR Brasil LTN 091231",
@@ -299,12 +299,12 @@
   {
    "activo": "BC Adecoagro 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 1.92
+   "pct_pn": 1.93
   },
   {
    "activo": "ON YPF Luz C18 YFCJO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 1.81
+   "pct_pn": 1.8
   },
   {
    "activo": "ON TGS C4 Reg S",
@@ -319,7 +319,12 @@
   {
    "activo": "ON Vista Gas y Oil Arg C29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 1.41
+   "pct_pn": 1.4
+  },
+  {
+   "activo": "US Treasury Bill 210127",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 1.03
   },
   {
    "activo": "US Treasury Bill 013127",
@@ -329,7 +334,7 @@
   {
    "activo": "ON Tecpetrol C10",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 0.99
+   "pct_pn": 0.98
   },
   {
    "activo": "ON YPF C 17",
@@ -339,7 +344,7 @@
   {
    "activo": "ON Arcor C1 7.6%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 0.88
+   "pct_pn": 0.89
   },
   {
    "activo": "ON Tecpetrol C12",
@@ -394,12 +399,12 @@
   {
    "activo": "FCI Megaqm Liquidez Dólar - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.93
+   "pct_pn": 4.92
   },
   {
    "activo": "FCI MEGAQM Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 0.05
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

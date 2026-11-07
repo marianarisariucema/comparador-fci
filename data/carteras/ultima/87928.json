@@ -1,6 +1,6 @@
 {
  "fondo": "Max Retorno Total Pesos II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Max Capital Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 68520894307.03
+  "Peso Argentina": 68843622915.68
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.41
+   "pct_pn": 95.86
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.67
+   "pct_pn": 1.68
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.98
+   "pct_pn": 2.53
   },
   {
    "tipo": "Otros Activos",
@@ -46,11 +46,6 @@
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 3.93
-  },
-  {
-   "activo": "Lecap S30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.95
   },
   {
    "activo": "Pagare #MAV101160013",
@@ -78,19 +73,9 @@
    "pct_pn": 1.86
   },
   {
-   "activo": "Pagare #MAV290370005",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.83
-  },
-  {
-   "activo": "Pagare #MAV110370003",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.83
-  },
-  {
    "activo": "Pagare #MAV120370009",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.83
+   "pct_pn": 1.84
   },
   {
    "activo": "Pagare #MAV180370004",
@@ -103,9 +88,19 @@
    "pct_pn": 1.83
   },
   {
-   "activo": "Pagare #MAV060470003",
+   "activo": "Pagare #MAV110370003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.82
+   "pct_pn": 1.83
+  },
+  {
+   "activo": "Pagare #MAV250370007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.83
+  },
+  {
+   "activo": "Pagare #MAV290370005",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.83
   },
   {
    "activo": "Pagare #MAV220370015",
@@ -123,7 +118,7 @@
    "pct_pn": 1.82
   },
   {
-   "activo": "Pagare #MAV250370007",
+   "activo": "Pagare #MAV060470003",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.82
   },
@@ -153,17 +148,17 @@
    "pct_pn": 1.56
   },
   {
-   "activo": "Pagare #MAV201060038",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.55
-  },
-  {
    "activo": "Pagare #MAV040270010",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.55
   },
   {
    "activo": "Pagare #MAV020270005",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.55
+  },
+  {
+   "activo": "Pagare #MAV110270013",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.55
   },
@@ -198,19 +193,14 @@
    "pct_pn": 1.45
   },
   {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.38
+  },
+  {
    "activo": "Pagare #MAV130470015",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.35
-  },
-  {
-   "activo": "Pagare #MAV050270009",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.34
-  },
-  {
-   "activo": "Pagare #MAV090270013",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.34
   },
   {
    "activo": "Pagare #MAV010270020",
@@ -219,6 +209,16 @@
   },
   {
    "activo": "Pagare #MAV030270028",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.34
+  },
+  {
+   "activo": "Pagare #MAV050270009",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.34
+  },
+  {
+   "activo": "Pagare #MAV090270013",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.34
   },
@@ -238,14 +238,14 @@
    "pct_pn": 1.33
   },
   {
-   "activo": "Pagare #MAV110270009",
+   "activo": "Pagare #MAV190270013",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.33
   },
   {
-   "activo": "Pagare #MAV190270013",
+   "activo": "Pagare #MAV110270009",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.32
+   "pct_pn": 1.33
   },
   {
    "activo": "Pagare #MAV230270004",
@@ -258,12 +258,12 @@
    "pct_pn": 1.32
   },
   {
-   "activo": "Pagare #MAV100370008",
+   "activo": "Pagare #MAV080370002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.31
   },
   {
-   "activo": "Pagare #MAV080370002",
+   "activo": "Pagare #MAV100370008",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.31
   },
@@ -365,12 +365,17 @@
   {
    "activo": "Pagare #UMV270470011",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.67
+   "pct_pn": 1.68
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.56
   },
   {
    "activo": "FCI Ciclo Nova Ahorro - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.98
+   "pct_pn": 0.97
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

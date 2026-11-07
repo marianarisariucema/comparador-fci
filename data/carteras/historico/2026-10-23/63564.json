@@ -1,0 +1,594 @@
+{
+ "fondo": "Schroder Renta Global",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Schroder S.A.S.G.F.C.I.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 123080101710.2
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.47
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 96.92
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.33
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.13
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.17
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 0.04
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Prov Santa Fe 2027 SF27D",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.46
+  },
+  {
+   "activo": "Bonos Rep Argentina GD30",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.17
+  },
+  {
+   "activo": "Bono Prov Cordoba 030235",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.91
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.74
+  },
+  {
+   "activo": "ON YPF Clase 34",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.69
+  },
+  {
+   "activo": "Bono Prov Santa Fe 8.1% 111234",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.63
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.9
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.14
+  },
+  {
+   "activo": "Bono Ciudad Bs As 261133",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.76
+  },
+  {
+   "activo": "Bono Buenos Aires 2037",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.49
+  },
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.37
+  },
+  {
+   "activo": "ON YPF Clase 28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.32
+  },
+  {
+   "activo": "ON YPF Clase 31",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.08
+  },
+  {
+   "activo": "Bonos Rep Argentina GD38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.08
+  },
+  {
+   "activo": "Bono Prov Cordoba 2032",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.06
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.78
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.74
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.66
+  },
+  {
+   "activo": "Boncer Mendoza C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.42
+  },
+  {
+   "activo": "Boncer Mendoza C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.42
+  },
+  {
+   "activo": "Bono Neuquen NDG34",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.29
+  },
+  {
+   "activo": "Bono Prov Mendoza 2029",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.22
+  },
+  {
+   "activo": "ON Pampa Energia C26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.19
+  },
+  {
+   "activo": "ON Pampa Energia C13",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.15
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.05
+  },
+  {
+   "activo": "ON Pan American C31",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.02
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.95
+  },
+  {
+   "activo": "Letra Prov Bs As PBA28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.95
+  },
+  {
+   "activo": "ON CGC C 38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.93
+  },
+  {
+   "activo": "Bono Prov Mendoza TAMAR C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.92
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.89
+  },
+  {
+   "activo": "ON Banco de Cordoba C5",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.89
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.81
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.77
+  },
+  {
+   "activo": "ON Pampa Energia C23 (RegS)",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.75
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.72
+  },
+  {
+   "activo": "Bono Disc ARS Ley AR DICP",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.72
+  },
+  {
+   "activo": "ON Pluspetrol Clase 5",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.69
+  },
+  {
+   "activo": "ON TGS C4 Reg S",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.67
+  },
+  {
+   "activo": "Bono Prov de Buenos Aires PBM27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.67
+  },
+  {
+   "activo": "ON Aeropuertos 2000 Regs 2031",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.55
+  },
+  {
+   "activo": "Bono Prov Cordoba 2029 CO27D",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.52
+  },
+  {
+   "activo": "Bonos Rep Argentina AE38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.5
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.5
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.5
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.46
+  },
+  {
+   "activo": "BC AES 9.5%",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.45
+  },
+  {
+   "activo": "Bono Prov San Juan SJO35",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.44
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "ON Tarj Naranja C67 S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "ON Santander Rio S 31",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "ON BBVA Frances Cl 38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "ON Banco Hipotecario C11",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "ON Bco Provincia Cl 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "ON Tecpetrol C12",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "ON Banco Prov Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "ON Santander Rio S 32",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "Bono Prov de Buenos Aires PBM28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.41
+  },
+  {
+   "activo": "ON PCR Clase K",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.41
+  },
+  {
+   "activo": "Bonos Rep Argentina GD29",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.41
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.36
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C24",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.35
+  },
+  {
+   "activo": "ON Pan American C38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.34
+  },
+  {
+   "activo": "ON Banco de Galicia 32 BYY1O",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.34
+  },
+  {
+   "activo": "ON Arcor C3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.33
+  },
+  {
+   "activo": "Bonos Rep Argentina 2029",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.31
+  },
+  {
+   "activo": "ON Edenor C10 DNCAO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.31
+  },
+  {
+   "activo": "Letra Prov Bs As LBD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.31
+  },
+  {
+   "activo": "ON CGC C 39",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.3
+  },
+  {
+   "activo": "ON BBVA Frances Cl 46",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.26
+  },
+  {
+   "activo": "Bono CABA 01062027",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.26
+  },
+  {
+   "activo": "Bonos de Infra.Vial Prov. de Santa Fe",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.26
+  },
+  {
+   "activo": "Bono CABA 2028 BDC28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.25
+  },
+  {
+   "activo": "ON Arcor C4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.25
+  },
+  {
+   "activo": "ON Arcor C6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "ON YPF 210727",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "ON Rombo Cia Fciera S65",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.21
+  },
+  {
+   "activo": "ON Rombo Cia Fciera S66",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.21
+  },
+  {
+   "activo": "ON Oldelval Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.19
+  },
+  {
+   "activo": "ON Central Puerto Clase C",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "ON ICBC Clase 4 281126",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "ON BACS Clase 19",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Bono Prov Cordoba 2027 COY27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "ON ICBC Clase 5 110327",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.16
+  },
+  {
+   "activo": "Bono Muni Cordoba S2 13022027",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.16
+  },
+  {
+   "activo": "ON Capex C7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.15
+  },
+  {
+   "activo": "Letra Prov Chubut S36",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.15
+  },
+  {
+   "activo": "ON PSA Serie 35",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "ON Cresud Clase 40",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.13
+  },
+  {
+   "activo": "ON Irsa USD TF 8.75%",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "ON Generacion Litoral C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.11
+  },
+  {
+   "activo": "ON Toyota Clase 34",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.11
+  },
+  {
+   "activo": "ON Vaca Muerta C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Bono Muni Cordoba S1 26032027",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Bono Prov Cordoba 2026",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C19",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "ON Pan Amer. Energy C 12",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "ON Impsa Clase 7 2036",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Pzo Fi UVA $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.33
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.81
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Aluar Aluminio Argentino S.A.I.C.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Loma Negra S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Ledesma S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.03
+  },
+  {
+   "activo": "FF Mercado Credito 47 CA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.11
+  },
+  {
+   "activo": "FCI MAF Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.03
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63564",
+ "nombre_cnv": "Schroder Renta Global Fondo Común de Inversión",
+ "clave": "schroder renta global"
+}

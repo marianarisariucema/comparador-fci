@@ -1,0 +1,66 @@
+{
+ "fondo": "Numancia Pesos III",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Zofingen Investment S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 51081092705.39
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.03
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 99.66
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.36
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pagare #UMV041160050",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 28.08
+  },
+  {
+   "activo": "Pagare #UMV251160018",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 24.83
+  },
+  {
+   "activo": "Pagare #UMV111160014",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 23.43
+  },
+  {
+   "activo": "Pagare #UMV181160019",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 23.32
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.36
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87836",
+ "nombre_cnv": "Numancia Pesos III",
+ "clave": "numancia pesos iii"
+}

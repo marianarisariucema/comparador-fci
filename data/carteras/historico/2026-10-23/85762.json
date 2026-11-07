@@ -1,0 +1,62 @@
+{
+ "fondo": "GMC Money Market",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "GMC Asset Management S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 24635864311.98
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 36.03
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 47.53
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 16.44
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.49
+  },
+  {
+   "activo": "Pzo Fi $ Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 11.51
+  },
+  {
+   "activo": "Pzo Fi $ Bco Cordoba",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.95
+  },
+  {
+   "activo": "Pzo Fi $ Bco Macro Bansud",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.29
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.28
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85762",
+ "nombre_cnv": "GMC MONEY MARKET",
+ "clave": "gmc money market"
+}

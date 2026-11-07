@@ -1,0 +1,71 @@
+{
+ "fondo": "Bell BAVSA Renta Plus",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "BAVSA Fondos S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 5001296953.22
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.14
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.89
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 31.33
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 25.81
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.8
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.73
+  },
+  {
+   "activo": "Letra Tamar TEM TMF28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.46
+  },
+  {
+   "activo": "FCI Axis Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.89
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88003",
+ "nombre_cnv": "BELL BAVSA RENTA PLUS",
+ "clave": "bell bavsa renta plus"
+}

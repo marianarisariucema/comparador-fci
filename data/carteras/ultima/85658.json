@@ -1,6 +1,6 @@
 {
  "fondo": "Galileo Multimercado VI",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 20179994327.9
+  "Peso Argentina": 19417757483.68
  },
  "por_tipo": [
   {
@@ -17,23 +17,19 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 84.05
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.73
+   "pct_pn": 80.77
   },
   {
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 12.46
+   "pct_pn": 13.08
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.36
+   "pct_pn": 4.9
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 1.75
   },
   {
    "tipo": "Otros Activos",
@@ -41,99 +37,99 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.16
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.64
-  },
-  {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.23
+   "pct_pn": 12.22
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.91
   },
   {
    "activo": "Boncer TZXY7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.02
+   "pct_pn": 10.46
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.77
+   "pct_pn": 9.08
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.33
+   "pct_pn": 8.7
   },
   {
    "activo": "ON Telecom C12 TLCDO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.86
+   "pct_pn": 5.08
   },
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.26
+   "pct_pn": 4.5
   },
   {
    "activo": "Bono CER TZX27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.36
+   "pct_pn": 3.5
   },
   {
    "activo": "ON Telecom C19 TLCKO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.77
+   "pct_pn": 2.91
   },
   {
    "activo": "ON Vista Gas y Oil Arg C18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.76
+   "pct_pn": 2.88
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.51
+   "pct_pn": 2.62
   },
   {
    "activo": "ON CGC C 38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.7
+   "pct_pn": 1.8
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.67
+   "pct_pn": 1.74
   },
   {
    "activo": "ON Capex C10",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.47
+   "pct_pn": 1.53
   },
   {
    "activo": "ON Pan Amer. Energy C 18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.36
+   "pct_pn": 1.42
   },
   {
    "activo": "ON MSU S11",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.53
+   "pct_pn": 0.56
   },
   {
    "activo": "ON Genneia Clase 37",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.38
+   "pct_pn": 0.39
   },
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.24
+   "pct_pn": 0.26
   },
   {
    "activo": "ON Agrofina Clase 11",
@@ -143,67 +139,62 @@
   {
    "activo": "ON Agrofina Clase 12",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.73
+   "pct_pn": 0.08
   },
   {
    "activo": "Pagare #UMV090970004",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 7.21
+   "pct_pn": 7.57
   },
   {
    "activo": "Pagare #UMV221260030",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 1.89
+   "pct_pn": 1.99
   },
   {
    "activo": "Pagare #UMV301160054",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.75
+   "pct_pn": 0.78
   },
   {
    "activo": "Pagare #UMV230470005",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.73
+   "pct_pn": 0.77
   },
   {
    "activo": "Pagare #UMV270570003",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.73
+   "pct_pn": 0.76
   },
   {
    "activo": "Pagare #UMV281060060",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.41
+   "pct_pn": 0.43
   },
   {
    "activo": "Pagare #UMV180170034",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.37
+   "pct_pn": 0.39
   },
   {
    "activo": "Pagare #UMV251160020",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.37
+   "pct_pn": 0.39
+  },
+  {
+   "activo": "Pagare #UMV221070005",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
+   "pct_pn": 3.69
   },
   {
    "activo": "Factura E %UVI291000001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 0.65
+   "pct_pn": 0.68
   },
   {
    "activo": "Factura E %UVI081100003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 0.36
-  },
-  {
-   "activo": "Factura E %UVI181000003",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 0.22
+   "pct_pn": 0.38
   },
   {
    "activo": "Factura E %UVI271000008",
@@ -213,7 +204,7 @@
   {
    "activo": "FCI Pionero Pesos Plus - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 1.75
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

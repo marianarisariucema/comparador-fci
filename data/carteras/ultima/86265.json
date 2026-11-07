@@ -1,6 +1,6 @@
 {
  "fondo": "Pionero Integral",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Macro Fondos S.G.F.C.I.S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 44007639955.0
+  "Peso Argentina": 44539188528.82
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.99
+   "pct_pn": 100.02
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.03
   },
   {
    "tipo": "Otros Activos",
@@ -34,39 +34,44 @@
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
+   "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.57
+   "pct_pn": 29.07
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.94
+   "pct_pn": 24.76
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.77
+   "pct_pn": 24.18
   },
   {
-   "activo": "Lelink D30N6",
+   "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.9
+   "pct_pn": 10.37
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.87
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.81
-  },
-  {
-   "activo": "FCI Fima Premium Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 3.77
   },
   {
    "activo": "FCI Lombard Renta en $",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.02
+  },
+  {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

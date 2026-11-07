@@ -1,0 +1,116 @@
+{
+ "fondo": "BM Active Renta Fija Argentina",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Bull Market Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 13833212713.88
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.36
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.33
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.5
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.19
+  },
+  {
+   "activo": "Bono Boncer TX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.9
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.52
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.44
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.97
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.5
+  },
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.1
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.69
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.06
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.96
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.6
+  },
+  {
+   "activo": "Cheque E *MAV301102261",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.4
+  },
+  {
+   "activo": "FCI Wise Capital Money Markets - Clase D",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.89
+  },
+  {
+   "activo": "FCI Cocos Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.54
+  },
+  {
+   "activo": "FF Mercado Credito 44 CA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.07
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "82321",
+ "nombre_cnv": "BM ACTIVE RENTA FIJA ARGENTINA FCI",
+ "clave": "bm active renta fija argentina"
+}

@@ -1,0 +1,101 @@
+{
+ "fondo": "Novus Estrategia",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Novus Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 5366633019.12
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 96.04
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.18
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 25.05
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.81
+  },
+  {
+   "activo": "Letra Prov Bs As PBA27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.11
+  },
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.09
+  },
+  {
+   "activo": "Bono Dual TXMJ8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.93
+  },
+  {
+   "activo": "Bono Boncer TZXD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.92
+  },
+  {
+   "activo": "Bono Dual TXMD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.02
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.99
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZXO7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.35
+  },
+  {
+   "activo": "Bono Disc ARS Ley AR DICP",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.76
+  },
+  {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.83
+  },
+  {
+   "activo": "FF Confibono S83 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.35
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "83448",
+ "nombre_cnv": "NOVUS ESTRATEGIA",
+ "clave": "novus estrategia"
+}

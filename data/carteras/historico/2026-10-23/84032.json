@@ -1,0 +1,85 @@
+{
+ "fondo": "Adcap Balanceado IV",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Variable",
+ "moneda": "Peso Argentina",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 30213690668.62
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.69
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 10.07
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.37
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.47
+  },
+  {
+   "activo": "Letra Tesoro Nac D31M7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.93
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZV27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.53
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.59
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.08
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 10.07
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.37
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "84032",
+ "nombre_cnv": "Adcap Balanceado IV",
+ "clave": "adcap balanceado iv"
+}

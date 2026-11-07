@@ -1,6 +1,6 @@
 {
  "fondo": "GSS II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Grupo SS S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 24543321583.13
+  "Peso Argentina": 24709880540.05
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 84.7
+   "pct_pn": 79.62
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.09
+   "pct_pn": 19.05
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.99
+   "pct_pn": 1.45
   },
   {
    "tipo": "Otros Activos",
@@ -40,62 +40,57 @@
   {
    "activo": "ON Tarj Naranja C67 S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.73
+   "pct_pn": 10.72
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.21
+   "pct_pn": 9.19
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.78
+   "pct_pn": 8.76
   },
   {
    "activo": "ON Banco de Galicia 32 BYY1O",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.29
-  },
-  {
-   "activo": "Bono Bonte 2026 TO26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.14
+   "pct_pn": 6.28
   },
   {
    "activo": "ON Mercado Pago C6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.67
+   "pct_pn": 4.66
   },
   {
    "activo": "ON BBVA Frances Cl 46",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.67
+   "pct_pn": 4.66
   },
   {
    "activo": "ON Santander Rio S 31",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.32
+   "pct_pn": 4.31
   },
   {
    "activo": "ON BBVA Frances Cl 47",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.23
+   "pct_pn": 4.22
   },
   {
    "activo": "ON Santander Rio S 32",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.14
+   "pct_pn": 4.13
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.06
   },
   {
    "activo": "ON ICBC Clase 5 110327",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.72
-  },
-  {
-   "activo": "Letra Tesoro Nac S30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.66
   },
   {
    "activo": "ON Arcor C6",
@@ -115,7 +110,7 @@
   {
    "activo": "ON ICBC Clase 4 281126",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.12
+   "pct_pn": 2.11
   },
   {
    "activo": "ON Gpat Cia. Financ. 39 A",
@@ -130,7 +125,12 @@
   {
    "activo": "ON BBVA Frances Cl 38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.28
+   "pct_pn": 1.27
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.22
   },
   {
    "activo": "ON Tarj Naranja C66 S1",
@@ -143,24 +143,14 @@
    "pct_pn": 0.92
   },
   {
-   "activo": "Lecap S30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.45
-  },
-  {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 11.49
+   "pct_pn": 11.47
   },
   {
    "activo": "Pzo Fi $ Toyota Cia. Fin.",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 7.6
-  },
-  {
-   "activo": "FCI Fima Premium Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.53
+   "pct_pn": 7.58
   },
   {
    "activo": "FF Megabono 351 Clase A",
@@ -175,7 +165,7 @@
   {
    "activo": "FCI BM Smart Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.32
+   "pct_pn": 0.27
   },
   {
    "activo": "FF Megabono 345 Clase A",
@@ -188,9 +178,14 @@
    "pct_pn": 0.1
   },
   {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.07
+  },
+  {
    "activo": "FF Confibono S82 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.02
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

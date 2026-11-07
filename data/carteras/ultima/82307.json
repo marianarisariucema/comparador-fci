@@ -1,6 +1,6 @@
 {
  "fondo": "Galileo Multi Strategy",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,16 +8,16 @@
  "region": "Latinoamerica",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 48196414.55
+  "Dolar Estadounidense": 48452679.39
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 3.36
+   "pct_pn": 1.43
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 97.1
+   "pct_pn": 98.97
   },
   {
    "tipo": "Otros Activos",
@@ -32,47 +32,47 @@
   {
    "activo": "ON Pampa Energia C26",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 9.35
+   "pct_pn": 9.32
   },
   {
    "activo": "ON Vista Energy 31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.4
+   "pct_pn": 8.34
   },
   {
    "activo": "ON Pluspetrol Clase 7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.14
+   "pct_pn": 7.09
   },
   {
    "activo": "ON YPF Clase 44",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.24
+   "pct_pn": 6.27
   },
   {
    "activo": "BC GEOPAR30",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.72
+   "pct_pn": 4.73
   },
   {
    "activo": "ON Transp Gas Sur Cl 3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.15
+   "pct_pn": 4.13
   },
   {
    "activo": "Bono Bonar 2029 AO29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.09
+   "pct_pn": 4.13
   },
   {
    "activo": "Letra Prov Chubut S36",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.12
+   "pct_pn": 3.13
   },
   {
    "activo": "ON Oldelval Clase 7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.07
+   "pct_pn": 3.05
   },
   {
    "activo": "ON YPF Clase 34",
@@ -82,32 +82,27 @@
   {
    "activo": "ON Pan American C36",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.7
+   "pct_pn": 2.73
   },
   {
    "activo": "ON Tecpetrol C10",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.58
+   "pct_pn": 2.57
   },
   {
    "activo": "Bono del Tesoro Nacional AN29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.55
+   "pct_pn": 2.57
   },
   {
    "activo": "ON Pampa Energia C21",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.33
+   "pct_pn": 2.3
   },
   {
    "activo": "ON Bco Macro Clase 1 Regs",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.26
-  },
-  {
-   "activo": "ON Tecpetrol C10 RETAP",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.13
+   "pct_pn": 2.24
   },
   {
    "activo": "ON Pecom C3",
@@ -115,32 +110,42 @@
    "pct_pn": 2.13
   },
   {
-   "activo": "ON Vaca Muerta C1",
+   "activo": "ON Tecpetrol C10 RETAP",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.08
+   "pct_pn": 2.12
   },
   {
-   "activo": "ON YPF Luz C18 YFCJO",
+   "activo": "ON Loma Negra C7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 2.07
   },
   {
+   "activo": "ON Vaca Muerta C1",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.07
+  },
+  {
+   "activo": "ON YPF Luz C18 YFCJO",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.06
+  },
+  {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.02
+   "pct_pn": 1.99
   },
   {
    "activo": "ON John Deere Cia. Fin C20",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.84
-  },
-  {
-   "activo": "ON MSU Energy 160636",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.77
+   "pct_pn": 1.83
   },
   {
    "activo": "ON Arcor C1 7.6%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.8
+  },
+  {
+   "activo": "ON MSU Energy 160636",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 1.74
   },
@@ -152,17 +157,17 @@
   {
    "activo": "Bono Neuquen NDG34",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.55
+   "pct_pn": 1.57
   },
   {
    "activo": "ON John Deere Cia. Fin C21",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.26
+   "pct_pn": 1.25
   },
   {
    "activo": "ON Banco de Valores C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.2
+   "pct_pn": 1.19
   },
   {
    "activo": "ON Minera Exar Clase 1",
@@ -182,12 +187,12 @@
   {
    "activo": "ON YPF Clase 31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.9
+   "pct_pn": 0.89
   },
   {
    "activo": "ON Vista Gas y Oil Arg C27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.88
+   "pct_pn": 0.87
   },
   {
    "activo": "ON Tecpetrol C12",
@@ -202,12 +207,12 @@
   {
    "activo": "ON John Deere Cia. Fin C18",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.66
+   "pct_pn": 0.65
   },
   {
    "activo": "ON Pecom C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.63
+   "pct_pn": 0.64
   },
   {
    "activo": "ON John Deere Cia. Fin C16",
@@ -227,7 +232,7 @@
   {
    "activo": "ON Oldelval Clase 5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.27
+   "pct_pn": 0.26
   },
   {
    "activo": "ON Mega C1",
@@ -242,7 +247,7 @@
   {
    "activo": "ON Vista Gas y Oil Arg C29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.12
+   "pct_pn": 0.11
   },
   {
    "activo": "ON TGS C4 Reg S",

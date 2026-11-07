@@ -1,6 +1,6 @@
 {
  "fondo": "GMC Retorno Total IV",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "GMC Asset Management S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 4302234302.16
+  "Peso Argentina": 4323292588.99
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 72.02
+   "pct_pn": 71.97
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.67
+   "pct_pn": 0.77
   },
   {
    "tipo": "Otros Activos",
@@ -29,14 +29,14 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 27.31
+   "pct_pn": 27.26
   }
  ],
  "activos": [
   {
    "activo": "ON Banco Prov Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.55
+   "pct_pn": 10.57
   },
   {
    "activo": "ON Banco de Galicia 32 BYY1O",
@@ -46,12 +46,12 @@
   {
    "activo": "ON BBVA Frances Cl 47",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.55
+   "pct_pn": 9.56
   },
   {
    "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.76
+   "pct_pn": 8.77
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 1",
@@ -76,12 +76,12 @@
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.71
+   "pct_pn": 4.7
   },
   {
    "activo": "ON Pyme Urbano Express Argentina S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.58
+   "pct_pn": 3.5
   },
   {
    "activo": "ON ICBC Clase 5 110327",
@@ -97,6 +97,11 @@
    "activo": "FCI ST Zero - Clase C",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.3
+  },
+  {
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.1
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

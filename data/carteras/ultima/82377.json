@@ -1,6 +1,6 @@
 {
  "fondo": "Alpha Infraestructura",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "ICBC Investments Argentina S.A.U.S.G.F.C.I.",
  "depositaria": "ICBC (Arg) S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6674970882.04
+  "Peso Argentina": 6714976471.54
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 11.38
+   "pct_pn": 1.5
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 72.06
+   "pct_pn": 81.97
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 11.85
+   "pct_pn": 11.84
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.78
+   "pct_pn": 4.76
   },
   {
    "tipo": "Otros Activos",
@@ -40,27 +40,32 @@
   {
    "activo": "ON Oldelval Clase 2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.11
+   "pct_pn": 7.14
   },
   {
-   "activo": "ON Vista Gas y Oil Arg C21",
+   "activo": "ON Pan Amer. Energy C 17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.11
+   "pct_pn": 6.83
   },
   {
    "activo": "ON YPF Clase 42",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.05
+   "pct_pn": 6.14
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.1
   },
   {
    "activo": "ON Vista Gas y Oil Arg C25",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.57
+   "pct_pn": 5.56
   },
   {
    "activo": "ON Capex C10",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.54
+   "pct_pn": 5.53
   },
   {
    "activo": "ON PCR Clase K",
@@ -75,12 +80,12 @@
   {
    "activo": "ON Aluar Serie 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.25
+   "pct_pn": 4.26
   },
   {
    "activo": "ON Vista Gas y Oil Arg C24",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.75
+   "pct_pn": 3.77
   },
   {
    "activo": "ON Pan Amer. Energy C 13",
@@ -93,19 +98,24 @@
    "pct_pn": 3.22
   },
   {
-   "activo": "Lecap S30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.13
-  },
-  {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 3.12
   },
   {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.12
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.98
+  },
+  {
    "activo": "Bono Boncer TX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.6
+   "pct_pn": 2.59
   },
   {
    "activo": "ON Vista Gas y Oil Arg C18",
@@ -115,7 +125,7 @@
   {
    "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.27
+   "pct_pn": 2.28
   },
   {
    "activo": "Bono Boncer TZX28",
@@ -125,12 +135,12 @@
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.63
+   "pct_pn": 1.61
   },
   {
    "activo": "ON Pan Amer. Energy C 12",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.51
+   "pct_pn": 0.52
   },
   {
    "activo": "ON P. Aconcagua Energia C19",
@@ -145,27 +155,27 @@
   {
    "activo": "ON Banco Nacion Argentina Clase 5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.59
+   "pct_pn": 4.6
   },
   {
    "activo": "ON Loma Negra C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.38
+   "pct_pn": 2.39
   },
   {
    "activo": "ON YPF Clase 37",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.34
+   "pct_pn": 2.32
   },
   {
    "activo": "ON Tecpetrol C13",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.15
+   "pct_pn": 1.16
   },
   {
    "activo": "ON Edenor C10 DNCAO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.76
+   "pct_pn": 0.75
   },
   {
    "activo": "ON Cresud Clase 50",
@@ -175,7 +185,7 @@
   {
    "activo": "FCI Pionero Pesos Plus - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.78
+   "pct_pn": 4.76
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "SBS Retorno Sustentable ASG",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 16615405.33
+  "Peso Argentina": 16743972.89
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 3.14
+   "pct_pn": 3.43
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 75.59
+   "pct_pn": 75.69
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 21.06
+   "pct_pn": 21.01
   },
   {
    "tipo": "Otros Activos",
@@ -29,49 +29,49 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.21
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "ON Genneia Clase 37",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.23
+   "pct_pn": 18.24
   },
   {
    "activo": "ON Cloronor S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.17
+   "pct_pn": 18.11
   },
   {
    "activo": "ON Plaza Logistica C15",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.68
+   "pct_pn": 14.89
   },
   {
    "activo": "ON Sumatoria C8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.54
+   "pct_pn": 11.5
   },
   {
    "activo": "ON Sumatoria C7 S2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.87
+   "pct_pn": 8.85
   },
   {
    "activo": "ON Fundación IFI C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.1
+   "pct_pn": 4.09
   },
   {
    "activo": "FF Infraestructura Elec 14",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 16.75
+   "pct_pn": 16.71
   },
   {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.31
+   "pct_pn": 4.3
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

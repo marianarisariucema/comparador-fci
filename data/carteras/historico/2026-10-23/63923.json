@@ -1,0 +1,77 @@
+{
+ "fondo": "MEGAQM Liquidez Dólar",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "MEGA QM S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 403531288.44
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 24.55
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 75.46
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 21.49
+  },
+  {
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 18.97
+  },
+  {
+   "activo": "Pzo Fi U$S Bco BBVA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 18.85
+  },
+  {
+   "activo": "Pzo Fi U$S Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 8.68
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 3.2
+  },
+  {
+   "activo": "Pzo Fi U$S Bco CMF",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 2.48
+  },
+  {
+   "activo": "Caucion Colocadora U$S MAE",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.29
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Mariva",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 0.5
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63923",
+ "nombre_cnv": "MEGAQM LIQUIDEZ DÓLAR",
+ "clave": "megaqm liquidez dolar"
+}

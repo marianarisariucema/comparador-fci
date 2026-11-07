@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Performance XIII",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 52507157921.88
+  "Peso Argentina": 50443850260.11
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.04
+   "pct_pn": 94.77
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.01
+   "pct_pn": 5.78
   },
   {
    "tipo": "Otros Activos",
@@ -29,104 +29,99 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 3.95
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.66
+   "pct_pn": 19.53
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.76
+   "pct_pn": 10.21
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.12
+   "pct_pn": 8.51
   },
   {
    "activo": "Letra Prov Bs As 070527",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.85
+   "pct_pn": 7.18
   },
   {
    "activo": "Bono Boncer 2028 TZXM8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.92
+   "pct_pn": 6.24
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.51
-  },
-  {
-   "activo": "Bono Dual TTD26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.65
+   "pct_pn": 5.77
   },
   {
    "activo": "Bono Ciudad Bs As 130536",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.45
+   "pct_pn": 4.63
   },
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.4
+   "pct_pn": 4.58
   },
   {
    "activo": "ON Pecom C3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.22
+   "pct_pn": 4.51
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.15
+   "pct_pn": 4.35
   },
   {
    "activo": "Letra Tamar TEM TMF28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.02
+   "pct_pn": 4.27
   },
   {
    "activo": "Bono Dual TXMJ8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.93
+   "pct_pn": 4.13
   },
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.87
+   "pct_pn": 4.02
   },
   {
    "activo": "ON Bco Ciudad C23",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.08
+   "pct_pn": 3.23
   },
   {
    "activo": "Bonos Rep Argentina 2030",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.68
+   "pct_pn": 2.8
   },
   {
    "activo": "ON GEMSA y CTR C43",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.77
+   "pct_pn": 0.81
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 5.09
   },
   {
    "activo": "FF Coppel S1 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.77
-  },
-  {
-   "activo": "FCI Schroder Liquidez - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.24
+   "pct_pn": 0.69
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

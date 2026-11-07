@@ -1,6 +1,6 @@
 {
  "fondo": "Consultatio Multimercado VI",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 10586865.45
+  "Peso Argentina": 10626169.86
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 8.71
+   "pct_pn": 66.34
   },
   {
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 91.29
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 33.66
   },
   {
    "tipo": "Otros Activos",
@@ -30,9 +30,14 @@
  ],
  "activos": [
   {
-   "activo": "FCI Argenfunds Liquidez - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 91.29
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.83
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.83
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

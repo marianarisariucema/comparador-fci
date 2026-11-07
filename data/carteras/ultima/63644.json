@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Renta Argentina",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 18813246659.41
+  "Peso Argentina": 19010275413.95
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 78.76
+   "pct_pn": 78.72
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 20.75
+   "pct_pn": 20.84
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.36
+   "pct_pn": 4.82
   },
   {
    "tipo": "Otros Activos",
@@ -33,29 +33,34 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.04
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 44.83
+   "pct_pn": 22.76
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.04
   },
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase B BPOB7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.23
+   "pct_pn": 6.31
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.07
+   "pct_pn": 4.05
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.32
+   "pct_pn": 3.3
   },
   {
    "activo": "ON CGC C 39",
@@ -65,7 +70,7 @@
   {
    "activo": "Letra Tesoro Nac D31M7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.87
+   "pct_pn": 2.86
   },
   {
    "activo": "Pagare #UBS040270001",
@@ -80,7 +85,7 @@
   {
    "activo": "Bonos Rep Argentina GD35",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.84
+   "pct_pn": 1.82
   },
   {
    "activo": "ON Capex C10",
@@ -145,22 +150,22 @@
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 17.06
+   "pct_pn": 17.13
   },
   {
    "activo": "ON Central Dock Sud C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.05
+   "pct_pn": 2.06
   },
   {
    "activo": "ON Bco Serv Transac C31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.64
+   "pct_pn": 1.65
   },
   {
-   "activo": "FCI MEGAQM Pesos - Clase B",
+   "activo": "FCI Schroder Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.36
+   "pct_pn": 4.82
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

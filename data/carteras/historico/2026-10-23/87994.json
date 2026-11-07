@@ -1,0 +1,65 @@
+{
+ "fondo": "Valiant Renta Fija Balanceado V",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Valiant Asset Management S.G.F.C.I.S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 149200740.39
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.02
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 57.1
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.04
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 40.05
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pagare #MAV251160021",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.81
+  },
+  {
+   "activo": "Pagare #MAV030270019",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.28
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.04
+  },
+  {
+   "activo": "Pagare #UMV130170005",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 40.05
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87994",
+ "nombre_cnv": "Valiant Renta Fija Balanceado V",
+ "clave": "valiant renta fija balanceado v"
+}

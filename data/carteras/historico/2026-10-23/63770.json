@@ -1,0 +1,51 @@
+{
+ "fondo": "Premier Inversion",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Supervielle Asset Management S.A.",
+ "depositaria": "Banco Supervielle S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 222175206.06
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.64
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.48
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.19
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON GEMSA y CTR C43",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.48
+  },
+  {
+   "activo": "FCI Lombard Renta en $",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.19
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63770",
+ "nombre_cnv": "Premier Inversión",
+ "clave": "premier inversion"
+}

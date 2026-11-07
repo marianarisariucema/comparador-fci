@@ -1,6 +1,6 @@
 {
  "fondo": "Numancia Pesos IV",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Zofingen Investment S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 38481364512.01
+  "Peso Argentina": 38837798739.86
  },
  "por_tipo": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 99.89
+   "pct_pn": 99.9
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -34,6 +34,21 @@
  ],
  "activos": [
   {
+   "activo": "Pagare #UMV231080001",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 7.57
+  },
+  {
+   "activo": "Pagare #UMV241080001",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 7.57
+  },
+  {
+   "activo": "Pagare #UMV251080004",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 7.57
+  },
+  {
    "activo": "Pagare #UMV191080003",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
    "pct_pn": 7.57
@@ -42,26 +57,6 @@
    "activo": "Pagare #UMV201080015",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
    "pct_pn": 7.57
-  },
-  {
-   "activo": "Pagare #UMV231080001",
-   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 7.56
-  },
-  {
-   "activo": "Pagare #UMV241080001",
-   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 7.56
-  },
-  {
-   "activo": "Pagare #UMV251080004",
-   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 7.56
-  },
-  {
-   "activo": "Pagare #UMV181080002",
-   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 6.81
   },
   {
    "activo": "Pagare #UMV131080001",
@@ -100,6 +95,11 @@
   },
   {
    "activo": "Pagare #UMV121080002",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 6.81
+  },
+  {
+   "activo": "Pagare #UMV181080002",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
    "pct_pn": 6.81
   },

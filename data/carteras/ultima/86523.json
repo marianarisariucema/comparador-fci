@@ -1,6 +1,6 @@
 {
  "fondo": "Novus Capital",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Novus Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,32 +8,32 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 35096419.97
+  "Dolar Estadounidense": 34919491.11
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.06
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 113.6
+   "pct_pn": 114.59
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Cable",
-   "pct_pn": 0.89
+   "pct_pn": 0.93
   },
   {
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.99
+   "pct_pn": 1.9
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.82
+   "pct_pn": 0.87
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.17
+   "pct_pn": 0.15
   },
   {
    "tipo": "Otros Activos",
@@ -48,42 +48,52 @@
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 23.67
+   "pct_pn": 23.82
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 21.99
+   "pct_pn": 21.84
   },
   {
    "activo": "Bonos Rep Argentina 2030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 21.68
+   "pct_pn": 21.57
   },
   {
    "activo": "Bono del Tesoro Nacional AN29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.4
+   "pct_pn": 5.5
   },
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.89
+   "pct_pn": 4.94
   },
   {
    "activo": "Bono Prov Cordoba 2032",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.31
+   "pct_pn": 2.33
   },
   {
    "activo": "Bono Prov Mendoza 2029",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.95
+   "pct_pn": 2.02
   },
   {
    "activo": "Bono Prov Neuquen 2025",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.79
+   "pct_pn": 1.8
+  },
+  {
+   "activo": "ON Tecpetrol C10",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.52
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C26",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.52
   },
   {
    "activo": "Bono Prov Santa Fe 8.1% 111234",
@@ -91,24 +101,14 @@
    "pct_pn": 1.51
   },
   {
-   "activo": "ON Tecpetrol C10",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.5
-  },
-  {
-   "activo": "ON Vista Gas y Oil Arg C26",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.49
-  },
-  {
    "activo": "ON Banco Mariva S3 060727",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.44
+   "pct_pn": 1.45
   },
   {
    "activo": "Bono Neuquen NDG34",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.37
+   "pct_pn": 1.38
   },
   {
    "activo": "ON YPF Clase 31",
@@ -118,22 +118,22 @@
   {
    "activo": "Bono Bonar 2029 AO29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.33
-  },
-  {
-   "activo": "ON Banco Nacion Argentina Clase 5",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.16
+   "pct_pn": 1.35
   },
   {
    "activo": "ON Mastellone Clase 2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.16
+   "pct_pn": 1.18
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 5",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.17
   },
   {
    "activo": "ON Plaza Logistica C5 ZPC5O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.14
+   "pct_pn": 1.15
   },
   {
    "activo": "ON Cresud Clase 50",
@@ -143,7 +143,7 @@
   {
    "activo": "ON Capex C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.98
+   "pct_pn": 1.0
   },
   {
    "activo": "ON Pluspetrol Clase 6",
@@ -163,7 +163,7 @@
   {
    "activo": "ON Farmacity C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.76
+   "pct_pn": 0.77
   },
   {
    "activo": "ON YPF Clase 33",
@@ -181,17 +181,22 @@
    "pct_pn": 0.6
   },
   {
+   "activo": "ON Pan American C38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.59
+  },
+  {
    "activo": "ON MSU Energy C13",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.59
   },
   {
-   "activo": "ON Pan American C38",
+   "activo": "ON YPF Luz C17",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.58
   },
   {
-   "activo": "ON YPF Luz C17",
+   "activo": "ON Rizobacter S 10 CB",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.58
   },
@@ -203,27 +208,27 @@
   {
    "activo": "ON AES Argentina Gen 060828",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.57
+   "pct_pn": 0.58
   },
   {
    "activo": "ON Vista Energy 33",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.56
+   "pct_pn": 0.57
   },
   {
-   "activo": "ON Rizobacter S 10 CB",
+   "activo": "ON Plaza Logistica C6 ZPC6O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.54
+   "pct_pn": 0.57
   },
   {
    "activo": "ON YPF C 17",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.49
+   "pct_pn": 0.5
   },
   {
    "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.44
+   "pct_pn": 0.45
   },
   {
    "activo": "ON BBVA Frances Cl 44",
@@ -238,17 +243,27 @@
   {
    "activo": "ON Plaza Logistica C2 ZPC2O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.42
-  },
-  {
-   "activo": "ON Banco Macro Clase G",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.32
+   "pct_pn": 0.43
   },
   {
    "activo": "ON Transp Gas Sur Cl 3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.32
+  },
+  {
+   "activo": "ON Banco Macro Clase G",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.31
+  },
+  {
+   "activo": "ON Oldelval Clase 6",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.31
+  },
+  {
+   "activo": "ON Banco Comafi C19",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.3
   },
   {
    "activo": "ON Vista Gas y Oil Arg C28",
@@ -271,16 +286,6 @@
    "pct_pn": 0.3
   },
   {
-   "activo": "ON Banco Comafi C19",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.3
-  },
-  {
-   "activo": "ON Oldelval Clase 6",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.3
-  },
-  {
    "activo": "ON Profertil C2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.15
@@ -298,17 +303,17 @@
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Cable",
-   "pct_pn": 0.89
+   "pct_pn": 0.93
   },
   {
    "activo": "ADR Central Puerto",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 0.83
+   "pct_pn": 0.78
   },
   {
    "activo": "ADR Edenor",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 0.61
+   "pct_pn": 0.57
   },
   {
    "activo": "ADR Pampa Energia",
@@ -318,7 +323,7 @@
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.7
+   "pct_pn": 0.75
   },
   {
    "activo": "Banco Macro S.A.",
@@ -328,7 +333,7 @@
   {
    "activo": "Fima Premium Dólares - Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.17
+   "pct_pn": 0.15
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

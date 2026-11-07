@@ -1,0 +1,106 @@
+{
+ "fondo": "Gainvest Global V",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "StoneX Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 8681245280.14
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.86
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 80.43
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 17.21
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 1.5
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.04
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.82
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AN29",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.3
+  },
+  {
+   "activo": "Bonos Rep Argentina AE38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.26
+  },
+  {
+   "activo": "Cedear Facebook",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.72
+  },
+  {
+   "activo": "Cedear Utilities Select Sectar SPDR Fund",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.92
+  },
+  {
+   "activo": "Cedear Berkshire Hath Inc",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.44
+  },
+  {
+   "activo": "Cedear Shares MSCI Brazil ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.25
+  },
+  {
+   "activo": "Cedear Amazon",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.58
+  },
+  {
+   "activo": "Cedear Google",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.53
+  },
+  {
+   "activo": "Ternium Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.29
+  },
+  {
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.97
+  },
+  {
+   "activo": "Cedear Mercado Libre",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.51
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85432",
+ "nombre_cnv": "STONEX GLOBAL V",
+ "clave": "stonex global v"
+}

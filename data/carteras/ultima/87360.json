@@ -1,6 +1,6 @@
 {
  "fondo": "Dracma Estrategia Dólar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Dracma Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 8962819.37
+  "Dolar Estadounidense": 9038521.97
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 98.02
+   "pct_pn": 99.11
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.8
+   "pct_pn": 1.03
   },
   {
    "tipo": "Otros Activos",
@@ -29,109 +29,119 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 1.18
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Bonos Rep Argentina AE38",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 18.02
+   "pct_pn": 17.87
   },
   {
    "activo": "Bono Chile 4.95 010536",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.82
+   "pct_pn": 6.76
   },
   {
    "activo": "Bonos Rep Argentina AL35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.67
+   "pct_pn": 6.61
   },
   {
    "activo": "BC Chile 270333",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.66
+   "pct_pn": 6.6
   },
   {
    "activo": "ON Capex C11",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.29
+   "pct_pn": 6.23
   },
   {
    "activo": "ON Cresud S31 C47",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.91
+   "pct_pn": 5.86
   },
   {
    "activo": "ON Vaca Muerta C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.6
+   "pct_pn": 5.55
   },
   {
    "activo": "Bono Bonar 2029 AO29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.32
+   "pct_pn": 5.28
   },
   {
    "activo": "ON YPF Luz C24",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.49
+   "pct_pn": 4.45
   },
   {
    "activo": "ON Central Dock Sud C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.91
+   "pct_pn": 3.88
   },
   {
    "activo": "ON Pan American C35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.59
+   "pct_pn": 3.56
   },
   {
    "activo": "ON YPF Clase 33",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.56
+   "pct_pn": 3.54
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.41
+   "pct_pn": 3.39
   },
   {
    "activo": "ON Profertil C4",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.34
+   "pct_pn": 3.32
   },
   {
    "activo": "ON Banco Macro Clase H Reg S",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.01
+   "pct_pn": 3.0
   },
   {
    "activo": "ON Vista Gas y Oil Arg C29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.87
+   "pct_pn": 2.85
   },
   {
    "activo": "ON Cresud Clase 53",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.32
+   "pct_pn": 2.3
   },
   {
    "activo": "ON Banco de Cordoba C4",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.26
+   "pct_pn": 2.24
   },
   {
    "activo": "ON YPF Luz C20",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.09
+   "pct_pn": 2.08
   },
   {
    "activo": "ON John Deere Cia. Fin C19",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.51
+   "pct_pn": 1.5
+  },
+  {
+   "activo": "Chile 4.85%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.31
+  },
+  {
+   "activo": "ON Plaza Logistica C6 ZPC6O",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.55
   },
   {
    "activo": "ON Edenor C10 DNCAO",
@@ -141,7 +151,7 @@
   {
    "activo": "FCI Bull Market Liquidez Dólar - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.8
+   "pct_pn": 1.03
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Argenfunds Infraestructura",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Argenfunds S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6753606699.04
+  "Peso Argentina": 7447778000.84
  },
  "por_tipo": [
   {
@@ -17,11 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.5
+   "pct_pn": 97.54
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.16
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.46
+   "pct_pn": 4.98
   },
   {
    "tipo": "Otros Activos",
@@ -29,54 +33,64 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.02
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "ON Aluar Serie 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.86
+   "pct_pn": 18.15
   },
   {
    "activo": "ON P. Aconcagua Energia C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.93
+   "pct_pn": 17.17
   },
   {
    "activo": "Bonos de Infra.Vial Prov. de Santa Fe",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.28
+   "pct_pn": 16.66
   },
   {
    "activo": "ON CGC C 39",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.47
+   "pct_pn": 13.18
   },
   {
    "activo": "ON Telecom C14 TLCFO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.14
+   "pct_pn": 8.4
+  },
+  {
+   "activo": "Bono CABA 2028 BDC28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.82
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.42
+   "pct_pn": 6.79
   },
   {
    "activo": "Letra Prov Bs As PBA28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.01
+   "pct_pn": 6.38
   },
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.39
+   "pct_pn": 4.0
   },
   {
-   "activo": "FCI Max Money Market - Clase B",
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.16
+  },
+  {
+   "activo": "FCI Fundcorp Liquidez - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.46
+   "pct_pn": 4.98
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

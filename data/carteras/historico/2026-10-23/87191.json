@@ -1,0 +1,115 @@
+{
+ "fondo": "Cocos Medalla",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Cocos Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 2219536797.63
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.31
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 41.28
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 37.15
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 22.44
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.82
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.1
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.95
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.87
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.54
+  },
+  {
+   "activo": "Cedear Google",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 12.67
+  },
+  {
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 7.45
+  },
+  {
+   "activo": "Ternium Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 6.97
+  },
+  {
+   "activo": "Cedear Mercado Libre",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.5
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.37
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.34
+  },
+  {
+   "activo": "Cedear Spdr SyP 500 ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.85
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 22.41
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.03
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87191",
+ "nombre_cnv": "COCOS MEDALLA FCI",
+ "clave": "cocos medalla"
+}

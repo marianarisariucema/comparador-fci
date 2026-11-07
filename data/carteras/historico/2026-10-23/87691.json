@@ -1,0 +1,100 @@
+{
+ "fondo": "Compass Renta Mixta IV",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 12933073325.73
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 79.1
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 21.0
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.97
+  },
+  {
+   "activo": "Letra Prov Bs As 171226",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.45
+  },
+  {
+   "activo": "Cheque E *MAV061101190",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.26
+  },
+  {
+   "activo": "Cheque #MAV271060044",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.71
+  },
+  {
+   "activo": "Cheque #MAV021260023",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.52
+  },
+  {
+   "activo": "Cheque #MAV101260036",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.49
+  },
+  {
+   "activo": "Cheque E *MAV111101724",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.57
+  },
+  {
+   "activo": "Cheque E *MAV021101281",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.57
+  },
+  {
+   "activo": "Cheque E *MAV091201706",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.56
+  },
+  {
+   "activo": "Pzo Fi $ Bco Sol",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 20.99
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87691",
+ "nombre_cnv": "COMPASS RENTA MIXTA IV FCI",
+ "clave": "compass renta mixta iv"
+}

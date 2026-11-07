@@ -1,6 +1,6 @@
 {
  "fondo": "Consultatio Gestion IX",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 10896717.61
+  "Peso Argentina": 2842626123.1
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 20.91
+   "pct_pn": 0.38
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 79.21
+   "pct_pn": 1.23
   },
   {
    "tipo": "Otros Activos",
@@ -25,14 +25,19 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 98.39
   }
  ],
  "activos": [
   {
+   "activo": "FCI MAF Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.93
+  },
+  {
    "activo": "FCI Argenfunds Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 79.21
+   "pct_pn": 0.3
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

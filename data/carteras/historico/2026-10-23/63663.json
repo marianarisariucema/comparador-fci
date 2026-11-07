@@ -1,0 +1,105 @@
+{
+ "fondo": "Schroder Renta Plus",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Schroder S.A.S.G.F.C.I.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 413612610941.91
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 87.43
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 9.46
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.56
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.08
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.85
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.14
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.0
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.06
+  },
+  {
+   "activo": "Letra Prov Bs As LBN26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.23
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.06
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.77
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.69
+  },
+  {
+   "activo": "FCI Cocos Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.94
+  },
+  {
+   "activo": "FCI MAF Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.55
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.07
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63663",
+ "nombre_cnv": "Schroder Renta Plus F.C.I.",
+ "clave": "schroder renta plus"
+}

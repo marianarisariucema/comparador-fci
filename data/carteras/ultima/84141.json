@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Soja",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Variable",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 3342970460.6
+  "Peso Argentina": 3176554564.83
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 75.9
+   "pct_pn": 90.46
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 16.62
+   "pct_pn": 11.48
   },
   {
    "tipo": "Otros Activos",
@@ -29,29 +29,39 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 7.48
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
+   "activo": "Letra Tesoro Nac D15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.49
+   "pct_pn": 31.35
   },
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.2
+   "pct_pn": 30.96
   },
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.2
+   "pct_pn": 18.05
+  },
+  {
+   "activo": "ON Pan American C33",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.08
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
   },
   {
    "activo": "FCI Schroder Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 16.62
+   "pct_pn": 11.48
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

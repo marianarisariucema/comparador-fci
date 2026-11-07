@@ -1,6 +1,6 @@
 {
  "fondo": "Consultatio Retorno Total",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 122944428.25
+  "Peso Argentina": 116344215.85
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.32
+   "pct_pn": 0.46
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 85.45
+   "pct_pn": 100.57
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 10.76
+   "pct_pn": 0.13
   },
   {
    "tipo": "Otros Activos",
@@ -29,34 +29,29 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 2.47
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "Bono del Tesoro Nacional TMVE8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.91
-  },
-  {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.84
+   "pct_pn": 30.64
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.72
+   "pct_pn": 28.4
   },
   {
-   "activo": "Bono del Tesoro Nacional T15E7",
+   "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.98
+   "pct_pn": 26.54
   },
   {
-   "activo": "FCI Argenfunds Liquidez - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 10.66
+   "activo": "Letra Tamar TEM TMF28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.99
   },
   {
    "activo": "FCI GMC Money Market - Clase C",
@@ -67,6 +62,11 @@
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.04
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.03
   },
   {
    "activo": "FCI MEGAQM Pesos - Clase A",

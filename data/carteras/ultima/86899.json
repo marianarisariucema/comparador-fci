@@ -1,6 +1,6 @@
 {
  "fondo": "Pionero Inversión Dólar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Macro Fondos S.G.F.C.I.S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 22868565.47
+  "Dolar Estadounidense": 22882712.27
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.21
+   "pct_pn": 0.32
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 99.72
+   "pct_pn": 99.73
   },
   {
    "tipo": "Otros Activos",
@@ -25,32 +25,32 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.07
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 26.77
+   "pct_pn": 26.43
   },
   {
    "activo": "Bono Bonar 2029 AO29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 18.17
+   "pct_pn": 18.4
   },
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 17.34
-  },
-  {
-   "activo": "ON Telecom 9.5% 2031",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.92
+   "pct_pn": 17.36
   },
   {
    "activo": "ON YPF 210727",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.94
+  },
+  {
+   "activo": "ON Telecom 9.5% 2031",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 4.91
   },
@@ -67,12 +67,12 @@
   {
    "activo": "ON YPF Luz C18 YFCJO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.21
+   "pct_pn": 3.23
   },
   {
    "activo": "ON YPF 2029",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.96
+   "pct_pn": 2.99
   },
   {
    "activo": "US Treasury Bill 101226",
@@ -97,17 +97,17 @@
   {
    "activo": "ON Bco Galicia Clase 16",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.53
+   "pct_pn": 1.55
   },
   {
    "activo": "ON YPF C 17",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.47
+   "pct_pn": 1.48
   },
   {
    "activo": "ON Havanna S1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.66
+   "pct_pn": 0.67
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,0 +1,66 @@
+{
+ "fondo": "Consultatio Estrategia II",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 11580566.92
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 1.21
+  },
+  {
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 99.7
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ETF Ultrashort",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 30.54
+  },
+  {
+   "activo": "ETF IShares USD Short Dur ACC",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 28.83
+  },
+  {
+   "activo": "ETF IShares USD Float Bond ACC",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 27.47
+  },
+  {
+   "activo": "ETF IShares JPM USD EM Corp ACC",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 9.03
+  },
+  {
+   "activo": "ETF IShares USD Short HY Corp ACC",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 3.83
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87762",
+ "nombre_cnv": "CONSULTATIO ESTRATEGIA II",
+ "clave": "consultatio estrategia ii"
+}

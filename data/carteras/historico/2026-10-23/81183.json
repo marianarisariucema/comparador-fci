@@ -1,0 +1,120 @@
+{
+ "fondo": "Ciclo Nova Renta Fija",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Ciclo Nova Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 15377155625.82
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.09
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 86.53
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.97
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.17
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 10.24
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 40.24
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.79
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.89
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZV27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.27
+  },
+  {
+   "activo": "Bono del Tesoro 2.5% 2031",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.26
+  },
+  {
+   "activo": "ON GEMSA y CTR C43",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.51
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C19",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.35
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.87
+  },
+  {
+   "activo": "ON Generacion Litoral C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.44
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.98
+  },
+  {
+   "activo": "ON Red Surcos S10 Clase A",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.54
+  },
+  {
+   "activo": "ON Celulosa Argentina C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.27
+  },
+  {
+   "activo": "ON Red Surcos S12 Clase A",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.13
+  },
+  {
+   "activo": "Pagare #UMV301160088",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.97
+  },
+  {
+   "activo": "FF Proyecto VIDA CP",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.17
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "81183",
+ "nombre_cnv": "CICLO NOVA Renta Fija",
+ "clave": "ciclo nova renta fija"
+}

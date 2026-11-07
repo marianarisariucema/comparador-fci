@@ -1,6 +1,6 @@
 {
  "fondo": "Gainvest Capital II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "StoneX Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 33603651762.55
+  "Peso Argentina": 33749685569.09
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.03
+   "pct_pn": 0.07
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 82.16
+   "pct_pn": 82.1
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
@@ -34,9 +34,14 @@
  ],
  "activos": [
   {
-   "activo": "Bono Boncer TZXD6",
+   "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.64
+   "pct_pn": 29.1
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.16
   },
   {
    "activo": "Lecap S13N6",
@@ -44,24 +49,14 @@
    "pct_pn": 18.02
   },
   {
-   "activo": "Bono Boncer 2027 TZXM7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.1
-  },
-  {
    "activo": "Bono Boncer TZXO6",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 10.34
   },
   {
-   "activo": "Letra Tamar TEM TMF27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.59
-  },
-  {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.47
+   "pct_pn": 6.48
   },
   {
    "activo": "Pzo Fi $ Bco Nacion",

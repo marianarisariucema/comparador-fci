@@ -1,6 +1,6 @@
 {
  "fondo": "Fima Retorno Total",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Galicia Asset Management S.A.U.",
  "depositaria": "Banco de Galicia y Buenos Aires S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 114018404133.66
+  "Peso Argentina": 114401992697.43
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 96.88
+   "pct_pn": 98.61
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.14
+   "pct_pn": 1.43
   },
   {
    "tipo": "Otros Activos",
@@ -36,32 +36,32 @@
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.41
+   "pct_pn": 20.27
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.88
+   "pct_pn": 18.9
   },
   {
    "activo": "Bono Boncer TZXO6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.89
+   "pct_pn": 14.91
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.86
+   "pct_pn": 10.92
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.17
+   "pct_pn": 10.21
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.87
+   "pct_pn": 3.88
   },
   {
    "activo": "Lecap S13N6",
@@ -71,17 +71,22 @@
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.63
+   "pct_pn": 3.64
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.95
+   "pct_pn": 2.96
   },
   {
    "activo": "ON BBVA Frances Cl 47",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.9
+  },
+  {
+   "activo": "Pagare MAVE171160113",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.72
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
@@ -126,7 +131,7 @@
   {
    "activo": "FCI Pionero Pesos - Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.14
+   "pct_pn": 1.43
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

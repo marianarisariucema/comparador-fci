@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Balanceado I",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 46210869191.95
+  "Peso Argentina": 46367314810.53
  },
  "por_tipo": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 78.77
+   "pct_pn": 78.82
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -29,34 +29,29 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 21.19
+   "pct_pn": 21.14
   }
  ],
  "activos": [
   {
-   "activo": "Bono del Tesoro Nacional T15E7",
+   "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.05
+   "pct_pn": 17.76
   },
   {
-   "activo": "Lecap S13N6",
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.04
+  },
+  {
+   "activo": "Lecap S29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 13.37
   },
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.55
-  },
-  {
-   "activo": "Lecap S30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.4
-  },
-  {
-   "activo": "Lecer X30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.34
+   "pct_pn": 11.56
   },
   {
    "activo": "Pagare #MAV101260020",

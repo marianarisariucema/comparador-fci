@@ -1,6 +1,6 @@
 {
  "fondo": "Tango Money Market",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Tango Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 48975037957.33
+  "Peso Argentina": 32260993865.04
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 37.88
+   "pct_pn": 28.71
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 53.89
+   "pct_pn": 55.62
   },
   {
    "tipo": "Otros Activos",
@@ -25,44 +25,39 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 8.23
+   "pct_pn": 15.67
   }
  ],
  "activos": [
   {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 18.38
-  },
-  {
    "activo": "Pzo Fi $ Bco Santander Ri",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 12.34
+   "pct_pn": 20.34
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 8.22
+   "pct_pn": 12.54
   },
   {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 7.73
+   "pct_pn": 11.74
   },
   {
    "activo": "Pzo Fi $ Bco Patagonia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.14
+   "pct_pn": 6.31
   },
   {
    "activo": "Pzo Fi $ Bco Provincia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.05
+   "pct_pn": 3.13
   },
   {
    "activo": "Pzo Fi $ Bco Macro Bansud",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.03
+   "pct_pn": 1.56
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

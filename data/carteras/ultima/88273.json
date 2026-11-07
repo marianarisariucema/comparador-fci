@@ -1,6 +1,6 @@
 {
  "fondo": "Argenfunds Financiamiento Pesos II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Argenfunds S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,12 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 952067.18
+  "Peso Argentina": 20012267782.5
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 281.48
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.94
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 100.0
   },
   {
    "tipo": "Otros Activos",
@@ -24,7 +32,48 @@
    "pct_pn": null
   }
  ],
- "activos": [],
+ "activos": [
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.98
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.98
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.98
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.99
+  },
+  {
+   "activo": "Lecap S29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.0
+  },
+  {
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 90.0
+  },
+  {
+   "activo": "FCI ST Zero - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 5.0
+  },
+  {
+   "activo": "FCI BAVSA Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 5.0
+  }
+ ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
  "id_cnv": "88273",
  "nombre_cnv": "Argenfunds Financiamiento Pesos II F.C.I.",

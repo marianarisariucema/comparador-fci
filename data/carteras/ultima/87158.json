@@ -1,6 +1,6 @@
 {
  "fondo": "Pellegrini Money Market USD",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Pellegrini S.A.S.G.F.C.I.",
  "depositaria": "Banco de La Nacion Argentina",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 59539457.27
+  "Dolar Estadounidense": 53567551.29
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 8.62
+   "pct_pn": 11.51
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 91.38
+   "pct_pn": 88.5
   },
   {
    "tipo": "Otros Activos",
@@ -30,39 +30,34 @@
  ],
  "activos": [
   {
-   "activo": "Pase Colocador USD BYMA",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 25.19
-  },
-  {
    "activo": "Caucion Colocadora U$S BYMA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 15.12
+   "pct_pn": 19.79
+  },
+  {
+   "activo": "Pase Colocador USD BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 18.67
   },
   {
    "activo": "Pzo Fi U$S Bco Galicia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 14.97
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Bice",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 13.06
+   "pct_pn": 17.57
   },
   {
    "activo": "Pzo Fi U$S Nvo Bco Indus",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 13.03
+   "pct_pn": 14.49
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Bice",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 13.95
   },
   {
    "activo": "Pzo Fi U$S Bco Supervielle",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 5.31
-  },
-  {
-   "activo": "Caucion Colocadora U$S MAE",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 4.7
+   "pct_pn": 4.03
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

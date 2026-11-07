@@ -1,6 +1,6 @@
 {
  "fondo": "CMA Acciones",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Capital Markets Argentina Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Variable",
@@ -8,36 +8,32 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6848667496.18
+  "Peso Argentina": 6964282377.14
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 4.12
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 5.85
+   "pct_pn": 7.67
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 84.3
+   "pct_pn": 86.11
   },
   {
    "tipo": "Participaciones Accionarias Luxemburgo",
-   "pct_pn": 2.21
+   "pct_pn": 2.13
   },
   {
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 0.14
+   "pct_pn": 0.32
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.62
+   "pct_pn": 4.56
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.05
+   "pct_pn": null
   },
   {
    "tipo": "Pasivos",
@@ -46,89 +42,84 @@
  ],
  "activos": [
   {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 5.85
-  },
-  {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 14.17
+   "pct_pn": 13.8
   },
   {
    "activo": "Cedear Vista Oil Gas",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 11.89
+   "pct_pn": 12.36
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.87
+   "pct_pn": 10.46
   },
   {
    "activo": "Cedear Mercado Libre",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.46
+   "pct_pn": 9.38
   },
   {
    "activo": "Telecom Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 8.11
+   "pct_pn": 8.42
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.93
+   "pct_pn": 7.25
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.56
+   "pct_pn": 5.47
   },
   {
    "activo": "Transener S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.17
+   "pct_pn": 4.49
   },
   {
    "activo": "Bolsas y Mercados Argentinos S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.96
+   "pct_pn": 3.76
   },
   {
    "activo": "Cedear FCI SPDR Gold Trust",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.49
+   "pct_pn": 3.35
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.41
+   "pct_pn": 3.21
   },
   {
    "activo": "Matba Rofex S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.4
+   "pct_pn": 2.33
   },
   {
    "activo": "Cedear Bunge Ltd",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.88
+   "pct_pn": 1.83
   },
   {
    "activo": "Corporacion America Airports",
    "tipo": "Participaciones Accionarias Luxemburgo",
-   "pct_pn": 2.21
+   "pct_pn": 2.13
   },
   {
    "activo": "Cedear Satellogic Inc.",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 0.14
+   "pct_pn": 0.32
   },
   {
    "activo": "FCI MEGAQM Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.62
+   "pct_pn": 4.56
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,0 +1,86 @@
+{
+ "fondo": "Gainvest Infraestructura FCI Abierto",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "StoneX Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 1370120865.32
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.77
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 82.89
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 14.6
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Vista Gas y Oil Arg C17",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.63
+  },
+  {
+   "activo": "ON Capex C7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.89
+  },
+  {
+   "activo": "ON Oldelval Clase 5",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.26
+  },
+  {
+   "activo": "ON Telecom C12 TLCDO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.87
+  },
+  {
+   "activo": "ON Pan American C33",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.47
+  },
+  {
+   "activo": "ON Telecom C18 TLCJO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.2
+  },
+  {
+   "activo": "ON PyME Sion Serie 12 UVA",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.41
+  },
+  {
+   "activo": "ON PyME Sion Serie 13 UVA",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 14.6
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63601",
+ "nombre_cnv": "STONEX FONDO COMÚN DE INVERSIÓN ABIERTO PARA EL FINANCIAMIENTO DE LA INFRAESTRUCTURA Y LA ECONOMÍA REAL",
+ "clave": "stonex"
+}

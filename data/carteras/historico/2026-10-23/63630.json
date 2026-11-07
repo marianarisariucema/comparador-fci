@@ -1,0 +1,106 @@
+{
+ "fondo": "MAF Ahorro Pesos",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
+ "depositaria": "Banco Mariva S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 21520631437.13
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 103.19
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.65
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.36
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.92
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.1
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.1
+  },
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.96
+  },
+  {
+   "activo": "Bono Prov Cordoba 2027 COY27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.51
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.91
+  },
+  {
+   "activo": "Bono Disc ARS Ley AR DICP",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.32
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.02
+  },
+  {
+   "activo": "FCI IAM Ahorro Pesos C B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.32
+  },
+  {
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.4
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "FCI GMC Money Market - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.46
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63630",
+ "nombre_cnv": "MAF AHORRO PESOS",
+ "clave": "maf ahorro pesos"
+}

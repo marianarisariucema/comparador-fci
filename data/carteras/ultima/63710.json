@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Estrategia 5",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 21510922074.94
+  "Peso Argentina": 19013606223.46
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 81.56
+   "pct_pn": 92.77
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 18.52
+   "pct_pn": 5.26
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.11
   },
   {
    "tipo": "Otros Activos",
@@ -36,37 +40,42 @@
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.66
+   "pct_pn": 24.6
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.11
+   "pct_pn": 20.61
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.94
+   "pct_pn": 18.17
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.84
+   "pct_pn": 12.33
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.43
+   "pct_pn": 9.59
   },
   {
    "activo": "Bono Muni Cordoba S2 13022027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.58
+   "pct_pn": 7.48
   },
   {
    "activo": "Caucion Colocadora $ BYMA",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 18.52
+   "pct_pn": 5.26
+  },
+  {
+   "activo": "FCI MAF Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.11
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

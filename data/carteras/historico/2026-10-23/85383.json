@@ -1,0 +1,57 @@
+{
+ "fondo": "Ciclo Nova Multiestrategia III",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Ciclo Nova Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 372407217.58
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.84
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 97.01
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.15
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON San Miguel Serie 10 CA",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 43.13
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C19",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 33.12
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.8
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.96
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85383",
+ "nombre_cnv": "CICLO NOVA MULTIESTRATEGIA III",
+ "clave": "ciclo nova multiestrategia iii"
+}

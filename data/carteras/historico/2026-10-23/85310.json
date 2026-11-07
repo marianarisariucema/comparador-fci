@@ -1,0 +1,85 @@
+{
+ "fondo": "Balanz Performance XII",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Balanz S.G.F.C.I.S.A.U.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 4208133482.43
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.06
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 59.89
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.98
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 10.15
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 23.92
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.24
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.49
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.64
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.34
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.19
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.98
+  },
+  {
+   "activo": "FF Coppel S2 CA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 7.4
+  },
+  {
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.75
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85310",
+ "nombre_cnv": "BALANZ PERFORMANCE XII",
+ "clave": "balanz performance xii"
+}

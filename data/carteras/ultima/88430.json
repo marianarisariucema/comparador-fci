@@ -1,6 +1,6 @@
 {
  "fondo": "1822 Raices Ahorro Dólares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Provinfondos S.A.S.G.F.C.I.",
  "depositaria": "Banco Provincia de Buenos Aires",
  "clasificacion": "Plazo Fijo",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 53295460.57
+  "Dolar Estadounidense": 39544004.76
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 18.76
+   "pct_pn": 14.88
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 19.3
+   "pct_pn": 19.66
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 61.91
+   "pct_pn": 65.48
   },
   {
    "tipo": "Otros Activos",
@@ -29,124 +29,119 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.03
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "ON BBVA Frances Cl 49",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.72
-  },
-  {
    "activo": "ON Banco Hipotecario C14",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.9
+   "pct_pn": 2.56
   },
   {
    "activo": "ON ICBC Clase 6 220527",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.89
+   "pct_pn": 2.54
   },
   {
    "activo": "ON Banco Mariva S3 060727",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.5
+   "pct_pn": 2.03
   },
   {
    "activo": "ON Grupo ST C14",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.34
+   "pct_pn": 1.81
   },
   {
    "activo": "ON Banco de Valores C4",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.95
-  },
-  {
-   "activo": "ON Supervielle Clase V",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.95
-  },
-  {
-   "activo": "ON BBVA Frances Cl 45",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.95
-  },
-  {
-   "activo": "ON Pan American C42",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.95
+   "pct_pn": 1.28
   },
   {
    "activo": "ON Supervielle Clase X",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.95
+   "pct_pn": 1.28
+  },
+  {
+   "activo": "ON Pan American C42",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.28
+  },
+  {
+   "activo": "ON Supervielle Clase V",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.28
+  },
+  {
+   "activo": "ON BBVA Frances Cl 45",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.28
   },
   {
    "activo": "ON Banco Hipotecario C15",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.94
+   "pct_pn": 1.27
   },
   {
    "activo": "ON ICBC Clase 9 280827",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.94
+   "pct_pn": 1.27
   },
   {
    "activo": "ON Bco Patagonia Cl 5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.94
+   "pct_pn": 1.27
   },
   {
    "activo": "ON Banco Comafi C21",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.37
+   "pct_pn": 0.5
   },
   {
    "activo": "Caucion Colocadora U$S BYMA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 19.7
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Galicia",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 8.09
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Nacion",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 7.24
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Comafi",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 7.14
+   "pct_pn": 12.64
   },
   {
    "activo": "Pzo Fi U$S Bco Supervielle",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 6.59
+   "pct_pn": 10.91
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 9.75
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 8.87
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Comafi",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 7.85
   },
   {
    "activo": "Pzo Fi U$S Bco Hipot",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 5.73
+   "pct_pn": 7.73
   },
   {
    "activo": "Pzo Fi U$S Bco CMF",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 4.79
+   "pct_pn": 4.18
   },
   {
    "activo": "Pzo Fi U$S Bco Patagonia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 1.51
+   "pct_pn": 2.03
   },
   {
    "activo": "Pzo Fi U$S Nvo Bco Indus",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 1.13
+   "pct_pn": 1.52
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

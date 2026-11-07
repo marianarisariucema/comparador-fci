@@ -1,6 +1,6 @@
 {
  "fondo": "Argenfunds Renta Total",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Argenfunds S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 5340260665.86
+  "Peso Argentina": 5381183498.59
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 22.31
+   "pct_pn": 0.02
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 76.25
+   "pct_pn": 76.04
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 18.58
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.73
+   "pct_pn": 5.69
   },
   {
    "tipo": "Otros Activos",
@@ -36,32 +40,32 @@
   {
    "activo": "Pagare #MAV221260025",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.4
+   "pct_pn": 19.34
   },
   {
    "activo": "Pagare #MAV221260024",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.31
+   "pct_pn": 15.27
   },
   {
    "activo": "Pagare #MAV221260026",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.05
+   "pct_pn": 13.01
   },
   {
    "activo": "Pagare #MAV190170020",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.74
+   "pct_pn": 11.71
   },
   {
    "activo": "Pagare #MAV190170015",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.39
+   "pct_pn": 8.36
   },
   {
    "activo": "Pagare #MAV190170024",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.26
+   "pct_pn": 8.23
   },
   {
    "activo": "ON TGLT Clase 16",
@@ -69,14 +73,19 @@
    "pct_pn": 0.11
   },
   {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 18.58
+  },
+  {
    "activo": "FCI ST Zero - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.42
+   "pct_pn": 5.39
   },
   {
    "activo": "FCI Allaria Residencial I FCIC",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.31
+   "pct_pn": 0.3
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Compass Renta Mixta V",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,24 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 31855876320.32
+  "Peso Argentina": 32116154950.92
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.08
+   "pct_pn": null
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.19
+   "pct_pn": 97.43
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.62
+   "pct_pn": 1.63
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.07
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 1.9
   },
   {
    "tipo": "Otros Activos",
@@ -33,24 +37,24 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.06
+   "pct_pn": 2.08
   }
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.3
-  },
-  {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.85
+   "pct_pn": 30.13
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZV27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.03
   },
   {
    "activo": "Cheque E *MAV091201815",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.03
+   "pct_pn": 6.01
   },
   {
    "activo": "ON Telecom C19 TLCKO",
@@ -60,32 +64,27 @@
   {
    "activo": "Letra Tesoro Nac D31M7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.18
+   "pct_pn": 5.16
   },
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.8
-  },
-  {
-   "activo": "Cheque #MAV221060018",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.12
-  },
-  {
-   "activo": "Cheque #MAV271060040",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.11
+   "pct_pn": 3.79
   },
   {
    "activo": "ON Tecpetrol C12",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.08
+   "pct_pn": 3.1
+  },
+  {
+   "activo": "Cheque #MAV271060040",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.1
   },
   {
    "activo": "Cheque #MAV291260017",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.98
+   "pct_pn": 2.97
   },
   {
    "activo": "ON Oldelval Clase 3",
@@ -93,14 +92,19 @@
    "pct_pn": 2.78
   },
   {
+   "activo": "ON Pluspetrol Clase 5",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.61
+  },
+  {
    "activo": "ON Pampa Energia C25",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.53
+   "pct_pn": 2.54
   },
   {
    "activo": "ON Pan American C33",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.33
+   "pct_pn": 2.32
   },
   {
    "activo": "ON Vista Gas y Oil Arg C19",
@@ -110,22 +114,22 @@
   {
    "activo": "ON YPF C 17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.25
+   "pct_pn": 2.28
+  },
+  {
+   "activo": "ON Telecom C14 TLCFO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.27
   },
   {
    "activo": "ON Vista Gas y Oil Arg C18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.89
+   "pct_pn": 1.88
   },
   {
    "activo": "Boncer TZXY7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.71
-  },
-  {
-   "activo": "ON Pluspetrol Clase 5",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.59
+   "pct_pn": 1.7
   },
   {
    "activo": "ON Banco Macro Clase G",
@@ -135,17 +139,12 @@
   {
    "activo": "Cheque E *MAV180101013",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.47
+   "pct_pn": 1.46
   },
   {
    "activo": "Cheque E *MAV180101015",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.47
-  },
-  {
-   "activo": "ON Telecom C14 TLCFO",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.9
+   "pct_pn": 1.46
   },
   {
    "activo": "ON Aluar Serie 6",
@@ -155,7 +154,7 @@
   {
    "activo": "Bono Boncer TZXO6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.56
+   "pct_pn": 0.55
   },
   {
    "activo": "Pagare *MAV231201279",
@@ -228,12 +227,17 @@
    "pct_pn": 0.06
   },
   {
+   "activo": "Cheque E *MAV060101223",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
+  },
+  {
    "activo": "Cheque E *MAV060101214",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *MAV060101223",
+   "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
@@ -243,12 +247,12 @@
    "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *MAV060101215",
+   "activo": "Pagare *MAV241101224",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Pagare *MAV241101224",
+   "activo": "Cheque E *MAV060101215",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
@@ -263,6 +267,11 @@
    "pct_pn": 0.03
   },
   {
+   "activo": "Pagare *MAV231201282",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
    "activo": "Pagare *MAV231201275",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
@@ -273,14 +282,14 @@
    "pct_pn": 0.03
   },
   {
-   "activo": "Pagare *MAV231201282",
+   "activo": "Cheque E *MAV091201420",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
   {
-   "activo": "Cheque E *MAV091201420",
+   "activo": "Pagare *MAV231201277",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 0.02
   },
   {
    "activo": "Pagare *MAV231201283",
@@ -294,11 +303,6 @@
   },
   {
    "activo": "Pagare *MAV241101219",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.02
-  },
-  {
-   "activo": "Pagare *MAV231201277",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.02
   },
@@ -328,6 +332,11 @@
    "pct_pn": 0.01
   },
   {
+   "activo": "Cheque E *MAV091201409",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
    "activo": "Pagare *MAV241101226",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
@@ -353,27 +362,17 @@
    "pct_pn": 0.01
   },
   {
-   "activo": "Cheque E *MAV091201414",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
    "activo": "Cheque E *MAV091201416",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
   },
   {
-   "activo": "Cheque E *MAV091201409",
+   "activo": "Cheque E *MAV091201414",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
   },
   {
    "activo": "Cheque E *MAV091201411",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Pagare *MAV231201272",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
   },
@@ -393,14 +392,24 @@
    "pct_pn": 0.01
   },
   {
+   "activo": "Pagare *MAV231201272",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
    "activo": "Factura E %UVI161100004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.62
+   "pct_pn": 1.63
+  },
+  {
+   "activo": "ON YPF C 17",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.07
   },
   {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 1.9
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

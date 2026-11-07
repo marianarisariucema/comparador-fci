@@ -1,6 +1,6 @@
 {
  "fondo": "Pellegrini Renta",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Pellegrini S.A.S.G.F.C.I.",
  "depositaria": "Banco de La Nacion Argentina",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 62783062.56
+  "Peso Argentina": 63008249.62
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 45.46
+   "pct_pn": 45.3
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 54.29
+   "pct_pn": 54.34
   },
   {
    "tipo": "Otros Activos",
@@ -25,24 +25,24 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.25
+   "pct_pn": 0.36
   }
  ],
  "activos": [
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 20.32
+   "pct_pn": 20.34
   },
   {
    "activo": "Pzo Fi $ Bco Santander Ri",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 17.04
+   "pct_pn": 17.06
   },
   {
    "activo": "Pzo Fi $ Nvo Bco Indus",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 16.93
+   "pct_pn": 16.94
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Argenfunds Renta Dinamica",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Argenfunds S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 91496743774.83
+  "Peso Argentina": 91861300162.92
  },
  "por_tipo": [
   {
@@ -17,15 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 96.05
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.0
+   "pct_pn": 95.92
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 4.16
   },
   {
    "tipo": "Otros Activos",
@@ -38,9 +34,14 @@
  ],
  "activos": [
   {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.45
+  },
+  {
    "activo": "Bono Boncer TX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 25.29
+   "pct_pn": 9.88
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
@@ -50,12 +51,17 @@
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.24
+   "pct_pn": 6.26
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZV27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.17
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.68
+   "pct_pn": 5.69
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
@@ -65,7 +71,7 @@
   {
    "activo": "Bono Prov Cordoba 2027 COY27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.58
+   "pct_pn": 4.59
   },
   {
    "activo": "Letra Prov Bs As PBA28",
@@ -75,25 +81,25 @@
   {
    "activo": "Bono Prov Mendoza TAMAR C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.19
+   "pct_pn": 4.2
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.95
-  },
-  {
-   "activo": "ON P. Aconcagua Energia C21",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.74
+   "pct_pn": 3.96
   },
   {
    "activo": "ON CGC C 37",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.72
+   "pct_pn": 2.74
   },
   {
-   "activo": "Bono Ciudad Bs As 261133",
+   "activo": "ON P. Aconcagua Energia C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.73
+  },
+  {
+   "activo": "Bonos Rep Argentina AE38",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.43
   },
@@ -105,12 +111,12 @@
   {
    "activo": "ON Banco Nacion Argentina Clase 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.76
+   "pct_pn": 1.77
   },
   {
    "activo": "ON Rizobacter S 8 B",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.68
+   "pct_pn": 1.67
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
@@ -123,19 +129,14 @@
    "pct_pn": 1.65
   },
   {
-   "activo": "Bono del Tesoro Nacional TML27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.4
-  },
-  {
    "activo": "ON Banco Prov Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.35
+   "pct_pn": 1.36
   },
   {
    "activo": "ON P. Aconcagua Energia C19",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.2
+   "pct_pn": 1.19
   },
   {
    "activo": "Lecer X30N6",
@@ -150,17 +151,17 @@
   {
    "activo": "ON Supervielle Clase W",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.85
+   "pct_pn": 0.86
   },
   {
    "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.72
+   "pct_pn": 0.73
   },
   {
    "activo": "ON CGC C 41",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.7
+   "pct_pn": 0.69
   },
   {
    "activo": "Letra Muni Rosario 42993",
@@ -178,14 +179,14 @@
    "pct_pn": 0.36
   },
   {
-   "activo": "Bono Prov Cordoba 030235",
+   "activo": "Bono Prov Cordoba Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.3
   },
   {
-   "activo": "Bono Prov Cordoba Clase 6",
+   "activo": "Bono Prov Cordoba 030235",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.29
   },
   {
    "activo": "Bono del Tesoro Nacional TMG27",
@@ -198,19 +199,9 @@
    "pct_pn": 0.09
   },
   {
-   "activo": "Pzo Fi $ Bco Santander Ri",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.22
-  },
-  {
-   "activo": "Pzo Fi $ Bco Supervielle",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.78
-  },
-  {
    "activo": "FCI Max Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 4.16
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

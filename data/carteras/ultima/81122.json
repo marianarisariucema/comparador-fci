@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Mix I",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 9458171.0
+  "Dolar Estadounidense": 9596958.72
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 11.05
+   "pct_pn": 0.04
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 84.16
+   "pct_pn": 86.5
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.79
+   "pct_pn": 13.49
   },
   {
    "tipo": "Otros Activos",
@@ -36,62 +36,62 @@
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 28.58
+   "pct_pn": 28.21
   },
   {
    "activo": "ON Edenor C11",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 15.89
+   "pct_pn": 15.66
   },
   {
    "activo": "ON BBVA Frances Cl 40",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 15.21
+   "pct_pn": 15.0
   },
   {
    "activo": "ON Loma Negra C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.11
+   "pct_pn": 9.39
   },
   {
    "activo": "ON Tarj Naranja C67 S2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.64
+   "pct_pn": 5.56
   },
   {
    "activo": "ON Pyme Gar Bajo Imp Apache S1 C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.29
+   "pct_pn": 3.25
   },
   {
    "activo": "ON Edesa Clase 4",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.16
+   "pct_pn": 2.13
   },
   {
    "activo": "ON Banco Hipotecario C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.43
+   "pct_pn": 1.41
   },
   {
    "activo": "ON Supervielle Clase U",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.25
-  },
-  {
-   "activo": "ON Bco Serv Transac C26",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.06
+   "pct_pn": 1.23
   },
   {
    "activo": "ON Central Dock Sud C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.06
+   "pct_pn": 1.05
+  },
+  {
+   "activo": "ON Bco Serv Transac C26",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.04
   },
   {
    "activo": "ON YPF Luz Clase 15",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.87
+   "pct_pn": 0.85
   },
   {
    "activo": "ON Pan American C42",
@@ -101,12 +101,17 @@
   {
    "activo": "ON Supervielle Clase T",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.3
+   "pct_pn": 0.29
   },
   {
    "activo": "ON Banco Hipotecario C14",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.26
+  },
+  {
+   "activo": "ON John Deere Cia. Fin C18",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.14
   },
   {
    "activo": "ON Bco Patagonia Cl 4",
@@ -117,11 +122,6 @@
    "activo": "ON Supervielle Clase W",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.06
-  },
-  {
-   "activo": "ON John Deere Cia. Fin C18",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.04
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
@@ -139,14 +139,9 @@
    "pct_pn": 0.01
   },
   {
-   "activo": "FCI Balanz Money Market USD - Clase B",
+   "activo": "FCI Schroder Liquidez Dolares - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.68
-  },
-  {
-   "activo": "FCI Consultatio Liquidez Dólar - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.11
+   "pct_pn": 13.49
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

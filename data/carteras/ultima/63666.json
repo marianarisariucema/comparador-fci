@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Renta Mixta",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 13452922987.92
+  "Peso Argentina": 12597234291.08
  },
  "por_tipo": [
   {
@@ -17,19 +17,19 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 87.2
+   "pct_pn": 84.31
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 13.44
+   "pct_pn": 13.0
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 2.75
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 1.91
+   "pct_pn": null
   },
   {
    "tipo": "Pasivos",
@@ -40,42 +40,47 @@
   {
    "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.89
+   "pct_pn": 22.92
   },
   {
    "activo": "Bono Disc ARS Ley AR DICP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.99
+   "pct_pn": 21.94
   },
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.67
-  },
-  {
-   "activo": "Bono Dual TTD26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.15
+   "pct_pn": 19.82
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.71
+   "pct_pn": 6.13
+  },
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.2
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.24
   },
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.79
+   "pct_pn": 4.05
   },
   {
    "activo": "Laboratorio Richmond S.A.C.I.F.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 13.44
+   "pct_pn": 13.0
   },
   {
    "activo": "FCI Tango Money Market Dinámico - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 2.75
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,0 +1,80 @@
+{
+ "fondo": "Probolsa",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Mercofond S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 518468173.16
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 1.57
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 54.19
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 40.44
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.68
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 0.33
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Prov Chaco BLN26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.78
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.77
+  },
+  {
+   "activo": "Letra Prov Chaco BL2D6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.61
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.03
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 21.79
+  },
+  {
+   "activo": "Cedear FCI SPDR Gold Trust",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 18.65
+  },
+  {
+   "activo": "FCI FBA Renta Pesos Cl B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.68
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63502",
+ "nombre_cnv": "Probolsa Fondo Común de Inversión",
+ "clave": "probolsa"
+}

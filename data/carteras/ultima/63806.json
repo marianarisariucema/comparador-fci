@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Estrategia",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 15068484054.01
+  "Peso Argentina": 15159948389.52
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 69.88
+   "pct_pn": 74.11
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.86
+   "pct_pn": 9.8
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 9.24
+   "pct_pn": 9.26
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
@@ -33,11 +33,11 @@
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 11.42
+   "pct_pn": 11.55
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.06
+   "pct_pn": 4.62
   },
   {
    "tipo": "Otros Activos",
@@ -52,42 +52,42 @@
   {
    "activo": "Bono Boncer TZXO6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.24
+   "pct_pn": 22.97
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.82
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.4
+   "pct_pn": 8.38
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.16
+   "pct_pn": 7.15
   },
   {
-   "activo": "Pagare #MAV201060096",
+   "activo": "Pagare #MAV241160086",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.61
+   "pct_pn": 6.45
   },
   {
    "activo": "Bono del Tesoro Nacional TZXO7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.4
+   "pct_pn": 4.39
   },
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.26
+   "pct_pn": 4.21
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 3.53
-  },
-  {
-   "activo": "Pagare #MAV211060049",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.3
   },
   {
    "activo": "Pagare #MAV041160081",
@@ -100,11 +100,6 @@
    "pct_pn": 2.98
   },
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.77
-  },
-  {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.03
@@ -112,12 +107,12 @@
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.92
+   "pct_pn": 0.91
   },
   {
    "activo": "Pzo Fi $ Bco Santander Ri",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.35
+   "pct_pn": 8.3
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
@@ -127,12 +122,12 @@
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.72
+   "pct_pn": 4.76
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.24
+   "pct_pn": 3.22
   },
   {
    "activo": "Bonos Rep Argentina 2030",
@@ -147,12 +142,12 @@
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.22
+   "pct_pn": 6.13
   },
   {
    "activo": "Cedear Vista Oil Gas",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.47
+   "pct_pn": 4.69
   },
   {
    "activo": "Pampa Energia S.A.",
@@ -167,12 +162,7 @@
   {
    "activo": "FCI MEGAQM Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.06
-  },
-  {
-   "activo": "FCI Champaquí Fondo Inmediato - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.0
+   "pct_pn": 4.62
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

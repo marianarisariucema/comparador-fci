@@ -1,0 +1,91 @@
+{
+ "fondo": "GMC Renta Fija Dolares",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "GMC Asset Management S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 3610799.99
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 53.44
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 34.45
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 12.11
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON CGC C 36",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.36
+  },
+  {
+   "activo": "ON Bco Serv Transac C31",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.33
+  },
+  {
+   "activo": "ON Capex C12",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 7.17
+  },
+  {
+   "activo": "ON Pluspetrol Clase 6",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.85
+  },
+  {
+   "activo": "ON John Deere Cia. Fin C19",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.76
+  },
+  {
+   "activo": "ON Edenor C11",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.54
+  },
+  {
+   "activo": "ON Havanna S1",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.24
+  },
+  {
+   "activo": "ON Lab. Richmond S8 Clase B",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.22
+  },
+  {
+   "activo": "ON Farmacity C1",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.97
+  },
+  {
+   "activo": "FCI Adcap Ahorro Dólares - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 34.45
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88528",
+ "nombre_cnv": "GMC RENTA FIJA DOLARES",
+ "clave": "gmc renta fija dolares"
+}

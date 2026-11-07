@@ -1,6 +1,6 @@
 {
  "fondo": "Fundcorp Long Performance",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "CMF Asset Management S.A.U.",
  "depositaria": "Banco C.M.F. S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 5376307202.12
+  "Peso Argentina": 7639365291.89
  },
  "por_tipo": [
   {
@@ -17,11 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.16
+   "pct_pn": 93.11
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.24
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.63
+   "pct_pn": 5.75
   },
   {
    "tipo": "Otros Activos",
@@ -29,74 +33,84 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.21
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "Bono Boncer TZXD7",
+   "activo": "Bono Boncer TZXO6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.22
+   "pct_pn": 23.25
   },
   {
-   "activo": "Bono Boncer TZX28",
+   "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.51
+   "pct_pn": 17.15
   },
   {
    "activo": "Bono del Tesoro Nacional TZXO7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.16
+   "pct_pn": 10.72
   },
   {
    "activo": "Bono Boncer TZXA7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.32
+   "pct_pn": 10.14
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.84
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.47
+   "pct_pn": 8.11
   },
   {
    "activo": "Bono Boncer 2028 TZXM8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.71
+   "pct_pn": 6.86
   },
   {
-   "activo": "Letra Tesoro Nac T30A7",
+   "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.13
+   "pct_pn": 4.77
   },
   {
    "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.77
+   "pct_pn": 1.25
   },
   {
    "activo": "ON FCA Comp. Finac CL 22 S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.24
+   "pct_pn": 0.87
   },
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.03
+   "pct_pn": 0.72
   },
   {
    "activo": "ON GEMSA 18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.61
+   "pct_pn": 0.43
   },
   {
-   "activo": "FF Cedulas Hipotecarias Arg. S1B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.3
+   "activo": "Pzo Fi $ Bco Bibank",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.24
   },
   {
    "activo": "FCI Lombard Renta en $",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.33
+   "pct_pn": 4.74
+  },
+  {
+   "activo": "FF Cedulas Hipotecarias Arg. S1B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

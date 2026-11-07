@@ -1,6 +1,6 @@
 {
  "fondo": "Pellegrini Renta Fija Publica",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Pellegrini S.A.S.G.F.C.I.",
  "depositaria": "Banco de La Nacion Argentina",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 89236744728.25
+  "Peso Argentina": 89664772378.9
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.28
+   "pct_pn": 0.32
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.83
+   "pct_pn": 99.84
   },
   {
    "tipo": "Otros Activos",
@@ -32,37 +32,37 @@
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 32.68
+   "pct_pn": 27.51
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.13
-  },
-  {
-   "activo": "Lecap S30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.15
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TML27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.74
+   "pct_pn": 26.12
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.5
+   "pct_pn": 16.2
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.59
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.77
   },
   {
    "activo": "Lecap S29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.28
+   "pct_pn": 5.27
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.36
+   "pct_pn": 4.37
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

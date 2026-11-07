@@ -1,0 +1,42 @@
+{
+ "fondo": "Wise Capital Money Markets",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Wise Capital Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 7124163921.17
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 3.26
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 16.84
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 79.9
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 16.84
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87162",
+ "nombre_cnv": "WISE CAPITAL MONEY MARKET",
+ "clave": "wise capital money market"
+}

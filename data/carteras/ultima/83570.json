@@ -1,6 +1,6 @@
 {
  "fondo": "CYC Dólares Renta Fija",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "C y C Administradora de Fondos S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 29773799.93
+  "Dolar Estadounidense": 29763466.95
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 3.74
+   "pct_pn": 2.69
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 92.0
+   "pct_pn": 93.15
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 4.32
+   "pct_pn": 4.26
   },
   {
    "tipo": "Otros Activos",
@@ -36,32 +36,32 @@
   {
    "activo": "ON TGS C4 Reg S",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.18
+   "pct_pn": 7.17
   },
   {
    "activo": "ON ICBC Clase 6 220527",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.76
+   "pct_pn": 6.77
   },
   {
    "activo": "ON YPF Clase 34",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.46
+   "pct_pn": 5.49
   },
   {
    "activo": "ON CGC C 40",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.3
+   "pct_pn": 5.33
   },
   {
    "activo": "Bono Prov Santa Fe 8.1% 111234",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.88
+   "pct_pn": 4.89
   },
   {
    "activo": "US Treasury Bill 180327",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.99
+   "pct_pn": 4.06
   },
   {
    "activo": "Bono Prov San Juan SJO35",
@@ -71,7 +71,12 @@
   {
    "activo": "ON Vista Gas y Oil Arg C29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.62
+   "pct_pn": 3.6
+  },
+  {
+   "activo": "Bonos Rep Argentina AE38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.6
   },
   {
    "activo": "ON Telecom C24",
@@ -79,39 +84,34 @@
    "pct_pn": 3.57
   },
   {
-   "activo": "ON Raghsa 2036",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.38
-  },
-  {
    "activo": "ON Supervielle Clase X",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 3.37
   },
   {
-   "activo": "ON Pampa Energia C23 (RegS)",
+   "activo": "ON Raghsa 2036",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.03
+   "pct_pn": 3.36
   },
   {
-   "activo": "Bonos Rep Argentina AE38",
+   "activo": "ON Pampa Energia C23 (RegS)",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.96
+   "pct_pn": 3.01
   },
   {
    "activo": "Bono Prov Cordoba 2029 CO27D",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.78
+   "pct_pn": 2.79
   },
   {
    "activo": "ON Capex C11",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.5
+   "pct_pn": 2.51
   },
   {
    "activo": "Bono Ciudad Bs As 261133",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.45
+   "pct_pn": 2.46
   },
   {
    "activo": "ON Pluspetrol Clase 7",
@@ -121,7 +121,7 @@
   {
    "activo": "Bono Prov Cordoba 030235",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.37
+   "pct_pn": 2.35
   },
   {
    "activo": "ON Vista Gas y Oil Arg C24",
@@ -131,27 +131,22 @@
   {
    "activo": "ON Raghsa 2032",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.79
+   "pct_pn": 1.8
   },
   {
    "activo": "ON Tecpetrol C10",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.77
+   "pct_pn": 1.78
   },
   {
    "activo": "ON Tecpetrol C10 RETAP",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.77
+   "pct_pn": 1.78
   },
   {
    "activo": "ON Central Puerto Clase D",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.71
-  },
-  {
-   "activo": "ON MSU Energy 160636",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.69
+   "pct_pn": 1.72
   },
   {
    "activo": "ON ICBC Clase 9 280827",
@@ -164,29 +159,34 @@
    "pct_pn": 1.66
   },
   {
-   "activo": "ON Arcor C1 7.6%",
+   "activo": "ON MSU Energy 160636",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.4
+   "pct_pn": 1.66
   },
   {
-   "activo": "ON Pampa Energia C21",
+   "activo": "ON Arcor C1 7.6%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.24
+   "pct_pn": 1.46
   },
   {
    "activo": "ON YPF Luz C18 YFCJO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.24
+   "pct_pn": 1.25
   },
   {
    "activo": "US Treasury Bill 050827",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.2
+   "pct_pn": 1.23
+  },
+  {
+   "activo": "ON Pampa Energia C21",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.22
   },
   {
    "activo": "ON CGC C 38",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.13
+   "pct_pn": 1.14
   },
   {
    "activo": "ON Futuros y Opciones.com S4 CA",
@@ -199,19 +199,24 @@
    "pct_pn": 0.46
   },
   {
+   "activo": "ON Endanik S1",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.34
+  },
+  {
    "activo": "US Treasury Bill 030927",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.29
+   "pct_pn": 0.3
   },
   {
    "activo": "ON Edenor C7 DNC7O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.26
+   "pct_pn": 0.24
   },
   {
    "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 4.15
+   "pct_pn": 4.09
   },
   {
    "activo": "Bono Prov de Jujuy JUS22",

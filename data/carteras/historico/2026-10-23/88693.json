@@ -1,0 +1,110 @@
+{
+ "fondo": "Blacktoro Total Return",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Blacktoro Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 6739350838.25
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 95.68
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.73
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.75
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.62
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.53
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.44
+  },
+  {
+   "activo": "Bono Boncer 2028 TZXM8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.34
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.64
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.56
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.26
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.63
+  },
+  {
+   "activo": "Bono del Tesoro 2.5% 2031",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.15
+  },
+  {
+   "activo": "ON Pyme Urbano Express Argentina S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.5
+  },
+  {
+   "activo": "Pzo Fi $ Bco Mariva",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.73
+  },
+  {
+   "activo": "FF Mercado Credito 55 CA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.72
+  },
+  {
+   "activo": "FCI Pionero Pesos Plus - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.03
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88693",
+ "nombre_cnv": "BLACKTORO TOTAL RETURN",
+ "clave": "blacktoro total return"
+}

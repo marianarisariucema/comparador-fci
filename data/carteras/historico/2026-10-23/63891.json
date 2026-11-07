@@ -1,0 +1,96 @@
+{
+ "fondo": "Pionero Renta Dólares",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Macro Fondos S.G.F.C.I.S.A.",
+ "depositaria": "Banco Macro S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 35042503.71
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 8.65
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 73.04
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 18.55
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "BR Rep Brasil 28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.14
+  },
+  {
+   "activo": "CL Rep Chile 28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.36
+  },
+  {
+   "activo": "CL Rep Chile 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.29
+  },
+  {
+   "activo": "US Treasury Bill 011226",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 7.96
+  },
+  {
+   "activo": "US Treasury Bill 031126",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.45
+  },
+  {
+   "activo": "US Treasury Bill 191126",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.32
+  },
+  {
+   "activo": "BR Bono Global 2027 10.12%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.59
+  },
+  {
+   "activo": "Bono Corporativo 3.625% 010827",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.7
+  },
+  {
+   "activo": "US Treasury Bill 271026",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.0
+  },
+  {
+   "activo": "US Treasury Bill 101226",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.24
+  },
+  {
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 18.55
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63891",
+ "nombre_cnv": "PIONERO RENTA DOLARES ex Goal Renta Dólares",
+ "clave": "pionero renta dolares"
+}

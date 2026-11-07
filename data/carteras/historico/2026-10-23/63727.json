@@ -1,0 +1,101 @@
+{
+ "fondo": "IAM Renta Plus",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Industrial Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco Industrial S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 34663644269.13
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.06
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 96.33
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.94
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.8
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.7
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.5
+  },
+  {
+   "activo": "Bono Boncer TZXD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.34
+  },
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.51
+  },
+  {
+   "activo": "Bono Bocon 2029 PR17",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.7
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.44
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.85
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.26
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TY30P",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.91
+  },
+  {
+   "activo": "ON Credicuotas Consumo S20",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.32
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.94
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63727",
+ "nombre_cnv": "IAM Renta Plus FCI",
+ "clave": "iam renta plus"
+}

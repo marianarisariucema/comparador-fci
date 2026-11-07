@@ -1,6 +1,6 @@
 {
  "fondo": "BAVSA Estrategia Dolar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "BAVSA Fondos S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,36 +8,36 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 7567084.05
+  "Dolar Estadounidense": 7737453.47
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 5.73
+   "pct_pn": 0.24
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 53.67
+   "pct_pn": 54.57
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.65
+   "pct_pn": 11.83
   },
   {
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 9.76
+   "pct_pn": 9.55
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 14.13
+   "pct_pn": 12.85
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 5.61
+   "pct_pn": 9.54
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 1.47
+   "pct_pn": 4.63
   },
   {
    "tipo": "Pasivos",
@@ -48,127 +48,132 @@
   {
    "activo": "Bono Bonar 2029 AO29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.5
+   "pct_pn": 6.45
   },
   {
    "activo": "Pagare #UMV2212600121",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.13
+   "pct_pn": 5.02
   },
   {
    "activo": "Pagare #UMV121260007",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.84
+   "pct_pn": 3.77
   },
   {
    "activo": "ON YPF Luz C20",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.39
-  },
-  {
-   "activo": "ON John Deere Cia. Fin C20",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.69
-  },
-  {
-   "activo": "ON Capex C11",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.68
-  },
-  {
-   "activo": "Pagare #UMV250270014",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.57
-  },
-  {
-   "activo": "Pagare #UMV180270015",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.57
-  },
-  {
-   "activo": "Pagare #UMV230270010",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.57
-  },
-  {
-   "activo": "Pagare #UMV2411600341",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.22
-  },
-  {
-   "activo": "Pagare #UMV290170015",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.93
-  },
-  {
-   "activo": "ON Telecom C23",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.9
+   "pct_pn": 3.31
   },
   {
    "activo": "ON Edenor C10 DNCAO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.87
+   "pct_pn": 3.24
+  },
+  {
+   "activo": "ON John Deere Cia. Fin C20",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.64
+  },
+  {
+   "activo": "ON Capex C11",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.64
+  },
+  {
+   "activo": "Pagare #UMV180270015",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.52
+  },
+  {
+   "activo": "Pagare #UMV230270010",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.52
+  },
+  {
+   "activo": "Pagare #UMV250270014",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.51
+  },
+  {
+   "activo": "Pagare #UMV2411600341",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.18
+  },
+  {
+   "activo": "Pagare #UMV290170015",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.89
+  },
+  {
+   "activo": "ON Telecom C23",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.86
   },
   {
    "activo": "Pagare #UMV130870006",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.71
+   "pct_pn": 1.67
   },
   {
    "activo": "Pagare #UMV140970012",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.51
+   "pct_pn": 1.48
   },
   {
    "activo": "ON Profertil C3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.34
+   "pct_pn": 1.32
   },
   {
    "activo": "Pagare #UMV310370010",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.27
+   "pct_pn": 1.24
   },
   {
    "activo": "Pagare #UMV0104700051",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.26
+   "pct_pn": 1.23
   },
   {
    "activo": "Pagare #UMV0104700061",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.26
+   "pct_pn": 1.23
   },
   {
    "activo": "Pagare #UMV2804700151",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.25
+   "pct_pn": 1.23
   },
   {
    "activo": "Pagare #UMV1006700151",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.24
+   "pct_pn": 1.21
   },
   {
    "activo": "ON John Deere Cia. Fin C19",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.69
+   "pct_pn": 0.67
   },
   {
    "activo": "Pagare #UMV060470019",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.61
+   "pct_pn": 0.6
+  },
+  {
+   "activo": "Pagare #UMV301160118",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.51
   },
   {
    "activo": "Pagare #UMV310570037",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.4
+   "pct_pn": 0.39
   },
   {
    "activo": "ON Loma Negra C6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.34
+   "pct_pn": 0.33
   },
   {
    "activo": "Pagare #UMV301060042",
@@ -201,39 +206,39 @@
    "pct_pn": 0.1
   },
   {
-   "activo": "Bono del Tesoro Nacional AO28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.71
-  },
-  {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.86
+   "pct_pn": 3.61
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.58
   },
   {
    "activo": "Letra Prov Chaco BLN26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.72
+   "pct_pn": 2.62
   },
   {
    "activo": "Cheque E *MAV181101190",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.84
+   "pct_pn": 0.81
   },
   {
-   "activo": "ON GEMSA y CTR C43",
+   "activo": "Cheque E *MAV091201875",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.71
+   "pct_pn": 0.4
   },
   {
    "activo": "Cheque E *MAV0710011901",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.33
+   "pct_pn": 0.32
   },
   {
    "activo": "Cheque E *MAV071001225",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.26
+   "pct_pn": 0.25
   },
   {
    "activo": "ON San Miguel Serie 13 CA",
@@ -243,67 +248,57 @@
   {
    "activo": "Pagare #UMV1502700421",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 2.52
+   "pct_pn": 2.47
   },
   {
    "activo": "Pagare #UMV1902700081",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 2.52
+   "pct_pn": 2.46
   },
   {
    "activo": "Pagare #UMV2503700061",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 1.25
+   "pct_pn": 1.22
   },
   {
    "activo": "Pagare #USO0311600011",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.45
+   "pct_pn": 0.44
   },
   {
    "activo": "Pagare #UMV2402700311",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.38
+   "pct_pn": 0.37
   },
   {
    "activo": "Pagare #UMV3003700091",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.33
+   "pct_pn": 0.32
   },
   {
    "activo": "Pagare #UMV3003700101",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.33
+   "pct_pn": 0.32
   },
   {
    "activo": "Pagare #UMV0804700021",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.31
+   "pct_pn": 0.3
   },
   {
    "activo": "Pagare #UMV0804700031",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.31
+   "pct_pn": 0.3
   },
   {
    "activo": "Pagare #UMV1703700081",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.31
+   "pct_pn": 0.3
   },
   {
    "activo": "Pagare #UMV1703700091",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.31
-  },
-  {
-   "activo": "Pagare #UMV0803700031",
-   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.25
-  },
-  {
-   "activo": "Pagare #UMV0803700041",
-   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.25
+   "pct_pn": 0.3
   },
   {
    "activo": "Pagare #UMV0502700171",
@@ -311,49 +306,54 @@
    "pct_pn": 0.25
   },
   {
+   "activo": "Pagare #UMV0803700031",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Pagare #UMV0803700041",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 0.24
+  },
+  {
    "activo": "Cedear Mercado Libre",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.2
-  },
-  {
-   "activo": "Cedear Shares MSCI Brazil ETF",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.63
-  },
-  {
-   "activo": "Cedear Oracle",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.39
-  },
-  {
-   "activo": "Cedear Vista Oil Gas",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.34
-  },
-  {
-   "activo": "Cedear Uber",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.06
+   "pct_pn": 3.1
   },
   {
    "activo": "Cedear Apple Inc",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.51
+   "pct_pn": 2.56
   },
   {
-   "activo": "FCI Allaria Dólar Ahorro - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.64
+   "activo": "Cedear Uber",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.51
+  },
+  {
+   "activo": "Cedear Vista Oil Gas",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.38
+  },
+  {
+   "activo": "Cedear Oracle",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.3
   },
   {
    "activo": "FCI CYC Liquidez - Clase U",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.57
+   "pct_pn": 5.09
   },
   {
    "activo": "FCI Cocos Dólar Money Market - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.4
+   "pct_pn": 2.38
+  },
+  {
+   "activo": "FCI Allaria Dólar Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.07
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

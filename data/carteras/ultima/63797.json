@@ -1,6 +1,6 @@
 {
  "fondo": "Pionero Renta Fija Dólares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Macro Fondos S.G.F.C.I.S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 37973703.2
+  "Dolar Estadounidense": 37437900.65
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.92
+   "pct_pn": 0.97
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 98.22
+   "pct_pn": 99.28
   },
   {
    "tipo": "Otros Activos",
@@ -32,27 +32,27 @@
   {
    "activo": "Bonos Rep Argentina GD35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 29.82
-  },
-  {
-   "activo": "Bonos Rep Argentina GD41",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 28.92
+   "pct_pn": 30.12
   },
   {
    "activo": "Bonos Rep Argentina GD38",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 27.82
+   "pct_pn": 30.12
   },
   {
-   "activo": "Bonos Rep Argentina GD46",
+   "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.55
+   "pct_pn": 29.4
   },
   {
    "activo": "Bonos Rep Argentina GD30",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.1
+   "pct_pn": 6.14
+  },
+  {
+   "activo": "Bonos Rep Argentina GD46",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.5
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

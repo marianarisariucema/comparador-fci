@@ -1,6 +1,6 @@
 {
  "fondo": "Optimum Renta Mixta Flexible",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Santander Asset Management G.F.C.I.S.A.",
  "depositaria": "Banco Santander Argentina S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 32243803323.11
+  "Peso Argentina": 32448657127.84
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.94
+   "pct_pn": 0.02
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.09
+   "pct_pn": 99.03
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.01
+   "pct_pn": 1.0
   },
   {
    "tipo": "Otros Activos",
@@ -36,17 +36,17 @@
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.35
+   "pct_pn": 19.32
   },
   {
    "activo": "ON PCR Clase K",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.54
+   "pct_pn": 11.55
   },
   {
    "activo": "ON Telecom C19 TLCKO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.39
+   "pct_pn": 9.4
   },
   {
    "activo": "ON Oldelval Clase 3",
@@ -56,7 +56,7 @@
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.97
+   "pct_pn": 8.87
   },
   {
    "activo": "ON Genneia Clase 42",
@@ -66,37 +66,37 @@
   {
    "activo": "ON Petroqui C Rivadavia Clase Q",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.63
+   "pct_pn": 4.62
   },
   {
    "activo": "ON Cresud Clase 50",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.57
+   "pct_pn": 4.58
   },
   {
    "activo": "ON CNH Arg. C10",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.48
+   "pct_pn": 4.5
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.48
+   "pct_pn": 4.49
   },
   {
    "activo": "ON CGC C 39",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.22
+   "pct_pn": 4.23
   },
   {
    "activo": "ON P. Aconcagua Energia C19",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.08
+   "pct_pn": 4.1
   },
   {
    "activo": "ON P. Aconcagua Energia C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.13
+   "pct_pn": 2.14
   },
   {
    "activo": "ON Rizobacter S 11 CA",
@@ -119,6 +119,11 @@
    "pct_pn": 1.02
   },
   {
+   "activo": "ON Loma Negra C7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.98
+  },
+  {
    "activo": "ON Telecom C12 TLCDO",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.47
@@ -131,7 +136,7 @@
   {
    "activo": "FCI MEGAQM Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.01
+   "pct_pn": 1.0
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

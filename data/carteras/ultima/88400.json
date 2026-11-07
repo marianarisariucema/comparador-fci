@@ -1,6 +1,6 @@
 {
  "fondo": "Fundcorp Long Performance Plus II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "CMF Asset Management S.A.U.",
  "depositaria": "Banco C.M.F. S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 9459303.66
+  "Dolar Estadounidense": 10087166.7
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.72
+   "pct_pn": 0.09
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 91.1
+   "pct_pn": 87.53
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 2.97
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.6
+   "pct_pn": 8.92
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.29
+   "pct_pn": 1.22
   },
   {
    "tipo": "Otros Activos",
@@ -38,809 +42,814 @@
  ],
  "activos": [
   {
-   "activo": "Bonos Rep Argentina AL41",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.47
-  },
-  {
    "activo": "ON Akron S1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.3
+   "pct_pn": 4.29
+  },
+  {
+   "activo": "Bonos Rep Argentina AL41",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.14
   },
   {
    "activo": "Pagare #UNT260170001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.59
+   "pct_pn": 2.43
   },
   {
    "activo": "Bono Prov Cordoba 2032",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.29
+   "pct_pn": 2.12
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.0
-  },
-  {
-   "activo": "Bono del Tesoro Nacional AO27",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.93
+   "pct_pn": 1.85
   },
   {
    "activo": "Bono Prov Santa Fe 8.1% 111234",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.65
+   "pct_pn": 1.54
   },
   {
    "activo": "Pagare #UMV151260138",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.56
+   "pct_pn": 1.47
   },
   {
    "activo": "Pagare #UMV170670004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.49
+   "pct_pn": 1.4
   },
   {
    "activo": "Pagare #UAR260870004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.3
+   "pct_pn": 1.22
   },
   {
    "activo": "Pagare #UTD230770001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.1
+   "pct_pn": 1.03
   },
   {
    "activo": "ON PyME Hattrick Energy S2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.06
+   "pct_pn": 0.99
   },
   {
-   "activo": "Pagare #UMV241160050",
+   "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.05
-  },
-  {
-   "activo": "Pagare #UNO191160001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.05
+   "pct_pn": 0.99
   },
   {
    "activo": "Pagare #UTD260370001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.05
+   "pct_pn": 0.99
   },
   {
    "activo": "Pagare #UMV201160057",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.05
+   "pct_pn": 0.99
   },
   {
    "activo": "ON Credicuotas Consumo S24",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.05
-  },
-  {
-   "activo": "Pagare #UNT030270001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.03
-  },
-  {
-   "activo": "Pagare #UMV190270015",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.03
-  },
-  {
-   "activo": "Pagare #UMV020370013",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.02
-  },
-  {
-   "activo": "Pagare #UMV160470004",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.01
-  },
-  {
-   "activo": "Pagare #UMV310370015",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.01
-  },
-  {
-   "activo": "Pagare #UMV170570055",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.0
-  },
-  {
-   "activo": "Pagare #UMV310770017",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.99
   },
   {
-   "activo": "Pagare #UMV310770018",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.99
-  },
-  {
-   "activo": "Pagare #UMV310770019",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.99
-  },
-  {
-   "activo": "Pagare #UMV170970003",
+   "activo": "Pagare #UNO191160001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.98
   },
   {
-   "activo": "Pagare #UFM190770005",
+   "activo": "Pagare #UMV241160050",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.9
+   "pct_pn": 0.98
   },
   {
-   "activo": "ON Scania Credit C2",
+   "activo": "Pagare #UMV190270015",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.89
+   "pct_pn": 0.97
+  },
+  {
+   "activo": "Pagare #UNT030270001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.97
+  },
+  {
+   "activo": "Pagare #UMV020370013",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.96
+  },
+  {
+   "activo": "Pagare #UMV160470004",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.95
+  },
+  {
+   "activo": "Pagare #UMV310370015",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.95
+  },
+  {
+   "activo": "Pagare #UMV170570055",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.94
+  },
+  {
+   "activo": "Pagare #UMV310770017",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.93
+  },
+  {
+   "activo": "Pagare #UMV310770018",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.93
+  },
+  {
+   "activo": "Pagare #UMV310770019",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.93
+  },
+  {
+   "activo": "Pagare #UMV170970003",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.92
+  },
+  {
+   "activo": "Pagare #UMV191070004",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.92
+  },
+  {
+   "activo": "Pagare #UFM190770005",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.85
   },
   {
    "activo": "ON Mirgor Clase 6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.89
+   "pct_pn": 0.85
+  },
+  {
+   "activo": "ON Scania Credit C2",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.83
   },
   {
    "activo": "ON Tecpetrol C11",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.86
+   "pct_pn": 0.8
   },
   {
    "activo": "ON Pecom C3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.81
+   "pct_pn": 0.77
   },
   {
    "activo": "Pagare #UPO290770002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.75
+   "pct_pn": 0.7
   },
   {
    "activo": "Pagare #UPO280770001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.75
+   "pct_pn": 0.7
   },
   {
    "activo": "ON Promedon S2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.7
+   "pct_pn": 0.66
+  },
+  {
+   "activo": "ON Edesa Clase 2",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.61
   },
   {
    "activo": "Pagare #UMV310170008",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.56
-  },
-  {
-   "activo": "Pagare #UMV290370036",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.56
+   "pct_pn": 0.53
   },
   {
    "activo": "Pagare #UMV250370005",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.56
+   "pct_pn": 0.52
+  },
+  {
+   "activo": "Pagare #UMV290370036",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.52
   },
   {
    "activo": "ON Centro Interacción Multimedia 070929",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.54
-  },
-  {
-   "activo": "Pagare #UMV171260022",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.52
-  },
-  {
-   "activo": "Pagare #UFM210170002",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.52
-  },
-  {
-   "activo": "Pagare #UFM210170001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.52
-  },
-  {
-   "activo": "Pagare #UFM310170001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.52
+   "pct_pn": 0.51
   },
   {
    "activo": "Pagare #UMV080170018",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.52
+   "pct_pn": 0.49
   },
   {
    "activo": "Pagare #UMV251260015",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.52
+   "pct_pn": 0.49
   },
   {
-   "activo": "Pagare #UCO010470001",
+   "activo": "Pagare #UMV171260022",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.51
+   "pct_pn": 0.49
+  },
+  {
+   "activo": "Pagare #UFM210170002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.49
+  },
+  {
+   "activo": "Pagare #UFM210170001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.49
+  },
+  {
+   "activo": "Pagare #UFM310170001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.49
   },
   {
    "activo": "Pagare #UMV190370008",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.51
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UMV300370007",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.51
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UMV090470005",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.51
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UMV140270001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.51
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UMV180270016",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.51
+   "pct_pn": 0.48
   },
   {
-   "activo": "Pagare #UPO280770002",
+   "activo": "Pagare #UNT170270001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
+   "pct_pn": 0.48
   },
   {
-   "activo": "Pagare #UPO180870001",
+   "activo": "Pagare #UCO010470001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UPO210770001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV240670061",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV290670002",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "ON Genneia Clase 47",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV260570016",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV230470008",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV270570004",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV200570009",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV220670003",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV150570011",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV130770002",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV150770047",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV050570006",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UCO080770001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UPO280770002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UPO180870001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UPO210770001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UMV240670061",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UMV290670002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UMV260570016",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UMV230470008",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UMV200570009",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UMV270570004",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UMV150570011",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UMV050570006",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UMV220670003",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UMV130770002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Pagare #UMV150770047",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
   },
   {
    "activo": "Pagare #UMV220770004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.49
+   "pct_pn": 0.46
   },
   {
    "activo": "Pagare #UMV200770008",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.49
-  },
-  {
-   "activo": "Bono Bopreal 2028 Serie 4 Clase B BPOB8",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.49
+   "pct_pn": 0.46
   },
   {
    "activo": "Pagare #UMV290770004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.49
+   "pct_pn": 0.46
   },
   {
    "activo": "Pagare #UMV190870003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.49
+   "pct_pn": 0.46
   },
   {
    "activo": "Pagare #UMV260870001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.49
+   "pct_pn": 0.46
   },
   {
    "activo": "Pagare #UMV270770003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.49
+   "pct_pn": 0.46
   },
   {
    "activo": "Pagare #UMV120870002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.49
+   "pct_pn": 0.46
   },
   {
    "activo": "Pagare #UMV170870002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.49
+   "pct_pn": 0.46
   },
   {
    "activo": "Pagare #UMV240870005",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.49
+   "pct_pn": 0.46
   },
   {
-   "activo": "Pagare #UMV061270004",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.48
-  },
-  {
-   "activo": "Pagare #UMV271270007",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.48
-  },
-  {
-   "activo": "Pagare #UMV151260126",
+   "activo": "ON Genneia Clase 47",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.46
   },
   {
-   "activo": "Pagare #UMV090670012",
+   "activo": "Bono Bopreal 2028 Serie 4 Clase B BPOB8",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.46
+  },
+  {
+   "activo": "ON YPF Clase 37",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.46
+  },
+  {
+   "activo": "Pagare #UMV061270004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.45
   },
   {
-   "activo": "Pagare #UNT251160001",
+   "activo": "Pagare #UMV271270007",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.41
+   "pct_pn": 0.45
   },
   {
-   "activo": "Pagare #UMV201060032",
+   "activo": "Pagare #UMV151260126",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.4
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "Pagare #UMV090670012",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "ON Edemsa C3",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.38
+  },
+  {
+   "activo": "Pagare #UNT251160001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.38
   },
   {
    "activo": "Pagare #UMV171160009",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.39
+   "pct_pn": 0.37
   },
   {
    "activo": "Pagare #UAU150170002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.39
+   "pct_pn": 0.37
   },
   {
    "activo": "ON Irsa Clase 23",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.35
+   "pct_pn": 0.33
   },
   {
    "activo": "Pagare #UAB220370001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.33
+   "pct_pn": 0.31
   },
   {
    "activo": "Pagare #UAB180370001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.33
+   "pct_pn": 0.31
   },
   {
    "activo": "Pagare #UAB040370001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.33
+   "pct_pn": 0.31
   },
   {
    "activo": "Pagare #UAU100270002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.32
+   "pct_pn": 0.3
   },
   {
    "activo": "ON Banco de Valores C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.32
+   "pct_pn": 0.3
   },
   {
    "activo": "Pagare #UAU250170001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.31
+   "pct_pn": 0.29
   },
   {
    "activo": "Pagare #UMV181160017",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.29
+   "pct_pn": 0.27
   },
   {
    "activo": "Pagare #UMV191060014",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.29
-  },
-  {
-   "activo": "ON Banco de Galicia 32 BYY2O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.27
   },
   {
    "activo": "ON Loma Negra C6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.27
-  },
-  {
-   "activo": "ON Cresud Clase 51",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "Pagare #UCN160470002",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.26
   },
   {
    "activo": "Pagare #UFT141260001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.26
+   "pct_pn": 0.25
   },
   {
    "activo": "Pagare #UFT071260001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.26
+   "pct_pn": 0.25
   },
   {
-   "activo": "Pagare #UCN190370004",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "Pagare #UMV041260014",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "Pagare #UMV151260084",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "Pagare #UMV101260037",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "Pagare #UMV111260026",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "Pagare #UMV141260008",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "Pagare #UCN030470001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "Pagare #UAC051070001",
+   "activo": "ON Banco de Galicia 32 BYY2O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.25
   },
   {
-   "activo": "Pagare #UAC141070001",
+   "activo": "ON Cresud Clase 51",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.25
   },
   {
-   "activo": "Pagare #UFT180670001",
+   "activo": "Pagare #UCN160470002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
+   "pct_pn": 0.24
   },
   {
    "activo": "Pagare #UCN090470002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
+   "pct_pn": 0.24
   },
   {
-   "activo": "Pagare #UMV040670005",
+   "activo": "Pagare #UCN190370004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Pagare #UFT180670001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Pagare #UMV041260014",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Pagare #UMV151260084",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Pagare #UMV101260037",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Pagare #UMV111260026",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Pagare #UMV141260008",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.24
   },
   {
    "activo": "Pagare #UCN210570003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
+   "pct_pn": 0.24
   },
   {
    "activo": "Pagare #UCN040670002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
-  },
-  {
-   "activo": "Pagare #UNO100970004",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
-  },
-  {
-   "activo": "Pagare #UNO030970002",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
-  },
-  {
-   "activo": "Pagare #UFT300470004",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
-  },
-  {
-   "activo": "Pagare #UFT300570001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
-  },
-  {
-   "activo": "Pagare #UFT300870001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
-  },
-  {
-   "activo": "Pagare #UFT300770003",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
+   "pct_pn": 0.24
   },
   {
    "activo": "Pagare #UNO271060001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
-  },
-  {
-   "activo": "Pagare #UCN060870003",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
+   "pct_pn": 0.24
   },
   {
    "activo": "Pagare #UCN020770002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Pagare #UFT300470004",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Pagare #UFT300570001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Pagare #UCN030470001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Pagare #UFT300870001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.23
+  },
+  {
+   "activo": "Pagare #UFT300770003",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.23
+  },
+  {
+   "activo": "Pagare #UAC051070001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.23
+  },
+  {
+   "activo": "Pagare #UAC141070001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.23
+  },
+  {
+   "activo": "Pagare #UCN060870003",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.23
+  },
+  {
+   "activo": "Pagare #UNO100970004",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.23
+  },
+  {
+   "activo": "Pagare #UNO030970002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.23
+  },
+  {
+   "activo": "Pagare #UMV040670005",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.23
   },
   {
    "activo": "Pagare #UFM131160001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.24
+   "pct_pn": 0.23
   },
   {
    "activo": "Pagare #UMV101270016",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.24
+   "pct_pn": 0.23
   },
   {
-   "activo": "ON Pecom C2",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.22
-  },
-  {
-   "activo": "Pagare #UFM280270001",
+   "activo": "ON John Deere Cia. Fin C17",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.21
   },
   {
+   "activo": "ON Pecom C2",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.21
+  },
+  {
+   "activo": "Pagare #UFM280270001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.19
+  },
+  {
    "activo": "Pagare #UNO240770001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
+   "pct_pn": 0.19
   },
   {
    "activo": "Pagare #UPO110670004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
+   "pct_pn": 0.19
   },
   {
    "activo": "Pagare #UPO040670002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
+   "pct_pn": 0.19
   },
   {
    "activo": "Pagare #UFT140570001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
+   "pct_pn": 0.19
   },
   {
    "activo": "Pagare #UFT300470003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
-  },
-  {
-   "activo": "Pagare #UAR170970006",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
-  },
-  {
-   "activo": "Pagare #UAR301170005",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
-  },
-  {
-   "activo": "Pagare #UAR301070002",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
+   "pct_pn": 0.19
   },
   {
    "activo": "Pagare #UAR160870004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
-  },
-  {
-   "activo": "Pagare #UAR300970008",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
-  },
-  {
-   "activo": "Pagare #UAR151070004",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
+   "pct_pn": 0.19
   },
   {
    "activo": "Pagare #UAR310870006",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.2
+   "pct_pn": 0.19
   },
   {
    "activo": "Pagare #UAR151170004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.19
+   "pct_pn": 0.18
   },
   {
    "activo": "Pagare #UAR151270002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.19
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "Pagare #UAR300970008",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "Pagare #UAR151070004",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "Pagare #UAR170970006",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.18
   },
   {
    "activo": "Pagare #UAR311270005",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.19
+   "pct_pn": 0.18
   },
   {
-   "activo": "Pagare #UTD140470002",
+   "activo": "Pagare #UAR301170005",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.17
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "Pagare #UAR301070002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.18
   },
   {
    "activo": "Pagare #UTD050470001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.17
+   "pct_pn": 0.16
   },
   {
    "activo": "Pagare #UTD070470001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.17
+   "pct_pn": 0.16
   },
   {
    "activo": "Pagare #UTD090470002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.17
+   "pct_pn": 0.16
   },
   {
-   "activo": "Pagare #UFI180570001",
+   "activo": "Pagare #UTD140470002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Pagare #UFI200470003",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Pagare #UFM010670003",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Pagare #UFM110670002",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Pagare #UNO160670001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Pagare #UNO070670001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Pagare #UFT060870001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Pagare #UFT200870001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Pagare #UFT130870001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
+   "pct_pn": 0.16
   },
   {
    "activo": "Pagare #UNO020870007",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
+   "pct_pn": 0.14
   },
   {
    "activo": "Pagare #UNO160870006",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
+   "pct_pn": 0.14
   },
   {
-   "activo": "ON Profertil C2",
+   "activo": "Pagare #UFI180570001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.13
+   "pct_pn": 0.14
   },
   {
-   "activo": "Pagare #UGC240570001",
+   "activo": "Pagare #UFI200470003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.13
+   "pct_pn": 0.14
   },
   {
-   "activo": "Pagare #UGC250670001",
+   "activo": "Pagare #UFM010670003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.13
+   "pct_pn": 0.14
   },
   {
-   "activo": "Pagare #UNO160870007",
+   "activo": "Pagare #UFM110670002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.12
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Pagare #UNO160670001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Pagare #UNO070670001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Pagare #UFT060870001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Pagare #UFT200870001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Pagare #UFT130870001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.14
   },
   {
    "activo": "Pagare #UGC240970001",
@@ -858,9 +867,24 @@
    "pct_pn": 0.12
   },
   {
-   "activo": "Pagare #UFT270870001",
+   "activo": "Pagare #UGC250670001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.1
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "ON Profertil C2",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Pagare #UNO160870007",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Pagare #UGC240570001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.12
   },
   {
    "activo": "Pagare #UFM310370003",
@@ -878,29 +902,34 @@
    "pct_pn": 0.1
   },
   {
-   "activo": "ON John Deere Cia. Fin C15",
+   "activo": "Pagare #UFT270870001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.09
+  },
+  {
+   "activo": "ON John Deere Cia. Fin C15",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.08
   },
   {
    "activo": "Pagare #UGC040270002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.09
+   "pct_pn": 0.08
   },
   {
    "activo": "Pagare #UGC041260001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.09
+   "pct_pn": 0.08
   },
   {
    "activo": "Pagare #UGC100270001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.09
+   "pct_pn": 0.08
   },
   {
    "activo": "Pagare #UGC190170001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.09
+   "pct_pn": 0.08
   },
   {
    "activo": "Pagare #UNO100270004",
@@ -938,11 +967,6 @@
    "pct_pn": 0.05
   },
   {
-   "activo": "ON Scania Credit C1",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.04
-  },
-  {
    "activo": "Pagare #UGC280670001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.04
@@ -953,7 +977,7 @@
    "pct_pn": 0.03
   },
   {
-   "activo": "ON John Deere Cia. Fin C17",
+   "activo": "ON Scania Credit C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.03
   },
@@ -968,99 +992,104 @@
    "pct_pn": 0.01
   },
   {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 2.97
+  },
+  {
    "activo": "Pagare #UNT100270001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.04
-  },
-  {
-   "activo": "Pagare #UMV280170010",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.02
-  },
-  {
-   "activo": "Pagare #UMV030270018",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.02
+   "pct_pn": 1.9
   },
   {
    "activo": "Pagare #UNT300170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.02
+   "pct_pn": 0.95
   },
   {
    "activo": "Pagare #UNT220170002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.02
+   "pct_pn": 0.95
+  },
+  {
+   "activo": "Pagare #UMV280170010",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.94
+  },
+  {
+   "activo": "Pagare #UMV030270018",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.94
   },
   {
    "activo": "Pagare #UNT200170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.87
+   "pct_pn": 0.81
   },
   {
    "activo": "Pagare #UMV161160066",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.41
+   "pct_pn": 0.38
   },
   {
    "activo": "Pagare #UMV151260127",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.28
   },
   {
    "activo": "Pagare #UVA200570001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.29
+   "pct_pn": 0.27
   },
   {
    "activo": "Pagare #UCM280170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.24
+   "pct_pn": 0.23
   },
   {
    "activo": "Pagare #UNT220170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.24
+   "pct_pn": 0.22
   },
   {
    "activo": "Pagare #UNT150170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.24
+   "pct_pn": 0.22
   },
   {
    "activo": "Pagare #UNT080170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.24
+   "pct_pn": 0.22
   },
   {
    "activo": "Pagare #UFI010470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.21
+   "pct_pn": 0.2
   },
   {
    "activo": "Pagare #UMV231060024",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.21
+   "pct_pn": 0.19
   },
   {
    "activo": "Pagare #UFI100370001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.17
+   "pct_pn": 0.16
   },
   {
    "activo": "Pagare #UCM100170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "FF Venturino S1 A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.76
+   "pct_pn": 0.72
   },
   {
    "activo": "FF Crucianelli S1 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.53
+   "pct_pn": 0.5
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

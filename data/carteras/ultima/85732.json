@@ -1,6 +1,6 @@
 {
  "fondo": "Gainvest Global VIII",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "StoneX Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,28 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 7998804971.25
+  "Peso Argentina": 8192861107.66
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.02
+   "pct_pn": 0.22
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 75.74
+   "pct_pn": 77.88
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 19.25
+   "pct_pn": 16.97
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 5.17
+   "pct_pn": 6.66
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": null
+   "pct_pn": 2.06
   },
   {
    "tipo": "Pasivos",
@@ -40,72 +40,77 @@
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.03
-  },
-  {
-   "activo": "Bono Dual TXMD8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.22
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TZXO7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.04
-  },
-  {
-   "activo": "Bono Boncer TZXD6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.53
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TMVE8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.61
-  },
-  {
-   "activo": "Letra Tamar TEM TMF28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.99
-  },
-  {
-   "activo": "Bonos Rep Argentina AL35",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.56
-  },
-  {
-   "activo": "Bono Boncer TZXD7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.34
-  },
-  {
-   "activo": "Bono Boncer TZXS7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.21
-  },
-  {
-   "activo": "Bono Bocon 2029 PR17",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.76
+   "pct_pn": 14.75
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.45
+   "pct_pn": 13.53
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZXO7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.88
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.45
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.39
+  },
+  {
+   "activo": "Bonos Rep Argentina AL35",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.48
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.27
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.12
+  },
+  {
+   "activo": "Bono Bocon 2029 PR17",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.73
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.56
+  },
+  {
+   "activo": "Cheque E *MAV211101395",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.48
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.24
   },
   {
    "activo": "Cedear IShares MSCI Emerging Market",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.29
+   "pct_pn": 4.21
   },
   {
    "activo": "Cedear Shares MSCI Brazil ETF",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.4
+   "pct_pn": 2.15
   },
   {
    "activo": "Cedear Utilities Select Sectar SPDR Fund",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.0
+   "pct_pn": 2.01
   },
   {
    "activo": "Cedear Fncial Select Sector SPDR",
@@ -115,32 +120,37 @@
   {
    "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.72
-  },
-  {
-   "activo": "Bolsas y Mercados Argentinos S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.64
+   "pct_pn": 1.66
   },
   {
    "activo": "Cedear Health Care Select Sector SPDR Fund",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.61
+   "pct_pn": 1.62
   },
   {
    "activo": "Cedear ETF VanEck Semiconductors",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.53
+   "pct_pn": 1.49
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.07
+   "pct_pn": 1.1
+  },
+  {
+   "activo": "Bolsas y Mercados Argentinos S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.74
   },
   {
    "activo": "FF Megabono 352 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 5.17
+   "pct_pn": 5.07
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.59
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

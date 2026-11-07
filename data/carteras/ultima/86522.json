@@ -1,6 +1,6 @@
 {
  "fondo": "Novus Renta Dólar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Novus Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 6662424.34
+  "Dolar Estadounidense": 6710662.42
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.04
+   "pct_pn": 0.03
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 60.88
+   "pct_pn": 86.88
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 32.51
+   "pct_pn": 9.1
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Cable",
+   "pct_pn": 4.07
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -33,59 +37,69 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 6.57
+   "pct_pn": null
   }
  ],
  "activos": [
   {
+   "activo": "ON Telecom C24",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 13.16
+  },
+  {
    "activo": "ON Vista Energy 33",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 11.93
+   "pct_pn": 11.85
   },
   {
    "activo": "ON Pluspetrol Clase 1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 9.07
+   "pct_pn": 9.01
   },
   {
    "activo": "Bono Prov Santa Fe 8.1% 111234",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.95
-  },
-  {
-   "activo": "ON Pluspetrol Clase 6",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.37
-  },
-  {
-   "activo": "ON Telecom C24",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.11
-  },
-  {
-   "activo": "ON YPF Clase 43",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.6
-  },
-  {
-   "activo": "Bono del Tesoro Nacional AO28",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.97
-  },
-  {
-   "activo": "Bonos Rep Argentina 2029",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.74
-  },
-  {
-   "activo": "ON TGS C4 Reg S",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.21
+   "pct_pn": 8.88
   },
   {
    "activo": "ON Profertil C3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.92
+   "pct_pn": 8.43
+  },
+  {
+   "activo": "ON YPF Clase 31",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.17
+  },
+  {
+   "activo": "ON Tecpetrol C12",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.15
+  },
+  {
+   "activo": "ON Pluspetrol Clase 6",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.31
+  },
+  {
+   "activo": "ON YPF Clase 43",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.61
+  },
+  {
+   "activo": "ON TGS C4 Reg S",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.18
+  },
+  {
+   "activo": "ON YPF Luz C23",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.61
+  },
+  {
+   "activo": "ON YPF Clase 40",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.49
   },
   {
    "activo": "ON Bco Galicia Clase 16",
@@ -95,7 +109,12 @@
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 32.51
+   "pct_pn": 9.1
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Cable",
+   "pct_pn": 4.07
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

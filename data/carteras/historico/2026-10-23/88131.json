@@ -1,0 +1,71 @@
+{
+ "fondo": "Allaria Calificado II",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 33844937995.76
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.91
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 39.0
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.58
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.83
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.18
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.32
+  },
+  {
+   "activo": "FCI Gainvest Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.12
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88131",
+ "nombre_cnv": "ALLARIA CALIFICADO II FCI",
+ "clave": "allaria calificado ii"
+}

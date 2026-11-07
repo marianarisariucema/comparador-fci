@@ -1,0 +1,91 @@
+{
+ "fondo": "Tango Ahorro Plus",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Tango Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 4190252373.62
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 95.15
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.57
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.27
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.37
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.29
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.74
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.21
+  },
+  {
+   "activo": "Pagare #MAV241160071",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.84
+  },
+  {
+   "activo": "Pagare #MAV241160072",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.84
+  },
+  {
+   "activo": "Pagare #MAV171160082",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.35
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.52
+  },
+  {
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.39
+  },
+  {
+   "activo": "FCI Valiant Ahorro - Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.18
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88499",
+ "nombre_cnv": "TANGO AHORRO PLUS",
+ "clave": "tango ahorro plus"
+}

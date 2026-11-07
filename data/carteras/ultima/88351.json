@@ -1,6 +1,6 @@
 {
  "fondo": "GMC Retorno Total VI",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "GMC Asset Management S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 38361142732.78
+  "Peso Argentina": 38539779920.1
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 55.75
+   "pct_pn": 55.83
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.93
+   "pct_pn": 0.92
   },
   {
    "tipo": "Otros Activos",
@@ -29,29 +29,29 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 43.32
+   "pct_pn": 43.25
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.51
+   "pct_pn": 9.55
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.31
+   "pct_pn": 9.34
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.41
+   "pct_pn": 4.42
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.01
+   "pct_pn": 3.02
   },
   {
    "activo": "ON Payway C1",
@@ -61,7 +61,7 @@
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.65
+   "pct_pn": 2.64
   },
   {
    "activo": "ON Banco Prov Clase 7",
@@ -76,7 +76,7 @@
   {
    "activo": "ON Arcor C8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.37
+   "pct_pn": 2.38
   },
   {
    "activo": "ON Banco Prov Clase 6",
@@ -114,17 +114,17 @@
    "pct_pn": 1.32
   },
   {
-   "activo": "Bono del Tesoro Nacional TY30P",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.32
-  },
-  {
    "activo": "ON Edesa Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.32
   },
   {
    "activo": "ON Bco Serv Transac C27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.31
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TY30P",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.31
   },
@@ -136,22 +136,17 @@
   {
    "activo": "ON Banco Nacion Argentina Clase 4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.04
-  },
-  {
-   "activo": "FCI ST Zero - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.44
-  },
-  {
-   "activo": "FCI Toronto T Ahorro B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.39
+   "pct_pn": 1.05
   },
   {
    "activo": "FCI Adcap Ahorro Pesos - Clase I",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.1
+   "pct_pn": 0.52
+  },
+  {
+   "activo": "FCI ST Zero - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.4
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Ahorro",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 11368040108.55
+  "Peso Argentina": 11387395026.98
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 106.66
+   "pct_pn": 108.09
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 4.79
   },
   {
    "tipo": "Otros Activos",
@@ -36,57 +36,62 @@
   {
    "activo": "Cheque Gar.MARV 00072",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.91
+   "pct_pn": 16.96
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.34
+   "pct_pn": 10.37
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.32
+   "pct_pn": 10.36
   },
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.28
+   "pct_pn": 10.2
   },
   {
-   "activo": "Lelink D30O6",
+   "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.34
+   "pct_pn": 9.36
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.97
+   "pct_pn": 9.03
   },
   {
    "activo": "Pagare #MAV041160080",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.68
-  },
-  {
-   "activo": "Bono Boncer TZXO6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.54
+   "pct_pn": 8.7
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.86
+   "pct_pn": 6.88
   },
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.68
+   "pct_pn": 6.69
+  },
+  {
+   "activo": "Cheque E *MAV021101508",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.35
+  },
+  {
+   "activo": "Pagare #MAV241160089",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.29
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.09
+   "pct_pn": 4.07
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
@@ -96,12 +101,22 @@
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.85
+   "pct_pn": 2.86
+  },
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
   },
   {
    "activo": "FCI IAM Ahorro Pesos C B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 4.79
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

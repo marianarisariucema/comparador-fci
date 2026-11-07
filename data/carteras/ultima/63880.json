@@ -1,6 +1,6 @@
 {
  "fondo": "Dracma Balanceado",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Dracma Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 7888864671.1
+  "Peso Argentina": 7873865968.71
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": 0.02
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 56.8
+   "pct_pn": 53.29
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 43.95
+   "pct_pn": 46.8
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.78
   },
   {
    "tipo": "Otros Activos",
@@ -40,12 +40,12 @@
   {
    "activo": "Bonos Rep Argentina AE38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.0
+   "pct_pn": 22.04
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.85
+   "pct_pn": 11.93
   },
   {
    "activo": "Bono Dual TXMD9",
@@ -55,22 +55,17 @@
   {
    "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.43
+   "pct_pn": 5.45
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.29
+   "pct_pn": 3.32
   },
   {
    "activo": "Lecap S29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.92
-  },
-  {
-   "activo": "Lecap S30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.68
+   "pct_pn": 1.93
   },
   {
    "activo": "Bono CABA 2028 BDC28",
@@ -80,72 +75,72 @@
   {
    "activo": "Cedear NU Holdings Ltd",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.52
+   "pct_pn": 6.93
   },
   {
    "activo": "Cedear Mercado Libre",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.43
+   "pct_pn": 6.5
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.85
+   "pct_pn": 5.87
+  },
+  {
+   "activo": "Transportadora Gas del Sur S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.81
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.49
+   "pct_pn": 3.67
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.48
+   "pct_pn": 3.34
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.72
-  },
-  {
-   "activo": "Edenor S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.28
-  },
-  {
-   "activo": "Loma Negra S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.24
+   "pct_pn": 2.7
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.07
+   "pct_pn": 2.23
   },
   {
-   "activo": "Distribuidora de Gas del Centro S.A.",
+   "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.75
+   "pct_pn": 2.22
+  },
+  {
+   "activo": "Edenor S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.15
   },
   {
    "activo": "Grupo Supervielle S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.67
+   "pct_pn": 1.8
   },
   {
-   "activo": "Ternium Argentina S.A.",
+   "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.63
+   "pct_pn": 1.7
   },
   {
    "activo": "Consultatio S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.52
+   "pct_pn": 1.53
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.24
+   "pct_pn": 1.29
   },
   {
    "activo": "Holcim Argentina S.A.",
@@ -155,7 +150,7 @@
   {
    "activo": "FCI BM Smart Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.78
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

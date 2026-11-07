@@ -1,6 +1,6 @@
 {
  "fondo": "CYC Dólares Liquidez",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "C y C Administradora de Fondos S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 2335391.5
+  "Dolar Estadounidense": 4307036.53
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 56.23
+   "pct_pn": 85.55
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.6
+   "pct_pn": 4.67
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 35.12
+   "pct_pn": 9.75
   },
   {
    "tipo": "Otros Activos",
@@ -29,29 +29,24 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.05
+   "pct_pn": 0.03
   }
  ],
  "activos": [
   {
    "activo": "ON ICBC Clase 9 280827",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.6
-  },
-  {
-   "activo": "Caucion Colocadora U$S Merval",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 17.13
+   "pct_pn": 4.67
   },
   {
    "activo": "Pzo Fi U$S Bco Supervielle",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 9.42
+   "pct_pn": 5.11
   },
   {
    "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 8.57
+   "pct_pn": 4.64
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

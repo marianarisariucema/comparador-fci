@@ -1,0 +1,116 @@
+{
+ "fondo": "GMC Retorno Total V",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "GMC Asset Management S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 45223510175.7
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.25
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.59
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.15
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.01
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.37
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.52
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.27
+  },
+  {
+   "activo": "Bono Entre Rios 9.55% 040333",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.7
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C25",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.67
+  },
+  {
+   "activo": "ON Pan American C26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.76
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.38
+  },
+  {
+   "activo": "Bono Boncer 2028 TZXM8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.61
+  },
+  {
+   "activo": "Bono Buenos Aires 2037",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.91
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.88
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.1
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.61
+  },
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.64
+  },
+  {
+   "activo": "Bonos Rep Argentina AE38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.15
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88350",
+ "nombre_cnv": "GMC RETORNO TOTAL V",
+ "clave": "gmc retorno total v"
+}

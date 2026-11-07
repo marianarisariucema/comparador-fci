@@ -1,6 +1,6 @@
 {
  "fondo": "CYC Renta Mixta",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "C y C Administradora de Fondos S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 24991872002.63
+  "Peso Argentina": 25173541872.47
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.13
+   "pct_pn": 3.44
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.62
+   "pct_pn": 0.34
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 96.19
+   "pct_pn": 96.32
   },
   {
    "tipo": "Otros Activos",
@@ -40,67 +40,62 @@
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.13
+   "pct_pn": 3.44
   },
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.62
+   "pct_pn": 0.34
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.29
+   "pct_pn": 9.14
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.19
+   "pct_pn": 9.14
   },
   {
    "activo": "Cedear Vista Oil Gas",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 8.47
+   "pct_pn": 8.89
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.7
-  },
-  {
-   "activo": "Bolsas y Mercados Argentinos S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.68
+   "pct_pn": 8.24
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.66
-  },
-  {
-   "activo": "Transportadora de Gas del Norte S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.39
-  },
-  {
-   "activo": "Distribuidora de Gas del Centro S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.33
+   "pct_pn": 7.69
   },
   {
    "activo": "Inversiones y Representaciones S.A. (IRSA)",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.08
+   "pct_pn": 7.37
+  },
+  {
+   "activo": "Bolsas y Mercados Argentinos S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 7.36
+  },
+  {
+   "activo": "Transportadora de Gas del Norte S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 7.34
+  },
+  {
+   "activo": "Distribuidora de Gas del Centro S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 7.04
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.44
-  },
-  {
-   "activo": "Cedear Microsoft",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.47
+   "pct_pn": 6.8
   },
   {
    "activo": "Cedear Mercado Libre",
@@ -110,12 +105,17 @@
   {
    "activo": "Cedear NU Holdings Ltd",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.12
+   "pct_pn": 5.09
+  },
+  {
+   "activo": "Cedear Microsoft",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.91
   },
   {
    "activo": "Raghsa S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.15
+   "pct_pn": 2.09
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

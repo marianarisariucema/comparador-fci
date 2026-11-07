@@ -1,6 +1,6 @@
 {
  "fondo": "Novus Income",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Novus Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 15155261735.0
+  "Peso Argentina": 15250253867.61
  },
  "por_tipo": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.15
+   "pct_pn": 103.65
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -29,24 +29,24 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 1.83
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Letra Prov Rio Negro S1 031226",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.3
+   "pct_pn": 11.29
   },
   {
    "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.26
+   "pct_pn": 9.28
   },
   {
    "activo": "Letra Entre Rios ERE27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.92
+   "pct_pn": 8.91
   },
   {
    "activo": "Bono Prov Mendoza TAMAR C2",
@@ -54,19 +54,19 @@
    "pct_pn": 5.4
   },
   {
-   "activo": "Letra Municipalidad Rio Cuarto S40",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.29
-  },
-  {
    "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 4.97
   },
   {
+   "activo": "Letra Municipalidad Rio Cuarto S40",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.94
+  },
+  {
    "activo": "Bono Prov de Buenos Aires PBM27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.72
+   "pct_pn": 4.73
   },
   {
    "activo": "Letra Prov Chubut S123 C1",
@@ -76,7 +76,7 @@
   {
    "activo": "ON Mercado Pago C7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.45
+   "pct_pn": 3.44
   },
   {
    "activo": "Bono Muni Cordoba S2 13022027",
@@ -91,7 +91,7 @@
   {
    "activo": "Letra Prov Chubut S121 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.75
+   "pct_pn": 2.74
   },
   {
    "activo": "Pagare #MAV170270017",
@@ -99,14 +99,14 @@
    "pct_pn": 2.71
   },
   {
+   "activo": "Letra Muni Cordoba S53",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.71
+  },
+  {
    "activo": "Pagare #MAV030270024",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.67
-  },
-  {
-   "activo": "Letra Muni Cordoba S53",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.66
   },
   {
    "activo": "Pagare #MAV170270012",
@@ -121,17 +121,17 @@
   {
    "activo": "Bono Muni Cordoba S1 26032027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.31
+   "pct_pn": 2.32
+  },
+  {
+   "activo": "Letra Prov Chubut S122 C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.03
   },
   {
    "activo": "Letra Prov Chubut S122 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.02
-  },
-  {
-   "activo": "Letra Prov Chubut S122 C2",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.01
   },
   {
    "activo": "Pagare #MAV030270023",
@@ -142,6 +142,11 @@
    "activo": "Pagare #MAV030270022",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.79
+  },
+  {
+   "activo": "Cheque E *MAV221101373",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.77
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
@@ -156,7 +161,7 @@
   {
    "activo": "Cheque E *MAV081101293",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.47
+   "pct_pn": 1.46
   },
   {
    "activo": "Cheque E *MAV121101643",
@@ -169,6 +174,11 @@
    "pct_pn": 1.1
   },
   {
+   "activo": "Cheque E *MAV221101374",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.82
+  },
+  {
    "activo": "ON Banco Nacion Argentina Clase 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.7
@@ -179,9 +189,19 @@
    "pct_pn": 0.69
   },
   {
+   "activo": "Cheque E *MAV081200813",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.69
+  },
+  {
    "activo": "Pagare #MAV240270007",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.58
+  },
+  {
+   "activo": "Cheque E *MAV141201590",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.53
   },
   {
    "activo": "Pagare #MAV240270006",

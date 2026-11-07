@@ -1,6 +1,6 @@
 {
  "fondo": "Superfondo Renta Variable",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Santander Asset Management G.F.C.I.S.A.",
  "depositaria": "Banco Santander Argentina S.A.",
  "clasificacion": "Renta Variable",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 159805912058.29
+  "Peso Argentina": 162593782699.09
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.27
+   "pct_pn": 0.19
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 98.26
+   "pct_pn": 98.54
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.7
+   "pct_pn": 2.08
   },
   {
    "tipo": "Otros Activos",
@@ -36,77 +36,77 @@
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.72
+   "pct_pn": 15.84
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.58
+   "pct_pn": 14.85
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 13.96
-  },
-  {
-   "activo": "Bolsas y Mercados Argentinos S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.3
-  },
-  {
-   "activo": "Banco Macro S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.28
-  },
-  {
-   "activo": "Central Puerto S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.22
-  },
-  {
-   "activo": "BBVA Argentina S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.64
+   "pct_pn": 14.8
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.48
+   "pct_pn": 8.41
+  },
+  {
+   "activo": "Banco Macro S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 7.53
+  },
+  {
+   "activo": "Bolsas y Mercados Argentinos S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 6.93
+  },
+  {
+   "activo": "BBVA Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 6.8
+  },
+  {
+   "activo": "Central Puerto S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.21
   },
   {
    "activo": "Grupo Supervielle S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.05
+   "pct_pn": 4.28
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.14
+   "pct_pn": 3.38
   },
   {
    "activo": "Transener S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.5
+   "pct_pn": 2.38
   },
   {
    "activo": "Transportadora de Gas del Norte S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.27
+   "pct_pn": 2.12
   },
   {
    "activo": "Cablevision Holding S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.06
+   "pct_pn": 2.04
   },
   {
    "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.82
+   "pct_pn": 1.77
   },
   {
    "activo": "Banco de Valores S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.64
+   "pct_pn": 1.59
   },
   {
    "activo": "Metrogas S.A.",
@@ -116,7 +116,7 @@
   {
    "activo": "Aluar Aluminio Argentino S.A.I.C.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.26
+   "pct_pn": 0.27
   },
   {
    "activo": "Telecom Argentina S.A.",
@@ -124,14 +124,14 @@
    "pct_pn": 0.03
   },
   {
-   "activo": "FCI Max Money Market - Clase B",
+   "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 1.05
   },
   {
-   "activo": "FCI Allaria Ahorro - Clase C",
+   "activo": "FCI Max Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.65
+   "pct_pn": 1.03
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

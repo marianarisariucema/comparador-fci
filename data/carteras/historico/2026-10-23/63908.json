@@ -1,0 +1,96 @@
+{
+ "fondo": "Consultatio Tactico",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 18391623756.85
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.24
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.75
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.14
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.23
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.78
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.07
+  },
+  {
+   "activo": "Bono Disc ARS Ley AR DICP",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.68
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.73
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.49
+  },
+  {
+   "activo": "ON Arcor C8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.77
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "FCI Champaquí Fondo Inmediato - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.02
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.02
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63908",
+ "nombre_cnv": "CONSULTATIO TACTICO FCI ",
+ "clave": "consultatio tactico"
+}

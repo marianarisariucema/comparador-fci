@@ -1,6 +1,6 @@
 {
  "fondo": "Wise Capital Saving",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Wise Capital Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 9998351229.14
+  "Peso Argentina": 10295175966.26
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.07
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 43.79
+   "pct_pn": 56.22
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 13.59
+   "pct_pn": 7.24
   },
   {
    "tipo": "Otros Activos",
@@ -29,64 +29,49 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 42.55
+   "pct_pn": 36.53
   }
  ],
  "activos": [
   {
-   "activo": "Bono Boncer TZXD7",
+   "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.7
+   "pct_pn": 15.19
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.7
+   "pct_pn": 14.89
   },
   {
-   "activo": "Bono Boncer TX26",
+   "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.41
+   "pct_pn": 9.36
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.17
+   "pct_pn": 6.02
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.08
+   "pct_pn": 5.93
   },
   {
-   "activo": "Boncer TZXY7",
+   "activo": "Bono Boncer 2028 TZXM8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.55
-  },
-  {
-   "activo": "Lecer X29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.03
-  },
-  {
-   "activo": "Bono Boncer TX28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.15
+   "pct_pn": 4.82
   },
   {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 5.5
-  },
-  {
-   "activo": "FCI SBS Ahorro Pesos Cl B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 5.09
+   "pct_pn": 5.0
   },
   {
    "activo": "FCI BM Smart Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.0
+   "pct_pn": 2.24
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

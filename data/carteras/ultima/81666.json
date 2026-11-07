@@ -1,6 +1,6 @@
 {
  "fondo": "First Renta Mixta I",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "First Capital Markets S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 24827349939.82
+  "Peso Argentina": 26440350042.46
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 83.09
+   "pct_pn": 84.05
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 9.18
+   "pct_pn": 9.73
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 10.9
+   "pct_pn": 10.59
   },
   {
    "tipo": "Otros Activos",
@@ -40,122 +40,147 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.79
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.09
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TZVD8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.92
-  },
-  {
-   "activo": "Bono Prov de Buenos Aires TZV28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.9
+   "pct_pn": 23.46
   },
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.1
+   "pct_pn": 21.89
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.28
+  },
+  {
+   "activo": "Bono Prov de Buenos Aires TZV28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.26
   },
   {
    "activo": "Bono Dual TXMJ8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.76
+   "pct_pn": 4.51
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.17
   },
   {
    "activo": "ON YPF Clase 42",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.3
+   "pct_pn": 1.57
   },
   {
    "activo": "ON Pluspetrol Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.99
-  },
-  {
-   "activo": "ON John Deere Cia. Fin C19",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.66
-  },
-  {
-   "activo": "ON Oldelval Clase 5",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.66
-  },
-  {
-   "activo": "ON John Deere Cia. Fin C20",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.65
+   "pct_pn": 0.94
   },
   {
    "activo": "ON Pan American C37",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.65
+   "pct_pn": 0.67
   },
   {
-   "activo": "ON Del Fabro Hnos S1 DFS1L",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.64
-  },
-  {
-   "activo": "ON Diransa C2",
+   "activo": "ON Oldelval Clase 5",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.63
   },
   {
-   "activo": "ON Pyme Gar Venturino S2",
+   "activo": "ON John Deere Cia. Fin C19",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.63
   },
   {
-   "activo": "ON Diesel Lange S1",
+   "activo": "ON Loma Negra C6",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.63
   },
   {
-   "activo": "ON Pyme Gar Bajo Imp Apache S1 C1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.63
-  },
-  {
-   "activo": "ON John Deere Cia. Fin C21",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.63
-  },
-  {
-   "activo": "ON Sidersa Clase 2",
+   "activo": "ON John Deere Cia. Fin C20",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.62
   },
   {
-   "activo": "ON Oldelval Clase 6",
+   "activo": "ON Del Fabro Hnos S1 DFS1L",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.34
+   "pct_pn": 0.6
   },
   {
-   "activo": "ON Futuros y Opciones.com S4 CB",
+   "activo": "ON Diransa C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.6
+  },
+  {
+   "activo": "ON Pyme Gar Venturino S2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.6
+  },
+  {
+   "activo": "ON Pyme Gar Bajo Imp Apache S1 C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.6
+  },
+  {
+   "activo": "ON John Deere Cia. Fin C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.6
+  },
+  {
+   "activo": "ON Sidersa Clase 2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.59
+  },
+  {
+   "activo": "ON Diesel Lange S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.59
+  },
+  {
+   "activo": "ON Scania Credit C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.51
+  },
+  {
+   "activo": "ON Pampa Energia C22",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.45
+  },
+  {
+   "activo": "ON Pluspetrol Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.41
+  },
+  {
+   "activo": "ON Oldelval Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.32
   },
   {
-   "activo": "ON Oiltanking S3",
+   "activo": "ON Futuros y Opciones.com S4 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.2
+   "pct_pn": 0.3
   },
   {
-   "activo": "ON Oldelval Clase 3",
+   "activo": "ON Oiltanking S3",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.19
   },
   {
+   "activo": "ON Oldelval Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.18
+  },
+  {
    "activo": "ON Agronorte Serie 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.11
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
   },
   {
    "activo": "ON Pan American C33",
@@ -165,127 +190,132 @@
   {
    "activo": "Pase Colocador ARS MAV",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 9.18
+   "pct_pn": 8.4
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.32
   },
   {
    "activo": "FF Megabono 326 Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.84
+   "pct_pn": 1.74
   },
   {
    "activo": "FF Crucianelli S1 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.54
+   "pct_pn": 1.47
   },
   {
    "activo": "FF Agrocap S4",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.64
+   "pct_pn": 0.6
+  },
+  {
+   "activo": "FF Moni Mobile 19 A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.57
   },
   {
    "activo": "FF Venturino S1 A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.45
+   "pct_pn": 0.42
   },
   {
    "activo": "FF Mercado Credito 49 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.4
+   "pct_pn": 0.38
   },
   {
    "activo": "FF Mercado Credito 50 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.4
+   "pct_pn": 0.38
   },
   {
    "activo": "FF Mercado Credito 51 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.4
+   "pct_pn": 0.38
   },
   {
    "activo": "FF Moni Mobile 18 A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.38
+   "pct_pn": 0.36
   },
   {
    "activo": "FF Elebar XVII Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.34
+   "pct_pn": 0.32
   },
   {
    "activo": "FF Tarj Fertil S26 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.33
-  },
-  {
-   "activo": "FF Confibono S86 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.33
-  },
-  {
-   "activo": "FF Waynimovil S14 CA",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.32
+   "pct_pn": 0.31
   },
   {
    "activo": "FF Megabono 347 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.32
-  },
-  {
-   "activo": "FF Megabono 348 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.3
   },
   {
    "activo": "FF Creditech S7 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.29
   },
   {
-   "activo": "FF Megabono 351 Clase A",
+   "activo": "FF Megabono 348 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.28
   },
   {
    "activo": "FF Megabono 353 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.28
+   "pct_pn": 0.27
   },
   {
    "activo": "FF San Cristobal S2 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.28
+   "pct_pn": 0.26
   },
   {
-   "activo": "FF Inverlease FSA S2 CA",
+   "activo": "FF Megabono 351 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.24
+   "pct_pn": 0.26
+  },
+  {
+   "activo": "FF Waynimovil S14 CA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.25
   },
   {
    "activo": "FF Megabono 346 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.23
+   "pct_pn": 0.22
   },
   {
    "activo": "FF Creditech S6 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.23
+   "pct_pn": 0.22
   },
   {
-   "activo": "FF Fiducar 32 Clase A",
+   "activo": "FF Confibono S86 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.21
   },
   {
-   "activo": "FF Elebar XVI Clase A",
+   "activo": "FF Fiducar 32 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.14
+   "pct_pn": 0.2
   },
   {
-   "activo": "FF AMFAyS S51 Clase A",
+   "activo": "FF Inverlease FSA S2 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.14
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "FF Elebar XVI Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.13
   },
   {
    "activo": "FF Moni Mobile 17 A",
@@ -293,29 +323,29 @@
    "pct_pn": 0.13
   },
   {
+   "activo": "FF AMFAyS S51 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.13
+  },
+  {
    "activo": "FF Grupo GEP Colservice S1 CA",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.12
-  },
-  {
-   "activo": "FF Confibono S85 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.12
-  },
-  {
-   "activo": "FF Creditech S5 CA",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.11
   },
   {
    "activo": "FF Provincia Leasing S 6A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.09
+   "pct_pn": 0.08
   },
   {
-   "activo": "FF Confibono S84 Clase A",
+   "activo": "FF Creditech S5 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "FF Confibono S85 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.07
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

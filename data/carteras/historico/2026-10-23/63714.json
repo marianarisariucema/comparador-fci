@@ -1,0 +1,80 @@
+{
+ "fondo": "Optimum Total Return",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Santander Asset Management G.F.C.I.S.A.",
+ "depositaria": "Banco Santander Argentina S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 4337327379.45
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 18.55
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 56.85
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.83
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.89
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Pampa Energia C13",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.16
+  },
+  {
+   "activo": "ON Telecom C12 TLCDO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.23
+  },
+  {
+   "activo": "ON Oldelval Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.29
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.17
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.83
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.52
+  },
+  {
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.37
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63714",
+ "nombre_cnv": "Optimum Total Return FCI Ex Optimum FCI Abierto Py",
+ "clave": "optimum total return"
+}

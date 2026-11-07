@@ -1,6 +1,6 @@
 {
  "fondo": "Gainvest Global VII",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-20",
  "gerente": "StoneX Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,16 +8,12 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 12371.59
+  "Peso Argentina": null
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 102.32
-  },
-  {
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.38
+   "pct_pn": null
   },
   {
    "tipo": "Otros Activos",
@@ -28,13 +24,7 @@
    "pct_pn": null
   }
  ],
- "activos": [
-  {
-   "activo": "Bono Dual TTD26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.38
-  }
- ],
+ "activos": [],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
  "id_cnv": "85731",
  "nombre_cnv": "STONEX GLOBAL VII",

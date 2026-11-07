@@ -1,6 +1,6 @@
 {
  "fondo": "Gainvest Estrategia I",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "StoneX Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Global",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 3693120.72
+  "Dolar Estadounidense": 3696097.31
  },
  "por_tipo": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 74.76
+   "pct_pn": 99.69
   },
   {
    "tipo": "Otros Activos",
@@ -25,10 +25,15 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 24.89
+   "pct_pn": null
   }
  ],
  "activos": [
+  {
+   "activo": "Chile 4.85%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 24.91
+  },
   {
    "activo": "BR Brasil 300529",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
@@ -37,7 +42,7 @@
   {
    "activo": "ON YPF Clase 31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 16.92
+   "pct_pn": 16.93
   },
   {
    "activo": "US Treasury Bill 150427",

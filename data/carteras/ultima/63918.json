@@ -1,6 +1,6 @@
 {
  "fondo": "1810 Mas Ahorro",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Proahorro Administradora de Activos S.A.",
  "depositaria": "Banco Credicoop Coop. Ltdo.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 180044332156.96
+  "Peso Argentina": 190226785962.6
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 93.5
+   "pct_pn": 90.0
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.87
+   "pct_pn": 11.82
   },
   {
    "tipo": "Otros Activos",
@@ -36,72 +36,77 @@
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.98
+   "pct_pn": 22.46
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.52
+   "pct_pn": 21.4
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.98
+   "pct_pn": 14.52
   },
   {
-   "activo": "Letra Prov Bs As LB2O6",
+   "activo": "Letra Prov Bs As LBD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.53
+   "pct_pn": 10.96
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.61
+   "pct_pn": 8.11
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.63
+   "pct_pn": 4.74
   },
   {
    "activo": "Letra Prov Bs As LBN26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.78
+   "pct_pn": 2.64
   },
   {
    "activo": "Lecap S29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.61
+   "pct_pn": 2.48
   },
   {
    "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.24
+   "pct_pn": 1.19
   },
   {
    "activo": "Bono Prov de Buenos Aires PBM27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.14
+   "pct_pn": 1.08
   },
   {
    "activo": "ON Rowing S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.48
-  },
-  {
-   "activo": "Pzo Fi $ Bco Supervielle",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.78
+   "pct_pn": 0.42
   },
   {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.78
+   "pct_pn": 6.55
+  },
+  {
+   "activo": "Pzo Fi $ Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.64
   },
   {
    "activo": "Caucion Colocadora $ BYMA",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.31
+   "pct_pn": 1.78
+  },
+  {
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.84
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

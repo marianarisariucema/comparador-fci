@@ -1,6 +1,6 @@
 {
  "fondo": "Vinci Compass Liquidez",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 77975990299.2
+  "Peso Argentina": 79625926325.89
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 17.22
+   "pct_pn": 16.34
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 82.67
+   "pct_pn": 83.53
   },
   {
    "tipo": "Otros Activos",
@@ -25,44 +25,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.11
+   "pct_pn": 0.13
   }
  ],
  "activos": [
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 20.52
+   "pct_pn": 20.09
   },
   {
    "activo": "Pzo Fi $ Bco Coinag",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.49
+   "pct_pn": 17.2
   },
   {
    "activo": "Pzo Fi $ Bco Sol",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 16.83
+   "pct_pn": 13.98
   },
   {
    "activo": "Pzo Fi $ Banco de Serv y Transacciones (BST)",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 12.91
-  },
-  {
-   "activo": "Pzo Fi $ Banco VOII",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 5.18
-  },
-  {
-   "activo": "Pzo Fi $ Bco Provincia",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.87
+   "pct_pn": 12.62
   },
   {
    "activo": "Pzo Fi $ Bco Santander Ri",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.87
+   "pct_pn": 8.84
+  },
+  {
+   "activo": "Pzo Fi $ Banco VOII",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.98
+  },
+  {
+   "activo": "Pzo Fi $ Bco Provincia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.8
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

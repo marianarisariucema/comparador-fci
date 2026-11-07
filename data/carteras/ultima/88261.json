@@ -1,6 +1,6 @@
 {
  "fondo": "Bull Market Ahorro Balanceado III",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Bull Market Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 5014266800.83
+  "Peso Argentina": 5033826331.15
  },
  "por_tipo": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.18
+   "pct_pn": 99.21
   },
   {
    "tipo": "Otros Activos",
@@ -30,24 +30,24 @@
  ],
  "activos": [
   {
-   "activo": "Bono del Tesoro Nacional TY30P",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 25.06
-  },
-  {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.99
+   "pct_pn": 25.1
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.93
+   "pct_pn": 25.02
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TY30P",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 25.0
   },
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.2
+   "pct_pn": 24.09
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

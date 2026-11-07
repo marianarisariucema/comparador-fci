@@ -1,0 +1,66 @@
+{
+ "fondo": "Allaria Gestion II",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 46588821213.81
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 100.13
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 25.25
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.66
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.66
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.97
+  },
+  {
+   "activo": "Bono Disc ARS Ley AR DICP",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.59
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86292",
+ "nombre_cnv": "ALLARIA GESTIÓN II FCI",
+ "clave": "allaria gestion ii"
+}

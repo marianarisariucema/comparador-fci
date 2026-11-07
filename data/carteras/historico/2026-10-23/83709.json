@@ -1,0 +1,42 @@
+{
+ "fondo": "Numancia Pesos",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Zofingen Investment S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 69899726008.73
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 100.02
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pagare #UMV011260003",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 100.02
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "83709",
+ "nombre_cnv": "NUMANCIA PESOS",
+ "clave": "numancia pesos"
+}

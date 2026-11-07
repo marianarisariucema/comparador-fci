@@ -1,6 +1,6 @@
 {
  "fondo": "Compass Renta Mixta Dólares III",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,12 +8,12 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense Billete": 6157792.3
+  "Dolar Estadounidense Billete": 6186131.59
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 8.97
+   "pct_pn": 3.74
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
@@ -21,7 +21,7 @@
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.51
+   "pct_pn": 6.47
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
@@ -29,31 +29,31 @@
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 14.84
+   "pct_pn": 15.45
   },
   {
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 11.66
+   "pct_pn": 9.28
   },
   {
    "tipo": "Participaciones Accionarias Brasil",
-   "pct_pn": 5.49
+   "pct_pn": 5.66
   },
   {
    "tipo": "Participaciones Accionarias Luxemburgo",
-   "pct_pn": 0.51
-  },
-  {
-   "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 2.63
+   "pct_pn": 0.59
   },
   {
    "tipo": "Certificados de Participacion Brasil",
-   "pct_pn": 2.61
+   "pct_pn": 4.16
+  },
+  {
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 2.53
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": null
+   "pct_pn": 0.73
   },
   {
    "tipo": "Pasivos",
@@ -64,17 +64,17 @@
   {
    "activo": "ON Plaza Logistica C5 ZPC5O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 7.28
+   "pct_pn": 7.32
   },
   {
    "activo": "ON Aluar Serie 7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 7.07
+   "pct_pn": 7.03
   },
   {
    "activo": "ON TGS C4 Reg S",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 3.45
+   "pct_pn": 3.44
   },
   {
    "activo": "ON Capex C11",
@@ -84,17 +84,17 @@
   {
    "activo": "ON Edemsa C3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 2.85
+   "pct_pn": 2.9
   },
   {
    "activo": "ON Tecpetrol C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 2.57
+   "pct_pn": 2.56
   },
   {
    "activo": "ON Central Puerto Clase C",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 2.52
+   "pct_pn": 2.54
   },
   {
    "activo": "ON Vaca Muerta C1",
@@ -134,12 +134,12 @@
   {
    "activo": "Bono Prov San Juan SJO35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.4
+   "pct_pn": 1.39
   },
   {
    "activo": "ON Oiltanking S2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.36
+   "pct_pn": 1.33
   },
   {
    "activo": "ON MSU C14",
@@ -184,12 +184,12 @@
   {
    "activo": "BC Adecoagro 7.5% 2032",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.56
+   "pct_pn": 2.57
   },
   {
    "activo": "Latam Airlines 2031",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.18
+   "pct_pn": 2.14
   },
   {
    "activo": "BC Compañia Minera Volcan",
@@ -209,7 +209,7 @@
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.09
+   "pct_pn": 6.53
   },
   {
    "activo": "Cedear Paypal",
@@ -219,87 +219,82 @@
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.65
+   "pct_pn": 1.74
   },
   {
    "activo": "Autopistas del Sol S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.4
-  },
-  {
-   "activo": "Cedear Coreweave Inc",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.13
+   "pct_pn": 1.41
   },
   {
    "activo": "Cedear NU Holdings Ltd",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.03
+   "pct_pn": 1.07
+  },
+  {
+   "activo": "Cedear Coreweave Inc",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.0
   },
   {
    "activo": "Aluar Aluminio Argentino S.A.I.C.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.96
+   "pct_pn": 1.0
   },
   {
    "activo": "Cedear Globant",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.83
+   "pct_pn": 0.95
   },
   {
    "activo": "ADR Loma Negra",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 3.01
+   "pct_pn": 2.76
   },
   {
    "activo": "ADR Vale",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.89
-  },
-  {
-   "activo": "Albemarle Coporation",
-   "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.87
+   "pct_pn": 1.79
   },
   {
    "activo": "Rigetti Computing",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.82
+   "pct_pn": 1.78
   },
   {
    "activo": "Coinbase Global Inc",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.59
+   "pct_pn": 1.5
   },
   {
    "activo": "Oracle Corporation",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.48
+   "pct_pn": 1.45
   },
   {
    "activo": "NU Holdings Ltd",
    "tipo": "Participaciones Accionarias Brasil",
-   "pct_pn": 3.58
+   "pct_pn": 3.73
   },
   {
    "activo": "Adecoagro Brasil S.A.",
    "tipo": "Participaciones Accionarias Brasil",
-   "pct_pn": 1.91
+   "pct_pn": 1.93
   },
   {
    "activo": "Globant",
    "tipo": "Participaciones Accionarias Luxemburgo",
-   "pct_pn": 0.51
-  },
-  {
-   "activo": "Global X Uranium ETF",
-   "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 2.63
+   "pct_pn": 0.59
   },
   {
    "activo": "ETF VanEck Vectors Gold Miners",
    "tipo": "Certificados de Participacion Brasil",
-   "pct_pn": 2.61
+   "pct_pn": 4.16
+  },
+  {
+   "activo": "Global X Uranium ETF",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 2.53
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

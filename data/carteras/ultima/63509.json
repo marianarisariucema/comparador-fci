@@ -1,6 +1,6 @@
 {
  "fondo": "Compass Renta Mixta Dólares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Variable",
@@ -8,20 +8,20 @@
  "region": "Latinoamerica",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense Billete": 52569976.9
+  "Dolar Estadounidense Billete": 52651367.2
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 7.75
+   "pct_pn": 4.19
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 49.51
+   "pct_pn": 51.48
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 42.92
+   "pct_pn": 43.02
   },
   {
    "tipo": "Participaciones Accionarias Chile",
@@ -40,17 +40,22 @@
   {
    "activo": "BC Samarco 9% 2031",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 2.69
+   "pct_pn": 2.68
   },
   {
    "activo": "BC Pretorio 6.75% 101530",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 2.44
+   "pct_pn": 2.45
   },
   {
    "activo": "Bono Ciudad Bs As 261133",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
    "pct_pn": 2.07
+  },
+  {
+   "activo": "BC Aesdom 7.75% 030833",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
+   "pct_pn": 2.05
   },
   {
    "activo": "BC Vale Overseas 2056",
@@ -65,7 +70,7 @@
   {
    "activo": "BC Nova Securitisation 5.75% 030231",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.93
+   "pct_pn": 1.92
   },
   {
    "activo": "BC BRF 2030",
@@ -75,12 +80,12 @@
   {
    "activo": "Bono Neuquen NDG34",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.73
+   "pct_pn": 1.74
   },
   {
    "activo": "ON Genneia Clase 49",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.62
+   "pct_pn": 1.61
   },
   {
    "activo": "Yinson MQ 8.498% 2045",
@@ -95,17 +100,17 @@
   {
    "activo": "BC Celulosa Arauco y Constitución 6.18%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.5
+   "pct_pn": 1.51
   },
   {
    "activo": "BC Simpar Europe 2031",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.36
+   "pct_pn": 1.37
   },
   {
    "activo": "BC Tupy 160231",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.36
+   "pct_pn": 1.37
   },
   {
    "activo": "ON Telecom C24",
@@ -118,19 +123,19 @@
    "pct_pn": 1.26
   },
   {
-   "activo": "BC CoxMex 170931",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.22
-  },
-  {
    "activo": "ON Irsa 2035",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
    "pct_pn": 1.2
   },
   {
+   "activo": "BC CoxMex 170931",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
+   "pct_pn": 1.19
+  },
+  {
    "activo": "BC Glopar 5.5%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.16
+   "pct_pn": 1.17
   },
   {
    "activo": "Ecopetrol 8.875% 2033",
@@ -148,12 +153,12 @@
    "pct_pn": 1.02
   },
   {
-   "activo": "BC Aesdom 7.75% 030833",
+   "activo": "BC Promigas 240656",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
    "pct_pn": 1.02
   },
   {
-   "activo": "BC Promigas 240656",
+   "activo": "BC Banco Nac Mexico 211056",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
    "pct_pn": 1.02
   },
@@ -168,7 +173,17 @@
    "pct_pn": 0.83
   },
   {
+   "activo": "ON Pan American C43",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
+   "pct_pn": 0.82
+  },
+  {
    "activo": "BC CoxMex 080536",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
+   "pct_pn": 0.82
+  },
+  {
+   "activo": "BC Orbia 130535",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
    "pct_pn": 0.82
   },
@@ -178,39 +193,29 @@
    "pct_pn": 0.82
   },
   {
-   "activo": "BC Orbia 130535",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 0.81
-  },
-  {
-   "activo": "ON Pan American C43",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 0.81
-  },
-  {
-   "activo": "BC Banorte 6% Reg S",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 0.81
-  },
-  {
-   "activo": "BC Banco Nac Mexico 070836",
+   "activo": "BC Natura 4.125% 2028",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
    "pct_pn": 0.78
   },
   {
-   "activo": "BC Natura 4.125% 2028",
+   "activo": "BC Banco Nac Mexico 070836",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
    "pct_pn": 0.77
   },
   {
+   "activo": "BC Banorte 6% Reg S",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
+   "pct_pn": 0.73
+  },
+  {
    "activo": "BC BCICI 8.75% Perp",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 0.63
+   "pct_pn": 0.64
   },
   {
    "activo": "BC Arco 32",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 0.61
+   "pct_pn": 0.62
   },
   {
    "activo": "ON TGS C4 Reg S",
@@ -220,7 +225,7 @@
   {
    "activo": "BC Nutresa 120535",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 0.44
+   "pct_pn": 0.45
   },
   {
    "activo": "BC Parex 110531",
@@ -265,27 +270,27 @@
   {
    "activo": "Latam Airlines 2031",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.47
+   "pct_pn": 2.43
   },
   {
    "activo": "BC Yinson Production",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.11
+   "pct_pn": 2.12
   },
   {
    "activo": "BC AES Clase 8.15% 2055",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.1
-  },
-  {
-   "activo": "BC Mundox 7.95% 200431",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.05
+   "pct_pn": 2.11
   },
   {
    "activo": "BC Usiminas International",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 2.04
+  },
+  {
+   "activo": "BC Mundox 7.95% 200431",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.97
   },
   {
    "activo": "BC CMPC 120957",
@@ -295,7 +300,7 @@
   {
    "activo": "BC Aegea Saneamento e Participacoes 9%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.83
+   "pct_pn": 1.81
   },
   {
    "activo": "LD Celulose S.A. 7.95%",
@@ -305,7 +310,7 @@
   {
    "activo": "BC ACUPET 7.5%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.65
+   "pct_pn": 1.66
   },
   {
    "activo": "BC Compañia Minera Volcan S2",
@@ -313,19 +318,24 @@
    "pct_pn": 1.58
   },
   {
-   "activo": "BC CAP 3.9%",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.55
-  },
-  {
    "activo": "BC Petrobras Global Finance 2033",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.55
+   "pct_pn": 1.56
   },
   {
-   "activo": "BC OHI Group 13%",
+   "activo": "BC CAP 3.9%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.47
+   "pct_pn": 1.51
+  },
+  {
+   "activo": "BC Davivienda 6.65% Perp",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.48
+  },
+  {
+   "activo": "BC Bco de Crédito 7.5%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.45
   },
   {
    "activo": "MV24 Capital 6.748%",
@@ -333,9 +343,9 @@
    "pct_pn": 1.45
   },
   {
-   "activo": "BC Bco de Crédito 7.5%",
+   "activo": "BC OHI Group 13%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.44
+   "pct_pn": 1.42
   },
   {
    "activo": "BC Adecoagro 7.5% 2032",
@@ -355,7 +365,7 @@
   {
    "activo": "BC Rumo Lux 4.2% 180132",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.25
+   "pct_pn": 1.24
   },
   {
    "activo": "BC La Construccion 4.75% 070232",
@@ -368,19 +378,14 @@
    "pct_pn": 1.21
   },
   {
-   "activo": "BC Davivienda 6.65% Perp",
+   "activo": "BC Eletrobras 110135",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.14
+   "pct_pn": 1.0
   },
   {
    "activo": "BC Investment Energy Resources 6.25%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.01
-  },
-  {
-   "activo": "BC Eletrobras 110135",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.0
+   "pct_pn": 0.98
   },
   {
    "activo": "BC Al Candelaria 5.75% 130633",
@@ -390,7 +395,7 @@
   {
    "activo": "BC Aeromexico 8.625% 151131",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.84
+   "pct_pn": 0.81
   },
   {
    "activo": "BC UEP Penonome II 6.5%",

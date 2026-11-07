@@ -1,0 +1,110 @@
+{
+ "fondo": "Argenfunds Renta Mixta",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Argenfunds S.A.",
+ "depositaria": "Banco Macro S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 71182717234.06
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 85.93
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 9.44
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.75
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.17
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.79
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.52
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.23
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.3
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.9
+  },
+  {
+   "activo": "Bono Dual TXMJ8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.09
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.94
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.52
+  },
+  {
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.82
+  },
+  {
+   "activo": "Pzo Fi $ Bco Mariva",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.11
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.64
+  },
+  {
+   "activo": "FCI Champaquí Fondo Inmediato - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.11
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63800",
+ "nombre_cnv": "ARGENFUNDS Renta Mixta F.C.I.",
+ "clave": "argenfunds renta mixta"
+}

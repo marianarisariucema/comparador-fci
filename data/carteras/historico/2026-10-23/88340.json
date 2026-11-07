@@ -1,0 +1,82 @@
+{
+ "fondo": "Crecer Liquidez Dolares",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Ciudad Administradora de Activos S.A.U.",
+ "depositaria": "Banco Ciudad de Buenos Aires",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 22656453.18
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 25.49
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 74.51
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 19.2
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 11.51
+  },
+  {
+   "activo": "Pzo Fi U$S Nvo Bco Santa Fe",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 11.5
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 10.83
+  },
+  {
+   "activo": "Pzo Fi U$S Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 7.09
+  },
+  {
+   "activo": "Pzo Fi U$S Bco BBVA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 6.41
+  },
+  {
+   "activo": "Pzo Fi U$S Bco CMF",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 3.76
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Piano",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 2.22
+  },
+  {
+   "activo": "Pzo Fi $ Bco Mariva",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.99
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88340",
+ "nombre_cnv": "CRECER LIQUIDEZ DÓLARES",
+ "clave": "crecer liquidez dolares"
+}

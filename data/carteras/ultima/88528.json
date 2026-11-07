@@ -1,6 +1,6 @@
 {
  "fondo": "GMC Renta Fija Dolares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "GMC Asset Management S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 3612525.74
+  "Dolar Estadounidense": 3610799.99
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.12
+   "pct_pn": null
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 61.81
+   "pct_pn": 53.44
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 17.6
+   "pct_pn": 34.45
   },
   {
    "tipo": "Otros Activos",
@@ -29,39 +29,34 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 20.47
+   "pct_pn": 12.11
   }
  ],
  "activos": [
   {
-   "activo": "ON Pampa Energia C28",
+   "activo": "ON CGC C 36",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 11.07
+   "pct_pn": 8.36
   },
   {
    "activo": "ON Bco Serv Transac C31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.32
+   "pct_pn": 8.33
   },
   {
    "activo": "ON Capex C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.18
+   "pct_pn": 7.17
   },
   {
    "activo": "ON Pluspetrol Clase 6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.84
+   "pct_pn": 5.85
   },
   {
    "activo": "ON John Deere Cia. Fin C19",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 5.76
-  },
-  {
-   "activo": "ON Pecom C3",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.63
   },
   {
    "activo": "ON Edenor C11",
@@ -71,7 +66,7 @@
   {
    "activo": "ON Havanna S1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.28
+   "pct_pn": 4.24
   },
   {
    "activo": "ON Lab. Richmond S8 Clase B",
@@ -86,7 +81,7 @@
   {
    "activo": "FCI Adcap Ahorro Dólares - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 17.6
+   "pct_pn": 34.45
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

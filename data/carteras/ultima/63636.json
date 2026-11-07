@@ -1,6 +1,6 @@
 {
  "fondo": "Schroder Retorno Absoluto",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Schroder S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 46367901652.08
+  "Peso Argentina": 46569690443.99
  },
  "por_tipo": [
   {
@@ -17,7 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.74
+   "pct_pn": 97.81
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.98
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -36,7 +40,12 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.37
+   "pct_pn": 23.44
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.84
   },
   {
    "activo": "Bono Dual TTD26",
@@ -46,7 +55,7 @@
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.12
+   "pct_pn": 14.13
   },
   {
    "activo": "Bono Boncer TX26",
@@ -59,14 +68,9 @@
    "pct_pn": 13.46
   },
   {
-   "activo": "Lecap S30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.91
-  },
-  {
-   "activo": "Letra Tesoro Nac T30A7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.92
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.98
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase C",

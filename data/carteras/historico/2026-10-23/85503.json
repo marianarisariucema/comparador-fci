@@ -1,0 +1,91 @@
+{
+ "fondo": "Adcap Ahorro Dinámico Fondo de Dinero",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 35586664405.66
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.05
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 30.32
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 53.82
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 13.81
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.14
+  },
+  {
+   "activo": "Lecap S29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.82
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.4
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.95
+  },
+  {
+   "activo": "Pzo Fi $ Nvo Bco Chaco",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.93
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 9.84
+  },
+  {
+   "activo": "Pzo Fi $ Bco Sol",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 8.51
+  },
+  {
+   "activo": "Pzo Fi $ Bco Bibank",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 7.11
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.63
+  },
+  {
+   "activo": "Pzo Fi $ Bco Meridian",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.81
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85503",
+ "nombre_cnv": "Adcap Ahorro Dinamico",
+ "clave": "adcap ahorro dinamico"
+}

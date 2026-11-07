@@ -1,6 +1,6 @@
 {
  "fondo": "Compass Renta Mixta VI",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,36 +8,36 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 199694669567.45
+  "Peso Argentina": 202658520839.29
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 2.27
+   "pct_pn": 2.26
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 53.94
+   "pct_pn": 71.27
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 11.61
+   "pct_pn": 2.24
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.66
+   "pct_pn": 4.69
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 26.78
+   "pct_pn": 17.57
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.42
+   "pct_pn": 1.58
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.56
+   "pct_pn": 0.55
   },
   {
    "tipo": "Pasivos",
@@ -46,29 +46,34 @@
  ],
  "activos": [
   {
-   "activo": "Bonos Rep Argentina AE38",
+   "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.92
+   "pct_pn": 17.12
   },
   {
-   "activo": "Bono del Tesoro Nacional AN29",
+   "activo": "Bonos Rep Argentina AE38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.38
+   "pct_pn": 10.78
   },
   {
    "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.98
-  },
-  {
-   "activo": "Lecap S13N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.04
+   "pct_pn": 7.92
   },
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.03
+   "pct_pn": 6.01
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AN29",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.74
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.0
   },
   {
    "activo": "Bono del Tesoro Nacional AO27",
@@ -76,34 +81,29 @@
    "pct_pn": 3.01
   },
   {
+   "activo": "ON Telecom C12 TLCDO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.54
+  },
+  {
    "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.2
   },
   {
-   "activo": "ON Telecom C12 TLCDO",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.96
-  },
-  {
    "activo": "Letra Tamar TEM TMF27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.77
-  },
-  {
-   "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.75
   },
   {
-   "activo": "ON Pan American C33",
+   "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.74
+   "pct_pn": 1.73
   },
   {
-   "activo": "Bono Bonar 2029 AO29",
+   "activo": "ON Pan American C33",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.67
+   "pct_pn": 1.72
   },
   {
    "activo": "ON Telecom C19 TLCKO",
@@ -118,12 +118,12 @@
   {
    "activo": "Bono Prov Cordoba 030235",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.8
+   "pct_pn": 0.77
   },
   {
    "activo": "ON Pan Amer. Energy C 18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.76
+   "pct_pn": 0.75
   },
   {
    "activo": "Bono Entre Rios 9.55% 040333",
@@ -133,7 +133,7 @@
   {
    "activo": "ON Oldelval Clase 7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.62
+   "pct_pn": 0.6
   },
   {
    "activo": "ON Cresud S30 C46",
@@ -156,6 +156,11 @@
    "pct_pn": 0.37
   },
   {
+   "activo": "Bono Bonar 2029 AO29",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.31
+  },
+  {
    "activo": "ON Vista Gas y Oil Arg C17",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.28
@@ -163,87 +168,72 @@
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 11.61
+   "pct_pn": 2.24
   },
   {
    "activo": "BC Brasil 270145",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.37
+   "pct_pn": 2.39
   },
   {
    "activo": "Bono Estado Mexicano 270451",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.29
+   "pct_pn": 2.3
   },
   {
    "activo": "Cedear Facebook",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.81
-  },
-  {
-   "activo": "Cedear Google",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.91
-  },
-  {
-   "activo": "Cedear Amazon",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.9
-  },
-  {
-   "activo": "Cedear Shares MSCI Brazil ETF",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.75
+   "pct_pn": 4.58
   },
   {
    "activo": "Cedear Utilities Select Sectar SPDR Fund",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.53
+   "pct_pn": 2.56
+  },
+  {
+   "activo": "Cedear Shares MSCI Brazil ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.28
   },
   {
    "activo": "Cedear Berkshire Hath Inc",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.11
+   "pct_pn": 2.16
   },
   {
-   "activo": "Cedear Taiwan Semiconduct",
+   "activo": "Cedear Amazon",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.01
+   "pct_pn": 1.49
   },
   {
-   "activo": "Cedear NU Holdings Ltd",
+   "activo": "Cedear Google",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.72
-  },
-  {
-   "activo": "Pampa Energia S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.53
-  },
-  {
-   "activo": "Cedear Ishares S.Korea",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.52
+   "pct_pn": 1.47
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.04
+   "pct_pn": 1.12
+  },
+  {
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.87
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.53
   },
   {
    "activo": "Cedear Mercado Libre",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.01
-  },
-  {
-   "activo": "Cedear Vistra Corporation",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.94
+   "pct_pn": 0.51
   },
   {
    "activo": "FCI Parakeet Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.42
+   "pct_pn": 1.58
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

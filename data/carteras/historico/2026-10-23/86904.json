@@ -1,0 +1,87 @@
+{
+ "fondo": "BAVSA Ahorro Dólar",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "BAVSA Fondos S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 19665064.15
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 42.15
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 45.11
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 12.74
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pzo Fi U$S Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 15.28
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 11.5
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Coinag",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.59
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.07
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Sol",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 3.56
+  },
+  {
+   "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 2.03
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.53
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.53
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Mariva",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 0.51
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 0.51
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86904",
+ "nombre_cnv": "BAVSA AHORRO DÓLAR",
+ "clave": "bavsa ahorro dolar"
+}

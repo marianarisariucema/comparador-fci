@@ -1,6 +1,6 @@
 {
  "fondo": "Delta Multimercado II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 4329638846.97
+  "Peso Argentina": 4348104234.99
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 80.39
+   "pct_pn": 99.97
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.11
   },
   {
    "tipo": "Otros Activos",
@@ -29,7 +29,7 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 19.53
+   "pct_pn": null
   }
  ],
  "activos": [
@@ -41,7 +41,12 @@
   {
    "activo": "Bono CER TZX27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.86
+   "pct_pn": 20.83
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.57
   },
   {
    "activo": "Bono Boncer TX26",
@@ -51,7 +56,7 @@
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.03
+   "pct_pn": 11.06
   },
   {
    "activo": "Bono Dual TTD26",
@@ -61,7 +66,7 @@
   {
    "activo": "FCI Gainvest Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.11
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Ciclo Nova Corto Plazo Dólar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Ciclo Nova Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 62550752.48
+  "Dolar Estadounidense": 54197325.25
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 17.63
+   "pct_pn": 14.96
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 82.37
+   "pct_pn": 85.06
   },
   {
    "tipo": "Otros Activos",
@@ -32,57 +32,57 @@
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 17.52
+   "pct_pn": 17.23
   },
   {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 16.02
+   "pct_pn": 14.79
   },
   {
    "activo": "Pzo Fi U$S Bco Supervielle",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 11.2
+   "pct_pn": 11.08
   },
   {
    "activo": "Pzo Fi $ Bco Patagonia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 8.01
+   "pct_pn": 9.25
   },
   {
    "activo": "Pase Colocador USD BYMA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 7.19
-  },
-  {
-   "activo": "Pzo Fi $ Bco Hipotecario",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 4.81
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Mariva",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 4.8
+   "pct_pn": 6.83
   },
   {
    "activo": "Pzo Fi $ Bco CMF",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.21
+   "pct_pn": 5.55
   },
   {
-   "activo": "Pzo Fi $ Bco BBVA",
+   "activo": "Pzo Fi $ Bco Hipotecario",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.21
+   "pct_pn": 5.55
   },
   {
-   "activo": "Pzo Fi U$S Nvo Bco Indus",
+   "activo": "Pzo Fi U$S Bco Mariva",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.2
+   "pct_pn": 5.54
   },
   {
    "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.2
+   "pct_pn": 3.7
+  },
+  {
+   "activo": "Pzo Fi U$S Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 3.69
+  },
+  {
+   "activo": "Pzo Fi $ Bco BBVA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.85
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

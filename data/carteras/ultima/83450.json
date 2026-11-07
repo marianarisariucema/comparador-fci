@@ -1,6 +1,6 @@
 {
  "fondo": "Novus Liquidez Fondo de Dinero",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Novus Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 46209093535.67
+  "Peso Argentina": 56070153171.11
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 14.24
+   "pct_pn": 21.83
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 85.75
+   "pct_pn": 78.16
   },
   {
    "tipo": "Otros Activos",
@@ -32,47 +32,42 @@
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.04
-  },
-  {
-   "activo": "Pzo Fi $ Bco Nacion",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 17.53
+   "pct_pn": 18.9
   },
   {
    "activo": "Pzo Fi $ Bco Mariva",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 15.3
+   "pct_pn": 10.81
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 10.79
   },
   {
    "activo": "Pzo Fi $ Bco Cordoba",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 8.74
-  },
-  {
-   "activo": "Pzo Fi $ Bco Provincia",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.6
+   "pct_pn": 9.02
   },
   {
    "activo": "Pzo Fi $ Bco Santander Ri",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.52
-  },
-  {
-   "activo": "Pzo Fi $ Bco Comafi",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.41
-  },
-  {
-   "activo": "Pzo Fi $ Bco BBVA",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.38
+   "pct_pn": 8.97
   },
   {
    "activo": "Pase Colocador ARS MAE",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.25
+   "pct_pn": 8.92
+  },
+  {
+   "activo": "Pzo Fi $ Bco Provincia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.39
+  },
+  {
+   "activo": "Pzo Fi $ Bco BBVA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.37
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

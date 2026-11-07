@@ -1,0 +1,97 @@
+{
+ "fondo": "Alpha Pesos",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "ICBC Investments Argentina S.A.U.S.G.F.C.I.",
+ "depositaria": "ICBC (Arg) S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 1943366034125.18
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 22.65
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 76.44
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.91
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 20.2
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.55
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 17.43
+  },
+  {
+   "activo": "Pzo Fi $ Bco BBVA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 8.04
+  },
+  {
+   "activo": "Pzo Fi $ Bco Provincia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.46
+  },
+  {
+   "activo": "Pzo Fi $ Bco Hipotecario",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.82
+  },
+  {
+   "activo": "Pzo Fi $ Bco Macro Bansud",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.31
+  },
+  {
+   "activo": "Pzo Fi $ Bco Valores",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.78
+  },
+  {
+   "activo": "Pzo Fi $ Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.53
+  },
+  {
+   "activo": "Pzo Fi $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.53
+  },
+  {
+   "activo": "Pzo Fi $ Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.52
+  },
+  {
+   "activo": "Pzo Fi $ Bco Cordoba",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.26
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63348",
+ "nombre_cnv": "Alpha Pesos Ex 1784 INVERSION PESOS",
+ "clave": "alpha pesos"
+}

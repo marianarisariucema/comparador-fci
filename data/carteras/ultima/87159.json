@@ -1,6 +1,6 @@
 {
  "fondo": "Wise Capital Hedge",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Wise Capital Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 15882385523.5
+  "Peso Argentina": 15294581394.9
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 30.43
+   "pct_pn": 26.26
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.05
+   "pct_pn": 3.11
   },
   {
    "tipo": "Otros Activos",
@@ -29,24 +29,29 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 68.52
+   "pct_pn": 70.63
   }
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.82
-  },
-  {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.61
+   "pct_pn": 13.64
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.55
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.07
   },
   {
    "activo": "FCI Ciclo Nova Ahorro - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.05
+   "pct_pn": 3.11
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

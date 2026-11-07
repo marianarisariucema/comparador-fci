@@ -1,0 +1,96 @@
+{
+ "fondo": "Novus Gestion II",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Novus Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 2196379135.15
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 97.97
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.1
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 26.84
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.16
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.93
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.99
+  },
+  {
+   "activo": "Letra Prov Bs As PBA27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.24
+  },
+  {
+   "activo": "Bono Bocon 2029 PR17",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.83
+  },
+  {
+   "activo": "ON Morixe C4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.98
+  },
+  {
+   "activo": "FF Creditech S8 CA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.89
+  },
+  {
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.52
+  },
+  {
+   "activo": "FF Confibono S83 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.4
+  },
+  {
+   "activo": "FF Megabono 341 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.29
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86794",
+ "nombre_cnv": "NOVUS GESTIÓN II",
+ "clave": "novus gestion ii"
+}

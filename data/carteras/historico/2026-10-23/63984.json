@@ -1,0 +1,114 @@
+{
+ "fondo": "Consultatio Gestion II",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 6989118.23
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.83
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 85.08
+  },
+  {
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 1.06
+  },
+  {
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 6.66
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 6.44
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "US Treasury Bill 180227",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 17.38
+  },
+  {
+   "activo": "ON Tecpetrol C12",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 15.67
+  },
+  {
+   "activo": "BR Bono Global 2027 10.12%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 15.34
+  },
+  {
+   "activo": "CL Rep Chile 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 14.33
+  },
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 13.55
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C24",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.09
+  },
+  {
+   "activo": "ON YPF Luz C18 YFCJO",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.67
+  },
+  {
+   "activo": "ON Pan Amer. Energy C 12",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.04
+  },
+  {
+   "activo": "ARK Innovation",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 1.06
+  },
+  {
+   "activo": "Spy SyP 500 ETF",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 3.83
+  },
+  {
+   "activo": "ETF PowerShares QQQ Trust Series",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 1.51
+  },
+  {
+   "activo": "Ishares MSCI Brasil",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 1.32
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63984",
+ "nombre_cnv": "CONSULTATIO GESTIÓN II FCI",
+ "clave": "consultatio gestion ii"
+}

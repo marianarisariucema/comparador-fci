@@ -1,0 +1,70 @@
+{
+ "fondo": "Wise Capital Legacy",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Wise Capital Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 2185866170.38
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.31
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 50.55
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 36.4
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 11.85
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.89
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 39.75
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.8
+  },
+  {
+   "activo": "BC Wise Capital Total Return II S528 Notes 2044",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 36.4
+  },
+  {
+   "activo": "FCI BM Smart Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 6.13
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 5.72
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87864",
+ "nombre_cnv": "WISE CAPITAL LEGACY",
+ "clave": "wise capital legacy"
+}

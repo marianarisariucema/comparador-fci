@@ -1,6 +1,6 @@
 {
  "fondo": "Galileo Pesos",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 27912127175.26
+  "Peso Argentina": 29404412190.85
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 29.48
+   "pct_pn": 29.25
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 70.51
+   "pct_pn": 70.71
   },
   {
    "tipo": "Otros Activos",
@@ -25,44 +25,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.01
+   "pct_pn": 0.04
   }
  ],
  "activos": [
   {
    "activo": "Pzo Fi $ ICBC",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 18.11
+   "pct_pn": 17.27
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 14.89
+   "pct_pn": 13.05
   },
   {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 12.33
-  },
-  {
-   "activo": "Pzo Fi $ Bco Cordoba",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 10.9
-  },
-  {
-   "activo": "Pzo Fi $ Bco Santander Ri",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 7.26
+   "pct_pn": 11.75
   },
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.94
+   "pct_pn": 9.86
+  },
+  {
+   "activo": "Pzo Fi $ Bco Cordoba",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 8.9
+  },
+  {
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.93
   },
   {
    "activo": "Pzo Fi $ Bco Provincia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.08
+   "pct_pn": 2.93
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

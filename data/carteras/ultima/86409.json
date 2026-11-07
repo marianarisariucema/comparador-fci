@@ -1,6 +1,6 @@
 {
  "fondo": "Axis Estrategia 13",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Axis S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,28 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 7245058651.79
+  "Peso Argentina": 6414753165.58
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 5.37
+   "pct_pn": 21.57
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 87.9
+   "pct_pn": 85.29
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.92
-  },
-  {
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.91
+   "pct_pn": 6.86
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.12
+   "pct_pn": null
   },
   {
    "tipo": "Pasivos",
@@ -40,77 +36,67 @@
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.2
+   "pct_pn": 30.85
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.46
+   "pct_pn": 27.78
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.94
+   "pct_pn": 15.81
   },
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.95
-  },
-  {
-   "activo": "Bono Dual TTD26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.5
+   "pct_pn": 5.29
   },
   {
    "activo": "ON Bco Galicia Clase 16",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.3
+   "pct_pn": 3.8
   },
   {
    "activo": "ON Albanesi Energia Clase 17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.52
+   "pct_pn": 1.72
   },
   {
    "activo": "Bonos Rep Argentina GD38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 0.04
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.6
+   "pct_pn": 2.91
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.24
+   "pct_pn": 1.49
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.83
+   "pct_pn": 1.01
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.77
+   "pct_pn": 0.87
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.3
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.23
-  },
-  {
-   "activo": "FCI MEGAQM Pesos - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.91
+   "pct_pn": 0.28
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

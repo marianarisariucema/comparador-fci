@@ -1,6 +1,6 @@
 {
  "fondo": "Novus Renta Capital",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Novus Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 18244719936.52
+  "Peso Argentina": 18375813502.11
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.79
+   "pct_pn": 99.27
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": null
+   "pct_pn": 0.07
   },
   {
    "tipo": "Otros Activos",
@@ -29,7 +29,7 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.42
   }
  ],
  "activos": [
@@ -41,27 +41,27 @@
   {
    "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.29
+   "pct_pn": 12.28
   },
   {
    "activo": "Pagare #MAV240270009",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.1
+   "pct_pn": 12.09
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.69
+   "pct_pn": 11.65
   },
   {
    "activo": "Letra Prov Rio Negro S1 031226",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.38
+   "pct_pn": 11.36
   },
   {
    "activo": "Letra Municipalidad Rio Cuarto S40",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.85
+   "pct_pn": 7.33
   },
   {
    "activo": "Bono Prov de Buenos Aires PBM27",
@@ -76,7 +76,7 @@
   {
    "activo": "Bonos Rep Argentina 2029",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.77
+   "pct_pn": 2.82
   },
   {
    "activo": "Letra Prov Chubut S122 C1",
@@ -86,7 +86,7 @@
   {
    "activo": "Letra Muni Cordoba S53",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.21
+   "pct_pn": 2.25
   },
   {
    "activo": "Bono Muni Cordoba S2 13022027",
@@ -96,15 +96,15 @@
   {
    "activo": "Bono Muni Cordoba S1 26032027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.8
-  },
-  {
-   "activo": "Letra Prov Chubut S121 C1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.71
+   "pct_pn": 1.81
   },
   {
    "activo": "ON Banco Prov Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.7
+  },
+  {
+   "activo": "Letra Prov Chubut S121 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.7
   },
@@ -116,7 +116,7 @@
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.31
+   "pct_pn": 1.29
   },
   {
    "activo": "Pagare #MAV111160017",
@@ -136,12 +136,12 @@
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.83
+   "pct_pn": 0.84
   },
   {
    "activo": "Bono del Tesoro Nacional AN29",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.76
+   "pct_pn": 0.77
   },
   {
    "activo": "Letra Prov Chubut S119 C1",
@@ -167,6 +167,11 @@
    "activo": "Pagare #MAV240270008",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.06
+  },
+  {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.07
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

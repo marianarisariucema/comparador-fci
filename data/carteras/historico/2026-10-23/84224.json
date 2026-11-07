@@ -1,0 +1,62 @@
+{
+ "fondo": "Gainvest Balanceado V",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "StoneX Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 5705018069.9
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 6.72
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 93.4
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.67
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.29
+  },
+  {
+   "activo": "Bono CER TZX27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.2
+  },
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.33
+  },
+  {
+   "activo": "Pagare #MAV161160042",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.91
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "84224",
+ "nombre_cnv": "STONEX BALANCEADO V",
+ "clave": "stonex balanceado v"
+}

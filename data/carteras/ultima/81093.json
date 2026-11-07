@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Cima Renta Fija Nacional",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 3555585924.67
+  "Peso Argentina": 3490054944.21
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.04
+   "pct_pn": 0.56
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.28
+   "pct_pn": 96.74
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.81
+   "pct_pn": 2.88
   },
   {
    "tipo": "Otros Activos",
@@ -36,37 +36,32 @@
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.66
+   "pct_pn": 24.21
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.42
+   "pct_pn": 22.93
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.84
+   "pct_pn": 22.32
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.74
+   "pct_pn": 20.27
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.62
-  },
-  {
-   "activo": "Letra Tesoro Nac S30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.76
+   "pct_pn": 5.75
   },
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.1
+   "pct_pn": 1.11
   },
   {
    "activo": "ON Celulosa Argentina",
@@ -76,7 +71,7 @@
   {
    "activo": "FCI MEGAQM Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.81
+   "pct_pn": 2.88
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

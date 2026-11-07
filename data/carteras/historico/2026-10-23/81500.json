@@ -1,0 +1,102 @@
+{
+ "fondo": "Fundcorp Liquidez",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "CMF Asset Management S.A.U.",
+ "depositaria": "Banco C.M.F. S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Peso Argentina",
+ "region": "<Sin Asignar>",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 146230084025.49
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 12.37
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 87.63
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pase Colocador ARS BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.38
+  },
+  {
+   "activo": "Pzo Fi $ Bco Cordoba",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 10.37
+  },
+  {
+   "activo": "Pase Colocador ARS MAE",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 10.17
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 8.99
+  },
+  {
+   "activo": "Pzo Fi $ Bco Wilobank",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.94
+  },
+  {
+   "activo": "Pzo Fi $ Bco Sol",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.56
+  },
+  {
+   "activo": "Pzo Fi $ Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.55
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.47
+  },
+  {
+   "activo": "Pzo Fi $ Bco Mariva",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.16
+  },
+  {
+   "activo": "Pzo Fi $ Banco de Serv y Transacciones (BST)",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.46
+  },
+  {
+   "activo": "Pzo Fi $ Bco BACS",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.45
+  },
+  {
+   "activo": "Pzo Fi $ Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.76
+  },
+  {
+   "activo": "Pzo Fi $ Nvo Bco Chaco",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.38
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "81500",
+ "nombre_cnv": "FUNDCORP LIQUIDEZ",
+ "clave": "fundcorp liquidez"
+}

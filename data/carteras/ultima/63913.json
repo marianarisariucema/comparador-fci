@@ -1,6 +1,6 @@
 {
  "fondo": "Pellegrini Renta Publica Federal",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Pellegrini S.A.S.G.F.C.I.",
  "depositaria": "Banco de La Nacion Argentina",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 20956883075.9
+  "Peso Argentina": 21074349635.28
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.96
+   "pct_pn": 96.02
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.15
+   "pct_pn": 4.2
   },
   {
    "tipo": "Otros Activos",
@@ -41,7 +41,7 @@
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.98
+   "pct_pn": 12.97
   },
   {
    "activo": "Bono Prov Cordoba Clase 4",
@@ -51,7 +51,7 @@
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.3
+   "pct_pn": 10.29
   },
   {
    "activo": "Bono Prov Mendoza TAMAR C2",
@@ -81,7 +81,7 @@
   {
    "activo": "Bono CABA 2028 BDC28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.01
+   "pct_pn": 3.04
   },
   {
    "activo": "Letra Prov Chubut S119 C1",
@@ -91,12 +91,12 @@
   {
    "activo": "Letra Muni Cordoba S53",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.41
+   "pct_pn": 2.45
   },
   {
    "activo": "Letra Prov Bs As LBN26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.11
+   "pct_pn": 2.1
   },
   {
    "activo": "Letra Prov Bs As BBN26",
@@ -111,7 +111,7 @@
   {
    "activo": "Letra Prov Rio Negro S1 240927",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.95
+   "pct_pn": 0.97
   },
   {
    "activo": "Bono Boncer TX26",
@@ -121,12 +121,7 @@
   {
    "activo": "FCI Adcap Ahorro Pesos - Clase I",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.24
-  },
-  {
-   "activo": "FCI Zofingen Pesos Ya - Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.8
+   "pct_pn": 4.09
   },
   {
    "activo": "FCI MEGAQM Pesos - Clase B",

@@ -1,6 +1,6 @@
 {
  "fondo": "Argenfunds Calificado III",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Argenfunds S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,28 +8,32 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 1989997.81
+  "Dolar Estadounidense": 1985710.74
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 9.9
+   "pct_pn": 4.53
   },
   {
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 69.94
+   "pct_pn": 70.99
   },
   {
    "tipo": "Participaciones Accionarias Uruguay",
-   "pct_pn": 6.54
+   "pct_pn": 6.47
   },
   {
    "tipo": "Participaciones Accionarias Brasil",
-   "pct_pn": 5.16
+   "pct_pn": 4.67
+  },
+  {
+   "tipo": "Participaciones Accionarias Corea del Sur",
+   "pct_pn": 2.56
   },
   {
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 8.62
+   "pct_pn": 10.96
   },
   {
    "tipo": "Otros Activos",
@@ -42,64 +46,64 @@
  ],
  "activos": [
   {
+   "activo": "JP Morgan Chase Company",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 6.91
+  },
+  {
    "activo": "Palantir Technologies Inc.",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 6.38
+   "pct_pn": 6.77
   },
   {
    "activo": "Eli Lilly and Company",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 6.0
+   "pct_pn": 6.09
   },
   {
    "activo": "Chevron Texaco Corporation",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 5.57
+   "pct_pn": 5.79
   },
   {
    "activo": "ADR Iberdrola",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 5.31
+   "pct_pn": 5.34
   },
   {
    "activo": "SPDR Consumer Staples",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 5.23
-  },
-  {
-   "activo": "ADR ASML Holding",
-   "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 5.11
+   "pct_pn": 5.28
   },
   {
    "activo": "ADR Taiwan Semiconductor",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 5.06
+   "pct_pn": 5.14
   },
   {
    "activo": "Nvidia Corp.",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 4.89
+   "pct_pn": 4.82
   },
   {
    "activo": "ADR Vista Oil y Gas",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 4.49
+   "pct_pn": 4.68
   },
   {
    "activo": "Roundhill Memory ETF",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 4.24
+   "pct_pn": 4.3
   },
   {
    "activo": "Broadcom Inc.",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 3.98
+   "pct_pn": 3.9
   },
   {
-   "activo": "Uber Technologies Inc.",
+   "activo": "First Trust Porfolios",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 3.89
+   "pct_pn": 2.61
   },
   {
    "activo": "American Express Company",
@@ -107,44 +111,54 @@
    "pct_pn": 2.51
   },
   {
+   "activo": "Google Incorporated",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 2.45
+  },
+  {
    "activo": "Amazon Com Inc",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 2.44
-  },
-  {
-   "activo": "VanEck Agribusiness",
-   "tipo": "Participaciones Accionarias Estados Unidos",
    "pct_pn": 2.42
   },
   {
-   "activo": "First Trust Porfolios",
+   "activo": "Goldman Sachs",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 2.42
+   "pct_pn": 1.98
   },
   {
    "activo": "Mercado Libre Inc",
    "tipo": "Participaciones Accionarias Uruguay",
-   "pct_pn": 6.54
+   "pct_pn": 6.47
   },
   {
    "activo": "Weg S.A.",
    "tipo": "Participaciones Accionarias Brasil",
-   "pct_pn": 5.16
+   "pct_pn": 4.67
+  },
+  {
+   "activo": "SK Hynix Inc.",
+   "tipo": "Participaciones Accionarias Corea del Sur",
+   "pct_pn": 2.56
   },
   {
    "activo": "Global X Uranium ETF",
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 3.63
+   "pct_pn": 3.5
   },
   {
    "activo": "ETF Roundhill Magnificent Seven",
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 2.91
+   "pct_pn": 2.87
+  },
+  {
+   "activo": "Ishares MSCI Brasil",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 2.57
   },
   {
    "activo": "ETF iShares Semiconductor",
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 2.08
+   "pct_pn": 2.02
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

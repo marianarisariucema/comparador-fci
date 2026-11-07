@@ -1,6 +1,6 @@
 {
  "fondo": "Max Renta Fija",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Max Capital Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 21525596131.53
+  "Peso Argentina": 22173519443.91
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 96.26
+   "pct_pn": 97.64
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.9
+   "pct_pn": 6.62
   },
   {
    "tipo": "Otros Activos",
@@ -29,39 +29,39 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 1.84
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.13
-  },
-  {
-   "activo": "Bono Dual TXMJ0",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.74
+   "pct_pn": 27.43
   },
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.18
+   "pct_pn": 26.5
+  },
+  {
+   "activo": "Bono Dual TXMJ0",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.0
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.2
+   "pct_pn": 19.7
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.5
+   "pct_pn": 6.42
   },
   {
    "activo": "FCI Ciclo Nova Ahorro - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.4
+   "pct_pn": 0.2
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

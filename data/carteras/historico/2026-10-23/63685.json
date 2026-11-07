@@ -1,0 +1,82 @@
+{
+ "fondo": "Chaco Fondos Renta Fija I",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Nuevo Chaco Fondos S.A.S.G.F.C.I.",
+ "depositaria": "Nuevo Banco del Chaco S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 2674822945.78
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.55
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 93.98
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 5.47
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.1
+  },
+  {
+   "activo": "Bono Boncer 2028 TZXM8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.43
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.96
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.87
+  },
+  {
+   "activo": "Bono CER TZX27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.21
+  },
+  {
+   "activo": "Letra Prov Chaco BLN26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.94
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.88
+  },
+  {
+   "activo": "ON BACS Clase 19",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.94
+  },
+  {
+   "activo": "ON Agrofina Clase 11",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.64
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63685",
+ "nombre_cnv": "Chaco Fondos Renta Fija I",
+ "clave": "chaco fondos renta fija i"
+}

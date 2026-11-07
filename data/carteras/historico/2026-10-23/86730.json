@@ -1,0 +1,66 @@
+{
+ "fondo": "BAVSA Global II",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "BAVSA Fondos S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 3284673166.34
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.16
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 100.04
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.44
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.79
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.53
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TY30P",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.61
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.1
+  },
+  {
+   "activo": "FCI Axis Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.44
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86730",
+ "nombre_cnv": "BAVSA GLOBAL II",
+ "clave": "bavsa global ii"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "Compass Renta Fija",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,28 +8,28 @@
  "region": "Latinoamerica",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 138368420.34
+  "Dolar Estadounidense": 138500970.09
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.32
+   "pct_pn": 0.51
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 95.37
+   "pct_pn": 97.71
   },
   {
    "tipo": "Participaciones Accionarias Chile",
-   "pct_pn": 3.8
+   "pct_pn": 3.81
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.58
+   "pct_pn": 0.76
   },
   {
    "tipo": "Pasivos",
@@ -40,22 +40,22 @@
   {
    "activo": "BC Banco Votorantim 5.875%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 19.8
-  },
-  {
-   "activo": "BC Bradesco 2027",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.69
+   "pct_pn": 19.81
   },
   {
    "activo": "Bono Corporativo 3.625% 010827",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.66
+   "pct_pn": 7.58
+  },
+  {
+   "activo": "BC Bradesco 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.7
   },
   {
    "activo": "BC Itau Unibanco 270230",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.25
+   "pct_pn": 6.2
   },
   {
    "activo": "BC BTG 080429",
@@ -75,7 +75,7 @@
   {
    "activo": "BC Bradesco 2030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.45
+   "pct_pn": 4.46
   },
   {
    "activo": "BC Suzano Papel 2029",
@@ -105,12 +105,17 @@
   {
    "activo": "BC Gerdau 27102024",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.71
+   "pct_pn": 2.64
   },
   {
    "activo": "BC Invers CMPC 3.85 2030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 2.37
+  },
+  {
+   "activo": "CL Rep Chile 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.87
   },
   {
    "activo": "BC Enap 2033",
@@ -168,17 +173,12 @@
    "pct_pn": 0.54
   },
   {
-   "activo": "BC Latam Airlines 7.875%",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.37
-  },
-  {
-   "activo": "CL Rep Chile 2027",
+   "activo": "CL Rep Chile 28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.36
   },
   {
-   "activo": "CL Rep Chile 28",
+   "activo": "BC Latam Airlines 7.875%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.36
   },
@@ -200,12 +200,17 @@
   {
    "activo": "Caja los Andes",
    "tipo": "Participaciones Accionarias Chile",
-   "pct_pn": 2.62
+   "pct_pn": 2.63
   },
   {
    "activo": "Banco de Chile",
    "tipo": "Participaciones Accionarias Chile",
    "pct_pn": 1.18
+  },
+  {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

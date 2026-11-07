@@ -1,6 +1,6 @@
 {
  "fondo": "Compass Renta Plus II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 36625287300.0
+  "Peso Argentina": 36863827119.31
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 2.84
+   "pct_pn": 3.03
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 64.04
+   "pct_pn": 65.93
   },
   {
    "tipo": "Certificados de Participacion Chile",
-   "pct_pn": 30.71
+   "pct_pn": 30.88
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.52
+   "pct_pn": 0.34
   },
   {
    "tipo": "Otros Activos",
@@ -40,12 +40,12 @@
   {
    "activo": "Cheque #MAV221260032",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.65
+   "pct_pn": 4.64
   },
   {
    "activo": "Cheque #MAV051160019",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.64
+   "pct_pn": 4.63
   },
   {
    "activo": "Cheque #MAV251160032",
@@ -55,12 +55,12 @@
   {
    "activo": "Cheque #MAV261260004",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.09
+   "pct_pn": 4.08
   },
   {
    "activo": "Cheque #MAV270170007",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.84
+   "pct_pn": 3.83
   },
   {
    "activo": "Cheque #MAV200170026",
@@ -110,7 +110,7 @@
   {
    "activo": "Cheque #MAV060170016",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.24
+   "pct_pn": 2.23
   },
   {
    "activo": "Cheque #MAV220470009",
@@ -118,19 +118,24 @@
    "pct_pn": 1.98
   },
   {
-   "activo": "Cheque #MAV111160022",
+   "activo": "Cheque #MAV190170025",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.93
+   "pct_pn": 1.98
+  },
+  {
+   "activo": "Cheque #MAV190170026",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.94
   },
   {
    "activo": "Cheque #MAV040270018",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.87
+   "pct_pn": 1.86
   },
   {
    "activo": "Cheque #MAV151260032",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.72
+   "pct_pn": 1.71
   },
   {
    "activo": "Cheque #MAV221260031",
@@ -155,12 +160,12 @@
   {
    "activo": "Fondo de Inv Arg Private Debt",
    "tipo": "Certificados de Participacion Chile",
-   "pct_pn": 30.71
+   "pct_pn": 30.88
   },
   {
    "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.52
+   "pct_pn": 0.34
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

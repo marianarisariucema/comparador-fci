@@ -1,6 +1,6 @@
 {
  "fondo": "Novus Renta Fija",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Novus Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 2829670601.63
+  "Peso Argentina": 2846866699.8
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 94.3
+   "pct_pn": 94.36
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.89
+   "pct_pn": 4.88
   },
   {
    "tipo": "Otros Activos",
@@ -36,27 +36,27 @@
   {
    "activo": "Pagare #MAV281060039",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.48
+   "pct_pn": 16.51
   },
   {
    "activo": "Pagare #MAV281060054",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.79
-  },
-  {
-   "activo": "Bono del Tesoro Nacional T15E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.04
+   "pct_pn": 15.81
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.04
+   "pct_pn": 13.03
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.0
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.98
+   "pct_pn": 12.96
   },
   {
    "activo": "Pagare #MAV161160068",
@@ -66,17 +66,17 @@
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase B BPOB7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.43
+   "pct_pn": 5.53
   },
   {
    "activo": "Bonos Rep Argentina AE38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.37
+   "pct_pn": 4.34
   },
   {
    "activo": "Pagare #MAV281060056",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.83
+   "pct_pn": 3.84
   },
   {
    "activo": "Pagare #MAV281060040",
@@ -86,7 +86,7 @@
   {
    "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.89
+   "pct_pn": 4.88
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

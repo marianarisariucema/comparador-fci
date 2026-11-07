@@ -1,6 +1,6 @@
 {
  "fondo": "Cocos Renta Dólar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Cocos Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 678296.25
+  "Dolar Estadounidense": 750246.81
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 96.46
+   "pct_pn": 96.17
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.3
+   "pct_pn": 28.57
   },
   {
    "tipo": "Otros Activos",
@@ -32,12 +32,17 @@
   {
    "activo": "Cedear Shares MSCI Brazil ETF",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.61
+   "pct_pn": 14.3
   },
   {
    "activo": "Cedear NU Holdings Ltd",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.69
+   "pct_pn": 9.52
+  },
+  {
+   "activo": "Cedear Itau Unibanco Holdings",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.75
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

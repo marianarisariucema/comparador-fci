@@ -1,6 +1,6 @@
 {
  "fondo": "Delta Gestion III",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 14493858058.45
+  "Peso Argentina": 14612550823.01
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.77
+   "pct_pn": 0.78
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.62
+   "pct_pn": 98.66
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.79
+   "pct_pn": 0.75
   },
   {
    "tipo": "Otros Activos",
@@ -36,47 +36,52 @@
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.55
+   "pct_pn": 17.54
   },
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.67
+   "pct_pn": 12.62
   },
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.23
-  },
-  {
-   "activo": "Letra Tamar TEM TMF27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.17
+   "pct_pn": 12.32
   },
   {
    "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.03
+   "pct_pn": 8.04
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.78
+   "pct_pn": 5.77
   },
   {
    "activo": "ON Telecom C14 TLCFO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.47
+   "pct_pn": 5.48
   },
   {
    "activo": "Letra Tamar TEM TMF28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.11
+   "pct_pn": 5.19
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.76
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.36
   },
   {
    "activo": "Bono CER TZX27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.77
+   "pct_pn": 3.75
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
@@ -86,12 +91,12 @@
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.19
+   "pct_pn": 3.16
   },
   {
    "activo": "Bonos Rep Argentina GD46",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.12
+   "pct_pn": 2.16
   },
   {
    "activo": "ON Aluar Serie 6",
@@ -101,12 +106,12 @@
   {
    "activo": "Bono Boncer TZXD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.66
+   "pct_pn": 1.65
   },
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.58
+   "pct_pn": 1.56
   },
   {
    "activo": "ON Vista Gas y Oil Arg C21",
@@ -121,7 +126,7 @@
   {
    "activo": "ON Pan American C26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.46
+   "pct_pn": 1.47
   },
   {
    "activo": "ON Pan Amer. Energy C 12",
@@ -131,7 +136,7 @@
   {
    "activo": "FCI Pionero Pesos Plus - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.79
+   "pct_pn": 0.75
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

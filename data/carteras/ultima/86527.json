@@ -1,6 +1,6 @@
 {
  "fondo": "Champaquí Renta Plus",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Bancor Fondos S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Cordoba S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 2021429652.24
+  "Peso Argentina": 2271221373.32
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.15
+   "pct_pn": 96.62
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.08
+   "pct_pn": 3.86
   },
   {
    "tipo": "Otros Activos",
@@ -36,32 +36,37 @@
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.91
+   "pct_pn": 24.06
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.7
+   "pct_pn": 23.87
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.36
+   "pct_pn": 23.54
   },
   {
    "activo": "Lecap S29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.35
+   "pct_pn": 16.18
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.82
+   "pct_pn": 6.09
   },
   {
-   "activo": "FCI ST Zero - Clase C",
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.88
+  },
+  {
+   "activo": "FCI MAF Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.08
+   "pct_pn": 3.86
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

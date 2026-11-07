@@ -1,6 +1,6 @@
 {
  "fondo": "Bull Market Renta Fija Dólar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Bull Market Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 52752940.28
+  "Dolar Estadounidense": 52741155.31
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 98.6
+   "pct_pn": 98.38
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.03
+   "pct_pn": 1.28
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.75
+   "pct_pn": 0.52
   },
   {
    "tipo": "Otros Activos",
@@ -40,37 +40,42 @@
   {
    "activo": "Bono Bopreal 2028 Serie 4 Clase B BPOB8",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 17.95
+   "pct_pn": 18.0
   },
   {
    "activo": "Bonos Rep Argentina GD35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.41
+   "pct_pn": 5.38
   },
   {
    "activo": "Pagare #UMV220270002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.11
+   "pct_pn": 4.12
   },
   {
    "activo": "Pagare #UMV030570005",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.9
+   "pct_pn": 3.91
   },
   {
    "activo": "Pagare #UMV030570008",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.9
+   "pct_pn": 3.91
   },
   {
    "activo": "ON Bco Patagonia Cl 4",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.9
+   "pct_pn": 3.91
   },
   {
    "activo": "ON Pan American C43",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.53
+   "pct_pn": 3.52
+  },
+  {
+   "activo": "ON YPF Clase 34",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.34
   },
   {
    "activo": "Pagare #UMV010370003",
@@ -83,34 +88,29 @@
    "pct_pn": 3.32
   },
   {
-   "activo": "ON YPF Clase 34",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.32
-  },
-  {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.82
+   "pct_pn": 2.78
   },
   {
    "activo": "Bonos Rep Argentina AE38",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.58
+   "pct_pn": 2.55
   },
   {
    "activo": "Bono Bopreal 2028 Serie 4 Clase A BPOA8",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.11
+   "pct_pn": 2.12
   },
   {
    "activo": "ON Tecpetrol C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.07
+   "pct_pn": 2.08
   },
   {
    "activo": "ON Supervielle Clase W",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.93
+   "pct_pn": 1.92
   },
   {
    "activo": "ON Bco Patagonia Cl 5",
@@ -185,12 +185,12 @@
   {
    "activo": "Pagare #UMV020370007",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.81
+   "pct_pn": 0.82
   },
   {
    "activo": "Pagare #UMV040370014",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.71
+   "pct_pn": 0.72
   },
   {
    "activo": "Pagare #UMV250170061",
@@ -263,14 +263,14 @@
    "pct_pn": 0.4
   },
   {
-   "activo": "Pagare #UMV040370015",
+   "activo": "Pagare #UMV200170025",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.37
   },
   {
-   "activo": "Pagare #UMV200170025",
+   "activo": "Pagare #UMV040370015",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.36
+   "pct_pn": 0.37
   },
   {
    "activo": "Pagare #UMV010370010",
@@ -323,11 +323,6 @@
    "pct_pn": 0.25
   },
   {
-   "activo": "ON Bco Patagonia Cl 6",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
-  },
-  {
    "activo": "Pagare #UMV040170003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.2
@@ -335,12 +330,12 @@
   {
    "activo": "Pagare #UMV250170059",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.19
+   "pct_pn": 0.2
   },
   {
    "activo": "Pagare #UMV250170060",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.19
+   "pct_pn": 0.2
   },
   {
    "activo": "Pagare #UMV110570001",
@@ -363,9 +358,14 @@
    "pct_pn": 1.03
   },
   {
+   "activo": "ON Bco Patagonia Cl 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.25
+  },
+  {
    "activo": "FCI Allaria Dólar Ahorro - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.75
+   "pct_pn": 0.52
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

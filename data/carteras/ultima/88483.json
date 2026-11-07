@@ -1,6 +1,6 @@
 {
  "fondo": "Tandem Global IV",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Tandem Capital S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 7209162.12
+  "Dolar Estadounidense": 7250913.6
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.14
+   "pct_pn": 1.27
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 75.21
+   "pct_pn": 78.19
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 9.22
+   "pct_pn": 6.48
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.11
+   "pct_pn": 3.81
   },
   {
    "tipo": "Otros Activos",
@@ -33,79 +33,79 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 10.32
+   "pct_pn": 10.25
   }
  ],
  "activos": [
   {
+   "activo": "ON Pluspetrol Clase 5",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.98
+  },
+  {
    "activo": "ON YPF Clase 39",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 12.21
+   "pct_pn": 12.26
   },
   {
    "activo": "ON Tecpetrol C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 9.63
-  },
-  {
-   "activo": "ON Oldelval Clase 7",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.72
-  },
-  {
-   "activo": "ON Luz De Tres Picos C5",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.6
+   "pct_pn": 9.57
   },
   {
    "activo": "ON Mirgor Clase 6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.6
+   "pct_pn": 5.58
+  },
+  {
+   "activo": "ON Luz De Tres Picos C5",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.58
   },
   {
    "activo": "ON Mastellone Clase 2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.59
+   "pct_pn": 5.56
   },
   {
    "activo": "Bono Prov Santa Fe 8.1% 111234",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.36
-  },
-  {
-   "activo": "ON Pluspetrol Clase 5",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.88
+   "pct_pn": 5.35
   },
   {
    "activo": "ON YPF Clase 31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.59
+   "pct_pn": 4.53
   },
   {
    "activo": "Bono Prov Cordoba 030235",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.27
+   "pct_pn": 3.23
   },
   {
-   "activo": "ON PCR Clase R",
+   "activo": "ON Vista Gas y Oil Arg C26",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.88
+   "pct_pn": 2.94
   },
   {
    "activo": "Bono Entre Rios 9.55% 040333",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.8
+   "pct_pn": 2.79
+  },
+  {
+   "activo": "ON PCR Clase R",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.78
   },
   {
    "activo": "ON Pecom C3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.17
+   "pct_pn": 2.16
   },
   {
    "activo": "ON Tecnovax S1 C2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.11
+   "pct_pn": 2.1
   },
   {
    "activo": "Pagare #UMV190370009",
@@ -120,12 +120,12 @@
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 9.22
+   "pct_pn": 6.48
   },
   {
    "activo": "FCI Allaria Dólar Ahorro - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.11
+   "pct_pn": 3.81
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

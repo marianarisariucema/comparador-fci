@@ -1,6 +1,6 @@
 {
  "fondo": "Delta Dólares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 55519984.08
+  "Dolar Estadounidense": 56210484.79
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 29.47
+   "pct_pn": 28.03
   },
   {
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 70.55
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 71.99
   },
   {
    "tipo": "Otros Activos",
@@ -30,44 +30,49 @@
  ],
  "activos": [
   {
-   "activo": "Caucion Colocadora U$S BYMA",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 19.19
+   "activo": "Pzo Fi U$S Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 17.44
   },
   {
-   "activo": "Pzo Fi U$S Bco Patagonia",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 16.4
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 15.21
   },
   {
    "activo": "Pzo Fi U$S Bco Galicia",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
    "pct_pn": 14.95
   },
   {
    "activo": "Pzo Fi U$S Bco Nacion",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 12.07
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 11.92
+  },
+  {
+   "activo": "Caucion Colocadora U$S MAE",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.63
   },
   {
    "activo": "Pzo Fi U$S Bco Hipot",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 2.88
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 2.85
   },
   {
    "activo": "Pzo Fi U$S Nvo Bco Indus",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 2.52
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 2.49
   },
   {
    "activo": "Pzo Fi U$S Bco Supervielle",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 1.99
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.96
   },
   {
    "activo": "Pzo Fi U$S Bco CMF",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 0.54
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 0.53
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

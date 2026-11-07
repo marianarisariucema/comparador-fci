@@ -1,6 +1,6 @@
 {
  "fondo": "ConoSur Financiamiento II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Cono Sur S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 1385204107.52
+  "Peso Argentina": 1399529473.18
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.08
+   "pct_pn": 0.03
   },
   {
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 73.22
+   "pct_pn": 73.23
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 24.11
+   "pct_pn": 24.13
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.61
+   "pct_pn": 2.64
   },
   {
    "tipo": "Otros Activos",
@@ -40,7 +40,7 @@
   {
    "activo": "Pagare #UMV301060054",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 41.93
+   "pct_pn": 41.94
   },
   {
    "activo": "Pagare #UDO310870002",
@@ -80,12 +80,12 @@
   {
    "activo": "Pagare #UDO300770003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.57
+   "pct_pn": 4.58
   },
   {
    "activo": "Pagare #UDO200870001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.12
+   "pct_pn": 3.13
   },
   {
    "activo": "Pagare #UDO060870001",
@@ -110,7 +110,7 @@
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.61
+   "pct_pn": 2.64
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

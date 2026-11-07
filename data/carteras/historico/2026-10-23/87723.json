@@ -1,0 +1,52 @@
+{
+ "fondo": "Axis Estrategia Dólar 6",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Axis S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Dolar Estadounidense Billete",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense Billete": 82969.39
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 6.38
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 150.47
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pagare #UMV221060012",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 66.22
+  },
+  {
+   "activo": "Pagare #UMV241060005",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 54.15
+  },
+  {
+   "activo": "Pagare #UMV251060005",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 30.09
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87723",
+ "nombre_cnv": "AXIS ESTRATEGIA DÓLAR 6 ",
+ "clave": "axis estrategia dolar 6"
+}

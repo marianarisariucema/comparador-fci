@@ -1,6 +1,6 @@
 {
  "fondo": "GSS Retorno Total",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Grupo SS S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,12 +8,12 @@
  "region": "Global",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 19927135692.3
+  "Peso Argentina": 19953739172.48
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
@@ -21,7 +21,7 @@
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.27
+   "pct_pn": 7.1
   },
   {
    "tipo": "Otros Activos",
@@ -29,44 +29,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.07
   }
  ],
  "activos": [
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.91
+   "pct_pn": 21.97
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.13
-  },
-  {
-   "activo": "Bono Boncer TZX28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.66
-  },
-  {
-   "activo": "Lecer X29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.85
-  },
-  {
-   "activo": "Lecer X30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.71
+   "pct_pn": 21.01
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.8
+   "pct_pn": 10.94
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.89
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.7
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.46
+   "pct_pn": 5.47
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.95
   },
   {
    "activo": "Bono Par ARS Ley AR PARP",
@@ -74,9 +74,14 @@
    "pct_pn": 3.43
   },
   {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.57
+  },
+  {
    "activo": "ON GEMSA y CTR C43",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.44
+   "pct_pn": 1.45
   },
   {
    "activo": "Bono Boncer TX28",
@@ -91,17 +96,17 @@
   {
    "activo": "FF Cites I",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.03
+   "pct_pn": 6.96
   },
   {
    "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 0.13
   },
   {
    "activo": "FCI BM Smart Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.02
+   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

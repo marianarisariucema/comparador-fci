@@ -1,0 +1,82 @@
+{
+ "fondo": "Pellegrini Liquidez Pesos",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Pellegrini S.A.S.G.F.C.I.",
+ "depositaria": "Banco de La Nacion Argentina",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 119868910320.96
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 12.94
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 85.14
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 1.92
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 18.1
+  },
+  {
+   "activo": "Pzo Fi $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 16.23
+  },
+  {
+   "activo": "Pase Colocador ARS MAE",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 13.35
+  },
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 12.51
+  },
+  {
+   "activo": "Pzo Fi $ Bco BBVA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.12
+  },
+  {
+   "activo": "Pzo Fi $ Bco Credicoop",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.94
+  },
+  {
+   "activo": "Pzo Fi $ Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.93
+  },
+  {
+   "activo": "Pzo Fi $ Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.24
+  },
+  {
+   "activo": "Pzo Fi $ Bco Hipotecario",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.7
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87675",
+ "nombre_cnv": "PELLEGRINI LIQUIDEZ PESOS",
+ "clave": "pellegrini liquidez pesos"
+}

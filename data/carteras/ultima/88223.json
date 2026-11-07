@@ -1,6 +1,6 @@
 {
  "fondo": "Quiron Money Market USD",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Quiron Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 2100267.45
+  "Dolar Estadounidense": 2067377.47
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 83.55
+   "pct_pn": 76.08
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 16.36
+   "pct_pn": 23.84
   },
   {
    "tipo": "Otros Activos",
@@ -25,29 +25,34 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.09
+   "pct_pn": 0.08
   }
  ],
  "activos": [
   {
    "activo": "Pzo Fi U$S Bco Coinag",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 9.67
+   "pct_pn": 12.21
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.84
   },
   {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.82
+   "pct_pn": 3.88
   },
   {
    "activo": "Pzo Fi U$S Bco Supervielle",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 1.44
+   "pct_pn": 1.46
   },
   {
    "activo": "Pzo Fi U$S Bco Hipot",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 1.44
+   "pct_pn": 1.46
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

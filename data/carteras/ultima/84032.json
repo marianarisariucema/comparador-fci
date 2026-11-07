@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Balanceado IV",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Variable",
@@ -8,7 +8,7 @@
  "region": "Global",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 30054010252.78
+  "Peso Argentina": 30213690668.62
  },
  "por_tipo": [
   {
@@ -17,7 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.67
+   "pct_pn": 99.69
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 10.07
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -36,42 +40,42 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.41
+   "pct_pn": 27.47
   },
   {
    "activo": "Letra Tesoro Nac D31M7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.96
+   "pct_pn": 24.93
   },
   {
    "activo": "Bono del Tesoro Nacional TZV27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.63
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.09
-  },
-  {
-   "activo": "Lelink D30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.06
+   "pct_pn": 24.53
   },
   {
    "activo": "Letra Tesoro Nac D15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.52
+   "pct_pn": 12.59
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.08
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 10.07
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.36
-  },
-  {
-   "activo": "FCI MEGAQM Pesos - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.37
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

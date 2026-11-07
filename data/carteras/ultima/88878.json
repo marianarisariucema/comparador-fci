@@ -1,6 +1,6 @@
 {
  "fondo": "Unico Liquidez Pesos",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Comafi Administradora de Inversiones S.G.F.C.I.S.A.U.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 3020611184.66
+  "Peso Argentina": 49609404091.6
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 3.73
+   "pct_pn": 1.59
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 9.93
+   "pct_pn": 98.41
   },
   {
    "tipo": "Otros Activos",
@@ -25,14 +25,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 86.34
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "Caucion Colocadora $ Merval",
+   "activo": "Pzo Fi $ Bco BBVA",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 9.93
+   "pct_pn": 19.15
+  },
+  {
+   "activo": "Pzo Fi $ Bco Cordoba",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.15
+  },
+  {
+   "activo": "Pzo Fi $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 18.35
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 18.35
+  },
+  {
+   "activo": "Pzo Fi $ Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 17.14
+  },
+  {
+   "activo": "Pzo Fi $ Bco Sol",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.04
+  },
+  {
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.23
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

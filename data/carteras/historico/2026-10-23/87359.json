@@ -1,0 +1,155 @@
+{
+ "fondo": "MP Ahorro",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Mercado Pago Asset Managemet S.A.",
+ "depositaria": "Banco Industrial S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 349629884400.82
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 80.28
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.69
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.67
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.78
+  },
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.53
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.8
+  },
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.37
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.53
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.59
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.18
+  },
+  {
+   "activo": "ON Banco Prov Clase 7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.33
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.15
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.09
+  },
+  {
+   "activo": "ON Rombo Cia Fciera S69",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.88
+  },
+  {
+   "activo": "ON ICBC Clase 8 280827",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.6
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.32
+  },
+  {
+   "activo": "ON Santander Rio S 32",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.15
+  },
+  {
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 7.2
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.55
+  },
+  {
+   "activo": "Pzo Fi $ Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.14
+  },
+  {
+   "activo": "Pzo Fi $ Bco BACS",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.03
+  },
+  {
+   "activo": "Pzo Fi $ Bco Credicoop",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.62
+  },
+  {
+   "activo": "Pzo Fi $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.58
+  },
+  {
+   "activo": "Pzo Fi $ Bco BBVA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.58
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.67
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87359",
+ "nombre_cnv": "MP AHORRO",
+ "clave": "mp ahorro"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "Schroder Multiactivos",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Schroder S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 37079988801.52
+  "Peso Argentina": 37237099862.1
  },
  "por_tipo": [
   {
@@ -17,15 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 91.83
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.03
+   "pct_pn": 98.99
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.51
+   "pct_pn": 0.4
   },
   {
    "tipo": "Otros Activos",
@@ -45,37 +41,32 @@
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.24
-  },
-  {
-   "activo": "Bono Dual TTD26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.97
-  },
-  {
-   "activo": "Bono Dual TXMD9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.93
+   "pct_pn": 21.65
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.79
+   "pct_pn": 17.59
+  },
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.98
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.86
   },
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.27
-  },
-  {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.03
+   "pct_pn": 6.28
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.51
+   "pct_pn": 0.4
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Valiant Renta Fija Balanceado II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Valiant Asset Management S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 32902800741.05
+  "Peso Argentina": 33029553957.24
  },
  "por_tipo": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 100.18
+   "pct_pn": 100.26
   },
   {
    "tipo": "Otros Activos",
@@ -37,17 +37,17 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.45
+   "pct_pn": 13.49
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.17
+   "pct_pn": 9.21
   },
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.13
+   "pct_pn": 6.12
   },
   {
    "activo": "Pagare #MAV120570003",
@@ -57,7 +57,7 @@
   {
    "activo": "ON Banco de Galicia 32 BYY1O",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.99
+   "pct_pn": 5.0
   },
   {
    "activo": "Pagare #MAV120670001",
@@ -67,12 +67,12 @@
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.83
+   "pct_pn": 4.81
   },
   {
    "activo": "ON Banco Prov Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.13
+   "pct_pn": 3.14
   },
   {
    "activo": "Pagare #MAV100370007",
@@ -102,7 +102,7 @@
   {
    "activo": "Pagare #MAV061270003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.86
+   "pct_pn": 1.85
   },
   {
    "activo": "Pagare #MAV090380002",
@@ -115,6 +115,11 @@
    "pct_pn": 1.8
   },
   {
+   "activo": "Bono Boncer 2028 TZXM8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.64
+  },
+  {
    "activo": "Pagare #MAV150370004",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.64
@@ -123,11 +128,6 @@
    "activo": "Pagare #MAV150370002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.64
-  },
-  {
-   "activo": "Bono Boncer 2028 TZXM8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.63
   },
   {
    "activo": "Bono Boncer TXMJ9",
@@ -182,7 +182,7 @@
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.56
+   "pct_pn": 0.55
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

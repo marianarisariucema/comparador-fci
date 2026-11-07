@@ -1,6 +1,6 @@
 {
  "fondo": "SBS Tavelli Plus",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Variable",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 4849174676.81
+  "Peso Argentina": 4947473815.7
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.74
+   "pct_pn": 0.71
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 98.67
+   "pct_pn": 98.77
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.57
+   "pct_pn": 0.56
   },
   {
    "tipo": "Otros Activos",
@@ -29,64 +29,69 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.02
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "Bolsas y Mercados Argentinos S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 17.12
-  },
-  {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.6
+   "pct_pn": 16.49
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.38
+   "pct_pn": 15.1
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 13.32
-  },
-  {
-   "activo": "Cedear Petrobras",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 12.11
+   "pct_pn": 13.89
   },
   {
    "activo": "Cedear Banco Bradesco",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 10.07
+   "pct_pn": 12.23
+  },
+  {
+   "activo": "Cedear Petrobras",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 12.19
+  },
+  {
+   "activo": "Bolsas y Mercados Argentinos S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 9.33
   },
   {
    "activo": "Holcim Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.43
+   "pct_pn": 7.28
   },
   {
    "activo": "Molinos Rio de la Plata S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.31
+   "pct_pn": 5.06
+  },
+  {
+   "activo": "Telecom Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.77
   },
   {
    "activo": "Aluar Aluminio Argentino S.A.I.C.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.9
+   "pct_pn": 1.98
   },
   {
    "activo": "Rigolleau S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.43
+   "pct_pn": 0.45
   },
   {
    "activo": "FCI Adcap Ahorro Pesos - Clase I",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.57
+   "pct_pn": 0.56
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

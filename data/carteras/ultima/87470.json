@@ -1,6 +1,6 @@
 {
  "fondo": "Crecer Renta Dólares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Ciudad Administradora de Activos S.A.U.",
  "depositaria": "Banco Ciudad de Buenos Aires",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 8236669.48
+  "Dolar Estadounidense": 8145067.99
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.54
+   "pct_pn": 0.74
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 91.09
+   "pct_pn": 94.48
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 8.5
+   "pct_pn": 8.59
   },
   {
    "tipo": "Otros Activos",
@@ -36,47 +36,42 @@
   {
    "activo": "Bonos Rep Argentina 2030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 16.89
+   "pct_pn": 16.91
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 15.88
-  },
-  {
-   "activo": "Bonos Rep Argentina GD35",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 14.42
-  },
-  {
-   "activo": "Bono Bopreal Serie 1 D",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 11.49
-  },
-  {
-   "activo": "Bono del Tesoro Nacional AO27",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 10.66
-  },
-  {
-   "activo": "Bonos Rep Argentina GD41",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 10.02
+   "pct_pn": 15.87
   },
   {
    "activo": "Bonos Rep Argentina GD30",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.3
+   "pct_pn": 14.56
   },
   {
-   "activo": "Bonos Rep Argentina AL35",
+   "activo": "Bonos Rep Argentina GD35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.43
+   "pct_pn": 14.52
+  },
+  {
+   "activo": "Bono Bopreal Serie 1 D",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 11.66
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.8
+  },
+  {
+   "activo": "Bonos Rep Argentina GD41",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.15
   },
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 8.5
+   "pct_pn": 8.59
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Capital Sudamericano",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Latinoamerica",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 16477261.75
+  "Dolar Estadounidense": 16493731.65
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 4.9
+   "pct_pn": 4.92
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 77.55
+   "pct_pn": 78.73
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
@@ -36,12 +36,12 @@
   {
    "activo": "UY Rep Or Uruguay 271027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 15.24
+   "pct_pn": 15.25
   },
   {
    "activo": "BC Bco Credito e Inv 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 9.57
+   "pct_pn": 9.56
   },
   {
    "activo": "CL Rep Chile 28",
@@ -51,7 +51,12 @@
   {
    "activo": "BR Rep Brasil 28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 9.18
+   "pct_pn": 9.19
+  },
+  {
+   "activo": "BC Enap 2029",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 8.62
   },
   {
    "activo": "PAR Rep del Paraguay 2027",
@@ -59,24 +64,19 @@
    "pct_pn": 8.52
   },
   {
-   "activo": "BC Enap 2029",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 7.38
-  },
-  {
    "activo": "BR Bono Global 2027 10.12%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 6.51
-  },
-  {
-   "activo": "BC Latam Airlines 7.875%",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 4.29
+   "pct_pn": 6.5
   },
   {
    "activo": "BC Adecoagro 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
    "pct_pn": 4.25
+  },
+  {
+   "activo": "BC Latam Airlines 7.875%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 4.24
   },
   {
    "activo": "BC BTG 080429",
@@ -96,7 +96,7 @@
   {
    "activo": "Bono Corporativo 3.625% 010827",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.05
+   "pct_pn": 6.04
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

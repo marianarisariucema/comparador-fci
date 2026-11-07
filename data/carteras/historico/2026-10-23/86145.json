@@ -1,0 +1,42 @@
+{
+ "fondo": "Max Estrategico V",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Max Capital Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 4412.24
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2266.42
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 80941.32
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 80941.32
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86145",
+ "nombre_cnv": "MAX ESTRATÉGICO V FCI",
+ "clave": "max estrategico v"
+}

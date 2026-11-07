@@ -1,0 +1,111 @@
+{
+ "fondo": "Superfondo Renta $",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Santander Asset Management G.F.C.I.S.A.",
+ "depositaria": "Banco Santander Argentina S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 296408638416.73
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.03
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 97.62
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.1
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.85
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.21
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.05
+  },
+  {
+   "activo": "Bono Boncer 2028 TZXM8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.43
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.85
+  },
+  {
+   "activo": "Bono Boncer TX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.64
+  },
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.67
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.91
+  },
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.86
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.15
+  },
+  {
+   "activo": "FCI Max Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.44
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.16
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.33
+  },
+  {
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.17
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63205",
+ "nombre_cnv": "SF02-Superfondo Renta $ F.C.I.",
+ "clave": "superfondo renta"
+}

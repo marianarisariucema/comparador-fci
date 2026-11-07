@@ -1,0 +1,95 @@
+{
+ "fondo": "Premier Renta Mixta",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Supervielle Asset Management S.A.",
+ "depositaria": "Banco Supervielle S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 12327418974.96
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.05
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 77.32
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 17.97
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.91
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.53
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.87
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.01
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.81
+  },
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.37
+  },
+  {
+   "activo": "ON GEMSA y CTR C43",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.52
+  },
+  {
+   "activo": "ON Red Surcos S9 Clase A",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.21
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 17.97
+  },
+  {
+   "activo": "FCI Lombard Renta en $",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.9
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63823",
+ "nombre_cnv": "Premier Renta Mixta",
+ "clave": "premier renta mixta"
+}

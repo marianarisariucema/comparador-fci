@@ -1,6 +1,6 @@
 {
  "fondo": "Toronto Trust Argentina 2021",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco Credito y Securitizacion S.A. (BACS)",
  "clasificacion": "Renta Mixta",
@@ -8,24 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 8962590110.36
+  "Peso Argentina": 9017201069.42
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.36
+   "pct_pn": 1.48
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.58
+   "pct_pn": 19.48
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 79.31
+   "pct_pn": 79.19
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": null
+   "pct_pn": 0.56
   },
   {
    "tipo": "Pasivos",
@@ -36,57 +40,57 @@
   {
    "activo": "Bonos Rep Argentina GD35",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.56
+   "pct_pn": 11.49
   },
   {
    "activo": "Bonos Rep Argentina GD38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.68
+   "pct_pn": 5.64
   },
   {
    "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.34
-  },
-  {
-   "activo": "YPF S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 19.58
+   "pct_pn": 2.35
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 18.77
+   "pct_pn": 18.69
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 18.5
   },
   {
    "activo": "Cresud S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 11.97
+   "pct_pn": 12.07
   },
   {
    "activo": "Inversiones y Representaciones S.A. (IRSA)",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.79
+   "pct_pn": 8.12
   },
   {
    "activo": "Aluar Aluminio Argentino S.A.I.C.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.76
-  },
-  {
-   "activo": "Loma Negra S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.13
+   "pct_pn": 7.8
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.45
+   "pct_pn": 5.26
+  },
+  {
+   "activo": "Loma Negra S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.04
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.13
+   "pct_pn": 2.98
   },
   {
    "activo": "Banco Hipotecario S.A.",
@@ -97,6 +101,11 @@
    "activo": "San Miguel S.A.",
    "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 0.09
+  },
+  {
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

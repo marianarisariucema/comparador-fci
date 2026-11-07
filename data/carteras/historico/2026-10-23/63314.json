@@ -1,0 +1,131 @@
+{
+ "fondo": "Consultatio Deuda Argentina",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 240161438387.16
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.09
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 100.51
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.94
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.99
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.49
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.39
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZXO7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.05
+  },
+  {
+   "activo": "Bono Disc ARS Ley AR DICP",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.67
+  },
+  {
+   "activo": "Boncer Mendoza C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.38
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.66
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.56
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.93
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.88
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.57
+  },
+  {
+   "activo": "Bono Boncer TZXD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.52
+  },
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.74
+  },
+  {
+   "activo": "ON Plaza Logistica C4 ZPC4O",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.64
+  },
+  {
+   "activo": "ON Bco Ciudad C23",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.55
+  },
+  {
+   "activo": "Letra Prov Bs As PBA28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.4
+  },
+  {
+   "activo": "ON Epec C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "FCI 1822 Raices Ahorro Pesos",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.94
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63314",
+ "nombre_cnv": "CONSULTATIO DEUDA ARGENTINA F.C.I. Ex CONSULTATIO ",
+ "clave": "consultatio deuda argentina"
+}

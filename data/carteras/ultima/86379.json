@@ -1,6 +1,6 @@
 {
  "fondo": "Toronto Trust Renta Dólar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco Credito y Securitizacion S.A. (BACS)",
  "clasificacion": "Renta Mixta",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 19759733.94
+  "Dolar Estadounidense": 19567171.45
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 7.8
+   "pct_pn": 8.58
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 92.65
+   "pct_pn": 92.39
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
@@ -34,242 +34,267 @@
  ],
  "activos": [
   {
-   "activo": "ON Vista Energy 33",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 3.51
-  },
-  {
    "activo": "ON Profertil C3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 3.35
+   "pct_pn": 3.39
   },
   {
    "activo": "ON Pluspetrol Clase 6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 3.22
-  },
-  {
-   "activo": "ON Pampa Energia C27",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 3.04
+   "pct_pn": 3.25
   },
   {
    "activo": "ON YPF Clase 43",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 3.04
+   "pct_pn": 3.11
+  },
+  {
+   "activo": "ON Pampa Energia C27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 3.06
   },
   {
    "activo": "ON Banco Mariva S3 060727",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.57
+   "pct_pn": 2.59
   },
   {
-   "activo": "ON Loma Negra C5",
+   "activo": "ON Loma Negra C7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.53
+   "pct_pn": 2.56
   },
   {
    "activo": "US Treasury Bill 031226",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.34
+   "pct_pn": 2.36
   },
   {
    "activo": "ON YPF Clase 42",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.26
+   "pct_pn": 2.29
   },
   {
    "activo": "ON Pan American C41",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.24
+   "pct_pn": 2.26
   },
   {
    "activo": "ON Mega C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.12
+   "pct_pn": 2.14
   },
   {
    "activo": "ON Luz De Tres Picos C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.08
+   "pct_pn": 2.12
   },
   {
    "activo": "ON Sidersa Clase 2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.01
+   "pct_pn": 2.05
   },
   {
    "activo": "ON Oiltanking S3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.74
+   "pct_pn": 1.75
   },
   {
    "activo": "ON Tecpetrol C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.66
+   "pct_pn": 1.68
   },
   {
    "activo": "ON Bco Provincia Cl 5 PVC5O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.55
+   "pct_pn": 1.56
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.54
+   "pct_pn": 1.56
   },
   {
    "activo": "ON Tarj Naranja C67 S2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.53
-  },
-  {
-   "activo": "ON Pan American C42",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.32
+   "pct_pn": 1.55
   },
   {
    "activo": "ON YPF Clase 33",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.32
+   "pct_pn": 1.33
   },
   {
    "activo": "ON Tecpetrol C11",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 1.31
+  },
+  {
+   "activo": "ON Pan American C42",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 1.29
   },
   {
    "activo": "ON Pyme Gar Bajo Imp Apache S1 C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.27
+   "pct_pn": 1.28
   },
   {
-   "activo": "ON Banco Macro Clase H Reg S",
+   "activo": "ON Oldelval Clase 7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.09
+   "pct_pn": 1.26
   },
   {
    "activo": "ON Arcor C1 7.6%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.06
+   "pct_pn": 1.11
+  },
+  {
+   "activo": "ON Banco Macro Clase H Reg S",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 1.11
   },
   {
    "activo": "ON Pluspetrol Clase 3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.06
+   "pct_pn": 1.07
   },
   {
-   "activo": "ON Futuros y Opciones.com S4 CA",
+   "activo": "ON Edenor C11",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.05
+   "pct_pn": 1.06
   },
   {
    "activo": "ON Vista Gas y Oil Arg C27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.04
+   "pct_pn": 1.05
   },
   {
-   "activo": "ON PCR Clase R",
+   "activo": "ON YPF Clase 32",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 1.05
+  },
+  {
+   "activo": "ON Capex C11",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 1.05
+  },
+  {
+   "activo": "ON CGC C 41",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 1.05
+  },
+  {
+   "activo": "ON AES Argentina Gen 060828",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 1.04
   },
   {
-   "activo": "ON Capex C11",
+   "activo": "ON Supervielle Clase W",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 1.04
   },
   {
    "activo": "ON Banco Comafi C18",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.03
+   "pct_pn": 1.04
   },
   {
-   "activo": "ON YPF Clase 32",
+   "activo": "ON Futuros y Opciones.com S4 CA",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.03
-  },
-  {
-   "activo": "ON BBVA Frances Cl 45",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.03
-  },
-  {
-   "activo": "ON Tecpetrol C13",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.03
-  },
-  {
-   "activo": "ON Edenor C11",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.03
+   "pct_pn": 1.04
   },
   {
    "activo": "ON Banco de Valores C4",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.03
+   "pct_pn": 1.04
   },
   {
-   "activo": "ON CGC C 41",
+   "activo": "ON Banco de Galicia 32 BYY2O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.03
+   "pct_pn": 1.04
   },
   {
-   "activo": "ON Supervielle Clase W",
+   "activo": "ON BBVA Frances Cl 45",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 1.04
+  },
+  {
+   "activo": "ON Tecpetrol C13",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 1.04
+  },
+  {
+   "activo": "ON ICBC Clase 6 220527",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 1.03
   },
   {
    "activo": "ON Banco Prov Clase 8",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.02
+   "pct_pn": 1.03
   },
   {
-   "activo": "ON AES Argentina Gen 060828",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.02
-  },
-  {
-   "activo": "ON ICBC Clase 6 220527",
+   "activo": "Cheque #UMV021160048",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 1.02
   },
   {
    "activo": "ON Bco Patagonia Cl 5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.01
+   "pct_pn": 1.02
   },
   {
-   "activo": "Cheque #UMV021160048",
+   "activo": "ON PCR Clase R",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.01
+   "pct_pn": 1.02
   },
   {
    "activo": "ON Bco Galicia Clase 16",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.89
+   "pct_pn": 0.9
   },
   {
    "activo": "ON Pampa Energia C21",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.83
+   "pct_pn": 0.82
   },
   {
    "activo": "ON Loma Negra C6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.78
+   "pct_pn": 0.79
   },
   {
    "activo": "ON Telecom C25",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.78
+   "pct_pn": 0.79
   },
   {
    "activo": "ON Telecom C28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.77
+   "pct_pn": 0.79
   },
   {
    "activo": "ON Banco Comafi C21",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.77
+  },
+  {
+   "activo": "ON Central Puerto Clase E",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.77
+  },
+  {
+   "activo": "ON Bco Serv Transac C31",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.77
+  },
+  {
+   "activo": "ON Banco Comafi C26",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.77
+  },
+  {
+   "activo": "ON Bco CMF Serie 20",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.77
   },
@@ -279,29 +304,9 @@
    "pct_pn": 0.77
   },
   {
-   "activo": "ON Central Puerto Clase E",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.76
-  },
-  {
-   "activo": "ON Bco Serv Transac C31",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.76
-  },
-  {
-   "activo": "ON Bco CMF Serie 20",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.76
-  },
-  {
-   "activo": "ON Banco Comafi C26",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.76
-  },
-  {
    "activo": "ON Agronorte Serie 1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.75
+   "pct_pn": 0.76
   },
   {
    "activo": "ON YPF Luz C20",
@@ -309,17 +314,32 @@
    "pct_pn": 0.71
   },
   {
-   "activo": "ON Oiltanking S4 C2",
+   "activo": "ON Arcor Clase 26",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.55
+   "pct_pn": 0.54
   },
   {
-   "activo": "ON Arcor Clase 26",
+   "activo": "ON Oiltanking S4 C2",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.54
+  },
+  {
+   "activo": "ON YPF Clase 40",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.54
+  },
+  {
+   "activo": "ON Genneia Clase 48",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.53
   },
   {
-   "activo": "ON YPF Clase 40",
+   "activo": "ON Cresud Clase 53",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.53
+  },
+  {
+   "activo": "ON Telecom C30",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.53
   },
@@ -334,24 +354,34 @@
    "pct_pn": 0.52
   },
   {
-   "activo": "ON Cresud Clase 53",
+   "activo": "ON BBVA Frances Cl 40",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.52
   },
   {
-   "activo": "ON Genneia Clase 48",
+   "activo": "ON Plaza Logistica C15",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.52
   },
   {
-   "activo": "ON Telecom C30",
+   "activo": "ON Pan American C34",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.52
+  },
+  {
+   "activo": "ON Pampa Energia C22",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.52
   },
   {
    "activo": "ON CT Barragan C10",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.51
+   "pct_pn": 0.52
+  },
+  {
+   "activo": "ON Arcor C5",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.52
   },
   {
    "activo": "ON Vaca Muerta C1",
@@ -359,32 +389,12 @@
    "pct_pn": 0.51
   },
   {
-   "activo": "ON Plaza Logistica C15",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.51
-  },
-  {
-   "activo": "ON Pan American C34",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.51
-  },
-  {
-   "activo": "ON Pampa Energia C22",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.51
-  },
-  {
-   "activo": "ON BBVA Frances Cl 40",
+   "activo": "ON Credicuotas Consumo S24",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.51
   },
   {
    "activo": "ON Diesel Lange S1",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.51
-  },
-  {
-   "activo": "ON Arcor C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.51
   },
@@ -396,6 +406,11 @@
   {
    "activo": "ON Del Fabro Hnos S1 DFS1L",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.51
+  },
+  {
+   "activo": "ON Banco de Valores C1",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.5
   },
   {
@@ -404,19 +419,9 @@
    "pct_pn": 0.5
   },
   {
-   "activo": "ON Credicuotas Consumo S24",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "ON Banco de Valores C1",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.49
-  },
-  {
    "activo": "ON Banco de Galicia 30 BYCWO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.43
+   "pct_pn": 0.44
   },
   {
    "activo": "ON Bco Macro Clase 1 Regs",
@@ -426,7 +431,7 @@
   {
    "activo": "ON Crown Point Energy C6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.4
+   "pct_pn": 0.41
   },
   {
    "activo": "ON Banco Hipotecario C15",
@@ -439,19 +444,29 @@
    "pct_pn": 0.27
   },
   {
-   "activo": "Pagare #UMV091160017",
+   "activo": "Pagare #UPO300770003",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.25
+  },
+  {
+   "activo": "Pagare #UPO300770004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.25
   },
   {
    "activo": "Pagare #UBI150670001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.24
+   "pct_pn": 0.25
   },
   {
    "activo": "Pagare #UBI160670001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.24
+   "pct_pn": 0.25
+  },
+  {
+   "activo": "Pagare #UMV091160017",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.25
   },
   {
    "activo": "Pagare #UBI010770001",
@@ -460,16 +475,6 @@
   },
   {
    "activo": "Pagare #UBI020770001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.24
-  },
-  {
-   "activo": "Pagare #UPO300770003",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.24
-  },
-  {
-   "activo": "Pagare #UPO300770004",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.24
   }

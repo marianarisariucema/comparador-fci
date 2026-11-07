@@ -1,0 +1,71 @@
+{
+ "fondo": "Alpha Renta Fija Serie 6",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "ICBC Investments Argentina S.A.U.S.G.F.C.I.",
+ "depositaria": "ICBC (Arg) S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 310235227.62
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 4.16
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 96.35
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecap S29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.11
+  },
+  {
+   "activo": "Letra Tesoro Nac S30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.8
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.71
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.23
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.5
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.12
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63336",
+ "nombre_cnv": "Alpha Renta Fija Serie 6 Ex 1784 Renta Fija Serie ",
+ "clave": "alpha renta fija serie 6"
+}

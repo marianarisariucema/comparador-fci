@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Ahorro Dólares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 198348549.58
+  "Dolar Estadounidense": 230553612.8
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 27.39
+   "pct_pn": 26.65
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.04
+   "pct_pn": 5.65
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 48.91
+   "pct_pn": 53.82
   },
   {
    "tipo": "Otros Activos",
@@ -29,59 +29,64 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 19.66
+   "pct_pn": 13.88
   }
  ],
  "activos": [
   {
    "activo": "BC Banco BTG Pactual 041126",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.52
+   "pct_pn": 2.17
+  },
+  {
+   "activo": "BC Banco BTG Pactual 181126",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.17
   },
   {
    "activo": "BC Banco BTG Pactual 291026",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.52
+   "pct_pn": 1.31
   },
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 21.47
+   "pct_pn": 30.21
   },
   {
    "activo": "Pzo Fi U$S Bco Coinag",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 13.13
+   "pct_pn": 11.29
   },
   {
    "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 5.55
+   "pct_pn": 4.77
   },
   {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 4.05
+   "pct_pn": 3.48
   },
   {
    "activo": "Pzo Fi U$S Bco Sol",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 2.02
+   "pct_pn": 1.74
   },
   {
    "activo": "Pzo Fi U$S Bco Hipot",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 1.51
+   "pct_pn": 1.3
   },
   {
    "activo": "Pzo Fi U$S Bco Bibank",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 0.68
+   "pct_pn": 0.59
   },
   {
    "activo": "Plazo Fi U$S Bco BACS",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 0.51
+   "pct_pn": 0.43
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

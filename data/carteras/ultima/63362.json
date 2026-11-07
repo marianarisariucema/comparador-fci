@@ -1,6 +1,6 @@
 {
  "fondo": "Optimum FAE (Fondo de Aplicaciones Especiales)",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "SAM Argentina S.G.F.C.I.S.A.U.",
  "depositaria": "BNP Paribas",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 32306127374.24
+  "Peso Argentina": 32467886677.84
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.02
+   "pct_pn": 1.25
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.34
+   "pct_pn": 97.48
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.82
+   "pct_pn": 1.49
   },
   {
    "tipo": "Otros Activos",
@@ -36,42 +36,37 @@
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.78
+   "pct_pn": 19.62
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.54
+   "pct_pn": 17.96
   },
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.66
+   "pct_pn": 10.6
   },
   {
    "activo": "Bonos Rep Argentina GD38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.91
+   "pct_pn": 9.84
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.39
+   "pct_pn": 9.42
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.42
+   "pct_pn": 8.43
   },
   {
-   "activo": "Bono Boncer TZXO6",
+   "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.12
-  },
-  {
-   "activo": "Bono Boncer TZXD6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.8
+   "pct_pn": 6.94
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
@@ -81,12 +76,12 @@
   {
    "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.68
+   "pct_pn": 5.67
   },
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.15
+   "pct_pn": 3.12
   },
   {
    "activo": "ON Agrofina Clase 11",
@@ -96,7 +91,7 @@
   {
    "activo": "FCI Argenfunds Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.82
+   "pct_pn": 1.49
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

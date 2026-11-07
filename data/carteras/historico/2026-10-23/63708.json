@@ -1,0 +1,95 @@
+{
+ "fondo": "MEGAQM Estrategia 4",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "MEGA QM S.A.",
+ "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 11337847265.16
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.07
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.73
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.16
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.14
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.41
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.36
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.2
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.17
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.65
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.92
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.65
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.51
+  },
+  {
+   "activo": "FCI ST Zero - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.04
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63708",
+ "nombre_cnv": "MEGAQM ESTRATEGIA 4",
+ "clave": "megaqm estrategia 4"
+}

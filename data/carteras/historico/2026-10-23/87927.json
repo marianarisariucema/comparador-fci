@@ -1,0 +1,86 @@
+{
+ "fondo": "Max Retorno Total Pesos IV",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Max Capital Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 33438086267.61
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.98
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.06
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.97
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.19
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.0
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.9
+  },
+  {
+   "activo": "Pagare #MAV241160038",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.76
+  },
+  {
+   "activo": "Pagare #MAV031160031",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.41
+  },
+  {
+   "activo": "Cheque E *MAV061101229",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.89
+  },
+  {
+   "activo": "Pagare #MAV241160095",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.85
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.06
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87927",
+ "nombre_cnv": "MAX RETORNO TOTAL PESOS IV FCI",
+ "clave": "max retorno total pesos iv"
+}

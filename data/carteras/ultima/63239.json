@@ -1,6 +1,6 @@
 {
  "fondo": "Fima Balanceado",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Galicia Asset Management S.A.U.",
  "depositaria": "Banco de Galicia y Buenos Aires S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 13301009176.09
+  "Peso Argentina": 12526409971.17
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.55
+   "pct_pn": 0.59
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.46
+   "pct_pn": 97.39
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.85
+   "pct_pn": 2.08
   },
   {
    "tipo": "Otros Activos",
@@ -29,69 +29,69 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.14
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.89
-  },
-  {
-   "activo": "Bono Boncer 2027 TZXM7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.42
+   "pct_pn": 21.24
   },
   {
    "activo": "Boncer TZXY7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.37
+   "pct_pn": 13.19
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.14
   },
   {
    "activo": "Bono del Tesoro Nacional TZV27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.2
+   "pct_pn": 11.9
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.13
+   "pct_pn": 10.8
   },
   {
    "activo": "Bono Prov Mendoza TAMAR C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.92
+   "pct_pn": 7.39
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.52
-  },
-  {
-   "activo": "Lecap S13N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.49
+   "pct_pn": 6.97
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.22
+   "pct_pn": 5.58
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.29
+   "pct_pn": 4.57
   },
   {
-   "activo": "FCI Pionero Pesos - Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.64
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.6
   },
   {
    "activo": "FF Mercado Credito 44 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.21
+   "pct_pn": 1.29
+  },
+  {
+   "activo": "FCI Pionero Pesos - Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.79
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

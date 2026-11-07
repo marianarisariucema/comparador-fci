@@ -1,0 +1,42 @@
+{
+ "fondo": "Consultatio Estrategia V",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 9555.43
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 84.78
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 15.22
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 15.22
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87765",
+ "nombre_cnv": "CONSULTATIO ESTRATEGIA V",
+ "clave": "consultatio estrategia v"
+}

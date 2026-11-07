@@ -1,6 +1,6 @@
 {
  "fondo": "Ualintec Renta Fija Pesos",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Ualá Fondos S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 4249563246.25
+  "Peso Argentina": 4158594316.24
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 85.66
+   "pct_pn": 87.2
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 12.35
+   "pct_pn": 12.68
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.36
+   "pct_pn": 1.17
   },
   {
    "tipo": "Otros Activos",
@@ -40,47 +40,37 @@
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 25.52
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.85
+   "pct_pn": 26.32
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.62
+   "pct_pn": 24.5
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.52
+   "pct_pn": 20.79
   },
   {
    "activo": "Bono Boncer TZXD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.24
+   "pct_pn": 10.52
   },
   {
    "activo": "ON Credicuotas Consumo S22",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.91
+   "pct_pn": 5.07
   },
   {
    "activo": "Pzo Fi $ Bco Bibank",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 12.35
-  },
-  {
-   "activo": "FF Coppel S1 CA",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.9
+   "pct_pn": 12.68
   },
   {
    "activo": "FCI MEGAQM Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.46
+   "pct_pn": 1.17
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

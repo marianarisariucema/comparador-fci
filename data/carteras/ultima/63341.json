@@ -1,6 +1,6 @@
 {
  "fondo": "Alpha Planeamiento Equilibrado",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "ICBC Investments Argentina S.A.U.S.G.F.C.I.",
  "depositaria": "ICBC (Arg) S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,28 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 9989884907.13
+  "Peso Argentina": 10029521531.44
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.68
+   "pct_pn": 0.51
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 71.63
+   "pct_pn": 71.11
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 22.06
+   "pct_pn": 22.97
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.01
+   "pct_pn": 5.64
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.75
+   "pct_pn": 1.19
   },
   {
    "tipo": "Pasivos",
@@ -40,22 +40,17 @@
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.18
+   "pct_pn": 6.19
   },
   {
    "activo": "Bono Boncer TX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.3
+   "pct_pn": 5.29
   },
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 4.87
-  },
-  {
-   "activo": "Bono Boncer TZXS7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.83
   },
   {
    "activo": "Bono Boncer TZXD6",
@@ -73,19 +68,24 @@
    "pct_pn": 4.32
   },
   {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.27
+  },
+  {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.45
+   "pct_pn": 3.42
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.91
+   "pct_pn": 3.23
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.62
+   "pct_pn": 2.63
   },
   {
    "activo": "Lecap S29E7",
@@ -100,32 +100,27 @@
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.41
+   "pct_pn": 2.42
   },
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.95
+   "pct_pn": 1.93
   },
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.77
-  },
-  {
-   "activo": "ON Tarj Naranja C66 S1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.56
+   "pct_pn": 1.76
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.55
+   "pct_pn": 1.56
   },
   {
    "activo": "Bono Boncer 2028 TZXM8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.4
+   "pct_pn": 1.41
   },
   {
    "activo": "Bono del Tesoro Nacional TMG28",
@@ -140,7 +135,7 @@
   {
    "activo": "ON Banco Comafi C22",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.07
+   "pct_pn": 1.01
   },
   {
    "activo": "ON Toyota Clase 38",
@@ -151,6 +146,11 @@
    "activo": "Bono Par ARS Ley AR PARP",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.85
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.84
   },
   {
    "activo": "Bono Boncer TZXO6",
@@ -170,7 +170,7 @@
   {
    "activo": "ON Rombo Cia Fciera S69",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.76
+   "pct_pn": 0.77
   },
   {
    "activo": "Bono Disc ARS Ley AR DICP",
@@ -179,6 +179,11 @@
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.53
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.53
   },
@@ -220,47 +225,52 @@
   {
    "activo": "Cedear Shares MSCI Brazil ETF",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.73
+   "pct_pn": 4.87
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.08
+   "pct_pn": 4.02
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.34
+   "pct_pn": 3.33
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.27
+   "pct_pn": 2.88
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.82
+   "pct_pn": 1.91
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.42
-  },
-  {
-   "activo": "Transportadora de Gas del Norte S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.02
+   "pct_pn": 1.47
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.98
+   "pct_pn": 1.04
+  },
+  {
+   "activo": "Transportadora de Gas del Norte S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.97
   },
   {
    "activo": "Aluar Aluminio Argentino S.A.I.C.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.81
+   "pct_pn": 0.86
+  },
+  {
+   "activo": "Ternium Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.47
   },
   {
    "activo": "Cresud S.A.",
@@ -268,19 +278,14 @@
    "pct_pn": 0.43
   },
   {
-   "activo": "Ternium Argentina S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.43
-  },
-  {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.32
+   "pct_pn": 0.31
   },
   {
    "activo": "Transener S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.24
   },
   {
    "activo": "Distribuidora de Gas Cuyana S.A.",
@@ -295,17 +300,12 @@
   {
    "activo": "Inversiones y Representaciones S.A. (IRSA)",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.02
   },
   {
    "activo": "Mirgor S.A.",
    "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 0.01
-  },
-  {
-   "activo": "FCI Ciclo Nova Ahorro - Clase E",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.25
   },
   {
    "activo": "FCI Tango Money Market Dinámico - Clase A",
@@ -315,12 +315,17 @@
   {
    "activo": "FF Megabono 354 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.0
+   "pct_pn": 1.01
   },
   {
    "activo": "FF Mercado Credito 55 CA",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.96
+  },
+  {
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.86
   },
   {
    "activo": "FF Provincia Leasing S 7A",
@@ -330,7 +335,7 @@
   {
    "activo": "FF Megabono 344 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.45
+   "pct_pn": 0.46
   },
   {
    "activo": "FF Megabono 335 Clase A",

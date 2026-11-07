@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Renta Argentina 2",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 465290308.55
+  "Peso Argentina": 462433841.21
  },
  "por_tipo": [
   {
@@ -17,11 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 77.1
+   "pct_pn": 77.81
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 22.49
+   "pct_pn": 21.78
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": null
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -38,34 +42,34 @@
  ],
  "activos": [
   {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.87
+  },
+  {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.76
+   "pct_pn": 17.86
   },
   {
    "activo": "Bono CER TZX27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.67
-  },
-  {
-   "activo": "Bono Boncer TZX28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.67
+   "pct_pn": 17.83
   },
   {
    "activo": "Bono Disc ARS Ley AR DICP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.48
+   "pct_pn": 17.64
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.52
+   "pct_pn": 6.61
   },
   {
    "activo": "ON TGLT Clase 16",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 22.49
+   "pct_pn": 21.78
   },
   {
    "activo": "FCI MEGAQM Pesos - Clase B",

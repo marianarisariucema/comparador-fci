@@ -1,6 +1,6 @@
 {
  "fondo": "Axis Estrategia 22",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Axis S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 38588227539.35
+  "Peso Argentina": 38722435687.09
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 96.59
+   "pct_pn": 96.86
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.66
+   "pct_pn": 0.65
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.79
+   "pct_pn": 2.59
   },
   {
    "tipo": "Otros Activos",
@@ -38,14 +38,19 @@
  ],
  "activos": [
   {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.38
+  },
+  {
    "activo": "Pagare #MAV110170024",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.09
+   "pct_pn": 13.1
   },
   {
    "activo": "Pagare #MAV090370006",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.01
+   "pct_pn": 11.02
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
@@ -55,22 +60,12 @@
   {
    "activo": "Pagare #MAV230470008",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.94
-  },
-  {
-   "activo": "Bono Dual TTD26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.92
-  },
-  {
-   "activo": "Letra Tamar TEM TMF27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.2
+   "pct_pn": 9.96
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.52
+   "pct_pn": 5.53
   },
   {
    "activo": "Boncer TZXY7",
@@ -80,7 +75,7 @@
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.89
+   "pct_pn": 3.87
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
@@ -95,17 +90,17 @@
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.94
+   "pct_pn": 1.92
   },
   {
    "activo": "Bono Boncer TZXA7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.66
+   "pct_pn": 1.67
   },
   {
    "activo": "ON Plaza Logistica C1 ZPC1O",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.46
+   "pct_pn": 1.47
   },
   {
    "activo": "Bono Boncer TZXO6",
@@ -150,12 +145,12 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.67
+   "pct_pn": 0.68
   },
   {
    "activo": "ON P. Aconcagua Energia C20",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.53
+   "pct_pn": 0.52
   },
   {
    "activo": "ON PSA Serie 34",
@@ -165,7 +160,7 @@
   {
    "activo": "ON Lancioni S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.41
+   "pct_pn": 0.4
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
@@ -173,14 +168,14 @@
    "pct_pn": 0.27
   },
   {
-   "activo": "ON Toyota Clase 34",
+   "activo": "Bono Prov Mendoza TAMAR C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.27
   },
   {
-   "activo": "Bono Prov Mendoza TAMAR C2",
+   "activo": "ON Toyota Clase 34",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.26
+   "pct_pn": 0.27
   },
   {
    "activo": "ON Rombo Cia Fciera S61",
@@ -200,7 +195,7 @@
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.4
+   "pct_pn": 0.39
   },
   {
    "activo": "Pampa Energia S.A.",
@@ -210,15 +205,15 @@
   {
    "activo": "FCI Mercadolibre Cerrado De Créditos",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.47
-  },
-  {
-   "activo": "FCI MEGAQM Pesos - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.57
+   "pct_pn": 1.48
   },
   {
    "activo": "FF Provincia Leasing S 6A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.34
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.33
   },
@@ -230,7 +225,7 @@
   {
    "activo": "FF Megabono 333 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.11
+   "pct_pn": 0.12
   },
   {
    "activo": "FF Megabono Crédito 328 Clase A",
@@ -240,7 +235,7 @@
   {
    "activo": "FF Megabono 335 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 0.04
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

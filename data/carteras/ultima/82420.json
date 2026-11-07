@@ -1,6 +1,6 @@
 {
  "fondo": "First Renta Mixta III",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "First Capital Markets S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 1051262274.96
+  "Peso Argentina": 1056961246.72
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 6.49
+   "pct_pn": 2.19
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 91.11
+   "pct_pn": 96.06
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.69
+   "pct_pn": 2.09
   },
   {
    "tipo": "Otros Activos",
@@ -34,44 +34,39 @@
  ],
  "activos": [
   {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.66
+  },
+  {
    "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.0
+   "pct_pn": 21.75
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.62
-  },
-  {
-   "activo": "Lelink D30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.38
+   "pct_pn": 20.66
   },
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.92
+   "pct_pn": 13.91
   },
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.11
+   "pct_pn": 6.05
   },
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.08
+   "pct_pn": 6.03
   },
   {
    "activo": "FF AMFAyS S50 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.92
-  },
-  {
-   "activo": "FCI Tango Money Market Dinámico - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.76
   },
   {
    "activo": "FF AMFAyS S49 Clase A",
@@ -82,6 +77,11 @@
    "activo": "FCI Adcap Ahorro Pesos - Clase C",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.3
+  },
+  {
+   "activo": "FCI Tango Money Market Dinámico - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.16
   },
   {
    "activo": "FCI Fima Premium Clase B",

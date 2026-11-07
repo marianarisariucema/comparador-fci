@@ -1,0 +1,116 @@
+{
+ "fondo": "Adcap Moneda",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 5730833318.28
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.12
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 97.93
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.08
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.76
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.75
+  },
+  {
+   "activo": "Lecap S29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.28
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.25
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.26
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.95
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.3
+  },
+  {
+   "activo": "ON GEMSA y CTR C43",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.62
+  },
+  {
+   "activo": "ON Red Surcos S9 Clase A",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.45
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C19",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.11
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "FCI SBS Ahorro Pesos Cl B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.02
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63621",
+ "nombre_cnv": "Adcap Moneda",
+ "clave": "adcap moneda"
+}

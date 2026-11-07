@@ -1,6 +1,6 @@
 {
  "fondo": "Blacktoro Cobertura",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Blacktoro Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 10265514428.08
+  "Peso Argentina": 8553235969.79
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.24
+   "pct_pn": 0.02
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.09
+   "pct_pn": 95.19
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 7.85
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.76
+   "pct_pn": null
   },
   {
    "tipo": "Otros Activos",
@@ -34,64 +38,59 @@
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.91
-  },
-  {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.48
+   "pct_pn": 22.34
   },
   {
-   "activo": "Lelink D30N6",
+   "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.94
+   "pct_pn": 17.88
   },
   {
    "activo": "Letra Tesoro Nac D31M7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.96
-  },
-  {
-   "activo": "ON Vista Energy 31",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.17
+   "pct_pn": 17.61
   },
   {
    "activo": "ON Telecom C12 TLCDO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.88
+   "pct_pn": 7.09
   },
   {
    "activo": "Letra Tesoro Nac D15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.53
+   "pct_pn": 6.67
   },
   {
-   "activo": "ON Telecom C24",
+   "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.41
-  },
-  {
-   "activo": "ON Vista Gas y Oil Arg C18",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.39
+   "pct_pn": 6.23
   },
   {
    "activo": "Bono del Tesoro Nacional TZV27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.19
+   "pct_pn": 5.61
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.3
+  },
+  {
+   "activo": "ON Vista Energy 31",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.75
   },
   {
    "activo": "ON YPF Clase 34",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.23
+   "pct_pn": 2.72
   },
   {
-   "activo": "FCI Pionero Pesos Plus - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.76
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 7.85
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

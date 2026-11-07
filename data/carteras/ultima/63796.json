@@ -1,6 +1,6 @@
 {
  "fondo": "Pionero Ahorro Dólares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Macro Fondos S.G.F.C.I.S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 120789791.76
+  "Dolar Estadounidense": 120569591.69
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 29.74
+   "pct_pn": 26.6
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 71.0
+   "pct_pn": 74.13
   },
   {
    "tipo": "Otros Activos",
@@ -32,32 +32,32 @@
   {
    "activo": "ON Bco Galicia Clase 16",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 12.4
+   "pct_pn": 12.55
   },
   {
    "activo": "ON Tecpetrol C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 9.83
+   "pct_pn": 9.85
   },
   {
    "activo": "ON Telecom 9.5% 2031",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.98
+   "pct_pn": 9.0
   },
   {
    "activo": "ON Transp Gas Sur Cl 3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.95
-  },
-  {
-   "activo": "ON Pluspetrol Clase 5",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.98
+   "pct_pn": 8.07
   },
   {
    "activo": "ON YPF C 17",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.34
+   "pct_pn": 7.2
+  },
+  {
+   "activo": "ON Pluspetrol Clase 5",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.97
   },
   {
    "activo": "ON YPF Clase 31",
@@ -65,9 +65,14 @@
    "pct_pn": 3.68
   },
   {
+   "activo": "ON YPF 2029",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.83
+  },
+  {
    "activo": "ON Inversora Juramento C6 JNC6O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.68
+   "pct_pn": 2.7
   },
   {
    "activo": "ON Pan American C38",
@@ -77,7 +82,7 @@
   {
    "activo": "ON YPF 210727",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.52
+   "pct_pn": 2.54
   },
   {
    "activo": "ON Pluspetrol 8.5% 2032 (REGS)",
@@ -85,19 +90,14 @@
    "pct_pn": 2.32
   },
   {
-   "activo": "ON YPF 2029",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.93
-  },
-  {
    "activo": "ON Pan Amer. Energy C 12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.78
+   "pct_pn": 0.79
   },
   {
    "activo": "ON Pan American C31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.71
+   "pct_pn": 0.72
   },
   {
    "activo": "ON Cresud S32 C48",
@@ -127,7 +127,7 @@
   {
    "activo": "BC AES 9.5%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
+   "pct_pn": 0.26
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

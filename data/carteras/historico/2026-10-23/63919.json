@@ -1,0 +1,101 @@
+{
+ "fondo": "1810 Renta Fija Argentina",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Proahorro Administradora de Activos S.A.",
+ "depositaria": "Banco Credicoop Coop. Ltdo.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 18806361569.35
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.12
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.56
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.6
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.85
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.08
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.99
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZV27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.82
+  },
+  {
+   "activo": "Bono Prov de Buenos Aires TZV28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.77
+  },
+  {
+   "activo": "Bono CER TZX27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.41
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.4
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.14
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.9
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.97
+  },
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.22
+  },
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.6
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63919",
+ "nombre_cnv": "1810 RENTA FIJA ARGENTINA",
+ "clave": "1810 renta fija argentina"
+}

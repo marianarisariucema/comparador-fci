@@ -1,6 +1,6 @@
 {
  "fondo": "Super Ahorro Plus",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Santander Asset Management G.F.C.I.S.A.",
  "depositaria": "Banco Santander Argentina S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 1743456598721.59
+  "Peso Argentina": 1771008236405.99
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 15.85
+   "pct_pn": 14.24
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.15
+   "pct_pn": 27.21
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 51.23
+   "pct_pn": 50.98
   },
   {
    "tipo": "Otros Activos",
@@ -29,39 +29,49 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 8.77
+   "pct_pn": 7.57
   }
  ],
  "activos": [
   {
    "activo": "Bono Boncer TZXO6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.73
+   "pct_pn": 13.59
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.37
+   "pct_pn": 5.71
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.17
+   "pct_pn": 3.14
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.64
   },
   {
    "activo": "ON Banco de Galicia 32 BYY1O",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.59
+   "pct_pn": 0.58
   },
   {
    "activo": "ON BBVA Frances Cl 47",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.59
+   "pct_pn": 0.58
+  },
+  {
+   "activo": "ON Tarj Naranja C67 S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.49
   },
   {
    "activo": "ON ICBC Clase 7 170627",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.46
   },
   {
    "activo": "ON BBVA Frances Cl 46",
@@ -71,17 +81,7 @@
   {
    "activo": "ON ICBC Clase 5 110327",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.24
-  },
-  {
-   "activo": "ON Tarj Naranja C67 S1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "ON Mercado Pago C5",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 0.23
   },
   {
    "activo": "ON BBVA Frances Cl 41",
@@ -89,9 +89,14 @@
    "pct_pn": 0.18
   },
   {
-   "activo": "ON Payway C1",
+   "activo": "ON Mercado Pago C5",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.18
+  },
+  {
+   "activo": "ON Payway C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 1",
@@ -151,37 +156,42 @@
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 20.36
+   "pct_pn": 19.2
   },
   {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 11.14
+   "pct_pn": 10.83
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 7.55
+   "pct_pn": 9.27
   },
   {
    "activo": "Pzo Fi $ Bco Provincia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.34
+   "pct_pn": 5.14
   },
   {
    "activo": "Pzo Fi $ Bco Patagonia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.48
+   "pct_pn": 2.58
   },
   {
    "activo": "Pzo Fi $ Bco Credicoop",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.91
+   "pct_pn": 1.14
   },
   {
-   "activo": "Pzo Fi $ Nvo Bco E Rios",
+   "activo": "Pzo Fi $ Bco Comafi",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.88
+   "pct_pn": 1.13
+  },
+  {
+   "activo": "Pzo Fi $ ICBC",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.13
   },
   {
    "activo": "Pzo Fi $ Bco BBVA",

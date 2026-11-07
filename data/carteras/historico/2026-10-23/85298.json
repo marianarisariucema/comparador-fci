@@ -1,0 +1,71 @@
+{
+ "fondo": "Allaria Dinámico III",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 46206381502.89
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.02
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 96.16
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.0
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.88
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.63
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 25.17
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.48
+  },
+  {
+   "activo": "FCI BAVSA Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.31
+  },
+  {
+   "activo": "FCI SBS Ahorro Pesos Cl B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.69
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85298",
+ "nombre_cnv": "ALLARIA DINÁMICO III FCI",
+ "clave": "allaria dinamico iii"
+}

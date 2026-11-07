@@ -1,6 +1,6 @@
 {
  "fondo": "First Renta Mixta IV",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "First Capital Markets S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,28 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6569413120.72
+  "Peso Argentina": 6600046159.78
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": 0.02
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 48.46
+   "pct_pn": 52.86
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.79
+   "pct_pn": 16.67
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 17.32
+   "pct_pn": 19.12
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 9.26
+   "pct_pn": 7.94
   },
   {
    "tipo": "Otros Activos",
@@ -37,7 +37,7 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 5.16
+   "pct_pn": 3.39
   }
  ],
  "activos": [
@@ -49,7 +49,7 @@
   {
    "activo": "Letra Tesoro Nac S30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.15
+   "pct_pn": 6.14
   },
   {
    "activo": "Pagare #MAV041160069",
@@ -64,12 +64,17 @@
   {
    "activo": "Pagare #MAV061160036",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.76
+   "pct_pn": 4.75
+  },
+  {
+   "activo": "Pagare #MAV261160055",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.44
   },
   {
    "activo": "VCP Unicred S5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.18
+   "pct_pn": 3.17
   },
   {
    "activo": "VCP Unicred S4",
@@ -119,7 +124,7 @@
   {
    "activo": "Cheque E *MAV291201222",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.35
+   "pct_pn": 0.36
   },
   {
    "activo": "Cheque E *MAV050101229",
@@ -522,39 +527,34 @@
    "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *MAV201001627",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.79
+   "pct_pn": 16.67
   },
   {
    "activo": "Pagare #UMV310870002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.81
+   "pct_pn": 2.82
   },
   {
    "activo": "Pagare #UMV310880001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.62
+   "pct_pn": 2.63
   },
   {
    "activo": "Pagare #UMV310180001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.79
+   "pct_pn": 1.8
   },
   {
    "activo": "Pagare #UMV310170003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.78
+   "pct_pn": 1.79
   },
   {
    "activo": "Pagare #UMV301260005",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.38
+   "pct_pn": 1.39
   },
   {
    "activo": "Pagare #UMV300670006",
@@ -564,7 +564,7 @@
   {
    "activo": "Cheque #UMV200370002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.78
+   "pct_pn": 0.79
   },
   {
    "activo": "Cheque #UMV200470002",
@@ -584,6 +584,11 @@
   {
    "activo": "Pagare #UMV281270005",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.59
+  },
+  {
+   "activo": "Cheque E *UMA221100001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.58
   },
   {
@@ -593,6 +598,16 @@
   },
   {
    "activo": "Pagare #UMV210770002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.57
+  },
+  {
+   "activo": "Cheque E *UMA221200001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.57
+  },
+  {
+   "activo": "Cheque E *UMA220100001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.57
   },
@@ -619,12 +634,12 @@
   {
    "activo": "FCI Axis Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.62
+   "pct_pn": 3.29
   },
   {
    "activo": "FF San Cristobal S2 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.15
+   "pct_pn": 3.16
   },
   {
    "activo": "FF San Cristobal S1 CA",

@@ -1,6 +1,6 @@
 {
  "fondo": "Alpha Planeamiento Conservador",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "ICBC Investments Argentina S.A.U.S.G.F.C.I.",
  "depositaria": "ICBC (Arg) S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 23266856218.86
+  "Peso Argentina": 23349770848.13
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.48
+   "pct_pn": 0.65
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 90.97
+   "pct_pn": 93.47
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 8.57
+   "pct_pn": 6.4
   },
   {
    "tipo": "Otros Activos",
@@ -36,22 +36,22 @@
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.33
+   "pct_pn": 9.35
   },
   {
    "activo": "Bono Boncer TX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.38
+   "pct_pn": 7.77
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.09
+   "pct_pn": 7.1
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.82
+   "pct_pn": 6.63
   },
   {
    "activo": "Bono Boncer TX26",
@@ -61,7 +61,7 @@
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.31
+   "pct_pn": 6.32
   },
   {
    "activo": "Bono Boncer TZXS7",
@@ -71,22 +71,22 @@
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.67
+   "pct_pn": 4.64
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.26
+   "pct_pn": 3.67
   },
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.16
+   "pct_pn": 3.17
   },
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.96
+   "pct_pn": 2.95
   },
   {
    "activo": "Lecap S29E7",
@@ -104,9 +104,14 @@
    "pct_pn": 2.72
   },
   {
+   "activo": "Bono Boncer 2028 TZXM8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.04
+  },
+  {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.05
+   "pct_pn": 2.03
   },
   {
    "activo": "Lecer X29E7",
@@ -114,24 +119,24 @@
    "pct_pn": 1.74
   },
   {
-   "activo": "Bono Boncer 2028 TZXM8",
+   "activo": "Bono Par ARS Ley AR PARP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.58
+   "pct_pn": 1.41
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.2
   },
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.37
+   "pct_pn": 1.13
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.15
-  },
-  {
-   "activo": "Bono Par ARS Ley AR PARP",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.04
+   "pct_pn": 0.98
   },
   {
    "activo": "Bono Disc ARS Ley AR DICP",
@@ -146,7 +151,7 @@
   {
    "activo": "ON Tarj Naranja C66 S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.89
+   "pct_pn": 0.9
   },
   {
    "activo": "ON Payway C1",
@@ -154,24 +159,14 @@
    "pct_pn": 0.71
   },
   {
+   "activo": "Bono del Tesoro 2.5% 2031",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.66
+  },
+  {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.47
-  },
-  {
-   "activo": "ON Banco Comafi C22",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.46
-  },
-  {
-   "activo": "ON NewSan Clase 23",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.45
-  },
-  {
-   "activo": "ON Arcor C6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.45
   },
   {
    "activo": "ON BBVA Frances Cl 38",
@@ -184,9 +179,14 @@
    "pct_pn": 0.45
   },
   {
-   "activo": "Bono del Tesoro 2.5% 2031",
+   "activo": "ON NewSan Clase 23",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.44
+   "pct_pn": 0.45
+  },
+  {
+   "activo": "ON Arcor C6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.45
   },
   {
    "activo": "ON Banco Prov Clase 6",
@@ -214,14 +214,14 @@
    "pct_pn": 0.44
   },
   {
-   "activo": "Bono del Tesoro Nacional TML27",
+   "activo": "ON BACS Clase 20",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.36
+   "pct_pn": 0.43
   },
   {
-   "activo": "ON Volkswagen Financial Services C15",
+   "activo": "ON Banco Comafi C22",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.33
+   "pct_pn": 0.43
   },
   {
    "activo": "ON Volkswagen Financial Services C12",
@@ -234,14 +234,24 @@
    "pct_pn": 0.33
   },
   {
+   "activo": "ON Volkswagen Financial Services C15",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.33
+  },
+  {
    "activo": "FCI Ciclo Nova Ahorro - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.59
+   "pct_pn": 0.98
   },
   {
    "activo": "FCI Tango Money Market Dinámico - Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.58
+  },
+  {
+   "activo": "FF Consubond S203 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.43
   },
   {
    "activo": "FF Megabono 354 Clase A",
@@ -266,7 +276,7 @@
   {
    "activo": "FF Pedidos Ya S1",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.39
+   "pct_pn": 0.4
   },
   {
    "activo": "FF Fiducar 34 Clase A",

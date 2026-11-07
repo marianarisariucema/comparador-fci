@@ -1,6 +1,6 @@
 {
  "fondo": "Schroder Retorno Total Dos",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Schroder S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Latinoamerica",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 21956069.26
+  "Dolar Estadounidense": 21970317.43
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.7
+   "pct_pn": 0.79
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 98.71
+   "pct_pn": 98.63
   },
   {
    "tipo": "Otros Activos",
@@ -25,14 +25,14 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.59
+   "pct_pn": 0.58
   }
  ],
  "activos": [
   {
    "activo": "ON YPF Clase 34",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 15.47
+   "pct_pn": 15.45
   },
   {
    "activo": "US Treasury Bill 080727",
@@ -42,7 +42,7 @@
   {
    "activo": "ON Tecpetrol C13",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 11.31
+   "pct_pn": 11.32
   },
   {
    "activo": "ON Pampa Energia C23 (RegS)",
@@ -67,7 +67,7 @@
   {
    "activo": "ON Transp Gas Sur Cl 3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.23
+   "pct_pn": 6.22
   },
   {
    "activo": "ON Oldelval Clase 6",
@@ -77,17 +77,17 @@
   {
    "activo": "ON Vista Gas y Oil Arg C29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.83
+   "pct_pn": 4.81
   },
   {
    "activo": "ON Pluspetrol Clase 5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.73
+   "pct_pn": 4.71
   },
   {
    "activo": "ON YPF Luz C18 YFCJO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.27
+   "pct_pn": 2.26
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

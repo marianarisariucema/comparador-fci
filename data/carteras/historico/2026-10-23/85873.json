@@ -1,0 +1,115 @@
+{
+ "fondo": "Novus Renta Mixta",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Novus Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 15590002975.44
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.08
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 37.02
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 70.54
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.96
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.7
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.36
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 23.87
+  },
+  {
+   "activo": "Banco Macro S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 14.57
+  },
+  {
+   "activo": "Central Puerto S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 7.77
+  },
+  {
+   "activo": "Edenor S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.36
+  },
+  {
+   "activo": "BBVA Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.18
+  },
+  {
+   "activo": "Cedear Mercado Libre",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.26
+  },
+  {
+   "activo": "Grupo Supervielle S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.25
+  },
+  {
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.65
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.14
+  },
+  {
+   "activo": "Cedear Banco Bradesco",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.97
+  },
+  {
+   "activo": "Distribuidora de Gas del Centro S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.52
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85873",
+ "nombre_cnv": "NOVUS RENTA MIXTA FCI",
+ "clave": "novus renta mixta"
+}

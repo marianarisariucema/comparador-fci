@@ -1,6 +1,6 @@
 {
  "fondo": "Lombard Renta Fija en Dolares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Patagonia Inversora S.A.U. S.G.F.C.I.",
  "depositaria": "Banco Patagonia S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 144216962.92
+  "Dolar Estadounidense": 144411830.23
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.05
+   "pct_pn": 0.52
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 88.88
+   "pct_pn": 89.2
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 5.89
+   "pct_pn": 6.23
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.32
+   "pct_pn": 4.3
   },
   {
    "tipo": "Otros Activos",
@@ -40,17 +40,17 @@
   {
    "activo": "BC Bradesco 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 16.64
+   "pct_pn": 16.63
   },
   {
    "activo": "Bono Corporativo 3.625% 010827",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 12.08
+   "pct_pn": 12.43
   },
   {
    "activo": "BC Inversiones CMPC 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 11.11
+   "pct_pn": 11.1
   },
   {
    "activo": "BR Rep Brasil 28",
@@ -75,7 +75,7 @@
   {
    "activo": "BC Banco Do Brasil 2029",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.48
+   "pct_pn": 4.49
   },
   {
    "activo": "BC Cel Arauco 110227",
@@ -100,7 +100,7 @@
   {
    "activo": "BC Enersis 2026",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.98
+   "pct_pn": 1.97
   },
   {
    "activo": "BC Celulosa Arauco y Constitución 4.25%",
@@ -115,7 +115,7 @@
   {
    "activo": "Caucion Colocadora U$S BYMA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 5.89
+   "pct_pn": 6.23
   },
   {
    "activo": "FCI Allaria Dólar Ahorro - Clase B",
@@ -130,7 +130,7 @@
   {
    "activo": "FCI Premier Renta CP Cali",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.71
+   "pct_pn": 0.69
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

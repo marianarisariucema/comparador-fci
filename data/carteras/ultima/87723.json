@@ -1,6 +1,6 @@
 {
  "fondo": "Axis Estrategia Dólar 6",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Axis S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense Billete": 192680.6
+  "Dolar Estadounidense Billete": 82969.39
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.45
+   "pct_pn": 6.38
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 95.73
+   "pct_pn": 150.47
   },
   {
    "tipo": "Otros Activos",
@@ -25,34 +25,24 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 3.82
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "Pagare #UMV201060035",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 28.49
-  },
-  {
    "activo": "Pagare #UMV221060012",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 28.45
+   "pct_pn": 66.22
   },
   {
    "activo": "Pagare #UMV241060005",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 23.26
+   "pct_pn": 54.15
   },
   {
    "activo": "Pagare #UMV251060005",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 12.94
-  },
-  {
-   "activo": "Pagare #UMV201060031",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.59
+   "pct_pn": 30.09
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Ciclo Nova Value",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Ciclo Nova Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Variable",
@@ -8,24 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 4732679827.18
+  "Peso Argentina": 4812187776.13
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.05
+   "pct_pn": 0.14
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 97.92
+   "pct_pn": 97.95
   },
   {
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 2.16
-  },
-  {
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.53
+   "pct_pn": 2.15
   },
   {
    "tipo": "Otros Activos",
@@ -40,92 +36,82 @@
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.04
+   "pct_pn": 14.52
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 14.89
+   "pct_pn": 14.51
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 11.64
+   "pct_pn": 12.35
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 8.76
+   "pct_pn": 9.05
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.03
-  },
-  {
-   "activo": "Bolsas y Mercados Argentinos S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.34
+   "pct_pn": 7.2
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.09
+   "pct_pn": 4.59
+  },
+  {
+   "activo": "Bolsas y Mercados Argentinos S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.12
   },
   {
    "activo": "Metrogas S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.69
-  },
-  {
-   "activo": "Loma Negra S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.19
+   "pct_pn": 3.76
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.76
+   "pct_pn": 3.17
   },
   {
-   "activo": "Cedear Ishares Russell 2000 ETF",
+   "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.95
+   "pct_pn": 3.11
+  },
+  {
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.04
   },
   {
    "activo": "Grupo Supervielle S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.85
+   "pct_pn": 1.96
   },
   {
    "activo": "Cedear Netflix",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.65
-  },
-  {
-   "activo": "Cedear FCI SPDR Gold Trust",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.53
-  },
-  {
-   "activo": "Cedear Delta Airlines Inc.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.25
-  },
-  {
-   "activo": "Cedear JP Morgan",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.21
+   "pct_pn": 1.55
   },
   {
    "activo": "Transportadora de Gas del Norte S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.16
+   "pct_pn": 1.37
   },
   {
-   "activo": "Banco de Valores S.A.",
+   "activo": "Cedear Delta Airlines Inc.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.13
+   "pct_pn": 1.28
+  },
+  {
+   "activo": "Cedear JP Morgan",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.19
   },
   {
    "activo": "Cedear Amazon",
@@ -133,24 +119,24 @@
    "pct_pn": 1.1
   },
   {
-   "activo": "Inversiones y Representaciones S.A. (IRSA)",
+   "activo": "Banco de Valores S.A.",
    "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 1.09
   },
   {
-   "activo": "Cedear NU Holdings Ltd",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.0
-  },
-  {
-   "activo": "Matba Rofex S.A.",
+   "activo": "Cedear Banco Bradesco",
    "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 0.97
   },
   {
-   "activo": "Transener S.A.",
+   "activo": "Cedear Mercado Libre",
    "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 0.96
+  },
+  {
+   "activo": "Matba Rofex S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.94
   },
   {
    "activo": "Cedear Spdr SyP 500 ETF",
@@ -158,54 +144,64 @@
    "pct_pn": 0.93
   },
   {
-   "activo": "Cedear Invesco S&P 500 Equal Weight ETF",
+   "activo": "Transener S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.86
+   "pct_pn": 0.91
   },
   {
    "activo": "Aluar Aluminio Argentino S.A.I.C.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.84
+   "pct_pn": 0.88
+  },
+  {
+   "activo": "Cedear Invesco S&P 500 Equal Weight ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.87
   },
   {
    "activo": "Cedear Utilities Select Sectar SPDR Fund",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.8
+   "pct_pn": 0.81
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.75
-  },
-  {
-   "activo": "Edenor S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.69
+   "pct_pn": 0.81
   },
   {
    "activo": "Dycasa S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.56
+   "pct_pn": 0.48
+  },
+  {
+   "activo": "Cedear Shares MSCI Brazil ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.48
+  },
+  {
+   "activo": "Edenor S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.45
+  },
+  {
+   "activo": "Inversiones y Representaciones S.A. (IRSA)",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.3
   },
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.21
+   "pct_pn": 0.2
   },
   {
    "activo": "ADR YPF - D",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.49
+   "pct_pn": 1.45
   },
   {
    "activo": "ADR Grupo Fciero Galicia",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 0.67
-  },
-  {
-   "activo": "FCI Argenfunds Liquidez - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.53
+   "pct_pn": 0.7
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

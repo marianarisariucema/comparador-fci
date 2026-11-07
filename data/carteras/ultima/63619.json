@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Performance II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 498639597.67
+  "Peso Argentina": 501721712.6
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.56
+   "pct_pn": 0.62
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.44
+   "pct_pn": 99.47
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -34,42 +34,47 @@
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
+   "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.44
+   "pct_pn": 29.47
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.08
+   "pct_pn": 26.12
   },
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.85
+   "pct_pn": 10.76
   },
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.4
+   "pct_pn": 10.38
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.77
+   "pct_pn": 9.75
   },
   {
    "activo": "Boncer TZXY7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.64
+   "pct_pn": 9.63
   },
   {
    "activo": "ON Cohen S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.13
+   "pct_pn": 3.11
   },
   {
    "activo": "ON Nexo Emprend S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.12
   },

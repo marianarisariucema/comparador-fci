@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Renta Dólar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Global",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 41038623.06
+  "Dolar Estadounidense": 41001001.44
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.89
+   "pct_pn": 1.12
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 89.18
+   "pct_pn": 87.65
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.5
+   "pct_pn": 4.48
   },
   {
    "tipo": "Otros Activos",
@@ -29,34 +29,34 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 6.43
+   "pct_pn": 6.75
   }
  ],
  "activos": [
   {
    "activo": "BC Banco BTG Pactual 291026",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 12.21
+   "pct_pn": 12.23
   },
   {
    "activo": "ON YPF Clase 43",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.7
+   "pct_pn": 3.74
   },
   {
    "activo": "ON Profertil C3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.1
+   "pct_pn": 3.11
   },
   {
    "activo": "Bonos Rep Argentina 2030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.69
+   "pct_pn": 2.67
   },
   {
    "activo": "ON Telecom C28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.48
+   "pct_pn": 2.49
   },
   {
    "activo": "ON Banco Mariva S3 060727",
@@ -66,32 +66,27 @@
   {
    "activo": "ON Pampa Energia C27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.44
-  },
-  {
-   "activo": "ON Vista Energy 33",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.41
+   "pct_pn": 2.43
   },
   {
    "activo": "ON Edenor C11",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.38
+   "pct_pn": 2.36
   },
   {
    "activo": "ON Telecom C30",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.35
-  },
-  {
-   "activo": "BC Minerva 2031",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.32
+   "pct_pn": 2.36
   },
   {
    "activo": "ON Farmacity C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.3
+   "pct_pn": 2.31
+  },
+  {
+   "activo": "BC Minerva 2031",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.31
   },
   {
    "activo": "ON Banco de Valores C4",
@@ -101,7 +96,7 @@
   {
    "activo": "ON Mirgor Clase 6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.83
+   "pct_pn": 1.84
   },
   {
    "activo": "ON Pampa Energia C28",
@@ -129,19 +124,19 @@
    "pct_pn": 1.51
   },
   {
+   "activo": "BC Enel Chile 160628",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.48
+  },
+  {
    "activo": "ON Banco Hipotecario C14",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 1.48
   },
   {
-   "activo": "BC Enel Chile 160628",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.47
-  },
-  {
    "activo": "ON Oldelval Clase 6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.3
+   "pct_pn": 1.31
   },
   {
    "activo": "ON Pluspetrol Clase 6",
@@ -164,9 +159,9 @@
    "pct_pn": 1.27
   },
   {
-   "activo": "BC Gerdau 27102024",
+   "activo": "ON Mirgor Clase 4",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.24
+   "pct_pn": 1.26
   },
   {
    "activo": "ON Banco Comafi C18",
@@ -174,7 +169,7 @@
    "pct_pn": 1.24
   },
   {
-   "activo": "ON Mirgor Clase 4",
+   "activo": "BC Gerdau 27102024",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 1.24
   },
@@ -189,24 +184,24 @@
    "pct_pn": 1.23
   },
   {
+   "activo": "ON Otamerica S7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.23
+  },
+  {
+   "activo": "ON Bco Serv Transac C31",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.22
+  },
+  {
    "activo": "ON Banco de Galicia 33 BYZ1O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 1.22
   },
   {
-   "activo": "ON Otamerica S7",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.22
-  },
-  {
-   "activo": "ON Bco Serv Transac C31",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.21
-  },
-  {
    "activo": "ON Profertil C4",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.2
+   "pct_pn": 1.21
   },
   {
    "activo": "ON Bco Provincia Cl 5 PVC5O",
@@ -214,12 +209,12 @@
    "pct_pn": 0.99
   },
   {
-   "activo": "ON Plaza Logistica C5 ZPC5O",
+   "activo": "ON Ledesma Clase 15",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.87
+   "pct_pn": 0.88
   },
   {
-   "activo": "ON Ledesma Clase 15",
+   "activo": "ON Plaza Logistica C5 ZPC5O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.87
   },
@@ -236,12 +231,12 @@
   {
    "activo": "ON Banco Macro Clase H Reg S",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.79
+   "pct_pn": 0.8
   },
   {
    "activo": "ON Banco Comafi C17",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.75
+   "pct_pn": 0.76
   },
   {
    "activo": "ON Plaza Logistica C15",
@@ -252,6 +247,11 @@
    "activo": "ON Arcor C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.74
+  },
+  {
+   "activo": "ON Vista Energy 33",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.73
   },
   {
    "activo": "ON Scania Credit C1",
@@ -276,7 +276,7 @@
   {
    "activo": "ON Banco Comafi C24",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.61
+   "pct_pn": 0.62
   },
   {
    "activo": "ON Arcor C7",
@@ -356,7 +356,7 @@
   {
    "activo": "FCI Allaria Dólar Ahorro - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.33
+   "pct_pn": 4.31
   },
   {
    "activo": "FCI Balanz Money Market USD - Clase B",

@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Balanceado XVI",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 41342168038.66
+  "Peso Argentina": 37593798612.73
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 70.41
+   "pct_pn": 73.58
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 25.57
+   "pct_pn": 22.77
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.13
+   "pct_pn": 3.81
   },
   {
    "tipo": "Otros Activos",
@@ -40,72 +40,67 @@
   {
    "activo": "Lecap S29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.68
+   "pct_pn": 22.81
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.03
+   "pct_pn": 14.4
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.87
+   "pct_pn": 14.2
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.72
+   "pct_pn": 12.94
   },
   {
-   "activo": "Bono Bonte 2026 TO26",
+   "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.42
+   "pct_pn": 4.04
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.49
+   "pct_pn": 3.87
   },
   {
-   "activo": "Letra Prov Bs As LB2O6",
+   "activo": "Letra Prov Bs As LBN26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.96
+   "pct_pn": 1.05
   },
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.28
   },
   {
    "activo": "Pzo Fi $ Bco Sol",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 10.94
+   "pct_pn": 12.09
   },
   {
    "activo": "Pzo Fi $ Nvo Bco Chaco",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 10.94
+   "pct_pn": 5.35
   },
   {
    "activo": "Pzo Fi $ Bco Coinag",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.69
+   "pct_pn": 5.33
+  },
+  {
+   "activo": "FCI Gainvest Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.0
   },
   {
    "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.71
-  },
-  {
-   "activo": "FCI Balanz Capital Money Market Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.21
-  },
-  {
-   "activo": "FCI MEGAQM Pesos - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.21
+   "pct_pn": 1.81
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

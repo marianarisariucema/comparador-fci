@@ -1,6 +1,6 @@
 {
  "fondo": "Argenfunds Financiamiento Pesos",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Argenfunds S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 15582516721.02
+  "Peso Argentina": 15648227874.9
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.35
+   "pct_pn": 93.7
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.6
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.72
+   "pct_pn": 4.81
   },
   {
    "tipo": "Otros Activos",
@@ -36,7 +40,7 @@
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.42
+   "pct_pn": 27.43
   },
   {
    "activo": "Bono Boncer TX26",
@@ -46,7 +50,7 @@
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.16
+   "pct_pn": 13.15
   },
   {
    "activo": "Lecap S30N6",
@@ -61,17 +65,17 @@
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.01
+   "pct_pn": 8.02
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.91
+   "pct_pn": 3.9
   },
   {
    "activo": "Bono Dual TXMJ8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.98
+   "pct_pn": 3.0
   },
   {
    "activo": "Cheque E *MAV261001060",
@@ -79,24 +83,19 @@
    "pct_pn": 2.82
   },
   {
-   "activo": "Cheque E *MAV151001540",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.01
-  },
-  {
-   "activo": "Cheque E *MAV191000915",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.67
-  },
-  {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.06
   },
   {
-   "activo": "FCI ST Zero - Clase B",
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.6
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.72
+   "pct_pn": 4.81
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

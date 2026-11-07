@@ -1,6 +1,6 @@
 {
  "fondo": "Max Multigestión I",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Max Capital Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 77490510143.58
+  "Peso Argentina": 77113605155.51
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.16
+   "pct_pn": 0.17
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.99
+   "pct_pn": 99.24
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.3
+   "pct_pn": 0.67
   },
   {
    "tipo": "Otros Activos",
@@ -34,49 +34,94 @@
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
+   "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 48.32
+   "pct_pn": 39.53
   },
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.31
+   "pct_pn": 11.52
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.54
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.43
+   "pct_pn": 7.27
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.61
+   "pct_pn": 5.67
   },
   {
    "activo": "Bono Bonar 2029 AO29",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.31
+   "pct_pn": 4.44
   },
   {
    "activo": "Bono Boncer TZXO6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.11
+   "pct_pn": 4.15
   },
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.71
+   "pct_pn": 2.72
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.29
+   "pct_pn": 1.3
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.97
+   "pct_pn": 0.98
+  },
+  {
+   "activo": "Pagare #UMV140170007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.49
+  },
+  {
+   "activo": "Pagare #UMV140170008",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.49
+  },
+  {
+   "activo": "Pagare #UMV040270016",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.49
+  },
+  {
+   "activo": "Pagare #UMV040270017",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.49
+  },
+  {
+   "activo": "Pagare #UMV070170009",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.49
+  },
+  {
+   "activo": "Pagare #UMV070170010",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.49
+  },
+  {
+   "activo": "Pagare #UMV171260015",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.49
+  },
+  {
+   "activo": "Pagare #UMV171260016",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.49
   },
   {
    "activo": "Pagare #UMV111160012",
@@ -99,84 +144,49 @@
    "pct_pn": 0.49
   },
   {
-   "activo": "Pagare #UMV171260015",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.48
-  },
-  {
-   "activo": "Pagare #UMV171260016",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.48
-  },
-  {
-   "activo": "Pagare #UMV140170007",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.48
-  },
-  {
-   "activo": "Pagare #UMV140170008",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.48
-  },
-  {
-   "activo": "Pagare #UMV040270016",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.48
-  },
-  {
-   "activo": "Pagare #UMV040270017",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.48
-  },
-  {
-   "activo": "Pagare #UMV070170009",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.48
-  },
-  {
-   "activo": "Pagare #UMV070170010",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.48
-  },
-  {
    "activo": "Pagare #UMV250370019",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UMV250370020",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UMV250370021",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UMV250370022",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UMV140470019",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UMV140470020",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UMV140470021",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare #UMV140470022",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.48
+  },
+  {
+   "activo": "Pagare #UMV180370016",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.39
   },
   {
    "activo": "Pagare #UMV031260004",
@@ -194,9 +204,9 @@
    "pct_pn": 0.39
   },
   {
-   "activo": "Pagare #UMV180370016",
+   "activo": "Pagare #UMV180370017",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.38
+   "pct_pn": 0.29
   },
   {
    "activo": "Pagare #UMV210170008",
@@ -204,14 +214,9 @@
    "pct_pn": 0.29
   },
   {
-   "activo": "Pagare #UMV180370017",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.28
-  },
-  {
    "activo": "ON Agronorte S3 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
+   "pct_pn": 0.11
   },
   {
    "activo": "Pagare #UMV170370019",
@@ -234,9 +239,9 @@
    "pct_pn": 0.01
   },
   {
-   "activo": "FCI Tango Money Market Dinámico - Clase B",
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.3
+   "pct_pn": 0.67
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

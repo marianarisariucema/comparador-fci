@@ -1,0 +1,91 @@
+{
+ "fondo": "DXA Retorno Total",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Dracma Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 6539802613.67
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 100.26
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.15
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 20.61
+  },
+  {
+   "activo": "Transportadora Gas del Sur S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 18.66
+  },
+  {
+   "activo": "Banco Macro S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 16.7
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 16.63
+  },
+  {
+   "activo": "Grupo Supervielle S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 9.71
+  },
+  {
+   "activo": "Cedear Vista Oil Gas",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 6.54
+  },
+  {
+   "activo": "Cedear Google",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.2
+  },
+  {
+   "activo": "Transener S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.07
+  },
+  {
+   "activo": "Distribuidora de Gas del Centro S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.14
+  },
+  {
+   "activo": "FCI BM Smart Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.15
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88438",
+ "nombre_cnv": "DXA FCI RETORNO TOTAL",
+ "clave": "dxa retorno total"
+}

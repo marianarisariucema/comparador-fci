@@ -1,6 +1,6 @@
 {
  "fondo": "First Renta Mixta VII",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "First Capital Markets S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 2523737189.6
+  "Peso Argentina": 2528007281.09
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.13
+   "pct_pn": 0.14
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.82
+   "pct_pn": 99.85
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -36,32 +36,37 @@
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.12
+   "pct_pn": 27.96
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.74
+   "pct_pn": 26.89
   },
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.58
+   "pct_pn": 26.46
   },
   {
-   "activo": "Lelink D30O6",
+   "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.13
+   "pct_pn": 17.17
   },
   {
    "activo": "ON YPF Clase 38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.64
+   "pct_pn": 0.63
   },
   {
    "activo": "ON Pan American C34",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.61
+   "pct_pn": 0.62
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
   },
   {
    "activo": "FCI Tango Money Market Dinámico - Clase B",

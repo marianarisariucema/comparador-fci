@@ -1,0 +1,124 @@
+{
+ "fondo": "BAVSA Retorno Total",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "BAVSA Fondos S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 2801883058.91
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.76
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 44.79
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.19
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 35.88
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.07
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 1.44
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.92
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.3
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.58
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.19
+  },
+  {
+   "activo": "Cedear Google",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 6.19
+  },
+  {
+   "activo": "Cedear Mercado Libre",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.9
+  },
+  {
+   "activo": "Cedear Utilities Select Sectar SPDR Fund",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.52
+  },
+  {
+   "activo": "Cedear Shares MSCI Brazil ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.2
+  },
+  {
+   "activo": "Cedear Nvidia Corp.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.38
+  },
+  {
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.82
+  },
+  {
+   "activo": "Cedear Arista Networks Inc",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.49
+  },
+  {
+   "activo": "Cedear Banco Bradesco",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.1
+  },
+  {
+   "activo": "Cedear Novo Nordisk A/S",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.95
+  },
+  {
+   "activo": "Cedear Eli Lilly",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.33
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.07
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86732",
+ "nombre_cnv": "BAVSA  RETORNO TOTAL FCI",
+ "clave": "bavsa retorno total"
+}

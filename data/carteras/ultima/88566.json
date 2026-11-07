@@ -1,6 +1,6 @@
 {
  "fondo": "Puente Liquidez Dólares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Puente Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 12758453.61
+  "Dolar Estadounidense": 12469014.68
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 37.15
+   "pct_pn": 30.62
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 62.87
+   "pct_pn": 69.4
   },
   {
    "tipo": "Otros Activos",
@@ -32,37 +32,37 @@
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 15.81
+   "pct_pn": 19.39
   },
   {
    "activo": "Pase Colocador USD BYMA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 15.68
+   "pct_pn": 15.64
   },
   {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 14.64
+   "pct_pn": 14.18
   },
   {
    "activo": "Plazo Fi U$S Bco BACS",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 6.22
+   "pct_pn": 9.43
   },
   {
    "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 6.04
+   "pct_pn": 6.18
   },
   {
    "activo": "Pzo Fi U$S Bco CMF",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.65
+   "pct_pn": 3.73
   },
   {
    "activo": "Pzo Fi U$S Nvo Bco Santa Fe",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 0.82
+   "pct_pn": 0.84
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Compass Opportunity",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 27052873022.98
+  "Peso Argentina": 27177586897.83
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.08
+   "pct_pn": 0.05
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 70.25
+   "pct_pn": 77.43
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 24.3
+   "pct_pn": 17.76
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.67
+   "pct_pn": 3.42
   },
   {
    "tipo": "Otros Activos",
@@ -33,7 +33,7 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 1.7
+   "pct_pn": 1.34
   }
  ],
  "activos": [
@@ -55,7 +55,7 @@
   {
    "activo": "ON ICBC Clase 5 110327",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.37
+   "pct_pn": 8.38
   },
   {
    "activo": "ON Banco Hipotecario C11",
@@ -65,7 +65,7 @@
   {
    "activo": "ON Santander Rio S 32",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.51
+   "pct_pn": 4.52
   },
   {
    "activo": "ON Banco Comafi C22",
@@ -75,7 +75,7 @@
   {
    "activo": "ON BBVA Frances Cl 47",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.93
+   "pct_pn": 3.94
   },
   {
    "activo": "Cheque #MAV031260047",
@@ -93,19 +93,39 @@
    "pct_pn": 1.93
   },
   {
-   "activo": "Cheque #MAV191060027",
+   "activo": "ON BACS Clase 20",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.84
   },
   {
+   "activo": "Cheque E *MAV181201622",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.76
+  },
+  {
+   "activo": "Cheque E *MAV211201301",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.76
+  },
+  {
+   "activo": "Cheque E *MAV221201522",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.75
+  },
+  {
+   "activo": "Cheque E *MAV221201524",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.75
+  },
+  {
    "activo": "ON Banco de Galicia 32 BYY1O",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.52
+   "pct_pn": 1.53
   },
   {
    "activo": "ON Aeropuertos 2000 Regs 2031",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.16
+   "pct_pn": 1.18
   },
   {
    "activo": "ON YPF 2047",
@@ -120,17 +140,17 @@
   {
    "activo": "ON Pampa Energia 2026 9.5%",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.4
+   "pct_pn": 0.39
+  },
+  {
+   "activo": "Cheque E *MAV010200921",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.11
   },
   {
    "activo": "Pzo Fi $ Bco Coinag",
    "tipo": "Operaciones a Plazo en Peso Argentina",
    "pct_pn": 15.25
-  },
-  {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.54
   },
   {
    "activo": "Pzo Fi $ Bco Sol",
@@ -145,7 +165,7 @@
   {
    "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.76
+   "pct_pn": 0.51
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

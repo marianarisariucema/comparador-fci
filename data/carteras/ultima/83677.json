@@ -1,6 +1,6 @@
 {
  "fondo": "Consultatio Multimercado II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 11106113.43
+  "Peso Argentina": 11152499.98
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 11.13
+   "pct_pn": 4.04
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 56.63
-  },
-  {
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 32.24
+   "pct_pn": 95.96
   },
   {
    "tipo": "Otros Activos",
@@ -36,17 +32,22 @@
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.32
+   "pct_pn": 28.33
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.3
+   "pct_pn": 28.31
   },
   {
-   "activo": "FCI Argenfunds Liquidez - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 32.24
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.66
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.66
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "SBS Patrimonio V",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 7964953117.82
+  "Peso Argentina": 8004734766.69
  },
  "por_tipo": [
   {
@@ -17,11 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 86.13
+   "pct_pn": 86.17
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 9.37
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 13.53
+   "pct_pn": 4.62
   },
   {
    "tipo": "Otros Activos",
@@ -29,24 +33,24 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.34
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.75
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.54
+   "pct_pn": 29.61
   },
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.0
+   "pct_pn": 28.56
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.16
   },
   {
    "activo": "Bono Boncer TZXD6",
@@ -54,9 +58,14 @@
    "pct_pn": 8.85
   },
   {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 9.37
+  },
+  {
    "activo": "FCI Adcap Ahorro Pesos - Clase I",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 13.49
+   "pct_pn": 4.58
   },
   {
    "activo": "FCI Schroder Liquidez - Clase B",

@@ -1,0 +1,106 @@
+{
+ "fondo": "Fima Infraestructura II",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Galicia Asset Management S.A.U.",
+ "depositaria": "Banco de Galicia y Buenos Aires S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 12813675192.75
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.04
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.05
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.04
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Prov Cordoba Clase 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.72
+  },
+  {
+   "activo": "Bono Prov Cordoba 2027 COY27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.6
+  },
+  {
+   "activo": "Bono CABA 2028 BDC28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.5
+  },
+  {
+   "activo": "Bonos de Infra.Vial Prov. de Santa Fe",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.08
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.81
+  },
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.51
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.26
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.96
+  },
+  {
+   "activo": "Bono Bocon 2029 PR17",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.6
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.24
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.16
+  },
+  {
+   "activo": "ON Pan Amer. Energy C 18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.59
+  },
+  {
+   "activo": "FCI Pionero Pesos - Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.04
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85564",
+ "nombre_cnv": "HF INFRAESTRUCTURA II FONDO COMUN DE INVERSIÓN ABIERTO PARA EL FINANCIAMIENTO DE LA INFRAESTRUCTURA Y LA ECONOMÍA REAL",
+ "clave": "hf infraestructura ii"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Money Market",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 183369170082.47
+  "Peso Argentina": 179970862324.24
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 33.04
+   "pct_pn": 30.92
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 66.92
+   "pct_pn": 69.0
   },
   {
    "tipo": "Otros Activos",
@@ -25,84 +25,84 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.04
+   "pct_pn": 0.08
   }
  ],
  "activos": [
   {
-   "activo": "Caucion Colocadora $ BYMA",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 10.36
-  },
-  {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 7.74
-  },
-  {
-   "activo": "Pzo Fi $ Bco Supervielle",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.63
+   "pct_pn": 9.59
   },
   {
    "activo": "Caucion Colocadora $ MAE",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.6
+   "pct_pn": 9.45
+  },
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.67
   },
   {
    "activo": "Pzo Fi $ Bco Santander Ri",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.05
-  },
-  {
-   "activo": "Pzo Fi $ Bco Patagonia",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.4
-  },
-  {
-   "activo": "Pzo Fi $ Banco de Serv y Transacciones (BST)",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.14
-  },
-  {
-   "activo": "Caucion Colocadora $ MAV",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.0
-  },
-  {
-   "activo": "Pzo Fi $ Nvo Bco Indus",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.82
+   "pct_pn": 6.19
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.32
-  },
-  {
-   "activo": "Pzo Fi $ Bco Provincia",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.74
+   "pct_pn": 5.59
   },
   {
    "activo": "Pzo Fi $ Bco Cordoba",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.73
+   "pct_pn": 5.02
+  },
+  {
+   "activo": "Pzo Fi $ Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.5
+  },
+  {
+   "activo": "Pzo Fi $ Banco de Serv y Transacciones (BST)",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.19
+  },
+  {
+   "activo": "Pzo Fi $ Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.95
+  },
+  {
+   "activo": "Pzo Fi $ Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.91
+  },
+  {
+   "activo": "Caucion Colocadora $ MAV",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.21
+  },
+  {
+   "activo": "Pzo Fi $ Bco Provincia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.8
   },
   {
    "activo": "Pzo Fi $ BNP Paribas",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.2
-  },
-  {
-   "activo": "Pzo Fi $ Bco BACS",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.1
+   "pct_pn": 2.25
   },
   {
    "activo": "Pzo Fi $ Nvo Bco Santa Fe",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.09
+   "pct_pn": 1.12
+  },
+  {
+   "activo": "Pzo Fi $ Bco BACS",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.56
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

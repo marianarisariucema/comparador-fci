@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Gestión Estratégica II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 10730420540.95
+  "Peso Argentina": 10840531763.02
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 100.06
+   "pct_pn": 100.07
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": null
+   "pct_pn": 0.02
   },
   {
    "tipo": "Otros Activos",
@@ -36,7 +36,7 @@
   {
    "activo": "Pagare #UMV290370005",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 5.58
+   "pct_pn": 5.57
   },
   {
    "activo": "Pagare #UMV060170005",
@@ -81,7 +81,7 @@
   {
    "activo": "Pagare #UMV271160004",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 3.56
+   "pct_pn": 3.57
   },
   {
    "activo": "Pagare #UMV301060010",
@@ -144,9 +144,9 @@
    "pct_pn": 2.97
   },
   {
-   "activo": "Pagare #UMV231060004",
+   "activo": "Pagare #UMV030670054",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 2.96
+   "pct_pn": 2.95
   },
   {
    "activo": "Pagare #UMV301060012",
@@ -182,6 +182,11 @@
    "activo": "Pagare #UMV080470010",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
    "pct_pn": 2.24
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.02
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

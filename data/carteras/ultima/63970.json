@@ -1,6 +1,6 @@
 {
  "fondo": "Alamerica Renta Fija Argentina",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 4238618242.63
+  "Peso Argentina": 4264228889.54
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": 0.02
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.97
+   "pct_pn": 100.01
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.08
+   "pct_pn": 0.05
   },
   {
    "tipo": "Otros Activos",
@@ -36,47 +36,47 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.8
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.86
-  },
-  {
-   "activo": "Bono Boncer TZXD6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.95
+   "pct_pn": 19.83
   },
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.7
+   "pct_pn": 14.6
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZV27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.97
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.93
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.55
+   "pct_pn": 9.54
   },
   {
    "activo": "Bono Boncer TZXO6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.63
+   "pct_pn": 7.62
   },
   {
    "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.53
+   "pct_pn": 7.49
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.44
+   "pct_pn": 7.43
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.71
+   "pct_pn": 4.69
   },
   {
    "activo": "Bono CER TZX27",
@@ -89,9 +89,14 @@
    "pct_pn": 2.36
   },
   {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
    "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.08
+   "pct_pn": 0.05
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

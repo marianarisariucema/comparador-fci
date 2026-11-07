@@ -1,0 +1,111 @@
+{
+ "fondo": "Schroder Crecimiento",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Schroder S.A.S.G.F.C.I.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 79273099007.7
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.32
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.75
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.95
+  },
+  {
+   "activo": "Bono Prov San Juan SJO35",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.21
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.16
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.89
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.85
+  },
+  {
+   "activo": "ON Pampa Energia C26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.1
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.94
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.75
+  },
+  {
+   "activo": "Boncer Mendoza C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.47
+  },
+  {
+   "activo": "ON Tarj Naranja C67 S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.32
+  },
+  {
+   "activo": "Letra Entre Rios ERE27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.95
+  },
+  {
+   "activo": "ON Telecom C18 TLCJO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.71
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.58
+  },
+  {
+   "activo": "FF Megabono 333 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.17
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86666",
+ "nombre_cnv": "SCHRODER CRECIMIENTO F.C.I.",
+ "clave": "schroder crecimiento"
+}

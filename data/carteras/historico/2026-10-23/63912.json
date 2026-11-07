@@ -1,0 +1,96 @@
+{
+ "fondo": "Pellegrini Renta Dolares",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Pellegrini S.A.S.G.F.C.I.",
+ "depositaria": "Banco de La Nacion Argentina",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 9517071.33
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.88
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 96.37
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.8
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional AN29",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 21.44
+  },
+  {
+   "activo": "Bono Bonar 2029 AO29",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 20.6
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 19.41
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 13.07
+  },
+  {
+   "activo": "Bonos Rep Argentina AE38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.93
+  },
+  {
+   "activo": "ON YPF Clase 28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.4
+  },
+  {
+   "activo": "Bonos Rep Argentina AL35",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.17
+  },
+  {
+   "activo": "Bonos Rep Argentina 2029",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.17
+  },
+  {
+   "activo": "Bono Prov Cordoba 010924",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.18
+  },
+  {
+   "activo": "FF Vicentin Export S8 A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.53
+  },
+  {
+   "activo": "FCI Cocos Dólar Money Market - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.27
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63912",
+ "nombre_cnv": "PELLEGRINI RENTA DOLARES",
+ "clave": "pellegrini renta dolares"
+}

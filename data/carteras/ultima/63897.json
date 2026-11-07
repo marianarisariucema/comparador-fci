@@ -1,6 +1,6 @@
 {
  "fondo": "Galileo Income",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Global",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 66703357.43
+  "Dolar Estadounidense": 66736224.45
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 2.86
+   "pct_pn": 2.62
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 86.5
+   "pct_pn": 90.05
   },
   {
    "tipo": "Participaciones Accionarias Chile",
-   "pct_pn": 3.97
+   "pct_pn": 3.99
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -33,7 +33,7 @@
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 3.53
+   "pct_pn": null
   },
   {
    "tipo": "Pasivos",
@@ -44,17 +44,17 @@
   {
    "activo": "US Treasury Bill 150529",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.71
+   "pct_pn": 6.72
   },
   {
    "activo": "US Treasury Bill 150928",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.6
+   "pct_pn": 6.61
   },
   {
    "activo": "US Treasury Bill 151127",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.31
+   "pct_pn": 5.32
   },
   {
    "activo": "BC Bco Credito e Inv 2027",
@@ -64,7 +64,7 @@
   {
    "activo": "BC Bradesco 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.94
+   "pct_pn": 4.95
   },
   {
    "activo": "BR Rep Brasil 28",
@@ -82,19 +82,24 @@
    "pct_pn": 3.95
   },
   {
+   "activo": "CL Rep Chile 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.75
+  },
+  {
+   "activo": "US Treasury Note 300927",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.75
+  },
+  {
    "activo": "BC Inversiones CMPC 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 3.74
   },
   {
-   "activo": "US Treasury Note 300927",
+   "activo": "Chile 4.85%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.74
-  },
-  {
-   "activo": "CL Rep Chile 2027",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.74
+   "pct_pn": 3.53
   },
   {
    "activo": "BC Itau Unibanco 270230",
@@ -104,7 +109,7 @@
   {
    "activo": "BC Brasil 110630",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.03
+   "pct_pn": 3.05
   },
   {
    "activo": "BC BTG 080429",
@@ -134,7 +139,7 @@
   {
    "activo": "BC Cencosud 5.95%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.68
+   "pct_pn": 2.67
   },
   {
    "activo": "BC Banco BTG Pactual 270131",
@@ -149,12 +154,7 @@
   {
    "activo": "BC Codelco 2030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.74
-  },
-  {
-   "activo": "BC Banco do Brasil 231031",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.49
+   "pct_pn": 1.75
   },
   {
    "activo": "BC Sociedad Quimica y Min 2029",
@@ -167,9 +167,14 @@
    "pct_pn": 1.47
   },
   {
+   "activo": "BC Banco do Brasil 231031",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.46
+  },
+  {
    "activo": "Banco de Chile",
    "tipo": "Participaciones Accionarias Chile",
-   "pct_pn": 3.97
+   "pct_pn": 3.99
   },
   {
    "activo": "FCI Megaqm Liquidez Dólar - Clase B",

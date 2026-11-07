@@ -1,6 +1,6 @@
 {
  "fondo": "Max Renta Fija Latam",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Max Capital Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,12 +8,12 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 3818036.81
+  "Dolar Estadounidense": 3822167.08
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.85
+   "pct_pn": 0.89
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
@@ -21,15 +21,15 @@
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.93
+   "pct_pn": 3.92
   },
   {
    "tipo": "Participaciones Accionarias Chile",
-   "pct_pn": 5.8
+   "pct_pn": 5.81
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.44
+   "pct_pn": 2.41
   },
   {
    "tipo": "Otros Activos",
@@ -54,7 +54,7 @@
   {
    "activo": "Bono Corporativo 3.625% 010827",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.17
+   "pct_pn": 8.16
   },
   {
    "activo": "BC Inversiones CMPC 2027",
@@ -64,7 +64,7 @@
   {
    "activo": "BC Banco Santander Chile 201130",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.65
+   "pct_pn": 7.66
   },
   {
    "activo": "BC Enel Chile 160628",
@@ -84,7 +84,7 @@
   {
    "activo": "BC Entel 3.05",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.6
+   "pct_pn": 5.61
   },
   {
    "activo": "BC Cencosud 5.95%",
@@ -104,17 +104,17 @@
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.93
+   "pct_pn": 3.92
   },
   {
    "activo": "Banco de Chile",
    "tipo": "Participaciones Accionarias Chile",
-   "pct_pn": 5.8
+   "pct_pn": 5.81
   },
   {
    "activo": "FCI Allaria Dólar Ahorro - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.44
+   "pct_pn": 2.41
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

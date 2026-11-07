@@ -1,0 +1,92 @@
+{
+ "fondo": "MEGAQM Pesos",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "MEGA QM S.A.",
+ "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 535959110944.11
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 12.71
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 87.28
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.01
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 22.2
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.46
+  },
+  {
+   "activo": "Pzo Fi $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 13.77
+  },
+  {
+   "activo": "Pzo Fi $ ICBC",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 11.31
+  },
+  {
+   "activo": "Pzo Fi $ Bco BBVA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 9.6
+  },
+  {
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.64
+  },
+  {
+   "activo": "Pzo Fi $ Bco Cordoba",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.87
+  },
+  {
+   "activo": "Pzo Fi $ Bco Macro Bansud",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.33
+  },
+  {
+   "activo": "Pzo Fi $ Nvo Bco Chaco",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.94
+  },
+  {
+   "activo": "Pzo Fi $ Bco Coinag",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.57
+  },
+  {
+   "activo": "Pzo Fi $ Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.57
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63693",
+ "nombre_cnv": "MegaQM Pesos",
+ "clave": "megaqm pesos"
+}

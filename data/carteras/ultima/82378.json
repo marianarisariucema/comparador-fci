@@ -1,6 +1,6 @@
 {
  "fondo": "Alpha Renta Capital Dólar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "ICBC Investments Argentina S.A.U.S.G.F.C.I.",
  "depositaria": "ICBC (Arg) S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 67167746.1
+  "Dolar Estadounidense": 65248368.97
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 3.17
+   "pct_pn": 3.7
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 96.33
+   "pct_pn": 96.04
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.75
+   "pct_pn": 0.77
   },
   {
    "tipo": "Otros Activos",
@@ -36,42 +36,42 @@
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 24.72
-  },
-  {
-   "activo": "Bonos Rep Argentina 2030",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 17.26
+   "pct_pn": 25.49
   },
   {
    "activo": "Bonos Rep Argentina GD38",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 14.6
+   "pct_pn": 14.93
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 14.64
   },
   {
    "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 11.57
+   "pct_pn": 11.94
   },
   {
    "activo": "Bonos Rep Argentina GD29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 9.48
+   "pct_pn": 9.88
   },
   {
    "activo": "Bonos Rep Argentina GD30",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.31
+   "pct_pn": 7.47
   },
   {
    "activo": "Bonos Rep Argentina GD35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.18
+   "pct_pn": 7.36
   },
   {
    "activo": "Bonos Rep Argentina 2029",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.01
+   "pct_pn": 4.15
   },
   {
    "activo": "Bonos Rep Argentina GD46",
@@ -81,7 +81,7 @@
   {
    "activo": "FCI Bull Market Liquidez Dólar - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.75
+   "pct_pn": 0.77
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

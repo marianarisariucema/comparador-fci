@@ -1,0 +1,72 @@
+{
+ "fondo": "SBS Liquidez USD",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 35480543.89
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 49.98
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 43.01
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 7.01
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 16.91
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 8.47
+  },
+  {
+   "activo": "Pzo Fi U$S Bco CMF",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 6.35
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 5.64
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 2.82
+  },
+  {
+   "activo": "Pzo Fi U$S Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.41
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.41
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86902",
+ "nombre_cnv": "SBS LIQUIDEZ USD FCI",
+ "clave": "sbs liquidez usd"
+}

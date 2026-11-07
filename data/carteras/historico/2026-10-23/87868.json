@@ -1,0 +1,106 @@
+{
+ "fondo": "BAVSA Renta Balanceado VI",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "BAVSA Fondos S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 18786033826.41
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.62
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.87
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.63
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Mercado Pago C7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.78
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.67
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.11
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.94
+  },
+  {
+   "activo": "Bono Dual TXMJ8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.64
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.16
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.12
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.04
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.01
+  },
+  {
+   "activo": "Bono Boncer TX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.88
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.54
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase B BPOB7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.99
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.63
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87868",
+ "nombre_cnv": "BAVSA RENTA BALANCEADO VI",
+ "clave": "bavsa renta balanceado vi"
+}

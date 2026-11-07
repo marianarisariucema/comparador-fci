@@ -1,0 +1,47 @@
+{
+ "fondo": "Argenfunds Calificado I",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Argenfunds S.A.",
+ "depositaria": "Banco Macro S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 3506221322.32
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.02
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 100.32
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pagare #MAV241160012",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 65.46
+  },
+  {
+   "activo": "Pagare #MAV171160012",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 34.85
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88428",
+ "nombre_cnv": "Argenfunds Calificado I FCI",
+ "clave": "argenfunds calificado i"
+}

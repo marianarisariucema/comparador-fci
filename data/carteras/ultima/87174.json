@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Capital Estrategia VII USD",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 9315232.44
+  "Dolar Estadounidense": 9366510.8
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 75.41
+   "pct_pn": 79.73
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 22.36
+   "pct_pn": 22.31
   },
   {
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 1.97
+   "pct_pn": 1.92
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -33,7 +33,7 @@
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.56
+   "pct_pn": 0.55
   },
   {
    "tipo": "Pasivos",
@@ -44,52 +44,57 @@
   {
    "activo": "ON YPF Clase 44",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 17.54
+   "pct_pn": 17.49
   },
   {
    "activo": "ON CGC C 41",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.11
+   "pct_pn": 6.17
   },
   {
    "activo": "ON Pluspetrol Clase 7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.98
+   "pct_pn": 5.96
   },
   {
    "activo": "ON Pampa Energia C26",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.86
+   "pct_pn": 5.85
   },
   {
    "activo": "ON Vista Energy 31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.74
-  },
-  {
-   "activo": "Bono del Tesoro Nacional AO28",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.02
+   "pct_pn": 5.73
   },
   {
    "activo": "ON Telecom C24",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.98
+   "pct_pn": 4.95
   },
   {
-   "activo": "ON Luz De Tres Picos C1",
+   "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 4.93
   },
   {
+   "activo": "ON Luz De Tres Picos C1",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.92
+  },
+  {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.89
+   "pct_pn": 4.87
   },
   {
    "activo": "Bono Bonar 2029 AO29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.8
+   "pct_pn": 4.83
+  },
+  {
+   "activo": "ON Aeropuertos 2000 C12",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.45
   },
   {
    "activo": "ON TGS C4 Reg S",
@@ -104,22 +109,22 @@
   {
    "activo": "ON Telecom C27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.46
+   "pct_pn": 2.45
   },
   {
    "activo": "Cedear Utilities Select Sectar SPDR Fund",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.05
-  },
-  {
-   "activo": "Cedear iShares Core MSCI Europe ETF",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.02
+   "pct_pn": 2.06
   },
   {
    "activo": "Cedear Mercado Libre",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.01
+   "pct_pn": 1.99
+  },
+  {
+   "activo": "Cedear iShares Core MSCI Europe ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.99
   },
   {
    "activo": "Cedear Petrobras",
@@ -129,82 +134,82 @@
   {
    "activo": "Cedear Shares MSCI Brazil ETF",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.13
+   "pct_pn": 1.14
   },
   {
    "activo": "Cedear Apple Inc",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.1
+   "pct_pn": 1.11
   },
   {
    "activo": "Cedear Visa",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.09
+   "pct_pn": 1.1
   },
   {
    "activo": "Cedear Mastercard",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.08
+   "pct_pn": 1.09
   },
   {
    "activo": "Cedear Microsoft",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.08
-  },
-  {
-   "activo": "Cedear Google",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.02
+   "pct_pn": 1.07
   },
   {
    "activo": "Cedear Microstrategy",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.99
+   "pct_pn": 1.04
   },
   {
    "activo": "Cedear Vista Oil Gas",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.99
-  },
-  {
-   "activo": "Cedear JP Morgan",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.97
+   "pct_pn": 1.02
   },
   {
    "activo": "Cedear NU Holdings Ltd",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.96
+   "pct_pn": 1.0
   },
   {
    "activo": "Cedear Mc Donalds",
    "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.98
+  },
+  {
+   "activo": "Cedear Google",
+   "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 0.96
   },
   {
-   "activo": "Cedear Uber",
+   "activo": "Cedear JP Morgan",
    "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 0.95
   },
   {
    "activo": "Cedear Nvidia Corp.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.95
+   "pct_pn": 0.94
+  },
+  {
+   "activo": "Cedear Uber",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.9
   },
   {
    "activo": "Cedear Vale R Doce ON ADR",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.87
+   "pct_pn": 0.84
   },
   {
    "activo": "Cedear Oracle",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.83
+   "pct_pn": 0.82
   },
   {
    "activo": "ETF Vanguard FTSE Emerging Markets",
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 1.97
+   "pct_pn": 1.92
   },
   {
    "activo": "FCI Adcap Ahorro Dólares - Clase E",

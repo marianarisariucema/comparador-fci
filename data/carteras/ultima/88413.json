@@ -1,6 +1,6 @@
 {
  "fondo": "Cocos Dólar Money Market",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Cocos Asset Management S.A.",
  "depositaria": "Banco Industrial S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 71682349.77
+  "Dolar Estadounidense": 70916384.8
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 20.83
+   "pct_pn": 20.8
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.42
+   "pct_pn": 10.08
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 76.77
+   "pct_pn": 69.14
   },
   {
    "tipo": "Otros Activos",
@@ -34,39 +34,49 @@
  ],
  "activos": [
   {
-   "activo": "ON BBVA Frances Cl 39",
+   "activo": "ON Banco Hipotecario C14",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.42
+   "pct_pn": 7.19
+  },
+  {
+   "activo": "ON Banco de Galicia 31 BYCXO",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 2.89
   },
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 27.9
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Galicia",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 17.44
+   "pct_pn": 19.74
   },
   {
    "activo": "Pzo Fi U$S Bco Patagonia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 10.47
+   "pct_pn": 10.59
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 10.58
   },
   {
    "activo": "Pzo Fi $ Bco Supervielle",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 9.08
+   "pct_pn": 9.18
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 7.05
   },
   {
    "activo": "Pzo Fi U$S Bco Sol",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 6.28
+   "pct_pn": 6.35
   },
   {
    "activo": "Pzo Fi U$S MBA Bco",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 5.59
+   "pct_pn": 5.65
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

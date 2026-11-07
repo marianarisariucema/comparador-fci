@@ -1,6 +1,6 @@
 {
  "fondo": "Delta Latinoamerica",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Variable",
@@ -8,24 +8,28 @@
  "region": "Latinoamerica",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6092025691.12
+  "Peso Argentina": 7374772002.17
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.72
+   "pct_pn": 0.64
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
   },
   {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.36
+  },
+  {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 94.8
+   "pct_pn": 95.31
   },
   {
    "tipo": "Participaciones Accionarias Brasil",
-   "pct_pn": 3.01
+   "pct_pn": 2.69
   },
   {
    "tipo": "Participaciones Accionarias Chile",
@@ -33,11 +37,11 @@
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.22
+   "pct_pn": 4.56
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.05
+   "pct_pn": null
   },
   {
    "tipo": "Pasivos",
@@ -46,74 +50,79 @@
  ],
  "activos": [
   {
-   "activo": "Cedear Petroleo Brasilero",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 19.39
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.36
   },
   {
    "activo": "Cedear Itau Unibanco Holdings",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 18.37
+   "pct_pn": 18.19
+  },
+  {
+   "activo": "Cedear Petroleo Brasilero",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 17.95
   },
   {
    "activo": "Cedear Vale R Doce ON N1",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 12.09
+   "pct_pn": 10.84
   },
   {
    "activo": "Cedear Banco BTG Pactual",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 8.14
+   "pct_pn": 8.9
   },
   {
    "activo": "Cedear Sabesp ON",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.75
-  },
-  {
-   "activo": "Cedear Localiza ON NM",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.53
+   "pct_pn": 7.66
   },
   {
    "activo": "Cedear Weg 1",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.28
+   "pct_pn": 6.18
   },
   {
-   "activo": "Cedear Lojas Renner ON",
+   "activo": "Cedear Localiza ON NM",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.94
-  },
-  {
-   "activo": "Cedear Suzano Papel ON N1",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.88
+   "pct_pn": 6.08
   },
   {
    "activo": "Cedear Banco Bradesco ON N1",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.86
+   "pct_pn": 4.51
+  },
+  {
+   "activo": "Cedear Lojas Renner ON",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.46
+  },
+  {
+   "activo": "Cedear Suzano Papel ON N1",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.17
   },
   {
    "activo": "Cedear Ambev Ord",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.27
+   "pct_pn": 3.3
   },
   {
    "activo": "Cedear Telefonica Brasil ON",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.37
+   "pct_pn": 1.31
   },
   {
    "activo": "Cedear Petro Rio",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.33
+   "pct_pn": 1.21
   },
   {
    "activo": "Cedear Tim Participacoes S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.54
+   "pct_pn": 0.49
   },
   {
    "activo": "Cedear Natura Co Holging S.A.",
@@ -123,12 +132,12 @@
   {
    "activo": "Banco do Brasil S.A.",
    "tipo": "Participaciones Accionarias Brasil",
-   "pct_pn": 3.01
+   "pct_pn": 2.69
   },
   {
    "activo": "FCI Gainvest Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.22
+   "pct_pn": 4.56
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

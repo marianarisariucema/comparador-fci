@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Dólar Global",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 16953650.92
+  "Dolar Estadounidense": 16825770.67
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.15
+   "pct_pn": 0.13
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 99.12
+   "pct_pn": 99.34
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.87
+   "pct_pn": 0.66
   },
   {
    "tipo": "Otros Activos",
@@ -34,39 +34,39 @@
  ],
  "activos": [
   {
-   "activo": "Bono del Tesoro Nacional AO27",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 29.93
-  },
-  {
    "activo": "Bonos Rep Argentina GD38",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 27.64
+   "pct_pn": 27.66
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 27.12
   },
   {
    "activo": "Bonos Rep Argentina AL35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 26.42
+   "pct_pn": 26.3
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 10.15
+   "pct_pn": 10.12
   },
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase B BPOB7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.98
+   "pct_pn": 5.0
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.15
   },
   {
    "activo": "FCI IEB Corto Plazo Dólar - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.86
-  },
-  {
-   "activo": "FCI Adcap Ahorro Dólares - Clase E",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.66
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

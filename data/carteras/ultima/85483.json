@@ -1,6 +1,6 @@
 {
  "fondo": "Dracma Renta Ahorro",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Dracma Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 13992248583.24
+  "Peso Argentina": 14037754970.89
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 90.94
+   "pct_pn": 91.38
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.2
+   "pct_pn": 1.18
   },
   {
    "tipo": "Otros Activos",
@@ -29,14 +29,14 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 7.86
+   "pct_pn": 7.44
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.91
+   "pct_pn": 18.0
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
@@ -46,12 +46,12 @@
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.98
+   "pct_pn": 11.18
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.85
+   "pct_pn": 10.86
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
@@ -59,19 +59,24 @@
    "pct_pn": 9.98
   },
   {
-   "activo": "Bono del Tesoro Nacional T31Y7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.96
-  },
-  {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.99
+   "pct_pn": 5.96
   },
   {
    "activo": "Bono del Tesoro Nacional TMG27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.93
+   "pct_pn": 4.91
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.95
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TY30P",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.03
   },
   {
    "activo": "Lecap S29E7",
@@ -86,12 +91,22 @@
   {
    "activo": "Cheque #MAV250370013",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.94
+   "pct_pn": 0.95
   },
   {
-   "activo": "Cheque E *MAV191001339",
+   "activo": "Pagare #MAV020170008",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.28
+   "pct_pn": 0.69
+  },
+  {
+   "activo": "Pagare #MAV020170009",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.52
+  },
+  {
+   "activo": "Pagare #MAV020170007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.34
   },
   {
    "activo": "Cheque E *MAV231001258",
@@ -134,11 +149,6 @@
    "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *MAV301101771",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
    "activo": "Cheque E *NIO121100031",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
@@ -169,17 +179,17 @@
    "pct_pn": 0.03
   },
   {
+   "activo": "Cheque E *MAV301101771",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
    "activo": "Cheque E *MAV301001463",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
   {
    "activo": "Cheque E *MAV231001314",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Cheque E *MAV151001594",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
@@ -192,6 +202,11 @@
    "activo": "Cheque E *MAV301001472",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *MAV161201285",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.02
   },
   {
    "activo": "Cheque E *MAV161201286",
@@ -210,11 +225,6 @@
   },
   {
    "activo": "Cheque E *MAV300101400",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.02
-  },
-  {
-   "activo": "Cheque E *ACI161000202",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.02
   },
@@ -240,11 +250,6 @@
   },
   {
    "activo": "Cheque E *ACI251100357",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.02
-  },
-  {
-   "activo": "Cheque E *MAV161201285",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.02
   },
@@ -344,16 +349,6 @@
    "pct_pn": 0.01
   },
   {
-   "activo": "Cheque E *ARP151000222",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *MAV151001595",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
    "activo": "Cheque E *MAV020101086",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
@@ -366,7 +361,7 @@
   {
    "activo": "FCI BM Smart Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.2
+   "pct_pn": 1.18
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Selection II Abierto Pymes",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6329393040.64
+  "Peso Argentina": 6357222189.0
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 74.51
+   "pct_pn": 75.77
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 25.59
+   "pct_pn": 24.39
   },
   {
    "tipo": "Otros Activos",
@@ -36,17 +36,17 @@
   {
    "activo": "Cheque #MAV150470010",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.37
+   "pct_pn": 16.38
   },
   {
    "activo": "ON Tecnovax S1 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.58
+   "pct_pn": 8.59
   },
   {
    "activo": "VCP Unicred S5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.27
+   "pct_pn": 8.24
   },
   {
    "activo": "Cheque #CRE160270001",
@@ -66,12 +66,12 @@
   {
    "activo": "Cheque #MAV090270015",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.29
+   "pct_pn": 3.3
   },
   {
    "activo": "Cheque #MAV160270011",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.27
+   "pct_pn": 3.28
   },
   {
    "activo": "ON Pyme Calico S1",
@@ -79,19 +79,14 @@
    "pct_pn": 3.2
   },
   {
-   "activo": "Cheque #CRE211060001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.15
-  },
-  {
    "activo": "Cheque #MAV091260007",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.98
+   "pct_pn": 2.99
   },
   {
    "activo": "Cheque #MAV111260020",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.97
+   "pct_pn": 2.98
   },
   {
    "activo": "Cheque E *MAV311001833",
@@ -99,9 +94,14 @@
    "pct_pn": 2.86
   },
   {
+   "activo": "Cheque E *MAV181101697",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.29
+  },
+  {
    "activo": "Cheque #MAV031160007",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.62
+   "pct_pn": 1.63
   },
   {
    "activo": "Cheque #MAV071260012",
@@ -112,6 +112,21 @@
    "activo": "Cheque #MAV210170009",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.07
+  },
+  {
+   "activo": "Cheque E *MAV031101798",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.78
+  },
+  {
+   "activo": "Cheque E *MAV061101597",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.77
+  },
+  {
+   "activo": "Cheque E *MAV051101624",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.77
   },
   {
    "activo": "Cheque #MAV280170009",
@@ -134,11 +149,6 @@
    "pct_pn": 0.18
   },
   {
-   "activo": "Cheque E *CRE081100130",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.14
-  },
-  {
    "activo": "Cheque E *CRE101100176",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.14
@@ -147,6 +157,16 @@
    "activo": "Cheque E *CRE091100103",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.14
+  },
+  {
+   "activo": "Cheque E *CRE081100130",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Cheque E *CRE090100113",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.13
   },
   {
    "activo": "Cheque E *CRE091200137",
@@ -169,11 +189,6 @@
    "pct_pn": 0.13
   },
   {
-   "activo": "Cheque E *CRE090100113",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.13
-  },
-  {
    "activo": "Cheque E *CRE071200124",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.13
@@ -184,22 +199,7 @@
    "pct_pn": 0.1
   },
   {
-   "activo": "Cheque E *MAV151001390",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
-  },
-  {
-   "activo": "Cheque E *MAV161001075",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
-  },
-  {
    "activo": "Cheque E *CRE061100098",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.08
-  },
-  {
-   "activo": "Cheque E *CRE201000219",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.08
   },
@@ -296,17 +296,17 @@
   {
    "activo": "FCI Gainvest Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 12.03
+   "pct_pn": 11.21
   },
   {
    "activo": "FF Gocreditos Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.31
+   "pct_pn": 7.32
   },
   {
    "activo": "FF Comafi Leasing 19 Cl A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 6.23
+   "pct_pn": 5.84
   },
   {
    "activo": "FCI MEGAQM Pesos - Clase B",

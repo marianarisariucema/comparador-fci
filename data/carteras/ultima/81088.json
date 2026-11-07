@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Gestion Estrategica VIII",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 18225201877.31
+  "Peso Argentina": 18540842830.27
  },
  "por_tipo": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 100.08
+   "pct_pn": 100.12
   },
   {
    "tipo": "Otros Activos",
@@ -30,34 +30,39 @@
  ],
  "activos": [
   {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.2
+  },
+  {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.14
+   "pct_pn": 26.8
   },
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.35
+   "pct_pn": 24.04
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.2
-  },
-  {
-   "activo": "Bono Boncer TZXD6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.35
+   "pct_pn": 15.79
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.09
+   "pct_pn": 2.07
   },
   {
    "activo": "ON Arcor C7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.7
+   "pct_pn": 1.69
+  },
+  {
+   "activo": "ON Loma Negra C7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.28
   },
   {
    "activo": "ON Vaca Muerta C1",

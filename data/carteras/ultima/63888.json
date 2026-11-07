@@ -1,6 +1,6 @@
 {
  "fondo": "Gainvest Global I",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "StoneX Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Latinoamerica",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 21422783.87
+  "Dolar Estadounidense": 21784162.36
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 4.28
+   "pct_pn": 6.05
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 70.09
+   "pct_pn": 75.78
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 14.0
+   "pct_pn": 13.77
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.67
+   "pct_pn": 4.59
   },
   {
    "tipo": "Otros Activos",
@@ -33,64 +33,69 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 6.96
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "CL Rep Chile 28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 16.08
+   "pct_pn": 15.83
   },
   {
    "activo": "CL Rep Chile 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 15.4
+   "pct_pn": 15.16
   },
   {
    "activo": "BC Cencosud 5.95%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 11.85
+   "pct_pn": 11.66
   },
   {
-   "activo": "BC Bco Brasil 6.25% 180430",
+   "activo": "Chile 4.85%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.81
+   "pct_pn": 6.93
   },
   {
    "activo": "BC Itau Unibanco 270230",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.81
+   "pct_pn": 4.74
+  },
+  {
+   "activo": "BC Bco Brasil 6.25% 180430",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.59
   },
   {
    "activo": "BC Petrobras 100930",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.63
+   "pct_pn": 4.56
   },
   {
    "activo": "BR Rep Brasil 2030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.43
+   "pct_pn": 4.36
   },
   {
    "activo": "BC Codelco 300929",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.42
+   "pct_pn": 4.35
   },
   {
    "activo": "BC Bradesco 2030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.66
+   "pct_pn": 3.6
   },
   {
    "activo": "Caucion Colocadora U$S BYMA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 14.0
+   "pct_pn": 13.77
   },
   {
    "activo": "FCI Schroder Liquidez Dolares - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.67
+   "pct_pn": 4.59
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

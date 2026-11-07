@@ -1,0 +1,96 @@
+{
+ "fondo": "SBS Multiactivos",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 15462122731.63
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.62
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.92
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.57
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.45
+  },
+  {
+   "activo": "Bono Boncer 2028 TZXM8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.37
+  },
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.87
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.51
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.62
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.01
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.92
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.22
+  },
+  {
+   "activo": "ON Pampa Energia C13",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.95
+  },
+  {
+   "activo": "FCI Premier Renta CP $ CC",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.51
+  },
+  {
+   "activo": "FCI Adcap Ahorro Dólares - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.06
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63852",
+ "nombre_cnv": "SBS MULTIACTIVOS FCI",
+ "clave": "sbs multiactivos"
+}

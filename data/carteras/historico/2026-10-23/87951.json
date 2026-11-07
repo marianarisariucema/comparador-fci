@@ -1,0 +1,87 @@
+{
+ "fondo": "Lombard Liquidez Dolares",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Patagonia Inversora S.A.U. S.G.F.C.I.",
+ "depositaria": "Banco Patagonia S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 55089819.29
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 22.91
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 61.86
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 15.23
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 16.63
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Hipot",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 8.9
+  },
+  {
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 8.17
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Mariva",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 7.63
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 7.08
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.55
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 3.27
+  },
+  {
+   "activo": "Pzo Fi U$S Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 3.0
+  },
+  {
+   "activo": "Plazo Fi U$S Bco BACS",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.82
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Bibank",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 0.82
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87951",
+ "nombre_cnv": "Lombard Liquidez en Dólares",
+ "clave": "lombard liquidez en dolares"
+}

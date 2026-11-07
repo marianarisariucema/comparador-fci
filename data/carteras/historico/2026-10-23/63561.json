@@ -1,0 +1,106 @@
+{
+ "fondo": "SBS Estrategia",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 3605214786.69
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.98
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 97.71
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.85
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON FCA Comp. Finac CL 22 S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.66
+  },
+  {
+   "activo": "ON Banco Prov Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.36
+  },
+  {
+   "activo": "ON Pampa Energia C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.52
+  },
+  {
+   "activo": "ON Mercado Pago C3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.18
+  },
+  {
+   "activo": "ON Rombo Cia Fciera S64",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.02
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.98
+  },
+  {
+   "activo": "ON GEMSA y CTR C43",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.66
+  },
+  {
+   "activo": "ON Mastellone Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.11
+  },
+  {
+   "activo": "ON Santander Rio S 32",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.09
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C19",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.78
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.86
+  },
+  {
+   "activo": "ON Agrofina Clase 11",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.85
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63561",
+ "nombre_cnv": "SBS ESTRATEGIA FCI",
+ "clave": "sbs estrategia"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "Quiron Pymes Capital Plus",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Quiron Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 52404843.55
+  "Peso Argentina": 52548963.85
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 19.21
+   "pct_pn": 10.8
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 88.77
+   "pct_pn": 88.9
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -29,49 +29,49 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.21
   }
  ],
  "activos": [
   {
    "activo": "Cheque E *PRO080100015",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.51
+   "pct_pn": 17.56
   },
   {
    "activo": "Cheque E *CUY101200046",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.0
+   "pct_pn": 11.03
   },
   {
    "activo": "Cheque E *PRO171200015",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.93
+   "pct_pn": 9.95
   },
   {
    "activo": "Cheque E *NEU221000024",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.48
-  },
-  {
-   "activo": "ON Red Surcos S10 Clase A",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.35
+   "pct_pn": 9.5
   },
   {
    "activo": "Cheque E *FAE071200009",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.34
+   "pct_pn": 7.36
+  },
+  {
+   "activo": "ON Red Surcos S10 Clase A",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.33
   },
   {
    "activo": "Cheque E *NEU101100039",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.61
+   "pct_pn": 5.63
   },
   {
    "activo": "ON Red Surcos S12 Clase A",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.17
+   "pct_pn": 4.16
   },
   {
    "activo": "Cheque E *PRO130400012",
@@ -81,12 +81,12 @@
   {
    "activo": "Cheque E *PRO200400011",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.33
+   "pct_pn": 3.34
   },
   {
    "activo": "Cheque E *PRO270400008",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.31
+   "pct_pn": 3.32
   },
   {
    "activo": "Cheque E *CUY161200052",
@@ -106,7 +106,7 @@
   {
    "activo": "Cheque E *PRO130100012",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.34
+   "pct_pn": 1.35
   },
   {
    "activo": "FCI Premier Renta CP $ CC",

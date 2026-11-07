@@ -1,6 +1,6 @@
 {
  "fondo": "Delta Gestion V",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 26792643316.11
+  "Peso Argentina": 26920878202.42
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 85.99
+   "pct_pn": 85.02
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 12.5
+   "pct_pn": 12.64
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.43
+   "pct_pn": 3.11
   },
   {
    "tipo": "Otros Activos",
@@ -40,17 +40,27 @@
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 25.07
+   "pct_pn": 25.14
   },
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.69
+   "pct_pn": 14.55
   },
   {
    "activo": "Bono Boncer TZXD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.87
+   "pct_pn": 7.83
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.1
+  },
+  {
+   "activo": "Boncer Mendoza C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.26
   },
   {
    "activo": "Bono Boncer TZXS7",
@@ -63,39 +73,19 @@
    "pct_pn": 4.7
   },
   {
-   "activo": "Boncer Mendoza C1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.45
-  },
-  {
    "activo": "Bono Boncer TX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.05
-  },
-  {
-   "activo": "Bono Dual TXMD9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.29
+   "pct_pn": 4.04
   },
   {
    "activo": "ON P. Aconcagua Energia C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.11
+   "pct_pn": 3.12
   },
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.01
-  },
-  {
-   "activo": "ON FCA Comp. Finac CL 22 S1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.7
-  },
-  {
-   "activo": "ON Volkswagen Financial Services C14",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.65
+   "pct_pn": 3.0
   },
   {
    "activo": "ON Rombo Cia Fciera S60",
@@ -105,22 +95,17 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.21
-  },
-  {
-   "activo": "Bono Boncer TX26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.13
+   "pct_pn": 1.22
   },
   {
    "activo": "ON San Miguel Serie 13 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.89
+   "pct_pn": 0.9
   },
   {
    "activo": "Bono Disc ARS Ley AR DICP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.74
+   "pct_pn": 0.73
   },
   {
    "activo": "Lelink D30O6",
@@ -130,27 +115,27 @@
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.17
+   "pct_pn": 3.12
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.33
+   "pct_pn": 2.32
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.64
+   "pct_pn": 1.75
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.1
+   "pct_pn": 1.15
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.93
+   "pct_pn": 0.96
   },
   {
    "activo": "Cablevision Holding S.A.",
@@ -160,25 +145,25 @@
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.67
+   "pct_pn": 0.71
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.65
+   "pct_pn": 0.62
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.29
-  },
-  {
-   "activo": "Bolsas y Mercados Argentinos S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.31
   },
   {
    "activo": "Grimoldi S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Bolsas y Mercados Argentinos S.A.",
    "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 0.24
   },
@@ -195,7 +180,7 @@
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.04
   },
   {
    "activo": "Inversora Juramento S.A.",
@@ -203,14 +188,14 @@
    "pct_pn": 0.02
   },
   {
-   "activo": "FF Cites I",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.11
-  },
-  {
    "activo": "FCI Pionero Pesos Plus - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.32
+   "pct_pn": 1.99
+  },
+  {
+   "activo": "FF Cites I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.12
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

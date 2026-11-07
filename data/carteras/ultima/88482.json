@@ -1,6 +1,6 @@
 {
  "fondo": "Tandem Global III",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Tandem Capital S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 10200092.14
+  "Dolar Estadounidense": 10217336.69
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 2.51
+   "pct_pn": 0.05
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 70.39
+   "pct_pn": 70.29
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.15
+   "pct_pn": 29.73
   },
   {
    "tipo": "Otros Activos",
@@ -36,12 +36,12 @@
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 24.75
+   "pct_pn": 24.84
   },
   {
    "activo": "Bono Bopreal 2028 Serie 4 Clase B BPOB8",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.99
+   "pct_pn": 6.0
   },
   {
    "activo": "ON Transp Gas Sur Cl 3",
@@ -66,12 +66,12 @@
   {
    "activo": "ON YPF Clase 31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.7
+   "pct_pn": 2.68
   },
   {
-   "activo": "Bono del Tesoro Nacional TMVE8",
+   "activo": "US Treasury Note 151029",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.48
+   "pct_pn": 2.35
   },
   {
    "activo": "ON YPF C 17",
@@ -91,12 +91,12 @@
   {
    "activo": "ON Pluspetrol Clase 5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.69
+   "pct_pn": 1.68
   },
   {
    "activo": "ON Capex C5 9.250%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.64
+   "pct_pn": 1.62
   },
   {
    "activo": "ON YPF Clase 34",
@@ -106,7 +106,7 @@
   {
    "activo": "ON Tecpetrol C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.11
+   "pct_pn": 1.1
   },
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase D BPOD7",
@@ -136,7 +136,7 @@
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.76
+   "pct_pn": 9.79
   },
   {
    "activo": "Bono Boncer TZXS7",
@@ -146,17 +146,22 @@
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.24
+   "pct_pn": 5.27
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.69
+   "pct_pn": 2.7
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.5
   },
   {
    "activo": "Bono Boncer 2028 TZXM8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.36
+   "pct_pn": 1.37
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",

@@ -1,6 +1,6 @@
 {
  "fondo": "Max Dinamico V",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Max Capital Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 19199871799.23
+  "Peso Argentina": 19333455107.25
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.68
+   "pct_pn": 99.43
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.09
+   "pct_pn": 0.38
   },
   {
    "tipo": "Otros Activos",
@@ -34,39 +34,39 @@
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
+   "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 39.52
+   "pct_pn": 39.42
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.19
+   "pct_pn": 29.14
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.18
+   "pct_pn": 16.14
   },
   {
-   "activo": "Letra Tesoro Nac T30A7",
+   "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.71
-  },
-  {
-   "activo": "Bono del Tesoro Nacional T31Y7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.41
+   "pct_pn": 13.79
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.67
+   "pct_pn": 0.66
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.28
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.09
+   "pct_pn": 0.38
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

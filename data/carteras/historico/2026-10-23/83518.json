@@ -1,0 +1,61 @@
+{
+ "fondo": "Consultatio Gestion III",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 5675055.23
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.46
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 97.62
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "CL Rep Chile 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 28.25
+  },
+  {
+   "activo": "US Treasury Bill 180227",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 24.36
+  },
+  {
+   "activo": "Bono Corporativo 3.625% 010827",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 23.29
+  },
+  {
+   "activo": "BR Bono Global 2027 10.12%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 21.73
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "83518",
+ "nombre_cnv": "CONSULTATIO GESTIÓN III FCI",
+ "clave": "consultatio gestion iii"
+}

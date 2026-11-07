@@ -1,0 +1,85 @@
+{
+ "fondo": "Superfondo Renta Balance III",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Santander Asset Management G.F.C.I.S.A.",
+ "depositaria": "Banco Santander Argentina S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 4811646920.19
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.08
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 76.09
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 18.93
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.96
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.77
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.81
+  },
+  {
+   "activo": "Bono Dual TXMD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.27
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.72
+  },
+  {
+   "activo": "Bono Prov de Buenos Aires TZV28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.41
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.1
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 18.93
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.96
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88056",
+ "nombre_cnv": "Superfondo Renta Balance III Fondo Común de Inversión",
+ "clave": "superfondo renta balance iii"
+}

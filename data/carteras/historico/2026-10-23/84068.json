@@ -1,0 +1,106 @@
+{
+ "fondo": "SBS Renta Mixta III",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 9475479.61
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.85
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 93.5
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.77
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "BR Bono Global 2027 10.12%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 22.63
+  },
+  {
+   "activo": "US Treasury Bill 171126",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.11
+  },
+  {
+   "activo": "US Treasury Bill 101226",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.44
+  },
+  {
+   "activo": "ON Pan American C38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.13
+  },
+  {
+   "activo": "Bono Corporativo 3.625% 010827",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 7.89
+  },
+  {
+   "activo": "ON YPF Clase 42",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.53
+  },
+  {
+   "activo": "ON Pampa Energia C25",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.42
+  },
+  {
+   "activo": "CL Rep Chile 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.28
+  },
+  {
+   "activo": "BC Inversiones CMPC 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.27
+  },
+  {
+   "activo": "ON YPF Clase 38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.32
+  },
+  {
+   "activo": "ON Pan American C37",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.77
+  },
+  {
+   "activo": "ON Oldelval Clase 5",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.69
+  },
+  {
+   "activo": "FCI Adcap Ahorro Dólares - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.77
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "84068",
+ "nombre_cnv": "SBS RENTA MIXTA III FCI",
+ "clave": "sbs renta mixta iii"
+}

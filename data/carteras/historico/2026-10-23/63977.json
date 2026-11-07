@@ -1,0 +1,67 @@
+{
+ "fondo": "Cohen Renta Fija Dólares",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Delta Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Latinoamerica",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 2029177.92
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 33.66
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 66.55
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "BC Centrales Elec. Brasileras 2030",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 14.08
+  },
+  {
+   "activo": "Bono Corporativo 3.625% 010827",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 12.26
+  },
+  {
+   "activo": "BC Inversiones CMPC 060431",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 10.53
+  },
+  {
+   "activo": "BC Ecopetrol 2032",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 10.1
+  },
+  {
+   "activo": "Bono Paraguay 4.95",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 9.84
+  },
+  {
+   "activo": "BC BBVA Bancomer 180133",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 9.74
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63977",
+ "nombre_cnv": "Cohen Renta Fija Dolares",
+ "clave": "cohen renta fija dolares"
+}

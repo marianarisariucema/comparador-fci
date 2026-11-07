@@ -1,6 +1,6 @@
 {
  "fondo": "GMC Retorno Total II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "GMC Asset Management S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 10215547688.9
+  "Peso Argentina": 10273075902.29
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 7.89
+   "pct_pn": 5.86
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 79.43
+   "pct_pn": 76.49
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.27
+   "pct_pn": 2.7
   },
   {
    "tipo": "Otros Activos",
@@ -29,34 +29,29 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 11.41
+   "pct_pn": 14.95
   }
  ],
  "activos": [
   {
    "activo": "ON Lab. Richmond S8 Clase A",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.57
-  },
-  {
-   "activo": "Bono Boncer 2027 TZXM7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.25
+   "pct_pn": 11.5
   },
   {
    "activo": "Letra Muni Cordoba S53",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.29
+   "pct_pn": 7.4
   },
   {
    "activo": "Bono Bocon 2029 PR17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.74
+   "pct_pn": 7.26
   },
   {
-   "activo": "ON Rowing S1",
+   "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.23
+   "pct_pn": 5.67
   },
   {
    "activo": "Letra Prov Chubut S123 C1",
@@ -66,7 +61,12 @@
   {
    "activo": "Bono Prov de Buenos Aires PBM27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.64
+   "pct_pn": 4.65
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.51
   },
   {
    "activo": "ON Banco Prov Clase 7",
@@ -81,7 +81,7 @@
   {
    "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.63
+   "pct_pn": 2.64
   },
   {
    "activo": "Letra Prov Chubut S122 C2",
@@ -91,7 +91,7 @@
   {
    "activo": "ON Bco Serv Transac C27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.46
+   "pct_pn": 2.45
   },
   {
    "activo": "ON Payway C1",
@@ -101,27 +101,32 @@
   {
    "activo": "Bono Prov Cordoba Clase 5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.96
+   "pct_pn": 2.0
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.92
   },
   {
    "activo": "Bono Muni Cordoba S1 01102027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.9
+   "pct_pn": 1.85
   },
   {
    "activo": "Letra Municipalidad Rio Cuarto S40",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.82
+   "pct_pn": 1.7
   },
   {
    "activo": "ON Pyme Urbano Express Argentina S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.51
+   "pct_pn": 1.47
   },
   {
    "activo": "Letra Prov Chubut S121 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.4
+   "pct_pn": 1.39
   },
   {
    "activo": "Letra Entre Rios ERE27",
@@ -164,11 +169,6 @@
    "pct_pn": 0.01
   },
   {
-   "activo": "Cheque E *MAV280201408",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
    "activo": "Cheque E *MAV101201328",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
@@ -194,7 +194,17 @@
    "pct_pn": 0.01
   },
   {
-   "activo": "FCI Zofingen Pesos Ya - Clase A",
+   "activo": "Cheque E *MAV280201408",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI Toronto T Ahorro B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.44
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.98
   },
@@ -202,11 +212,6 @@
    "activo": "FF AMFAyS S50 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.28
-  },
-  {
-   "activo": "FCI Toronto T Ahorro B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

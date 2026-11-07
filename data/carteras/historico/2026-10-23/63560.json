@@ -1,0 +1,155 @@
+{
+ "fondo": "SBS Balanceado",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 43034161026.47
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 1.49
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 67.76
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 23.88
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 7.09
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.02
+  },
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.85
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.7
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.27
+  },
+  {
+   "activo": "Bonos Rep Argentina GD41",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.38
+  },
+  {
+   "activo": "Bono Disc ARS Ley AR DICP",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.99
+  },
+  {
+   "activo": "Bono Dual TXMJ8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.84
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.45
+  },
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.42
+  },
+  {
+   "activo": "ON Rombo Cia Fciera S66",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.62
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.54
+  },
+  {
+   "activo": "Letra Prov Bs As PBA28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.05
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.61
+  },
+  {
+   "activo": "Cedear Petroleo Brasilero",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 6.09
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.97
+  },
+  {
+   "activo": "Transportadora Gas del Sur S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.16
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.71
+  },
+  {
+   "activo": "Cedear Itau Unibanco Holdings",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.69
+  },
+  {
+   "activo": "Transportadora de Gas del Norte S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.26
+  },
+  {
+   "activo": "FCI Cocos Dólar Money Market - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.56
+  },
+  {
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.37
+  },
+  {
+   "activo": "FCI Parakeet Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.16
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63560",
+ "nombre_cnv": "SBS BALANCEADO FCI",
+ "clave": "sbs balanceado"
+}

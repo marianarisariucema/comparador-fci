@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Cobertura FCIA Pymes",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 37338534303.35
+  "Peso Argentina": 37669880404.69
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.05
+   "pct_pn": 0.06
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 94.22
+   "pct_pn": 97.09
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 6.51
+   "pct_pn": 2.96
   },
   {
    "tipo": "Otros Activos",
@@ -34,49 +34,54 @@
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
+   "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.92
+   "pct_pn": 6.91
   },
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.85
+   "pct_pn": 6.75
   },
   {
    "activo": "ON Agronorte Serie 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.28
+   "pct_pn": 6.29
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.61
+   "pct_pn": 5.6
   },
   {
    "activo": "Pagare UMV281060017",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.68
+   "pct_pn": 2.7
   },
   {
    "activo": "ON Lab. Richmond S8 Clase B",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.39
+   "pct_pn": 2.41
   },
   {
    "activo": "ON Del Fabro Hnos S1 DFS1L",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.11
+   "pct_pn": 2.12
   },
   {
    "activo": "ON Pyme Gar Bajo Imp Apache S1 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.63
+   "pct_pn": 1.64
   },
   {
    "activo": "Pagare UBS210470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.58
+   "pct_pn": 1.59
+  },
+  {
+   "activo": "Factura E UVI181100004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.53
   },
   {
    "activo": "ON Argensun C2",
@@ -91,7 +96,7 @@
   {
    "activo": "ON Pyme Gar Rafaela Alimentos S1 C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.24
+   "pct_pn": 1.23
   },
   {
    "activo": "Pagare UFE051160001",
@@ -106,7 +111,7 @@
   {
    "activo": "ON Pyme Agroempresa Colon S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.82
+   "pct_pn": 0.83
   },
   {
    "activo": "ON Grz Georgalos S2 C2",
@@ -131,7 +136,7 @@
   {
    "activo": "ON P. Aconcagua Energia C22",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.73
+   "pct_pn": 0.74
   },
   {
    "activo": "Pagare UAR040570001",
@@ -154,12 +159,12 @@
    "pct_pn": 0.63
   },
   {
-   "activo": "Pagare UBS040170001",
+   "activo": "Pagare UBS041260001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.6
+   "pct_pn": 0.61
   },
   {
-   "activo": "Pagare UBS041260001",
+   "activo": "Pagare UBS040170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.6
   },
@@ -184,9 +189,19 @@
    "pct_pn": 0.5
   },
   {
-   "activo": "ON PyMe Termoelectrica S3 C1",
+   "activo": "Factura E UH1171100001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.48
+  },
+  {
+   "activo": "Factura E UH1171100002",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "ON PyMe Termoelectrica S3 C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.47
   },
   {
    "activo": "ON Pyme Indave S1",
@@ -264,6 +279,11 @@
    "pct_pn": 0.39
   },
   {
+   "activo": "Pagare UAR250770001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.39
+  },
+  {
    "activo": "Pagare UBI200670001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.39
@@ -299,6 +319,11 @@
    "pct_pn": 0.38
   },
   {
+   "activo": "Factura E UVI161100003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.38
+  },
+  {
    "activo": "Pagare UFI240970002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.38
@@ -309,27 +334,17 @@
    "pct_pn": 0.38
   },
   {
-   "activo": "Pagare UAR250770001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.38
-  },
-  {
-   "activo": "Factura E UVI161100003",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.38
-  },
-  {
-   "activo": "Factura E UVI221000001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.36
-  },
-  {
    "activo": "Pagare UPO150570003",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.35
   },
   {
    "activo": "Pagare UAC210470003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.35
+  },
+  {
+   "activo": "Factura E UVI181100006",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.35
   },
@@ -349,12 +364,17 @@
    "pct_pn": 0.32
   },
   {
-   "activo": "Pagare UAC210470002",
+   "activo": "Pagare UAC210470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.31
+   "pct_pn": 0.32
   },
   {
-   "activo": "Pagare UAC210470001",
+   "activo": "Factura E UVI201100001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.32
+  },
+  {
+   "activo": "Pagare UAC210470002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.31
   },
@@ -374,27 +394,27 @@
    "pct_pn": 0.3
   },
   {
+   "activo": "Pagare UFT020770001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.3
+  },
+  {
+   "activo": "Pagare UFT090770001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.3
+  },
+  {
    "activo": "ON Pyme Zafra S3 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.29
   },
   {
-   "activo": "Pagare UFT020770001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.29
-  },
-  {
-   "activo": "Pagare UFT090770001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.29
-  },
-  {
-   "activo": "Pagare UAC200470003",
+   "activo": "Pagare UFI200470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.28
   },
   {
-   "activo": "Pagare UFI200470001",
+   "activo": "Pagare UAC200470003",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.28
   },
@@ -415,11 +435,6 @@
   },
   {
    "activo": "Pagare UAC260570001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "Pagare UPO201060002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.26
   },
@@ -474,12 +489,27 @@
    "pct_pn": 0.2
   },
   {
+   "activo": "Pagare UGA200670001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.2
+  },
+  {
    "activo": "Pagare UGA171260001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.2
   },
   {
+   "activo": "Pagare UAC150470003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.2
+  },
+  {
    "activo": "Pagare UAC150670002",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.2
+  },
+  {
+   "activo": "Pagare UAC150770002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.2
   },
@@ -494,22 +524,17 @@
    "pct_pn": 0.2
   },
   {
-   "activo": "Pagare UFE220370001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.2
-  },
-  {
    "activo": "Pagare UFE290370001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.2
   },
   {
-   "activo": "Pagare UAC150470003",
+   "activo": "Pagare UFI070470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.2
   },
   {
-   "activo": "Pagare UFI070470001",
+   "activo": "Pagare UFE220370001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.2
   },
@@ -529,17 +554,12 @@
    "pct_pn": 0.19
   },
   {
+   "activo": "Pagare UAR100870004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.19
+  },
+  {
    "activo": "Pagare UAC111070001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Pagare UFI210670003",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Pagare UFI210670001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.19
   },
@@ -554,12 +574,22 @@
    "pct_pn": 0.19
   },
   {
+   "activo": "Pagare UFI210670003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.19
+  },
+  {
+   "activo": "Pagare UFI210670001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.19
+  },
+  {
    "activo": "Pagare UH1231000001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.19
   },
   {
-   "activo": "Pagare UAR100870004",
+   "activo": "Pagare UAC060670001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.19
   },
@@ -570,11 +600,6 @@
   },
   {
    "activo": "Pagare UAC101070001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Pagare UAC150770002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.19
   },
@@ -594,11 +619,6 @@
    "pct_pn": 0.19
   },
   {
-   "activo": "Pagare UGA200670001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
    "activo": "Pagare UAC060770001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.18
@@ -609,7 +629,7 @@
    "pct_pn": 0.18
   },
   {
-   "activo": "Pagare UAC060670001",
+   "activo": "Pagare UMF141260001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.18
   },
@@ -644,16 +664,6 @@
    "pct_pn": 0.17
   },
   {
-   "activo": "Pagare UMF141260001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.17
-  },
-  {
-   "activo": "Pagare UAR150470002",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.17
-  },
-  {
    "activo": "Pagare UAR040970002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.17
@@ -670,6 +680,11 @@
   },
   {
    "activo": "Pagare UAR250970001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Pagare UAR150470002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.17
   },
@@ -759,12 +774,12 @@
    "pct_pn": 0.14
   },
   {
-   "activo": "Pagare UPO161060002",
+   "activo": "Pagare UFI210770001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.14
   },
   {
-   "activo": "Pagare UFI210770001",
+   "activo": "Factura E UVI121100001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.14
   },
@@ -839,6 +854,21 @@
    "pct_pn": 0.12
   },
   {
+   "activo": "Factura E UH1271100001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Factura E UVI181100005",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Factura E UVI191100003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.11
+  },
+  {
    "activo": "Pagare UAR310570002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.11
@@ -874,6 +904,11 @@
    "pct_pn": 0.11
   },
   {
+   "activo": "Pagare UH1231000008",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
+  },
+  {
    "activo": "Pagare UCU050370003",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.1
@@ -885,21 +920,6 @@
   },
   {
    "activo": "Pagare UCU100370003",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
-  },
-  {
-   "activo": "Pagare UH1231000008",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
-  },
-  {
-   "activo": "Pagare UAR110670008",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
-  },
-  {
-   "activo": "Pagare UAR130870007",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.1
   },
@@ -919,6 +939,16 @@
    "pct_pn": 0.1
   },
   {
+   "activo": "Factura E UVI081100004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Factura E UQQ061200003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
+  },
+  {
    "activo": "Pagare UAR240770001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.1
@@ -934,7 +964,17 @@
    "pct_pn": 0.1
   },
   {
-   "activo": "Factura E UQQ061200003",
+   "activo": "Pagare UAR300770007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Pagare UAR110670008",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Pagare UAR130870007",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.1
   },
@@ -975,11 +1015,6 @@
   },
   {
    "activo": "Pagare UAR160770003",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
-  },
-  {
-   "activo": "Pagare UAR300770007",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.1
   },
@@ -1029,29 +1064,14 @@
    "pct_pn": 0.1
   },
   {
-   "activo": "Pagare UCE200770001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
-  },
-  {
    "activo": "Pagare UFE140470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.1
   },
   {
-   "activo": "Factura E UVI081100004",
+   "activo": "Pagare UCE200770001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.1
-  },
-  {
-   "activo": "Pagare UAR130870001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
-  },
-  {
-   "activo": "Pagare UAR190870005",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
   },
   {
    "activo": "Factura E UAC130870002",
@@ -1064,12 +1084,27 @@
    "pct_pn": 0.09
   },
   {
+   "activo": "Pagare UAR130870001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Pagare UAR190870005",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
    "activo": "Pagare UAR080770005",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.09
   },
   {
    "activo": "Pagare UAR100670018",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Pagare UAR151170002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.09
   },
@@ -1100,11 +1135,6 @@
   },
   {
    "activo": "Pagare UAR150770009",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
-  },
-  {
-   "activo": "Pagare UAR151170002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.09
   },
@@ -1144,16 +1174,6 @@
    "pct_pn": 0.08
   },
   {
-   "activo": "Pagare UAR300570004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.08
-  },
-  {
-   "activo": "Pagare UAR300670008",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.08
-  },
-  {
    "activo": "Pagare UAR190370003",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.08
@@ -1175,6 +1195,16 @@
   },
   {
    "activo": "Pagare UAR120370004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Pagare UAR300570004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Pagare UAR300670008",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.08
   },
@@ -1229,6 +1259,11 @@
    "pct_pn": 0.07
   },
   {
+   "activo": "Factura E UVI181100007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
    "activo": "Pagare UAR140770002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.06
@@ -1249,16 +1284,6 @@
    "pct_pn": 0.06
   },
   {
-   "activo": "Pagare UAR230770006",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "Pagare UAR300970005",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
    "activo": "Pagare UAC120870002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.06
@@ -1269,7 +1294,12 @@
    "pct_pn": 0.06
   },
   {
-   "activo": "Pagare UAR020970003",
+   "activo": "Pagare UAR300970005",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Pagare UAR230770006",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.06
   },
@@ -1279,9 +1309,14 @@
    "pct_pn": 0.06
   },
   {
-   "activo": "Factura E UVI151000001",
+   "activo": "Pagare UAR020970003",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.06
+  },
+  {
+   "activo": "Factura E UQQ090200004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
   },
   {
    "activo": "Pagare UH1231000003",
@@ -1294,7 +1329,7 @@
    "pct_pn": 0.05
   },
   {
-   "activo": "Factura E UQQ090200004",
+   "activo": "Factura E U5I161100001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
@@ -1322,16 +1357,6 @@
    "activo": "Pagare UFT250470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
-  },
-  {
-   "activo": "Factura E U5I161100001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
-  },
-  {
-   "activo": "Factura E UVI071200004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
   },
   {
    "activo": "Pagare UAR060870001",
@@ -1364,17 +1389,17 @@
    "pct_pn": 0.04
   },
   {
-   "activo": "Pagare UAR270870001",
+   "activo": "Pagare UAR160970004",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Pagare UAR310870003",
+   "activo": "Pagare UAR090970003",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Pagare UAR310870002",
+   "activo": "Pagare UAR230970003",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
@@ -1389,17 +1414,37 @@
    "pct_pn": 0.04
   },
   {
-   "activo": "Pagare UAR160970004",
+   "activo": "Pagare UAR310870003",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Pagare UAR090970003",
+   "activo": "Pagare UAR310870002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Pagare UAR230970003",
+   "activo": "Pagare UAR270870001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Factura E UQQ061200004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Pagare UAR190870004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Factura E UVI071200004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Pagare UPO310170004",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
@@ -1424,22 +1469,12 @@
    "pct_pn": 0.04
   },
   {
-   "activo": "Pagare UPO310170004",
+   "activo": "Pagare UH1231000004",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
+   "pct_pn": 0.03
   },
   {
-   "activo": "Factura E UQQ061200004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Pagare UAR190870004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Pagare UAR240870002",
+   "activo": "Pagare UAC310770003",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
@@ -1464,22 +1499,17 @@
    "pct_pn": 0.03
   },
   {
+   "activo": "Pagare UAR240870002",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
    "activo": "Pagare UAC230870001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
   {
-   "activo": "Pagare UAC310770003",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Pagare UH1231000004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Factura E UQQ211000003",
+   "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
@@ -1495,6 +1525,11 @@
   },
   {
    "activo": "Pagare UGA301260001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Factura E UVI131200002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
@@ -1529,22 +1564,12 @@
    "pct_pn": 0.02
   },
   {
-   "activo": "Factura E UQQ211000004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.02
-  },
-  {
    "activo": "Pagare UAR240870001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.02
   },
   {
    "activo": "Cheque E *BIS311200349",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.02
-  },
-  {
-   "activo": "Cheque E *BIS191000147",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.02
   },
@@ -1560,41 +1585,6 @@
   },
   {
    "activo": "Cheque E *BIS241000252",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *BIS231100121",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *BIS211200092",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *BIS191000145",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *BIS311000490",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *BIS211100224",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *BIS181200155",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *BIS181100197",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
   },
@@ -1619,19 +1609,44 @@
    "pct_pn": 0.01
   },
   {
+   "activo": "Cheque E *BIS231100121",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *BIS211200092",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *BIS311000490",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *BIS211100224",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *BIS181200155",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *BIS181100197",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
    "activo": "Factura E UQQ271000006",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
   },
   {
-   "activo": "FCI Balanz Capital Money Market Clase C",
+   "activo": "FCI BAVSA Ahorro - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.69
-  },
-  {
-   "activo": "FCI ST Zero - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.69
+   "pct_pn": 2.23
   },
   {
    "activo": "FCI Adcap Ahorro Dólares - Clase E",
@@ -1639,19 +1654,9 @@
    "pct_pn": 0.42
   },
   {
-   "activo": "FCI Adcap Ahorro Pesos - Clase I",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.37
-  },
-  {
    "activo": "FF Metalcred 15A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.28
-  },
-  {
-   "activo": "FCI BAVSA Ahorro - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.02
   },
   {
    "activo": "FCI MAF Money Market - Clase B",
@@ -1659,9 +1664,9 @@
    "pct_pn": 0.02
   },
   {
-   "activo": "FCI Allaria Ahorro - Clase C",
+   "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.02
+   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

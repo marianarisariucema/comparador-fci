@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Sustentable ASG",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 142588068.7
+  "Peso Argentina": 142035740.59
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.2
+   "pct_pn": 0.78
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.51
+   "pct_pn": 98.92
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -29,39 +29,39 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.23
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.7
-  },
-  {
-   "activo": "ON Genneia Clase 37",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.8
+   "pct_pn": 19.98
   },
   {
    "activo": "ON YPF Luz Cl10",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.46
+  },
+  {
+   "activo": "ON Genneia Clase 37",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 18.97
   },
   {
    "activo": "ON Ecofactory S1 C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.92
+   "pct_pn": 18.09
   },
   {
    "activo": "ON Plaza Logistica C15",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.05
+   "pct_pn": 13.3
   },
   {
    "activo": "ON Pyme Spazios Inmuebles S1 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.07
+   "pct_pn": 9.11
   },
   {
    "activo": "FCI Schroder Liquidez - Clase B",

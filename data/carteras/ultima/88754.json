@@ -1,6 +1,6 @@
 {
  "fondo": "Ciclo Nova Ahorro II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Ciclo Nova Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 102775511.23
+  "Peso Argentina": 103167188.52
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 20.33
+   "pct_pn": 20.24
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 79.61
+   "pct_pn": 79.67
   },
   {
    "tipo": "Otros Activos",
@@ -25,29 +25,29 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.06
+   "pct_pn": 0.09
   }
  ],
  "activos": [
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.95
+   "pct_pn": 19.97
   },
   {
    "activo": "Pzo Fi $ Bco Santander Ri",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.89
+   "pct_pn": 19.9
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.89
+   "pct_pn": 19.9
   },
   {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.89
+   "pct_pn": 19.9
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Alpha Renta Cobertura",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "ICBC Investments Argentina S.A.U.S.G.F.C.I.",
  "depositaria": "ICBC (Arg) S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 26645345249.05
+  "Peso Argentina": 26788123019.84
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 2.65
+   "pct_pn": 0.13
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 91.11
+   "pct_pn": 91.8
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.48
+   "pct_pn": 8.22
   },
   {
    "tipo": "Otros Activos",
@@ -36,22 +36,22 @@
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.4
+   "pct_pn": 17.22
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.85
+   "pct_pn": 10.87
   },
   {
    "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.17
+   "pct_pn": 9.2
   },
   {
    "activo": "Bonos Rep Argentina 2029",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.88
+   "pct_pn": 7.01
   },
   {
    "activo": "ON Cresud S30 C46",
@@ -59,29 +59,29 @@
    "pct_pn": 5.62
   },
   {
-   "activo": "ON Aluar Serie 6",
+   "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.33
+   "pct_pn": 5.61
   },
   {
-   "activo": "Bonos Rep Argentina 2030",
+   "activo": "ON Aluar Serie 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.99
+   "pct_pn": 5.34
   },
   {
    "activo": "ON P. Aconcagua Energia C19",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.57
+   "pct_pn": 4.54
+  },
+  {
+   "activo": "ON Pan Amer. Energy C 17",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.42
   },
   {
    "activo": "ON P. Aconcagua Energia C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.32
-  },
-  {
-   "activo": "Bono del Tesoro Nacional AO28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.77
+   "pct_pn": 4.36
   },
   {
    "activo": "Lecap S30N6",
@@ -96,7 +96,7 @@
   {
    "activo": "ON Aeropuertos 2000 C5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.82
+   "pct_pn": 2.83
   },
   {
    "activo": "ON Pan American C26",
@@ -111,12 +111,12 @@
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.2
+   "pct_pn": 2.18
   },
   {
-   "activo": "Lelink D30N6",
+   "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.9
+   "pct_pn": 1.35
   },
   {
    "activo": "ON Refi Pampa S3 B",
@@ -126,7 +126,7 @@
   {
    "activo": "FCI Pionero Pesos Plus - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.69
+   "pct_pn": 4.43
   },
   {
    "activo": "FF Megabono 345 Clase A",

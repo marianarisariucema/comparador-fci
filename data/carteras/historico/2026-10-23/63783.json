@@ -1,0 +1,115 @@
+{
+ "fondo": "GSS Renta Fija Argentina",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Grupo SS S.A.S.G.F.C.I.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 86851832188.75
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 80.75
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 17.33
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.49
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 1.42
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.4
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.0
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.2
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.59
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.28
+  },
+  {
+   "activo": "Bono Boncer TZXA7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.53
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.74
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZXO7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.64
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.51
+  },
+  {
+   "activo": "ON GEMSA 18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.84
+  },
+  {
+   "activo": "Pzo Fi UVA $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 14.07
+  },
+  {
+   "activo": "Pzo Fi $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.26
+  },
+  {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "FCI BM Smart Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.06
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63783",
+ "nombre_cnv": "GSS RENTA FIJA ARGENTINA FCI",
+ "clave": "gss renta fija argentina"
+}

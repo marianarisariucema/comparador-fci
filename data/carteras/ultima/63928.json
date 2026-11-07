@@ -1,6 +1,6 @@
 {
  "fondo": "Pionero Retorno Total",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Macro Fondos S.G.F.C.I.S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 2953681099.47
+  "Peso Argentina": 3227475689.19
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.99
+   "pct_pn": 0.94
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.95
+   "pct_pn": 98.77
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.57
   },
   {
    "tipo": "Otros Activos",
@@ -34,59 +34,64 @@
  ],
  "activos": [
   {
-   "activo": "Bono Dual TXMJ0",
+   "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.27
+   "pct_pn": 21.85
   },
   {
    "activo": "Bono Capitalizable T30J7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.63
+   "pct_pn": 14.37
   },
   {
-   "activo": "Bono Dual TXMD9",
+   "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.94
+   "pct_pn": 13.17
   },
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.36
+   "pct_pn": 13.13
   },
   {
    "activo": "Bono del Tesoro Nacional TY30P",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.8
+   "pct_pn": 12.65
   },
   {
    "activo": "Bonos Rep Argentina AE38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.91
+   "pct_pn": 9.98
+  },
+  {
+   "activo": "Bono Dual TXMJ0",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.3
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.42
+   "pct_pn": 4.07
   },
   {
    "activo": "Bono Disc ARS Ley AR DICP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.84
+   "pct_pn": 2.6
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.79
+   "pct_pn": 1.65
   },
   {
    "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.14
+   "pct_pn": 0.47
   },
   {
    "activo": "FCI Lombard Renta en $",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.11
+   "pct_pn": 0.1
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

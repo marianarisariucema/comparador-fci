@@ -1,0 +1,91 @@
+{
+ "fondo": "Premier Renta Mixta en Dólares",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Supervielle Asset Management S.A.",
+ "depositaria": "Banco Supervielle S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 9376785.58
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 21.52
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 74.33
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.39
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Pampa Energia C23 (RegS)",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 17.27
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 11.85
+  },
+  {
+   "activo": "ON YPF 210727",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 11.66
+  },
+  {
+   "activo": "ON Pan American C35",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.0
+  },
+  {
+   "activo": "ON Pan American C31",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.16
+  },
+  {
+   "activo": "ON YPF Clase 31",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.84
+  },
+  {
+   "activo": "ON Pluspetrol Clase 6",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.65
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030 D",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.82
+  },
+  {
+   "activo": "ON Pan Amer. Energy C 12",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.08
+  },
+  {
+   "activo": "Lombard Liquidez Dolares - Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.39
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63820",
+ "nombre_cnv": "Premier Renta Mixta en Dólares",
+ "clave": "premier renta mixta en dolares"
+}

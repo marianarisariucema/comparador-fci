@@ -1,0 +1,131 @@
+{
+ "fondo": "BAVSA Pesos Plus",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "BAVSA Fondos S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 25214355918.13
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.03
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.82
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.36
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.14
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.33
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.73
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.65
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.13
+  },
+  {
+   "activo": "Bono CER TZX27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.18
+  },
+  {
+   "activo": "Pagare #MAV271060059",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.95
+  },
+  {
+   "activo": "Pagare #MAV101160028",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.91
+  },
+  {
+   "activo": "Pagare #MAV101160035",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.96
+  },
+  {
+   "activo": "Cheque POTE151200312",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.91
+  },
+  {
+   "activo": "Pagare #MAV151260052",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.91
+  },
+  {
+   "activo": "Pagare #MAV301240030",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.25
+  },
+  {
+   "activo": "Pagare #MAV140150033",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.25
+  },
+  {
+   "activo": "Pagare #MAV250350086",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.25
+  },
+  {
+   "activo": "Cheque E *POT231100086",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.15
+  },
+  {
+   "activo": "Cheque E *POT161100111",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "FF AMFAyS S52 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.18
+  },
+  {
+   "activo": "FCI Axis Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.18
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86165",
+ "nombre_cnv": "BAVSA PESOS PLUS FCI ",
+ "clave": "bavsa pesos plus"
+}

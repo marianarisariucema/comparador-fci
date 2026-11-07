@@ -1,0 +1,86 @@
+{
+ "fondo": "Balanz Long Pesos",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Balanz S.G.F.C.I.S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 29628123801.21
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.75
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.83
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.14
+  },
+  {
+   "activo": "Bono del Tesoro 2.5% 2031",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.43
+  },
+  {
+   "activo": "Bono Par ARS Ley AR PARP",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.63
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.58
+  },
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.57
+  },
+  {
+   "activo": "Bono Dual TXMJ0",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.13
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.41
+  },
+  {
+   "activo": "Bono Disc ARS Ley AR DICP",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.87
+  },
+  {
+   "activo": "FCI Max Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.83
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "64023",
+ "nombre_cnv": "BALANZ LONG PESOS",
+ "clave": "balanz long pesos"
+}

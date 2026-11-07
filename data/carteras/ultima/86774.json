@@ -1,6 +1,6 @@
 {
  "fondo": "SBS Patrimonio IX",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 52995738068.61
+  "Peso Argentina": 53480519864.73
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.24
+   "pct_pn": 0.23
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.8
+   "pct_pn": 98.54
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.83
+   "pct_pn": 0.69
   },
   {
    "tipo": "Otros Activos",
@@ -29,59 +29,59 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.13
+   "pct_pn": 0.54
   }
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.88
-  },
-  {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.85
+   "pct_pn": 27.36
   },
   {
    "activo": "ON Vista Gas y Oil Arg C18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.16
+   "pct_pn": 12.98
   },
   {
-   "activo": "Letra Tesoro Nac D31M7",
+   "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.93
-  },
-  {
-   "activo": "Pagare $MAV291260018",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.37
+   "pct_pn": 8.83
   },
   {
    "activo": "ON Pan American C33",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.12
+   "pct_pn": 8.75
   },
   {
-   "activo": "ON Telecom C19 TLCKO",
+   "activo": "Letra Tesoro Nac D31M7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.09
+   "pct_pn": 5.94
   },
   {
-   "activo": "ON Telecom C12 TLCDO",
+   "activo": "Pagare $MAV291260018",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.67
+   "pct_pn": 5.35
   },
   {
    "activo": "ON Aluar Serie 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.99
+   "pct_pn": 5.33
+  },
+  {
+   "activo": "ON Oldelval Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.68
+  },
+  {
+   "activo": "ON Telecom C12 TLCDO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.66
   },
   {
    "activo": "Pagare $MAV101260039",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.63
+   "pct_pn": 3.61
   },
   {
    "activo": "ON Vista Gas y Oil Arg C21",
@@ -89,9 +89,9 @@
    "pct_pn": 3.06
   },
   {
-   "activo": "ON Genneia Clase 37",
+   "activo": "ON Pan Amer. Energy C 18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.91
+   "pct_pn": 2.22
   },
   {
    "activo": "ON Vista Gas y Oil Arg C25",
@@ -99,14 +99,9 @@
    "pct_pn": 1.54
   },
   {
-   "activo": "ON Cresud Clase 40",
+   "activo": "ON YPF Clase XXIV",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.45
-  },
-  {
-   "activo": "ON Vista Gas y Oil Arg C17",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.42
+   "pct_pn": 1.44
   },
   {
    "activo": "ON Telecom C14 TLCFO",
@@ -114,14 +109,9 @@
    "pct_pn": 1.36
   },
   {
-   "activo": "ON PCR Clase K",
+   "activo": "ON YPF Luz Clase 14",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.31
-  },
-  {
-   "activo": "ON Oldelval Clase 3",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.72
+   "pct_pn": 1.08
   },
   {
    "activo": "ON YPF Clase XXVI",
@@ -131,17 +121,12 @@
   {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.53
+   "pct_pn": 0.4
   },
   {
    "activo": "FCI Cocos Dólar Money Market - Clase C",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.29
-  },
-  {
-   "activo": "FCI Adcap Ahorro Pesos - Clase I",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

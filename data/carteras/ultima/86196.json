@@ -1,6 +1,6 @@
 {
  "fondo": "Gainvest Balanceado VI",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "StoneX Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,32 +8,32 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 17396713198.14
+  "Peso Argentina": 17466996082.92
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.15
+   "pct_pn": 1.74
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 87.79
+   "pct_pn": 68.95
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.9
+   "pct_pn": 9.73
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.48
+   "pct_pn": 0.5
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.86
+   "pct_pn": 0.63
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 3.0
+   "pct_pn": 18.61
   },
   {
    "tipo": "Pasivos",
@@ -44,17 +44,12 @@
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.95
+   "pct_pn": 29.96
   },
   {
-   "activo": "Bono Boncer TZXO6",
+   "activo": "Pagare #MAV221260057",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.75
-  },
-  {
-   "activo": "Pagare #MAV231060016",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.59
+   "pct_pn": 18.66
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
@@ -64,12 +59,17 @@
   {
    "activo": "Pagare #MAV111160055",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.02
+   "pct_pn": 3.03
+  },
+  {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.83
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.1
+   "pct_pn": 2.11
   },
   {
    "activo": "ON Pyme Gar Latitud 45 S2 C1",
@@ -84,17 +84,17 @@
   {
    "activo": "Caucion Colocadora $ BYMA",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.9
+   "pct_pn": 9.73
   },
   {
    "activo": "Cedear NU Holdings Ltd",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.48
+   "pct_pn": 0.5
   },
   {
    "activo": "FF Comafi Leasing 18 Cl A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.86
+   "pct_pn": 0.63
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

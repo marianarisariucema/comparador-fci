@@ -1,0 +1,115 @@
+{
+ "fondo": "Allaria Diversificado",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 42592500922.07
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.15
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 64.49
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 33.49
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.38
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 0.03
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.98
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.75
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.76
+  },
+  {
+   "activo": "Cedear SpaceX",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 9.19
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.26
+  },
+  {
+   "activo": "Cedear Google",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.92
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.02
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.96
+  },
+  {
+   "activo": "Cedear Taiwan Semiconduct",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.22
+  },
+  {
+   "activo": "Cedear Nvidia Corp.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.19
+  },
+  {
+   "activo": "Cedear Micron Technology",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.96
+  },
+  {
+   "activo": "Cedear Broadcom Inc",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.93
+  },
+  {
+   "activo": "Cedear Facebook",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.84
+  },
+  {
+   "activo": "FCI Cocos Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.38
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63883",
+ "nombre_cnv": "ALLARIA DIVERSIFICADO FCI Ex AL DIVERSIFICADO FCI",
+ "clave": "allaria diversificado"
+}

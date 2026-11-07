@@ -1,6 +1,6 @@
 {
  "fondo": "Toronto Trust Ahorro Dólar",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco Credito y Securitizacion S.A. (BACS)",
  "clasificacion": "Renta Mixta",
@@ -8,16 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 5036398.6
+  "Dolar Estadounidense": 5058249.94
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 28.55
+   "pct_pn": 3.48
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 88.79
+   "pct_pn": 94.64
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.94
   },
   {
    "tipo": "Otros Activos",
@@ -32,57 +36,62 @@
   {
    "activo": "ON Banco Mariva S3 060727",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 14.56
+   "pct_pn": 14.51
   },
   {
    "activo": "ON BBVA Frances Cl 49",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 10.02
+   "pct_pn": 9.99
   },
   {
    "activo": "ON Bco CMF Serie 20",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 9.99
+   "pct_pn": 9.96
   },
   {
    "activo": "ON Bco Serv Transac C31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 7.98
+   "pct_pn": 7.96
+  },
+  {
+   "activo": "ON Supervielle Clase X",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 6.16
   },
   {
    "activo": "ON Banco Hipotecario C15",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 5.99
+   "pct_pn": 5.97
   },
   {
    "activo": "Cheque #UMV021160047",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 5.94
+   "pct_pn": 5.92
   },
   {
    "activo": "ON Banco Comafi C26",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 4.99
+   "pct_pn": 4.97
   },
   {
    "activo": "Pagare #UCE310370001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 3.87
+   "pct_pn": 3.86
   },
   {
    "activo": "Pagare #UPO140970001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 3.76
+   "pct_pn": 3.75
   },
   {
    "activo": "ON Cresud Clase 51",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 3.04
+   "pct_pn": 3.03
   },
   {
    "activo": "Pagare #UCM090870001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.27
+   "pct_pn": 2.26
   },
   {
    "activo": "ON IEB Construcciones C1",
@@ -102,12 +111,12 @@
   {
    "activo": "Pagare #UPO110570001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.97
+   "pct_pn": 0.96
   },
   {
    "activo": "Pagare #UPO180570002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.97
+   "pct_pn": 0.96
   },
   {
    "activo": "Pagare #UPO300670003",
@@ -125,11 +134,6 @@
    "pct_pn": 0.83
   },
   {
-   "activo": "Pagare #UBI010570002",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.78
-  },
-  {
    "activo": "Pagare #UBI170470001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.77
@@ -140,14 +144,19 @@
    "pct_pn": 0.77
   },
   {
+   "activo": "Pagare #UBI010570002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.77
+  },
+  {
    "activo": "Pagare #UBI100770001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.67
+   "pct_pn": 0.66
   },
   {
    "activo": "Pagare #UAR030270001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.55
+   "pct_pn": 0.54
   },
   {
    "activo": "Pagare #UAR100670017",
@@ -188,6 +197,11 @@
    "activo": "Pagare #UCM090470001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.29
+  },
+  {
+   "activo": "ON Bco Serv Transac C31",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.94
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

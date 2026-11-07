@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Renta",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 14228170237.03
+  "Peso Argentina": 14297305111.42
  },
  "por_tipo": [
   {
@@ -17,19 +17,19 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 82.06
+   "pct_pn": 81.99
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.69
+   "pct_pn": 4.73
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 11.3
+   "pct_pn": 11.4
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.04
+   "pct_pn": 4.47
   },
   {
    "tipo": "Otros Activos",
@@ -49,17 +49,17 @@
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.69
+   "pct_pn": 9.68
   },
   {
    "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.53
+   "pct_pn": 7.54
   },
   {
    "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.69
+   "pct_pn": 6.67
   },
   {
    "activo": "Bono Boncer TZX28",
@@ -69,22 +69,22 @@
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.3
+   "pct_pn": 6.24
   },
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.16
-  },
-  {
-   "activo": "Bonos Rep Argentina GD35",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.89
+   "pct_pn": 6.09
   },
   {
    "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.88
+   "pct_pn": 5.9
+  },
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.86
   },
   {
    "activo": "ON Tarj Naranja C66 S1",
@@ -94,12 +94,12 @@
   {
    "activo": "ON CGC C 39",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.24
+   "pct_pn": 3.26
   },
   {
    "activo": "ON Vista Gas y Oil Arg C18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.93
+   "pct_pn": 2.94
   },
   {
    "activo": "Lecap S30N6",
@@ -109,12 +109,12 @@
   {
    "activo": "Bono Prov Cordoba 030235",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.96
+   "pct_pn": 1.98
   },
   {
    "activo": "Bono Prov Cordoba 2032",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.6
+   "pct_pn": 1.62
   },
   {
    "activo": "ON Pan American C33",
@@ -144,17 +144,17 @@
   {
    "activo": "ON Edenor C11",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.16
+   "pct_pn": 2.18
   },
   {
    "activo": "ON Central Dock Sud C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.35
+   "pct_pn": 1.37
   },
   {
    "activo": "ON Edesa Clase 4",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.55
+   "pct_pn": 0.56
   },
   {
    "activo": "Bonos Rep Argentina 2030",
@@ -169,17 +169,17 @@
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.72
+   "pct_pn": 6.7
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.54
+   "pct_pn": 2.66
   },
   {
    "activo": "Cedear Micron Technology",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.1
+   "pct_pn": 1.11
   },
   {
    "activo": "Cedear Microsoft",
@@ -189,17 +189,22 @@
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.34
+   "pct_pn": 0.33
   },
   {
-   "activo": "FCI IAM Ahorro Pesos C B",
+   "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.76
+   "pct_pn": 2.45
   },
   {
-   "activo": "FCI MEGAQM Pesos - Clase B",
+   "activo": "FCI Schroder Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.28
+   "pct_pn": 1.6
+  },
+  {
+   "activo": "FCI Champaquí Fondo Inmediato - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.42
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

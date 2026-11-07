@@ -1,6 +1,6 @@
 {
  "fondo": "Consultatio Multimercado IV",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense Billete": 85152605.64
+  "Dolar Estadounidense Billete": 61362413.9
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 49.76
+   "pct_pn": 0.5
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 30.82
+   "pct_pn": null
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 18.44
+   "pct_pn": 99.59
   },
   {
    "tipo": "Otros Activos",
@@ -29,159 +29,19 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.98
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "ON Edenor C11",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 15.97
-  },
-  {
-   "activo": "BC Compañia Minera Volcan S2",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.1
-  },
-  {
-   "activo": "ON AES Argentina Gen 060828",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.18
-  },
-  {
-   "activo": "ON Epec C1",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.99
-  },
-  {
-   "activo": "Pagare #UMV050370015",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.65
-  },
-  {
-   "activo": "Pagare #UMV080270006",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.65
-  },
-  {
-   "activo": "Pagare #UMV080270007",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.65
-  },
-  {
-   "activo": "Pagare #UMV110270008",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.65
-  },
-  {
-   "activo": "Pagare #UMV110270009",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.65
-  },
-  {
-   "activo": "Pagare #UMV090370008",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.64
-  },
-  {
-   "activo": "Pagare #UMV100270031",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.57
-  },
-  {
-   "activo": "Pagare #UMV110270007",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.54
-  },
-  {
-   "activo": "Pagare #UMV090270014",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.52
-  },
-  {
-   "activo": "Pagare #UMV080370002",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV050370016",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.5
-  },
-  {
-   "activo": "Pagare #UMV260270011",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.44
-  },
-  {
-   "activo": "Pagare #UMV260270010",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.44
-  },
-  {
-   "activo": "ON YPF Clase 44",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.39
-  },
-  {
-   "activo": "Pagare #UMV180270007",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.37
-  },
-  {
-   "activo": "Pagare #UMV170270022",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.37
-  },
-  {
-   "activo": "Pagare #UMV170270023",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.28
-  },
-  {
-   "activo": "ON PCR Clase K",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.28
-  },
-  {
-   "activo": "Pagare #UMV040370006",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.28
-  },
-  {
-   "activo": "Pagare #UMV250270011",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.28
-  },
-  {
-   "activo": "Pagare #UMV110270003",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.25
-  },
-  {
-   "activo": "ON Otamerica S7",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Pagare #UMV050370017",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.17
-  },
-  {
-   "activo": "Pagare #UMV190270007",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.16
-  },
-  {
-   "activo": "Pagare #UMV260270009",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.15
-  },
-  {
    "activo": "FCI Megaqm Liquidez Dólar - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 18.44
+   "pct_pn": 56.89
+  },
+  {
+   "activo": "FCI Allaria Dólar Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 42.7
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

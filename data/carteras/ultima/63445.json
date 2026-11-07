@@ -1,6 +1,6 @@
 {
  "fondo": "Supergestion Mix VI",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Santander Asset Management G.F.C.I.S.A.",
  "depositaria": "Banco Santander Argentina S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 1163737181833.7
+  "Peso Argentina": 1177866980686.93
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 79.94
+   "pct_pn": 79.72
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.94
+   "pct_pn": 19.77
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.64
+   "pct_pn": 1.12
   },
   {
    "tipo": "Otros Activos",
@@ -40,67 +40,72 @@
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.81
-  },
-  {
-   "activo": "Lecer X29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.3
+   "pct_pn": 10.73
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.28
+   "pct_pn": 10.48
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.18
+   "pct_pn": 9.87
   },
   {
-   "activo": "Bono del Tesoro Nacional T31Y7",
+   "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.74
+   "pct_pn": 9.23
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.03
+   "pct_pn": 5.98
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.9
+   "pct_pn": 5.85
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.44
+   "pct_pn": 5.39
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.36
   },
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.93
-  },
-  {
-   "activo": "Bono Boncer TZXO6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.59
+   "pct_pn": 3.9
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.22
+   "pct_pn": 2.2
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.76
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.4
+   "pct_pn": 1.39
+  },
+  {
+   "activo": "Bono Boncer TZXA7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.1
   },
   {
    "activo": "ON Banco de Galicia 32 BYY1O",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.89
+   "pct_pn": 0.88
   },
   {
    "activo": "ON BBVA Frances Cl 47",
@@ -118,6 +123,11 @@
    "pct_pn": 0.45
   },
   {
+   "activo": "Bono Boncer TZXO6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.39
+  },
+  {
    "activo": "ON ICBC Clase 5 110327",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.35
@@ -125,7 +135,7 @@
   {
    "activo": "ON Tarj Naranja C67 S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.29
+   "pct_pn": 0.28
   },
   {
    "activo": "ON BBVA Frances Cl 41",
@@ -148,21 +158,6 @@
    "pct_pn": 0.18
   },
   {
-   "activo": "ON Mercado Pago C8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
-   "activo": "ON ICBC Clase 8 280827",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
-   "activo": "Bono Prov Mendoza TAMAR C2",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
    "activo": "ON ICBC Clase 4 281126",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.18
@@ -173,14 +168,29 @@
    "pct_pn": 0.18
   },
   {
+   "activo": "ON Mercado Pago C8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "ON ICBC Clase 8 280827",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.18
+  },
+  {
    "activo": "ON Banco Nacion Argentina Clase 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Bono Prov Mendoza TAMAR C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.17
   },
   {
    "activo": "ON Banco Comafi C22",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.14
+   "pct_pn": 0.13
   },
   {
    "activo": "ON Rombo Cia Fciera S67",
@@ -205,7 +215,7 @@
   {
    "activo": "ON Credicuotas Consumo S17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.04
   },
   {
    "activo": "ON P. Aconcagua Energia C19",
@@ -220,37 +230,37 @@
   {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 8.67
+   "pct_pn": 8.59
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.03
+   "pct_pn": 3.01
   },
   {
    "activo": "Pzo Fi $ Bco Provincia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.61
+   "pct_pn": 2.59
   },
   {
    "activo": "Pzo Fi $ Bco Supervielle",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.74
+   "pct_pn": 1.72
   },
   {
    "activo": "Pzo Fi $ Bco Patagonia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.3
+   "pct_pn": 1.29
   },
   {
    "activo": "Pzo Fi $ ICBC",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.29
+   "pct_pn": 1.28
   },
   {
    "activo": "Pzo Fi $ Nvo Bco Santa Fe",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.86
+   "pct_pn": 0.85
   },
   {
    "activo": "Pzo Fi $ Bco Credicoop",
@@ -260,7 +270,12 @@
   {
    "activo": "FCI MAF Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.55
+  },
+  {
+   "activo": "FCI Premier Renta CP $ CC",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.23
   },
   {
    "activo": "FF Mercado Credito 54 CA",
@@ -276,11 +291,6 @@
    "activo": "FF Mercado Credito 47 CA",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.09
-  },
-  {
-   "activo": "FCI Premier Renta CP $ CC",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.05
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

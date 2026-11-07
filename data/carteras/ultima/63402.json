@@ -1,6 +1,6 @@
 {
  "fondo": "Alpha Renta Capital Pesos",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "ICBC Investments Argentina S.A.U.S.G.F.C.I.",
  "depositaria": "ICBC (Arg) S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 142482266496.72
+  "Peso Argentina": 145491110831.66
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.06
+   "pct_pn": 0.02
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.39
+   "pct_pn": 98.89
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.75
+   "pct_pn": 2.03
   },
   {
    "tipo": "Otros Activos",
@@ -36,87 +36,97 @@
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.25
+   "pct_pn": 16.01
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.99
+   "pct_pn": 12.79
   },
   {
    "activo": "Bono Boncer TX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.5
+   "pct_pn": 11.3
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.48
+   "pct_pn": 9.33
   },
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.39
+   "pct_pn": 9.23
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.43
+   "pct_pn": 8.29
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.2
+   "pct_pn": 8.0
   },
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.52
+   "pct_pn": 5.41
   },
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.98
+   "pct_pn": 3.91
   },
   {
    "activo": "Bono Par ARS Ley AR PARP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.62
+   "pct_pn": 2.57
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.27
+   "pct_pn": 2.24
   },
   {
    "activo": "Bono Boncer 2028 TZXM8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.82
+   "pct_pn": 1.8
   },
   {
    "activo": "Bono Disc ARS Ley AR DICP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.73
+   "pct_pn": 1.7
   },
   {
-   "activo": "Bono Dual TXMD8",
+   "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.16
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TMVE8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.01
+   "pct_pn": 1.24
   },
   {
    "activo": "Bono del Tesoro 2.5% 2031",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.94
+   "pct_pn": 1.19
+  },
+  {
+   "activo": "Bono Dual TXMD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.13
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.0
   },
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.8
+   "pct_pn": 0.79
+  },
+  {
+   "activo": "Bono CER TZX27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.43
   },
   {
    "activo": "Lecap S29E7",
@@ -124,19 +134,24 @@
    "pct_pn": 0.29
   },
   {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.26
+  },
+  {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.84
+   "pct_pn": 1.0
   },
   {
    "activo": "FCI Ciclo Nova Ahorro - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.57
+   "pct_pn": 0.7
   },
   {
    "activo": "FF Mercado Credito 55 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.34
+   "pct_pn": 0.33
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

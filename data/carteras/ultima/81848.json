@@ -1,6 +1,6 @@
 {
  "fondo": "Champaquí Estratégico",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Bancor Fondos S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Cordoba S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 16616319582.02
+  "Peso Argentina": 16882447122.45
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.08
+   "pct_pn": 97.36
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.2
+   "pct_pn": 2.88
   },
   {
    "tipo": "Otros Activos",
@@ -34,49 +34,54 @@
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.16
-  },
-  {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.83
-  },
-  {
-   "activo": "Bono Boncer 2027 TZXM7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.61
+   "pct_pn": 27.59
   },
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.83
+   "pct_pn": 27.07
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.45
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.72
   },
   {
    "activo": "Pagare #UPO290170003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.67
+   "pct_pn": 2.65
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.87
+   "pct_pn": 1.85
   },
   {
    "activo": "Pagare #UBI160970001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.43
+   "pct_pn": 1.42
   },
   {
    "activo": "Pagare #UBI300770003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.14
+   "pct_pn": 1.13
   },
   {
    "activo": "Pagare #UBI200770002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.03
+   "pct_pn": 1.02
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.99
   },
   {
    "activo": "Pagare #UPO300770007",
@@ -86,7 +91,7 @@
   {
    "activo": "Pagare #UPO280570004",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.89
+   "pct_pn": 0.88
   },
   {
    "activo": "Pagare #UBI200770003",
@@ -101,7 +106,7 @@
   {
    "activo": "Pagare #UAR200770003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.78
+   "pct_pn": 0.77
   },
   {
    "activo": "Pagare #UAR060870003",
@@ -119,12 +124,7 @@
    "pct_pn": 0.45
   },
   {
-   "activo": "Pagare #UAR180670011",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.44
-  },
-  {
-   "activo": "Pagare #UAR140770005",
+   "activo": "Pagare #UFT02087000",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.43
   },
@@ -139,19 +139,24 @@
    "pct_pn": 0.43
   },
   {
-   "activo": "Pagare #UFT02087000",
+   "activo": "Pagare #UAR180670011",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "Pagare #UAR140770005",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.43
   },
   {
    "activo": "Pagare #UAR300770006",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.29
+   "pct_pn": 0.28
   },
   {
    "activo": "Pagare #UAR230770007",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.29
+   "pct_pn": 0.28
   },
   {
    "activo": "Pagare #UAR300570003",
@@ -184,9 +189,9 @@
    "pct_pn": 0.09
   },
   {
-   "activo": "FCI ST Zero - Clase C",
+   "activo": "FCI MAF Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.2
+   "pct_pn": 2.88
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

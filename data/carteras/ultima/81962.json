@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Performance V",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 14864605564.88
+  "Peso Argentina": 14962117392.08
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.46
+   "pct_pn": 99.45
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.15
+   "pct_pn": 0.17
   },
   {
    "tipo": "Otros Activos",
@@ -29,59 +29,59 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.15
+   "pct_pn": 0.14
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.72
+   "pct_pn": 18.89
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.87
+   "pct_pn": 15.86
   },
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.84
+   "pct_pn": 14.73
   },
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.57
+   "pct_pn": 8.51
   },
   {
-   "activo": "Boncer TZXY7",
+   "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.92
-  },
-  {
-   "activo": "Bono Boncer TZXS7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.25
+   "pct_pn": 6.22
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.12
+   "pct_pn": 5.11
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.97
+   "pct_pn": 4.96
   },
   {
    "activo": "Bono Bonar 2029 AO29",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.42
+   "pct_pn": 4.48
   },
   {
    "activo": "Letra Prov Chubut S119 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 3.62
+  },
+  {
+   "activo": "Bono Muni Cordoba S1 01102027",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.5
   },
   {
    "activo": "Lelink D30O6",
@@ -91,7 +91,12 @@
   {
    "activo": "Letra Prov Chubut S122 C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.42
+   "pct_pn": 3.44
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.4
   },
   {
    "activo": "Letra Prov Bs As PBA27",
@@ -101,7 +106,7 @@
   {
    "activo": "FCI Schroder Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.15
+   "pct_pn": 0.17
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

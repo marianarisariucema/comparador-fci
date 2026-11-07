@@ -1,0 +1,76 @@
+{
+ "fondo": "FBA Acciones Latinoamericanas",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "BBVA Asset Management Argentina S.A.U.S.G.F.C.I.",
+ "depositaria": "BBVA Argentina S.A.",
+ "clasificacion": "Renta Variable",
+ "moneda": "Peso Argentina",
+ "region": "Latinoamerica",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 27935542621.28
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 5.73
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 81.71
+  },
+  {
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 12.85
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Cedear Petroleo Brasilero",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 20.06
+  },
+  {
+   "activo": "Cedear Itau Unibanco Holdings",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 20.05
+  },
+  {
+   "activo": "Cedear Banco Bradesco ON N1",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 17.16
+  },
+  {
+   "activo": "Cedear Vale R Doce ON N1",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 16.38
+  },
+  {
+   "activo": "Cedear Ishares MSCI Latam 40",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 8.06
+  },
+  {
+   "activo": "ETF iShares MSCI Mexico",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 10.4
+  },
+  {
+   "activo": "ETF iShares MSCI Chile",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 2.45
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63438",
+ "nombre_cnv": "FBA ACCIONES LATINOMERICANAS Fondo Común de Invers",
+ "clave": "fba acciones latinomericanas"
+}

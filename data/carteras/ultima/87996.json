@@ -1,6 +1,6 @@
 {
  "fondo": "Bull Market Estrategia",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Bull Market Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 192445692832.1
+  "Peso Argentina": 194042696146.8
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.16
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 80.18
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.61
+   "pct_pn": 92.41
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.45
+   "pct_pn": 7.82
   },
   {
    "tipo": "Otros Activos",
@@ -33,49 +29,49 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 9.6
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.39
+   "pct_pn": 13.28
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.8
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.2
+   "pct_pn": 9.86
   },
   {
    "activo": "Bono del Tesoro Nacional TY30P",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.63
+   "pct_pn": 7.58
   },
   {
    "activo": "Pagare #MAV010370015",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.17
+   "pct_pn": 3.16
   },
   {
    "activo": "Pagare #MAV081160016",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.81
+   "pct_pn": 2.8
   },
   {
    "activo": "Pagare #MAV011160006",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.38
+   "pct_pn": 2.37
   },
   {
    "activo": "Pagare #MAV250270017",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.36
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TMG28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.21
+   "pct_pn": 2.35
   },
   {
    "activo": "Pagare #MAV041160014",
@@ -85,12 +81,17 @@
   {
    "activo": "Pagare #MAV270370005",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.21
+   "pct_pn": 2.2
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.19
   },
   {
    "activo": "Pagare #MAV270370002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.09
+   "pct_pn": 2.08
   },
   {
    "activo": "Boncer TZXY7",
@@ -98,29 +99,19 @@
    "pct_pn": 1.97
   },
   {
-   "activo": "Letra Tamar TEM TMF27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.86
-  },
-  {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.78
+   "pct_pn": 1.77
   },
   {
    "activo": "Pagare #MAV011160005",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.78
+   "pct_pn": 1.77
   },
   {
    "activo": "Pagare #MAV250270020",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.76
-  },
-  {
-   "activo": "Pagare #MAV310370014",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.65
+   "pct_pn": 1.75
   },
   {
    "activo": "Pagare #MAV270370007",
@@ -128,9 +119,14 @@
    "pct_pn": 1.64
   },
   {
+   "activo": "Pagare #MAV310370014",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.64
+  },
+  {
    "activo": "Pagare #MAV010370016",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.47
+   "pct_pn": 1.46
   },
   {
    "activo": "Pagare #MAV310370018",
@@ -140,7 +136,7 @@
   {
    "activo": "Pagare #MAV090370010",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.31
+   "pct_pn": 1.3
   },
   {
    "activo": "Bono Boncer TZXS7",
@@ -150,7 +146,7 @@
   {
    "activo": "Pagare #MAV250270018",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.2
+   "pct_pn": 1.19
   },
   {
    "activo": "Pagare #MAV270370008",
@@ -190,7 +186,7 @@
   {
    "activo": "Pagare #MAV310370016",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.68
+   "pct_pn": 0.67
   },
   {
    "activo": "Pagare #MAV090370009",
@@ -220,7 +216,7 @@
   {
    "activo": "Pagare #MAV081160018",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.45
+   "pct_pn": 0.44
   },
   {
    "activo": "Pagare #MAV070470015",
@@ -318,19 +314,9 @@
    "pct_pn": 0.12
   },
   {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.77
-  },
-  {
-   "activo": "Plazo Fi $ Bco Tierra del Fuego",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.84
-  },
-  {
    "activo": "FF Centrocard Creditos S9",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.45
+   "pct_pn": 7.82
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

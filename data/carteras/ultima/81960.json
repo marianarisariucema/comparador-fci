@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Performance III",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 34983898401.94
+  "Peso Argentina": 35140011179.62
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.33
+   "pct_pn": 95.44
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.98
+   "pct_pn": 4.1
   },
   {
    "tipo": "Otros Activos",
@@ -29,19 +29,19 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.67
+   "pct_pn": 0.44
   }
  ],
  "activos": [
   {
    "activo": "ON Telecom C18 TLCJO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.35
+   "pct_pn": 11.36
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.33
+   "pct_pn": 10.35
   },
   {
    "activo": "ON Capex C7",
@@ -51,17 +51,17 @@
   {
    "activo": "ON Capex C10",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.98
+   "pct_pn": 6.97
   },
   {
    "activo": "ON PSA Serie 34",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.37
+   "pct_pn": 6.38
   },
   {
    "activo": "ON PCR Clase K",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.32
+   "pct_pn": 4.34
   },
   {
    "activo": "ON Petroqui C Rivadavia Clase Q",
@@ -86,17 +86,17 @@
   {
    "activo": "ON Rombo Cia Fciera S66",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.17
+   "pct_pn": 3.18
   },
   {
    "activo": "ON Edesa Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.86
+   "pct_pn": 2.87
   },
   {
    "activo": "ON Bco Serv Transac C29",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.16
+   "pct_pn": 2.2
   },
   {
    "activo": "ON FCA Comp. Finac CL 20 S1",
@@ -114,14 +114,14 @@
    "pct_pn": 1.89
   },
   {
-   "activo": "ON PSA Serie 38",
+   "activo": "ON FCA Comp. Finac CL 22 S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.79
   },
   {
-   "activo": "ON FCA Comp. Finac CL 22 S1",
+   "activo": "ON PSA Serie 38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.78
+   "pct_pn": 1.79
   },
   {
    "activo": "ON NewSan Clase 23",
@@ -146,7 +146,7 @@
   {
    "activo": "ON Banco Prov Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.47
+   "pct_pn": 1.48
   },
   {
    "activo": "ON FCA Comp. Finac CL 21 S1",
@@ -156,12 +156,12 @@
   {
    "activo": "ON Volkswagen Financial Services C15",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.21
+   "pct_pn": 1.22
   },
   {
    "activo": "ON Genneia Clase 37",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.18
+   "pct_pn": 1.19
   },
   {
    "activo": "ON PSA Serie 31",
@@ -191,12 +191,12 @@
   {
    "activo": "FF Milaires Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.97
+   "pct_pn": 2.98
   },
   {
-   "activo": "FCI Schroder Liquidez - Clase B",
+   "activo": "FCI Max Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.01
+   "pct_pn": 1.12
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

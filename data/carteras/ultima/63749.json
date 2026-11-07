@@ -1,6 +1,6 @@
 {
  "fondo": "Optimum Multi Asset Fund",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "SAM Argentina S.G.F.C.I.S.A.U.",
  "depositaria": "BNP Paribas",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6194266932.52
+  "Peso Argentina": 5819709822.38
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.35
+   "pct_pn": 0.28
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.5
+   "pct_pn": 98.18
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.56
+   "pct_pn": 1.71
   },
   {
    "tipo": "Otros Activos",
@@ -36,47 +36,42 @@
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.68
+   "pct_pn": 25.31
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.36
+   "pct_pn": 25.05
   },
   {
    "activo": "Bono CER TZX27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.06
-  },
-  {
-   "activo": "Bono Boncer TZXO6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.71
-  },
-  {
-   "activo": "Bono Boncer 2027 TZXM7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.76
-  },
-  {
-   "activo": "Bono Boncer TZXS7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.44
+   "pct_pn": 21.42
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.35
+   "pct_pn": 8.94
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.23
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.81
   },
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.14
+   "pct_pn": 4.43
   },
   {
    "activo": "FCI Argenfunds Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.56
+   "pct_pn": 1.71
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

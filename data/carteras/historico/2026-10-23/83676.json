@@ -1,0 +1,96 @@
+{
+ "fondo": "Consultatio Multimercado I",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 17112906967.12
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.45
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.56
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 30.07
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.92
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.7
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.48
+  },
+  {
+   "activo": "Bono Dual TXMJ0",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.14
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.21
+  },
+  {
+   "activo": "ON Arcor C8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.98
+  },
+  {
+   "activo": "ON Banco de Galicia 32 BYY1O",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.82
+  },
+  {
+   "activo": "ON Toyota Clase 34",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.22
+  },
+  {
+   "activo": "FCI GMC Money Market - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "83676",
+ "nombre_cnv": "CONSULTATIO MULTIMERCADO I",
+ "clave": "consultatio multimercado i"
+}

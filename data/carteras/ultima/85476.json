@@ -1,6 +1,6 @@
 {
  "fondo": "Pionero Renta Dólar Estrategia",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Macro Fondos S.G.F.C.I.S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 30568122.75
+  "Dolar Estadounidense": 30827874.2
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 20.97
+   "pct_pn": 21.66
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 61.05
+   "pct_pn": 60.57
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 17.99
+   "pct_pn": 17.84
   },
   {
    "tipo": "Otros Activos",
@@ -36,42 +36,42 @@
   {
    "activo": "US Treasury Bill 191126",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.86
+   "pct_pn": 7.8
   },
   {
    "activo": "ON YPF 210727",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.77
-  },
-  {
-   "activo": "ON YPF Clase 38",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.57
+   "pct_pn": 5.76
   },
   {
    "activo": "US Treasury Bill 271026",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.56
+   "pct_pn": 4.52
+  },
+  {
+   "activo": "ON YPF Clase 38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.43
   },
   {
    "activo": "ON Vista Gas y Oil Arg C29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.66
+   "pct_pn": 3.61
   },
   {
    "activo": "ON Tarj Naranja C67 S2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.3
+   "pct_pn": 3.28
   },
   {
    "activo": "US Treasury Bill 101226",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.25
+   "pct_pn": 3.23
   },
   {
    "activo": "ON YPF Luz C18 YFCJO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.09
+   "pct_pn": 3.08
   },
   {
    "activo": "ON Telecom C28",
@@ -91,7 +91,7 @@
   {
    "activo": "ON Telecom C24",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.83
+   "pct_pn": 1.82
   },
   {
    "activo": "ON Transp Gas Sur Cl 3",
@@ -101,27 +101,27 @@
   {
    "activo": "ON Pan American C38",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.69
-  },
-  {
-   "activo": "ON Banco de Galicia 33 BYZ1O",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.64
+   "pct_pn": 1.67
   },
   {
    "activo": "ON Bco Serv Transac C28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.63
+   "pct_pn": 1.62
+  },
+  {
+   "activo": "ON Banco de Galicia 33 BYZ1O",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.62
   },
   {
    "activo": "ON Telecom 9.5% 2031",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.47
+   "pct_pn": 1.46
   },
   {
    "activo": "ON Tecpetrol C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.43
+   "pct_pn": 1.42
   },
   {
    "activo": "ON Inversora Juramento C6 JNC6O",
@@ -131,17 +131,17 @@
   {
    "activo": "US Treasury Bill 011226",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.3
+   "pct_pn": 1.29
   },
   {
    "activo": "ON BBVA Frances Cl 40",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.0
+   "pct_pn": 0.99
   },
   {
    "activo": "ON YPF Clase 37",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.87
+   "pct_pn": 0.86
   },
   {
    "activo": "ON Profertil C2",
@@ -171,7 +171,7 @@
   {
    "activo": "Caucion Colocadora U$S BYMA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 17.99
+   "pct_pn": 17.84
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Calificado",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Global",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 23520920279.7
+  "Peso Argentina": 23794371723.62
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.83
+   "pct_pn": 98.86
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.24
+   "pct_pn": 1.23
   },
   {
    "tipo": "Otros Activos",
@@ -34,14 +34,19 @@
  ],
  "activos": [
   {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.69
+  },
+  {
    "activo": "Lelink D30O6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.83
+   "pct_pn": 0.17
   },
   {
    "activo": "FCI Schroder Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.24
+   "pct_pn": 1.23
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

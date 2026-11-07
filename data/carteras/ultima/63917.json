@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Balanceado XIII",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 29070759170.46
+  "Peso Argentina": 29220211455.11
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.69
+   "pct_pn": 92.01
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.44
+   "pct_pn": 0.72
   },
   {
    "tipo": "Otros Activos",
@@ -29,7 +29,7 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 7.26
   }
  ],
  "activos": [
@@ -37,11 +37,6 @@
    "activo": "ON ICBC Clase 7 170627",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 7.74
-  },
-  {
-   "activo": "ON Bco Ciudad C23",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.43
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 1",
@@ -56,7 +51,7 @@
   {
    "activo": "ON Arcor C3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.06
+   "pct_pn": 7.05
   },
   {
    "activo": "ON BBVA Frances Cl 47",
@@ -76,7 +71,7 @@
   {
    "activo": "ON Tarj Naranja C66 S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.58
+   "pct_pn": 3.59
   },
   {
    "activo": "ON Arcor C6",
@@ -91,7 +86,7 @@
   {
    "activo": "ON Banco Comafi C22",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.49
+   "pct_pn": 3.28
   },
   {
    "activo": "ON ICBC Clase 8 280827",
@@ -134,17 +129,17 @@
    "pct_pn": 2.14
   },
   {
-   "activo": "ON BACS Clase 19",
+   "activo": "ON BACS Clase 20",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.99
-  },
-  {
-   "activo": "Bono Muni Cordoba S2 13022027",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.91
+   "pct_pn": 2.0
   },
   {
    "activo": "ON Gpat Cia. Financ. 39 A",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.92
+  },
+  {
+   "activo": "Bono Muni Cordoba S2 13022027",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.91
   },
@@ -159,24 +154,24 @@
    "pct_pn": 1.44
   },
   {
-   "activo": "ON Toyota Clase 34",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.44
-  },
-  {
    "activo": "ON FCA Comp. Finac CL 22 S3",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.44
   },
   {
+   "activo": "ON Toyota Clase 34",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.43
+  },
+  {
    "activo": "ON GEMSA y CTR C43",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.14
+   "pct_pn": 1.13
   },
   {
    "activo": "ON Grupo ST C16",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.85
+   "pct_pn": 0.79
   },
   {
    "activo": "ON GEMSA 15 GMCGO",
@@ -191,7 +186,7 @@
   {
    "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.39
+   "pct_pn": 0.67
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase B",

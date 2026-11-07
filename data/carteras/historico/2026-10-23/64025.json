@@ -1,0 +1,67 @@
+{
+ "fondo": "Fima Renta Fija Internacional",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Galicia Asset Management S.A.U.",
+ "depositaria": "Banco de Galicia y Buenos Aires S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Latinoamerica",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 2311143.9
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 3.88
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 96.19
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "CL Rep Chile 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 21.67
+  },
+  {
+   "activo": "CL Rep Chile 28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 21.31
+  },
+  {
+   "activo": "BR Bono Global 2027 10.12%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 19.96
+  },
+  {
+   "activo": "Bono Corporativo 3.625% 010827",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 17.28
+  },
+  {
+   "activo": "US Treasury Bill 011226",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 13.79
+  },
+  {
+   "activo": "BR Rep Brasil 28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.18
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "64025",
+ "nombre_cnv": "FIMA Renta Fija Internacional",
+ "clave": "fima renta fija internacional"
+}

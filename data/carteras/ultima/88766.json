@@ -1,6 +1,6 @@
 {
  "fondo": "Puente Renta Fija Pesos I",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Puente Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 56373111182.44
+  "Peso Argentina": 56593981420.33
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 91.04
+   "pct_pn": 91.1
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 5.73
+   "pct_pn": 7.52
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -33,64 +33,64 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 1.65
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Letra Prov Chaco BLE27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.0
+   "pct_pn": 19.09
   },
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.83
+   "pct_pn": 7.79
   },
   {
    "activo": "ON NBD Chaco Clase 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.45
+   "pct_pn": 6.46
   },
   {
    "activo": "Bono Prov Cordoba 030235",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.7
-  },
-  {
-   "activo": "Bono Dual TXMD9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.7
+   "pct_pn": 5.51
   },
   {
    "activo": "Letra Prov Chubut S119 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.68
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 4.67
-  },
-  {
-   "activo": "Bono Boncer TXMJ9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.64
-  },
-  {
-   "activo": "Bono del Tesoro Nacional T31Y7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.61
   },
   {
    "activo": "Bono Boncer 2028 TZXM8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.6
+   "pct_pn": 4.63
+  },
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.63
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.62
   },
   {
    "activo": "ON Banco Prov Clase 7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.54
+   "pct_pn": 4.56
   },
   {
    "activo": "Letra Prov Rio Negro S1 240927",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.41
+   "pct_pn": 4.51
   },
   {
    "activo": "Letra Prov Bs As PBA28",
@@ -100,7 +100,7 @@
   {
    "activo": "Letra Prov Chubut S121 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.34
+   "pct_pn": 3.33
   },
   {
    "activo": "Lecap S29E7",
@@ -110,27 +110,27 @@
   {
    "activo": "Letra Muni Cordoba S53",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.04
+   "pct_pn": 2.08
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.91
+   "pct_pn": 1.92
   },
   {
    "activo": "ON Central Puerto Clase F",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.65
+   "pct_pn": 1.64
   },
   {
    "activo": "Bono Muni Cordoba S1 26032027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.57
+   "pct_pn": 1.59
   },
   {
    "activo": "ON Mirgor Clase 7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.91
+   "pct_pn": 0.92
   },
   {
    "activo": "Letra Prov Chaco BL2D6",
@@ -155,7 +155,7 @@
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 5.73
+   "pct_pn": 7.52
   },
   {
    "activo": "FF Infraestructura Elec 14",

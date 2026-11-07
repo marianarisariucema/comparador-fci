@@ -1,6 +1,6 @@
 {
  "fondo": "Schroder Liquidez Dolares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Schroder S.A.S.G.F.C.I.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense Billete": 40322180.96
+  "Dolar Estadounidense Billete": 37918484.27
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 5.44
+   "pct_pn": 10.78
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 74.73
+   "pct_pn": 70.77
   },
   {
    "tipo": "Otros Activos",
@@ -25,24 +25,24 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 19.83
+   "pct_pn": 18.45
   }
  ],
  "activos": [
   {
-   "activo": "Pzo Fi U$S Bco BBVA",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 26.08
-  },
-  {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 24.35
+   "pct_pn": 25.9
+  },
+  {
+   "activo": "Pzo Fi U$S Bco BBVA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 25.1
   },
   {
    "activo": "Caucion Colocadora USB Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 24.3
+   "pct_pn": 19.78
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

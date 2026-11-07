@@ -1,0 +1,85 @@
+{
+ "fondo": "Delta Gestion XI",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Delta Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 6497889459.44
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.54
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 94.43
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.54
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.6
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.13
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.0
+  },
+  {
+   "activo": "ON Telecom C19 TLCKO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.59
+  },
+  {
+   "activo": "ON PCR Clase K",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.59
+  },
+  {
+   "activo": "ON Bco Macro Clase 1 Regs",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.12
+  },
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.54
+  },
+  {
+   "activo": "FCI Gainvest Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.73
+  },
+  {
+   "activo": "FCI Allaria Dólar Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.87
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "83845",
+ "nombre_cnv": "Delta Gestión XI",
+ "clave": "delta gestion xi"
+}

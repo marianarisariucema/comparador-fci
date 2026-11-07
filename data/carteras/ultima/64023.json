@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Long Pesos",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 29714364200.81
+  "Peso Argentina": 29628123801.21
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.77
+   "pct_pn": 99.75
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.63
+   "pct_pn": 0.83
   },
   {
    "tipo": "Otros Activos",
@@ -36,47 +36,47 @@
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.09
+   "pct_pn": 22.14
   },
   {
    "activo": "Bono del Tesoro 2.5% 2031",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.09
+   "pct_pn": 20.43
   },
   {
    "activo": "Bono Par ARS Ley AR PARP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.6
-  },
-  {
-   "activo": "Bono Boncer TZXS8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.21
+   "pct_pn": 11.63
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.49
+   "pct_pn": 10.58
+  },
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.57
   },
   {
    "activo": "Bono Dual TXMJ0",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.1
-  },
-  {
-   "activo": "Bono Disc ARS Ley AR DICP",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.8
+   "pct_pn": 10.13
   },
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.39
+   "pct_pn": 7.41
   },
   {
-   "activo": "FCI Schroder Liquidez - Clase B",
+   "activo": "Bono Disc ARS Ley AR DICP",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.87
+  },
+  {
+   "activo": "FCI Max Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.63
+   "pct_pn": 0.83
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

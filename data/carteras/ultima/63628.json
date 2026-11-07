@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Cobertura",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 29516895205.92
+  "Peso Argentina": 30049126312.63
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.08
+   "pct_pn": 0.06
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 80.01
+   "pct_pn": 83.21
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 19.55
+   "pct_pn": 16.65
   },
   {
    "tipo": "Otros Activos",
@@ -29,39 +29,39 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.36
+   "pct_pn": 0.08
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 33.78
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.71
+   "pct_pn": 23.01
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.54
-  },
-  {
-   "activo": "ON GEMSA y CTR C49",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.08
+   "pct_pn": 16.86
   },
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.12
+   "pct_pn": 14.68
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.29
+  },
+  {
+   "activo": "ON GEMSA y CTR C49",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.24
   },
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.09
+   "pct_pn": 4.99
   },
   {
    "activo": "Pagare UMV281060029",
@@ -69,29 +69,24 @@
    "pct_pn": 4.51
   },
   {
-   "activo": "Bono Boncer 2027 TZXM7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.75
-  },
-  {
    "activo": "ON Futuros y Opciones.com S4 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.06
-  },
-  {
-   "activo": "ON Red Surcos S9 Clase A",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.71
+   "pct_pn": 1.05
   },
   {
    "activo": "ON GEMSA y CTR C50",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.71
+   "pct_pn": 0.81
+  },
+  {
+   "activo": "ON Red Surcos S9 Clase A",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.7
   },
   {
    "activo": "ON GEMSA 17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.46
+   "pct_pn": 0.54
   },
   {
    "activo": "ON YPF Luz Cl10",
@@ -101,7 +96,12 @@
   {
    "activo": "ON TGLT Clase 16",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 0.21
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
   },
   {
    "activo": "ON Nexo Emprend. CL C",
@@ -111,7 +111,7 @@
   {
    "activo": "FCI IAM Liquidez en Dólares - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.69
+   "pct_pn": 7.68
   },
   {
    "activo": "FCI Allaria Dólar Ahorro - Clase B",
@@ -124,19 +124,14 @@
    "pct_pn": 3.33
   },
   {
-   "activo": "FCI MAF Money Market - Clase B",
+   "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.08
+   "pct_pn": 0.39
   },
   {
    "activo": "FCI Argenfunds Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.02
-  },
-  {
-   "activo": "FCI IAM Ahorro Pesos C B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 0.04
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

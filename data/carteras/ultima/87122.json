@@ -1,6 +1,6 @@
 {
  "fondo": "Valiant Renta Fija Balanceado III",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Valiant Asset Management S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 858924587.68
+  "Peso Argentina": 863449948.9
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": 0.02
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 36.49
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.91
+   "pct_pn": 35.9
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 20.83
+   "pct_pn": 20.95
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -37,19 +33,19 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 35.25
+   "pct_pn": 38.62
   }
  ],
  "activos": [
   {
    "activo": "Pagare #MAV200660010",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.53
+   "pct_pn": 5.5
   },
   {
    "activo": "Pagare #MAV151160002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.82
+   "pct_pn": 4.83
   },
   {
    "activo": "Pagare #MAV151260008",
@@ -89,7 +85,7 @@
   {
    "activo": "Pagare #MAV111260021",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.76
+   "pct_pn": 1.77
   },
   {
    "activo": "Pagare #MAV181260022",
@@ -107,39 +103,29 @@
    "pct_pn": 0.58
   },
   {
-   "activo": "Cheque E *MAV201001654",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.58
-  },
-  {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.91
-  },
-  {
    "activo": "Pagare #UMV131260002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.2
+   "pct_pn": 5.23
   },
   {
    "activo": "Pagare #UMV080170003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.17
+   "pct_pn": 5.19
   },
   {
    "activo": "Pagare #UMV131160012",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.5
+   "pct_pn": 3.52
   },
   {
    "activo": "Pagare #UMV131160013",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.5
+   "pct_pn": 3.52
   },
   {
    "activo": "Pagare #UMV131260003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.47
+   "pct_pn": 3.49
   },
   {
    "activo": "FCI Tango Money Market Dinámico - Clase A",

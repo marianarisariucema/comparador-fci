@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Balanceado",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 70439460278.88
+  "Peso Argentina": 63052316101.06
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 82.15
+   "pct_pn": 80.39
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 16.74
+   "pct_pn": 18.79
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 9.31
+   "pct_pn": 0.96
   },
   {
    "tipo": "Otros Activos",
@@ -38,79 +38,79 @@
  ],
  "activos": [
   {
-   "activo": "Lecer X29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.74
-  },
-  {
    "activo": "Lecap S29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.52
+   "pct_pn": 20.46
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.9
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.71
-  },
-  {
-   "activo": "Bono del Tesoro Nacional T15E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.39
+   "pct_pn": 17.33
   },
   {
    "activo": "Pagare #MAV101160029",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.36
+   "pct_pn": 9.39
   },
   {
    "activo": "Pagare #MAV111160037",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.96
+   "pct_pn": 7.82
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.47
+   "pct_pn": 5.02
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.48
   },
   {
    "activo": "Pzo Fi $ ICBC",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 11.58
+   "pct_pn": 13.0
   },
   {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.01
+   "pct_pn": 4.5
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.14
+   "pct_pn": 1.28
+  },
+  {
+   "activo": "FCI MAF Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.36
   },
   {
    "activo": "FCI ST Zero - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.26
+   "pct_pn": 0.32
   },
   {
-   "activo": "FCI Cocos Ahorro - Clase C",
+   "activo": "FCI BAVSA Ahorro - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.13
+   "pct_pn": 0.26
   },
   {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.43
+   "pct_pn": 0.01
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.42
-  },
-  {
-   "activo": "FCI IAM Ahorro Pesos C B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Argenfunds Liquidez Dólares",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Argenfunds S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 2106534.71
+  "Dolar Estadounidense": 2106782.75
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 36.34
+   "pct_pn": 44.01
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 63.7
+   "pct_pn": 56.03
   },
   {
    "tipo": "Otros Activos",
@@ -35,19 +35,14 @@
    "pct_pn": 19.0
   },
   {
-   "activo": "Caucion Colocadora U$S BYMA",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 16.2
-  },
-  {
    "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
    "pct_pn": 9.5
   },
   {
-   "activo": "Pzo Fi U$S Bco Nacion",
+   "activo": "Caucion Colocadora U$S BYMA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 7.13
+   "pct_pn": 9.49
   },
   {
    "activo": "Pzo Fi U$S Bco Hipot",
@@ -58,6 +53,16 @@
    "activo": "Pzo Fi $ Bco Mariva",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
    "pct_pn": 4.75
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 3.8
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Coinag",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 2.37
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "ACA Valores Retorno Total",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Schroder S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 103611849189.27
+  "Peso Argentina": 101038709858.84
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.3
+   "pct_pn": 0.31
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 96.6
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.96
+   "pct_pn": 99.77
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.19
+   "pct_pn": 0.02
   },
   {
    "tipo": "Otros Activos",
@@ -40,67 +36,57 @@
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.1
-  },
-  {
-   "activo": "Bono Boncer TX26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.83
-  },
-  {
-   "activo": "Lecap S30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.26
+   "pct_pn": 21.72
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.16
+   "pct_pn": 19.59
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.34
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.62
   },
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.01
+   "pct_pn": 10.83
   },
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.41
-  },
-  {
-   "activo": "Bono Boncer 2028 TZXM8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.01
+   "pct_pn": 8.66
   },
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.24
+   "pct_pn": 2.31
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.94
+   "pct_pn": 2.0
   },
   {
    "activo": "Bono Prov Cordoba 2027 COY27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.13
+   "pct_pn": 1.16
   },
   {
-   "activo": "ON BACS Clase 19",
+   "activo": "ON BACS Clase 20",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.51
-  },
-  {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.96
+   "pct_pn": 0.52
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.19
+   "pct_pn": 0.02
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

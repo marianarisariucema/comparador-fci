@@ -1,0 +1,106 @@
+{
+ "fondo": "Allaria Agro",
+ "fecha_cartera": "2026-10-23",
+ "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 856158807.45
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.05
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 83.69
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 7.82
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 8.44
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 30.44
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 26.7
+  },
+  {
+   "activo": "Letra Tesoro Nac D31M7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 26.49
+  },
+  {
+   "activo": "Lelink D30O6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "FCI Gainvest Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 7.61
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "FCI ST Zero - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "FCI Toronto T Ahorro B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI GMC Money Market - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI SBS Ahorro Pesos Cl B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI BAVSA Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI Cocos Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86293",
+ "nombre_cnv": "ALLARIA AGRO FCI",
+ "clave": "allaria agro"
+}

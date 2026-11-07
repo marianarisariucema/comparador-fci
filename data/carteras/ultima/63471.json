@@ -1,6 +1,6 @@
 {
  "fondo": "Delta Select",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Variable",
@@ -8,7 +8,7 @@
  "region": "Global",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 66738757499.41
+  "Peso Argentina": 66357390760.42
  },
  "por_tipo": [
   {
@@ -17,19 +17,19 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.57
+   "pct_pn": 0.58
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 97.5
+   "pct_pn": 96.46
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.76
+   "pct_pn": 2.99
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.59
+   "pct_pn": 0.08
   },
   {
    "tipo": "Pasivos",
@@ -40,102 +40,97 @@
   {
    "activo": "ON Convertible Fiplasto C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.57
+   "pct_pn": 0.58
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 19.02
+   "pct_pn": 18.94
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 16.36
+   "pct_pn": 13.91
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 12.76
+   "pct_pn": 13.78
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.09
+   "pct_pn": 10.94
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.35
-  },
-  {
-   "activo": "Transportadora Gas del Sur S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.84
+   "pct_pn": 6.64
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.86
+   "pct_pn": 6.42
+  },
+  {
+   "activo": "Transportadora Gas del Sur S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 6.25
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.51
+   "pct_pn": 4.96
   },
   {
    "activo": "Bolsas y Mercados Argentinos S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.2
+   "pct_pn": 2.61
   },
   {
    "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.46
+   "pct_pn": 2.52
   },
   {
    "activo": "Telecom Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.95
+   "pct_pn": 2.05
   },
   {
    "activo": "Aluar Aluminio Argentino S.A.I.C.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.55
+   "pct_pn": 1.65
   },
   {
    "activo": "Transener S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.38
-  },
-  {
-   "activo": "Transportadora de Gas del Norte S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.03
+   "pct_pn": 1.35
   },
   {
    "activo": "Grupo Supervielle S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.9
+   "pct_pn": 0.97
   },
   {
    "activo": "Grupo Clarin S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.83
+   "pct_pn": 0.75
   },
   {
    "activo": "Banco Patagonia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.68
+   "pct_pn": 0.65
   },
   {
    "activo": "Autopistas del Sol S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.45
+   "pct_pn": 0.4
   },
   {
-   "activo": "Distribuidora de Gas del Centro S.A.",
+   "activo": "Transportadora de Gas del Norte S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.32
+   "pct_pn": 0.4
   },
   {
    "activo": "Grimoldi S.A.",
@@ -143,9 +138,14 @@
    "pct_pn": 0.32
   },
   {
+   "activo": "Distribuidora de Gas del Centro S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.31
+  },
+  {
    "activo": "Inversiones y Representaciones S.A. (IRSA)",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.29
+   "pct_pn": 0.3
   },
   {
    "activo": "Metrogas S.A.",
@@ -163,7 +163,7 @@
    "pct_pn": 0.06
   },
   {
-   "activo": "Inversora Juramento S.A.",
+   "activo": "Mirgor S.A.",
    "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 0.04
   },
@@ -173,19 +173,19 @@
    "pct_pn": 0.03
   },
   {
-   "activo": "Mirgor S.A.",
+   "activo": "Inversora Juramento S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 0.02
   },
   {
    "activo": "FCI Pionero Pesos Plus - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.09
+   "pct_pn": 2.31
   },
   {
    "activo": "FF Cites I",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.67
+   "pct_pn": 0.68
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

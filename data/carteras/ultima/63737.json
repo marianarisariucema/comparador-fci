@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM FCI Abierto Financiamiento de Infraestructura",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 64935653018.9
+  "Peso Argentina": 66245139357.44
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.02
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 87.77
+   "pct_pn": 88.01
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 11.66
+   "pct_pn": 11.92
   },
   {
    "tipo": "Otros Activos",
@@ -29,19 +29,19 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.55
+   "pct_pn": 0.06
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.68
+   "pct_pn": 15.27
   },
   {
    "activo": "ON Pampa Energia C27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.31
+   "pct_pn": 9.19
   },
   {
    "activo": "ON YPF Clase 42",
@@ -49,39 +49,39 @@
    "pct_pn": 6.97
   },
   {
-   "activo": "ON Pan Amer. Energy C 18",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.79
-  },
-  {
    "activo": "Bono Prov Cordoba 2027 COY27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.1
+   "pct_pn": 6.02
   },
   {
-   "activo": "Bono Boncer TX26",
+   "activo": "ON Pan Amer. Energy C 18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.23
+   "pct_pn": 4.39
   },
   {
-   "activo": "ON Epec C1",
+   "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.49
+   "pct_pn": 4.18
   },
   {
    "activo": "ON GEMSA y CTR C49",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.25
+   "pct_pn": 3.86
+  },
+  {
+   "activo": "ON Epec C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.46
   },
   {
    "activo": "ON Oldelval Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.08
+   "pct_pn": 3.04
   },
   {
    "activo": "ON Pan American C33",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.61
+   "pct_pn": 2.57
   },
   {
    "activo": "Pagare UMV281060030",
@@ -91,7 +91,7 @@
   {
    "activo": "ON Oldelval Clase 5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.53
+   "pct_pn": 2.52
   },
   {
    "activo": "ON MSU S12",
@@ -101,87 +101,87 @@
   {
    "activo": "ON Otamerica S7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.26
+   "pct_pn": 2.23
   },
   {
    "activo": "ON Pan Amer. Energy C 17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.24
+   "pct_pn": 2.21
   },
   {
    "activo": "ON Pan American C26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.16
+   "pct_pn": 2.13
   },
   {
    "activo": "ON Capex C4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.73
-  },
-  {
-   "activo": "Lecap S13N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.66
+   "pct_pn": 1.71
   },
   {
    "activo": "ON SPI Energy C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.56
+   "pct_pn": 1.61
   },
   {
    "activo": "ON Vista Gas y Oil Arg C17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.49
-  },
-  {
-   "activo": "ON Tecpetrol C13",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.19
-  },
-  {
-   "activo": "ON YPF Luz Clase 14",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.14
+   "pct_pn": 1.47
   },
   {
    "activo": "ON GEMSA 19",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.1
+   "pct_pn": 1.41
+  },
+  {
+   "activo": "ON Tecpetrol C13",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.2
+  },
+  {
+   "activo": "ON Plaza Logistica C6 ZPC6O",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.14
+  },
+  {
+   "activo": "ON YPF Luz Clase 14",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.12
   },
   {
    "activo": "ON Central Puerto Clase F",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.96
+   "pct_pn": 0.94
   },
   {
    "activo": "ON YPF Luz Cl10",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.92
+   "pct_pn": 0.91
   },
   {
    "activo": "ON Generacion Litoral C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.76
+   "pct_pn": 0.91
   },
   {
    "activo": "ON Petroqui C Rivadavia PQCOO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.54
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TZVD8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.46
+   "pct_pn": 0.53
   },
   {
    "activo": "ON Vista Gas y Oil Arg C25",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.46
+   "pct_pn": 0.45
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.45
   },
   {
    "activo": "ON GEMSA y CTR C50",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.38
+   "pct_pn": 0.43
   },
   {
    "activo": "ON 360 Energy Solar C3",
@@ -206,32 +206,32 @@
   {
    "activo": "FF Proyecto VIDA CP",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.72
+   "pct_pn": 7.57
+  },
+  {
+   "activo": "FCI IAM Liquidez en Dólares - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.67
   },
   {
    "activo": "MAF Cash Dolares I - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.44
+   "pct_pn": 1.25
   },
   {
-   "activo": "FCI BAVSA Ahorro - Clase B",
+   "activo": "FCI Adcap Ahorro Dólares - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.05
+   "pct_pn": 0.72
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.24
+   "pct_pn": 0.6
   },
   {
-   "activo": "FCI MAF Money Market - Clase B",
+   "activo": "FCI BM Smart Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.1
-  },
-  {
-   "activo": "FCI Argenfunds Liquidez - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.02
+   "pct_pn": 0.04
   },
   {
    "activo": "FCI IAM Ahorro Pesos C B",
@@ -239,19 +239,9 @@
    "pct_pn": 0.02
   },
   {
-   "activo": "FCI IAM Liquidez en Dólares - Clase B",
+   "activo": "FCI Argenfunds Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.02
-  },
-  {
-   "activo": "FCI BM Smart Money Market - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "FCI SBS Ahorro Pesos Cl B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
   },
   {
    "activo": "FCI Adcap Ahorro Pesos - Clase I",

@@ -1,6 +1,6 @@
 {
  "fondo": "CMA Proteccion",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Capital Markets Argentina Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 10011222232.47
+  "Peso Argentina": 10055673794.27
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 77.9
+   "pct_pn": 78.9
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.69
+   "pct_pn": 5.8
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 15.76
+   "pct_pn": 14.7
   },
   {
    "tipo": "Otros Activos",
@@ -33,7 +33,7 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.59
   }
  ],
  "activos": [
@@ -45,7 +45,7 @@
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.93
+   "pct_pn": 12.91
   },
   {
    "activo": "Lecap S30N6",
@@ -65,12 +65,12 @@
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.03
+   "pct_pn": 5.04
   },
   {
    "activo": "Pagare #MAV271060043",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.97
+   "pct_pn": 1.98
   },
   {
    "activo": "Pagare #MAV171260026",
@@ -93,12 +93,17 @@
    "pct_pn": 1.18
   },
   {
+   "activo": "ON BBVA Frances Cl 38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.05
+  },
+  {
    "activo": "ON Mercado Pago C8",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.05
   },
   {
-   "activo": "ON BBVA Frances Cl 38",
+   "activo": "ON ICBC Clase 8 280827",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.04
   },
@@ -123,9 +128,9 @@
    "pct_pn": 1.04
   },
   {
-   "activo": "ON ICBC Clase 8 280827",
+   "activo": "ON Toyota Clase 39",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.03
+   "pct_pn": 1.02
   },
   {
    "activo": "ON Gpat Cia. Financ. 39 A",
@@ -133,9 +138,9 @@
    "pct_pn": 1.01
   },
   {
-   "activo": "ON Toyota Clase 39",
+   "activo": "ON BACS Clase 20",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.01
+   "pct_pn": 0.99
   },
   {
    "activo": "Pagare *AFD111200046",
@@ -170,17 +175,17 @@
   {
    "activo": "Pzo Fi $ Banco VOII",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.69
+   "pct_pn": 5.8
   },
   {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.36
+   "pct_pn": 4.18
   },
   {
    "activo": "FF Mercado Credito 48 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.99
+   "pct_pn": 1.0
   },
   {
    "activo": "FF Mercado Credito 50 CA",
@@ -198,14 +203,14 @@
    "pct_pn": 0.99
   },
   {
-   "activo": "FF Fiducar 34 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.91
-  },
-  {
    "activo": "FF Mercado Credito 47 CA",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.8
+  },
+  {
+   "activo": "FF Fiducar 34 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.79
   },
   {
    "activo": "FF Fiducar 35 Clase A",
@@ -220,7 +225,7 @@
   {
    "activo": "FF Centrocard Creditos S8",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.59
+   "pct_pn": 0.5
   },
   {
    "activo": "FF Megabono 346 Clase A",
@@ -230,27 +235,17 @@
   {
    "activo": "FF Tarj Fertil S26 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.44
+   "pct_pn": 0.36
   },
   {
    "activo": "FF Megabono 345 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.43
+   "pct_pn": 0.33
   },
   {
    "activo": "FF Fiducar 32 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.41
-  },
-  {
-   "activo": "FF Fiducar 31 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.31
-  },
-  {
-   "activo": "FF Confibono S85 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.29
   },
   {
    "activo": "FF Mercado Credito 45 CA",
@@ -258,22 +253,22 @@
    "pct_pn": 0.27
   },
   {
-   "activo": "FF Megabono 341 Clase A",
+   "activo": "FF Fiducar 31 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.23
+   "pct_pn": 0.22
   },
   {
-   "activo": "FF Megabono 339 Clase A",
+   "activo": "FF Confibono S85 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.17
+   "pct_pn": 0.19
+  },
+  {
+   "activo": "FF Megabono 341 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.16
   },
   {
    "activo": "FF Megabono 340 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "FF Megabono 333 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.15
   },
@@ -283,9 +278,14 @@
    "pct_pn": 0.13
   },
   {
-   "activo": "FF Megabono 335 Clase A",
+   "activo": "FF Megabono 339 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.1
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "FF Megabono 333 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.12
   },
   {
    "activo": "FF Fiducar 30 Clase A",
@@ -298,6 +298,11 @@
    "pct_pn": 0.06
   },
   {
+   "activo": "FF Megabono 335 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.05
+  },
+  {
    "activo": "FF Megabono Credito 326 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.03
@@ -306,11 +311,6 @@
    "activo": "FF Megabono 327 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.02
-  },
-  {
-   "activo": "FF Cuotas Cencosud S56 VDFA",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

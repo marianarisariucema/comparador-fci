@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Estrategia 6",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
  "clasificacion": "Renta Fija",
@@ -8,12 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 2036599.69
+  "Peso Argentina": 14797448240.79
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 100.0
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 95.79
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.19
   },
   {
    "tipo": "Otros Activos",
@@ -21,10 +29,56 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.01
   }
  ],
- "activos": [],
+ "activos": [
+  {
+   "activo": "Pagare MAV211260054",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.86
+  },
+  {
+   "activo": "Pagare MAV211260053",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.07
+  },
+  {
+   "activo": "Pagare MAV221260062",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.84
+  },
+  {
+   "activo": "Pagare MAV221260064",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.84
+  },
+  {
+   "activo": "Pagare MAV221260065",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.21
+  },
+  {
+   "activo": "Pagare MAV221260066",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.21
+  },
+  {
+   "activo": "Pagare MAV221260067",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.21
+  },
+  {
+   "activo": "Pagare MAV211260055",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.55
+  },
+  {
+   "activo": "FCI Cocos Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.19
+  }
+ ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
  "id_cnv": "63736",
  "nombre_cnv": "MEGAQM ESTRATEGIA 6",

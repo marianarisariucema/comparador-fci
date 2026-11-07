@@ -1,6 +1,6 @@
 {
  "fondo": "Ciclo Nova Estratégico II",
- "fecha_cartera": "2026-10-16",
+ "fecha_cartera": "2026-10-23",
  "gerente": "Ciclo Nova Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 47942790.38
+  "Dolar Estadounidense": 48417139.79
  },
  "por_tipo": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 57.7
+   "pct_pn": 56.16
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
@@ -25,19 +25,23 @@
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 30.87
+   "pct_pn": 30.21
   },
   {
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 10.59
+   "pct_pn": 10.24
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.35
   },
   {
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 0.96
+   "pct_pn": 0.95
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.07
+   "pct_pn": 0.05
   },
   {
    "tipo": "Pasivos",
@@ -48,62 +52,62 @@
   {
    "activo": "Bonos Rep Argentina 2030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.92
+   "pct_pn": 8.06
   },
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.87
+   "pct_pn": 6.69
   },
   {
    "activo": "Pagare #UMV161260033",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.18
-  },
-  {
-   "activo": "Bono Dual TXMJ0",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.4
+   "pct_pn": 5.13
   },
   {
    "activo": "US Treasury Bill 040327",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.32
+   "pct_pn": 4.31
   },
   {
-   "activo": "ON Inversora Juramento C6 JNC6O",
+   "activo": "Bono Dual TXMJ0",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.12
+   "pct_pn": 4.3
   },
   {
    "activo": "US Treasury Bill 150256",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.14
+  },
+  {
+   "activo": "ON Inversora Juramento C6 JNC6O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 3.09
   },
   {
    "activo": "ON IEB Construcciones C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.0
+   "pct_pn": 2.99
   },
   {
    "activo": "ON Mirgor Clase 4",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.56
+   "pct_pn": 2.54
   },
   {
    "activo": "ON Havanna S1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.99
+   "pct_pn": 1.97
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.95
+   "pct_pn": 1.91
   },
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.89
+   "pct_pn": 1.84
   },
   {
    "activo": "Bono Bonar 2029 AO29",
@@ -128,27 +132,27 @@
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.88
+   "pct_pn": 0.87
   },
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.84
+   "pct_pn": 0.82
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.6
+   "pct_pn": 0.59
   },
   {
    "activo": "Bono Boncer 2028 TZXM8",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.45
+   "pct_pn": 0.44
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.43
+   "pct_pn": 0.42
   },
   {
    "activo": "ON Transp Gas Sur Cl 3",
@@ -171,22 +175,17 @@
    "pct_pn": 0.19
   },
   {
-   "activo": "Bono del Tesoro Nacional AO27",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.13
-  },
-  {
    "activo": "ON Otamerica S7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.1
   },
   {
-   "activo": "ON YPF Clase 39",
+   "activo": "ON Telecom C25",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.09
   },
   {
-   "activo": "ON Telecom C25",
+   "activo": "ON YPF Clase 39",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.09
   },
@@ -223,82 +222,82 @@
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.11
+   "pct_pn": 7.48
   },
   {
    "activo": "Cedear FCI SPDR Gold Trust",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.3
-  },
-  {
-   "activo": "Dycasa S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.98
+   "pct_pn": 6.01
   },
   {
    "activo": "Matba Rofex S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.77
+   "pct_pn": 3.64
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.41
+   "pct_pn": 3.54
+  },
+  {
+   "activo": "Dycasa S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.37
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.21
+   "pct_pn": 2.27
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.61
+   "pct_pn": 1.5
   },
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.98
+   "pct_pn": 0.93
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.85
+   "pct_pn": 0.83
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.43
+   "pct_pn": 0.44
   },
   {
    "activo": "Cedear ETF Global X Copper Miners",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 0.2
   },
   {
    "activo": "Eaton Corporation PLC",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 2.72
+   "pct_pn": 2.54
   },
   {
    "activo": "Rockwell Automation Inc",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 2.55
+   "pct_pn": 2.54
   },
   {
    "activo": "Vertiv Holdings Co",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 2.14
+   "pct_pn": 2.01
   },
   {
    "activo": "Proshares Short S&P 500 ETF",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.68
+   "pct_pn": 1.69
   },
   {
    "activo": "MP Materials Corp.",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 0.8
+   "pct_pn": 0.76
   },
   {
    "activo": "Emerson Electric Co",
@@ -311,14 +310,19 @@
    "pct_pn": 0.18
   },
   {
+   "activo": "FCI Balanz Money Market USD - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.35
+  },
+  {
    "activo": "Global X Uranium ETF",
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 0.53
+   "pct_pn": 0.51
   },
   {
    "activo": "ETF iShares Global REIT",
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 0.43
+   "pct_pn": 0.44
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
