@@ -118,12 +118,12 @@
    "pct_pn": 1.78
   },
   {
-   "activo": "ON Cresud Clase 52",
+   "activo": "ON CGC C 36",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 1.74
   },
   {
-   "activo": "ON CGC C 36",
+   "activo": "ON Cresud Clase 52",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 1.74
   },
@@ -198,12 +198,12 @@
    "pct_pn": 0.89
   },
   {
-   "activo": "ON Petroqui C Rivadavia Clase S",
+   "activo": "ON Oiltanking S4 C2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.87
   },
   {
-   "activo": "ON Oiltanking S4 C2",
+   "activo": "ON Petroqui C Rivadavia Clase S",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.87
   },
@@ -228,12 +228,12 @@
    "pct_pn": 0.83
   },
   {
-   "activo": "ON Oiltanking S4 C1",
+   "activo": "ON Otamerica S6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.81
   },
   {
-   "activo": "ON Otamerica S6",
+   "activo": "ON Oiltanking S4 C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.81
   },
@@ -343,12 +343,12 @@
    "pct_pn": 0.17
   },
   {
-   "activo": "ON Banco de Galicia 31 BYCXO",
+   "activo": "ON Irsa Clase 18",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.13
   },
   {
-   "activo": "ON Irsa Clase 18",
+   "activo": "ON Banco de Galicia 31 BYCXO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.13
   },
@@ -358,12 +358,12 @@
    "pct_pn": 0.12
   },
   {
-   "activo": "Pagare #UPO270870001",
+   "activo": "ON Profertil C3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.12
   },
   {
-   "activo": "ON Profertil C3",
+   "activo": "Pagare #UPO270870001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.12
   },
@@ -413,21 +413,6 @@
    "pct_pn": 0.06
   },
   {
-   "activo": "Pagare #UVA150270003",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Pagare #UFT120270002",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "ON Irsa Clase 22",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.04
-  },
-  {
    "activo": "Pagare #UPO230670001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.04
@@ -463,6 +448,21 @@
    "pct_pn": 0.04
   },
   {
+   "activo": "Pagare #UVA150270003",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Pagare #UFT120270002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "ON Irsa Clase 22",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.04
+  },
+  {
    "activo": "ON YPF Clase 42",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.03
@@ -493,27 +493,22 @@
    "pct_pn": 0.03
   },
   {
-   "activo": "Pagare #UVA150170007",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.02
-  },
-  {
-   "activo": "ON YPF Luz Clase 15",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.02
-  },
-  {
-   "activo": "Pagare #UVA010770001",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.02
-  },
-  {
    "activo": "Pagare #UVA010370002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.02
   },
   {
    "activo": "Pagare #UVA290670002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.02
+  },
+  {
+   "activo": "Pagare #UVA150170007",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.02
+  },
+  {
+   "activo": "Pagare #UVA010770001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.02
   },
@@ -528,7 +523,17 @@
    "pct_pn": 0.02
   },
   {
-   "activo": "ON Capex C12",
+   "activo": "ON YPF Luz Clase 15",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.02
+  },
+  {
+   "activo": "ON John Deere Cia. Fin C15",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "ON Tecpetrol C8",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.01
   },
@@ -553,22 +558,7 @@
    "pct_pn": 0.01
   },
   {
-   "activo": "ON Central Puerto Clase D",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Pagare #UVA281260003",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Pagare #UVA211260002",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Pagare #UVA141260001",
+   "activo": "ON Capex C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.01
   },
@@ -658,12 +648,22 @@
    "pct_pn": 0.01
   },
   {
-   "activo": "ON John Deere Cia. Fin C15",
+   "activo": "Pagare #UVA281260003",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.01
   },
   {
-   "activo": "ON Tecpetrol C8",
+   "activo": "Pagare #UVA211260002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Pagare #UVA141260001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "ON Central Puerto Clase D",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.01
   },
