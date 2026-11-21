@@ -1,6 +1,6 @@
 {
  "fondo": "Parakeet Cobalto Estrategia",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Parakeet S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 48461748899.19
+  "Peso Argentina": 52532933464.76
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 3.81
+   "pct_pn": 3.09
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 86.75
+   "pct_pn": 56.86
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.6
+   "pct_pn": 0.21
   },
   {
    "tipo": "Otros Activos",
@@ -29,44 +29,39 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 7.84
+   "pct_pn": 39.84
   }
  ],
  "activos": [
   {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.35
+  },
+  {
+   "activo": "Bonos Rep Argentina 2029",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.92
+  },
+  {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 30.03
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TMG28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.75
-  },
-  {
-   "activo": "Bono Dual TXMD9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.0
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TZVD8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.99
+   "pct_pn": 11.74
   },
   {
    "activo": "Pagare *MAV041201009",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.99
+   "pct_pn": 0.92
   },
   {
    "activo": "Pagare *MAV091201464",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.99
+   "pct_pn": 0.92
   },
   {
-   "activo": "FCI Champaquí Fondo Inmediato - Clase C",
+   "activo": "FCI Lombard Renta en $",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.6
+   "pct_pn": 0.21
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

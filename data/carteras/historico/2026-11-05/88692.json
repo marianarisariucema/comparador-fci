@@ -1,0 +1,90 @@
+{
+ "fondo": "Blacktoro Cobertura",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Blacktoro Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 8068657306.34
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.68
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.33
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Tesoro Nac D31M7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.91
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.99
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.16
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.02
+  },
+  {
+   "activo": "ON Telecom C12 TLCDO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.63
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.59
+  },
+  {
+   "activo": "ON YPF Clase 34",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.26
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZV27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.13
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.33
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88692",
+ "nombre_cnv": "BLACKTORO COBERTURA",
+ "clave": "blacktoro cobertura"
+}

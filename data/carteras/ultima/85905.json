@@ -1,6 +1,6 @@
 {
  "fondo": "GMC Retorno Total II",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "GMC Asset Management S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 10273075902.29
+  "Peso Argentina": 10379692533.69
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 5.86
+   "pct_pn": 5.85
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 76.49
+   "pct_pn": 78.15
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.7
+   "pct_pn": 1.25
   },
   {
    "tipo": "Otros Activos",
@@ -29,24 +29,24 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 14.95
+   "pct_pn": 14.75
   }
  ],
  "activos": [
   {
    "activo": "ON Lab. Richmond S8 Clase A",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.5
-  },
-  {
-   "activo": "Letra Muni Cordoba S53",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.4
+   "pct_pn": 10.46
   },
   {
    "activo": "Bono Bocon 2029 PR17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.26
+   "pct_pn": 8.36
+  },
+  {
+   "activo": "Letra Muni Cordoba S53",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.43
   },
   {
    "activo": "Letra Tamar TEM TMF27",
@@ -54,42 +54,42 @@
    "pct_pn": 5.67
   },
   {
+   "activo": "ON Grupo ST C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.86
+  },
+  {
    "activo": "Letra Prov Chubut S123 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.95
+   "pct_pn": 4.84
   },
   {
    "activo": "Bono Prov de Buenos Aires PBM27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.65
+   "pct_pn": 4.7
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.51
-  },
-  {
-   "activo": "ON Banco Prov Clase 7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.01
+   "pct_pn": 4.56
   },
   {
    "activo": "ON Credito Directo C31",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.72
-  },
-  {
-   "activo": "Letra Prov Bs As PBA27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.64
+   "pct_pn": 2.73
   },
   {
    "activo": "Letra Prov Chubut S122 C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.49
+   "pct_pn": 2.5
   },
   {
    "activo": "ON Bco Serv Transac C27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.46
+  },
+  {
+   "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.45
   },
@@ -101,17 +101,17 @@
   {
    "activo": "Bono Prov Cordoba Clase 5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.0
+   "pct_pn": 2.01
   },
   {
    "activo": "Boncer TZXY7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.92
+   "pct_pn": 1.91
   },
   {
    "activo": "Bono Muni Cordoba S1 01102027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.85
+   "pct_pn": 1.86
   },
   {
    "activo": "Letra Municipalidad Rio Cuarto S40",
@@ -121,22 +121,17 @@
   {
    "activo": "ON Pyme Urbano Express Argentina S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.47
+   "pct_pn": 1.48
   },
   {
    "activo": "Letra Prov Chubut S121 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.39
+   "pct_pn": 1.4
   },
   {
    "activo": "Letra Entre Rios ERE27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.34
-  },
-  {
-   "activo": "Letra Prov Chaco BLE27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.05
+   "pct_pn": 1.35
   },
   {
    "activo": "ON Bco Provincia Cl 4",
@@ -149,17 +144,17 @@
    "pct_pn": 0.98
   },
   {
+   "activo": "Letra Prov Chaco BLE27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.98
+  },
+  {
    "activo": "ON Banco Hipotecario C11",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.38
   },
   {
    "activo": "Cheque E *MAV021201158",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.02
-  },
-  {
-   "activo": "Cheque E *MAV021100754",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.02
   },
@@ -184,11 +179,6 @@
    "pct_pn": 0.01
   },
   {
-   "activo": "Cheque E *MAV231001094",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
    "activo": "Cheque E *MAV090101175",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
@@ -201,12 +191,7 @@
   {
    "activo": "FCI Toronto T Ahorro B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.44
-  },
-  {
-   "activo": "FCI Allaria Ahorro - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.98
+   "pct_pn": 0.97
   },
   {
    "activo": "FF AMFAyS S50 Clase A",

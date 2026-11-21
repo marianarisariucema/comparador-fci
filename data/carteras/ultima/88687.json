@@ -1,6 +1,6 @@
 {
  "fondo": "Vinci Compass Renta Mixta Dólares IV",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 5896190.05
+  "Peso Argentina": 7189092.25
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 15.46
+   "pct_pn": 6.25
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 97.19
+   "pct_pn": 101.69
   },
   {
    "tipo": "Otros Activos",
@@ -30,64 +30,84 @@
  ],
  "activos": [
   {
-   "activo": "BC CAP 3.9%",
+   "activo": "Latam Airlines 2031",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 14.17
+   "pct_pn": 12.83
   },
   {
    "activo": "BC Samarco 9% 2031",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 13.47
+   "pct_pn": 11.08
   },
   {
-   "activo": "BC Nutresa 120535",
+   "activo": "BC CAP 3.9%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 9.42
-  },
-  {
-   "activo": "BC Yinson Production",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.93
-  },
-  {
-   "activo": "BC Pretorio 6.75% 101530",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.27
-  },
-  {
-   "activo": "ON CGC C 38",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.13
+   "pct_pn": 10.32
   },
   {
    "activo": "BC Nova Securitisation 5.75% 030231",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.11
+   "pct_pn": 9.3
+  },
+  {
+   "activo": "BC Nutresa 120535",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 7.61
+  },
+  {
+   "activo": "BC Yinson Production",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 7.34
+  },
+  {
+   "activo": "BC Pretorio 6.75% 101530",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.84
+  },
+  {
+   "activo": "ON CGC C 38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.57
   },
   {
    "activo": "ON Edemsa C8",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.81
+   "pct_pn": 6.06
   },
   {
-   "activo": "Latam Airlines 2031",
+   "activo": "BC Compañia Minera Volcan S2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.85
+   "pct_pn": 5.6
   },
   {
    "activo": "BC Rede 6.45% 090935",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.56
+   "pct_pn": 5.35
   },
   {
    "activo": "Ecopetrol 8.875% 2033",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.68
+   "pct_pn": 3.02
+  },
+  {
+   "activo": "BC Bco de Crédito 7.5%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.87
+  },
+  {
+   "activo": "BC Aesdom 7.75% 030833",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.83
+  },
+  {
+   "activo": "BC BRF 2030",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.59
   },
   {
    "activo": "BC BCICI 8.75% Perp",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.8
+   "pct_pn": 1.48
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

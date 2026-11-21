@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Retorno Total",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 915929887.1
+  "Peso Argentina": 918679319.57
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.46
+   "pct_pn": 1.77
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.71
+   "pct_pn": 77.74
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.44
+   "pct_pn": 20.44
   },
   {
    "tipo": "Otros Activos",
@@ -29,44 +29,39 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.05
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 25.43
+   "pct_pn": 25.54
   },
   {
-   "activo": "Bono del Tesoro Nacional AO27",
+   "activo": "Bono del Tesoro Nacional AN29",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.18
+   "pct_pn": 19.68
   },
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.35
-  },
-  {
-   "activo": "Bono Dual TXMD9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.84
+   "pct_pn": 18.59
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.83
+   "pct_pn": 13.92
   },
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 17.63
   },
   {
    "activo": "FCI MAF Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.44
+   "pct_pn": 2.81
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

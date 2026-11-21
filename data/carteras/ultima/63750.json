@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Gestion",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 73631158957.12
+  "Peso Argentina": 74256107687.58
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 76.15
+   "pct_pn": 76.29
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.41
+   "pct_pn": 0.42
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.15
+   "pct_pn": 0.8
   },
   {
    "tipo": "Otros Activos",
@@ -33,27 +33,27 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 22.27
+   "pct_pn": 22.47
   }
  ],
  "activos": [
   {
-   "activo": "Cheque #MAV181160017",
+   "activo": "Cheque #MAV100370014",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.54
+   "pct_pn": 2.56
   },
   {
-   "activo": "Cheque #MAV191160011",
+   "activo": "Cheque #MAV030370010",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.48
+   "pct_pn": 2.49
   },
   {
-   "activo": "Cheque #MAV021260011",
+   "activo": "Cheque #MAV120170015",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.41
   },
   {
-   "activo": "Cheque #MAV120170015",
+   "activo": "Cheque #MAV021260011",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.41
   },
@@ -95,7 +95,7 @@
   {
    "activo": "Cheque #MAV021260010",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.79
+   "pct_pn": 1.8
   },
   {
    "activo": "Cheque #MAV080470006",
@@ -123,7 +123,12 @@
    "pct_pn": 1.69
   },
   {
-   "activo": "Cheque #MAV260170009",
+   "activo": "Cheque #MAV200170032",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.69
+  },
+  {
+   "activo": "Cheque #MAV100270011",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.68
   },
@@ -133,24 +138,24 @@
    "pct_pn": 1.68
   },
   {
-   "activo": "Cheque #MAV200170032",
+   "activo": "Cheque #MAV170270027",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.68
   },
   {
-   "activo": "Cheque #MAV100270011",
+   "activo": "Cheque #MAV040270022",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.68
   },
   {
-   "activo": "Cheque #MAV041160041",
+   "activo": "Cheque #MAV260170009",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.67
+   "pct_pn": 1.68
   },
   {
-   "activo": "Cheque #MAV111160020",
+   "activo": "Cheque #MAV030270033",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.67
+   "pct_pn": 1.6
   },
   {
    "activo": "Cheque #MAV190170013",
@@ -158,17 +163,12 @@
    "pct_pn": 1.59
   },
   {
-   "activo": "Cheque #MAV030270033",
+   "activo": "Cheque #MAV230370011",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.59
+   "pct_pn": 1.53
   },
   {
    "activo": "Cheque #MAV251160041",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.52
-  },
-  {
-   "activo": "Cheque #MAV191160010",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.52
   },
@@ -198,14 +198,14 @@
    "pct_pn": 1.25
   },
   {
-   "activo": "Cheque #MAV041160054",
+   "activo": "Cheque #MAV031260074",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.21
+   "pct_pn": 1.22
   },
   {
-   "activo": "Cheque #MAV041160053",
+   "activo": "Cheque #MAV031260073",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.21
+   "pct_pn": 1.22
   },
   {
    "activo": "Cheque #MAV120170017",
@@ -240,7 +240,7 @@
   {
    "activo": "Cheque #MAV230270006",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.94
+   "pct_pn": 0.95
   },
   {
    "activo": "Cheque #MAV030270032",
@@ -273,9 +273,19 @@
    "pct_pn": 0.64
   },
   {
+   "activo": "Cheque #MAV100370012",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.64
+  },
+  {
    "activo": "Cheque #MAV190170016",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.52
+  },
+  {
+   "activo": "Cheque #MAV160270014",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.47
   },
   {
    "activo": "Cheque #MAV221260023",
@@ -288,22 +298,17 @@
    "pct_pn": 0.17
   },
   {
-   "activo": "Cheque #MAV171160014",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.16
-  },
-  {
    "activo": "Cheque #MAV050270012",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.16
   },
   {
-   "activo": "Cheque #MAV120170010",
+   "activo": "Cheque #MAV020270008",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.16
   },
   {
-   "activo": "Cheque #MAV020270008",
+   "activo": "Cheque #MAV120170010",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.16
   },
@@ -318,39 +323,9 @@
    "pct_pn": 0.16
   },
   {
-   "activo": "Cheque #MAV201160026",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.16
-  },
-  {
-   "activo": "Cheque #MAV251160028",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.16
-  },
-  {
-   "activo": "Cheque #MAV281160003",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.16
-  },
-  {
    "activo": "Cheque #MAV111260019",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Cheque #MAV101160012",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Cheque #MAV121160017",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Cheque #MAV051160011",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
+   "pct_pn": 0.16
   },
   {
    "activo": "Bono Boncer TZXS7",
@@ -370,17 +345,17 @@
   {
    "activo": "Pagare #UMV120470002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.41
+   "pct_pn": 0.42
   },
   {
-   "activo": "FCI Schroder Liquidez - Clase B",
+   "activo": "FCI Gainvest Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.85
+   "pct_pn": 0.51
   },
   {
    "activo": "FCI SBS Renta Fija I FCIC - Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.29
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

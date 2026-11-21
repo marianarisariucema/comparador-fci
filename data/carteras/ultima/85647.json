@@ -1,6 +1,6 @@
 {
  "fondo": "Pionero Moneda",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Macro Fondos S.G.F.C.I.S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 18120974118.25
+  "Peso Argentina": 17549803983.36
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.82
+   "pct_pn": 96.71
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.21
+   "pct_pn": 3.3
   },
   {
    "tipo": "Otros Activos",
@@ -34,54 +34,59 @@
  ],
  "activos": [
   {
-   "activo": "Lecap S30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.04
-  },
-  {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.34
+   "pct_pn": 21.21
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.82
+   "pct_pn": 18.47
+  },
+  {
+   "activo": "Lecap S26F7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.48
   },
   {
    "activo": "Bono del Tesoro Nacional TMG27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.2
+   "pct_pn": 8.57
   },
   {
    "activo": "Pagare #MAV151260050",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.97
+   "pct_pn": 8.3
   },
   {
    "activo": "Lecap S29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.53
+   "pct_pn": 7.86
   },
   {
    "activo": "Pagare #MAV011260033",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.51
+   "pct_pn": 7.83
   },
   {
-   "activo": "Lecap S13N6",
+   "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.09
+   "pct_pn": 7.31
   },
   {
    "activo": "Pagare #MAV241160077",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.32
+   "pct_pn": 4.5
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.18
   },
   {
    "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.2
+   "pct_pn": 3.29
   },
   {
    "activo": "FCI Lombard Renta en $",

@@ -1,6 +1,6 @@
 {
  "fondo": "Wise Capital Focus I",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Wise Capital Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,55 +8,74 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 3222725624.97
+  "Peso Argentina": 3632708621.62
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.06
+   "pct_pn": 0.05
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 45.64
+   "pct_pn": 49.67
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.26
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.12
+   "pct_pn": 4.05
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": null
+   "pct_pn": 46.01
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 54.18
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.55
+   "pct_pn": 25.59
   },
   {
    "activo": "Bono Bocon 2029 PR17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.71
+   "pct_pn": 13.26
+  },
+  {
+   "activo": "Bono del Tesoro 2.5% 2031",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.44
   },
   {
    "activo": "Letra Prov Bs As PBA28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.56
+   "pct_pn": 2.27
+  },
+  {
+   "activo": "Bono Dual TXMD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.37
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.82
+   "pct_pn": 0.73
   },
   {
-   "activo": "FCI BM Smart Money Market - Clase B",
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.26
+  },
+  {
+   "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.12
+   "pct_pn": 4.05
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

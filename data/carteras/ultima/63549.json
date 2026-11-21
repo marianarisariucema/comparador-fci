@@ -1,6 +1,6 @@
 {
  "fondo": "Optimum Global Balanced",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Santander Asset Management G.F.C.I.S.A.",
  "depositaria": "Banco Santander Argentina S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 5828280888.22
+  "Peso Argentina": 5910101349.21
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.06
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.17
+   "pct_pn": 100.68
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.86
+   "pct_pn": 0.32
   },
   {
    "tipo": "Otros Activos",
@@ -36,17 +36,22 @@
   {
    "activo": "ON Vista Gas y Oil Arg C18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.13
+   "pct_pn": 18.14
   },
   {
    "activo": "ON Pan American C33",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.88
+   "pct_pn": 17.93
   },
   {
    "activo": "ON Telecom C19 TLCKO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.39
+   "pct_pn": 14.38
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.67
   },
   {
    "activo": "Lelink D30N6",
@@ -56,12 +61,7 @@
   {
    "activo": "ON Oldelval Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.21
-  },
-  {
-   "activo": "Bono Boncer TZXO6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.15
+   "pct_pn": 10.24
   },
   {
    "activo": "ON PCR Clase K",
@@ -71,27 +71,22 @@
   {
    "activo": "ON Telecom C12 TLCDO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.2
+   "pct_pn": 5.21
   },
   {
    "activo": "ON CGC C 39",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.94
+   "pct_pn": 3.95
   },
   {
    "activo": "ON Impsa Clase 7 2036",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.01
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 1.0
   },
   {
    "activo": "FCI Argenfunds Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.86
+   "pct_pn": 0.32
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "BAVSA Renta Balanceado XI",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "BAVSA Fondos S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Variable",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 3202931619.79
+  "Peso Argentina": 3254519746.14
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.14
+   "pct_pn": 0.07
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 100.01
+   "pct_pn": 98.01
   },
   {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 5.31
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.07
   },
   {
    "tipo": "Otros Activos",
@@ -36,47 +36,47 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.36
+   "pct_pn": 28.1
   },
   {
    "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.91
+   "pct_pn": 15.68
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.36
+   "pct_pn": 11.29
   },
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.33
+   "pct_pn": 10.15
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.02
+   "pct_pn": 7.94
   },
   {
    "activo": "Bono Dual TXMJ0",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.51
+   "pct_pn": 7.48
   },
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.41
+   "pct_pn": 7.35
   },
   {
    "activo": "ON 3D Latinoamerica 160129",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.01
+   "pct_pn": 3.96
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.28
+   "pct_pn": 3.27
   },
   {
    "activo": "Cheque E *MOV200200082",
@@ -86,7 +86,7 @@
   {
    "activo": "Cheque E *MOV230200072",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.57
+   "pct_pn": 0.56
   },
   {
    "activo": "Cheque E *MOV080200049",
@@ -134,9 +134,9 @@
    "pct_pn": 0.12
   },
   {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 5.31
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.07
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

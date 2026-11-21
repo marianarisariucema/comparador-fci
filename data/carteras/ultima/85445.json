@@ -1,6 +1,6 @@
 {
  "fondo": "Superfondo Sustentable ASG",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Santander Asset Management G.F.C.I.S.A.",
  "depositaria": "Banco Santander Argentina S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,24 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 5227186052.8
+  "Peso Argentina": 5269370304.22
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.5
+   "pct_pn": 0.02
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 92.55
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.35
+   "pct_pn": 99.94
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.76
+   "pct_pn": 0.13
   },
   {
    "tipo": "Otros Activos",
@@ -40,47 +36,57 @@
   {
    "activo": "ON Luz De Tres Picos C5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.31
+   "pct_pn": 18.44
   },
   {
    "activo": "ON Loma Negra C7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.18
+   "pct_pn": 18.15
   },
   {
    "activo": "ON Telecom C19 TLCKO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.51
+   "pct_pn": 17.59
   },
   {
    "activo": "ON Genneia Clase 47",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.1
+   "pct_pn": 15.25
   },
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.32
+   "pct_pn": 12.38
+  },
+  {
+   "activo": "ON YPF Clase 43",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.03
   },
   {
    "activo": "ON San Miguel Serie 13 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.47
+   "pct_pn": 3.5
   },
   {
    "activo": "ON Genneia Clase 42",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.17
+   "pct_pn": 2.18
   },
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.07
+   "pct_pn": 2.04
+  },
+  {
+   "activo": "ON Genneia Clase 50",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.96
   },
   {
    "activo": "ON Red Surcos S14 Clase A",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.95
+   "pct_pn": 1.94
   },
   {
    "activo": "ON Genneia Clase 37",
@@ -88,14 +94,9 @@
    "pct_pn": 0.49
   },
   {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.35
-  },
-  {
    "activo": "FCI MAF Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.76
+   "pct_pn": 0.13
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

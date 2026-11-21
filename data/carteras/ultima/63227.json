@@ -1,6 +1,6 @@
 {
  "fondo": "Schroder Renta Variable",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Schroder S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Variable",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 73736059585.33
+  "Peso Argentina": 60898450437.65
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.39
+   "pct_pn": 0.48
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 99.2
+   "pct_pn": 99.12
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.81
+   "pct_pn": 0.72
   },
   {
    "tipo": "Otros Activos",
@@ -34,89 +34,89 @@
  ],
  "activos": [
   {
-   "activo": "YPF S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 18.9
-  },
-  {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 18.14
+   "pct_pn": 17.97
   },
   {
-   "activo": "Grupo Financiero Galicia S.A.",
+   "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 14.92
+   "pct_pn": 17.77
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 13.95
+   "pct_pn": 15.19
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 14.44
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.72
+   "pct_pn": 9.68
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 8.39
+   "pct_pn": 8.38
   },
   {
    "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.08
+   "pct_pn": 4.44
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.19
+   "pct_pn": 3.2
   },
   {
    "activo": "Bolsas y Mercados Argentinos S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.2
+   "pct_pn": 2.16
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.73
+   "pct_pn": 1.89
   },
   {
    "activo": "Transener S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.69
+   "pct_pn": 1.63
   },
   {
    "activo": "Telecom Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.82
+   "pct_pn": 0.8
   },
   {
    "activo": "Transportadora de Gas del Norte S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.71
+   "pct_pn": 0.73
   },
   {
    "activo": "Metrogas S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.66
+   "pct_pn": 0.73
   },
   {
    "activo": "Mirgor S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.1
+   "pct_pn": 0.11
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.63
+   "pct_pn": 0.5
   },
   {
    "activo": "FCI MAF Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 0.22
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

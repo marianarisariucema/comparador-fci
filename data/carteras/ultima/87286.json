@@ -1,6 +1,6 @@
 {
  "fondo": "Parakeet Latam",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Parakeet S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 13678754.6
+  "Dolar Estadounidense": 13159904.46
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 9.24
+   "pct_pn": 2.8
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 59.97
+   "pct_pn": 65.29
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 21.93
+   "pct_pn": 19.0
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.54
+   "pct_pn": 4.82
   },
   {
    "tipo": "Otros Activos",
@@ -33,84 +33,89 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 5.32
+   "pct_pn": 8.09
   }
  ],
  "activos": [
   {
    "activo": "US Treasury Note 150236",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 14.42
+   "pct_pn": 15.4
   },
   {
    "activo": "BR Rep Brasil 34 8.25%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 10.53
+   "pct_pn": 10.83
   },
   {
    "activo": "BR Bono Global 2027 10.12%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.68
+   "pct_pn": 5.93
   },
   {
    "activo": "Bono Chile 4.95 010536",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.17
+   "pct_pn": 4.3
   },
   {
    "activo": "BC Centrales Elec. Brasileras 2030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.68
+   "pct_pn": 3.81
   },
   {
    "activo": "BC Pemex 15062035",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.6
+   "pct_pn": 3.8
   },
   {
    "activo": "BR Rep Brasil 37",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.55
+   "pct_pn": 3.74
   },
   {
    "activo": "BC Cencosud 5.95%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.53
+   "pct_pn": 3.71
   },
   {
    "activo": "BC Codelco 300929",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.45
+   "pct_pn": 3.62
   },
   {
    "activo": "Bono Uruguay 4.375%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.63
+   "pct_pn": 2.77
+  },
+  {
+   "activo": "BC Satellite Core Allocation S592",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.41
   },
   {
    "activo": "CL Rep Chile 2034",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.9
+   "pct_pn": 2.0
   },
   {
    "activo": "BC Latam Airlines 7.875%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.5
+   "pct_pn": 1.58
   },
   {
    "activo": "BR Brasil 06032030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.33
+   "pct_pn": 1.38
   },
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 21.93
+   "pct_pn": 19.0
   },
   {
    "activo": "SBS Liquidez USD - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.54
+   "pct_pn": 4.82
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

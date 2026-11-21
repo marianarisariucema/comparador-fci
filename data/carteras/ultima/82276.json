@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Capital Money Market",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 779342926415.94
+  "Peso Argentina": 769254292506.83
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 31.28
+   "pct_pn": 35.59
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 66.04
+   "pct_pn": 64.39
   },
   {
    "tipo": "Otros Activos",
@@ -25,54 +25,59 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 2.68
+   "pct_pn": 0.02
   }
  ],
  "activos": [
   {
+   "activo": "Pzo Fi $ Bco Cordoba",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 14.2
+  },
+  {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 17.92
+   "pct_pn": 12.88
   },
   {
    "activo": "Pzo Fi $ Bco Santander Ri",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 14.52
-  },
-  {
-   "activo": "Pzo Fi $ Bco Cordoba",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 12.97
+   "pct_pn": 12.13
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 7.26
-  },
-  {
-   "activo": "Pzo Fi $ Bco Patagonia",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.43
-  },
-  {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.21
+   "pct_pn": 9.31
   },
   {
    "activo": "Pzo Fi $ Bco BBVA",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.59
+   "pct_pn": 3.94
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.77
   },
   {
    "activo": "Pzo Fi $ Nvo Bco Indus",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.07
+   "pct_pn": 2.76
+  },
+  {
+   "activo": "Pzo Fi $ Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.62
+  },
+  {
+   "activo": "Pzo Fi $ ICBC",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.69
   },
   {
    "activo": "Pzo Fi $ Bco D Corrientes",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.55
+   "pct_pn": 0.56
   },
   {
    "activo": "Pzo Fi $ Bco BACS",

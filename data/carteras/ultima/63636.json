@@ -1,6 +1,6 @@
 {
  "fondo": "Schroder Retorno Absoluto",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Schroder S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 46569690443.99
+  "Peso Argentina": 46885601663.34
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.81
+   "pct_pn": 63.5
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.98
+   "pct_pn": 32.1
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.56
+   "pct_pn": 4.61
   },
   {
    "tipo": "Otros Activos",
@@ -40,42 +40,42 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.44
+   "pct_pn": 17.23
   },
   {
-   "activo": "Letra Tesoro Nac T30A7",
+   "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.84
-  },
-  {
-   "activo": "Bono Dual TTD26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.04
-  },
-  {
-   "activo": "Lecer X30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.13
-  },
-  {
-   "activo": "Bono Boncer TX26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.9
+   "pct_pn": 15.1
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.46
+   "pct_pn": 13.5
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.94
+  },
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.77
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.97
   },
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.98
+   "pct_pn": 32.1
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.56
+   "pct_pn": 4.61
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Chaco Abierto Ahorro",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Nuevo Chaco Fondos S.A.S.G.F.C.I.",
  "depositaria": "Nuevo Banco del Chaco S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 24574472781.22
+  "Peso Argentina": 23605934679.64
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.35
+   "pct_pn": 0.09
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.22
+   "pct_pn": 94.61
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.39
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.4
+   "pct_pn": 1.48
   },
   {
    "tipo": "Otros Activos",
@@ -29,154 +33,144 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 3.03
+   "pct_pn": 0.43
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.55
+   "pct_pn": 20.53
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.01
+   "pct_pn": 9.44
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.16
+   "pct_pn": 8.55
   },
   {
-   "activo": "Bono del Tesoro Nacional T15E7",
+   "activo": "Bono del Tesoro Nacional TMG27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.08
+   "pct_pn": 7.78
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.13
+   "pct_pn": 7.47
   },
   {
-   "activo": "Lecer X30N6",
+   "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.86
+   "pct_pn": 5.23
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.26
+   "pct_pn": 4.45
   },
   {
    "activo": "ON NBD Chaco Clase 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.21
+   "pct_pn": 4.43
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.12
+   "pct_pn": 4.34
   },
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.92
+   "pct_pn": 4.12
   },
   {
    "activo": "Letra Prov Chaco BLE27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.59
-  },
-  {
-   "activo": "ON Banco de Valores C3",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.3
+   "pct_pn": 2.56
   },
   {
    "activo": "Letra Prov Chaco BLN26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.16
+   "pct_pn": 2.27
   },
   {
    "activo": "ON Mercado Pago C7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.14
+   "pct_pn": 2.25
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.14
+   "pct_pn": 2.12
   },
   {
    "activo": "ON Bco Serv Transac C27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.64
+   "pct_pn": 1.73
   },
   {
    "activo": "ON Credito Directo C31",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.34
+   "pct_pn": 1.41
   },
   {
    "activo": "ON GEMSA 18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.09
-  },
-  {
-   "activo": "Bono Boncer TZXD6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.97
+   "pct_pn": 1.14
   },
   {
    "activo": "ON P. Aconcagua Energia C20",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.95
+   "pct_pn": 1.0
   },
   {
    "activo": "ON BACS Clase 19",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.86
+   "pct_pn": 0.9
   },
   {
    "activo": "ON Rombo Cia Fciera S67",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.82
+   "pct_pn": 0.86
   },
   {
    "activo": "ON Angel Estrada C18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.63
+   "pct_pn": 0.67
   },
   {
    "activo": "ON GEMSA y CTR C43",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.51
   },
   {
    "activo": "ON Club Atletico River Plate S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.23
+   "pct_pn": 0.24
   },
   {
    "activo": "ON Red Surcos S12 Clase C",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.21
+   "pct_pn": 0.22
   },
   {
    "activo": "ON Sanatorio Chaco S1 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.12
+   "pct_pn": 0.13
   },
   {
    "activo": "ON Pyme Gar. Gualok S1 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.08
   },
   {
    "activo": "ON Sanatorio Chaco S1 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 0.07
   },
   {
    "activo": "ON CRE-NOR S1",
@@ -194,9 +188,14 @@
    "pct_pn": 0.03
   },
   {
+   "activo": "Pase Colocador ARS MAE",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.39
+  },
+  {
    "activo": "FF Infraestructura Elec 14",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.4
+   "pct_pn": 1.48
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

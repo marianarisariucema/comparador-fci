@@ -1,0 +1,418 @@
+{
+ "fondo": "Ciclo Nova Estructurado",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Ciclo Nova Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 12611591492.79
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.14
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 79.26
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 7.39
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 6.96
+  },
+  {
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 1.73
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.55
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 4.33
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.47
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.37
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.96
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AN29",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.98
+  },
+  {
+   "activo": "ON Bco Ciudad C24",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.69
+  },
+  {
+   "activo": "ON Mercado Pago C3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.21
+  },
+  {
+   "activo": "ON BACS Clase 20",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.19
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C19",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.1
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.8
+  },
+  {
+   "activo": "ON Grupo ST C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.4
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.22
+  },
+  {
+   "activo": "ON NBD Chaco Clase 1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.1
+  },
+  {
+   "activo": "ON Mercado Pago C6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.1
+  },
+  {
+   "activo": "Bono Prov de Buenos Aires PBM27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.08
+  },
+  {
+   "activo": "ON Grupo ST C16",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.02
+  },
+  {
+   "activo": "Letra Entre Rios ERE27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.95
+  },
+  {
+   "activo": "ON AES Argentina Gen 060828",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.91
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.83
+  },
+  {
+   "activo": "Letra Prov Chubut S123 C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.83
+  },
+  {
+   "activo": "ON Scania Credit C4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.79
+  },
+  {
+   "activo": "Letra Prov Chaco BLN26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.7
+  },
+  {
+   "activo": "ON Bco Serv Transac C29",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.68
+  },
+  {
+   "activo": "ON Central Puerto Clase E",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.25
+  },
+  {
+   "activo": "ON Camuzzi Gas C1 USD",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.05
+  },
+  {
+   "activo": "ON NewSan Clase 23",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.92
+  },
+  {
+   "activo": "ON Credito Directo C31",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.89
+  },
+  {
+   "activo": "Letra Prov Rio Negro S1 240927",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.82
+  },
+  {
+   "activo": "ON TGLT Clase 16",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.6
+  },
+  {
+   "activo": "ON IEB Construcciones C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.54
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.31
+  },
+  {
+   "activo": "Pagare *SOL141200004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.29
+  },
+  {
+   "activo": "Pagare *SOL161100007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.29
+  },
+  {
+   "activo": "ON P. Aconcagua Energia C20",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.19
+  },
+  {
+   "activo": "VCP Unicred S3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Pagare *SOL261100006",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Pagare *SOL251100010",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Pagare *SOL241100007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Cheque E *SOL120400004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *SOL280700005",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *SOL280800010",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *SOL300600059",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *SOL120500007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *SOL120700004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *SOL120800004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Pagare #UAC301160001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.58
+  },
+  {
+   "activo": "Pagare #UAC201160001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.22
+  },
+  {
+   "activo": "Pagare #USO251070001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.0
+  },
+  {
+   "activo": "Pagare #UAC150270001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "Pagare #UAC100370001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "Pagare #UAC050370001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "Pagare #UAC200270001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "Pagare #UAC151260002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "Pagare #UAC251260002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "Pagare #UAC100270001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "Pagare #UAC200370001",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.41
+  },
+  {
+   "activo": "Pagare #UAC150170002",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Cedear The Coca Cola",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.07
+  },
+  {
+   "activo": "Cedear Nvidia Corp.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.89
+  },
+  {
+   "activo": "Cedear Ishares Bitcoin Trust",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.86
+  },
+  {
+   "activo": "Cedear Microsoft",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.63
+  },
+  {
+   "activo": "Cedear Berkshire Hath Inc",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.58
+  },
+  {
+   "activo": "Cedear Facebook",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.58
+  },
+  {
+   "activo": "Cedear Tesla",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.57
+  },
+  {
+   "activo": "Cedear SPDR Dow Jones Industrial",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.51
+  },
+  {
+   "activo": "Cedear Shares MSCI Brazil ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.45
+  },
+  {
+   "activo": "Cedear Google",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "Cedear Mercado Libre",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.39
+  },
+  {
+   "activo": "Cedear Invesco QQQ",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 1.73
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.7
+  },
+  {
+   "activo": "FF Sion Conecta Infraestructura Privada S1",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.22
+  },
+  {
+   "activo": "FF Provincia Leasing S 6A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.35
+  },
+  {
+   "activo": "FCI Max Money Market Dólares - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.28
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86446",
+ "nombre_cnv": "CICLO NOVA ESTRUCTURADO ",
+ "clave": "ciclo nova estructurado"
+}

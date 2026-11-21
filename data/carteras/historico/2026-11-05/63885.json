@@ -1,0 +1,77 @@
+{
+ "fondo": "Stonex Estrategia I",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "StoneX Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 4798159.75
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.47
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 99.61
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Banco Nacion Argentina Clase 7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 19.59
+  },
+  {
+   "activo": "BR Brasil 300529",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 19.21
+  },
+  {
+   "activo": "Chile 4.85%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 19.15
+  },
+  {
+   "activo": "ON YPF Clase 31",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 13.08
+  },
+  {
+   "activo": "US Treasury Bill 150427",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 11.25
+  },
+  {
+   "activo": "US Treasury Bill 100627",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 7.52
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C29",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.67
+  },
+  {
+   "activo": "ON YPF Clase 43",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.14
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63885",
+ "nombre_cnv": "STONEX Estrategia I",
+ "clave": "stonex estrategia i"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "Blacktoro Gestion Calificado I",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Blacktoro Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,12 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 100000.0
+  "Peso Argentina": 15311641542.65
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 100.0
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 94.92
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.1
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": null
   },
   {
    "tipo": "Otros Activos",
@@ -24,7 +36,58 @@
    "pct_pn": null
   }
  ],
- "activos": [],
+ "activos": [
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.91
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.64
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.89
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.32
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.3
+  },
+  {
+   "activo": "Lecap S26F7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.04
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.37
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.35
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.1
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.1
+  }
+ ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
  "id_cnv": "88609",
  "nombre_cnv": "BLACKTORO GESTION CALIFICADO I",

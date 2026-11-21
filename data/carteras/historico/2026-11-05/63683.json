@@ -1,0 +1,92 @@
+{
+ "fondo": "Toronto Trust Ahorro",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
+ "depositaria": "Banco Credito y Securitizacion S.A. (BACS)",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 313032607414.46
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 27.95
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 71.78
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.27
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 17.9
+  },
+  {
+   "activo": "Pzo Fi $ Bco Mariva",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 12.92
+  },
+  {
+   "activo": "Pzo Fi $ Bco Cordoba",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 7.73
+  },
+  {
+   "activo": "Pzo Fi $ Bco BBVA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.43
+  },
+  {
+   "activo": "Pzo Fi $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.43
+  },
+  {
+   "activo": "Pzo Fi $ Bco Valores",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.78
+  },
+  {
+   "activo": "Pase Colocador ARS BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.36
+  },
+  {
+   "activo": "Pzo Fi $ Bco Provincia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.21
+  },
+  {
+   "activo": "Caucion Colocadora $ MAE",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.19
+  },
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.19
+  },
+  {
+   "activo": "Pzo Fi $ Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.63
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63683",
+ "nombre_cnv": "TORONTO TRUST AHORRO FCI",
+ "clave": "toronto trust ahorro"
+}

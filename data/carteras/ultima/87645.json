@@ -1,6 +1,6 @@
 {
  "fondo": "Novus Renta Variable",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Novus Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Variable",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 10236127149.24
+  "Peso Argentina": 8340329038.7
  },
  "por_tipo": [
   {
@@ -16,16 +16,12 @@
    "pct_pn": 0.01
   },
   {
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.57
-  },
-  {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 96.97
+   "pct_pn": 99.74
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.02
+   "pct_pn": 0.33
   },
   {
    "tipo": "Otros Activos",
@@ -38,34 +34,14 @@
  ],
  "activos": [
   {
-   "activo": "Lecer X29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.27
-  },
-  {
-   "activo": "Bono Boncer TZXO6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.89
-  },
-  {
-   "activo": "Bono del Tesoro Nacional T15E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.74
-  },
-  {
-   "activo": "Bono Boncer 2027 TZXM7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.67
-  },
-  {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 17.69
+   "pct_pn": 19.64
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 16.76
+   "pct_pn": 15.95
   },
   {
    "activo": "Pampa Energia S.A.",
@@ -75,32 +51,32 @@
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 8.39
+   "pct_pn": 9.29
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.63
+   "pct_pn": 6.73
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.5
+   "pct_pn": 4.58
   },
   {
    "activo": "Grupo Supervielle S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.49
+   "pct_pn": 4.13
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.08
+   "pct_pn": 4.06
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.47
+   "pct_pn": 3.85
   },
   {
    "activo": "Bolsas y Mercados Argentinos S.A.",
@@ -110,52 +86,52 @@
   {
    "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.81
-  },
-  {
-   "activo": "Edenor S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.67
+   "pct_pn": 3.14
   },
   {
    "activo": "Transportadora de Gas del Norte S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.47
+   "pct_pn": 2.6
+  },
+  {
+   "activo": "Edenor S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.48
   },
   {
    "activo": "Metrogas S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.07
+   "pct_pn": 2.33
   },
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.17
+   "pct_pn": 1.24
   },
   {
    "activo": "Telecom Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.17
+   "pct_pn": 1.15
   },
   {
    "activo": "Transener S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.44
+   "pct_pn": 0.43
   },
   {
    "activo": "Cedear Vista Oil Gas",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.24
   },
   {
    "activo": "Cresud S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.21
+   "pct_pn": 0.2
   },
   {
    "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.02
+   "pct_pn": 0.33
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

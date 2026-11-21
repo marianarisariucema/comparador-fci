@@ -1,6 +1,6 @@
 {
  "fondo": "Novus Renta Balanceado",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Novus Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 3116010757.09
+  "Peso Argentina": 3530903725.67
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.06
+   "pct_pn": 5.98
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.64
+   "pct_pn": 89.11
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.44
+   "pct_pn": 4.99
   },
   {
    "tipo": "Otros Activos",
@@ -36,92 +36,97 @@
   {
    "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.74
+   "pct_pn": 13.07
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.35
+   "pct_pn": 12.78
   },
   {
    "activo": "Letra Prov Rio Negro S1 031226",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.73
+   "pct_pn": 12.26
   },
   {
    "activo": "Bono Muni Cordoba S1 26032027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.27
+   "pct_pn": 9.18
   },
   {
    "activo": "ON Edenor Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.33
+   "pct_pn": 6.65
   },
   {
    "activo": "Letra Tesoro Nac D31M7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.26
+   "pct_pn": 6.53
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.26
-  },
-  {
-   "activo": "Bono Boncer TZXO6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.67
+   "pct_pn": 6.45
   },
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.11
+   "pct_pn": 6.39
   },
   {
    "activo": "Cheque E *MAV211101375",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.45
+   "pct_pn": 3.96
+  },
+  {
+   "activo": "Bono Prov Cordoba 2027 COY27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.42
   },
   {
    "activo": "Letra Prov Chubut S121 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.81
+   "pct_pn": 2.51
   },
   {
    "activo": "ON Credicuotas Consumo S17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.03
+   "pct_pn": 1.82
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.55
+   "pct_pn": 1.27
   },
   {
    "activo": "ON Banco Prov Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.83
+   "pct_pn": 0.74
   },
   {
    "activo": "Letra Entre Rios ERE27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.81
+   "pct_pn": 0.72
   },
   {
    "activo": "Bonos Rep Argentina 2030",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.74
+   "pct_pn": 0.61
   },
   {
    "activo": "ON Bco Provincia Cl 4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.67
+   "pct_pn": 0.6
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.14
   },
   {
    "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.44
+   "pct_pn": 4.99
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

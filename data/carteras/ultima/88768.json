@@ -1,6 +1,6 @@
 {
  "fondo": "Puente Renta Fija Pesos III",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Puente Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 17748724124.95
+  "Peso Argentina": 17939765282.26
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 100.13
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 61.99
   },
   {
    "tipo": "Otros Activos",
@@ -29,34 +25,24 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 38.01
   }
  ],
  "activos": [
   {
-   "activo": "Letra Prov Chubut S120 C2",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.33
-  },
-  {
    "activo": "Letra Prov Chubut S123 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.18
-  },
-  {
-   "activo": "Letra Prov Chubut S119 C1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.32
+   "pct_pn": 16.79
   },
   {
    "activo": "Letra Prov Chubut S119 C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.39
+   "pct_pn": 14.42
   },
   {
    "activo": "Letra Prov Chaco BLN26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.8
+   "pct_pn": 11.62
   },
   {
    "activo": "Letra Prov Chaco BL2D6",
@@ -66,17 +52,12 @@
   {
    "activo": "ON Bco Ciudad C23",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.85
+   "pct_pn": 6.91
   },
   {
    "activo": "Letra Prov Chubut S122 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 5.3
-  },
-  {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.06
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

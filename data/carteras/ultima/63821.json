@@ -1,6 +1,6 @@
 {
  "fondo": "Premier Estrategico",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Supervielle Asset Management S.A.",
  "depositaria": "Banco Supervielle S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,28 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 11959324593.05
+  "Peso Argentina": 12068624982.84
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.48
+   "pct_pn": 0.49
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 70.33
+   "pct_pn": 64.56
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.81
+   "pct_pn": 10.52
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 22.01
+   "pct_pn": 21.93
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 6.45
+   "pct_pn": 2.23
   },
   {
    "tipo": "Otros Activos",
@@ -37,59 +37,59 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.27
   }
  ],
  "activos": [
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.61
-  },
-  {
    "activo": "Bono CER TZX27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.69
+   "pct_pn": 8.68
   },
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.37
+   "pct_pn": 8.3
   },
   {
-   "activo": "Bono Dual TXMD9",
+   "activo": "Pagare #MAV021260040",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.12
+   "pct_pn": 8.13
   },
   {
    "activo": "Pagare #UAC150170005",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.61
-  },
-  {
-   "activo": "ON Banco Nacion Argentina Clase 1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.45
+   "pct_pn": 5.65
   },
   {
    "activo": "ON Banco Comafi C22",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.21
+   "pct_pn": 4.22
+  },
+  {
+   "activo": "ON Tarj Naranja C68 S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.2
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.16
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.64
+   "pct_pn": 3.69
   },
   {
    "activo": "Bono Boncer TX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.34
+   "pct_pn": 3.32
   },
   {
    "activo": "Pagare #UAC150470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.14
+   "pct_pn": 3.16
   },
   {
    "activo": "ON Pyme Urbano Express Argentina S1",
@@ -133,11 +133,6 @@
   },
   {
    "activo": "Cheque E *SOL201200007",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.08
-  },
-  {
-   "activo": "Cheque E *SOL301000016",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.08
   },
@@ -209,37 +204,37 @@
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.81
+   "pct_pn": 10.52
   },
   {
    "activo": "ON Oldelval Clase 7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 13.19
+   "pct_pn": 13.23
   },
   {
    "activo": "ON Capex C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.63
+   "pct_pn": 5.53
   },
   {
    "activo": "ON Inversora Juramento C7 JNC7O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.19
-  },
-  {
-   "activo": "FCI Lombard Renta en $",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.64
+   "pct_pn": 3.16
   },
   {
    "activo": "FF Moni Mobile 19 A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.25
+   "pct_pn": 1.27
   },
   {
    "activo": "FF Mercado Credito 46 CA",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.53
+  },
+  {
+   "activo": "FCI Lombard Renta en $",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.4
   },
   {
    "activo": "Lombard Liquidez Dolares - Clase A",

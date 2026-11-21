@@ -1,0 +1,62 @@
+{
+ "fondo": "Stonex Dólares Premium",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "StoneX Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 7622503.24
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 24.93
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 70.95
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 4.12
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 19.68
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 16.43
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 15.12
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 11.18
+  },
+  {
+   "activo": "Pzo Fi U$S Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 8.54
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87491",
+ "nombre_cnv": "STONEX DOLARES PREMIUM",
+ "clave": "stonex dolares premium"
+}

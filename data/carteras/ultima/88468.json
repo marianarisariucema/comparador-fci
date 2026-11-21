@@ -1,6 +1,6 @@
 {
  "fondo": "Bull Market Liquidez Dólar",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Bull Market Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 12427429.23
+  "Dolar Estadounidense": 20561750.86
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 15.86
+   "pct_pn": 6.04
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 68.03
+   "pct_pn": 62.03
   },
   {
    "tipo": "Otros Activos",
@@ -25,39 +25,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 16.11
+   "pct_pn": 31.93
   }
  ],
  "activos": [
   {
-   "activo": "Pzo Fi U$S Bco Patagonia",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 24.15
-  },
-  {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 14.1
+   "pct_pn": 15.81
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 15.81
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 9.73
   },
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 9.66
+   "pct_pn": 8.51
   },
   {
    "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 8.05
+   "pct_pn": 4.87
   },
   {
    "activo": "Pzo Fi U$S Bco Supervielle",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 8.05
+   "pct_pn": 4.87
   },
   {
    "activo": "Pzo Fi U$S Bco BBVA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 4.03
+   "pct_pn": 2.43
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

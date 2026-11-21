@@ -1,0 +1,105 @@
+{
+ "fondo": "MEGAQM Balanceado",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "MEGA QM S.A.",
+ "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 52177004953.57
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 73.25
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 42.06
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 8.04
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecap S26F7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.19
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 25.07
+  },
+  {
+   "activo": "Pagare #MAV101160029",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.45
+  },
+  {
+   "activo": "Pagare #MAV111160037",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.53
+  },
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.17
+  },
+  {
+   "activo": "Pzo Fi $ ICBC",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 15.84
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.49
+  },
+  {
+   "activo": "Pzo Fi $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.56
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 8.01
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI BAVSA Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI Cocos Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63735",
+ "nombre_cnv": "MegaQM Balanceado",
+ "clave": "megaqm balanceado"
+}

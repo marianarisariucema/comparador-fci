@@ -1,0 +1,65 @@
+{
+ "fondo": "Balanz Renta Variable Global",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Balanz S.G.F.C.I.S.A.U.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Variable",
+ "moneda": "Dolar Estadounidense",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 357557.94
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.68
+  },
+  {
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 24.26
+  },
+  {
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 73.97
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Ishares",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 24.26
+  },
+  {
+   "activo": "Spy SyP 500 ETF",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 72.16
+  },
+  {
+   "activo": "ETF PowerShares QQQ Trust Series",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 1.81
+  },
+  {
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.05
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87612",
+ "nombre_cnv": "BALANZ RENTA VARIABLE GLOBAL",
+ "clave": "balanz renta variable global"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "Fima Infraestructura II",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Galicia Asset Management S.A.U.",
  "depositaria": "Banco de Galicia y Buenos Aires S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 12813675192.75
+  "Peso Argentina": 13000708349.54
  },
  "por_tipo": [
   {
@@ -17,11 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.05
+   "pct_pn": 97.76
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.54
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.04
+   "pct_pn": 0.69
   },
   {
    "tipo": "Otros Activos",
@@ -36,57 +40,57 @@
   {
    "activo": "Bono Prov Cordoba Clase 4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.72
+   "pct_pn": 29.91
   },
   {
    "activo": "Bono Prov Cordoba 2027 COY27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.6
+   "pct_pn": 21.71
   },
   {
    "activo": "Bono CABA 2028 BDC28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.5
+   "pct_pn": 13.4
   },
   {
    "activo": "Bonos de Infra.Vial Prov. de Santa Fe",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.08
+   "pct_pn": 12.05
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.81
+   "pct_pn": 3.8
   },
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.51
+   "pct_pn": 3.49
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.26
+   "pct_pn": 3.25
   },
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.96
-  },
-  {
-   "activo": "Bono Bocon 2029 PR17",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.6
+   "pct_pn": 2.95
   },
   {
    "activo": "ON Vista Gas y Oil Arg C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.24
+   "pct_pn": 2.25
+  },
+  {
+   "activo": "Bono Bocon 2029 PR17",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.23
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.16
+   "pct_pn": 2.14
   },
   {
    "activo": "ON Pan Amer. Energy C 18",
@@ -94,9 +98,14 @@
    "pct_pn": 0.59
   },
   {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.54
+  },
+  {
    "activo": "FCI Pionero Pesos - Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.04
+   "pct_pn": 0.69
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

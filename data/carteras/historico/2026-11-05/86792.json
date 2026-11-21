@@ -1,0 +1,75 @@
+{
+ "fondo": "Novus Ahorro Dólares",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Novus Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 4637243.78
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 15.05
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 79.36
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.68
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.41
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 28.8
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 25.72
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase D BPOD7",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 22.66
+  },
+  {
+   "activo": "ON ICBC Clase 6 220527",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.18
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.68
+  },
+  {
+   "activo": "Fima Premium Dólares - Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.41
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86792",
+ "nombre_cnv": "NOVUS AHORRO DÓLARES",
+ "clave": "novus ahorro dolares"
+}

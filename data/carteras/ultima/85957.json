@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Balanceado XVII",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,32 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 1634812255.68
+  "Peso Argentina": 1577338207.51
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.05
+   "pct_pn": 0.11
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 32.74
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 14.74
+   "pct_pn": 39.43
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 10.91
+   "pct_pn": 8.95
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.6
+   "pct_pn": 15.79
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 34.12
+   "pct_pn": 35.76
   },
   {
    "tipo": "Pasivos",
@@ -44,177 +40,322 @@
   {
    "activo": "Bono Buenos Aires 2037",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.62
+   "pct_pn": 8.41
   },
   {
    "activo": "ON GEMSA y CTR C43",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.9
+   "pct_pn": 7.16
   },
   {
    "activo": "Cheque E *MAV121101894",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.17
+   "pct_pn": 2.28
+  },
+  {
+   "activo": "Cheque E *MAV121201814",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.97
   },
   {
    "activo": "Cheque E *MAV161101189",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.63
-  },
-  {
-   "activo": "Cheque E *MAV281001515",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.13
+   "pct_pn": 1.71
   },
   {
    "activo": "Cheque E *MAV281101532",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.09
+   "pct_pn": 1.15
   },
   {
    "activo": "Cheque E *MAV051100989",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.9
+   "pct_pn": 0.95
   },
   {
    "activo": "Cheque E *MAV051100990",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.9
+   "pct_pn": 0.95
   },
   {
    "activo": "Cheque E *MAV081101329",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.75
+   "pct_pn": 0.79
   },
   {
-   "activo": "Cheque E *MAV011101408",
+   "activo": "Cheque E *MAV131102003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.71
-  },
-  {
-   "activo": "Cheque E *MAV021101083",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.61
+   "pct_pn": 0.68
   },
   {
    "activo": "Cheque E *MAV011201722",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.59
+   "pct_pn": 0.62
+  },
+  {
+   "activo": "Cheque E *MAV311201459",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.6
   },
   {
    "activo": "Cheque E *MAV121101737",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.56
+   "pct_pn": 0.58
   },
   {
    "activo": "Cheque E *MAV081101328",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.53
+   "pct_pn": 0.55
   },
   {
-   "activo": "Cheque E *MAV301001787",
+   "activo": "Cheque E *MAV141101871",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.52
+  },
+  {
+   "activo": "Cheque E *MAV221101422",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.52
+  },
+  {
+   "activo": "Cheque E *MAV221201609",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.5
+  },
+  {
+   "activo": "Cheque E *MAV141201712",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.5
+  },
+  {
+   "activo": "Cheque E *MAV140101422",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.48
   },
   {
    "activo": "Cheque E *MAV201101908",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.44
+   "pct_pn": 0.47
   },
   {
    "activo": "Cheque E *MAV101102283",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.42
+   "pct_pn": 0.44
   },
   {
    "activo": "Cheque E *MAV171101684",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.42
+   "pct_pn": 0.44
   },
   {
    "activo": "Cheque E *MAV281101648",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.39
+   "pct_pn": 0.41
   },
   {
-   "activo": "Cheque E *MAV291001406",
+   "activo": "Cheque E *MAV091101401",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.4
+  },
+  {
+   "activo": "Cheque E *MAV131201288",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.39
   },
   {
-   "activo": "Cheque E *MAV091101401",
+   "activo": "Cheque E *MAV120101774",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.38
   },
   {
    "activo": "Cheque E *MAV151101816",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.36
-  },
-  {
-   "activo": "Cheque E *MAV311001903",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.36
-  },
-  {
-   "activo": "Cheque E *MAV261001269",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.35
-  },
-  {
-   "activo": "Cheque E *MAV241001446",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.34
+   "pct_pn": 0.37
   },
   {
    "activo": "Cheque E *MAV091101402",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.31
+   "pct_pn": 0.33
   },
   {
    "activo": "Cheque E *MAV131101623",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.31
   },
   {
-   "activo": "Cheque E *MAV241001445",
+   "activo": "Cheque E *MAV151101980",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.31
   },
   {
-   "activo": "Cheque E *MAV291001405",
+   "activo": "Cheque E *MAV201102288",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.31
+  },
+  {
+   "activo": "Cheque E *MAV201201828",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.25
+  },
+  {
+   "activo": "Cheque E *MAV200101974",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Cheque E *MAV200201470",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.23
   },
   {
-   "activo": "Cheque E *MAV021101392",
+   "activo": "Cheque E *MAV140101423",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.2
+   "pct_pn": 0.23
   },
   {
-   "activo": "Pase Colocador ARS MAV",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 12.62
+   "activo": "Cheque E *MAV291201481",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.22
   },
   {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.12
+   "activo": "Cheque E *MAV260201175",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.21
+  },
+  {
+   "activo": "Cheque E *MAV161201697",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "Cheque E *MAV281101752",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Cheque E *MAV181201710",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Cheque E *MAV171201371",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Cheque E *MAV181201709",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Cheque E *MAV211201414",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Cheque E *MAV220101382",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Cheque E *MAV221201611",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Cheque E *MAV251200621",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Cheque E *MAV010100561",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Cheque E *MAV161201696",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.11
+  },
+  {
+   "activo": "Cheque E *MAV271101927",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.11
+  },
+  {
+   "activo": "Cheque E *MAV301102831",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *MAV171201370",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *MAV061201244",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *MAV111201712",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *MAV151202330",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *MAV151202329",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Cheque E *MAV071201182",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Cheque E *MAV111201711",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Cheque E *MAV061201243",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Cheque E *MAV171201369",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Cheque E *MAV221201610",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Cheque E *MAV201201829",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.43
+   "pct_pn": 6.15
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.48
+   "pct_pn": 2.8
   },
   {
    "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.6
+   "pct_pn": 15.79
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

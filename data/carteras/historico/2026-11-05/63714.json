@@ -1,0 +1,71 @@
+{
+ "fondo": "Optimum Total Return",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Santander Asset Management G.F.C.I.S.A.",
+ "depositaria": "Banco Santander Argentina S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 2676343673.21
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 4.12
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 93.66
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.37
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Pampa Energia C13",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 33.28
+  },
+  {
+   "activo": "ON Telecom C12 TLCDO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 31.62
+  },
+  {
+   "activo": "ON Oldelval Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.96
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.79
+  },
+  {
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.24
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.13
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63714",
+ "nombre_cnv": "Optimum Total Return FCI Ex Optimum FCI Abierto Py",
+ "clave": "optimum total return"
+}

@@ -1,0 +1,115 @@
+{
+ "fondo": "MEGAQM Provincial",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "MEGA QM S.A.",
+ "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 681264962.61
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.35
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 76.81
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 14.68
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 11.78
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Prov Cordoba 2027 COY27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.39
+  },
+  {
+   "activo": "Letra Muni Cordoba S53",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.31
+  },
+  {
+   "activo": "Boncer Mendoza C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.69
+  },
+  {
+   "activo": "Bono Muni Cordoba S2 13022027",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.75
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.51
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 5",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.87
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.84
+  },
+  {
+   "activo": "Bono Boncer MDZ C II",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.66
+  },
+  {
+   "activo": "Bono Muni Cordoba S1 26032027",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.32
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.47
+  },
+  {
+   "activo": "Caucion Colocadora $ MAE",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 14.68
+  },
+  {
+   "activo": "FCI BAVSA Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 6.17
+  },
+  {
+   "activo": "FCI MAF Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.85
+  },
+  {
+   "activo": "FCI ST Zero - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.76
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63926",
+ "nombre_cnv": "MegaQM Provincial",
+ "clave": "megaqm provincial"
+}

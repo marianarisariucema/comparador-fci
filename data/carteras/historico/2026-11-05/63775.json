@@ -1,0 +1,89 @@
+{
+ "fondo": "IAM Renta Mixta",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Industrial Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco Industrial S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 1179707904.7
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.02
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 73.17
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 8.11
+  },
+  {
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 16.09
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.26
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 31.07
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.35
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.75
+  },
+  {
+   "activo": "Cedear Ishares Ethereum TR",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 8.11
+  },
+  {
+   "activo": "Ishares Bitcoin Trust ETF",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 16.09
+  },
+  {
+   "activo": "FCI MAF Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.24
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63775",
+ "nombre_cnv": "IAM Renta Mixta FCI",
+ "clave": "iam renta mixta"
+}

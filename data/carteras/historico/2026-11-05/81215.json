@@ -1,0 +1,130 @@
+{
+ "fondo": "Valiant Renta Fija",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Valiant Asset Management S.G.F.C.I.S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 5097381550.78
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.36
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.45
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.75
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.2
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.54
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.85
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.58
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.92
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.51
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.19
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.66
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.29
+  },
+  {
+   "activo": "Bono Boncer 2028 TZXM8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.19
+  },
+  {
+   "activo": "ON GEMSA y CTR C43",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.84
+  },
+  {
+   "activo": "ON Morixe C4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.69
+  },
+  {
+   "activo": "Pagare #MAV251160020",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.07
+  },
+  {
+   "activo": "Pagare #MAV251260003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.02
+  },
+  {
+   "activo": "ON Celulosa Argentina C19",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.79
+  },
+  {
+   "activo": "ON Celulosa Argentina C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.3
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 0.75
+  },
+  {
+   "activo": "FF Confibono S84 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.2
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "81215",
+ "nombre_cnv": "VALIANT RENTA FIJA FCI",
+ "clave": "valiant renta fija"
+}

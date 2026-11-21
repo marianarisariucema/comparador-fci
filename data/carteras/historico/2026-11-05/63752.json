@@ -1,0 +1,101 @@
+{
+ "fondo": "CMA Performance",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Capital Markets Argentina Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 1449708101.64
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 4.26
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 91.91
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.88
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.42
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase B BPOB7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.22
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.66
+  },
+  {
+   "activo": "ON MSU S12",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.46
+  },
+  {
+   "activo": "ON MSU S11",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.14
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.35
+  },
+  {
+   "activo": "ON San Miguel Serie 13 CA",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.19
+  },
+  {
+   "activo": "ON Rizobacter S 11 CA",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.16
+  },
+  {
+   "activo": "ON Capex C7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.63
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.13
+  },
+  {
+   "activo": "ON Genneia Clase 37",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.54
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.88
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63752",
+ "nombre_cnv": "CMA Performance Fondo Común de Inversión",
+ "clave": "cma performance"
+}

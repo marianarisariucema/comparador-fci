@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Estrategia 6",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 14797448240.79
+  "Peso Argentina": 21871027992.2
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": 0.04
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.79
+   "pct_pn": 99.91
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.19
+   "pct_pn": 0.1
   },
   {
    "tipo": "Otros Activos",
@@ -29,54 +29,89 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.01
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Pagare MAV211260054",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.86
+   "pct_pn": 17.01
   },
   {
    "activo": "Pagare MAV211260053",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.07
+   "pct_pn": 15.78
+  },
+  {
+   "activo": "Pagare MAV221260071",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.76
   },
   {
    "activo": "Pagare MAV221260062",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.84
+   "pct_pn": 7.41
   },
   {
    "activo": "Pagare MAV221260064",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.84
+   "pct_pn": 7.41
+  },
+  {
+   "activo": "Pagare MAV221260070",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.12
   },
   {
    "activo": "Pagare MAV221260065",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.21
+   "pct_pn": 5.63
   },
   {
    "activo": "Pagare MAV221260066",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.21
+   "pct_pn": 5.63
   },
   {
    "activo": "Pagare MAV221260067",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.21
+   "pct_pn": 5.63
+  },
+  {
+   "activo": "Pagare MAV040170039",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.18
+  },
+  {
+   "activo": "Pagare MAV221260063",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.17
+  },
+  {
+   "activo": "Pagare MAV040170040",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.0
+  },
+  {
+   "activo": "Pagare MAV221260073",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.24
   },
   {
    "activo": "Pagare MAV211260055",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.55
+   "pct_pn": 1.06
+  },
+  {
+   "activo": "Pagare MAV221260072",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.88
   },
   {
    "activo": "FCI Cocos Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.19
+   "pct_pn": 0.1
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

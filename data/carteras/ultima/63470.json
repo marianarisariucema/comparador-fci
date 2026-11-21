@@ -1,6 +1,6 @@
 {
  "fondo": "Delta Recursos Naturales",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Variable",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 20940891136.45
+  "Peso Argentina": 16972879124.65
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.34
+   "pct_pn": 0.42
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.64
+   "pct_pn": 0.74
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 98.92
+   "pct_pn": 98.91
   },
   {
    "tipo": "Participaciones Accionarias Chile",
@@ -37,7 +37,7 @@
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.77
+   "pct_pn": 0.04
   },
   {
    "tipo": "Otros Activos",
@@ -52,97 +52,102 @@
   {
    "activo": "Bonos Rep Argentina GD35",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.57
+   "pct_pn": 0.66
   },
   {
    "activo": "Bonos Rep Argentina GD30",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "YPF S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 19.98
+   "pct_pn": 0.08
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 19.1
+   "pct_pn": 19.2
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 19.01
   },
   {
    "activo": "Cedear Vista Oil Gas",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.29
+   "pct_pn": 14.71
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 10.44
+   "pct_pn": 10.43
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.71
+   "pct_pn": 9.92
   },
   {
    "activo": "Transportadora de Gas del Norte S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.15
+   "pct_pn": 4.39
   },
   {
    "activo": "Transener S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.77
+   "pct_pn": 3.71
   },
   {
    "activo": "Cedear Adecoagro",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.96
+   "pct_pn": 3.33
   },
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.56
-  },
-  {
-   "activo": "Camuzzi Gas Pampeana S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.23
+   "pct_pn": 2.71
   },
   {
    "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.23
+   "pct_pn": 2.5
+  },
+  {
+   "activo": "Camuzzi Gas Pampeana S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.24
   },
   {
    "activo": "Sociedad Comercial del Plata S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.67
+   "pct_pn": 1.73
   },
   {
    "activo": "Edenor S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.62
+   "pct_pn": 1.51
   },
   {
    "activo": "Ledesma S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.93
+   "pct_pn": 1.04
   },
   {
    "activo": "Inversora Juramento S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.91
+   "pct_pn": 0.98
   },
   {
    "activo": "Capex S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.83
+   "pct_pn": 0.88
   },
   {
    "activo": "Metrogas S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.54
+   "pct_pn": 0.61
+  },
+  {
+   "activo": "Ovoprot International S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.01
   },
   {
    "activo": "Cedear Geopark",
@@ -157,7 +162,7 @@
   {
    "activo": "FCI Gainvest Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.77
+   "pct_pn": 0.04
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

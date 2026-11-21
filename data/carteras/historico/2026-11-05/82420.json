@@ -1,0 +1,106 @@
+{
+ "fondo": "First Renta Mixta III",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "First Capital Markets S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 1067991697.62
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.19
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 95.83
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.16
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.78
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.62
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.59
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.89
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.03
+  },
+  {
+   "activo": "Bono Prov de Buenos Aires TZV28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.93
+  },
+  {
+   "activo": "FF AMFAyS S50 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.92
+  },
+  {
+   "activo": "FCI Tango Money Market Dinámico - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.85
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.3
+  },
+  {
+   "activo": "FF AMFAyS S49 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.02
+  },
+  {
+   "activo": "FCI MEGAQM Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.02
+  },
+  {
+   "activo": "FCI Axis Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "82420",
+ "nombre_cnv": "FIRST RENTA MIXTA III FCI",
+ "clave": "first renta mixta iii"
+}

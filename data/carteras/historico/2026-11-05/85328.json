@@ -1,0 +1,76 @@
+{
+ "fondo": "CYC Liquidez",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "C y C Administradora de Fondos S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 14430052715.06
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 38.87
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.45
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 51.61
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 2.07
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.45
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 21.48
+  },
+  {
+   "activo": "Pzo Fi $ Banco VOII",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 11.91
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 8.02
+  },
+  {
+   "activo": "Pzo Fi $ Bco Bibank",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 7.02
+  },
+  {
+   "activo": "Pzo Fi $ Banco de Serv y Transacciones (BST)",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.12
+  },
+  {
+   "activo": "Pzo Fi $ Banco Masventas",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.05
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85328",
+ "nombre_cnv": "CYC LIQUIDEZ FCI",
+ "clave": "cyc liquidez"
+}

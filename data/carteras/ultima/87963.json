@@ -1,6 +1,6 @@
 {
  "fondo": "GMC Retorno Total III",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "GMC Asset Management S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,36 +8,36 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 14565622442.43
+  "Peso Argentina": 14637859546.94
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 5.45
+   "pct_pn": 5.21
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 53.78
+   "pct_pn": 59.97
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.58
+   "pct_pn": 1.59
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.79
+   "pct_pn": 1.6
   },
   {
    "tipo": "Participaciones Accionarias Chile",
-   "pct_pn": 0.37
+   "pct_pn": 0.29
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 8.04
+   "pct_pn": 8.32
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 35.99
+   "pct_pn": 29.95
   },
   {
    "tipo": "Pasivos",
@@ -48,67 +48,87 @@
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.57
+   "pct_pn": 9.61
   },
   {
    "activo": "Letra Tamar TEM TMF28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.04
+   "pct_pn": 6.03
   },
   {
    "activo": "Bono Boncer 2028 TZXM8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.69
+   "pct_pn": 5.67
   },
   {
    "activo": "Letra Prov Chubut S121 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.35
+   "pct_pn": 5.39
   },
   {
    "activo": "Lecap S29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.76
+   "pct_pn": 4.78
   },
   {
    "activo": "ON Mercado Pago C7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.6
+   "pct_pn": 3.62
   },
   {
    "activo": "ON Rowing S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.45
+   "pct_pn": 3.47
   },
   {
    "activo": "ON Pyme Urbano Express Argentina S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.12
-  },
-  {
-   "activo": "Bonos Rep Argentina GD38",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.88
+   "pct_pn": 3.14
   },
   {
    "activo": "Letra Prov Chubut S122 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.82
+   "pct_pn": 2.84
+  },
+  {
+   "activo": "Bonos Rep Argentina GD38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.69
   },
   {
    "activo": "ON PSA Serie 37",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.53
+   "pct_pn": 2.54
   },
   {
-   "activo": "ON Morixe C4",
+   "activo": "ON Banco Prov Clase 7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.85
+   "pct_pn": 2.13
+  },
+  {
+   "activo": "ON Grupo ST C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.07
   },
   {
    "activo": "ON Lab. Richmond S8 Clase C",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.77
+  },
+  {
+   "activo": "ON Morixe C4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.73
+  },
+  {
+   "activo": "ON PyMe Colgas C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.41
+  },
+  {
+   "activo": "ON Banco Prov Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.72
   },
   {
    "activo": "ON GEMSA y CTR C43",
@@ -118,47 +138,47 @@
   {
    "activo": "ON Bco Serv Transac C31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.58
+   "pct_pn": 1.59
   },
   {
    "activo": "Cedear NU Holdings Ltd",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.03
+   "pct_pn": 0.8
   },
   {
    "activo": "Cedear Alibaba Group Holding L.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.54
+   "pct_pn": 0.59
   },
   {
    "activo": "Cedear NIO Inc",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 0.21
   },
   {
    "activo": "Cedear Geopark",
    "tipo": "Participaciones Accionarias Chile",
-   "pct_pn": 0.37
+   "pct_pn": 0.29
   },
   {
    "activo": "FCI Toronto T Ahorro B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.76
-  },
-  {
-   "activo": "FCI Zofingen Pesos Ya - Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.06
+   "pct_pn": 2.75
   },
   {
    "activo": "FCI ST Zero - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.06
+   "pct_pn": 2.73
+  },
+  {
+   "activo": "FCI Unico Liquidez Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.78
   },
   {
    "activo": "FF AMFAyS S53 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.16
+   "pct_pn": 1.06
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

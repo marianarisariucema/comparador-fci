@@ -1,6 +1,6 @@
 {
  "fondo": "Argenfunds Infraestructura",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Argenfunds S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,24 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 7447778000.84
+  "Peso Argentina": 7474539135.0
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.02
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.54
+   "pct_pn": 97.28
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.16
-  },
-  {
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.98
+   "pct_pn": 2.62
   },
   {
    "tipo": "Otros Activos",
@@ -33,64 +29,59 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.09
   }
  ],
  "activos": [
   {
    "activo": "ON Aluar Serie 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.15
+   "pct_pn": 18.45
   },
   {
    "activo": "ON P. Aconcagua Energia C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.17
+   "pct_pn": 17.29
   },
   {
    "activo": "Bonos de Infra.Vial Prov. de Santa Fe",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.66
+   "pct_pn": 15.91
   },
   {
    "activo": "ON CGC C 39",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.18
+   "pct_pn": 13.34
   },
   {
    "activo": "ON Telecom C14 TLCFO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.4
-  },
-  {
-   "activo": "Bono CABA 2028 BDC28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.82
+   "pct_pn": 8.56
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.79
+   "pct_pn": 6.82
+  },
+  {
+   "activo": "Bono CABA 2028 BDC28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.7
   },
   {
    "activo": "Letra Prov Bs As PBA28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.38
+   "pct_pn": 6.21
   },
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.0
+   "pct_pn": 4.02
   },
   {
    "activo": "Caucion Colocadora $ BYMA",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.16
-  },
-  {
-   "activo": "FCI Fundcorp Liquidez - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.98
+   "pct_pn": 2.62
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

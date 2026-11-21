@@ -1,0 +1,85 @@
+{
+ "fondo": "GMC Multiestrategia II",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "GMC Asset Management S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 1904269113.36
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 69.51
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 21.01
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 9.53
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.06
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.81
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.4
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZXO7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.73
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.8
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.71
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 21.01
+  },
+  {
+   "activo": "FCI Unico Liquidez Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 9.53
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88756",
+ "nombre_cnv": "GMC MULTIESTRATEGIA II",
+ "clave": "gmc multiestrategia ii"
+}

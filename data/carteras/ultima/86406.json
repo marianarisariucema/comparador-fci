@@ -1,6 +1,6 @@
 {
  "fondo": "Axis Pesos",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Axis S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 47799316381.01
+  "Peso Argentina": 22937544114.76
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 50.14
+   "pct_pn": 30.41
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 49.81
+   "pct_pn": 69.49
   },
   {
    "tipo": "Otros Activos",
@@ -25,44 +25,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.05
+   "pct_pn": 0.1
   }
  ],
  "activos": [
   {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 18.83
-  },
-  {
    "activo": "Pzo Fi $ Bco Sol",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 8.98
+   "pct_pn": 18.89
   },
   {
    "activo": "Pzo Fi $ Bco Wilobank",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 8.56
+   "pct_pn": 18.0
   },
   {
    "activo": "Pzo Fi $ Nvo Bco Chaco",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.57
+   "pct_pn": 13.82
   },
   {
    "activo": "Plazo Fi $ Bco Tierra del Fuego",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.52
+   "pct_pn": 5.3
   },
   {
    "activo": "Pzo Fi $ Banco VOII",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.24
+   "pct_pn": 4.71
   },
   {
    "activo": "Pzo Fi $ Bco Coinag",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.1
+   "pct_pn": 4.41
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.36
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

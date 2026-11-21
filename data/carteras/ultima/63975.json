@@ -1,6 +1,6 @@
 {
  "fondo": "Delta Patrimonio I",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 419225230.35
+  "Peso Argentina": 1029509682.71
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.69
+   "pct_pn": 54.55
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 106.74
+   "pct_pn": 69.2
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 4.89
   },
   {
    "tipo": "Otros Activos",
@@ -34,34 +34,34 @@
  ],
  "activos": [
   {
-   "activo": "Bono del Tesoro Nacional T15E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 36.62
-  },
-  {
-   "activo": "Bono Boncer TX26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.71
-  },
-  {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.15
+   "pct_pn": 14.91
   },
   {
-   "activo": "Lecap S13N6",
+   "activo": "Lecap S26F7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.52
+   "pct_pn": 14.78
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.75
+   "pct_pn": 14.41
+  },
+  {
+   "activo": "Lecap S29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.88
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.22
   },
   {
    "activo": "FCI Gainvest Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 4.89
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

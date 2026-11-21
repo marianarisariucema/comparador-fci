@@ -1,0 +1,72 @@
+{
+ "fondo": "Max Money Market Dólares",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Max Capital Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 90419838.93
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 13.79
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 75.27
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 10.94
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pzo Fi U$S Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 23.26
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 21.02
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 13.3
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Mariva",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 5.53
+  },
+  {
+   "activo": "Pzo Fi U$S Bco CMF",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.98
+  },
+  {
+   "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.43
+  },
+  {
+   "activo": "Plazo Fi U$S Bco BACS",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 2.77
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87380",
+ "nombre_cnv": "MAX MONEY MARKET DOLARES FCI",
+ "clave": "max money market dolares"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "BAVSA Pesos Plus",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "BAVSA Fondos S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 25214355918.13
+  "Peso Argentina": 28409229411.84
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.03
+   "pct_pn": 0.1
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.82
+   "pct_pn": 104.01
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.36
+   "pct_pn": 1.27
   },
   {
    "tipo": "Otros Activos",
@@ -36,92 +36,127 @@
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.14
-  },
-  {
-   "activo": "Letra Tamar TEM TMF27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.33
+   "pct_pn": 20.92
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.73
+   "pct_pn": 19.2
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.88
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.65
+   "pct_pn": 12.59
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.13
+   "pct_pn": 6.09
   },
   {
    "activo": "Bono CER TZX27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.18
+   "pct_pn": 5.53
   },
   {
-   "activo": "Pagare #MAV271060059",
+   "activo": "Bono del Tesoro Nacional TMG27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.95
+   "pct_pn": 3.5
   },
   {
    "activo": "Pagare #MAV101160028",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.91
+   "pct_pn": 3.5
+  },
+  {
+   "activo": "Pagare #MAV261160104",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.47
+  },
+  {
+   "activo": "Pagare #MAV301260029",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.38
   },
   {
    "activo": "Pagare #MAV101160035",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.96
+   "pct_pn": 1.75
   },
   {
    "activo": "Cheque POTE151200312",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.91
+   "pct_pn": 1.71
   },
   {
    "activo": "Pagare #MAV151260052",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.91
+   "pct_pn": 1.71
+  },
+  {
+   "activo": "Pagare #MAV050170080",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.68
   },
   {
    "activo": "Pagare #MAV301240030",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.22
   },
   {
    "activo": "Pagare #MAV140150033",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.22
   },
   {
    "activo": "Pagare #MAV250350086",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.22
   },
   {
    "activo": "Cheque E *POT231100086",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
+   "pct_pn": 0.14
   },
   {
    "activo": "Cheque E *POT161100111",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.14
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "ON Arcor C3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "Cheque E *NOV191200045",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *NOV180100051",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *NOV191100044",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
   },
   {
    "activo": "FF AMFAyS S52 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.18
+   "pct_pn": 1.06
   },
   {
-   "activo": "FCI Axis Pesos - Clase B",
+   "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 0.21
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

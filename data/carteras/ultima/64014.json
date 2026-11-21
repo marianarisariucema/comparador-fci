@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Estrategia 1",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 3195527268.11
+  "Peso Argentina": 3199119075.59
  },
  "por_tipo": [
   {
@@ -17,19 +17,23 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 72.57
+   "pct_pn": 70.79
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.78
+   "pct_pn": 16.85
   },
   {
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 8.19
+   "pct_pn": 8.0
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.78
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 3.49
+   "pct_pn": 3.52
   },
   {
    "tipo": "Pasivos",
@@ -40,45 +44,30 @@
   {
    "activo": "Bono Cuasipar ARS CUAP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.93
+   "pct_pn": 26.75
   },
   {
    "activo": "Bono Prov Entre R 2025 ERF25",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.0
+   "pct_pn": 20.3
   },
   {
    "activo": "Bono Prov La Rioja 2025 RIF25",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.76
+   "pct_pn": 15.74
   },
   {
    "activo": "Bono Prov Salta SA24D",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.93
+   "pct_pn": 2.95
   },
   {
    "activo": "Cheque E *MAV111101521",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.29
+   "pct_pn": 2.31
   },
   {
    "activo": "Cheque E *CRE211100153",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.31
-  },
-  {
-   "activo": "Cheque E *CRE251000144",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.31
-  },
-  {
-   "activo": "Cheque E *CRE281000151",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.31
-  },
-  {
-   "activo": "Cheque E *CRE311000347",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.31
   },
@@ -100,7 +89,7 @@
   {
    "activo": "Cheque E *CRE301100333",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.31
   },
   {
    "activo": "Cheque E *CRE171200140",
@@ -125,12 +114,17 @@
   {
    "activo": "Cedear Berkshire Hathaway",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.78
+   "pct_pn": 16.85
   },
   {
    "activo": "Ishares Silver Trust",
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 8.19
+   "pct_pn": 8.0
+  },
+  {
+   "activo": "FCI MAF Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.78
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "BAVSA Renta Balanceado X",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "BAVSA Fondos S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Variable",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6617522040.53
+  "Peso Argentina": 7437926205.45
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.03
+   "pct_pn": 0.24
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 96.15
+   "pct_pn": 95.19
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.34
   },
   {
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 3.75
-  },
-  {
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.23
+   "pct_pn": 3.38
   },
   {
    "tipo": "Otros Activos",
@@ -38,579 +38,419 @@
  ],
  "activos": [
   {
-   "activo": "Pagare #POD061260011",
+   "activo": "Pagare #MAV251160087",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.59
+   "pct_pn": 6.62
   },
   {
-   "activo": "Pagare #POD101160019",
+   "activo": "Pagare #MAV251160088",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.22
+   "pct_pn": 6.62
+  },
+  {
+   "activo": "Pagare #POD061260011",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.91
   },
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.0
+   "pct_pn": 4.4
   },
   {
    "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.82
-  },
-  {
-   "activo": "Bono Dual TXMD8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.67
+   "pct_pn": 4.28
   },
   {
    "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.65
+   "pct_pn": 3.9
   },
   {
    "activo": "Bono Disc ARS Ley AR DICP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.74
+   "pct_pn": 3.32
   },
   {
    "activo": "Cheque E *MAV171101823",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.58
-  },
-  {
-   "activo": "Bono Boncer TZXD6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.31
+   "pct_pn": 3.22
   },
   {
    "activo": "Cheque E *POT280500131",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.11
+   "pct_pn": 2.79
   },
   {
    "activo": "Cheque E *MAV211101389",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.1
-  },
-  {
-   "activo": "Letra Prov Chubut S123 C1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.07
+   "pct_pn": 2.78
   },
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.06
+   "pct_pn": 2.75
+  },
+  {
+   "activo": "Letra Prov Chubut S123 C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.69
+  },
+  {
+   "activo": "Pagare #MAV031260083",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.63
+  },
+  {
+   "activo": "Bono Boncer TX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.45
   },
   {
    "activo": "Cheque E *FED141200033",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.71
+   "pct_pn": 2.43
   },
   {
-   "activo": "Bono Dual TXMJ0",
+   "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.93
+   "pct_pn": 1.53
   },
   {
    "activo": "Cheque E *TRD301200055",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.59
+   "pct_pn": 1.43
   },
   {
    "activo": "Letra Prov Chubut S119 C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.54
+   "pct_pn": 1.33
   },
   {
    "activo": "Cheque E *POT171200082",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.45
+   "pct_pn": 1.3
   },
   {
    "activo": "Pagare #AAR241260001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.43
+   "pct_pn": 1.29
   },
   {
    "activo": "Pagare #AAR241260002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.43
+   "pct_pn": 1.29
   },
   {
    "activo": "Cheque E *POT160100065",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.42
+   "pct_pn": 1.28
   },
   {
-   "activo": "Cheque E *MAV181101736",
+   "activo": "Cheque E *MAV181201641",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.24
+  },
+  {
+   "activo": "Pagare #MAV171160079",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.18
   },
   {
-   "activo": "Cheque E *MAV251001446",
+   "activo": "Pagare #MAV181160036",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.02
+   "pct_pn": 1.18
+  },
+  {
+   "activo": "Pagare #MAV241160049",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.17
+  },
+  {
+   "activo": "Pagare #MAV251160066",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.17
+  },
+  {
+   "activo": "Cheque E *MAV181101736",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.06
+  },
+  {
+   "activo": "Cheque E *MAV071101794",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.91
   },
   {
    "activo": "Cheque E *MAV201101667",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.98
+   "pct_pn": 0.88
+  },
+  {
+   "activo": "Cheque E *MAV071101796",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.85
   },
   {
    "activo": "Cheque E *AFD061100020",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.94
+   "pct_pn": 0.84
   },
   {
-   "activo": "Bono Dual TTD26",
+   "activo": "Cheque E *MAV081101421",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.8
+   "pct_pn": 0.82
   },
   {
-   "activo": "Cheque E *MAV301001441",
+   "activo": "Cheque E *MAV081101422",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.75
-  },
-  {
-   "activo": "Cheque E *MAV281001309",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.75
-  },
-  {
-   "activo": "Cheque E *MAV011101221",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.75
+   "pct_pn": 0.82
   },
   {
    "activo": "Cheque E *ACE241200042",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.72
+   "pct_pn": 0.65
+  },
+  {
+   "activo": "Cheque E *MAV281201291",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.64
+  },
+  {
+   "activo": "Cheque E *MAV261201700",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.64
+  },
+  {
+   "activo": "Cheque E *MAV281201380",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.64
   },
   {
    "activo": "Cheque E *MAV111101560",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.6
+   "pct_pn": 0.54
   },
   {
    "activo": "Cheque E *MAV111101559",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.6
+   "pct_pn": 0.54
   },
   {
    "activo": "Cheque E *AFD130100019",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.59
+   "pct_pn": 0.53
   },
   {
    "activo": "Cheque E *POT250100110",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.55
+   "pct_pn": 0.49
   },
   {
    "activo": "Cheque E *MIL041100028",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.52
-  },
-  {
-   "activo": "Cheque E *POT271000118",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.49
+   "pct_pn": 0.47
   },
   {
    "activo": "Cheque E *BST071100005",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.45
+   "pct_pn": 0.4
   },
   {
    "activo": "Cheque E *MOV100100083",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.35
+   "pct_pn": 0.32
   },
   {
    "activo": "Cheque E *MOV110100053",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.35
+   "pct_pn": 0.32
   },
   {
    "activo": "Cheque E *ACI130100288",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.32
+   "pct_pn": 0.29
   },
   {
    "activo": "Cheque E *POT310300224",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.31
+   "pct_pn": 0.28
   },
   {
    "activo": "Cheque E *POT141100094",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.27
   },
   {
    "activo": "Cheque E *POT250300116",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.27
   },
   {
    "activo": "Cheque E *AVU111200038",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.29
-  },
-  {
-   "activo": "Cheque E *AFD271100040",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.27
+   "pct_pn": 0.26
   },
   {
    "activo": "Cheque E *POT170300104",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.27
+   "pct_pn": 0.25
   },
   {
-   "activo": "Cheque E *POT180300097",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.27
-  },
-  {
-   "activo": "Cheque E *POT190300078",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.27
-  },
-  {
-   "activo": "Cheque E *POT220300076",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.27
-  },
-  {
-   "activo": "Cheque E *POT230300081",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.27
-  },
-  {
-   "activo": "Cheque E *AVU301000065",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "Cheque E *AVU231000098",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "Cheque E *POT141200074",
+   "activo": "Cheque E *MAV161201605",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.25
   },
   {
-   "activo": "Cheque E *MAV241001562",
+   "activo": "Cheque E *POT180300097",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.24
   },
   {
-   "activo": "Cheque E *MAV221001601",
+   "activo": "Cheque E *POT190300078",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.23
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Cheque E *POT220300076",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Cheque E *POT230300081",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Cheque E *AFD271100040",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Cheque E *POT141200074",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.22
+  },
+  {
+   "activo": "Cheque E *AVU120200025",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.22
   },
   {
    "activo": "Cheque E *POT131100077",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.23
-  },
-  {
-   "activo": "Cheque E *NIO221200023",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.22
-  },
-  {
-   "activo": "Cheque E *MAV221001602",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 0.21
   },
   {
    "activo": "Cheque E *NIO220100014",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.21
-  },
-  {
-   "activo": "Cheque E *BST031100004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.2
-  },
-  {
-   "activo": "Cheque E *BST231000005",
-   "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.19
   },
   {
-   "activo": "Cheque E *POT311000122",
+   "activo": "Cheque E *NIO221200023",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.19
-  },
-  {
-   "activo": "Cheque E *BST281000004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Cheque E *MAV221001604",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Cheque E *MAV241001561",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
-   "activo": "Cheque E *FIN251000038",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
-   "activo": "Cheque E *FIN221000051",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
   },
   {
    "activo": "Cheque E *MIL151200046",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 0.16
   },
   {
    "activo": "Cheque E *MIL071200034",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 0.16
   },
   {
    "activo": "Cheque E *FIN151100048",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.16
-  },
-  {
-   "activo": "Cheque E *MAV221001605",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.16
-  },
-  {
-   "activo": "Cheque E *FIN221000053",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Cheque E *FIN221000054",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Cheque E *FIN221000049",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Cheque E *FIN221000048",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
+   "pct_pn": 0.14
   },
   {
    "activo": "Cheque E *MIL161100023",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Cheque E *MIL231100029",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
+   "pct_pn": 0.13
   },
   {
    "activo": "Cheque E *MIL041200027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
+   "pct_pn": 0.13
+  },
+  {
+   "activo": "Cheque E *MIL231100029",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.13
   },
   {
    "activo": "Cheque E *MIL011200030",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
-  },
-  {
-   "activo": "Cheque E *FIN261000037",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.14
-  },
-  {
-   "activo": "Cheque E *POT280200168",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.14
-  },
-  {
-   "activo": "Cheque E *POT310300223",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.14
+   "pct_pn": 0.13
   },
   {
    "activo": "Cheque E *POT310100263",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.14
+   "pct_pn": 0.13
+  },
+  {
+   "activo": "Cheque E *POT280200168",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.13
   },
   {
    "activo": "Cheque E *INP120400054",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.14
+   "pct_pn": 0.13
   },
   {
    "activo": "Cheque E *POT160400075",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.13
+   "pct_pn": 0.12
   },
   {
    "activo": "Cheque E *POT160400076",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.13
+   "pct_pn": 0.12
   },
   {
    "activo": "Cheque E *POT160400077",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.13
+   "pct_pn": 0.12
   },
   {
-   "activo": "Cheque E *POT241000083",
+   "activo": "Cheque E *POT310300223",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.12
   },
   {
    "activo": "Cheque E *POT211100063",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.12
-  },
-  {
-   "activo": "Cheque E *BST031100003",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.12
-  },
-  {
-   "activo": "Cheque E *BST031100002",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.12
-  },
-  {
-   "activo": "Cheque E *BST031100005",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.12
-  },
-  {
-   "activo": "Cheque E *BST231000004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.12
-  },
-  {
-   "activo": "Cheque E *AFD221200034",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.11
-  },
-  {
-   "activo": "Cheque E *AFD150100031",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.11
-  },
-  {
-   "activo": "Cheque E *INP220200082",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.11
-  },
-  {
-   "activo": "Cheque E *FIN231000057",
-   "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.11
   },
   {
    "activo": "Cheque E *POT311200147",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.11
+   "pct_pn": 0.1
   },
   {
-   "activo": "Cheque E *POT241000084",
+   "activo": "Cheque E *INP220200082",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Cheque E *AFD221200034",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Cheque E *AFD150100031",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
   },
   {
    "activo": "Cheque E *AFD061100019",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
-  },
-  {
-   "activo": "Cheque E *AFD301000033",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
-  },
-  {
-   "activo": "Cheque E *POT221200085",
-   "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.08
-  },
-  {
-   "activo": "Cheque E *POT241000082",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *POT220100081",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *POT240200094",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *POT230300079",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *INP231100038",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *POT080100052",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *POT120200058",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *POT280100069",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *POT220100086",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *POT260100086",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *POT311200152",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *AFD291100021",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "Cheque E *AFD291200018",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
   },
   {
    "activo": "Cheque E *POT300600327",
@@ -628,77 +468,152 @@
    "pct_pn": 0.07
   },
   {
-   "activo": "Cheque E *MOV170300056",
+   "activo": "Cheque E *POT220100081",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.07
+  },
+  {
+   "activo": "Cheque E *POT240200094",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "Cheque E *POT221200085",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "Cheque E *INP231100038",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "Cheque E *MAV011201823",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "Cheque E *AFD291100021",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *AFD291200018",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *POT230300079",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *MOV170300056",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
   },
   {
    "activo": "Cheque E *MOV250300064",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Cheque E *MOV310300076",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *POT120200058",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *POT080100052",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *POT311200152",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *POT220100086",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *POT260100086",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *POT280100069",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *MOV090400053",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "Cheque E *MOV160400053",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "Cheque E *MOV230400055",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
   },
   {
    "activo": "Cheque E *MOV050300057",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *MOV120300046",
+   "activo": "Cheque E *MOV070500053",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "Cheque E *MOV260300071",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
   },
   {
    "activo": "Cheque E *MOV190300060",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *MAV161101480",
+   "activo": "Cheque E *MOV140700101",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *FIN231000056",
+   "activo": "Cheque E *MOV300400085",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *POT241000085",
+   "activo": "Cheque E *MOV120300046",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *POT241100088",
+   "activo": "Cheque E *ARP230200253",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 0.05
   },
   {
    "activo": "Cheque E *POT241200042",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *ARP200100296",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "Cheque E *ARP060200228",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "Cheque E *ARP190200244",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "Cheque E *ARP130200257",
+   "activo": "Cheque E *POT241100088",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
@@ -718,27 +633,37 @@
    "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *ARP210200238",
+   "activo": "Cheque E *ARP200100296",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *ARP230200253",
+   "activo": "Cheque E *ARP060200228",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *POT240200090",
+   "activo": "Cheque E *ARP130200257",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *ARP180200236",
+   "activo": "Cheque E *ARP190200244",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "Cheque E *INP120300074",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
   {
    "activo": "Cheque E *MAV141201417",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "Cheque E *MAV161101480",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
@@ -758,54 +683,79 @@
    "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *AFD301000035",
+   "activo": "Cheque E *ARP140200259",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *INP120300074",
+   "activo": "Cheque E *ARP180200236",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *ARP150100389",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *POT240200090",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *ARP210200238",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *FIN031200035",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *FIN020100028",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *MOV151100103",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *MOV030300045",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *MOV170300057",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
   },
   {
    "activo": "Cheque E *MOV030200063",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *MOV140700101",
+   "activo": "Cheque E *MOV250300065",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *MOV300400085",
+   "activo": "Cheque E *MOV100300077",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *MOV260300071",
+   "activo": "Cheque E *MOV310300077",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *MOV070500053",
+   "activo": "Cheque E *MOV070400054",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
-  },
-  {
-   "activo": "Cheque E *MOV160400053",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
-  },
-  {
-   "activo": "Cheque E *MOV230400055",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
-  },
-  {
-   "activo": "Cheque E *MOV090400053",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.04
   },
   {
    "activo": "Cheque E *MOV240200086",
@@ -823,109 +773,9 @@
    "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *MOV310300077",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *MOV070400054",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *MOV250300065",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *MOV100300077",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *MOV170300057",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *MOV030300045",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *MAV251001445",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *FIN020100028",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *MOV151100103",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *ARP150100389",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *ARP130200258",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *ARP140200259",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *ARP070200236",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *FIN031200035",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *FIN221000050",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *FIN221000052",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *FIN031100039",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *FIN221000055",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
    "activo": "Cheque E *MOV151200129",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *FIN031100040",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Cheque E *FIN291000041",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
   },
   {
    "activo": "Pagare #POT310370001",
@@ -933,7 +783,12 @@
    "pct_pn": 0.03
   },
   {
-   "activo": "Cheque E *ARP060200229",
+   "activo": "Cheque E *ARP210200237",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *ARP260200267",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
@@ -943,7 +798,7 @@
    "pct_pn": 0.03
   },
   {
-   "activo": "Cheque E *ARP010200157",
+   "activo": "Cheque E *ARP130200258",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
@@ -958,47 +813,17 @@
    "pct_pn": 0.03
   },
   {
+   "activo": "Cheque E *ARP060200229",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *ARP070200236",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
    "activo": "Cheque E *ARP050200213",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Cheque E *ARP130200256",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Cheque E *ARP140100230",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Cheque E *FIN241000057",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Cheque E *ARP210200237",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Cheque E *ARP210200235",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Cheque E *ARP260200267",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Cheque E *MAV141201409",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Cheque E *MAV141201416",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
@@ -1028,12 +853,17 @@
    "pct_pn": 0.03
   },
   {
-   "activo": "Cheque E *POT191100073",
+   "activo": "Cheque E *MAV141201409",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.02
+   "pct_pn": 0.03
   },
   {
-   "activo": "Cheque E *ARP210200236",
+   "activo": "Cheque E *MAV141201416",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *POT191100073",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.02
   },
@@ -1043,59 +873,29 @@
    "pct_pn": 0.02
   },
   {
-   "activo": "Cheque E *FIN221000056",
+   "activo": "Cheque E *ARP010200157",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.02
   },
   {
-   "activo": "Cheque E *FIN281000049",
+   "activo": "Cheque E *ARP140100230",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.02
   },
   {
-   "activo": "Cheque E *FIN231000058",
+   "activo": "Cheque E *ARP130200256",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.02
   },
   {
-   "activo": "Cheque E *POT181100083",
+   "activo": "Cheque E *ARP210200235",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.02
   },
   {
-   "activo": "Cheque E *ARP150100390",
+   "activo": "Cheque E *ARP210200236",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *ARP120200228",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *ARP190200245",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *ARP200200443",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *ARP040200184",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *ARP210100228",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "Cheque E *ARP110200205",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.02
   },
   {
    "activo": "Cheque E *ARP260200268",
@@ -1123,6 +923,46 @@
    "pct_pn": 0.01
   },
   {
+   "activo": "Cheque E *ARP210100228",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *ARP150100390",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *ARP040200184",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *ARP110200205",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *ARP120200228",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *ARP190200245",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *ARP200200443",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "Cheque E *POT181100083",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
    "activo": "Cheque E *MAV141201415",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
@@ -1143,24 +983,24 @@
    "pct_pn": 0.01
   },
   {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.34
+  },
+  {
    "activo": "Pagare #UMV270870007",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 2.73
+   "pct_pn": 2.47
   },
   {
    "activo": "Pagare #UPO060870001",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.54
+   "pct_pn": 0.49
   },
   {
    "activo": "Pagare #UPO050970001",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 0.47
-  },
-  {
-   "activo": "FCI Allaria Ahorro - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.23
+   "pct_pn": 0.42
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

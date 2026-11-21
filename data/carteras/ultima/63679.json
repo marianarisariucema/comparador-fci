@@ -1,6 +1,6 @@
 {
  "fondo": "Toronto Trust Global Capital",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco Credito y Securitizacion S.A. (BACS)",
  "clasificacion": "Renta Fija",
@@ -8,28 +8,32 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6861614177.11
+  "Peso Argentina": 7026088279.09
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 5.06
+   "pct_pn": 0.56
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 79.87
+   "pct_pn": 80.82
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.69
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 7.81
+   "pct_pn": 7.55
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 4.12
+   "pct_pn": 4.08
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.45
+   "pct_pn": 1.54
   },
   {
    "tipo": "Otros Activos",
@@ -44,42 +48,52 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.7
+   "pct_pn": 29.22
   },
   {
-   "activo": "Lelink D30N6",
+   "activo": "Letra Tesoro Nac D15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.2
+   "pct_pn": 10.95
   },
   {
    "activo": "ON Futuros y Opciones.com S4 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.21
+   "pct_pn": 9.12
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.59
   },
   {
    "activo": "Pagare #UMV310570047",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.29
+   "pct_pn": 5.18
   },
   {
    "activo": "Pagare #UPO120870003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.21
+   "pct_pn": 5.1
+  },
+  {
+   "activo": "ON Banco Hipotecario C15",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.53
   },
   {
    "activo": "ON Vista Gas y Oil Arg C25",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.18
+   "pct_pn": 2.17
   },
   {
    "activo": "Pagare #UPO180670003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.06
+   "pct_pn": 1.04
   },
   {
    "activo": "Pagare #UPO110670003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.06
+   "pct_pn": 1.04
   },
   {
    "activo": "ON Pan American C26",
@@ -102,47 +116,47 @@
    "pct_pn": 0.21
   },
   {
-   "activo": "Pagare #UDO160870001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
-   "activo": "Pagare #UDO180870001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
-   "activo": "Pagare #UDO200870008",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
-   "activo": "Pagare #UDO230870001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
-   "activo": "Pagare #UDO250870001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
-   "activo": "Pagare #UDO310870001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
    "activo": "Pagare #UDO020870001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 0.17
   },
   {
    "activo": "Pagare #UDO040870001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 0.17
   },
   {
    "activo": "Pagare #UDO060870002",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Pagare #UDO160870001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Pagare #UDO180870001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Pagare #UDO200870008",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Pagare #UDO230870001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Pagare #UDO250870001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Pagare #UDO310870001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.17
   },
@@ -159,62 +173,62 @@
   {
    "activo": "Pagare #UAB010180001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB110180001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB210180001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB310180001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB100280001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB200280001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB010380001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB110380001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB210380001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB310380001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB100480001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB200480001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UAB300480001",
@@ -242,29 +256,34 @@
    "pct_pn": 0.06
   },
   {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.69
+  },
+  {
    "activo": "Pagare #UMV070670005",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 5.47
+   "pct_pn": 5.3
   },
   {
    "activo": "ON 360 Energy Solar C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.34
+   "pct_pn": 2.26
   },
   {
    "activo": "Pagare #UPO030370002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 2.82
+   "pct_pn": 2.8
   },
   {
    "activo": "Pagare #UPO090670001",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Billete",
-   "pct_pn": 1.3
+   "pct_pn": 1.29
   },
   {
-   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "activo": "FCI GMC Money Market - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.45
+   "pct_pn": 1.54
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

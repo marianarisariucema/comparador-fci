@@ -1,6 +1,6 @@
 {
  "fondo": "Consultatio Gestion III",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 5675055.23
+  "Dolar Estadounidense": 5678576.18
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 2.46
+   "pct_pn": 2.35
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 97.62
+   "pct_pn": 97.65
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Otros Activos",
@@ -41,17 +41,22 @@
   {
    "activo": "US Treasury Bill 180227",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 24.36
+   "pct_pn": 24.38
   },
   {
    "activo": "Bono Corporativo 3.625% 010827",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 23.29
+   "pct_pn": 23.3
   },
   {
    "activo": "BR Bono Global 2027 10.12%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 21.73
+   "pct_pn": 21.72
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

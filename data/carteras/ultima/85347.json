@@ -1,6 +1,6 @@
 {
  "fondo": "Pellegrini Renta Fija III",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Pellegrini S.A.S.G.F.C.I.",
  "depositaria": "Banco de La Nacion Argentina",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 84323377789.55
+  "Peso Argentina": 90379041847.24
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.35
+   "pct_pn": 98.63
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.16
+   "pct_pn": 1.53
   },
   {
    "tipo": "Otros Activos",
@@ -29,99 +29,104 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 1.49
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.32
+   "pct_pn": 10.66
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.8
-  },
-  {
-   "activo": "Bono Boncer TZXD7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.49
-  },
-  {
-   "activo": "Bono del Tesoro Nacional T15E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.06
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TML27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.99
-  },
-  {
-   "activo": "Bono Dual TXMD9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.94
+   "pct_pn": 9.22
   },
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.54
+   "pct_pn": 9.06
   },
   {
-   "activo": "Bono del Tesoro Nacional TMVE8",
+   "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.18
+   "pct_pn": 8.82
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.92
+   "pct_pn": 8.48
   },
   {
-   "activo": "Lecer X30N6",
+   "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.59
+   "pct_pn": 7.52
   },
   {
-   "activo": "Letra Tamar TEM TMF27",
+   "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.51
-  },
-  {
-   "activo": "Bono Boncer 2027 TZXM7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.12
-  },
-  {
-   "activo": "Bono Boncer TXMJ9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.03
-  },
-  {
-   "activo": "Bono Boncer 2028 TZXM8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.11
-  },
-  {
-   "activo": "Lecer X29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.08
+   "pct_pn": 7.4
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.67
+   "pct_pn": 5.02
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.87
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.32
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.06
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.93
+  },
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.74
+  },
+  {
+   "activo": "Bono Dual TXMD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.17
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.91
+  },
+  {
+   "activo": "Bono Boncer 2028 TZXM8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.91
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.56
   },
   {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.09
+   "pct_pn": 1.08
   },
   {
    "activo": "FCI MEGAQM Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.43
   },
   {
    "activo": "FCI Adcap Ahorro Pesos - Clase I",

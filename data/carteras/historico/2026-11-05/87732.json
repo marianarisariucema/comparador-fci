@@ -1,0 +1,52 @@
+{
+ "fondo": "Schroder Liquidez Dolares",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Schroder S.A.S.G.F.C.I.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense Billete",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense Billete": 57108581.84
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 17.11
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 75.89
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 7.0
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Caucion Colocadora USB Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 43.78
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 18.95
+  },
+  {
+   "activo": "Pzo Fi U$S Bco BBVA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 13.17
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87732",
+ "nombre_cnv": "Schroder Liquidez Dólares F.C.I.",
+ "clave": "schroder liquidez dolares"
+}

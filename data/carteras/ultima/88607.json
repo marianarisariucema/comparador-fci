@@ -1,6 +1,6 @@
 {
  "fondo": "Blacktoro Pesos",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Blacktoro Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 30318246526.95
+  "Peso Argentina": 33170390224.4
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 16.72
+   "pct_pn": 14.77
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 82.85
+   "pct_pn": 84.66
   },
   {
    "tipo": "Otros Activos",
@@ -25,49 +25,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.43
+   "pct_pn": 0.57
   }
  ],
  "activos": [
   {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 22.43
-  },
-  {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 22.36
+   "pct_pn": 25.73
   },
   {
-   "activo": "Pzo Fi $ Bco Galicia",
+   "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.74
+   "pct_pn": 21.1
   },
   {
    "activo": "Pzo Fi $ Bco Mariva",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 8.99
+   "pct_pn": 12.12
   },
   {
    "activo": "Pzo Fi $ Bco Santander Ri",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.99
+   "pct_pn": 12.1
+  },
+  {
+   "activo": "Pzo Fi $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 7.57
   },
   {
    "activo": "Pzo Fi $ Bco BACS",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.67
+   "pct_pn": 3.02
   },
   {
    "activo": "Pzo Fi $ Bco Supervielle",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.0
-  },
-  {
-   "activo": "Pzo Fi $ Nvo Bco Indus",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 0.67
+   "pct_pn": 3.02
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

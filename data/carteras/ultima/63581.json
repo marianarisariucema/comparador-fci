@@ -1,6 +1,6 @@
 {
  "fondo": "Consultatio Renta Fija Argentina F.C.I.",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 21827890570.49
+  "Peso Argentina": 23228746993.02
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.6
+   "pct_pn": 0.57
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.25
+   "pct_pn": 93.75
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.33
+   "pct_pn": 0.38
   },
   {
    "tipo": "Otros Activos",
@@ -29,79 +29,79 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 5.3
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.88
+   "pct_pn": 28.28
   },
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.28
+   "pct_pn": 20.84
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.0
+   "pct_pn": 9.4
   },
   {
    "activo": "ON Telecom C19 TLCKO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.03
+   "pct_pn": 6.68
   },
   {
    "activo": "ON Telecom C12 TLCDO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.95
+   "pct_pn": 6.62
   },
   {
    "activo": "ON Pampa Energia C13",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.85
+   "pct_pn": 6.51
   },
   {
    "activo": "ON Pan American C33",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.15
+   "pct_pn": 5.84
   },
   {
    "activo": "ON Pampa Energia C23 (RegS)",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.92
+   "pct_pn": 1.8
   },
   {
    "activo": "ON P. Aconcagua Energia C19",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.84
+   "pct_pn": 1.75
   },
   {
    "activo": "ON Pan American C26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.77
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TZVD8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.65
+   "pct_pn": 1.69
   },
   {
    "activo": "ON P. Aconcagua Energia C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.61
+   "pct_pn": 1.54
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.53
   },
   {
    "activo": "ON PCR Clase K",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.32
+   "pct_pn": 1.25
   },
   {
-   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.33
+   "pct_pn": 0.38
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

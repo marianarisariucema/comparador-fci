@@ -1,6 +1,6 @@
 {
  "fondo": "GSS Retorno Total",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Grupo SS S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Global",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 19953739172.48
+  "Peso Argentina": 20115006311.64
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 92.83
+   "pct_pn": 92.89
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.1
+   "pct_pn": 7.13
   },
   {
    "tipo": "Otros Activos",
@@ -29,49 +29,49 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.07
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.97
+   "pct_pn": 21.98
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.01
+   "pct_pn": 21.27
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.94
+   "pct_pn": 10.93
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.89
+   "pct_pn": 10.91
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.7
+   "pct_pn": 10.68
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.47
+   "pct_pn": 5.46
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.95
+   "pct_pn": 4.89
   },
   {
    "activo": "Bono Par ARS Ley AR PARP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.43
+   "pct_pn": 3.3
   },
   {
    "activo": "Lecer X30N6",
@@ -81,12 +81,12 @@
   {
    "activo": "ON GEMSA y CTR C43",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.45
+   "pct_pn": 1.46
   },
   {
    "activo": "Bono Boncer TX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.43
+   "pct_pn": 0.42
   },
   {
    "activo": "ON Pan American C26",
@@ -96,12 +96,12 @@
   {
    "activo": "FF Cites I",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 6.96
+   "pct_pn": 6.98
   },
   {
    "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.13
+   "pct_pn": 0.14
   },
   {
    "activo": "FCI BM Smart Money Market - Clase B",

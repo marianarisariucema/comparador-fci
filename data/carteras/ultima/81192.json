@@ -1,6 +1,6 @@
 {
  "fondo": "SBS Patrimonio II",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Global",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 11863657437.33
+  "Peso Argentina": 11504576465.31
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.07
+   "pct_pn": 0.67
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.55
+   "pct_pn": 97.14
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.57
+   "pct_pn": 2.31
   },
   {
    "tipo": "Otros Activos",
@@ -36,87 +36,82 @@
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.56
+   "pct_pn": 26.91
   },
   {
-   "activo": "Lelink D30O6",
+   "activo": "Letra Tesoro Nac D15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.26
+   "pct_pn": 19.39
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.58
+   "pct_pn": 12.03
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.7
+   "pct_pn": 8.02
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.06
+   "pct_pn": 7.35
   },
   {
    "activo": "ON Otamerica S7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.09
+   "pct_pn": 4.28
   },
   {
    "activo": "ON Tecpetrol C10",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.28
+   "pct_pn": 3.31
   },
   {
    "activo": "ON Central Puerto Clase F",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.74
+   "pct_pn": 2.88
   },
   {
    "activo": "ON Vaca Muerta C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.73
+   "pct_pn": 2.86
   },
   {
    "activo": "ON Vista Gas y Oil Arg C24",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.7
+   "pct_pn": 2.74
   },
   {
    "activo": "ON Oldelval Clase 7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.92
-  },
-  {
-   "activo": "ON Profertil C2",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.78
+   "pct_pn": 2.0
   },
   {
    "activo": "ON Pyme Gar Rafaela Alimentos S1 C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.2
+   "pct_pn": 1.25
   },
   {
    "activo": "ON YPF Clase 32",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.16
+   "pct_pn": 1.22
   },
   {
    "activo": "ON Telecom 9.5% 2031",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.97
+   "pct_pn": 1.0
   },
   {
    "activo": "ON Pan American C36",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.65
+   "pct_pn": 0.68
   },
   {
    "activo": "ON Pecom C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.64
+   "pct_pn": 0.67
   },
   {
    "activo": "ON Pecom C3",
@@ -129,14 +124,14 @@
    "pct_pn": 0.05
   },
   {
-   "activo": "FCI Adcap Ahorro Pesos - Clase I",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.39
-  },
-  {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 1.93
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.38
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

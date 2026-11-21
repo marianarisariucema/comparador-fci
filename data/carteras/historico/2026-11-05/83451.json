@@ -1,0 +1,115 @@
+{
+ "fondo": "Novus Valor",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Novus Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 6115967645.05
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.08
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.6
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.42
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.96
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.2
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.51
+  },
+  {
+   "activo": "Bono Prov de Buenos Aires TZV28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.54
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.14
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.6
+  },
+  {
+   "activo": "Letra Prov Bs As PBA27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.44
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.87
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.72
+  },
+  {
+   "activo": "Letra Prov Bs As 180227",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.5
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.43
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.65
+  },
+  {
+   "activo": "Pagare #UMV310570069",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.42
+  },
+  {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.87
+  },
+  {
+   "activo": "FF Confibono S83 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.09
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "83451",
+ "nombre_cnv": "NOVUS VALOR",
+ "clave": "novus valor"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "SBS Patrimonio X",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 5199094256.47
+  "Peso Argentina": 7581431853.58
  },
  "por_tipo": [
   {
@@ -17,15 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 79.64
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 23.02
+   "pct_pn": 97.8
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.68
+   "pct_pn": 2.78
   },
   {
    "tipo": "Otros Activos",
@@ -38,39 +34,74 @@
  ],
  "activos": [
   {
-   "activo": "Lecap S29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.9
-  },
-  {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.74
+   "pct_pn": 20.55
+  },
+  {
+   "activo": "Lecap S29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.02
+  },
+  {
+   "activo": "Lecap S26F7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.05
   },
   {
    "activo": "Bono Muni Cordoba S2 13022027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.76
+   "pct_pn": 8.67
+  },
+  {
+   "activo": "Cheque E *MAV061101771",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.05
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.02
+   "pct_pn": 7.49
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.33
+  },
+  {
+   "activo": "Pagare $MAV181260032",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.38
   },
   {
    "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.22
+   "pct_pn": 4.7
   },
   {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 23.02
+   "activo": "Cheque E *MAV071101743",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.49
+  },
+  {
+   "activo": "Cheque E *MAV181101769",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.07
+  },
+  {
+   "activo": "Cheque E *MAV281101766",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.01
+  },
+  {
+   "activo": "FCI Allaria Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.69
   },
   {
    "activo": "FCI Adcap Ahorro Pesos - Clase I",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.68
+   "pct_pn": 0.09
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Wise Capital Legacy",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Wise Capital Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 2185866170.38
+  "Peso Argentina": 2208119162.95
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 50.55
+   "pct_pn": 60.36
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 36.4
+   "pct_pn": 36.81
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 11.85
+   "pct_pn": 1.38
   },
   {
    "tipo": "Otros Activos",
@@ -33,34 +33,34 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.89
+   "pct_pn": 1.14
   }
  ],
  "activos": [
   {
-   "activo": "Bono Boncer 2027 TZXM7",
+   "activo": "Bono Boncer TZXD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 39.75
+   "pct_pn": 20.67
   },
   {
-   "activo": "Bono Boncer TX26",
+   "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.8
+   "pct_pn": 20.4
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.29
   },
   {
    "activo": "BC Wise Capital Total Return II S528 Notes 2044",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 36.4
+   "pct_pn": 36.81
   },
   {
-   "activo": "FCI BM Smart Money Market - Clase B",
+   "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 6.13
-  },
-  {
-   "activo": "FCI Allaria Ahorro - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 5.72
+   "pct_pn": 1.38
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Cocos Ahorro Dólares",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Cocos Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 336507592.19
+  "Dolar Estadounidense": 335897509.93
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 4.5
+   "pct_pn": 0.35
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 43.71
+   "pct_pn": 54.86
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 23.21
+   "pct_pn": 34.56
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 25.69
+   "pct_pn": 4.61
   },
   {
    "tipo": "Otros Activos",
@@ -33,24 +33,29 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 2.89
+   "pct_pn": 5.62
   }
  ],
  "activos": [
   {
    "activo": "ON Banco de Galicia 33 BYZ1O",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 13.9
+   "pct_pn": 13.87
   },
   {
-   "activo": "ON Loma Negra C5",
+   "activo": "ON Pampa Energia C29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 6.42
+   "pct_pn": 12.95
+  },
+  {
+   "activo": "ON Banco de Galicia 32 BYY2O",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 5.0
   },
   {
    "activo": "ON Credicuotas Consumo S24",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 4.56
+   "pct_pn": 4.63
   },
   {
    "activo": "ON Credicuotas Consumo S21",
@@ -60,17 +65,12 @@
   {
    "activo": "ON Credicuotas Consumo S23",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.99
+   "pct_pn": 3.01
   },
   {
    "activo": "US Treasury Bill 310128",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.95
-  },
-  {
-   "activo": "ON Banco de Galicia 32 BYY2O",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 2.11
+   "pct_pn": 2.97
   },
   {
    "activo": "ON BBVA Frances Cl 50",
@@ -80,12 +80,17 @@
   {
    "activo": "US Treasury Note 151135",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.39
+   "pct_pn": 1.42
+  },
+  {
+   "activo": "ON Banco Hipotecario C16",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 1.19
   },
   {
    "activo": "ON Bco Patagonia Cl 5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 1.08
+   "pct_pn": 1.05
   },
   {
    "activo": "ON Banco Hipotecario C15",
@@ -95,7 +100,12 @@
   {
    "activo": "ON Tecpetrol C11",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.61
+   "pct_pn": 0.6
+  },
+  {
+   "activo": "ON BBVA Frances Cl 49",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.49
   },
   {
    "activo": "ON Irsa Clase 25",
@@ -118,7 +128,7 @@
    "pct_pn": 0.3
   },
   {
-   "activo": "ON Banco Comafi C26",
+   "activo": "ON ICBC Clase 9 280827",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.3
   },
@@ -133,11 +143,6 @@
    "pct_pn": 0.08
   },
   {
-   "activo": "ON Aeropuertos 2000 C11",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 0.03
-  },
-  {
    "activo": "Pagare #UPO301260002",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
    "pct_pn": 0.03
@@ -148,19 +153,29 @@
    "pct_pn": 0.03
   },
   {
+   "activo": "ON Aeropuertos 2000 C11",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 0.03
+  },
+  {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 11.68
+   "pct_pn": 15.78
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 7.45
   },
   {
    "activo": "Pzo Fi U$S Nvo Bco Indus",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 7.06
+   "pct_pn": 6.85
   },
   {
    "activo": "Pzo Fi U$S Bco Supervielle",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
-   "pct_pn": 2.98
+   "pct_pn": 2.99
   },
   {
    "activo": "Pzo Fi U$S Bco BBVA",
@@ -170,12 +185,7 @@
   {
    "activo": "FCI Allaria Dólar Ahorro - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 17.2
-  },
-  {
-   "activo": "FCI Schroder Liquidez Dolares - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.76
+   "pct_pn": 2.05
   },
   {
    "activo": "FCI 1822 Raices Ahorro Dólares - Clase A",
@@ -183,14 +193,9 @@
    "pct_pn": 1.64
   },
   {
-   "activo": "FCI Adcap Ahorro Dólares - Clase E",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.9
-  },
-  {
    "activo": "FCI Consultatio Liquidez Dólar - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.59
+   "pct_pn": 0.6
   },
   {
    "activo": "FCI Toronto Trust Money Market Dólar - Clase B",
@@ -198,9 +203,14 @@
    "pct_pn": 0.3
   },
   {
-   "activo": "FCI BAVSA Ahorro Dólar - Clase B",
+   "activo": "FCI Schroder Liquidez Dolares - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI Adcap Ahorro Dólares - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

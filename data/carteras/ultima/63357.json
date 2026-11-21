@@ -1,6 +1,6 @@
 {
  "fondo": "1822 Raices Abierto Pymes",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Provinfondos S.A.S.G.F.C.I.",
  "depositaria": "Banco Provincia de Buenos Aires",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 40946025579.56
+  "Peso Argentina": 41527313723.16
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.41
+   "pct_pn": 0.46
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 86.3
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.59
+   "pct_pn": 87.27
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 11.1
+   "pct_pn": 11.18
   },
   {
    "tipo": "Otros Activos",
@@ -33,59 +29,59 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.6
+   "pct_pn": 1.09
   }
  ],
  "activos": [
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.72
+   "pct_pn": 3.69
   },
   {
    "activo": "ON Pyme SOS S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.6
-  },
-  {
-   "activo": "Lecap S30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.48
+   "pct_pn": 3.39
   },
   {
    "activo": "ON Pyme Gar Venturino S2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.44
+   "pct_pn": 3.38
   },
   {
    "activo": "ON BI Georgalos S2 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.31
+   "pct_pn": 3.29
   },
   {
    "activo": "ON PyMe Gar Cheek S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.68
+   "pct_pn": 2.52
   },
   {
    "activo": "ON Lodiser S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.53
+   "pct_pn": 2.52
   },
   {
    "activo": "ON Pyme DeRentas S2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.49
+   "pct_pn": 2.48
   },
   {
    "activo": "ON Pyme Calico S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.49
+   "pct_pn": 2.48
+  },
+  {
+   "activo": "ON AFS Group S2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.41
   },
   {
    "activo": "ON Del Fabro Hnos S1 DFS1L",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.3
+   "pct_pn": 2.29
   },
   {
    "activo": "ON Agronorte Serie 1",
@@ -95,22 +91,22 @@
   {
    "activo": "ON Peduzzi S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.26
+   "pct_pn": 2.25
   },
   {
    "activo": "ON C&C Medicals S2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.2
+   "pct_pn": 2.19
   },
   {
    "activo": "ON BI Georgalos S1 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.05
+   "pct_pn": 2.04
   },
   {
    "activo": "ON Pyme Datastar S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.99
+   "pct_pn": 1.98
   },
   {
    "activo": "ON PyMe Gar Agropecuaria Sur S1",
@@ -120,7 +116,12 @@
   {
    "activo": "ON Pyme Tostex S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.76
+   "pct_pn": 1.75
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.74
   },
   {
    "activo": "ON Pyme Gar Bajo Imp Apache S1 C1",
@@ -128,39 +129,44 @@
    "pct_pn": 1.73
   },
   {
-   "activo": "ON Diransa C2",
+   "activo": "ON Pyme Gar Rafaela Alimentos S1 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.53
+  },
+  {
+   "activo": "ON Diransa C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.52
   },
   {
    "activo": "ON Pyme Agroempresa Colon S1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.53
-  },
-  {
-   "activo": "ON Pyme Gar Rafaela Alimentos S1 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.52
   },
   {
    "activo": "ON Ratto Hnos S1 C1 110228",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.34
-  },
-  {
-   "activo": "ON Liliana S3",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.33
+   "pct_pn": 1.25
   },
   {
    "activo": "ON Pedrolga S2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.26
+   "pct_pn": 1.25
   },
   {
    "activo": "ON PyMe Gar AutoFerro S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.24
+  },
+  {
+   "activo": "ON PyMe Colgas C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.21
+  },
+  {
+   "activo": "ON Pyme Transportes Cruz del Sur S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.21
   },
   {
    "activo": "ON Pyme DeRentas S1",
@@ -175,7 +181,7 @@
   {
    "activo": "ON Remonda S1 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.04
+   "pct_pn": 1.03
   },
   {
    "activo": "ON Grz Georgalos S2 C2",
@@ -188,24 +194,19 @@
    "pct_pn": 0.99
   },
   {
-   "activo": "ON Pyme Dietrich S1",
+   "activo": "ON For Drink S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.98
+   "pct_pn": 0.97
   },
   {
    "activo": "ON Bramix 080528",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.9
+   "pct_pn": 0.84
   },
   {
-   "activo": "ON Pyme Anesthesia C1",
+   "activo": "ON Liliana S3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.81
-  },
-  {
-   "activo": "Lecap S13N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.79
+   "pct_pn": 0.83
   },
   {
    "activo": "ON Pyme Spazios Inmuebles S1 C2",
@@ -218,9 +219,9 @@
    "pct_pn": 0.78
   },
   {
-   "activo": "ON Pyme Gar.Jauregui Serie 1",
+   "activo": "ON Arbitra C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.78
+   "pct_pn": 0.77
   },
   {
    "activo": "ON Diesel Lange S1",
@@ -228,17 +229,7 @@
    "pct_pn": 0.77
   },
   {
-   "activo": "ON Yacopini Sud S1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.77
-  },
-  {
-   "activo": "ON Arbitra C1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.77
-  },
-  {
-   "activo": "ON Pyme Indave S1",
+   "activo": "ON Pyme Anesthesia C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.76
   },
@@ -248,9 +239,9 @@
    "pct_pn": 0.76
   },
   {
-   "activo": "ON Interconnect S1",
+   "activo": "ON Pyme Indave S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.75
+   "pct_pn": 0.76
   },
   {
    "activo": "ON Ruta 3 Automotores S1",
@@ -263,7 +254,12 @@
    "pct_pn": 0.74
   },
   {
-   "activo": "ON Pyme Prigioni Agro S2 C1",
+   "activo": "ON Pyme Gar.Jauregui Serie 1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.74
+  },
+  {
+   "activo": "ON Interconnect S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.74
   },
@@ -273,14 +269,24 @@
    "pct_pn": 0.73
   },
   {
+   "activo": "ON Yacopini Sud S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.73
+  },
+  {
+   "activo": "ON Pyme Prigioni Agro S2 C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.73
+  },
+  {
    "activo": "ON Materia Hermanos S1 221227",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.64
+   "pct_pn": 0.63
   },
   {
    "activo": "ON Latamly S2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.63
+   "pct_pn": 0.62
   },
   {
    "activo": "ON PyME Sion Serie 13 UVA",
@@ -290,7 +296,7 @@
   {
    "activo": "ON Pyme Gar ENTRE S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.61
+   "pct_pn": 0.6
   },
   {
    "activo": "ON P. Aconcagua Energia C19",
@@ -298,12 +304,7 @@
    "pct_pn": 0.56
   },
   {
-   "activo": "ON Hitcowork C1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.56
-  },
-  {
-   "activo": "ON Metallo S1 C2",
+   "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.53
   },
@@ -315,7 +316,12 @@
   {
    "activo": "ON Pyme Trefelt S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.49
+   "pct_pn": 0.48
+  },
+  {
+   "activo": "ON Pyme Sola y Brusa 051128",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.48
   },
   {
    "activo": "ON ALZ Nutrientes S1 BI",
@@ -355,10 +361,20 @@
   {
    "activo": "ON P. Aconcagua Energia C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.27
+   "pct_pn": 0.28
+  },
+  {
+   "activo": "ON Hitcowork C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.28
   },
   {
    "activo": "ON P. Aconcagua Energia C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.27
+  },
+  {
+   "activo": "ON Pyme Gar Latitud 45 S2 C3",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.27
   },
@@ -368,9 +384,9 @@
    "pct_pn": 0.26
   },
   {
-   "activo": "ON Pyme Gar Latitud 45 S2 C3",
+   "activo": "ON Metallo S1 C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.26
+   "pct_pn": 0.25
   },
   {
    "activo": "ON Pyme Garantizada Peduzzi S1 C1",
@@ -396,11 +412,6 @@
    "activo": "ON PyMe Zuamar S2",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.16
-  },
-  {
-   "activo": "ON PyME Sion Serie 12 UVA",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
   },
   {
    "activo": "ON J.Olivero 290927",
@@ -438,11 +449,6 @@
    "pct_pn": 0.11
   },
   {
-   "activo": "ON Ricardo Almar C2",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
-  },
-  {
    "activo": "ON 3D Latinoamerica 130827",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.1
@@ -458,6 +464,11 @@
    "pct_pn": 0.08
   },
   {
+   "activo": "ON Ricardo Almar C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
+  },
+  {
    "activo": "Cheque E *POT301100205",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
@@ -469,11 +480,6 @@
   },
   {
    "activo": "Cheque E *FDE091100015",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *FDE021100020",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
@@ -494,11 +500,6 @@
   },
   {
    "activo": "Cheque E *AVU051100027",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *AVU291000394",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
@@ -563,29 +564,9 @@
    "pct_pn": 0.02
   },
   {
-   "activo": "Cheque E *MOV231000073",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.02
-  },
-  {
-   "activo": "Cheque E *MOV301000090",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.02
-  },
-  {
-   "activo": "Cheque E *MOV261000066",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
    "activo": "Cheque E *NOV141100062",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
-  },
-  {
-   "activo": "Caucion Colocadora $ BYMA",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.59
   },
   {
    "activo": "FF Comafi Leasing 19 Cl A",
@@ -595,7 +576,7 @@
   {
    "activo": "FF Venturino S1 A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.66
+   "pct_pn": 1.64
   },
   {
    "activo": "FF Gocreditos Clase A",
@@ -615,7 +596,7 @@
   {
    "activo": "FF Sion Conecta Infraestructura Privada S1",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.84
+   "pct_pn": 0.82
   },
   {
    "activo": "FF Comafi Leasing 17 Cl A",
@@ -628,9 +609,9 @@
    "pct_pn": 0.55
   },
   {
-   "activo": "FF Secubono S246 Clase A",
+   "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.32
+   "pct_pn": 0.45
   },
   {
    "activo": "FF Metalcred 15A",
@@ -643,9 +624,9 @@
    "pct_pn": 0.12
   },
   {
-   "activo": "FCI Fima Premium Clase B",
+   "activo": "FF Secubono S246 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.1
+   "pct_pn": 0.09
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

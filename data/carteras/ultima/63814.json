@@ -1,6 +1,6 @@
 {
  "fondo": "FBA Renta Mixta",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "BBVA Asset Management Argentina S.A.U.S.G.F.C.I.",
  "depositaria": "BBVA Argentina S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,32 +8,32 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 19140511030.83
+  "Peso Argentina": 18442042562.58
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.0
+   "pct_pn": 0.32
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 76.24
+   "pct_pn": 81.61
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.27
+   "pct_pn": 10.3
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 16.72
+   "pct_pn": 14.04
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Pasivos",
@@ -44,37 +44,37 @@
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.66
+   "pct_pn": 23.74
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.31
+   "pct_pn": 17.1
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.78
+   "pct_pn": 12.3
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.65
+   "pct_pn": 11.06
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.98
+   "pct_pn": 8.36
   },
   {
-   "activo": "Bono Boncer TZXO6",
+   "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.71
+   "pct_pn": 5.75
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.05
+   "pct_pn": 3.19
   },
   {
    "activo": "Bonos Rep Argentina GD38",
@@ -104,47 +104,52 @@
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.27
+   "pct_pn": 10.3
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.81
+   "pct_pn": 3.87
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.48
+   "pct_pn": 3.71
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.72
+   "pct_pn": 2.3
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.75
+   "pct_pn": 1.5
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.19
+   "pct_pn": 1.0
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.89
+   "pct_pn": 0.83
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.58
+   "pct_pn": 0.54
   },
   {
    "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.29
+  },
+  {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

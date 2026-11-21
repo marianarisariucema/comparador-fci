@@ -1,0 +1,81 @@
+{
+ "fondo": "Stonex Infraestructura FCI Abierto",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "StoneX Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 1322080650.33
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.69
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 82.92
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 18.91
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Vista Gas y Oil Arg C17",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.49
+  },
+  {
+   "activo": "ON Capex C7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.61
+  },
+  {
+   "activo": "ON Oldelval Clase 5",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.14
+  },
+  {
+   "activo": "ON Telecom C12 TLCDO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.43
+  },
+  {
+   "activo": "ON Pan American C33",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.68
+  },
+  {
+   "activo": "ON Telecom C18 TLCJO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.39
+  },
+  {
+   "activo": "ON PyME Sion Serie 13 UVA",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 18.91
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63601",
+ "nombre_cnv": "STONEX FONDO COMÚN DE INVERSIÓN ABIERTO PARA EL FINANCIAMIENTO DE LA INFRAESTRUCTURA Y LA ECONOMÍA REAL",
+ "clave": "stonex"
+}

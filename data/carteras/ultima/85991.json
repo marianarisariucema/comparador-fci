@@ -1,6 +1,6 @@
 {
  "fondo": "Champaquí Renta Futura",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Bancor Fondos S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Cordoba S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 46677531115.57
+  "Peso Argentina": 47043001257.23
  },
  "por_tipo": [
   {
@@ -17,11 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.77
+   "pct_pn": 91.74
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.25
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.31
+   "pct_pn": 4.0
   },
   {
    "tipo": "Otros Activos",
@@ -36,22 +40,22 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.02
+   "pct_pn": 23.01
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.52
+   "pct_pn": 14.5
   },
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.28
+   "pct_pn": 10.35
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.05
+   "pct_pn": 8.04
   },
   {
    "activo": "Boncer TZXY7",
@@ -61,27 +65,17 @@
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.99
+   "pct_pn": 7.02
   },
   {
-   "activo": "Bono Dual TXMD9",
+   "activo": "Lecap S26F7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.66
-  },
-  {
-   "activo": "Lecer X29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.71
-  },
-  {
-   "activo": "Bono Dual TXMJ0",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.46
+   "pct_pn": 4.28
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.36
+   "pct_pn": 3.34
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
@@ -91,37 +85,42 @@
   {
    "activo": "ON Arcor C4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.24
+   "pct_pn": 2.25
   },
   {
    "activo": "ON BBVA Frances Cl 41",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.23
+   "pct_pn": 2.24
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZXO7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.18
   },
   {
    "activo": "ON Arcor C6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.08
+   "pct_pn": 2.09
   },
   {
-   "activo": "Bono Boncer TZXD6",
+   "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.68
+   "pct_pn": 1.87
   },
   {
-   "activo": "Bono Boncer TXMJ9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.37
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.25
   },
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.56
+   "activo": "FCI ST Zero - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 3.99
   },
   {
    "activo": "FCI Argenfunds Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.31
+   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

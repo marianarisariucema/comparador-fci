@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Pyme Selection",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 58148135215.27
+  "Peso Argentina": 58456002000.96
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 100.17
+   "pct_pn": 100.07
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Otros Activos",
@@ -41,7 +41,7 @@
   {
    "activo": "Cheque E *MAV030301169",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.44
+   "pct_pn": 5.45
   },
   {
    "activo": "Cheque #MAV150670006",
@@ -146,7 +146,7 @@
   {
    "activo": "Cheque #MAV150670007",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.01
+   "pct_pn": 2.0
   },
   {
    "activo": "Cheque #MAV100870002",
@@ -156,7 +156,7 @@
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.94
+   "pct_pn": 1.72
   },
   {
    "activo": "Cheque #MAV180570003",
@@ -179,17 +179,17 @@
    "pct_pn": 1.11
   },
   {
-   "activo": "Bono Dual TXMJ8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.9
-  },
-  {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.89
   },
   {
    "activo": "Cheque #MAV060470005",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.89
+  },
+  {
+   "activo": "Bono Dual TXMJ8",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.89
   },
@@ -201,7 +201,7 @@
   {
    "activo": "ON P. Aconcagua Energia C19",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.59
+   "pct_pn": 0.61
   },
   {
    "activo": "Cheque #MAV140970004",
@@ -219,19 +219,14 @@
    "pct_pn": 0.45
   },
   {
-   "activo": "Cheque E *MAV221201199",
+   "activo": "ON P. Aconcagua Energia C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.35
   },
   {
-   "activo": "ON P. Aconcagua Energia C21",
+   "activo": "Cheque E *MAV221201199",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.26
-  },
-  {
-   "activo": "FCI SBS Ahorro Pesos Cl B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.35
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

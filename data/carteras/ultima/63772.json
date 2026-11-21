@@ -1,6 +1,6 @@
 {
  "fondo": "Compass Renta Fija IV",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 27181975552.94
+  "Peso Argentina": 27253249590.58
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.03
+   "pct_pn": 0.05
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.66
+   "pct_pn": 96.09
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.23
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.47
+   "pct_pn": 0.55
   },
   {
    "tipo": "Otros Activos",
@@ -29,134 +33,134 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.08
   }
  ],
  "activos": [
   {
    "activo": "Boncer Mendoza C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.67
+   "pct_pn": 11.8
   },
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.27
+   "pct_pn": 11.16
   },
   {
    "activo": "Bono Prov Santa Fe 8.1% 111234",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.67
+   "pct_pn": 7.47
   },
   {
    "activo": "Bono Prov Cordoba 030235",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.56
+   "pct_pn": 7.4
   },
   {
    "activo": "Bono Prov San Juan SJO35",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.47
-  },
-  {
-   "activo": "Bono Prov Cordoba Clase 6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.55
-  },
-  {
-   "activo": "Bono Prov Cordoba 2027 COY27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.79
-  },
-  {
-   "activo": "Bono Boncer TZXO6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.67
-  },
-  {
-   "activo": "Letra Prov Bs As PBA28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.5
-  },
-  {
-   "activo": "Bono Prov Cordoba Clase 4",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.32
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TML27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.89
-  },
-  {
-   "activo": "Bono Boncer TZXD7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.68
-  },
-  {
-   "activo": "Bono Prov Cordoba Clase 5",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.65
-  },
-  {
-   "activo": "Bono Prov de Buenos Aires PBM27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.65
-  },
-  {
-   "activo": "Letra Tesoro Nac T30A7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.55
-  },
-  {
-   "activo": "Letra Tamar TEM TMF27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.33
-  },
-  {
-   "activo": "Bono Boncer TZXD6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.31
+   "pct_pn": 7.28
   },
   {
    "activo": "Bono del Tesoro Nacional TMG27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.22
+   "pct_pn": 5.84
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.65
+  },
+  {
+   "activo": "Bono Prov Cordoba 2027 COY27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.87
+  },
+  {
+   "activo": "Letra Prov Bs As PBA28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.4
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.38
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.91
+  },
+  {
+   "activo": "Bono Prov de Buenos Aires PBM27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.7
+  },
+  {
+   "activo": "Bono Prov Cordoba Clase 5",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.67
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.66
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.56
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.35
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.32
   },
   {
    "activo": "Letra Prov Rio Negro S1 240927",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.9
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZXO7",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.88
   },
   {
    "activo": "Bono Boncer MDZ C II",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.53
+   "pct_pn": 1.55
   },
   {
    "activo": "Letra Prov Chubut S119 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.2
+   "pct_pn": 1.21
   },
   {
    "activo": "Letra Muni Cordoba S53",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.14
+   "pct_pn": 1.15
   },
   {
    "activo": "Letra Prov Chubut S119 C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.13
+   "pct_pn": 1.14
   },
   {
    "activo": "Bono Muni Cordoba S1 26032027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.66
+   "pct_pn": 0.67
   },
   {
    "activo": "Bono Prov Santa Fe 2027 SF27D",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.15
   },
   {
    "activo": "Bono Prov Cordoba 2029 CO27D",
@@ -164,14 +168,14 @@
    "pct_pn": 0.04
   },
   {
-   "activo": "ON Municipalidad de Cordoba C2",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.23
   },
   {
    "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.05
+   "pct_pn": 0.13
   },
   {
    "activo": "FCI Zofingen Pesos Ya - Clase A",

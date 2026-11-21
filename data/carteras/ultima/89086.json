@@ -1,6 +1,6 @@
 {
  "fondo": "Conosur Financiamiento III",
- "fecha_cartera": null,
+ "fecha_cartera": "2026-11-05",
  "gerente": "Cono Sur S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,12 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": null
+  "Peso Argentina": 50039340.42
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.08
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 99.92
   },
   {
    "tipo": "Otros Activos",
@@ -24,7 +28,13 @@
    "pct_pn": null
   }
  ],
- "activos": [],
+ "activos": [
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 99.92
+  }
+ ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
  "id_cnv": "89086",
  "nombre_cnv": "FCI CONOSUR FINANCIAMIENTO III",

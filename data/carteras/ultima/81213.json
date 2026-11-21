@@ -1,6 +1,6 @@
 {
  "fondo": "Valiant Ahorro",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Valiant Asset Management S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 7410383112.78
+  "Peso Argentina": 9176691934.15
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 2.7
+   "pct_pn": 2.18
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 95.35
+   "pct_pn": 96.19
   },
   {
    "tipo": "Otros Activos",
@@ -25,64 +25,64 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 1.95
+   "pct_pn": 1.63
   }
  ],
  "activos": [
   {
-   "activo": "Pase Colocador ARS BYMA",
+   "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 13.49
+   "pct_pn": 17.27
   },
   {
    "activo": "Pase Colocador ARS MAE",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 13.49
+   "pct_pn": 14.17
   },
   {
    "activo": "Pzo Fi $ Bco Provincia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 13.01
+   "pct_pn": 13.03
   },
   {
    "activo": "Pzo Fi $ Banco de Serv y Transacciones (BST)",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 12.29
-  },
-  {
-   "activo": "Pzo Fi $ Bco Bibank",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 11.38
-  },
-  {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 10.77
+   "pct_pn": 11.09
   },
   {
    "activo": "Pzo Fi $ Bco Patagonia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 7.77
+   "pct_pn": 8.7
   },
   {
-   "activo": "Pzo Fi $ Bco Nacion",
+   "activo": "Pzo Fi $ Bco Bibank",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.34
+   "pct_pn": 8.53
   },
   {
-   "activo": "Pzo Fi $ Bco CMF",
+   "activo": "Pase Colocador ARS BYMA",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.41
+   "pct_pn": 7.08
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.32
+   "pct_pn": 5.44
   },
   {
-   "activo": "Pzo Fi $ Banco VOII",
+   "activo": "Pzo Fi $ Bco CMF",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.06
+   "pct_pn": 5.18
+  },
+  {
+   "activo": "Pzo Fi $ Bco Cordoba",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.27
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.42
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

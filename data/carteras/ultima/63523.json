@@ -1,6 +1,6 @@
 {
  "fondo": "SBS Renta Pesos",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 66050482926.03
+  "Peso Argentina": 66742007330.54
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.25
+   "pct_pn": 0.26
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.59
+   "pct_pn": 97.5
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.47
+   "pct_pn": 2.85
   },
   {
    "tipo": "Otros Activos",
@@ -36,62 +36,62 @@
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.37
+   "pct_pn": 16.31
   },
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.55
+   "pct_pn": 11.5
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.04
+   "pct_pn": 10.99
   },
   {
    "activo": "Bono Boncer 2028 TZXM8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.99
+   "pct_pn": 7.93
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.02
+   "pct_pn": 6.94
   },
   {
    "activo": "Bono Prov Cordoba Clase 4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.93
+   "pct_pn": 5.92
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.31
+   "pct_pn": 5.3
   },
   {
    "activo": "Bono Dual TXMJ8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.73
+   "pct_pn": 4.65
   },
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.87
+   "pct_pn": 3.82
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.27
   },
   {
    "activo": "Boncer TZXY7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.89
+   "pct_pn": 2.88
   },
   {
    "activo": "Bono Disc ARS Ley AR DICP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.77
-  },
-  {
-   "activo": "Cheque E *MAV251001179",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.76
+   "pct_pn": 2.74
   },
   {
    "activo": "Boncer Mendoza C1",
@@ -101,30 +101,30 @@
   {
    "activo": "Bono Dual TXMJ0",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.45
+   "pct_pn": 2.43
   },
   {
    "activo": "Bono Prov Cordoba Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.1
-  },
-  {
-   "activo": "Letra Prov Bs As PBA28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.78
+   "pct_pn": 2.09
   },
   {
    "activo": "ON Rombo Cia Fciera S66",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.71
+   "pct_pn": 1.7
   },
   {
-   "activo": "ON FCA Comp. Finac CL 20 S1",
+   "activo": "Letra Prov Bs As PBA28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.01
+   "pct_pn": 1.7
   },
   {
    "activo": "ON Rombo Cia Fciera S65",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.0
+  },
+  {
+   "activo": "ON FCA Comp. Finac CL 20 S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.0
   },
@@ -154,14 +154,14 @@
    "pct_pn": 0.48
   },
   {
-   "activo": "FCI Adcap Ahorro Pesos - Clase I",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.62
-  },
-  {
    "activo": "FCI Cocos Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.85
+   "pct_pn": 2.84
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Pionero FF",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Macro Fondos S.G.F.C.I.S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 59357651290.6
+  "Peso Argentina": 59647863756.32
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.0
+   "pct_pn": 6.62
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 25.39
+   "pct_pn": 21.56
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 65.44
+   "pct_pn": 73.64
   },
   {
    "tipo": "Otros Activos",
@@ -33,39 +33,39 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 4.17
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "Pagare #MAV271060081",
+   "activo": "Pagare #MAV031260087",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.68
+   "pct_pn": 3.29
   },
   {
    "activo": "Pagare #MAV111160073",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.66
+   "pct_pn": 1.67
   },
   {
    "activo": "Pagare #MAV111160075",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.66
+   "pct_pn": 1.67
   },
   {
    "activo": "Caucion Colocadora $ BYMA",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 10.95
+   "pct_pn": 8.38
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 10.54
+   "pct_pn": 6.43
   },
   {
-   "activo": "Pzo Fi $ Bco Santander Ri",
+   "activo": "Pzo Fi $ Bco Patagonia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.71
+   "pct_pn": 4.54
   },
   {
    "activo": "Pzo Fi $ Bco Comafi",
@@ -78,79 +78,94 @@
    "pct_pn": 0.51
   },
   {
-   "activo": "FF Consubond S203 Clase A",
+   "activo": "FF Cuotas Cencosud S62 VDFA",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 6.16
   },
   {
    "activo": "FF Cuotas Cencosud S61 VDFA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 5.84
+   "pct_pn": 5.87
   },
   {
    "activo": "FF Mercado Credito 54 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.99
+   "pct_pn": 5.06
+  },
+  {
+   "activo": "FF Consubond S203 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.89
   },
   {
    "activo": "FF Mercado Credito 47 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.72
+   "pct_pn": 3.74
   },
   {
    "activo": "FF Payway Cobro Acelerado S8 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.48
+   "pct_pn": 3.51
   },
   {
    "activo": "FF Cuotas Cencosud S60 VDFA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.08
+   "pct_pn": 3.1
   },
   {
    "activo": "FF Consubond S202 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.03
+   "pct_pn": 3.05
   },
   {
    "activo": "FF Mercado Credito 48 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.87
+   "pct_pn": 2.89
   },
   {
    "activo": "FF Mercado Credito 46 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.77
+   "pct_pn": 2.78
   },
   {
    "activo": "FF Megabono 359 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.76
+   "pct_pn": 2.78
+  },
+  {
+   "activo": "FF Megabono 361 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.77
   },
   {
    "activo": "FF Megabono 357 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.26
+   "pct_pn": 2.28
   },
   {
    "activo": "FF Megabono 347 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.01
+   "pct_pn": 2.02
   },
   {
    "activo": "FF Megabono 355 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.94
+   "pct_pn": 1.95
   },
   {
    "activo": "FF Cuotas Cencosud S59 VDFA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.74
+   "pct_pn": 1.75
   },
   {
    "activo": "FF Mercado Credito 55 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.63
+   "pct_pn": 1.65
+  },
+  {
+   "activo": "FCI Fima Premium Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.52
   },
   {
    "activo": "FCI Delta $ - Clase B",
@@ -160,27 +175,27 @@
   {
    "activo": "FF Megabono 351 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.44
+   "pct_pn": 1.45
   },
   {
    "activo": "FF Megabono 353 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.44
+   "pct_pn": 1.45
   },
   {
    "activo": "FF Mercado Credito 50 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.35
-  },
-  {
-   "activo": "FCI Fima Premium Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.2
+   "pct_pn": 1.36
   },
   {
    "activo": "FF Consubond S200 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.96
+   "pct_pn": 0.97
+  },
+  {
+   "activo": "FF Cuotas Cencosud S58 VDFA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.88
   },
   {
    "activo": "FF Megabono 343 Clase A",
@@ -188,29 +203,24 @@
    "pct_pn": 0.88
   },
   {
-   "activo": "FF Cuotas Cencosud S58 VDFA",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.87
-  },
-  {
    "activo": "FF Megabono 341 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.85
+   "pct_pn": 0.86
   },
   {
    "activo": "FF Mercado Credito 49 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.84
+   "pct_pn": 0.85
   },
   {
    "activo": "FF Megabono 345 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.83
+   "pct_pn": 0.84
   },
   {
    "activo": "FF San Cristobal S2 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.82
+   "pct_pn": 0.83
   },
   {
    "activo": "FF Cuotas Cencosud S57 VDFA",
@@ -220,7 +230,7 @@
   {
    "activo": "FF Mercado Credito 44 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.57
+   "pct_pn": 0.58
   },
   {
    "activo": "FF Mercado Credito 45 CA",
@@ -235,7 +245,7 @@
   {
    "activo": "FF Consubond S201 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.43
+   "pct_pn": 0.44
   },
   {
    "activo": "FF San Cristobal S1 CA",
@@ -253,14 +263,9 @@
    "pct_pn": 0.25
   },
   {
-   "activo": "FF Megabono 322 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.19
-  },
-  {
    "activo": "FF Confibono S83 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 0.19
   },
   {
    "activo": "FF Megabono 331 Clase A",
@@ -268,9 +273,9 @@
    "pct_pn": 0.17
   },
   {
-   "activo": "FF Consubond S199 Clase A",
+   "activo": "FF Megabono 322 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.1
+   "pct_pn": 0.11
   },
   {
    "activo": "FF Confibono S82 Clase A",
@@ -278,17 +283,7 @@
    "pct_pn": 0.04
   },
   {
-   "activo": "FF Megabono 327 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.02
-  },
-  {
    "activo": "FF Megabono 329 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
-  },
-  {
-   "activo": "FF Megabono 320 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.01
   }

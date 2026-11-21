@@ -1,0 +1,86 @@
+{
+ "fondo": "Cocos Dólar Money Market",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Cocos Asset Management S.A.",
+ "depositaria": "Banco Industrial S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 51410594.78
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 6.26
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 15.86
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 77.89
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Banco Hipotecario C14",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 9.92
+  },
+  {
+   "activo": "ON Banco de Galicia 31 BYCXO",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 3.99
+  },
+  {
+   "activo": "ON Banco Comafi C26",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 1.95
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 24.32
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 14.6
+  },
+  {
+   "activo": "Pzo Fi $ Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 12.67
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 9.73
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Sol",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 8.76
+  },
+  {
+   "activo": "Pzo Fi U$S MBA Bco",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense MEP",
+   "pct_pn": 7.8
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88413",
+ "nombre_cnv": "COCOS DÓLAR MONEY MARKET FCI",
+ "clave": "cocos dolar money market"
+}

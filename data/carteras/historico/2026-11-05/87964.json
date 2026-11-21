@@ -1,0 +1,106 @@
+{
+ "fondo": "GMC Retorno Total IV",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "GMC Asset Management S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 4482042492.01
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 69.75
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.87
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 28.38
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Banco Prov Clase 6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.28
+  },
+  {
+   "activo": "ON Banco de Galicia 32 BYY1O",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.35
+  },
+  {
+   "activo": "ON BBVA Frances Cl 47",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.32
+  },
+  {
+   "activo": "Letra Prov Bs As PBA27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.95
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.72
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.64
+  },
+  {
+   "activo": "ON Arcor C3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.65
+  },
+  {
+   "activo": "ON Santander Rio S 31",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.51
+  },
+  {
+   "activo": "ON Pyme Urbano Express Argentina S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.42
+  },
+  {
+   "activo": "ON Grupo ST C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.38
+  },
+  {
+   "activo": "ON ICBC Clase 5 110327",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.34
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.19
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.87
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87964",
+ "nombre_cnv": "GMC RETORNO TOTAL IV",
+ "clave": "gmc retorno total iv"
+}

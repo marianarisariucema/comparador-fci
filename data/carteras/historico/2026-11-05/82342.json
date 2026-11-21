@@ -1,0 +1,76 @@
+{
+ "fondo": "Transatlantica Liquidez Pesos",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
+ "depositaria": "Banco Mariva S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 6276621538.5
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 16.14
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 44.91
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 22.35
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 16.6
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pagare #MAV121160064",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.84
+  },
+  {
+   "activo": "Cheque E *MAV011201791",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.55
+  },
+  {
+   "activo": "Pagare #MAV241160084",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.86
+  },
+  {
+   "activo": "Cheque E *MAV101102272",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.36
+  },
+  {
+   "activo": "Cheque E *MAV080101146",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.3
+  },
+  {
+   "activo": "Pzo Fi $ Bco Rebanking",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 14.39
+  },
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 7.97
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "82342",
+ "nombre_cnv": "TRANSATLANTICA LIQUIDEZ PESOS FCI (Ex MAF LIQUIDEZ FCI)",
+ "clave": "transatlantica liquidez pesos"
+}

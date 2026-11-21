@@ -1,6 +1,6 @@
 {
  "fondo": "CYC Liquidez",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "C y C Administradora de Fondos S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 16268855031.83
+  "Peso Argentina": 14430052715.06
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 50.19
+   "pct_pn": 38.87
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.59
+   "pct_pn": 7.45
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 40.66
+   "pct_pn": 51.61
   },
   {
    "tipo": "Otros Activos",
@@ -29,44 +29,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 1.56
+   "pct_pn": 2.07
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.59
-  },
-  {
-   "activo": "Pzo Fi $ Banco VOII",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 10.54
-  },
-  {
-   "activo": "Pzo Fi $ Bco Nacion",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 10.28
+   "pct_pn": 7.45
   },
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 9.28
+   "pct_pn": 21.48
+  },
+  {
+   "activo": "Pzo Fi $ Banco VOII",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 11.91
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 8.02
   },
   {
    "activo": "Pzo Fi $ Bco Bibank",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.2
-  },
-  {
-   "activo": "Pzo Fi $ Banco Masventas",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.49
+   "pct_pn": 7.02
   },
   {
    "activo": "Pzo Fi $ Banco de Serv y Transacciones (BST)",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.86
+   "pct_pn": 2.12
+  },
+  {
+   "activo": "Pzo Fi $ Banco Masventas",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 1.05
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

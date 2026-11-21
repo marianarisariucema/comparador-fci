@@ -1,6 +1,6 @@
 {
  "fondo": "Premier Performance Dólares",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Supervielle Asset Management S.A.",
  "depositaria": "Banco Supervielle S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 24896164.33
+  "Dolar Estadounidense": 22031300.94
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 11.88
+   "pct_pn": 4.37
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 83.96
+   "pct_pn": 92.38
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.5
+   "pct_pn": 5.08
   },
   {
    "tipo": "Otros Activos",
@@ -36,27 +36,32 @@
   {
    "activo": "Bonos Rep Argentina 2030 D",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 28.88
+   "pct_pn": 30.71
   },
   {
    "activo": "Bonos Rep Argentina GD35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 28.33
+   "pct_pn": 29.55
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 20.99
+   "pct_pn": 21.66
   },
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.76
+   "pct_pn": 6.41
+  },
+  {
+   "activo": "ON Banco Hipotecario C16",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.05
   },
   {
    "activo": "Lombard Liquidez Dolares - Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.5
+   "pct_pn": 5.08
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

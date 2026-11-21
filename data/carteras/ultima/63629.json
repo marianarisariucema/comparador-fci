@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Renta Balanceada 2",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 4754420726.56
+  "Peso Argentina": 4796695170.7
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 111.95
+   "pct_pn": 69.18
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.35
+   "pct_pn": 30.84
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
@@ -42,54 +42,39 @@
  ],
  "activos": [
   {
-   "activo": "Bono Boncer TZXO6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.56
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.29
-  },
-  {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.69
+   "pct_pn": 13.7
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.84
   },
   {
    "activo": "Bono Prov Cordoba 2027 COY27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.46
-  },
-  {
-   "activo": "Pagare #MAV041160082",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.43
+   "pct_pn": 12.47
   },
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.01
+   "pct_pn": 8.02
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.07
+   "pct_pn": 7.15
   },
   {
    "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.02
-  },
-  {
-   "activo": "Cheque E *MAV021101510",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.27
+   "pct_pn": 6.93
   },
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.68
+   "pct_pn": 4.59
   },
   {
    "activo": "Cheque E *MAV161101465",
@@ -97,9 +82,14 @@
    "pct_pn": 3.47
   },
   {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 25.61
+  },
+  {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.35
+   "pct_pn": 5.22
   },
   {
    "activo": "Bonos Rep Argentina 2030",

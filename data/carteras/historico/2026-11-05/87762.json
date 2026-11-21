@@ -1,0 +1,71 @@
+{
+ "fondo": "Consultatio Estrategia II",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 11582210.56
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 98.27
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 1.71
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ETF Ultrashort",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 30.06
+  },
+  {
+   "activo": "ETF IShares USD Short Dur ACC",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 28.7
+  },
+  {
+   "activo": "ETF IShares USD Float Bond ACC",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 27.19
+  },
+  {
+   "activo": "ETF IShares JPM USD EM Corp ACC",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 8.81
+  },
+  {
+   "activo": "ETF IShares USD Short HY Corp ACC",
+   "tipo": "Certificados de Participacion Estados Unidos",
+   "pct_pn": 3.51
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87762",
+ "nombre_cnv": "CONSULTATIO ESTRATEGIA II",
+ "clave": "consultatio estrategia ii"
+}

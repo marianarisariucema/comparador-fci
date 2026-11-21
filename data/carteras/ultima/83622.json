@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Unicred Cobertura",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 558196728.61
+  "Peso Argentina": 563813120.79
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.15
+   "pct_pn": 0.11
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 101.62
+   "pct_pn": 101.74
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.83
+   "pct_pn": 0.65
   },
   {
    "tipo": "Otros Activos",
@@ -36,17 +36,17 @@
   {
    "activo": "Pagare #UMV080770012",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 32.35
+   "pct_pn": 32.4
   },
   {
    "activo": "Pagare #UMV110170002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 31.9
+   "pct_pn": 31.93
   },
   {
    "activo": "Pagare #UMV110470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 31.9
+   "pct_pn": 31.93
   },
   {
    "activo": "Pagare #UMV100770007",
@@ -54,19 +54,14 @@
    "pct_pn": 5.48
   },
   {
-   "activo": "FCI SBS Ahorro Pesos Cl B",
+   "activo": "FCI ST Zero - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.56
+   "pct_pn": 0.42
   },
   {
    "activo": "FCI Adcap Ahorro Pesos - Clase C",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.12
-  },
-  {
-   "activo": "FCI ST Zero - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.06
   },
   {
    "activo": "FCI MEGAQM Pesos - Clase B",
@@ -77,6 +72,11 @@
    "activo": "FCI Cocos Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.03
+  },
+  {
+   "activo": "FCI SBS Ahorro Pesos Cl B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.02
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

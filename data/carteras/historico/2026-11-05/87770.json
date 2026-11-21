@@ -1,0 +1,71 @@
+{
+ "fondo": "Allaria Lendar Creditos",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Cerrado",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 4228560.54
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.35
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 95.09
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.55
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.01
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Pagare #UMV050720007",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 48.56
+  },
+  {
+   "activo": "ON Plaza Logistica C15",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 23.89
+  },
+  {
+   "activo": "ON GEMSA Clase 26",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 11.97
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C29",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.68
+  },
+  {
+   "activo": "FCI Adcap Ahorro Dólares - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.24
+  },
+  {
+   "activo": "FCI Gainvest Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.31
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87770",
+ "nombre_cnv": "ALLARIA LENDAR FONDO COMÚN DE INVERSIÓN CERRADO DE CRÉDITOS",
+ "clave": "allaria lendar"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Ahorro Pesos",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 21520631437.13
+  "Peso Argentina": 21451657045.81
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 103.19
+   "pct_pn": 100.83
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.65
+   "pct_pn": null
   },
   {
    "tipo": "Otros Activos",
@@ -36,37 +36,37 @@
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.36
+   "pct_pn": 24.94
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.92
+   "pct_pn": 22.18
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.1
+   "pct_pn": 20.81
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.1
-  },
-  {
-   "activo": "Bono Boncer TZXO6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.96
+   "pct_pn": 16.32
   },
   {
    "activo": "Bono Prov Cordoba 2027 COY27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.51
+   "pct_pn": 5.58
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.7
   },
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.91
+   "pct_pn": 3.96
   },
   {
    "activo": "Bono Disc ARS Ley AR DICP",
@@ -77,26 +77,6 @@
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.02
-  },
-  {
-   "activo": "FCI IAM Ahorro Pesos C B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.32
-  },
-  {
-   "activo": "FCI Schroder Liquidez - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.4
-  },
-  {
-   "activo": "FCI MEGAQM Pesos - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.47
-  },
-  {
-   "activo": "FCI GMC Money Market - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.46
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

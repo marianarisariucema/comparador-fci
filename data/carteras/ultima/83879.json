@@ -1,6 +1,6 @@
 {
  "fondo": "GSS Inmobiliario I FCIC",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Grupo SS S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Cerrado",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 5367690795.44
+  "Peso Argentina": 5445247236.82
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.03
+   "pct_pn": 0.44
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 94.2
+   "pct_pn": 93.83
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 5.76
+   "pct_pn": 5.73
   },
   {
    "tipo": "Otros Activos",
@@ -29,49 +29,49 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.01
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 53.57
+   "pct_pn": 53.26
   },
   {
-   "activo": "Lecer X30N6",
+   "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.89
+   "pct_pn": 12.87
   },
   {
    "activo": "ON Irsa Clase 25",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.38
+   "pct_pn": 9.5
   },
   {
    "activo": "ON Irsa USD TF 8.75%",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.25
+   "pct_pn": 6.22
   },
   {
    "activo": "ON Irsa 2035",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.19
+   "pct_pn": 6.0
   },
   {
    "activo": "ON Irsa Clase 18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.92
+   "pct_pn": 5.97
   },
   {
    "activo": "FCI Alpha Pesos - Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.92
+   "pct_pn": 2.9
   },
   {
    "activo": "FCI Alpha Dólar - Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.84
+   "pct_pn": 2.83
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

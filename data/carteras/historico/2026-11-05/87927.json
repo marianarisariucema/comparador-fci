@@ -1,0 +1,106 @@
+{
+ "fondo": "Max Retorno Total Pesos IV",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Max Capital Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 33752246691.69
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 99.62
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.4
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.99
+  },
+  {
+   "activo": "Lecap S26F7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.91
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.91
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.14
+  },
+  {
+   "activo": "Pagare #MAV241160038",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.76
+  },
+  {
+   "activo": "Pagare #MAV050170060",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.09
+  },
+  {
+   "activo": "Cheque E *MAV061101229",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.9
+  },
+  {
+   "activo": "Pagare #MAV241160095",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.84
+  },
+  {
+   "activo": "Pagare #MAV101260085",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.89
+  },
+  {
+   "activo": "Cheque E *MAV131101937",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.59
+  },
+  {
+   "activo": "Cheque E *MAV131101935",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.59
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.39
+  },
+  {
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87927",
+ "nombre_cnv": "MAX RETORNO TOTAL PESOS IV FCI",
+ "clave": "max retorno total pesos iv"
+}

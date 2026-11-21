@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Ahorro Plus",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 9462141718.04
+  "Peso Argentina": 7529018755.12
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 50.45
+   "pct_pn": 66.64
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 22.43
+   "pct_pn": 33.37
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.96
+   "pct_pn": null
   },
   {
    "tipo": "Otros Activos",
@@ -33,69 +33,49 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 22.16
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.65
+   "pct_pn": 43.54
   },
   {
-   "activo": "Bono Boncer TZXO6",
+   "activo": "Pagare #MAV261160111",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.39
+   "pct_pn": 13.09
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.37
-  },
-  {
-   "activo": "Cheque E *MAV021101514",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.52
+   "pct_pn": 6.82
   },
   {
    "activo": "Cheque E *MAV161101464",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.15
+   "pct_pn": 2.73
   },
   {
    "activo": "Cheque E *MAV161101461",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.37
-  },
-  {
-   "activo": "Pzo Fi $ Bco Santander Ri",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 10.68
-  },
-  {
-   "activo": "Pzo Fi $ Bco Galicia",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 5.38
-  },
-  {
-   "activo": "Pzo Fi $ Bco BBVA",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 5.36
+   "pct_pn": 0.47
   },
   {
    "activo": "Caucion Colocadora $ BYMA",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.01
+   "pct_pn": 19.95
   },
   {
-   "activo": "FCI IAM Ahorro Pesos C B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.95
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.74
   },
   {
-   "activo": "FCI Schroder Liquidez - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "activo": "Pzo Fi $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.69
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

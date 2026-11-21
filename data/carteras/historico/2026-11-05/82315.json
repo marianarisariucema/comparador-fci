@@ -1,0 +1,56 @@
+{
+ "fondo": "Stonex Global IV",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "StoneX Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Dolar Estadounidense",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 18209340.06
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 28.65
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 19.77
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.98
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 42.6
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 19.77
+  },
+  {
+   "activo": "ON MSU Energy C13",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.55
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.44
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "82315",
+ "nombre_cnv": "STONEX GLOBAL IV",
+ "clave": "stonex global iv"
+}

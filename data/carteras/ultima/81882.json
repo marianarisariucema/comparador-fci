@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Capital",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 1643046162.86
+  "Peso Argentina": 1657475615.94
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.29
+   "pct_pn": 0.3
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 100.02
+   "pct_pn": 99.83
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.2
+   "pct_pn": 0.26
   },
   {
    "tipo": "Otros Activos",
@@ -36,7 +36,7 @@
   {
    "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.18
+   "pct_pn": 27.95
   },
   {
    "activo": "Lecer X30N6",
@@ -46,25 +46,30 @@
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.45
+   "pct_pn": 20.48
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.79
+   "pct_pn": 15.82
   },
   {
-   "activo": "Lelink D30O6",
+   "activo": "Lecap S26F7",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 9.85
   },
   {
-   "activo": "FCI BAVSA Ahorro - Clase B",
+   "activo": "FCI ST Zero - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "FCI Toronto T Ahorro B",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.05
   },
   {
-   "activo": "FCI Toronto T Ahorro B",
+   "activo": "FCI BAVSA Ahorro - Clase B",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.05
   },
@@ -77,11 +82,6 @@
    "activo": "FCI Schroder Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.02
-  },
-  {
-   "activo": "FCI ST Zero - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
   },
   {
    "activo": "FCI Gainvest Pesos - Clase B",

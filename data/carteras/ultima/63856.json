@@ -1,6 +1,6 @@
 {
  "fondo": "Toronto Trust Liquidez Dólar",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Investis Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco Credito y Securitizacion S.A. (BACS)",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 9077410.47
+  "Dolar Estadounidense": 9188828.92
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 2.37
+   "pct_pn": 2.74
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 81.99
+   "pct_pn": 81.08
   },
   {
    "tipo": "Participaciones Accionarias Chile",
-   "pct_pn": 16.58
+   "pct_pn": 16.43
   },
   {
    "tipo": "Otros Activos",
@@ -36,52 +36,57 @@
   {
    "activo": "BC Bradesco 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 19.87
+   "pct_pn": 19.67
   },
   {
    "activo": "CL Rep Chile 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 16.86
-  },
-  {
-   "activo": "US Treasury Bill 031226",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 12.58
+   "pct_pn": 16.69
   },
   {
    "activo": "US Treasury Bill 241226",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 9.87
+   "pct_pn": 9.74
+  },
+  {
+   "activo": "US Treasury Bill 031226",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 8.14
   },
   {
    "activo": "BR Rep Brasil 28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 7.78
+   "pct_pn": 7.68
   },
   {
    "activo": "PAR Rep del Paraguay 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 5.41
+   "pct_pn": 5.36
+  },
+  {
+   "activo": "BC Bco Credito e Inv 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
+   "pct_pn": 4.3
   },
   {
    "activo": "Bono Corporativo 3.625% 010827",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 3.29
+   "pct_pn": 3.23
   },
   {
    "activo": "CL Rep Chile 28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 3.25
+   "pct_pn": 3.22
   },
   {
    "activo": "Chile 4.85%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense MEP",
-   "pct_pn": 3.07
+   "pct_pn": 3.05
   },
   {
    "activo": "Caja los Andes",
    "tipo": "Participaciones Accionarias Chile",
-   "pct_pn": 16.58
+   "pct_pn": 16.43
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

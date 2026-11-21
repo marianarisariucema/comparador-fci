@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Provincial",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 707046431.79
+  "Peso Argentina": 681264962.61
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.09
+   "pct_pn": 0.35
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 71.03
+   "pct_pn": 76.81
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 9.9
+   "pct_pn": 14.68
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 19.19
+   "pct_pn": 11.78
   },
   {
    "tipo": "Otros Activos",
@@ -40,82 +40,72 @@
   {
    "activo": "Bono Prov Cordoba 2027 COY27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.71
+   "pct_pn": 12.39
   },
   {
    "activo": "Letra Muni Cordoba S53",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.71
-  },
-  {
-   "activo": "Bono Muni Cordoba S2 13022027",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.2
+   "pct_pn": 12.31
   },
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.97
+   "pct_pn": 10.69
+  },
+  {
+   "activo": "Bono Muni Cordoba S2 13022027",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.75
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.51
   },
   {
    "activo": "Bono Prov Cordoba Clase 5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.55
-  },
-  {
-   "activo": "Boncer TZXY7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.57
+   "pct_pn": 6.87
   },
   {
    "activo": "Bono Prov Cordoba Clase 4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.51
+   "pct_pn": 5.84
   },
   {
    "activo": "Bono Boncer MDZ C II",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.42
+   "pct_pn": 4.66
   },
   {
    "activo": "Bono Muni Cordoba S1 26032027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.11
+   "pct_pn": 4.32
   },
   {
    "activo": "Bono Prov Cordoba Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.33
-  },
-  {
-   "activo": "Lecap S13N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.15
-  },
-  {
-   "activo": "Bono Boncer TZXD6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.8
+   "pct_pn": 2.47
   },
   {
    "activo": "Caucion Colocadora $ MAE",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 9.9
+   "pct_pn": 14.68
+  },
+  {
+   "activo": "FCI BAVSA Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 6.17
   },
   {
    "activo": "FCI MAF Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 19.02
+   "pct_pn": 4.85
   },
   {
-   "activo": "FCI Balanz Capital Money Market Clase C",
+   "activo": "FCI ST Zero - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.16
-  },
-  {
-   "activo": "FCI Argenfunds Liquidez - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.76
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

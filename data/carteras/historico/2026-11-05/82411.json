@@ -1,0 +1,106 @@
+{
+ "fondo": "Balanz Infraestructura",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Balanz S.G.F.C.I.S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 9216424925.88
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.08
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 98.53
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.76
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Prov Santa Fe 8.1% 111234",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.85
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.06
+  },
+  {
+   "activo": "ON Telecom C18 TLCJO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.25
+  },
+  {
+   "activo": "ON YPF C 20",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.17
+  },
+  {
+   "activo": "ON Pampa Energia C13",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.85
+  },
+  {
+   "activo": "ON Banco Nacion Argentina Clase 3",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.52
+  },
+  {
+   "activo": "ON Pan Amer. Energy C 13",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.72
+  },
+  {
+   "activo": "ON Capex C4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.15
+  },
+  {
+   "activo": "ON Plaza Logistica C13",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.35
+  },
+  {
+   "activo": "ON Pan Amer. Energy C 12",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.42
+  },
+  {
+   "activo": "ON Pan American C26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.95
+  },
+  {
+   "activo": "ON GEMSA 18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.76
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "82411",
+ "nombre_cnv": "BALANZ FONDO COMUN DE INVERSION ABIERTO PARA EL FINANCIAMIENTO DE LA INFRAESTRUCTURA Y LA ECONOMIA REAL",
+ "clave": "balanz"
+}

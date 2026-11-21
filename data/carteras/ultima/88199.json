@@ -1,6 +1,6 @@
 {
  "fondo": "Parakeet Gestion Activa",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Parakeet S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 269264222.28
+  "Peso Argentina": 271514194.19
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.19
+   "pct_pn": 0.18
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.96
+   "pct_pn": 75.0
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.86
+   "pct_pn": 24.82
   },
   {
    "tipo": "Otros Activos",
@@ -36,22 +36,17 @@
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 50.5
+   "pct_pn": 50.56
   },
   {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.39
-  },
-  {
-   "activo": "Letra Tesoro Nac S30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.06
+   "pct_pn": 24.44
   },
   {
    "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.86
+   "pct_pn": 24.82
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

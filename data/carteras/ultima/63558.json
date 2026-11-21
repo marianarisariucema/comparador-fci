@@ -1,6 +1,6 @@
 {
  "fondo": "Delta Ahorro Plus",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 64948248863.62
+  "Peso Argentina": 65600541905.54
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.03
+   "pct_pn": 0.04
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 99.39
+   "pct_pn": 87.14
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.19
+   "pct_pn": 1.4
   },
   {
    "tipo": "Otros Activos",
@@ -29,34 +29,29 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 11.42
   }
  ],
  "activos": [
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.38
+   "pct_pn": 21.53
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.6
-  },
-  {
-   "activo": "Bono Boncer TX26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.31
+   "pct_pn": 12.08
   },
   {
    "activo": "Boncer TZXY7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.79
+   "pct_pn": 10.11
   },
   {
-   "activo": "Bono del Tesoro Nacional TMG28",
+   "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.79
+   "pct_pn": 6.94
   },
   {
    "activo": "Bono Prov Cordoba Clase 4",
@@ -66,17 +61,22 @@
   {
    "activo": "Bono Prov Cordoba Clase 5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.22
+   "pct_pn": 5.08
   },
   {
    "activo": "Bono del Tesoro Nacional TMG27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.37
+   "pct_pn": 3.36
   },
   {
    "activo": "Bono Muni Cordoba S1 01102027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.16
+   "pct_pn": 3.1
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.87
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
@@ -84,14 +84,9 @@
    "pct_pn": 2.24
   },
   {
-   "activo": "Bono Dual TXMD9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.17
-  },
-  {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.11
+   "pct_pn": 2.1
   },
   {
    "activo": "Letra Tamar TEM TMF27",
@@ -99,14 +94,14 @@
    "pct_pn": 1.95
   },
   {
-   "activo": "ON Rombo Cia Fciera S60",
+   "activo": "Bono del Tesoro Nacional TZXO7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.67
+   "pct_pn": 1.57
   },
   {
    "activo": "Letra Tamar TEM TMF28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.53
+   "pct_pn": 1.45
   },
   {
    "activo": "Bono CER TZX27",
@@ -114,9 +109,9 @@
    "pct_pn": 1.28
   },
   {
-   "activo": "Lelink D30O6",
+   "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.18
+   "pct_pn": 1.21
   },
   {
    "activo": "Bono Prov Cordoba 2027 COY27",
@@ -126,12 +121,12 @@
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.98
+   "pct_pn": 0.96
   },
   {
-   "activo": "Bono Boncer TX28",
+   "activo": "ON Rombo Cia Fciera S60",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.7
+   "pct_pn": 0.83
   },
   {
    "activo": "ON PSA Serie 34",
@@ -139,14 +134,9 @@
    "pct_pn": 0.51
   },
   {
-   "activo": "ON PyME Sion Serie 12 UVA",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.48
-  },
-  {
    "activo": "ON Rombo Cia Fciera S66",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.34
+   "pct_pn": 0.35
   },
   {
    "activo": "ON FCA Comp. Finac CL 20 S1",
@@ -171,7 +161,7 @@
   {
    "activo": "FCI Pionero Pesos Plus - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.19
+   "pct_pn": 1.4
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

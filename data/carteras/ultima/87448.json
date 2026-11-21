@@ -1,6 +1,6 @@
 {
  "fondo": "IOL Portafolio Potenciado",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,28 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 30154163112.67
+  "Peso Argentina": 25932255021.12
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.25
+   "pct_pn": 0.33
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 45.95
+   "pct_pn": 31.96
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 56.34
+   "pct_pn": 57.35
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 21.19
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.02
+   "pct_pn": null
   },
   {
    "tipo": "Pasivos",
@@ -40,97 +40,87 @@
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.91
+   "pct_pn": 13.91
   },
   {
-   "activo": "Bono Dual TXMJ0",
+   "activo": "Pagare #MAV050170082",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.35
-  },
-  {
-   "activo": "Bono Boncer TZXS8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.5
-  },
-  {
-   "activo": "Bono Boncer TXMJ9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.26
+   "pct_pn": 7.41
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.01
+   "pct_pn": 5.4
   },
   {
    "activo": "Bonos Rep Argentina AL35",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.92
+   "pct_pn": 5.24
   },
   {
    "activo": "Cedear Google",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.07
-  },
-  {
-   "activo": "Grupo Financiero Galicia S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.96
+   "pct_pn": 8.04
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.69
+   "pct_pn": 7.02
   },
   {
-   "activo": "YPF S.A.",
+   "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.08
+   "pct_pn": 6.46
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.01
-  },
-  {
-   "activo": "Cedear NU Holdings Ltd",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.79
-  },
-  {
-   "activo": "BBVA Argentina S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.54
+   "pct_pn": 4.75
   },
   {
    "activo": "Cedear Taiwan Semiconduct",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.92
+   "pct_pn": 4.62
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.58
+  },
+  {
+   "activo": "BBVA Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.38
+  },
+  {
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.36
   },
   {
    "activo": "Cedear Micron Technology",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.9
+   "pct_pn": 4.16
   },
   {
    "activo": "Cedear Nvidia Corp.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.39
+   "pct_pn": 4.12
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.13
+   "pct_pn": 3.01
   },
   {
    "activo": "Cedear Mercado Libre",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.86
+   "pct_pn": 1.85
   },
   {
-   "activo": "FCI SBS Ahorro Pesos Cl B",
+   "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 21.19
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Opportunity",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 20426119701.85
+  "Peso Argentina": 19225666073.34
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.08
+   "pct_pn": 0.17
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 100.1
+   "pct_pn": 97.98
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.66
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.35
+   "pct_pn": 0.51
   },
   {
    "tipo": "Otros Activos",
@@ -34,34 +38,34 @@
  ],
  "activos": [
   {
-   "activo": "Boncer TZXY7",
+   "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.17
-  },
-  {
-   "activo": "Lecer X29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.16
+   "pct_pn": 13.08
   },
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.63
+   "pct_pn": 11.46
   },
   {
-   "activo": "Bono Dual TXMD9",
+   "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.34
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TMVE8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.41
+   "pct_pn": 11.14
   },
   {
    "activo": "Bono del Tesoro Nacional TY30P",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.97
+   "pct_pn": 9.18
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.0
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.98
   },
   {
    "activo": "Bonos Rep Argentina 2030",
@@ -69,69 +73,74 @@
    "pct_pn": 5.38
   },
   {
-   "activo": "Bono del Tesoro Nacional TMG28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.08
-  },
-  {
    "activo": "ON Transp Gas Sur Cl 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.43
+   "pct_pn": 4.73
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.52
   },
   {
    "activo": "ON Tecpetrol C12",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.18
+   "pct_pn": 4.23
   },
   {
    "activo": "Letra Tesoro Nac D31M7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.7
-  },
-  {
-   "activo": "Bono CER TZX27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.56
-  },
-  {
-   "activo": "Bonos Rep Argentina AE38",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.84
+   "pct_pn": 4.0
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.69
+   "pct_pn": 2.88
+  },
+  {
+   "activo": "Bonos Rep Argentina AE38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.81
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.68
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.38
+   "pct_pn": 1.47
   },
   {
    "activo": "Bonos Rep Argentina 2029",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.27
+   "pct_pn": 1.29
+  },
+  {
+   "activo": "Bono CER TZX27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.21
   },
   {
    "activo": "ON PSA Serie 38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.62
+   "pct_pn": 0.66
   },
   {
    "activo": "Bono Disc ARS Ley AR DICP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.48
+   "pct_pn": 0.51
   },
   {
    "activo": "Bono Par ARS Ley AR PARP",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.23
+   "pct_pn": 0.24
   },
   {
    "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 0.23
   },
   {
    "activo": "Bonos Rep Argentina GD35",
@@ -149,19 +158,19 @@
    "pct_pn": 0.03
   },
   {
-   "activo": "Bono Boncer 2027 TZXM7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
-  },
-  {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
   },
   {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.66
+  },
+  {
    "activo": "FCI Adcap Ahorro Pesos - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.35
+   "pct_pn": 0.51
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

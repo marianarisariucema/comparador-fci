@@ -1,6 +1,6 @@
 {
  "fondo": "Galileo Argentina",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 977272131.26
+  "Peso Argentina": 980627956.31
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 14.21
+   "pct_pn": 14.24
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 85.21
+   "pct_pn": 85.88
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.92
+   "pct_pn": 0.46
   },
   {
    "tipo": "Otros Activos",
@@ -34,24 +34,24 @@
  ],
  "activos": [
   {
-   "activo": "Bono Prov de Buenos Aires TZV28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 31.22
-  },
-  {
    "activo": "Bono del Tesoro Nacional TZV27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 30.52
+   "pct_pn": 31.35
   },
   {
-   "activo": "Lelink D30O6",
+   "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.47
+   "pct_pn": 30.98
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.55
   },
   {
    "activo": "FCI Pionero Pesos Plus - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.92
+   "pct_pn": 0.46
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Novus Gestion II",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Novus Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 2196379135.15
+  "Peso Argentina": 2141138392.95
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.97
+   "pct_pn": 96.2
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.1
+   "pct_pn": 3.82
   },
   {
    "tipo": "Otros Activos",
@@ -34,49 +34,59 @@
  ],
  "activos": [
   {
-   "activo": "Letra Tesoro Nac T30A7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.84
-  },
-  {
-   "activo": "Bono del Tesoro Nacional T31Y7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.16
-  },
-  {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.93
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TML27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.99
+   "pct_pn": 19.61
   },
   {
    "activo": "Letra Prov Bs As PBA27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.24
+   "pct_pn": 16.55
+  },
+  {
+   "activo": "Bono CER TZX27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.46
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.47
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.65
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.43
   },
   {
    "activo": "Bono Bocon 2029 PR17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.83
+   "pct_pn": 6.09
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.01
   },
   {
    "activo": "ON Morixe C4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.98
-  },
-  {
-   "activo": "FF Creditech S8 CA",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.89
+   "pct_pn": 0.95
   },
   {
    "activo": "FCI Ciclo Nova Ahorro - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.52
+   "pct_pn": 2.2
+  },
+  {
+   "activo": "FF Creditech S8 CA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.92
   },
   {
    "activo": "FF Confibono S83 Clase A",
@@ -86,7 +96,7 @@
   {
    "activo": "FF Megabono 341 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.29
+   "pct_pn": 0.3
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,0 +1,66 @@
+{
+ "fondo": "Balanz Desarrollo FCI Ab para Financ Infra y Econ Real",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Balanz S.G.F.C.I.S.A.U.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 90084265.67
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 19.95
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 82.31
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.45
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Prov Santa Fe 8.1% 111234",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.61
+  },
+  {
+   "activo": "ON YPF Clase 31",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.91
+  },
+  {
+   "activo": "ON Aeropuertos 2000 Regs 2031",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.64
+  },
+  {
+   "activo": "ON Pan Amer. Energy C 12",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.15
+  },
+  {
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.45
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86201",
+ "nombre_cnv": "BALANZ DESARROLLO FONDO COMÚN DE INVERSIÓN ABIERTO PARA EL FINANCIAMIENTO DE LA INFRAESTRUCTURA Y LA ECONOMÍA REAL",
+ "clave": "balanz desarrollo"
+}

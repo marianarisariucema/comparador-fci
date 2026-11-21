@@ -1,0 +1,175 @@
+{
+ "fondo": "Puente Renta Fija Pesos I",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Puente Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 57090352119.39
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 90.88
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.86
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.61
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 4.65
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Prov Chaco BLE27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.77
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.65
+  },
+  {
+   "activo": "ON NBD Chaco Clase 1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.48
+  },
+  {
+   "activo": "Bono Prov Cordoba 030235",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.63
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.62
+  },
+  {
+   "activo": "Bono Boncer 2028 TZXM8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.6
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.59
+  },
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.58
+  },
+  {
+   "activo": "ON Banco Prov Clase 7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.55
+  },
+  {
+   "activo": "Letra Prov Rio Negro S1 240927",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.53
+  },
+  {
+   "activo": "ON CNH Arg. C12",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.24
+  },
+  {
+   "activo": "Letra Prov Chubut S121 C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.34
+  },
+  {
+   "activo": "Letra Prov Bs As PBA28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.25
+  },
+  {
+   "activo": "Lecap S29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.79
+  },
+  {
+   "activo": "Letra Muni Cordoba S53",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.09
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.92
+  },
+  {
+   "activo": "ON Grupo ST C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.77
+  },
+  {
+   "activo": "ON Central Puerto Clase F",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.64
+  },
+  {
+   "activo": "Bono Muni Cordoba S1 26032027",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.59
+  },
+  {
+   "activo": "ON Mirgor Clase 7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.92
+  },
+  {
+   "activo": "Letra Prov Chaco BL2D6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.91
+  },
+  {
+   "activo": "Letra Prov Chubut S123 C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.69
+  },
+  {
+   "activo": "Letra Prov Chaco BLN26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.4
+  },
+  {
+   "activo": "Letra Prov Chubut S122 C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.33
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.86
+  },
+  {
+   "activo": "FF Infraestructura Elec 14",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.61
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88766",
+ "nombre_cnv": "Puente Renta Fija Pesos I",
+ "clave": "puente renta fija pesos i"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "Fima PB Acciones",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Galicia Asset Management S.A.U.",
  "depositaria": "Banco de Galicia y Buenos Aires S.A.",
  "clasificacion": "Renta Variable",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 56714021801.55
+  "Peso Argentina": 46315412781.58
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.04
+   "pct_pn": 0.05
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 99.62
+   "pct_pn": 99.49
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.34
+   "pct_pn": 0.98
   },
   {
    "tipo": "Otros Activos",
@@ -34,124 +34,119 @@
  ],
  "activos": [
   {
-   "activo": "Grupo Financiero Galicia S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 18.87
-  },
-  {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 16.6
-  },
-  {
-   "activo": "Pampa Energia S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 14.19
+   "pct_pn": 15.76
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 10.47
+   "pct_pn": 14.75
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 14.16
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 12.98
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.36
-  },
-  {
-   "activo": "Central Puerto S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.91
+   "pct_pn": 7.47
   },
   {
    "activo": "Cedear Globant",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.43
+   "pct_pn": 6.06
+  },
+  {
+   "activo": "Central Puerto S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.99
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.35
-  },
-  {
-   "activo": "Grupo Supervielle S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.59
-  },
-  {
-   "activo": "Ternium Argentina S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.4
+   "pct_pn": 5.18
   },
   {
    "activo": "Cedear Lithium Americas (Argentina) Corp",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.4
+   "pct_pn": 2.81
+  },
+  {
+   "activo": "Ternium Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.66
+  },
+  {
+   "activo": "Grupo Supervielle S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.38
   },
   {
    "activo": "Cedear Vista Oil Gas",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.17
+   "pct_pn": 2.08
   },
   {
    "activo": "Bolsas y Mercados Argentinos S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.03
+   "pct_pn": 2.02
   },
   {
    "activo": "Cedear Lithium Americas Corp.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.44
+   "pct_pn": 1.25
   },
   {
    "activo": "Transener S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.19
-  },
-  {
-   "activo": "Cresud S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.76
+   "pct_pn": 1.16
   },
   {
    "activo": "Transportadora de Gas del Norte S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.71
+   "pct_pn": 0.75
   },
   {
-   "activo": "Cedear Adecoagro",
+   "activo": "Cresud S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.7
+   "pct_pn": 0.74
   },
   {
    "activo": "Aluar Aluminio Argentino S.A.I.C.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.39
+   "pct_pn": 0.41
+  },
+  {
+   "activo": "Cedear Adecoagro",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.29
   },
   {
    "activo": "Edenor S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.28
   },
   {
    "activo": "Capex S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Cedear NU Holdings Ltd",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.09
+   "pct_pn": 0.2
   },
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 0.07
   },
   {
-   "activo": "Distribuidora de Gas Cuyana S.A.",
+   "activo": "Inversiones y Representaciones S.A. (IRSA)",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.02
   },
   {
    "activo": "Loma Negra S.A.",
@@ -159,9 +154,14 @@
    "pct_pn": 0.01
   },
   {
+   "activo": "Distribuidora de Gas Cuyana S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.01
+  },
+  {
    "activo": "FCI Pionero Pesos - Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.34
+   "pct_pn": 0.98
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

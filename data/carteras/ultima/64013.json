@@ -1,6 +1,6 @@
 {
  "fondo": "FBA Renta Fija Dólar Plus I",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "BBVA Asset Management Argentina S.A.U.S.G.F.C.I.",
  "depositaria": "BBVA Argentina S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 55114422.93
+  "Dolar Estadounidense": 49141186.35
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 5.69
+   "pct_pn": 3.02
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 94.8
+   "pct_pn": 96.86
   },
   {
    "tipo": "Otros Activos",
@@ -25,74 +25,64 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.12
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional AO27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 29.55
+   "pct_pn": 32.65
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 28.48
-  },
-  {
-   "activo": "Bonos Rep Argentina GD35",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.1
+   "pct_pn": 29.16
   },
   {
    "activo": "Bonos Rep Argentina GD30",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.85
+   "pct_pn": 7.21
   },
   {
    "activo": "Bonos Rep Argentina 2030",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.99
+   "pct_pn": 6.28
+  },
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.96
   },
   {
    "activo": "Bono Bonar 2029 AO29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.72
+   "pct_pn": 4.66
   },
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.84
+   "pct_pn": 4.15
   },
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase D BPOD7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.87
+   "pct_pn": 3.12
   },
   {
    "activo": "Bonos Rep Argentina GD41",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.34
-  },
-  {
-   "activo": "Bonos Rep Argentina AL35",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.27
+   "pct_pn": 2.43
   },
   {
    "activo": "Bonos Rep Argentina GD38",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.04
-  },
-  {
-   "activo": "Bonos Rep Argentina AL41",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.59
+   "pct_pn": 1.07
   },
   {
    "activo": "Bonos Rep Argentina 2029",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.16
+   "pct_pn": 0.17
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

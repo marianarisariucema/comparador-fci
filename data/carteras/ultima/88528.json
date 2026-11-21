@@ -1,6 +1,6 @@
 {
  "fondo": "GMC Renta Fija Dolares",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "GMC Asset Management S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 3610799.99
+  "Dolar Estadounidense": 3616534.58
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.13
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 53.44
+   "pct_pn": 53.26
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 34.45
+   "pct_pn": 10.79
   },
   {
    "tipo": "Otros Activos",
@@ -29,24 +29,24 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 12.11
+   "pct_pn": 35.82
   }
  ],
  "activos": [
   {
    "activo": "ON CGC C 36",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.36
+   "pct_pn": 8.39
   },
   {
    "activo": "ON Bco Serv Transac C31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.33
+   "pct_pn": 8.34
   },
   {
    "activo": "ON Capex C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.17
+   "pct_pn": 7.18
   },
   {
    "activo": "ON Pluspetrol Clase 6",
@@ -56,32 +56,32 @@
   {
    "activo": "ON John Deere Cia. Fin C19",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.76
+   "pct_pn": 5.77
   },
   {
    "activo": "ON Edenor C11",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.54
+   "pct_pn": 5.53
   },
   {
    "activo": "ON Havanna S1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.24
+   "pct_pn": 4.22
   },
   {
    "activo": "ON Lab. Richmond S8 Clase B",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.22
+   "pct_pn": 4.13
   },
   {
    "activo": "ON Farmacity C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.97
+   "pct_pn": 3.85
   },
   {
    "activo": "FCI Adcap Ahorro Dólares - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 34.45
+   "pct_pn": 10.79
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Tango Ahorro Plus",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Tango Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 4190252373.62
+  "Peso Argentina": 5187208772.9
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.15
+   "pct_pn": 94.07
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.57
+   "pct_pn": 6.0
   },
   {
    "tipo": "Otros Activos",
@@ -29,59 +29,64 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.27
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "Lecap S13N6",
+   "activo": "Lecap S26F7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.37
+   "pct_pn": 26.22
+  },
+  {
+   "activo": "Pagare #MAV101260086",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.82
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.87
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.29
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TML27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.74
-  },
-  {
-   "activo": "Letra Tesoro Nac T30A7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.21
-  },
-  {
-   "activo": "Pagare #MAV241160071",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.84
-  },
-  {
-   "activo": "Pagare #MAV241160072",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.84
-  },
-  {
-   "activo": "Pagare #MAV171160082",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.35
+   "pct_pn": 12.64
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.52
+   "pct_pn": 7.41
+  },
+  {
+   "activo": "Pagare #MAV241160071",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.76
+  },
+  {
+   "activo": "Pagare #MAV241160072",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.76
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.68
+  },
+  {
+   "activo": "Pagare #MAV171160082",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.91
   },
   {
    "activo": "FCI Ciclo Nova Ahorro - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.39
+   "pct_pn": 4.04
   },
   {
-   "activo": "FCI Valiant Ahorro - Clase A",
+   "activo": "FCI Unico Liquidez Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 1.96
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

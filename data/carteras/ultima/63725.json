@@ -1,6 +1,6 @@
 {
  "fondo": "SBS Renta Capital",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 60491937127.92
+  "Peso Argentina": 44349029367.56
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.05
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.25
+   "pct_pn": 77.71
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 20.57
+   "pct_pn": 19.34
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.24
+   "pct_pn": 2.87
   },
   {
    "tipo": "Otros Activos",
@@ -33,324 +33,424 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 52.94
+   "pct_pn": 0.03
   }
  ],
  "activos": [
   {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.23
+  },
+  {
    "activo": "ON Aluar Serie 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.73
+   "pct_pn": 12.12
+  },
+  {
+   "activo": "Pagare $MAV101260097",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.8
   },
   {
    "activo": "Pagare $MAV101260041",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.2
+   "pct_pn": 4.4
   },
   {
    "activo": "ON Vista Gas y Oil Arg C18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.29
+   "pct_pn": 3.16
+  },
+  {
+   "activo": "Pagare $UAG310570022",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.85
   },
   {
    "activo": "ON Pan American C26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.19
+   "pct_pn": 1.64
   },
   {
    "activo": "Pagare $UAG310570009",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.97
+   "pct_pn": 1.34
   },
   {
    "activo": "ON Vista Gas y Oil Arg C17",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.7
+   "pct_pn": 0.96
   },
   {
    "activo": "Pagare $UAG310570002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.49
+   "pct_pn": 0.68
   },
   {
    "activo": "Pagare $UAG310570003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.49
+   "pct_pn": 0.68
+  },
+  {
+   "activo": "Pagare $UAG240570007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.62
   },
   {
    "activo": "Pagare $UAG220670001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.44
+   "pct_pn": 0.61
   },
   {
-   "activo": "Pagare $UAG301060002",
+   "activo": "Pagare $UAG300470006",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.42
+   "pct_pn": 0.6
   },
   {
    "activo": "Pagare $UAG300670002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.39
+   "pct_pn": 0.55
   },
   {
    "activo": "Pagare $UAG310770005",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.36
+   "pct_pn": 0.5
   },
   {
    "activo": "Pagare $UAG310770006",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.36
+   "pct_pn": 0.5
   },
   {
    "activo": "Pagare $UAG310570005",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.35
+   "pct_pn": 0.48
   },
   {
    "activo": "Pagare $UAG310370004",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.35
+   "pct_pn": 0.48
+  },
+  {
+   "activo": "Pagare $UAG240570006",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.44
   },
   {
    "activo": "Pagare $UAG230370001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.41
   },
   {
    "activo": "Pagare $UAG101260003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.29
+   "pct_pn": 0.39
   },
   {
    "activo": "Pagare $UAG300470002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.26
+   "pct_pn": 0.36
   },
   {
    "activo": "Pagare $UAG310570007",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.26
+   "pct_pn": 0.36
   },
   {
    "activo": "Pagare $UAG241160001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.26
+   "pct_pn": 0.36
   },
   {
    "activo": "Pagare $UAG310570004",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.34
   },
   {
    "activo": "Pagare $UAG200870001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.24
+   "pct_pn": 0.33
   },
   {
    "activo": "Pagare $UAG280570003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 0.31
   },
   {
    "activo": "Pagare $UAG280770002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 0.31
   },
   {
    "activo": "Pagare $UAG310570010",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.22
+   "pct_pn": 0.3
   },
   {
    "activo": "Pagare $UAG100170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.21
+   "pct_pn": 0.29
   },
   {
    "activo": "Pagare $UAG270570002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.21
+   "pct_pn": 0.29
+  },
+  {
+   "activo": "Pagare $UAG300770008",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.29
+  },
+  {
+   "activo": "Pagare $UAG200570003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.29
+  },
+  {
+   "activo": "Pagare $UAG200570004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.29
+  },
+  {
+   "activo": "Pagare $UAG030570001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.27
+  },
+  {
+   "activo": "Pagare $UAG010470001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.26
   },
   {
    "activo": "Pagare $UAG210570001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 0.25
   },
   {
    "activo": "Pagare $UAG310570006",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.17
+   "pct_pn": 0.23
   },
   {
    "activo": "Pagare $UAG210570002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.16
+   "pct_pn": 0.22
+  },
+  {
+   "activo": "Pagare $UAG310570025",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.21
   },
   {
    "activo": "Pagare $UAG101260001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
+   "pct_pn": 0.2
   },
   {
    "activo": "Pagare $UAG280770001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.12
-  },
-  {
-   "activo": "Pagare $UAG300470004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.12
-  },
-  {
-   "activo": "Pagare $UAG010670001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.12
-  },
-  {
-   "activo": "Pagare $UAG280770003",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.11
+   "pct_pn": 0.17
   },
   {
    "activo": "Pagare $UAG151260001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.11
+   "pct_pn": 0.16
   },
   {
-   "activo": "Pagare $UAG231260001",
+   "activo": "Pagare $UAG010670001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
+   "pct_pn": 0.16
+  },
+  {
+   "activo": "Pagare $UAG300470004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.16
+  },
+  {
+   "activo": "Pagare $UAG280770003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.16
   },
   {
    "activo": "Pagare $UAG280770004",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Pagare $UAG030570003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Pagare $UAG310570020",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Pagare $UAG231260001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.13
   },
   {
    "activo": "Pagare $UAG251160001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
+   "pct_pn": 0.13
   },
   {
    "activo": "Pagare $UAG260170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
+   "pct_pn": 0.13
   },
   {
-   "activo": "Pagare $UAG280570006",
+   "activo": "Pagare $UAG310570024",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.08
-  },
-  {
-   "activo": "Pagare $UAG270570003",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.08
+   "pct_pn": 0.12
   },
   {
    "activo": "Pagare $UAG300470005",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.08
-  },
-  {
-   "activo": "Pagare $UAG280570007",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.08
+   "pct_pn": 0.11
   },
   {
    "activo": "Pagare $UAG011260001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.08
+   "pct_pn": 0.11
+  },
+  {
+   "activo": "Pagare $UAG280570006",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.11
+  },
+  {
+   "activo": "Pagare $UAG270570003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.11
+  },
+  {
+   "activo": "Pagare $UAG280570007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
   },
   {
    "activo": "Pagare $UAG260570008",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Pagare $UAG310570027",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Pagare $UAG030570002",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Pagare $UAG310570011",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.07
   },
   {
    "activo": "Pagare $UAG270570005",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
-  },
-  {
-   "activo": "Pagare $UAG310570011",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.05
+   "pct_pn": 0.07
   },
   {
    "activo": "Pagare $UAG301160002",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "Pagare $UAG310570026",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "Pagare $UAG310570028",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "Pagare $UAG310570029",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "Pagare $UAG310770008",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Pagare $UAG200570001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Pagare $UAG200570002",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Pagare $UAG270770004",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
   {
    "activo": "Pagare $UAG301160004",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Pagare $UAG200570002",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Pagare $UAG270770004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Pagare $UAG200570001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
+   "pct_pn": 0.05
   },
   {
    "activo": "Pagare $UAG281260001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Pagare $UAG301160003",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Pagare $UAG300470001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Pagare $UAG101160002",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 0.05
   },
   {
    "activo": "Pagare $UAG310570008",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "Pagare $UAG301160003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Pagare $UAG300470001",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Pagare $UAG101160002",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
   },
   {
    "activo": "Pagare $UAG080170001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 0.04
   },
   {
    "activo": "Pagare $UAG300370001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.02
   },
   {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 20.57
+   "pct_pn": 19.34
   },
   {
-   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "activo": "FCI Schroder Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.2
+   "pct_pn": 2.29
   },
   {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.04
+   "pct_pn": 0.58
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

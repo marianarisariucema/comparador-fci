@@ -1,0 +1,100 @@
+{
+ "fondo": "Max Estrategico I",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Max Capital Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 15671089581.27
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.05
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 72.7
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 26.57
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.91
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 35.56
+  },
+  {
+   "activo": "Lecap S26F7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.07
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.75
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.31
+  },
+  {
+   "activo": "BBVA Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 6.07
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.92
+  },
+  {
+   "activo": "Banco Macro S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.62
+  },
+  {
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.81
+  },
+  {
+   "activo": "Cedear Shares MSCI Brazil ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.47
+  },
+  {
+   "activo": "Central Puerto S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.68
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.91
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85373",
+ "nombre_cnv": "Max Estrategico I FCI",
+ "clave": "max estrategico i"
+}

@@ -1,0 +1,51 @@
+{
+ "fondo": "Optimum Balanced Strategy",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Santander Asset Management G.F.C.I.S.A.",
+ "depositaria": "Banco Santander Argentina S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 924539243.26
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 49.42
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 45.95
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.66
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "ON Telecom C19 TLCKO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 45.95
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.66
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85493",
+ "nombre_cnv": "OPTIMUM BALANCED STRATEGY FCI",
+ "clave": "optimum balanced strategy"
+}

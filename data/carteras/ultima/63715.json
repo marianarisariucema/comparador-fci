@@ -1,6 +1,6 @@
 {
  "fondo": "Chaco FCI Abierto Pymes",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Nuevo Chaco Fondos S.A.S.G.F.C.I.",
  "depositaria": "Nuevo Banco del Chaco S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,16 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 5056812350.96
+  "Peso Argentina": 4955472263.83
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 1.47
+   "pct_pn": 1.35
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 93.53
+   "pct_pn": 94.01
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.04
   },
   {
    "tipo": "Otros Activos",
@@ -25,367 +29,377 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 5.0
+   "pct_pn": 0.6
   }
  ],
  "activos": [
   {
-   "activo": "Bono del Tesoro Nacional TMVE8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.64
-  },
-  {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.01
+   "pct_pn": 7.23
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.93
   },
   {
    "activo": "ON Angel Estrada C18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.14
-  },
-  {
-   "activo": "Cheque E *TRD261000024",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.96
+   "pct_pn": 5.3
   },
   {
    "activo": "ON Pedrolga S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.23
-  },
-  {
-   "activo": "ON Ratto Hnos S1 C1 110228",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.12
+   "pct_pn": 2.3
   },
   {
    "activo": "ON 3D Latinoamerica 160129",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.11
+   "pct_pn": 2.18
   },
   {
    "activo": "ON Pyme Gimetal S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.04
+   "pct_pn": 2.1
   },
   {
    "activo": "ON Pamisa S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.02
+   "pct_pn": 2.08
   },
   {
    "activo": "ON Pyme DeRentas S2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.02
+   "pct_pn": 2.08
+  },
+  {
+   "activo": "ON Ratto Hnos S1 C1 110228",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.04
   },
   {
    "activo": "ON Rowing S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.96
+   "pct_pn": 2.03
+  },
+  {
+   "activo": "ON PyMe Colgas C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.03
+  },
+  {
+   "activo": "ON For Drink S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.03
   },
   {
    "activo": "Cheque E *NIO101100047",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.95
+   "pct_pn": 2.01
   },
   {
    "activo": "Cheque E *ACI261100303",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.93
+   "pct_pn": 1.99
   },
   {
    "activo": "Cheque E *INP130100063",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.85
+   "pct_pn": 1.91
   },
   {
    "activo": "ON Intercon S2 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.8
-  },
-  {
-   "activo": "Cheque E *AAR311000032",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.78
+   "pct_pn": 1.85
   },
   {
    "activo": "ON Pyme Lacteos Silvia S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.66
+   "pct_pn": 1.71
   },
   {
    "activo": "ON Remonda S1 C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.65
+   "pct_pn": 1.7
+  },
+  {
+   "activo": "Cheque E *FID041200035",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.28
+  },
+  {
+   "activo": "Cheque E *ARP121200339",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.22
   },
   {
    "activo": "ON El Paso del Virrey S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.59
+   "pct_pn": 1.16
   },
   {
    "activo": "Cheque %INC181100030",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.06
-  },
-  {
-   "activo": "Cheque E *AAR181100040",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.97
+   "pct_pn": 1.09
   },
   {
    "activo": "Cheque E *NIO161100024",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.97
+   "pct_pn": 1.0
+  },
+  {
+   "activo": "Cheque E *AAR181100040",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.0
   },
   {
    "activo": "Cheque E *NIO231100016",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.97
+   "pct_pn": 0.99
   },
   {
    "activo": "Cheque E *RES090700016",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.96
+   "pct_pn": 0.99
   },
   {
    "activo": "Cheque E *ZOF180100002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.93
+   "pct_pn": 0.96
+  },
+  {
+   "activo": "Cheque E *MOV120100079",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.96
   },
   {
    "activo": "Cheque E *FDE031200013",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.82
+   "pct_pn": 0.85
   },
   {
    "activo": "Cheque E *RES181100032",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.8
+   "pct_pn": 0.83
   },
   {
    "activo": "ON Gar PyMe Segufer S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.77
+   "pct_pn": 0.79
   },
   {
    "activo": "Cheque E *TRD210200026",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.76
+   "pct_pn": 0.78
   },
   {
    "activo": "ON Pyme Gar. Gualok S1 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.73
+   "pct_pn": 0.76
   },
   {
-   "activo": "Cheque E *NIO251000032",
+   "activo": "Cheque E *ACI101200460",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.69
-  },
-  {
-   "activo": "Cheque E *NIO311000040",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.69
-  },
-  {
-   "activo": "Cheque E *NIO231000019",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.66
-  },
-  {
-   "activo": "ON CRE-NOR S1",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.66
   },
   {
    "activo": "Cheque E *INP211200052",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.66
+   "pct_pn": 0.68
+  },
+  {
+   "activo": "ON CRE-NOR S1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.68
   },
   {
    "activo": "Cheque E *INP301200080",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.65
+   "pct_pn": 0.67
   },
   {
    "activo": "Cheque E *FDE060100017",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.65
-  },
-  {
-   "activo": "Cheque E *NIO291000022",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.65
-  },
-  {
-   "activo": "Cheque E *FGC291000034",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.63
+   "pct_pn": 0.67
   },
   {
    "activo": "Cheque E *ACE051100066",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.59
+   "pct_pn": 0.6
   },
   {
    "activo": "Cheque E *INP181100075",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.58
-  },
-  {
-   "activo": "Cheque E *NOV021100035",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.57
-  },
-  {
-   "activo": "Cheque E *TRD231000040",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.55
+   "pct_pn": 0.6
   },
   {
    "activo": "Cheque Gar.FOGA 00311",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.51
+   "pct_pn": 0.52
   },
   {
    "activo": "ON Sanatorio Chaco S1 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.51
+   "pct_pn": 0.52
   },
   {
    "activo": "ON Sanatorio Chaco S1 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.5
+   "pct_pn": 0.52
   },
   {
    "activo": "ON Agronea S1 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.49
-  },
-  {
-   "activo": "Cheque E *CRE130200128",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.46
+   "pct_pn": 0.5
   },
   {
    "activo": "Cheque E *CRE230100120",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.46
+   "pct_pn": 0.48
+  },
+  {
+   "activo": "Cheque E *ACE100100069",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.48
+  },
+  {
+   "activo": "Cheque E *ACE160100065",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "Cheque E *CRE130200128",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.47
   },
   {
    "activo": "Cheque E *CRE201100209",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.45
+   "pct_pn": 0.46
   },
   {
    "activo": "Cheque E *MOV241100073",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.43
+   "pct_pn": 0.45
   },
   {
    "activo": "ON Agroideas 4",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.43
+  },
+  {
+   "activo": "Cheque E *INP271100066",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.41
   },
   {
    "activo": "ON Transportes Bogdan S1 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.38
+   "pct_pn": 0.39
   },
   {
    "activo": "ON Pyme DeRentas S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.38
+   "pct_pn": 0.39
   },
   {
    "activo": "Cheque E *CRE241200112",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.38
+   "pct_pn": 0.39
   },
   {
    "activo": "ON San Antonio O&G S1 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.37
+   "pct_pn": 0.38
   },
   {
    "activo": "Cheque E *TRD151100037",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.36
+   "pct_pn": 0.37
   },
   {
    "activo": "Cheque E *TRD151200054",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.36
+   "pct_pn": 0.37
   },
   {
    "activo": "Cheque E *TRD150100042",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.35
+   "pct_pn": 0.36
   },
   {
    "activo": "Cheque E *FED201200052",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.34
+   "pct_pn": 0.35
   },
   {
    "activo": "Cheque E *TRD091100016",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.33
+   "pct_pn": 0.34
   },
   {
    "activo": "Cheque E *TRD141100049",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.33
+   "pct_pn": 0.34
   },
   {
    "activo": "Cheque E *TRD191100024",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.31
+   "pct_pn": 0.32
+  },
+  {
+   "activo": "Cheque E *FED301100093",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.32
   },
   {
    "activo": "ON PyME CNV GAR Biamaq S1 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.31
+   "pct_pn": 0.32
   },
   {
-   "activo": "Cheque E *FED301100093",
+   "activo": "ON San Antonio O&G S1 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.31
   },
   {
    "activo": "Cheque E *FED151200102",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
-  },
-  {
-   "activo": "ON San Antonio O&G S1 CB",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
-  },
-  {
-   "activo": "Cheque E *FGC231000053",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.31
   },
   {
    "activo": "ON P. Aconcagua Energia C21",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.3
+  },
+  {
+   "activo": "Cheque E *NIO301100070",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.3
+  },
+  {
+   "activo": "Cheque E *NIO071200016",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.29
+  },
+  {
+   "activo": "Cheque E *ACI011200330",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.28
   },
   {
    "activo": "Cheque E *FGC111100043",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.27
+   "pct_pn": 0.28
   },
   {
    "activo": "Cheque E *FGC191100035",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.27
+   "pct_pn": 0.28
   },
   {
-   "activo": "Cheque E *ACI011200330",
+   "activo": "ON Los Nogales S1 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.27
   },
@@ -395,47 +409,67 @@
    "pct_pn": 0.26
   },
   {
-   "activo": "ON Los Nogales S1 CA",
+   "activo": "Cheque E *FID051200035",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.26
   },
   {
-   "activo": "Cheque E *ACI291000191",
+   "activo": "Cheque E *ACI141100251",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.25
-  },
-  {
-   "activo": "Cheque E *FID051200035",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.25
-  },
-  {
-   "activo": "Cheque E *AAR261000015",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.23
-  },
-  {
-   "activo": "Cheque E *AAR281000026",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.23
+   "pct_pn": 0.22
   },
   {
    "activo": "Cheque E *CVA251100029",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.21
+   "pct_pn": 0.22
   },
   {
-   "activo": "Cheque E *ACI261000176",
+   "activo": "Cheque E *ZOF101200005",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.21
   },
   {
-   "activo": "Cheque E *ACI141100251",
+   "activo": "Cheque E *ZOF121100011",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.21
   },
   {
-   "activo": "Cheque E *CUY241000023",
+   "activo": "Cheque E *ARP121100268",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.2
+  },
+  {
+   "activo": "Cheque E *BIN131100079",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.2
+  },
+  {
+   "activo": "Cheque E *BIN171100113",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.2
+  },
+  {
+   "activo": "Cheque E *BIN201100113",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.2
+  },
+  {
+   "activo": "Cheque E *BIN231100085",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.2
+  },
+  {
+   "activo": "Cheque E *NIO221100032",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.2
+  },
+  {
+   "activo": "Cheque E *NIO181100034",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.2
+  },
+  {
+   "activo": "Cheque E *NIO131100033",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.2
   },
@@ -445,47 +479,27 @@
    "pct_pn": 0.2
   },
   {
-   "activo": "Cheque E *NIO311000043",
+   "activo": "Cheque E *CUY281100028",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.2
   },
   {
-   "activo": "Cheque E *NIO281000028",
+   "activo": "Cheque E *ARP160100311",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.2
   },
   {
-   "activo": "Cheque E *NIO251000036",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.2
-  },
-  {
-   "activo": "Cheque E *ZOF101200005",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.2
-  },
-  {
-   "activo": "Cheque E *ZOF121100011",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.2
-  },
-  {
-   "activo": "Cheque E *BIN131100079",
+   "activo": "Cheque E *ARP090100252",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.19
   },
   {
-   "activo": "Cheque E *BIN171100113",
+   "activo": "Cheque E *NIO260100028",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.19
   },
   {
-   "activo": "Cheque E *BIN201100113",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Cheque E *BIN231100085",
+   "activo": "Cheque E *ARP081100214",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.19
   },
@@ -500,47 +514,37 @@
    "pct_pn": 0.19
   },
   {
-   "activo": "Cheque E *NIO221100032",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Cheque E *NIO181100034",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Cheque E *NIO131100033",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Cheque E *ARP121100268",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Cheque E *CUY281100028",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Cheque E *ACI241000325",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
-   "activo": "Cheque E *ARP081100214",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.18
-  },
-  {
    "activo": "Cheque E *ARP081200195",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.18
   },
   {
+   "activo": "Cheque E *ZOF070100002",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "Cheque E *ZOF140100008",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "Cheque E *ZOF210100014",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.18
+  },
+  {
+   "activo": "Cheque E *ZOF280100008",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.18
+  },
+  {
    "activo": "Cheque E *CRE101100178",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.16
+  },
+  {
+   "activo": "Cheque E *CRE101200193",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.16
   },
@@ -555,7 +559,12 @@
    "pct_pn": 0.15
   },
   {
-   "activo": "Cheque E *CRE101200193",
+   "activo": "Cheque E *ARP141200229",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.15
+  },
+  {
+   "activo": "Cheque E *NOV201100052",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.15
   },
@@ -565,22 +574,22 @@
    "pct_pn": 0.15
   },
   {
-   "activo": "Cheque E *ARP141200229",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.14
-  },
-  {
-   "activo": "Cheque E *NOV201100052",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.14
-  },
-  {
    "activo": "Cheque E *INP301100106",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.13
+   "pct_pn": 0.14
   },
   {
-   "activo": "Cheque E *INP171100104",
+   "activo": "Cheque E *FGC260400035",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.14
+  },
+  {
+   "activo": "Cheque E *ARP210100286",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Cheque E *ARP280100338",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.12
   },
@@ -595,6 +604,16 @@
    "pct_pn": 0.12
   },
   {
+   "activo": "Cheque E *INP271100052",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
+   "activo": "Cheque E *INP171100104",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.12
+  },
+  {
    "activo": "Cheque E *INP201100106",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.11
@@ -603,21 +622,6 @@
    "activo": "Cheque E *INP241100080",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.11
-  },
-  {
-   "activo": "Cheque E *INP271100052",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.11
-  },
-  {
-   "activo": "Cheque E *ACE051100064",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
-  },
-  {
-   "activo": "Cheque E *ACI241000321",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
   },
   {
    "activo": "ON Ozog Vial S1 CB",
@@ -630,17 +634,7 @@
    "pct_pn": 0.1
   },
   {
-   "activo": "Cheque E *CRE301000196",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
-  },
-  {
-   "activo": "Cheque E *POT231000072",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.1
-  },
-  {
-   "activo": "Cheque E *POT301000083",
+   "activo": "Cheque E *ACE051100064",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.1
   },
@@ -650,17 +644,82 @@
    "pct_pn": 0.1
   },
   {
-   "activo": "Cheque E *INP031100056",
+   "activo": "Cheque E *FGC121100035",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.1
   },
   {
-   "activo": "Cheque E *BIN301000105",
+   "activo": "Cheque E *SOL190100007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Cheque E *SOL260100002",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.09
   },
   {
-   "activo": "Cheque E *FGC121100035",
+   "activo": "Cheque E *SOL280100006",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *SOL030200008",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *SOL100200010",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *SOL170200007",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *SOL240200010",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *SOL260200005",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *SOL030300008",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *SOL050300003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *SOL100300015",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *SOL120300003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *SOL160300009",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *SOL180300011",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "Cheque E *NOV071100071",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.09
   },
@@ -668,11 +727,6 @@
    "activo": "Cheque E *FGC261100041",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.09
-  },
-  {
-   "activo": "Cheque E *ACI271000290",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.08
   },
   {
    "activo": "Cheque E *ACI271100245",
@@ -685,12 +739,37 @@
    "pct_pn": 0.08
   },
   {
-   "activo": "Cheque E *NOV071100071",
+   "activo": "Cheque E *POT011200081",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.08
   },
   {
+   "activo": "Cheque E *BIN120100091",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Cheque E *BIN130100064",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "Cheque E *FID110100021",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
    "activo": "Cheque E *NOV241200033",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "ON Agronea S1 CA",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.07
+  },
+  {
+   "activo": "Cheque E *ACI201100308",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.07
   },
@@ -740,57 +819,12 @@
    "pct_pn": 0.06
   },
   {
-   "activo": "Cheque E *FGC261000020",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "Cheque E *FGC281000028",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "Cheque E *ACI201100308",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "ON Agronea S1 CA",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
    "activo": "Cheque E *NOV241200034",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.06
   },
   {
    "activo": "Cheque E *NOV241200035",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "Cheque E *NOV091100054",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "Cheque E *NOV111100059",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "Cheque E *NOV121100055",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "Cheque E *NOV231200049",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "Cheque E *NOV231200050",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.06
   },
@@ -820,17 +854,42 @@
    "pct_pn": 0.06
   },
   {
-   "activo": "Cheque E *FAE251000005",
+   "activo": "Cheque E *NOV091100054",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *NOV111100059",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *NOV121100055",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *NOV231200049",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *NOV231200050",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.06
+  },
+  {
+   "activo": "Cheque E *FID311200119",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *FAE281000008",
+   "activo": "Cheque E *FID040100030",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *FAE311000011",
+   "activo": "Cheque E *FID050100033",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
   },
@@ -840,9 +899,34 @@
    "pct_pn": 0.05
   },
   {
-   "activo": "Cheque E *FGC221000028",
+   "activo": "Cheque E *FID061100030",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.05
+  },
+  {
+   "activo": "Cheque E *FID101100042",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "Cheque E *FID121100034",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "Cheque E *FID161100025",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.05
+  },
+  {
+   "activo": "Cheque E *FID181100034",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *FID231100018",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
   },
   {
    "activo": "Cheque E *FID121100035",
@@ -861,16 +945,6 @@
   },
   {
    "activo": "Cheque E *FID041100028",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *FID021100027",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Cheque E *FID291000046",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
@@ -900,47 +974,77 @@
    "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *FID021100026",
+   "activo": "Cheque E *CRE091200140",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *FID061100030",
+   "activo": "Cheque E *NIO131100039",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *FID101100042",
+   "activo": "Cheque E *NIO201100049",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *FID121100034",
+   "activo": "Cheque E *NIO271100058",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *FID161100025",
+   "activo": "Cheque E *NIO071200015",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *FID181100034",
+   "activo": "Cheque E *NIO111200028",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *FID231100018",
+   "activo": "Cheque E *NIO181200032",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.04
   },
   {
-   "activo": "Cheque E *FGC231000041",
+   "activo": "Cheque E *NIO050100026",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *NIO150100028",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *NIO230100018",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Cheque E *BIN291200172",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
   {
-   "activo": "Cheque E *CRE091200140",
+   "activo": "Cheque E *BIN070100055",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *BIN281200105",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *BIN070100056",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "Cheque E *FGC131100053",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
@@ -951,11 +1055,6 @@
   },
   {
    "activo": "Cheque E *BIN261100067",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "Cheque E *FGC131100053",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.03
   },
@@ -1053,6 +1152,11 @@
    "activo": "Cheque E *FGC150400041",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.01
+  },
+  {
+   "activo": "Pase Colocador ARS MAE",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.04
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

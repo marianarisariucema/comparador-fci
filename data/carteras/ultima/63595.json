@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Renta Mixta",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 11793865.81
+  "Peso Argentina": 11874323.04
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 99.94
+   "pct_pn": 5.86
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 94.14
   },
   {
    "tipo": "Otros Activos",
@@ -29,6 +29,26 @@
   }
  ],
  "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.6
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.59
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.51
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.38
+  },
   {
    "activo": "ON Impsa Clase 7 2036",
    "tipo": "Titulos de Deuda en Peso Argentina",

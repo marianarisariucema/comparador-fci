@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Estrategia 7",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 209182003945.43
+  "Peso Argentina": 209329695795.35
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.44
+   "pct_pn": 99.37
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.74
+   "pct_pn": 0.67
   },
   {
    "tipo": "Otros Activos",
@@ -36,27 +36,27 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 28.67
-  },
-  {
-   "activo": "Bono Dual TXMD9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.9
-  },
-  {
-   "activo": "Letra Tamar TEM TMF27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.41
+   "pct_pn": 28.86
   },
   {
    "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.9
+   "pct_pn": 22.79
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.59
+  },
+  {
+   "activo": "Bono Dual TXMD9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.49
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.4
+   "pct_pn": 9.46
   },
   {
    "activo": "ON Bco Columbia S2",
@@ -76,22 +76,22 @@
   {
    "activo": "FCI BM Smart Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.54
-  },
-  {
-   "activo": "FCI SBS Ahorro Pesos Cl B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.53
+   "pct_pn": 0.22
   },
   {
    "activo": "FCI Cocos Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.48
+   "pct_pn": 0.21
   },
   {
    "activo": "FCI Adcap Ahorro Dólares - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.19
+   "pct_pn": 0.2
+  },
+  {
+   "activo": "FCI SBS Ahorro Pesos Cl B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.04
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

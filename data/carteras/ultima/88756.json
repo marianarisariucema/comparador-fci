@@ -1,6 +1,6 @@
 {
  "fondo": "GMC Multiestrategia II",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "GMC Asset Management S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 799871021.19
+  "Peso Argentina": 1904269113.36
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.02
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 76.93
+   "pct_pn": 69.51
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 21.01
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 23.05
+   "pct_pn": 9.53
   },
   {
    "tipo": "Otros Activos",
@@ -34,29 +38,44 @@
  ],
  "activos": [
   {
-   "activo": "Bono Boncer 2027 TZXM7",
+   "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.16
+   "pct_pn": 20.06
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.81
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.4
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZXO7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.73
   },
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.09
+   "pct_pn": 6.8
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.86
+   "pct_pn": 6.71
   },
   {
-   "activo": "Letra Tamar TEM TMF27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.81
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 21.01
   },
   {
-   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "activo": "FCI Unico Liquidez Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 23.05
+   "pct_pn": 9.53
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

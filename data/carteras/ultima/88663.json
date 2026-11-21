@@ -1,6 +1,6 @@
 {
  "fondo": "Special Situations Fund",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "CMF Asset Management S.A.U.",
  "depositaria": "Banco C.M.F. S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,28 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 5669055.32
+  "Dolar Estadounidense": 5587343.13
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 51.44
+   "pct_pn": 28.49
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.96
+   "pct_pn": 27.92
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 11.29
+   "pct_pn": 19.1
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.08
+   "pct_pn": 2.16
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 17.65
+   "pct_pn": 22.38
   },
   {
    "tipo": "Otros Activos",
@@ -44,42 +44,47 @@
   {
    "activo": "ON San Miguel Serie 13 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.08
+   "pct_pn": 13.57
   },
   {
    "activo": "ON Rizobacter S 11 CC",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.45
+   "pct_pn": 10.93
   },
   {
    "activo": "ON Rizobacter S 11 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.68
+   "pct_pn": 2.67
   },
   {
    "activo": "ON San Miguel Serie 13 CB",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.74
+   "pct_pn": 0.75
   },
   {
    "activo": "ON Clisa 101234",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 10.03
+   "pct_pn": 10.18
   },
   {
    "activo": "ON Impsa Clase 7 2036",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.26
+   "pct_pn": 8.92
   },
   {
    "activo": "Cedear Bioceres",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.08
+   "pct_pn": 2.16
   },
   {
    "activo": "Lombard Liquidez Dolares - Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 17.65
+   "pct_pn": 17.92
+  },
+  {
+   "activo": "FF Agrocap S5 CB",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.46
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

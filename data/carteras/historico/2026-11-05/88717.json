@@ -1,0 +1,66 @@
+{
+ "fondo": "Parakeet Gestion Activa III",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Parakeet S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 448940316.28
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.81
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 14.86
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 68.33
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Cheque E *MAV071201090",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.89
+  },
+  {
+   "activo": "Cheque E *MAV041201278",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.9
+  },
+  {
+   "activo": "Cheque E *MAV271101632",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.22
+  },
+  {
+   "activo": "Cheque E *MAV201101789",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.81
+  },
+  {
+   "activo": "FCI SBS Ahorro Pesos Cl B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 14.86
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88717",
+ "nombre_cnv": "PARAKEET GESTIÓN ACTIVA III",
+ "clave": "parakeet gestion activa iii"
+}

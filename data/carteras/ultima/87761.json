@@ -1,6 +1,6 @@
 {
  "fondo": "Consultatio Estrategia I",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 49902573.61
+  "Dolar Estadounidense": 50221420.65
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 8.96
+   "pct_pn": 9.61
   },
   {
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 85.84
+   "pct_pn": 82.42
   },
   {
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 2.44
+   "pct_pn": 2.45
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -33,84 +33,84 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 2.76
+   "pct_pn": 5.52
   }
  ],
  "activos": [
   {
-   "activo": "Mastercard Incorporated",
-   "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 10.63
-  },
-  {
    "activo": "Facebook",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 9.27
-  },
-  {
-   "activo": "Morgan Stanley Capital International (MSCI)",
-   "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 8.03
-  },
-  {
-   "activo": "Nvidia Corp.",
-   "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 7.5
-  },
-  {
-   "activo": "Microsoft Corporation",
-   "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 7.26
+   "pct_pn": 10.84
   },
   {
    "activo": "Mc Donalds Corporation",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 7.24
+   "pct_pn": 9.44
   },
   {
-   "activo": "Pepsico Incorporated",
+   "activo": "Mastercard Incorporated",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 6.94
-  },
-  {
-   "activo": "ADR Taiwan Semiconductor",
-   "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 6.79
+   "pct_pn": 9.29
   },
   {
    "activo": "Domino's Pizza, Inc.",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 5.66
+   "pct_pn": 7.96
   },
   {
-   "activo": "CME Group Inc",
+   "activo": "Morgan Stanley Capital International (MSCI)",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 4.69
+   "pct_pn": 7.52
   },
   {
-   "activo": "Pool Corporation",
+   "activo": "Pepsico Incorporated",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 4.39
+   "pct_pn": 6.25
   },
   {
-   "activo": "Canadian Pacific Kansas City",
+   "activo": "Nvidia Corp.",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 4.26
+   "pct_pn": 5.97
   },
   {
-   "activo": "Broadcom Inc.",
+   "activo": "ADR Taiwan Semiconductor",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.85
+   "pct_pn": 5.27
   },
   {
    "activo": "TransDigm Group Incorporated",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.33
+   "pct_pn": 4.97
+  },
+  {
+   "activo": "Pool Corporation",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 4.1
+  },
+  {
+   "activo": "Canadian Pacific Kansas City",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 3.73
+  },
+  {
+   "activo": "Microsoft Corporation",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 3.73
+  },
+  {
+   "activo": "CME Group Inc",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 2.84
+  },
+  {
+   "activo": "Broadcom Inc.",
+   "tipo": "Participaciones Accionarias Estados Unidos",
+   "pct_pn": 0.51
   },
   {
    "activo": "Ishares Barclays 20",
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 2.44
+   "pct_pn": 2.45
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

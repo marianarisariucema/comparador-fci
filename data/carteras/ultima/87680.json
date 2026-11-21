@@ -1,6 +1,6 @@
 {
  "fondo": "Premier Corto Plazo en Dólares",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Supervielle Asset Management S.A.",
  "depositaria": "Banco Supervielle S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 41572822.86
+  "Dolar Estadounidense": 47922270.13
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 64.12
+   "pct_pn": 59.75
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.39
+   "pct_pn": 6.41
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 28.48
+   "pct_pn": 33.84
   },
   {
    "tipo": "Otros Activos",
@@ -29,29 +29,29 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.01
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "ON Banco de Galicia 31 BYCXO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.39
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Nacion",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 14.68
+   "pct_pn": 6.41
   },
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 11.4
+   "pct_pn": 19.02
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 12.73
   },
   {
    "activo": "Pzo Fi $ Nvo Bco Indus",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 2.41
+   "pct_pn": 2.09
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

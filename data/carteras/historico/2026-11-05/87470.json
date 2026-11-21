@@ -1,0 +1,81 @@
+{
+ "fondo": "Crecer Renta Dólares",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Ciudad Administradora de Activos S.A.U.",
+ "depositaria": "Banco Ciudad de Buenos Aires",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 7150677.74
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 1.41
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 94.64
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 6.99
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bonos Rep Argentina GD30",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 20.0
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 19.57
+  },
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 15.26
+  },
+  {
+   "activo": "Bono Bopreal Serie 1 D",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.86
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.12
+  },
+  {
+   "activo": "Bonos Rep Argentina GD41",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.92
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.89
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 6.99
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87470",
+ "nombre_cnv": "CRECER RENTA DÓLARES",
+ "clave": "crecer renta dolares"
+}

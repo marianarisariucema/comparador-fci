@@ -1,0 +1,91 @@
+{
+ "fondo": "Chaco Fondos Renta Fija I",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Nuevo Chaco Fondos S.A.S.G.F.C.I.",
+ "depositaria": "Nuevo Banco del Chaco S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 2721147446.39
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 1.54
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 92.97
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.51
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.91
+  },
+  {
+   "activo": "Bono Boncer 2028 TZXM8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.2
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.71
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 16.73
+  },
+  {
+   "activo": "Bono CER TZX27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.16
+  },
+  {
+   "activo": "Letra Prov Chaco BLN26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.9
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.82
+  },
+  {
+   "activo": "ON BACS Clase 19",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.92
+  },
+  {
+   "activo": "ON Agrofina Clase 11",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.63
+  },
+  {
+   "activo": "Pase Colocador ARS MAE",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 5.51
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63685",
+ "nombre_cnv": "Chaco Fondos Renta Fija I",
+ "clave": "chaco fondos renta fija i"
+}

@@ -1,0 +1,70 @@
+{
+ "fondo": "Wise Capital Legacy",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Wise Capital Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 2208119162.95
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.31
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 60.36
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 36.81
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.38
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 1.14
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TZXD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.67
+  },
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.4
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.29
+  },
+  {
+   "activo": "BC Wise Capital Total Return II S528 Notes 2044",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 36.81
+  },
+  {
+   "activo": "FCI SBS Ahorro Pesos Cl B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.38
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87864",
+ "nombre_cnv": "WISE CAPITAL LEGACY",
+ "clave": "wise capital legacy"
+}

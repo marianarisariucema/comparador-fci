@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Agro",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 856158807.45
+  "Peso Argentina": 827416444.93
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.05
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 83.69
+   "pct_pn": 83.84
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.82
+   "pct_pn": 5.23
   },
   {
    "tipo": "Otros Activos",
@@ -29,54 +29,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 8.44
+   "pct_pn": 10.92
   }
  ],
  "activos": [
   {
-   "activo": "Letra Tesoro Nac D15E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 30.44
-  },
-  {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.7
+   "pct_pn": 28.03
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 27.95
   },
   {
    "activo": "Letra Tesoro Nac D31M7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.49
+   "pct_pn": 27.86
   },
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.99
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.09
+  },
+  {
+   "activo": "FCI ST Zero - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.06
   },
   {
    "activo": "FCI Gainvest Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.61
-  },
-  {
-   "activo": "FCI Adcap Ahorro Pesos - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.08
-  },
-  {
-   "activo": "FCI ST Zero - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.05
-  },
-  {
-   "activo": "FCI Schroder Liquidez - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.03
-  },
-  {
-   "activo": "FCI Toronto T Ahorro B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.04
   },
   {
    "activo": "FCI GMC Money Market - Clase C",
@@ -95,6 +85,11 @@
   },
   {
    "activo": "FCI Cocos Ahorro - Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI Toronto T Ahorro B",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.01
   }

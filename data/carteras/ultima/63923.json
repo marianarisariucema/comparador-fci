@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Liquidez Dólar",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 403531288.44
+  "Dolar Estadounidense": 357576877.09
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 24.55
+   "pct_pn": 18.03
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 75.46
+   "pct_pn": 81.96
   },
   {
    "tipo": "Otros Activos",
@@ -25,49 +25,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 0.01
   }
  ],
  "activos": [
   {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 21.49
-  },
-  {
-   "activo": "Caucion Colocadora U$S BYMA",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 18.97
+   "pct_pn": 24.26
   },
   {
    "activo": "Pzo Fi U$S Bco BBVA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 18.85
+   "pct_pn": 21.28
+  },
+  {
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 19.63
   },
   {
    "activo": "Pzo Fi U$S Nvo Bco Indus",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 8.68
+   "pct_pn": 9.81
   },
   {
    "activo": "Pzo Fi U$S Bco Supervielle",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.2
+   "pct_pn": 3.62
   },
   {
    "activo": "Pzo Fi U$S Bco CMF",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 2.48
-  },
-  {
-   "activo": "Caucion Colocadora U$S MAE",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 1.29
+   "pct_pn": 2.8
   },
   {
    "activo": "Pzo Fi U$S Bco Mariva",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 0.5
+   "pct_pn": 0.56
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

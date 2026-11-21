@@ -1,6 +1,6 @@
 {
  "fondo": "Puente Liquidez Dólares",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Puente Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 12469014.68
+  "Dolar Estadounidense": 10650476.63
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 30.62
+   "pct_pn": 33.86
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 69.4
+   "pct_pn": 66.14
   },
   {
    "tipo": "Otros Activos",
@@ -32,37 +32,42 @@
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 19.39
-  },
-  {
-   "activo": "Pase Colocador USD BYMA",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 15.64
+   "pct_pn": 19.04
   },
   {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 14.18
+   "pct_pn": 17.55
   },
   {
    "activo": "Plazo Fi U$S Bco BACS",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 9.43
+   "pct_pn": 9.16
+  },
+  {
+   "activo": "Pase Colocador USD BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 7.04
   },
   {
    "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 6.18
+   "pct_pn": 6.11
   },
   {
    "activo": "Pzo Fi U$S Bco CMF",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.73
+   "pct_pn": 4.37
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.88
   },
   {
    "activo": "Pzo Fi U$S Nvo Bco Santa Fe",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 0.84
+   "pct_pn": 0.99
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

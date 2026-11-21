@@ -1,6 +1,6 @@
 {
  "fondo": "Cocos Acciones",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Cocos Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 4666265412.79
+  "Peso Argentina": 3731197663.73
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": null
+   "pct_pn": 0.01
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 97.77
+   "pct_pn": 97.97
   },
   {
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 3.15
+   "pct_pn": 2.88
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.06
+   "pct_pn": null
   },
   {
    "tipo": "Otros Activos",
@@ -38,69 +38,69 @@
  ],
  "activos": [
   {
-   "activo": "Grupo Financiero Galicia S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 11.52
-  },
-  {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 10.21
+   "pct_pn": 11.24
   },
   {
-   "activo": "Pampa Energia S.A.",
+   "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 10.06
-  },
-  {
-   "activo": "Central Puerto S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.7
+   "pct_pn": 10.92
   },
   {
    "activo": "Cedear Berkshire Hath Inc",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 8.92
+   "pct_pn": 10.49
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 10.0
+  },
+  {
+   "activo": "Central Puerto S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 9.8
   },
   {
    "activo": "Inversiones y Representaciones S.A. (IRSA)",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 8.32
+   "pct_pn": 7.04
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.99
+   "pct_pn": 6.13
   },
   {
    "activo": "Transportadora de Gas del Norte S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.67
-  },
-  {
-   "activo": "Transportadora Gas del Sur S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.34
-  },
-  {
-   "activo": "Cedear NU Holdings Ltd",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.22
+   "pct_pn": 5.92
   },
   {
    "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.11
+   "pct_pn": 5.47
   },
   {
-   "activo": "Cedear Mercado Libre",
+   "activo": "Cedear NU Holdings Ltd",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.94
+   "pct_pn": 4.99
+  },
+  {
+   "activo": "Transportadora Gas del Sur S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.94
   },
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.7
+   "pct_pn": 3.86
+  },
+  {
+   "activo": "Cedear Mercado Libre",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.2
   },
   {
    "activo": "Transener S.A.",
@@ -110,17 +110,17 @@
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.2
+   "pct_pn": 1.11
+  },
+  {
+   "activo": "Metrogas S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.99
   },
   {
    "activo": "ADR Vista Oil y Gas",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 3.15
-  },
-  {
-   "activo": "FCI Allaria Ahorro - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.06
+   "pct_pn": 2.88
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

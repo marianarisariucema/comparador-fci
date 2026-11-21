@@ -1,0 +1,91 @@
+{
+ "fondo": "Alpha Renta Capital Dólar",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "ICBC Investments Argentina S.A.U.S.G.F.C.I.",
+ "depositaria": "ICBC (Arg) S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 56641860.25
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 3.66
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 93.97
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.88
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 1.49
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 28.93
+  },
+  {
+   "activo": "Bonos Rep Argentina GD41",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.73
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.2
+  },
+  {
+   "activo": "Bonos Rep Argentina GD38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.68
+  },
+  {
+   "activo": "Bonos Rep Argentina GD29",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 10.65
+  },
+  {
+   "activo": "Bonos Rep Argentina GD30",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 8.07
+  },
+  {
+   "activo": "Bonos Rep Argentina GD35",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.02
+  },
+  {
+   "activo": "Bonos Rep Argentina 2029",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.48
+  },
+  {
+   "activo": "Bonos Rep Argentina GD46",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.21
+  },
+  {
+   "activo": "FCI Bull Market Liquidez Dólar - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.88
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "82378",
+ "nombre_cnv": "ALPHA RENTA CAPITAL DÓLAR",
+ "clave": "alpha renta capital dolar"
+}

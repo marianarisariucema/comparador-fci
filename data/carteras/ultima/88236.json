@@ -1,6 +1,6 @@
 {
  "fondo": "Chimpay Pesos Conservador",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Chimpay S.A.",
  "depositaria": "Banco Industrial S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 10705179599.12
+  "Peso Argentina": 12746873832.64
  },
  "por_tipo": [
   {
@@ -17,11 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 89.1
+   "pct_pn": 91.81
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.96
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 10.98
+   "pct_pn": 4.09
   },
   {
    "tipo": "Otros Activos",
@@ -34,94 +38,84 @@
  ],
  "activos": [
   {
-   "activo": "Bono Boncer TZXD6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.51
-  },
-  {
    "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.49
+   "pct_pn": 12.2
   },
   {
-   "activo": "Bono Boncer TZXS7",
+   "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.81
+   "pct_pn": 11.87
   },
   {
    "activo": "Boncer TZXY7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.64
+   "pct_pn": 9.41
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.28
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.85
-  },
-  {
-   "activo": "Lecap S13N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.72
+   "pct_pn": 8.14
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.46
+   "pct_pn": 7.56
   },
   {
-   "activo": "Bono del Tesoro Nacional T31Y7",
+   "activo": "Lecap S26F7",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 6.48
   },
   {
-   "activo": "Lecer X29E7",
+   "activo": "Lecap S13N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.4
+   "pct_pn": 5.08
   },
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.9
+   "pct_pn": 5.01
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.19
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.17
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TY30P",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.56
+  },
+  {
+   "activo": "Cheque E *MAV111201691",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.9
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.69
+   "pct_pn": 1.43
   },
   {
-   "activo": "Bono Boncer TZXD7",
+   "activo": "Lecap S29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.4
+   "pct_pn": 0.83
   },
   {
    "activo": "Cheque E *AAR141100019",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.61
-  },
-  {
-   "activo": "Cheque E *AAR261000014",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.47
-  },
-  {
-   "activo": "Cheque E *AAR301000031",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Cheque E *CVA211000015",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
-  },
-  {
-   "activo": "Cheque E *CVA221000021",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
-  },
-  {
-   "activo": "Cheque E *CVA231000019",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
+   "pct_pn": 0.52
   },
   {
    "activo": "Cheque E *CRE131100174",
@@ -164,14 +158,24 @@
    "pct_pn": 0.01
   },
   {
-   "activo": "FCI Adcap Ahorro Pesos - Clase I",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 9.54
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.59
+  },
+  {
+   "activo": "Pzo Fi UVA $ Bco Superv.",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.37
   },
   {
    "activo": "FCI IAM Ahorro Pesos C B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.44
+   "pct_pn": 2.5
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.59
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

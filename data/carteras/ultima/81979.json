@@ -1,6 +1,6 @@
 {
  "fondo": "BM Smart Money Market",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Bull Market Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 82477841634.36
+  "Peso Argentina": 67591185089.45
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 15.52
+   "pct_pn": 25.63
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 69.8
+   "pct_pn": 67.49
   },
   {
    "tipo": "Otros Activos",
@@ -25,79 +25,59 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 14.68
+   "pct_pn": 6.88
   }
  ],
  "activos": [
   {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 17.75
+  },
+  {
    "activo": "Pzo Fi $ Bco BBVA",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 9.89
+   "pct_pn": 12.17
   },
   {
    "activo": "Pzo Fi $ Bco Sol",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 9.81
+   "pct_pn": 9.06
   },
   {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 8.55
-  },
-  {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 8.49
-  },
-  {
-   "activo": "Pzo Fi $ Bco Patagonia",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.15
-  },
-  {
-   "activo": "Pzo Fi $ Bco Cordoba",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.12
-  },
-  {
-   "activo": "Pzo Fi $ Banco VOII",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.93
+   "pct_pn": 7.49
   },
   {
    "activo": "Pzo Fi $ Bco Supervielle",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 3.66
+   "pct_pn": 4.51
+  },
+  {
+   "activo": "Pzo Fi $ Bco Cordoba",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.5
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.45
+   "pct_pn": 3.02
   },
   {
    "activo": "Pzo Fi $ Nvo Bco Indus",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.44
+   "pct_pn": 3.0
   },
   {
    "activo": "Pzo Fi $ Bco Mariva",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.43
+   "pct_pn": 2.99
   },
   {
    "activo": "Pzo Fi $ ICBC",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.43
-  },
-  {
-   "activo": "Pzo Fi $ Banco de Serv y Transacciones (BST)",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.23
-  },
-  {
-   "activo": "Plazo Fi $ Bco Tierra del Fuego",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 1.23
+   "pct_pn": 2.99
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

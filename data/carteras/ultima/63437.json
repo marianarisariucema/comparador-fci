@@ -1,6 +1,6 @@
 {
  "fondo": "Optimum Renta Mixta Flexible Argentina",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Santander Asset Management G.F.C.I.S.A.",
  "depositaria": "Banco Santander Argentina S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6048572878.73
+  "Peso Argentina": 6119825912.35
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.08
+   "pct_pn": 2.06
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.58
+   "pct_pn": 96.53
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.44
+   "pct_pn": 1.43
   },
   {
    "tipo": "Otros Activos",
@@ -34,39 +34,39 @@
  ],
  "activos": [
   {
-   "activo": "Lelink D30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 44.58
-  },
-  {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 30.9
+   "pct_pn": 28.92
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 23.49
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 21.13
   },
   {
    "activo": "ON CGC C 39",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.7
+   "pct_pn": 9.74
   },
   {
    "activo": "ON PCR Clase K",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.56
+   "pct_pn": 7.57
   },
   {
    "activo": "ON Oldelval Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.66
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
+   "pct_pn": 5.68
   },
   {
    "activo": "FCI Argenfunds Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.44
+   "pct_pn": 1.43
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

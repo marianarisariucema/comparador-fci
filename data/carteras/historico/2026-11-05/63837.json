@@ -1,0 +1,62 @@
+{
+ "fondo": "Consultatio Liquidez Dólar",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 50130642.3
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 36.9
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 63.1
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 31.12
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 17.02
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 6.99
+  },
+  {
+   "activo": "Pzo Fi $ Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 4.99
+  },
+  {
+   "activo": "Pzo Fi $ Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
+   "pct_pn": 2.99
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63837",
+ "nombre_cnv": "CONSULTATIO LIQUIDEZ DÓLAR",
+ "clave": "consultatio liquidez dolar"
+}

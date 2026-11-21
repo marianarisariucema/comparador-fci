@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Performance XI",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 110870100443.38
+  "Peso Argentina": 111146480068.1
  },
  "por_tipo": [
   {
@@ -17,11 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.77
+   "pct_pn": 95.79
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.01
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.53
+   "pct_pn": 1.31
   },
   {
    "tipo": "Otros Activos",
@@ -36,62 +40,67 @@
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.55
-  },
-  {
-   "activo": "Bono del Tesoro Nacional T15E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.18
+   "pct_pn": 11.6
   },
   {
    "activo": "Bono Capitalizable T30J7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.61
+   "pct_pn": 10.5
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.55
+   "pct_pn": 10.48
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.87
+   "pct_pn": 9.92
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.69
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.19
+   "pct_pn": 9.24
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.41
+   "pct_pn": 6.42
   },
   {
    "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.16
+   "pct_pn": 5.19
   },
   {
    "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.97
+   "pct_pn": 4.91
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.59
+   "pct_pn": 3.6
   },
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.49
+   "pct_pn": 3.43
   },
   {
    "activo": "Bono Dual TXMJ8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.87
+   "pct_pn": 2.85
+  },
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.05
   },
   {
    "activo": "Bono Boncer 2028 TZXM8",
@@ -99,14 +108,14 @@
    "pct_pn": 1.89
   },
   {
-   "activo": "Bono Dual TXMJ0",
+   "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.54
+   "pct_pn": 1.62
   },
   {
-   "activo": "Bono Boncer 2029 TZXM9",
+   "activo": "Bono Dual TXMJ0",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.27
+   "pct_pn": 1.53
   },
   {
    "activo": "Bono Boncer TZXD8",
@@ -114,19 +123,19 @@
    "pct_pn": 0.85
   },
   {
-   "activo": "Bono Boncer TXMJ9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.77
-  },
-  {
-   "activo": "FCI Ciclo Nova Ahorro - Clase E",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.6
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.01
   },
   {
    "activo": "FF AySA S1",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.93
+   "pct_pn": 1.27
+  },
+  {
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.04
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

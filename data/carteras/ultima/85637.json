@@ -1,6 +1,6 @@
 {
  "fondo": "Schroder Patrimonio Dos",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Schroder S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 122653041130.26
+  "Peso Argentina": 123760974198.09
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.41
+   "pct_pn": 0.11
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.24
+   "pct_pn": 97.97
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.46
+   "pct_pn": 2.04
   },
   {
    "tipo": "Otros Activos",
@@ -36,57 +36,52 @@
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.34
+   "pct_pn": 27.52
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.77
+   "pct_pn": 24.76
   },
   {
-   "activo": "Bono Boncer TZXD6",
+   "activo": "Letra Tesoro Nac D15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.89
+   "pct_pn": 12.46
   },
   {
    "activo": "Bono del Tesoro Nacional TZVD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.97
+   "pct_pn": 10.03
   },
   {
    "activo": "Bono Entre Rios 9.55% 040333",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.44
+   "pct_pn": 6.27
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.11
   },
   {
    "activo": "Bono Prov Santa Fe 2027 SF27D",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.34
+   "pct_pn": 4.66
   },
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.28
+   "pct_pn": 4.29
   },
   {
    "activo": "ON Pampa Energia C26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.52
+   "pct_pn": 2.47
   },
   {
    "activo": "Bono Prov Entre R 2025 ERF25",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.4
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.19
-  },
-  {
-   "activo": "Lecer X30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.11
   },
   {
    "activo": "FCI Allaria Ahorro - Clase C",
@@ -101,7 +96,7 @@
   {
    "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.04
+   "pct_pn": 0.62
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

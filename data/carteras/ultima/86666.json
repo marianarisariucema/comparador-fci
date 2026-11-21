@@ -1,6 +1,6 @@
 {
  "fondo": "Schroder Crecimiento",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Schroder S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 79273099007.7
+  "Peso Argentina": 80026259004.77
  },
  "por_tipo": [
   {
@@ -17,11 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.32
+   "pct_pn": 91.3
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.39
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.75
+   "pct_pn": 4.39
   },
   {
    "tipo": "Otros Activos",
@@ -39,19 +43,14 @@
    "pct_pn": 21.95
   },
   {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.05
+  },
+  {
    "activo": "Bono Prov San Juan SJO35",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 17.21
-  },
-  {
-   "activo": "Lecer X30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.16
-  },
-  {
-   "activo": "Bono Boncer TX26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.89
+   "pct_pn": 17.37
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
@@ -59,29 +58,29 @@
    "pct_pn": 12.85
   },
   {
-   "activo": "ON Pampa Energia C26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.1
-  },
-  {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.94
+   "pct_pn": 7.89
+  },
+  {
+   "activo": "ON Pampa Energia C26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.01
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.75
+   "pct_pn": 2.72
   },
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.47
+   "pct_pn": 1.48
   },
   {
    "activo": "ON Tarj Naranja C67 S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.32
+   "pct_pn": 1.33
   },
   {
    "activo": "Letra Entre Rios ERE27",
@@ -91,12 +90,17 @@
   {
    "activo": "ON Telecom C18 TLCJO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.71
+   "pct_pn": 0.72
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 4.39
   },
   {
    "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.58
+   "pct_pn": 4.22
   },
   {
    "activo": "FF Megabono 333 Clase A",

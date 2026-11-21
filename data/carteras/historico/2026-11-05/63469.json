@@ -1,0 +1,116 @@
+{
+ "fondo": "Delta Moneda",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Delta Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 10906486067.91
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.17
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 100.35
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.1
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Prov de Buenos Aires TZV28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 24.5
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.3
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.09
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZVD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.52
+  },
+  {
+   "activo": "ON Telecom C14 TLCFO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.76
+  },
+  {
+   "activo": "ON San Miguel Serie 13 CA",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.38
+  },
+  {
+   "activo": "ON BBVA Frances Cl 48",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.46
+  },
+  {
+   "activo": "ON GEMSA y CTR C36",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.97
+  },
+  {
+   "activo": "ON Pan American C26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.92
+  },
+  {
+   "activo": "ON GEMSA Clase 24",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.62
+  },
+  {
+   "activo": "Letra Tesoro Nac D31M7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.82
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.81
+  },
+  {
+   "activo": "ON TGLT Clase 16",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.2
+  },
+  {
+   "activo": "ON Impsa Clase 7 2036",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI Pionero Pesos Plus - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.1
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63469",
+ "nombre_cnv": "DELTA MONEDA ",
+ "clave": "delta moneda"
+}

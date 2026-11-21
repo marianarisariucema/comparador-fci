@@ -1,6 +1,6 @@
 {
  "fondo": "Quiron Renta Mixta",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Quiron Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Variable",
@@ -8,24 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 1117523108.32
+  "Peso Argentina": 904449787.29
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.1
+   "pct_pn": 0.12
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.86
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 100.24
+   "pct_pn": 95.03
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.02
+   "pct_pn": 0.27
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": null
+   "pct_pn": 2.91
   },
   {
    "tipo": "Pasivos",
@@ -34,39 +38,39 @@
  ],
  "activos": [
   {
-   "activo": "Pampa Energia S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 16.65
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.86
   },
   {
-   "activo": "YPF S.A.",
+   "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.7
+   "pct_pn": 16.76
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 14.73
+   "pct_pn": 15.07
   },
   {
    "activo": "Cedear Shares MSCI Brazil ETF",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 12.59
-  },
-  {
-   "activo": "Grupo Financiero Galicia S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 11.94
+   "pct_pn": 11.8
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 11.48
+   "pct_pn": 11.49
   },
   {
    "activo": "Matba Rofex S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.89
+   "pct_pn": 10.32
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 9.31
   },
   {
    "activo": "Transportadora de Gas del Norte S.A.",
@@ -74,9 +78,24 @@
    "pct_pn": 7.26
   },
   {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 6.25
+  },
+  {
+   "activo": "Cedear Berkshire Hathaway",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.85
+  },
+  {
+   "activo": "Cedear Ishares FTSE/Xinhua China",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.92
+  },
+  {
    "activo": "FCI Premier Renta CP $ CC",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.02
+   "pct_pn": 0.27
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

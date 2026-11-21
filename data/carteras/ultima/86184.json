@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Verde y Sustentable ASG",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 3673193024.95
+  "Peso Argentina": 3711667080.4
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.92
+   "pct_pn": 1.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 81.94
+   "pct_pn": 82.0
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 17.29
+   "pct_pn": 17.03
   },
   {
    "tipo": "Otros Activos",
@@ -36,12 +36,12 @@
   {
    "activo": "ON YPF Luz Cl10",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.63
+   "pct_pn": 10.66
   },
   {
    "activo": "ON 360 Energy Solar C5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.61
+   "pct_pn": 10.52
   },
   {
    "activo": "ON Genneia Clase 37",
@@ -51,7 +51,7 @@
   {
    "activo": "ON San Miguel Serie 13 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.57
+   "pct_pn": 9.65
   },
   {
    "activo": "ON Club Atletico River Plate S1",
@@ -59,34 +59,34 @@
    "pct_pn": 8.5
   },
   {
-   "activo": "ON Genneia Clase 42",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.37
-  },
-  {
    "activo": "ON Plaza Logistica C2 ZPC2O",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.35
+   "pct_pn": 7.39
   },
   {
-   "activo": "ON GEMSA y CTR C43",
+   "activo": "ON Genneia Clase 42",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.36
+   "pct_pn": 7.39
   },
   {
    "activo": "ON 360 Energy Solar C4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.32
+   "pct_pn": 4.31
+  },
+  {
+   "activo": "ON GEMSA y CTR C43",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.31
   },
   {
    "activo": "ON Ecofactory S1 C2",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.19
+   "pct_pn": 4.2
   },
   {
    "activo": "ON Sumatoria C8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.33
+   "pct_pn": 2.32
   },
   {
    "activo": "ON Cloronor S1",
@@ -96,7 +96,7 @@
   {
    "activo": "ON Sumatoria C6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.04
+   "pct_pn": 1.05
   },
   {
    "activo": "ON Sumatoria C7 S2",
@@ -111,17 +111,12 @@
   {
    "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 10.95
+   "pct_pn": 10.75
   },
   {
    "activo": "FF Infraestructura Elec 14",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 6.31
-  },
-  {
-   "activo": "FCI Balanz Capital Money Market Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 6.28
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

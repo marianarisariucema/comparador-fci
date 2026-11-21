@@ -1,6 +1,6 @@
 {
  "fondo": "Pionero Retorno",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Macro Fondos S.G.F.C.I.S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Renta Fija",
@@ -8,32 +8,32 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 29232694114.63
+  "Peso Argentina": 26461546599.09
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.2
+   "pct_pn": 0.24
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 50.12
+   "pct_pn": 50.89
   },
   {
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.52
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.42
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 46.96
+   "pct_pn": 42.09
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.26
+   "pct_pn": 0.37
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 3.21
+   "pct_pn": null
   },
   {
    "tipo": "Pasivos",
@@ -44,97 +44,92 @@
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.97
+   "pct_pn": 16.64
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.94
+   "pct_pn": 9.91
   },
   {
    "activo": "Bonos Rep Argentina AE38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.92
+   "pct_pn": 9.16
   },
   {
    "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.52
+   "pct_pn": 7.18
   },
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.62
-  },
-  {
-   "activo": "Boncer TZXY7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.52
+   "pct_pn": 3.99
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.24
+   "pct_pn": 3.56
   },
   {
    "activo": "Bono Dual TXMJ0",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.39
+   "pct_pn": 0.44
   },
   {
-   "activo": "Bono Bonar 2029 AO29",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.52
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.42
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.0
+   "pct_pn": 13.23
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.36
+   "pct_pn": 8.57
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.83
+   "pct_pn": 5.25
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.71
+   "pct_pn": 4.03
   },
   {
    "activo": "Cedear ETF VanEck Semiconductors",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.9
-  },
-  {
-   "activo": "Cedear Vista Oil Gas",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.53
+   "pct_pn": 2.78
   },
   {
    "activo": "Cedear Google",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.42
+   "pct_pn": 2.4
+  },
+  {
+   "activo": "Cedear Vista Oil Gas",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.18
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.27
+   "pct_pn": 2.04
   },
   {
    "activo": "Grupo Supervielle S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.94
+   "pct_pn": 1.61
   },
   {
    "activo": "FCI Fima Premium Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.26
+   "pct_pn": 0.37
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

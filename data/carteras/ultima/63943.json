@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Capital Sudamericano",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,24 @@
  "region": "Latinoamerica",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 16493731.65
+  "Dolar Estadounidense": 16577595.59
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 4.92
+   "pct_pn": 4.25
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 78.73
+   "pct_pn": 66.24
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Cable",
+   "pct_pn": 12.08
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 18.21
+   "pct_pn": 18.03
   },
   {
    "tipo": "Otros Activos",
@@ -34,69 +38,69 @@
  ],
  "activos": [
   {
-   "activo": "UY Rep Or Uruguay 271027",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 15.25
-  },
-  {
    "activo": "BC Bco Credito e Inv 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 9.56
+   "pct_pn": 9.54
   },
   {
    "activo": "CL Rep Chile 28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 9.55
+   "pct_pn": 9.53
   },
   {
    "activo": "BR Rep Brasil 28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 9.19
-  },
-  {
-   "activo": "BC Enap 2029",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 8.62
+   "pct_pn": 9.12
   },
   {
    "activo": "PAR Rep del Paraguay 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 8.52
+   "pct_pn": 8.48
+  },
+  {
+   "activo": "BC Enap 2029",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 8.38
+  },
+  {
+   "activo": "UY Rep Or Uruguay 271027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 7.43
   },
   {
    "activo": "BR Bono Global 2027 10.12%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 6.5
-  },
-  {
-   "activo": "BC Adecoagro 2027",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 4.25
+   "pct_pn": 6.48
   },
   {
    "activo": "BC Latam Airlines 7.875%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 4.24
+   "pct_pn": 4.26
   },
   {
    "activo": "BC BTG 080429",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 3.06
+   "pct_pn": 3.03
   },
   {
-   "activo": "BC Falabella 2027",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.09
+   "activo": "Caucion Colocadora U$S Cable",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense Cable",
+   "pct_pn": 12.08
   },
   {
    "activo": "CL Rep Chile 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.07
+   "pct_pn": 6.05
   },
   {
    "activo": "Bono Corporativo 3.625% 010827",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.04
+   "pct_pn": 6.03
+  },
+  {
+   "activo": "BC Falabella 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 5.95
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

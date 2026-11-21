@@ -1,0 +1,89 @@
+{
+ "fondo": "Schroder Balanceado",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Schroder S.A.S.G.F.C.I.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 28894981372.41
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 2.96
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 74.56
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.03
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.39
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.27
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.42
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.72
+  },
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.72
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.71
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 19.03
+  },
+  {
+   "activo": "Edenor S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.01
+  },
+  {
+   "activo": "Metrogas S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.38
+  },
+  {
+   "activo": "FCI Balanz Capital Money Market Clase C",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.27
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63786",
+ "nombre_cnv": "Schroder Balanceado Fondo Común de Inversión",
+ "clave": "schroder balanceado"
+}

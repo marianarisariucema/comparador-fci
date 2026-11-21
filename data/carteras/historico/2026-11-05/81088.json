@@ -1,0 +1,87 @@
+{
+ "fondo": "Adcap Gestion Estrategica VIII",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 19430533245.77
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 100.03
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 25.84
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.97
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 20.65
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.64
+  },
+  {
+   "activo": "Lecap S26F7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.19
+  },
+  {
+   "activo": "ON Pampa Energia C29",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.44
+  },
+  {
+   "activo": "ON Arcor C7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.64
+  },
+  {
+   "activo": "ON YPF Clase 43",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.23
+  },
+  {
+   "activo": "ON Vaca Muerta C1",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.23
+  },
+  {
+   "activo": "ON Loma Negra C7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.22
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "81088",
+ "nombre_cnv": "ADCAP GESTIÓN ESTRATÉGICA VIII",
+ "clave": "adcap gestion estrategica viii"
+}

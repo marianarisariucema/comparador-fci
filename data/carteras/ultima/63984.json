@@ -1,6 +1,6 @@
 {
  "fondo": "Consultatio Gestion II",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 6989118.23
+  "Dolar Estadounidense": 6840644.3
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.83
+   "pct_pn": 1.78
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 85.08
+   "pct_pn": 83.76
   },
   {
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.06
+   "pct_pn": 0.96
   },
   {
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 6.66
+   "pct_pn": 6.2
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -33,7 +33,7 @@
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 6.44
+   "pct_pn": 7.32
   },
   {
    "tipo": "Pasivos",
@@ -44,32 +44,32 @@
   {
    "activo": "US Treasury Bill 180227",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 17.38
-  },
-  {
-   "activo": "ON Tecpetrol C12",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 15.67
+   "pct_pn": 17.78
   },
   {
    "activo": "BR Bono Global 2027 10.12%",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 15.34
+   "pct_pn": 15.68
+  },
+  {
+   "activo": "ON Tecpetrol C12",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 15.12
   },
   {
    "activo": "CL Rep Chile 2027",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 14.33
+   "pct_pn": 14.66
   },
   {
    "activo": "Bonos Rep Argentina GD35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 13.55
+   "pct_pn": 12.78
   },
   {
    "activo": "ON Vista Gas y Oil Arg C24",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.09
+   "pct_pn": 4.07
   },
   {
    "activo": "ON YPF Luz C18 YFCJO",
@@ -79,27 +79,27 @@
   {
    "activo": "ON Pan Amer. Energy C 12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.04
+   "pct_pn": 1.0
   },
   {
    "activo": "ARK Innovation",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 1.06
+   "pct_pn": 0.96
   },
   {
    "activo": "Spy SyP 500 ETF",
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 3.83
+   "pct_pn": 3.77
   },
   {
    "activo": "ETF PowerShares QQQ Trust Series",
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 1.51
+   "pct_pn": 1.42
   },
   {
    "activo": "Ishares MSCI Brasil",
    "tipo": "Certificados de Participacion Estados Unidos",
-   "pct_pn": 1.32
+   "pct_pn": 1.01
   },
   {
    "activo": "FCI Allaria Ahorro - Clase C",

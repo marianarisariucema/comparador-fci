@@ -1,6 +1,6 @@
 {
  "fondo": "Balanz Money Market USD",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Balanz S.G.F.C.I.S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 435332415.95
+  "Dolar Estadounidense": 358069964.05
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 25.69
+   "pct_pn": 18.82
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.85
+   "pct_pn": 6.17
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 68.48
+   "pct_pn": 73.67
   },
   {
    "tipo": "Otros Activos",
@@ -29,69 +29,64 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 1.34
   }
  ],
  "activos": [
   {
-   "activo": "US Treasury Bill 031126",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.85
-  },
-  {
    "activo": "US Treasury Bill 171126",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.85
+   "pct_pn": 1.03
   },
   {
    "activo": "US Treasury Bill 031226",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.85
+   "pct_pn": 1.03
   },
   {
    "activo": "US Treasury Bill 151226",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.85
+   "pct_pn": 1.03
   },
   {
    "activo": "US Treasury Bill 291226",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.84
+   "pct_pn": 1.03
   },
   {
    "activo": "US Treasury Bill 050127",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.84
+   "pct_pn": 1.03
   },
   {
-   "activo": "US Treasury Bill 241126",
+   "activo": "US Treasury Bill 120127",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.78
-  },
-  {
-   "activo": "Caucion Colocadora U$S Merval",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 18.84
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Nacion",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 18.84
+   "pct_pn": 1.03
   },
   {
    "activo": "Pzo Fi U$S Bco Galicia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 17.7
+   "pct_pn": 20.39
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 20.39
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 18.08
   },
   {
    "activo": "Pzo Fi U$S Bco Comafi",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 7.58
+   "pct_pn": 8.1
   },
   {
    "activo": "Pzo Fi $ Bco Patagonia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 5.52
+   "pct_pn": 6.7
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

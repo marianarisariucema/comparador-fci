@@ -1,6 +1,6 @@
 {
  "fondo": "Superfondo Combinado",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Santander Asset Management G.F.C.I.S.A.",
  "depositaria": "Banco Santander Argentina S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,28 +8,28 @@
  "region": "Global",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 32817968519.29
+  "Peso Argentina": 30911828813.18
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.8
+   "pct_pn": 1.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 73.49
+   "pct_pn": 73.66
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 22.85
+   "pct_pn": 22.11
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.18
+   "pct_pn": 3.88
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.07
+   "pct_pn": 0.04
   },
   {
    "tipo": "Pasivos",
@@ -38,194 +38,204 @@
  ],
  "activos": [
   {
-   "activo": "Bono Boncer 2027 TZXM7",
+   "activo": "Bono del Tesoro Nacional TZXO7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.24
+   "pct_pn": 16.61
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.02
-  },
-  {
-   "activo": "Bono Boncer TZXD6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.5
+   "pct_pn": 12.84
   },
   {
    "activo": "Bono Prov de Buenos Aires TZV28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.7
+   "pct_pn": 10.24
   },
   {
-   "activo": "Bono Boncer TZXS8",
+   "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.99
+   "pct_pn": 8.18
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.77
+   "pct_pn": 6.17
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.34
+   "pct_pn": 3.55
+  },
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.2
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.59
+   "pct_pn": 2.81
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.95
+   "pct_pn": 2.09
   },
   {
    "activo": "ON Oldelval Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.36
+   "pct_pn": 1.47
   },
   {
    "activo": "ON Petroqui C Rivadavia PQCOO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.34
+   "pct_pn": 1.45
   },
   {
    "activo": "ON Aluar Serie 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.09
+   "pct_pn": 1.18
   },
   {
    "activo": "ON FCA Comp. Finac CL 20 S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.01
+   "pct_pn": 1.09
   },
   {
    "activo": "ON Pan American C26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.88
+   "pct_pn": 0.95
   },
   {
    "activo": "ON CGC C 39",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.65
+   "pct_pn": 0.7
   },
   {
    "activo": "ON GEMSA y CTR C43",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.56
+   "pct_pn": 0.6
   },
   {
    "activo": "ON P. Aconcagua Energia C19",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.33
+   "pct_pn": 0.35
   },
   {
    "activo": "ON P. Aconcagua Energia C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.17
+   "pct_pn": 0.18
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.75
+   "pct_pn": 2.27
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.15
+   "pct_pn": 1.82
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.82
-  },
-  {
-   "activo": "Pampa Energia S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.67
+   "pct_pn": 1.74
   },
   {
    "activo": "Cedear Visa",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.62
+  },
+  {
+   "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 1.45
   },
   {
    "activo": "Cedear Procter y Gamble",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.93
-  },
-  {
-   "activo": "Bolsas y Mercados Argentinos S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.91
+   "pct_pn": 1.04
   },
   {
    "activo": "Cedear Amazon",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.8
-  },
-  {
-   "activo": "Transportadora Gas del Sur S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.7
+   "pct_pn": 0.9
   },
   {
    "activo": "Cedear Mc Donalds",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.67
+   "pct_pn": 0.81
   },
   {
-   "activo": "Transener S.A.",
+   "activo": "Bolsas y Mercados Argentinos S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.59
-  },
-  {
-   "activo": "Loma Negra S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.58
+   "pct_pn": 0.78
   },
   {
    "activo": "Cedear Amgen",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.53
+   "pct_pn": 0.6
+  },
+  {
+   "activo": "Transportadora Gas del Sur S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.6
   },
   {
    "activo": "Cedear JP Morgan",
    "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.57
+  },
+  {
+   "activo": "Loma Negra S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.56
+  },
+  {
+   "activo": "Cedear Walt Disney",
+   "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 0.52
   },
   {
-   "activo": "BBVA Argentina S.A.",
+   "activo": "Transener S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.5
+  },
+  {
+   "activo": "Cedear Citigroup",
    "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 0.49
   },
   {
    "activo": "Cedear Google",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.45
+  },
+  {
+   "activo": "BBVA Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.43
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.47
+   "pct_pn": 0.42
   },
   {
-   "activo": "Cedear Walt Disney",
+   "activo": "Cedear Microsoft",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.46
-  },
-  {
-   "activo": "Cedear Citigroup",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.46
+   "pct_pn": 0.39
   },
   {
    "activo": "Cedear The Boeing",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.4
+   "pct_pn": 0.38
+  },
+  {
+   "activo": "Cedear Home Depot",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.37
   },
   {
    "activo": "Cedear Facebook",
@@ -233,14 +243,14 @@
    "pct_pn": 0.37
   },
   {
-   "activo": "Cedear Microsoft",
+   "activo": "Cedear Johnson y Johnson",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.36
+   "pct_pn": 0.35
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.35
+   "pct_pn": 0.33
   },
   {
    "activo": "Cedear UnitedHealth",
@@ -248,64 +258,54 @@
    "pct_pn": 0.32
   },
   {
-   "activo": "Cedear Home Depot",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.32
-  },
-  {
-   "activo": "Cedear Johnson y Johnson",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.32
-  },
-  {
    "activo": "Cedear Bank Of America",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.27
-  },
-  {
-   "activo": "Cedear Caterpillar",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.27
+   "pct_pn": 0.29
   },
   {
    "activo": "Cedear Apple Inc",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.24
-  },
-  {
-   "activo": "Cedear Exxon",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.23
-  },
-  {
-   "activo": "Cedear Honey Well",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.2
+   "pct_pn": 0.26
   },
   {
    "activo": "Cedear 3M",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.2
+   "pct_pn": 0.24
+  },
+  {
+   "activo": "Cedear Caterpillar",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.23
+  },
+  {
+   "activo": "Cedear Exxon",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.22
+  },
+  {
+   "activo": "Cedear Honey Well",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.21
   },
   {
    "activo": "Cedear Chevron",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.18
+   "pct_pn": 0.17
   },
   {
    "activo": "Cedear The Coca Cola",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.12
+   "pct_pn": 0.13
   },
   {
    "activo": "Cedear Pfizer",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.09
+   "pct_pn": 0.1
   },
   {
    "activo": "Cresud S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.08
+   "pct_pn": 0.07
   },
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
@@ -320,7 +320,7 @@
   {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.18
+   "pct_pn": 3.88
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

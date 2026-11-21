@@ -1,6 +1,6 @@
 {
  "fondo": "CYC Renta Fija en Dolares",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "C y C Administradora de Fondos S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,16 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 542077187.39
+  "Peso Argentina": 541237022.09
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 20.73
+   "pct_pn": 15.9
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 78.35
+   "pct_pn": 78.17
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.11
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 0.85
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -36,42 +44,52 @@
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.11
+   "pct_pn": 27.05
   },
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.99
+   "pct_pn": 16.65
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.05
+   "pct_pn": 9.13
   },
   {
-   "activo": "Lecap S29E7",
+   "activo": "Letra Tamar TEM TMF28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.86
+   "pct_pn": 8.95
   },
   {
    "activo": "Bono del Tesoro 2.5% 2031",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.42
+   "pct_pn": 6.41
   },
   {
-   "activo": "Bono Boncer TZXO6",
+   "activo": "Bono Boncer TZXD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.29
+   "pct_pn": 5.35
   },
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.39
+   "pct_pn": 2.41
   },
   {
    "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 2.24
+  },
+  {
+   "activo": "Bonos Rep Argentina AE38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 4.11
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO27",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 0.85
   },
   {
    "activo": "FF Vicentin Export S8 A",

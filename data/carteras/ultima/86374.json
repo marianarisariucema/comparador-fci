@@ -1,6 +1,6 @@
 {
  "fondo": "Fima Renta Fija Dólares",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Galicia Asset Management S.A.U.",
  "depositaria": "Banco de Galicia y Buenos Aires S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 540545064.78
+  "Dolar Estadounidense": 537326516.98
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 2.21
+   "pct_pn": 2.4
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 89.98
+   "pct_pn": 90.27
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 7.6
+   "pct_pn": 7.65
   },
   {
    "tipo": "Otros Activos",
@@ -29,74 +29,74 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.21
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase B BPOB7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 5.03
+   "pct_pn": 4.76
   },
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase D BPOD7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.07
+   "pct_pn": 3.84
   },
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase C BPOC7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.5
-  },
-  {
-   "activo": "ON YPF Clase 42",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.11
+   "pct_pn": 3.36
   },
   {
    "activo": "ON Pluspetrol Clase 6",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.07
+   "pct_pn": 3.21
+  },
+  {
+   "activo": "ON YPF Clase 42",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 3.15
   },
   {
    "activo": "ON YPF Clase 43",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.78
-  },
-  {
-   "activo": "ON Tecpetrol C12",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 2.73
-  },
-  {
-   "activo": "ON Banco Macro Clase G",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.62
   },
   {
    "activo": "ON Oldelval Clase 7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.55
+   "pct_pn": 2.57
+  },
+  {
+   "activo": "ON Banco Macro Clase G",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.42
+  },
+  {
+   "activo": "ON Tecpetrol C12",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 2.28
   },
   {
    "activo": "ON Pampa Energia C27",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.92
-  },
-  {
-   "activo": "ON Central Puerto Clase D",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.84
-  },
-  {
-   "activo": "ON Profertil C3",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.82
+   "pct_pn": 1.94
   },
   {
    "activo": "ON Tecpetrol C13",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.81
+   "pct_pn": 1.88
+  },
+  {
+   "activo": "ON Central Puerto Clase D",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.79
+  },
+  {
+   "activo": "ON Profertil C3",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.77
   },
   {
    "activo": "ON Oldelval Clase 6",
@@ -114,19 +114,24 @@
    "pct_pn": 1.46
   },
   {
-   "activo": "ON Banco Macro Clase H Reg S",
+   "activo": "ON Telecom C23",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 1.41
   },
   {
-   "activo": "ON Telecom C23",
+   "activo": "ON Banco Macro Clase H Reg S",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.35
+   "pct_pn": 1.4
   },
   {
    "activo": "ON Vista Energy 33",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.33
+   "pct_pn": 1.34
+  },
+  {
+   "activo": "ON Tarj Naranja C67 S2",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.32
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 5",
@@ -134,114 +139,124 @@
    "pct_pn": 1.32
   },
   {
-   "activo": "ON Tarj Naranja C67 S2",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.31
-  },
-  {
    "activo": "ON Banco Nacion Argentina Clase 2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.19
-  },
-  {
-   "activo": "ON Pluspetrol Clase 5",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.1
-  },
-  {
-   "activo": "ON BBVA Frances Cl 44",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.09
+   "pct_pn": 1.16
   },
   {
    "activo": "ON BBVA Frances Cl 50",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.08
+   "pct_pn": 1.09
+  },
+  {
+   "activo": "ON Pluspetrol Clase 5",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.09
   },
   {
    "activo": "ON John Deere Cia. Fin C20",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.08
+  },
+  {
+   "activo": "ON BBVA Frances Cl 44",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 1.07
+  },
+  {
+   "activo": "ON Central Puerto Clase E",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.0
   },
   {
    "activo": "ON Transp Gas Sur Cl 3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.02
-  },
-  {
-   "activo": "ON Vista Gas y Oil Arg C29",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 1.01
+   "pct_pn": 0.96
   },
   {
    "activo": "ON Irsa Clase 25",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.94
+   "pct_pn": 0.95
   },
   {
-   "activo": "ON Oiltanking S3",
+   "activo": "ON Vista Gas y Oil Arg C29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.93
   },
   {
-   "activo": "ON Central Puerto Clase E",
+   "activo": "ON Oiltanking S3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.92
   },
   {
    "activo": "ON Arcor C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.91
+   "pct_pn": 0.92
+  },
+  {
+   "activo": "ON YPF Clase 32",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.88
   },
   {
    "activo": "ON Pan American C37",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.86
+  },
+  {
+   "activo": "ON ICBC Clase 6 220527",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.85
   },
   {
    "activo": "ON Pluspetrol Clase 1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.84
-  },
-  {
-   "activo": "ON ICBC Clase 6 220527",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.84
+   "pct_pn": 0.82
   },
   {
    "activo": "ON Vista Gas y Oil Arg C28",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.8
+   "pct_pn": 0.81
   },
   {
-   "activo": "ON Otamerica S6",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.77
-  },
-  {
-   "activo": "Bono Bopreal 2027 Serie 1 Clase A BPOA7",
+   "activo": "ON Pan American C35",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.76
   },
   {
    "activo": "ON YPF Clase 31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.75
+   "pct_pn": 0.74
   },
   {
-   "activo": "ON BBVA Frances Cl 40",
+   "activo": "Bono Bopreal 2027 Serie 1 Clase A BPOA7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.7
+   "pct_pn": 0.74
+  },
+  {
+   "activo": "ON Otamerica S6",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.74
   },
   {
    "activo": "ON Oldelval Clase 5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.71
+  },
+  {
+   "activo": "ON BBVA Frances Cl 40",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.71
+  },
+  {
+   "activo": "ON YPF Luz C23",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.67
   },
   {
-   "activo": "ON Telecom C30",
+   "activo": "ON Pampa Energia C22",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.66
+   "pct_pn": 0.67
   },
   {
    "activo": "ON ICBC Clase 9 280827",
@@ -249,14 +264,14 @@
    "pct_pn": 0.65
   },
   {
-   "activo": "ON Pampa Energia C22",
+   "activo": "ON Telecom C30",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.61
+   "pct_pn": 0.62
   },
   {
    "activo": "ON Telecom C29",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.6
+   "pct_pn": 0.61
   },
   {
    "activo": "ON John Deere Cia. Fin C16",
@@ -264,19 +279,14 @@
    "pct_pn": 0.58
   },
   {
-   "activo": "ON YPF Luz C23",
+   "activo": "ON Pan American C41",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.57
-  },
-  {
-   "activo": "ON Banco Hipotecario C12",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.57
+   "pct_pn": 0.56
   },
   {
    "activo": "ON Arcor Clase 26",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.56
+   "pct_pn": 0.55
   },
   {
    "activo": "ON Tecpetrol C8",
@@ -291,7 +301,7 @@
   {
    "activo": "ON Genneia Clase 47",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.51
+   "pct_pn": 0.52
   },
   {
    "activo": "ON Pluspetrol 8.5% 2032 (REGS)",
@@ -299,12 +309,12 @@
    "pct_pn": 0.51
   },
   {
-   "activo": "ON Capex C12",
+   "activo": "ON John Deere Cia. Fin C19",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.49
   },
   {
-   "activo": "ON John Deere Cia. Fin C19",
+   "activo": "ON Capex C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.49
   },
@@ -319,7 +329,12 @@
    "pct_pn": 0.48
   },
   {
-   "activo": "ON Pan American C41",
+   "activo": "ON YPF Luz C20",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.47
+  },
+  {
+   "activo": "ON Tecpetrol C11",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.47
   },
@@ -329,24 +344,14 @@
    "pct_pn": 0.47
   },
   {
-   "activo": "ON Otamerica S7",
+   "activo": "ON Supervielle Clase X",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.47
   },
   {
-   "activo": "ON Supervielle Clase X",
+   "activo": "ON Otamerica S7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.46
-  },
-  {
-   "activo": "ON YPF Clase 32",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.46
-  },
-  {
-   "activo": "ON Pan American C35",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.46
+   "pct_pn": 0.47
   },
   {
    "activo": "ON Mega C1",
@@ -359,9 +364,9 @@
    "pct_pn": 0.43
   },
   {
-   "activo": "ON Pan American C31",
+   "activo": "ON Telecom C25",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.43
+   "pct_pn": 0.41
   },
   {
    "activo": "ON Cresud S31 C47",
@@ -369,19 +374,9 @@
    "pct_pn": 0.41
   },
   {
-   "activo": "ON Telecom C25",
+   "activo": "ON Pan American C31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.41
-  },
-  {
-   "activo": "ON Tecpetrol C11",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.41
-  },
-  {
-   "activo": "ON YPF Luz C20",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.39
   },
   {
    "activo": "ON BBVA Frances Cl 39",
@@ -399,7 +394,17 @@
    "pct_pn": 0.38
   },
   {
+   "activo": "ON Banco Hipotecario C16",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.38
+  },
+  {
    "activo": "ON Pampa Energia C28",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.37
+  },
+  {
+   "activo": "ON Bco CMF Serie 20",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.37
   },
@@ -409,9 +414,14 @@
    "pct_pn": 0.37
   },
   {
-   "activo": "ON Bco CMF Serie 20",
+   "activo": "ON Genneia Clase 48",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.36
+   "pct_pn": 0.37
+  },
+  {
+   "activo": "US Treasury Note 300630",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.37
   },
   {
    "activo": "ON Bco Patagonia Cl 5",
@@ -419,14 +429,9 @@
    "pct_pn": 0.36
   },
   {
-   "activo": "US Treasury Note 300630",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.36
-  },
-  {
    "activo": "ON Pluspetrol Clase 2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.36
+   "pct_pn": 0.35
   },
   {
    "activo": "ON YPF Luz C24",
@@ -434,9 +439,14 @@
    "pct_pn": 0.32
   },
   {
-   "activo": "ON Luz De Tres Picos C5",
+   "activo": "ON Loma Negra C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.28
+   "pct_pn": 0.31
+  },
+  {
+   "activo": "ON YPF Clase 38",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.29
   },
   {
    "activo": "ON John Deere Cia. Fin C21",
@@ -454,12 +464,7 @@
    "pct_pn": 0.28
   },
   {
-   "activo": "ON YPF Clase 38",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.28
-  },
-  {
-   "activo": "ON Bco Patagonia Cl 4",
+   "activo": "ON Luz De Tres Picos C5",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.27
   },
@@ -481,7 +486,7 @@
   {
    "activo": "ON Scania Credit C2",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.23
+   "pct_pn": 0.24
   },
   {
    "activo": "ON Aeropuertos 2000 C11",
@@ -494,7 +499,7 @@
    "pct_pn": 0.19
   },
   {
-   "activo": "ON YPF Clase 37",
+   "activo": "ON Banco Hipotecario C12",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.19
   },
@@ -509,6 +514,11 @@
    "pct_pn": 0.19
   },
   {
+   "activo": "ON YPF Clase 37",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.19
+  },
+  {
    "activo": "ON Supervielle Clase W",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.19
@@ -517,11 +527,6 @@
    "activo": "ON MSU Energy C13",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.18
-  },
-  {
-   "activo": "ON Arcor C1 7.6%",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.16
   },
   {
    "activo": "ON Petroqui C Rivadavia PQCTO",
@@ -534,14 +539,24 @@
    "pct_pn": 0.15
   },
   {
-   "activo": "ON Petroqui C Rivadavia Clase S",
+   "activo": "ON Pluspetrol Clase 3",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.11
+   "pct_pn": 0.13
+  },
+  {
+   "activo": "ON Arcor C1 7.6%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.13
   },
   {
    "activo": "ON Aluar Serie 7",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
    "pct_pn": 0.1
+  },
+  {
+   "activo": "ON Petroqui C Rivadavia Clase S",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.09
   },
   {
    "activo": "ON Plaza Logistica C15",
@@ -559,19 +574,9 @@
    "pct_pn": 0.09
   },
   {
-   "activo": "ON Edenor C10 DNCAO",
+   "activo": "ON CT Barragan C10",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.08
-  },
-  {
-   "activo": "ON Genneia Clase 48",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.08
-  },
-  {
-   "activo": "ON Pluspetrol Clase 3",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.08
+   "pct_pn": 0.07
   },
   {
    "activo": "ON CGC C 36",
@@ -579,9 +584,9 @@
    "pct_pn": 0.07
   },
   {
-   "activo": "ON CT Barragan C10",
+   "activo": "ON Edenor C10 DNCAO",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.07
+   "pct_pn": 0.06
   },
   {
    "activo": "ON Pan American C34",
@@ -589,19 +594,29 @@
    "pct_pn": 0.04
   },
   {
+   "activo": "ON Bco Patagonia Cl 4",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "ON Cresud Clase 51",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 0.03
+  },
+  {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 5.1
+   "pct_pn": 5.14
   },
   {
    "activo": "Pzo Fi U$S Bco BBVA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 1.39
+   "pct_pn": 1.4
   },
   {
    "activo": "Pzo Fi U$S Bco Supervielle",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 1.11
+   "pct_pn": 1.12
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

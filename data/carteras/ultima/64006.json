@@ -1,6 +1,6 @@
 {
  "fondo": "Galileo Pesos",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 29404412190.85
+  "Peso Argentina": 23500371478.74
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 29.25
+   "pct_pn": 27.01
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 70.71
+   "pct_pn": 73.12
   },
   {
    "tipo": "Otros Activos",
@@ -25,44 +25,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.04
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Pzo Fi $ ICBC",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 17.27
-  },
-  {
-   "activo": "Pzo Fi $ Bco Galicia",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 13.05
-  },
-  {
-   "activo": "Pzo Fi $ Bco Nacion",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 11.75
-  },
-  {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 9.86
-  },
-  {
-   "activo": "Pzo Fi $ Bco Cordoba",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 8.9
-  },
-  {
-   "activo": "Pzo Fi $ Bco Santander Ri",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 6.93
+   "pct_pn": 21.79
   },
   {
    "activo": "Pzo Fi $ Bco Provincia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 2.93
+   "pct_pn": 13.71
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 13.66
+  },
+  {
+   "activo": "Pzo Fi $ Bco Galicia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 10.29
+  },
+  {
+   "activo": "Pzo Fi $ Bco Santander Ri",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 6.83
+  },
+  {
+   "activo": "Pzo Fi $ Bco Cordoba",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.43
+  },
+  {
+   "activo": "Pzo Fi $ Nvo Bco Santa Fe",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.4
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap Balanceado XX",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 63623245888.38
+  "Peso Argentina": 64409105593.29
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 54.08
+   "pct_pn": 54.04
   },
   {
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 40.21
+   "pct_pn": 40.24
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.8
+   "pct_pn": 1.2
   },
   {
    "tipo": "Otros Activos",
@@ -33,49 +33,49 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 2.91
+   "pct_pn": 4.52
   }
  ],
  "activos": [
   {
    "activo": "Pagare #MAV200170034",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.89
+   "pct_pn": 7.87
   },
   {
    "activo": "Pagare #MAV310170004",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.82
+   "pct_pn": 7.8
   },
   {
    "activo": "Pagare #MAV180270018",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.71
+   "pct_pn": 7.7
   },
   {
    "activo": "Pagare #MAV250270028",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.7
+   "pct_pn": 7.68
   },
   {
    "activo": "Pagare #MAV190370017",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.67
+   "pct_pn": 7.66
   },
   {
    "activo": "Pagare #MAV300370022",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.62
+   "pct_pn": 7.6
   },
   {
    "activo": "ON San Miguel Serie 13 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.27
+   "pct_pn": 4.3
   },
   {
    "activo": "ON Rizobacter S 11 CA",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.25
+   "pct_pn": 3.29
   },
   {
    "activo": "ON Refi Pampa S3 B",
@@ -95,27 +95,22 @@
   {
    "activo": "Pagare #UMV220170004",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 16.57
+   "pct_pn": 16.59
   },
   {
    "activo": "Pagare #UMV250170067",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 11.84
+   "pct_pn": 11.85
   },
   {
    "activo": "Pagare #UMV170270025",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 11.8
+   "pct_pn": 11.81
   },
   {
    "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.66
-  },
-  {
-   "activo": "FCI Balanz Capital Money Market Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.14
+   "pct_pn": 1.2
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

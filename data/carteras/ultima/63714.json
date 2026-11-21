@@ -1,6 +1,6 @@
 {
  "fondo": "Optimum Total Return",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Santander Asset Management G.F.C.I.S.A.",
  "depositaria": "Banco Santander Argentina S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 4337327379.45
+  "Peso Argentina": 2676343673.21
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 18.55
+   "pct_pn": 4.12
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 56.85
-  },
-  {
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.83
+   "pct_pn": 93.66
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.89
+   "pct_pn": 2.37
   },
   {
    "tipo": "Otros Activos",
@@ -40,37 +36,32 @@
   {
    "activo": "ON Pampa Energia C13",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.16
+   "pct_pn": 33.28
   },
   {
    "activo": "ON Telecom C12 TLCDO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.23
+   "pct_pn": 31.62
   },
   {
    "activo": "ON Oldelval Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.29
+   "pct_pn": 16.96
   },
   {
    "activo": "ON Vista Gas y Oil Arg C18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.17
-  },
-  {
-   "activo": "Caucion Colocadora $ Merval",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 19.83
-  },
-  {
-   "activo": "FCI Argenfunds Liquidez - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.52
+   "pct_pn": 11.79
   },
   {
    "activo": "FCI Schroder Liquidez - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.37
+   "pct_pn": 2.24
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.13
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

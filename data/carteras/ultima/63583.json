@@ -1,6 +1,6 @@
 {
  "fondo": "Quiron Fixed Income",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Quiron Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 2740370714.45
+  "Peso Argentina": 3826782351.68
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.71
+   "pct_pn": 0.51
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 89.99
+   "pct_pn": 97.95
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 14.61
+   "pct_pn": 36.62
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.72
+   "pct_pn": 1.12
   },
   {
    "tipo": "Otros Activos",
@@ -40,212 +40,247 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.66
+   "pct_pn": 14.36
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 10.48
   },
   {
    "activo": "Pagare #UMV251160007",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.03
+   "pct_pn": 7.26
+  },
+  {
+   "activo": "Bono Dual TXMJ8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.4
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AO28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.23
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMG27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.11
+  },
+  {
+   "activo": "Bono Prov de Buenos Aires TZV28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.31
   },
   {
    "activo": "ON CGC C 39",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.6
+   "pct_pn": 2.09
+  },
+  {
+   "activo": "Cheque E *MAV220101354",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.07
+  },
+  {
+   "activo": "Cheque E *MAV220300987",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.96
   },
   {
    "activo": "Pagare #UMV101260023",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.52
+   "pct_pn": 1.82
   },
   {
    "activo": "Pagare #UMV101260024",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.52
+   "pct_pn": 1.82
   },
   {
    "activo": "Pagare #UMV151260045",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.52
+   "pct_pn": 1.82
   },
   {
    "activo": "Pagare #UMV151260046",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.52
+   "pct_pn": 1.82
   },
   {
    "activo": "Pagare #UMV201260004",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.51
+   "pct_pn": 1.82
   },
   {
    "activo": "Pagare #UMV201260005",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.51
+   "pct_pn": 1.82
   },
   {
    "activo": "Pagare #UMV201260006",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.51
+   "pct_pn": 1.82
   },
   {
    "activo": "Pagare #UMV201260007",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.51
+   "pct_pn": 1.82
   },
   {
    "activo": "Pagare #UCU080470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.29
+   "pct_pn": 1.66
   },
   {
    "activo": "Pagare #UCU150470003",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.28
+   "pct_pn": 1.65
   },
   {
    "activo": "Pagare #UCU220470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.28
+   "pct_pn": 1.65
   },
   {
    "activo": "Pagare #UCU050570001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.28
+   "pct_pn": 1.65
   },
   {
    "activo": "Pagare #UCU120570001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.28
+   "pct_pn": 1.65
   },
   {
    "activo": "Pagare #USO280270001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.76
+   "pct_pn": 1.28
+  },
+  {
+   "activo": "Cheque E *MAV220401407",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.12
   },
   {
    "activo": "Pagare #UFA140470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.48
+   "pct_pn": 1.07
   },
   {
    "activo": "Pagare #UFA210470001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.48
-  },
-  {
-   "activo": "Pagare #UMV301060033",
-   "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 1.07
-  },
-  {
-   "activo": "Pagare #UMV061160012",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.07
-  },
-  {
-   "activo": "Pagare #UMV131160022",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.07
-  },
-  {
-   "activo": "Pagare #UMV271160026",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.06
   },
   {
    "activo": "Pagare #UMV201160032",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.06
+   "pct_pn": 0.77
+  },
+  {
+   "activo": "Pagare #UMV061160012",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.77
+  },
+  {
+   "activo": "Pagare #UMV131160022",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.77
+  },
+  {
+   "activo": "Pagare #UMV271160026",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.77
   },
   {
    "activo": "Pagare #UMV120270007",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.04
+   "pct_pn": 0.76
   },
   {
    "activo": "Pagare #UMV010370014",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.04
+   "pct_pn": 0.75
   },
   {
    "activo": "Pagare #UMV050370021",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.04
+   "pct_pn": 0.75
   },
   {
    "activo": "Pagare #UMV260270020",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.04
+   "pct_pn": 0.75
   },
   {
    "activo": "Pagare #UMV190270011",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.04
-  },
-  {
-   "activo": "Pagare #UMV140770005",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.02
-  },
-  {
-   "activo": "Pagare #UMV150770061",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.02
-  },
-  {
-   "activo": "Pagare #UMV180670004",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.02
-  },
-  {
-   "activo": "Pagare #UMV190770009",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.02
+   "pct_pn": 0.75
   },
   {
    "activo": "Pagare #UMO160770001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.02
+   "pct_pn": 0.74
+  },
+  {
+   "activo": "Pagare #UMV140770005",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.74
+  },
+  {
+   "activo": "Pagare #UMV150770061",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.74
+  },
+  {
+   "activo": "Pagare #UMV180670004",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.74
+  },
+  {
+   "activo": "Pagare #UMV190770009",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.74
   },
   {
    "activo": "Pagare #UMV220770008",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.01
-  },
-  {
-   "activo": "Pagare #UMO230770002",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.77
+   "pct_pn": 0.73
   },
   {
    "activo": "Pagare #UAB090770001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.77
+   "pct_pn": 0.56
   },
   {
    "activo": "Pagare #UMO300770001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.76
+   "pct_pn": 0.55
+  },
+  {
+   "activo": "Pagare #UMO230770002",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.55
   },
   {
    "activo": "Pagare #USO160570001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.5
+   "pct_pn": 0.36
   },
   {
    "activo": "ON Red Surcos S12 Clase A",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 0.02
   },
   {
-   "activo": "Pase Colocador ARS BYMA",
+   "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 14.61
+   "pct_pn": 36.62
   },
   {
    "activo": "FCI Premier Renta CP $ CC",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.72
+   "pct_pn": 1.12
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

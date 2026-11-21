@@ -1,0 +1,96 @@
+{
+ "fondo": "Tango Ahorro Plus",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Tango Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 5187208772.9
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 94.07
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 6.0
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecap S26F7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 26.22
+  },
+  {
+   "activo": "Pagare #MAV101260086",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.82
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.87
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.64
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.41
+  },
+  {
+   "activo": "Pagare #MAV241160071",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.76
+  },
+  {
+   "activo": "Pagare #MAV241160072",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.76
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.68
+  },
+  {
+   "activo": "Pagare #MAV171160082",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.91
+  },
+  {
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 4.04
+  },
+  {
+   "activo": "FCI Unico Liquidez Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.96
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88499",
+ "nombre_cnv": "TANGO AHORRO PLUS",
+ "clave": "tango ahorro plus"
+}

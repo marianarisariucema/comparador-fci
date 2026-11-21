@@ -1,6 +1,6 @@
 {
  "fondo": "Puente Liquidez Pesos",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Puente Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 74042562582.79
+  "Peso Argentina": 81819926723.36
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 18.01
+   "pct_pn": 22.13
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 81.91
+   "pct_pn": 77.87
   },
   {
    "tipo": "Otros Activos",
@@ -25,39 +25,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.08
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "Pase Colocador ARS BYMA",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 20.26
-  },
-  {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 17.56
+   "pct_pn": 20.04
+  },
+  {
+   "activo": "Pase Colocador ARS BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 18.33
   },
   {
    "activo": "Pzo Fi $ Bco Santander Ri",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 16.7
-  },
-  {
-   "activo": "Pzo Fi $ Bco Nacion",
-   "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 12.03
+   "pct_pn": 10.06
   },
   {
    "activo": "Pzo Fi $ Bco Galicia",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 10.73
+   "pct_pn": 9.79
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 9.42
   },
   {
    "activo": "Pzo Fi $ ICBC",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.64
+   "pct_pn": 7.9
+  },
+  {
+   "activo": "Pzo Fi $ Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.32
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

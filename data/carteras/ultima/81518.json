@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Adblick Granos FCIC Agropecuario",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Cerrado",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 2722.23
+  "Dolar Estadounidense": 11326.65
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 88.23
+   "pct_pn": 21.18
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 11.77
+   "pct_pn": 78.82
   },
   {
    "tipo": "Otros Activos",
@@ -30,14 +30,19 @@
  ],
  "activos": [
   {
+   "activo": "FCI Premier Renta CP $ CC",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 76.01
+  },
+  {
    "activo": "FCI Gainvest Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 10.1
+   "pct_pn": 2.41
   },
   {
    "activo": "FCI Premier Renta CP $ CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.67
+   "pct_pn": 0.4
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

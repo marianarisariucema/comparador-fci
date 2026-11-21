@@ -1,0 +1,105 @@
+{
+ "fondo": "Axis Estrategia 25",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Axis S.G.F.C.I.S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 10265463967.41
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.12
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 63.72
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 12.37
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 21.49
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 2.3
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 28.57
+  },
+  {
+   "activo": "Lecap S26F7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 19.63
+  },
+  {
+   "activo": "Pagare #UMV270460026",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.81
+  },
+  {
+   "activo": "Pagare #UMV250360065",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.71
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 12.37
+  },
+  {
+   "activo": "Cedear Facebook",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.8
+  },
+  {
+   "activo": "Cedear Google",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.4
+  },
+  {
+   "activo": "Cedear Nvidia Corp.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.15
+  },
+  {
+   "activo": "Cedear Shares MSCI Brazil ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.59
+  },
+  {
+   "activo": "Cedear ASML",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.52
+  },
+  {
+   "activo": "Cedear Micron Technology",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 2.26
+  },
+  {
+   "activo": "Cedear Oracle",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.77
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86699",
+ "nombre_cnv": "AXIS ESTRATEGIA 25",
+ "clave": "axis estrategia 25"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "Numancia Pesos IV",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Zofingen Investment S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 38837798739.86
+  "Peso Argentina": 39289343521.97
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 99.9
+   "pct_pn": 99.93
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.16
+   "pct_pn": 0.11
   },
   {
    "tipo": "Otros Activos",
@@ -59,6 +59,31 @@
    "pct_pn": 7.57
   },
   {
+   "activo": "Pagare #UMV061080002",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 6.82
+  },
+  {
+   "activo": "Pagare #UMV091080003",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 6.82
+  },
+  {
+   "activo": "Pagare #UMV101080008",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 6.82
+  },
+  {
+   "activo": "Pagare #UMV111080001",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 6.81
+  },
+  {
+   "activo": "Pagare #UMV121080002",
+   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
+   "pct_pn": 6.81
+  },
+  {
    "activo": "Pagare #UMV131080001",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
    "pct_pn": 6.81
@@ -70,31 +95,6 @@
   },
   {
    "activo": "Pagare #UMV171080001",
-   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 6.81
-  },
-  {
-   "activo": "Pagare #UMV061080002",
-   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 6.81
-  },
-  {
-   "activo": "Pagare #UMV091080003",
-   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 6.81
-  },
-  {
-   "activo": "Pagare #UMV101080008",
-   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 6.81
-  },
-  {
-   "activo": "Pagare #UMV111080001",
-   "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
-   "pct_pn": 6.81
-  },
-  {
-   "activo": "Pagare #UMV121080002",
    "tipo": "Titulos de Deuda en Dolar 3500 BCRA",
    "pct_pn": 6.81
   },
@@ -111,7 +111,7 @@
   {
    "activo": "FCI Ciclo Nova Ahorro - Clase E",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.16
+   "pct_pn": 0.11
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

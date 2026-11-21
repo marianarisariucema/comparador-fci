@@ -1,6 +1,6 @@
 {
- "fondo": "Gainvest Balanceado V",
- "fecha_cartera": "2026-10-23",
+ "fondo": "Stonex Balanceado V",
+ "fecha_cartera": "2026-11-05",
  "gerente": "StoneX Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,16 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 5705018069.9
+  "Peso Argentina": 10701619404.64
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 6.72
+   "pct_pn": 1.85
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 93.4
+   "pct_pn": 61.39
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 28.16
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 8.67
   },
   {
    "tipo": "Otros Activos",
@@ -32,27 +40,52 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.67
+   "pct_pn": 16.3
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.29
+   "pct_pn": 16.17
   },
   {
    "activo": "Bono CER TZX27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.2
+   "pct_pn": 11.4
   },
   {
-   "activo": "Bono Boncer TZXO6",
+   "activo": "Pagare #MAV291260048",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 19.33
+   "pct_pn": 5.38
   },
   {
-   "activo": "Pagare #MAV161160042",
+   "activo": "Bono del Tesoro Nacional TZV27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.91
+   "pct_pn": 4.76
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.71
+  },
+  {
+   "activo": "Pagare #MAV291260035",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.68
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 18.81
+  },
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 9.34
+  },
+  {
+   "activo": "Cedear Shares MSCI Brazil ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 8.67
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

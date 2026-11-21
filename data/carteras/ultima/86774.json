@@ -1,6 +1,6 @@
 {
  "fondo": "SBS Patrimonio IX",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 53480519864.73
+  "Peso Argentina": 54309653469.92
  },
  "por_tipo": [
   {
@@ -17,11 +17,11 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.54
+   "pct_pn": 98.6
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.69
+   "pct_pn": 1.16
   },
   {
    "tipo": "Otros Activos",
@@ -29,69 +29,69 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.54
+   "pct_pn": 0.01
   }
  ],
  "activos": [
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.36
+   "pct_pn": 20.52
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 15.86
   },
   {
    "activo": "ON Vista Gas y Oil Arg C18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.98
-  },
-  {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.83
+   "pct_pn": 12.95
   },
   {
    "activo": "ON Pan American C33",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.75
+   "pct_pn": 8.74
   },
   {
    "activo": "Letra Tesoro Nac D31M7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.94
-  },
-  {
-   "activo": "Pagare $MAV291260018",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.35
+   "pct_pn": 5.95
   },
   {
    "activo": "ON Aluar Serie 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.33
+   "pct_pn": 5.34
+  },
+  {
+   "activo": "Pagare $MAV291260018",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.31
   },
   {
    "activo": "ON Oldelval Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.68
+   "pct_pn": 4.66
   },
   {
    "activo": "ON Telecom C12 TLCDO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.66
+   "pct_pn": 4.65
   },
   {
    "activo": "Pagare $MAV101260039",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.61
+   "pct_pn": 3.59
   },
   {
    "activo": "ON Vista Gas y Oil Arg C21",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.06
+   "pct_pn": 3.04
   },
   {
    "activo": "ON Pan Amer. Energy C 18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.22
+   "pct_pn": 2.21
   },
   {
    "activo": "ON Vista Gas y Oil Arg C25",
@@ -111,7 +111,7 @@
   {
    "activo": "ON YPF Luz Clase 14",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.08
+   "pct_pn": 1.07
   },
   {
    "activo": "ON YPF Clase XXVI",
@@ -121,12 +121,12 @@
   {
    "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.4
+   "pct_pn": 0.88
   },
   {
    "activo": "FCI Cocos Dólar Money Market - Clase C",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.29
+   "pct_pn": 0.28
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

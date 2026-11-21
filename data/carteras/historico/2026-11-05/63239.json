@@ -1,0 +1,96 @@
+{
+ "fondo": "Fima Balanceado",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Galicia Asset Management S.A.U.",
+ "depositaria": "Banco de Galicia y Buenos Aires S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 11986489256.14
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.62
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 97.72
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.53
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 0.13
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.41
+  },
+  {
+   "activo": "Bono Boncer 2027 TZXM7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 14.01
+  },
+  {
+   "activo": "Boncer TZXY7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.9
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZV27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.83
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.35
+  },
+  {
+   "activo": "Bono Prov Mendoza TAMAR C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.82
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.34
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.81
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.25
+  },
+  {
+   "activo": "FF Mercado Credito 44 CA",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.37
+  },
+  {
+   "activo": "FCI Pionero Pesos - Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.16
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63239",
+ "nombre_cnv": "HF BALANCEADO",
+ "clave": "hf balanceado"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "MAF Renta Fija Cobertura",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Mariva Asset Management S.A.U.S.G.F.C.I.",
  "depositaria": "Banco Mariva S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 1417253405.18
+  "Peso Argentina": 1430560090.62
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.02
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 95.73
+   "pct_pn": 94.26
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.06
+   "pct_pn": 6.08
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -38,34 +38,29 @@
  ],
  "activos": [
   {
-   "activo": "ON CGC C 39",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.48
-  },
-  {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 18.27
+   "pct_pn": 33.47
   },
   {
-   "activo": "Lelink D30O6",
+   "activo": "ON CGC C 39",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.85
+   "pct_pn": 24.6
   },
   {
    "activo": "ON Oldelval Clase 3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.86
+   "pct_pn": 13.9
   },
   {
    "activo": "ON Pan Amer. Energy C 18",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.82
+   "pct_pn": 10.83
   },
   {
    "activo": "ON Petroqui C Rivadavia PQCOO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.54
+   "pct_pn": 5.56
   },
   {
    "activo": "Lecap S13N6",
@@ -85,7 +80,7 @@
   {
    "activo": "ON Telecom C12 TLCDO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.32
+   "pct_pn": 0.33
   },
   {
    "activo": "ON Vista Gas y Oil Arg C18",
@@ -105,12 +100,12 @@
   {
    "activo": "ON Central Dock Sud C1",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.76
+   "pct_pn": 2.77
   },
   {
    "activo": "ON Bco Serv Transac C31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 2.21
+   "pct_pn": 2.22
   },
   {
    "activo": "Bono del Tesoro Nacional AO27",

@@ -1,6 +1,6 @@
 {
  "fondo": "Argenfunds Liquidez Dólares",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Argenfunds S.A.",
  "depositaria": "Banco Macro S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 2106782.75
+  "Dolar Estadounidense": 2145605.49
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 44.01
+   "pct_pn": 25.91
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 56.03
+   "pct_pn": 74.13
   },
   {
    "tipo": "Otros Activos",
@@ -30,39 +30,44 @@
  ],
  "activos": [
   {
-   "activo": "Pzo Fi U$S Bco CMF",
+   "activo": "Pzo Fi U$S Bco Hipotecario",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 19.0
-  },
-  {
-   "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 9.5
+   "pct_pn": 18.65
   },
   {
    "activo": "Caucion Colocadora U$S BYMA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 9.49
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Hipot",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 7.12
-  },
-  {
-   "activo": "Pzo Fi $ Bco Mariva",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 4.75
+   "pct_pn": 18.64
   },
   {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.8
+   "pct_pn": 11.66
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 6.99
+  },
+  {
+   "activo": "Pzo Fi $ Bco Mariva",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 6.53
+  },
+  {
+   "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.66
+  },
+  {
+   "activo": "Pzo Fi U$S Bco CMF",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.66
   },
   {
    "activo": "Pzo Fi U$S Bco Coinag",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 2.37
+   "pct_pn": 2.33
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

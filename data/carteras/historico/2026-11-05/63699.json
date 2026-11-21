@@ -1,0 +1,76 @@
+{
+ "fondo": "Gainvest Capital",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "StoneX Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 2225841.99
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 5.01
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.44
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 74.28
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 12.27
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bonos Rep Argentina GD38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.44
+  },
+  {
+   "activo": "Ternium Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 18.77
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 17.45
+  },
+  {
+   "activo": "BBVA Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 11.32
+  },
+  {
+   "activo": "Pampa Energia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 11.15
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 10.33
+  },
+  {
+   "activo": "Loma Negra S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.26
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63699",
+ "nombre_cnv": "Gainvest Capital Fondo Común de Inversión",
+ "clave": "gainvest capital"
+}

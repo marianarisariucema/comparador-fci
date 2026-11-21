@@ -1,6 +1,6 @@
 {
  "fondo": "Adcap ASB Multiactivo",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Adcap Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 3097546080.61
+  "Peso Argentina": 2618460415.5
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.05
+   "pct_pn": 0.21
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.85
+   "pct_pn": 5.07
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 94.6
+   "pct_pn": 94.36
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.74
+   "pct_pn": 0.43
   },
   {
    "tipo": "Otros Activos",
@@ -40,57 +40,57 @@
   {
    "activo": "Bono Bopreal 2027 Serie 1 Clase D BPOD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.85
+   "pct_pn": 5.07
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 19.82
-  },
-  {
-   "activo": "Transportadora Gas del Sur S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.61
+   "pct_pn": 19.16
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 15.41
+   "pct_pn": 15.14
   },
   {
-   "activo": "Cedear Mercado Libre",
+   "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 10.23
+   "pct_pn": 14.9
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 10.0
+   "pct_pn": 10.49
+  },
+  {
+   "activo": "Cedear Mercado Libre",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 10.33
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.4
+   "pct_pn": 10.12
   },
   {
    "activo": "Telecom Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.87
-  },
-  {
-   "activo": "Transener S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.68
+   "pct_pn": 5.15
   },
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.58
+   "pct_pn": 4.65
+  },
+  {
+   "activo": "Transener S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 4.42
   },
   {
    "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.74
+   "pct_pn": 0.43
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

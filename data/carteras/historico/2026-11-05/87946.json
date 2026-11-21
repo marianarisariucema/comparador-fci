@@ -1,0 +1,67 @@
+{
+ "fondo": "Cocos Renta Dólar",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Cocos Asset Management S.A.",
+ "depositaria": "Banco Comafi S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 512487.18
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 32.6
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 71.59
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 24.53
+  },
+  {
+   "activo": "Cedear Shares MSCI Brazil ETF",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 18.0
+  },
+  {
+   "activo": "Cedear Itau Unibanco Holdings",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 9.41
+  },
+  {
+   "activo": "Cedear Vale R Doce ON N1",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 8.87
+  },
+  {
+   "activo": "Cedear Banco BTG Pactual",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.64
+  },
+  {
+   "activo": "Cedear ADR Itau Unibanco Holding",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 5.14
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "87946",
+ "nombre_cnv": "COCOS BRASIL FCI",
+ "clave": "cocos brasil"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Estrategia 4",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 11337847265.16
+  "Peso Argentina": 11403187476.69
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.07
+   "pct_pn": 0.05
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 98.73
+   "pct_pn": 98.98
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.16
+   "pct_pn": 0.91
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.14
+   "pct_pn": 0.08
   },
   {
    "tipo": "Otros Activos",
@@ -40,50 +40,45 @@
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.41
+   "pct_pn": 29.54
   },
   {
-   "activo": "Bono Boncer TZXD6",
+   "activo": "Lecap S26F7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.36
-  },
-  {
-   "activo": "Letra Tesoro Nac T30A7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.2
+   "pct_pn": 26.51
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.17
+   "pct_pn": 21.09
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.21
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.65
-  },
-  {
-   "activo": "Bono del Tesoro Nacional TMVE8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.92
+   "pct_pn": 9.62
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.65
+   "pct_pn": 0.5
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.51
+   "pct_pn": 0.41
+  },
+  {
+   "activo": "FCI MAF Money Market - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.04
   },
   {
    "activo": "FCI ST Zero - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.1
-  },
-  {
-   "activo": "FCI Balanz Capital Money Market Clase C",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.04
   }

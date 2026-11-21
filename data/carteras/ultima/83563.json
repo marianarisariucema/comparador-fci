@@ -1,6 +1,6 @@
 {
  "fondo": "First Renta Mixta VIII",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "First Capital Markets S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 63593306107.84
+  "Peso Argentina": 57446172074.07
  },
  "por_tipo": [
   {
@@ -17,15 +17,19 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 75.59
+   "pct_pn": 65.08
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.19
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 22.04
+   "pct_pn": 19.34
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.38
+   "pct_pn": 6.25
   },
   {
    "tipo": "Otros Activos",
@@ -33,92 +37,77 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 7.13
   }
  ],
  "activos": [
   {
-   "activo": "Lecap S13N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.41
-  },
-  {
-   "activo": "Lecap S30N6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.88
-  },
-  {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.62
+   "pct_pn": 10.72
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.83
+   "pct_pn": 9.86
+  },
+  {
+   "activo": "Lecap S30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.43
   },
   {
    "activo": "Lelink D30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.41
+   "pct_pn": 8.33
   },
   {
    "activo": "Bono Dual TTD26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.98
+   "pct_pn": 7.8
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.38
+   "pct_pn": 7.14
   },
   {
    "activo": "Lecer X30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.51
-  },
-  {
-   "activo": "Bono Boncer TZXO6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.47
+   "pct_pn": 6.15
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.06
+   "pct_pn": 5.65
   },
   {
-   "activo": "Lelink D30O6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 2.19
   },
   {
    "activo": "US Treasury Bill 101226",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 10.06
+   "pct_pn": 11.26
   },
   {
    "activo": "US Treasury Bill 271126",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.21
-  },
-  {
-   "activo": "US Treasury Bill 121126",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 4.78
+   "pct_pn": 8.07
   },
   {
    "activo": "FCI Tango Money Market Dinámico - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.83
+   "pct_pn": 4.67
   },
   {
    "activo": "FF Waynimovil S14 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.16
+   "pct_pn": 0.17
   },
   {
-   "activo": "FF Gocreditos Clase A",
+   "activo": "FF Elebar XVII Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.15
   },
@@ -128,24 +117,24 @@
    "pct_pn": 0.14
   },
   {
-   "activo": "FF Elebar XVII Clase A",
+   "activo": "FF Gocreditos Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.13
+   "pct_pn": 0.14
   },
   {
    "activo": "FF Creditech S7 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.12
+   "pct_pn": 0.13
   },
   {
    "activo": "FF Mercado Credito 49 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.12
+   "pct_pn": 0.13
   },
   {
    "activo": "FF Mercado Credito 51 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.12
+   "pct_pn": 0.13
   },
   {
    "activo": "FF Consubond S202 Clase A",
@@ -153,9 +142,19 @@
    "pct_pn": 0.11
   },
   {
-   "activo": "FF Megabono 348 Clase A",
+   "activo": "FF San Cristobal S2 CA",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.09
+  },
+  {
+   "activo": "FF Moni Mobile 18 A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.08
+  },
+  {
+   "activo": "FF Megabono 348 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.08
   },
   {
    "activo": "FF Megabono 351 Clase A",
@@ -163,27 +162,17 @@
    "pct_pn": 0.08
   },
   {
-   "activo": "FF San Cristobal S2 CA",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.08
-  },
-  {
-   "activo": "FF Moni Mobile 18 A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.07
-  },
-  {
-   "activo": "FF Consubond S200 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "FF Megabono 344 Clase A",
+   "activo": "FF Confibono S86 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.05
   },
   {
-   "activo": "FF Confibono S86 Clase A",
+   "activo": "FF Consubond S200 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "FF Megabono 344 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.04
   },
@@ -191,11 +180,6 @@
    "activo": "FF Megabono 333 Clase A",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.02
-  },
-  {
-   "activo": "FF AMFAyS S49 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.01
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

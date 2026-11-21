@@ -1,6 +1,6 @@
 {
- "fondo": "Gainvest Crecimiento II",
- "fecha_cartera": "2026-10-23",
+ "fondo": "Stonex Crecimiento II",
+ "fecha_cartera": "2026-11-05",
  "gerente": "StoneX Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,28 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 52710009760.87
+  "Peso Argentina": 55562790867.07
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.79
+   "pct_pn": 0.77
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 75.89
+   "pct_pn": 79.14
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.66
+   "pct_pn": 4.48
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 17.99
+   "pct_pn": 14.63
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": null
+   "pct_pn": 14.93
   },
   {
    "tipo": "Pasivos",
@@ -38,187 +38,177 @@
  ],
  "activos": [
   {
-   "activo": "Bono Boncer TZX28",
+   "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.84
+   "pct_pn": 15.27
+  },
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.88
   },
   {
    "activo": "Bono Boncer TZXD6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 12.97
+   "pct_pn": 12.42
   },
   {
-   "activo": "Bono Boncer TZXS8",
+   "activo": "Pagare #MAV101260108",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.32
-  },
-  {
-   "activo": "Bono del Tesoro Nacional T15E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.69
+   "pct_pn": 8.78
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.65
+   "pct_pn": 6.37
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.41
+   "pct_pn": 6.12
   },
   {
-   "activo": "Bono Dual TXMJ0",
+   "activo": "Lecap S30N6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.85
+   "pct_pn": 4.62
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.07
+   "pct_pn": 3.86
   },
   {
    "activo": "Pagare #MAV241160050",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.7
+   "pct_pn": 3.55
   },
   {
-   "activo": "Bono Boncer TXMJ9",
+   "activo": "Pagare #MAV040170038",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.61
+   "pct_pn": 2.57
   },
   {
    "activo": "ON NewSan Clase 23",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.0
+   "pct_pn": 0.96
   },
   {
    "activo": "ON Mirgor Clase 7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.78
+   "pct_pn": 0.75
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.32
+   "pct_pn": 2.57
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.43
+   "pct_pn": 1.12
   },
   {
    "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.91
-  },
-  {
-   "activo": "FCI Delta $ - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 4.78
+   "pct_pn": 0.79
   },
   {
    "activo": "FF Mercado Credito 53 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.73
+   "pct_pn": 3.58
+  },
+  {
+   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.73
   },
   {
    "activo": "FF Megabono 343 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.0
+   "pct_pn": 1.41
   },
   {
    "activo": "FF Mercado Credito 46 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.19
-  },
-  {
-   "activo": "FF Megabono 347 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.0
+   "pct_pn": 1.14
   },
   {
    "activo": "FF Megabono 354 Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.96
+   "pct_pn": 0.92
   },
   {
-   "activo": "FF Megabono 345 Clase A",
+   "activo": "FF Megabono 347 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.81
+   "pct_pn": 0.77
+  },
+  {
+   "activo": "FCI Unico Liquidez Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.73
   },
   {
    "activo": "FF Prendo S1 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.8
+   "pct_pn": 0.67
+  },
+  {
+   "activo": "FF Megabono 345 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.59
   },
   {
    "activo": "FF Megabono 359 Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.58
+   "pct_pn": 0.56
   },
   {
    "activo": "FF Confibono S86 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.43
+   "pct_pn": 0.41
   },
   {
    "activo": "FF Centrocard Creditos S8",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.42
-  },
-  {
-   "activo": "FF Centrocard Creditos S7",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.34
   },
   {
    "activo": "FF Metalcred 17A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.29
+  },
+  {
+   "activo": "FF Centrocard Creditos S7",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.24
   },
   {
    "activo": "FF Megabono 331 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.19
+   "pct_pn": 0.1
   },
   {
    "activo": "FF Megabono 324 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.17
-  },
-  {
-   "activo": "FF Fiducar 30 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.1
+   "pct_pn": 0.09
   },
   {
    "activo": "FF Megabono 329 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.07
+   "pct_pn": 0.02
   },
   {
    "activo": "FF Megabono 340 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.06
-  },
-  {
-   "activo": "FF Megabono 320 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.02
   },
   {
-   "activo": "FF Megabono 327 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.02
-  },
-  {
-   "activo": "FCI Adcap Ahorro Pesos - Clase I",
+   "activo": "FCI Allaria Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.01
   },
   {
-   "activo": "FCI Allaria Ahorro - Clase C",
+   "activo": "FCI Delta $ - Clase B",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.01
   }

@@ -1,6 +1,6 @@
 {
  "fondo": "Consultatio Renta Dolares",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Consultatio Asset Management S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 81775953033.6
+  "Peso Argentina": 81509238924.15
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.02
+   "pct_pn": 0.19
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.57
+   "pct_pn": 98.06
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 9.87
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.47
+   "pct_pn": 2.01
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": null
+   "pct_pn": 0.04
   },
   {
    "tipo": "Otros Activos",
@@ -40,67 +44,72 @@
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.51
+   "pct_pn": 29.6
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 27.48
+   "pct_pn": 22.66
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZXO7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.17
   },
   {
    "activo": "ON Tecpetrol C12",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.97
-  },
-  {
-   "activo": "ON Telecom C24",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.62
+   "pct_pn": 3.8
   },
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.6
+  },
+  {
+   "activo": "ON Telecom C24",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 3.56
   },
   {
    "activo": "Bono Boncer TZXD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.01
+   "pct_pn": 3.04
   },
   {
    "activo": "ON Pluspetrol Clase 5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.71
-  },
-  {
-   "activo": "Bono Disc ARS Ley AR DICP",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.42
+   "pct_pn": 2.7
   },
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.4
+   "pct_pn": 2.43
+  },
+  {
+   "activo": "Bono Disc ARS Ley AR DICP",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.41
   },
   {
    "activo": "Bono Prov Cordoba Clase 4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.24
+   "pct_pn": 2.26
   },
   {
    "activo": "ON Vista Gas y Oil Arg C29",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.91
+   "pct_pn": 1.89
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.85
+   "pct_pn": 1.87
   },
   {
    "activo": "Bono Prov Cordoba Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.7
+   "pct_pn": 1.72
   },
   {
    "activo": "ON Aeropuertos 2000 Regs 2031",
@@ -110,12 +119,12 @@
   {
    "activo": "ON TGS C4 Reg S",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.42
+   "pct_pn": 1.41
   },
   {
    "activo": "ON Banco de Galicia 32 BYY1O",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.27
+   "pct_pn": 1.28
   },
   {
    "activo": "Bono Ciudad Bs As 261133",
@@ -123,29 +132,24 @@
    "pct_pn": 1.04
   },
   {
-   "activo": "Bono del Tesoro Nacional TZXO7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.88
-  },
-  {
    "activo": "ON Bco Ciudad C23",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.81
+   "pct_pn": 0.82
   },
   {
    "activo": "Letra Prov Bs As PBA28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.73
+   "pct_pn": 0.71
   },
   {
    "activo": "ON Banco Prov Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.63
+   "pct_pn": 0.64
   },
   {
    "activo": "ON BBVA Frances Cl 47",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.63
+   "pct_pn": 0.64
   },
   {
    "activo": "ON Pampa Energia C21",
@@ -170,7 +174,7 @@
   {
    "activo": "ON Santander Rio S 32",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.31
+   "pct_pn": 0.32
   },
   {
    "activo": "ON YPF Luz C18 YFCJO",
@@ -178,39 +182,44 @@
    "pct_pn": 0.3
   },
   {
+   "activo": "Pzo Fi $ Nvo Bco Indus",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 9.87
+  },
+  {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.78
+   "pct_pn": 0.6
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.53
-  },
-  {
-   "activo": "Grupo Financiero Galicia S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.32
+   "pct_pn": 0.43
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.31
+   "pct_pn": 0.28
+  },
+  {
+   "activo": "Grupo Financiero Galicia S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.25
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.26
+   "pct_pn": 0.22
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.13
+   "pct_pn": 0.11
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.09
+   "pct_pn": 0.07
   },
   {
    "activo": "Transportadora de Gas del Norte S.A.",
@@ -221,6 +230,11 @@
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
    "pct_pn": 0.01
+  },
+  {
+   "activo": "FCI Ciclo Nova Ahorro - Clase E",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.04
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

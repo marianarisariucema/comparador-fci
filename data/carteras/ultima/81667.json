@@ -1,6 +1,6 @@
 {
  "fondo": "First Renta Mixta II",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "First Capital Markets S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Variable",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 2086934314.01
+  "Peso Argentina": 1701878021.69
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.0
+   "pct_pn": 97.57
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 97.94
+   "pct_pn": 4.56
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.32
+   "pct_pn": 6.07
   },
   {
    "tipo": "Otros Activos",
@@ -38,114 +38,144 @@
  ],
  "activos": [
   {
-   "activo": "Letra Tesoro Nac S30O6",
+   "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.0
+   "pct_pn": 29.29
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 22.51
+  },
+  {
+   "activo": "Bono Dual TXMJ8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.06
+  },
+  {
+   "activo": "Bono Dual TXMD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.61
+  },
+  {
+   "activo": "Bono Boncer TXMJ9",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.44
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.65
   },
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 19.24
+   "pct_pn": 0.94
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 18.09
+   "pct_pn": 0.79
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 14.5
+   "pct_pn": 0.65
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 6.96
+   "pct_pn": 0.35
   },
   {
    "activo": "Transportadora Gas del Sur S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.44
+   "pct_pn": 0.24
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.95
+   "pct_pn": 0.22
   },
   {
    "activo": "BBVA Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.45
-  },
-  {
-   "activo": "Bolsas y Mercados Argentinos S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.64
+   "pct_pn": 0.2
   },
   {
    "activo": "Ternium Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.42
+   "pct_pn": 0.17
+  },
+  {
+   "activo": "Bolsas y Mercados Argentinos S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.16
   },
   {
    "activo": "Loma Negra S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.69
+   "pct_pn": 0.14
   },
   {
    "activo": "Grupo Supervielle S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.47
+   "pct_pn": 0.11
   },
   {
    "activo": "Aluar Aluminio Argentino S.A.I.C.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.04
+   "pct_pn": 0.1
   },
   {
    "activo": "Banco de Valores S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.79
+   "pct_pn": 0.1
   },
   {
    "activo": "Telecom Argentina S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.72
+   "pct_pn": 0.08
   },
   {
    "activo": "Transener S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.56
+   "pct_pn": 0.07
   },
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.4
+   "pct_pn": 0.07
   },
   {
    "activo": "Metrogas S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.24
-  },
-  {
-   "activo": "Transportadora de Gas del Norte S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.79
-  },
-  {
-   "activo": "Edenor S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.79
+   "pct_pn": 0.06
   },
   {
    "activo": "Sociedad Comercial del Plata S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.76
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Transportadora de Gas del Norte S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.04
+  },
+  {
+   "activo": "Edenor S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.03
+  },
+  {
+   "activo": "FF Megabono 340 Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 5.96
   },
   {
    "activo": "FCI Tango Money Market Dinámico - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.29
+   "pct_pn": 0.08
   },
   {
    "activo": "FCI Axis Pesos - Clase B",

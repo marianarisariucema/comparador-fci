@@ -1,6 +1,6 @@
 {
  "fondo": "Delta Federal I",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,20 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 15234145833.81
+  "Peso Argentina": 10189234948.97
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.24
+   "pct_pn": 0.66
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 97.8
+   "pct_pn": 99.3
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.17
+   "pct_pn": 0.16
   },
   {
    "tipo": "Otros Activos",
@@ -36,87 +36,82 @@
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.67
+   "pct_pn": 24.3
   },
   {
    "activo": "Bono Prov Cordoba Clase 4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 23.9
+   "pct_pn": 18.08
   },
   {
    "activo": "Bonos de Infra.Vial Prov. de Santa Fe",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.83
-  },
-  {
-   "activo": "Bono Prov San Juan SJO35",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.37
+   "pct_pn": 13.36
   },
   {
    "activo": "Bono Prov Cordoba Clase 6",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.5
+   "pct_pn": 6.87
   },
   {
-   "activo": "Bono Boncer TZXD7",
+   "activo": "Bono Prov San Juan SJO35",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.83
-  },
-  {
-   "activo": "Bono Dual TXMD9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.82
+   "pct_pn": 6.23
   },
   {
    "activo": "Bono Prov Santa Fe 8.1% 111234",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.73
-  },
-  {
-   "activo": "Bono Boncer TZXD8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.73
+   "pct_pn": 5.45
   },
   {
    "activo": "Bono Prov Cordoba Clase 5",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.48
+   "pct_pn": 5.12
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TZXO7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.78
+  },
+  {
+   "activo": "Bono Boncer TZXD8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.49
   },
   {
    "activo": "Bono Muni Cordoba S1 01102027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.18
+   "pct_pn": 3.24
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.55
   },
   {
    "activo": "Bono Prov Cordoba 2029 CO27D",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.7
+   "pct_pn": 2.55
   },
   {
    "activo": "Letra Entre Rios ERE27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.65
+   "pct_pn": 2.5
   },
   {
    "activo": "Bono Neuquen 2030",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.35
+   "pct_pn": 1.72
   },
   {
    "activo": "Bono Prov Mendoza 2029",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
-   "activo": "Bono Boncer TX26",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.01
+   "pct_pn": 0.06
   },
   {
    "activo": "FCI Pionero Pesos Plus - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.17
+   "pct_pn": 0.16
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,0 +1,96 @@
+{
+ "fondo": "Balanz Money Market USD",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Balanz S.G.F.C.I.S.A.U.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Plazo Fijo",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 358069964.05
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 18.82
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 6.17
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 73.67
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 1.34
+  }
+ ],
+ "activos": [
+  {
+   "activo": "US Treasury Bill 171126",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.03
+  },
+  {
+   "activo": "US Treasury Bill 031226",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.03
+  },
+  {
+   "activo": "US Treasury Bill 151226",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.03
+  },
+  {
+   "activo": "US Treasury Bill 291226",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.03
+  },
+  {
+   "activo": "US Treasury Bill 050127",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.03
+  },
+  {
+   "activo": "US Treasury Bill 120127",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 1.03
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Galicia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 20.39
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 20.39
+  },
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 18.08
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Comafi",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 8.1
+  },
+  {
+   "activo": "Pzo Fi $ Bco Patagonia",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 6.7
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86759",
+ "nombre_cnv": "BALANZ MONEY MARKET USD",
+ "clave": "balanz money market usd"
+}

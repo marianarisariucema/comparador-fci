@@ -1,6 +1,6 @@
 {
  "fondo": "Galileo Multi Strategy II",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Delta Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,16 +8,20 @@
  "region": "Latinoamerica",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 4427199.44
+  "Dolar Estadounidense": 4158744.39
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 8.99
+   "pct_pn": 5.91
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 63.64
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 91.15
+   "pct_pn": 34.63
   },
   {
    "tipo": "Otros Activos",
@@ -30,59 +34,59 @@
  ],
  "activos": [
   {
-   "activo": "ON Pluspetrol 8.5% 2032 (REGS)",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 11.24
+   "activo": "ON Banco Macro Clase H Reg S",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 11.57
   },
   {
-   "activo": "ON Banco Macro Clase H Reg S",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 11.03
+   "activo": "ON Pan American C31",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 10.6
   },
   {
    "activo": "ON YPF Luz C18 YFCJO",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 9.8
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 10.21
+  },
+  {
+   "activo": "ON Transp Gas Sur Cl 3",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 9.24
+  },
+  {
+   "activo": "ON Arcor C1 7.6%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 7.74
+  },
+  {
+   "activo": "ON Genneia Clase 49",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 7.64
+  },
+  {
+   "activo": "ON Telecom 9.5% 2031",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
+   "pct_pn": 6.65
   },
   {
    "activo": "ON Tecpetrol C10 RETAP",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 9.53
+   "pct_pn": 10.17
   },
   {
-   "activo": "ON Transp Gas Sur Cl 3",
+   "activo": "ON Pluspetrol 8.5% 2032 (REGS)",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.79
+   "pct_pn": 9.13
   },
   {
    "activo": "ON Aeropuertos 2000 Regs 2031",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 8.5
+   "pct_pn": 8.85
   },
   {
-   "activo": "ON Pan American C31",
+   "activo": "ON YPF Clase 31",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.83
-  },
-  {
-   "activo": "ON Arcor C1 7.6%",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.39
-  },
-  {
-   "activo": "ON Genneia Clase 49",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 7.21
-  },
-  {
-   "activo": "ON Telecom 9.5% 2031",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 6.35
-  },
-  {
-   "activo": "ON Pan Amer. Energy C 12",
-   "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 3.49
+   "pct_pn": 6.47
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

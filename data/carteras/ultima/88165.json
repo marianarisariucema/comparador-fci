@@ -1,6 +1,6 @@
 {
  "fondo": "Tandem Balanceado II",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Tandem Capital S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 1244877153.76
+  "Peso Argentina": 1306614481.87
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.02
+   "pct_pn": 0.06
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 75.57
-  },
-  {
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.49
+   "pct_pn": 130.3
   },
   {
    "tipo": "Otros Activos",
@@ -29,69 +25,84 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 20.92
+   "pct_pn": null
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.53
+   "pct_pn": 26.11
   },
   {
-   "activo": "Pagare #MAV260270016",
+   "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.38
+   "pct_pn": 19.86
   },
   {
    "activo": "Bono Dual TXMD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.66
+   "pct_pn": 18.26
+  },
+  {
+   "activo": "Pagare #MAV260270016",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.91
+  },
+  {
+   "activo": "Letra Tamar TEM TMF28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.88
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.12
+   "pct_pn": 10.65
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.96
+   "pct_pn": 4.76
+  },
+  {
+   "activo": "Pagare #MAV270170024",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.56
   },
   {
    "activo": "Cheque #MAV220170024",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.01
+   "pct_pn": 3.87
   },
   {
    "activo": "Cheque #MAV220170017",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.64
+   "pct_pn": 3.52
   },
   {
    "activo": "Cheque #MAV170270016",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.56
+   "pct_pn": 3.43
   },
   {
    "activo": "Cheque #MAV170270018",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.56
+   "pct_pn": 3.43
   },
   {
    "activo": "Cheque #MAV251160067",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.32
+   "pct_pn": 2.24
+  },
+  {
+   "activo": "Pagare #MAV250270038",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.04
   },
   {
    "activo": "Cheque #MAV210170015",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.83
-  },
-  {
-   "activo": "FCI Allaria Ahorro - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.49
+   "pct_pn": 1.76
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

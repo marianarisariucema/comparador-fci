@@ -1,6 +1,6 @@
 {
  "fondo": "Wise Capital Foreign Equity",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Wise Capital Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,32 +8,28 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 860433486.53
+  "Peso Argentina": 804267756.26
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.14
+   "pct_pn": 0.3
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 32.23
+   "pct_pn": 38.44
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 53.55
+   "pct_pn": 52.37
   },
   {
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 8.92
-  },
-  {
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 8.31
+   "pct_pn": 8.94
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 0.01
+   "pct_pn": null
   },
   {
    "tipo": "Pasivos",
@@ -44,107 +40,97 @@
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.38
+   "pct_pn": 14.26
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.05
+   "pct_pn": 12.95
   },
   {
-   "activo": "Bono CER TZX27",
+   "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.8
+   "pct_pn": 11.24
   },
   {
    "activo": "Cedear Spdr SyP 500 ETF",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 8.82
+   "pct_pn": 9.36
   },
   {
    "activo": "Grupo Financiero Galicia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.54
-  },
-  {
-   "activo": "Cedear Mercado Libre",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 7.48
+   "pct_pn": 7.96
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 5.71
+   "pct_pn": 6.46
   },
   {
    "activo": "Cedear Vista Oil Gas",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.43
+   "pct_pn": 3.86
   },
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.98
-  },
-  {
-   "activo": "YPF S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.72
+   "pct_pn": 3.66
   },
   {
    "activo": "Cedear Micron Technology",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.66
-  },
-  {
-   "activo": "Transportadora Gas del Sur S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.67
+   "pct_pn": 3.38
   },
   {
    "activo": "Cedear Nebius Group",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.63
+   "pct_pn": 3.08
+  },
+  {
+   "activo": "YPF S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.08
   },
   {
    "activo": "Cedear IREN Ltd",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.43
-  },
-  {
-   "activo": "Cedear Vale R Doce ON ADR",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.3
-  },
-  {
-   "activo": "Central Puerto S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.16
-  },
-  {
-   "activo": "Cedear Facebook",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.01
+   "pct_pn": 2.94
   },
   {
    "activo": "Cedear Google",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.01
+   "pct_pn": 2.06
+  },
+  {
+   "activo": "Banco Macro S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.56
+  },
+  {
+   "activo": "Transportadora Gas del Sur S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.45
+  },
+  {
+   "activo": "Transener S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.44
+  },
+  {
+   "activo": "Central Puerto S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.05
+  },
+  {
+   "activo": "Cedear Facebook",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.03
   },
   {
    "activo": "Cedear Invesco QQQ",
    "tipo": "Participaciones Accionarias Estados Unidos",
-   "pct_pn": 8.92
-  },
-  {
-   "activo": "FCI BM Smart Money Market - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 8.14
-  },
-  {
-   "activo": "FCI Allaria Ahorro - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.17
+   "pct_pn": 8.94
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

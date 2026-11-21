@@ -1,6 +1,6 @@
 {
  "fondo": "Novus Dólar MM",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Novus Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense Billete": 6018033.91
+  "Dolar Estadounidense Billete": 5781942.13
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 40.49
+   "pct_pn": 39.78
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 59.51
+   "pct_pn": 60.22
   },
   {
    "tipo": "Otros Activos",
@@ -32,37 +32,37 @@
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 18.28
+   "pct_pn": 19.02
   },
   {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 17.46
-  },
-  {
-   "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 8.31
+   "pct_pn": 18.17
   },
   {
    "activo": "Pzo Fi U$S Bco BBVA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 7.99
+   "pct_pn": 8.32
+  },
+  {
+   "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 6.92
   },
   {
    "activo": "Pzo Fi U$S Bco Galicia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 4.99
+   "pct_pn": 5.19
   },
   {
    "activo": "Pzo Fi U$S Bco Supervielle",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 1.66
+   "pct_pn": 1.73
   },
   {
    "activo": "Pzo Fi U$S Bco Patagonia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 0.83
+   "pct_pn": 0.87
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

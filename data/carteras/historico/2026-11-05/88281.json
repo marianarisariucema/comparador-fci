@@ -1,0 +1,131 @@
+{
+ "fondo": "Mills Renta Fija Pesos",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Mills Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 16972263403.93
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.09
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 86.31
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 7.88
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": 5.72
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.67
+  },
+  {
+   "activo": "Lecap S13N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 11.28
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 6.53
+  },
+  {
+   "activo": "Bono Dual TTD26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.31
+  },
+  {
+   "activo": "Letra Tamar TEM TMF27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.28
+  },
+  {
+   "activo": "Letra Prov Bs As 172226",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 5.17
+  },
+  {
+   "activo": "Bono del Tesoro Nacional TML27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.74
+  },
+  {
+   "activo": "Bono Boncer TZXS7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.35
+  },
+  {
+   "activo": "Bono Boncer TZXD7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.29
+  },
+  {
+   "activo": "Letra Tesoro Nac T30A7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.1
+  },
+  {
+   "activo": "Bono del Tesoro Nacional T31Y7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.86
+  },
+  {
+   "activo": "Letra Prov Bs As 180227",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.6
+  },
+  {
+   "activo": "Lecer X29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.1
+  },
+  {
+   "activo": "Bono Dual TXMJ8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.05
+  },
+  {
+   "activo": "Letra Prov Bs As BBA27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.0
+  },
+  {
+   "activo": "Letra Prov Bs As XBM27",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.0
+  },
+  {
+   "activo": "Letra Prov Bs As 210127",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.98
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 7.88
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "88281",
+ "nombre_cnv": "Mills Renta Fija Pesos FCI",
+ "clave": "mills renta fija pesos"
+}

@@ -1,6 +1,6 @@
 {
  "fondo": "Bull Market Renta Fija",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Bull Market Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,32 +8,32 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 66602898844.9
+  "Peso Argentina": 66493219399.5
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.2
+   "pct_pn": 0.26
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 91.78
+   "pct_pn": 92.06
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.28
+   "pct_pn": 0.29
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.05
+   "pct_pn": 1.68
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.62
+   "pct_pn": 3.63
   },
   {
    "tipo": "Otros Activos",
-   "pct_pn": 2.15
+   "pct_pn": 2.21
   },
   {
    "tipo": "Pasivos",
@@ -44,12 +44,12 @@
   {
    "activo": "Bono Entre Rios 9.55% 040333",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 21.28
+   "pct_pn": 21.33
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.99
+   "pct_pn": 8.06
   },
   {
    "activo": "Bono Dual TXMD9",
@@ -59,42 +59,37 @@
   {
    "activo": "ON CGC C 38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.46
+   "pct_pn": 6.61
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.82
+   "pct_pn": 5.8
   },
   {
    "activo": "Bono Dual TXMJ0",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.14
+   "pct_pn": 5.19
   },
   {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.87
+   "pct_pn": 4.91
   },
   {
    "activo": "Letra Entre Rios ERE27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.39
+   "pct_pn": 4.45
   },
   {
    "activo": "ON Vista Gas y Oil Arg C29",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.56
-  },
-  {
-   "activo": "ON Edenor C10 DNCAO",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.35
+   "pct_pn": 2.55
   },
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.3
+   "pct_pn": 2.32
   },
   {
    "activo": "Bono Boncer 2028 TZXM8",
@@ -102,9 +97,14 @@
    "pct_pn": 2.21
   },
   {
+   "activo": "ON Edenor C10 DNCAO",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 2.16
+  },
+  {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.02
+   "pct_pn": 2.04
   },
   {
    "activo": "Bono Boncer TXMJ9",
@@ -114,22 +114,22 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.97
+   "pct_pn": 1.98
   },
   {
    "activo": "ON Pluspetrol 8.5% 2032 (REGS)",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.93
+   "pct_pn": 1.92
   },
   {
    "activo": "ON YPF Luz C18 YFCJO",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.74
+   "pct_pn": 1.73
   },
   {
    "activo": "ON Pan American C33",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.96
+   "pct_pn": 0.97
   },
   {
    "activo": "Bono Dual TXMJ8",
@@ -144,12 +144,12 @@
   {
    "activo": "ON Capex C10",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.56
+   "pct_pn": 0.57
   },
   {
    "activo": "Pagare #MAV141070005",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.53
+   "pct_pn": 0.54
   },
   {
    "activo": "Pagare #MAV140480002",
@@ -159,17 +159,17 @@
   {
    "activo": "Pagare #MAV141080001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.41
+   "pct_pn": 0.42
   },
   {
    "activo": "Pagare #MAV140490001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.37
+   "pct_pn": 0.38
   },
   {
    "activo": "Pagare #MAV141090001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.33
+   "pct_pn": 0.34
   },
   {
    "activo": "Pagare #MAV141160007",
@@ -182,17 +182,17 @@
    "pct_pn": 0.31
   },
   {
-   "activo": "Pagare #MAV140400001",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
-  },
-  {
    "activo": "Pagare #MAV140170017",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.3
+   "pct_pn": 0.31
   },
   {
    "activo": "Pagare #MAV140270003",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.3
+  },
+  {
+   "activo": "Pagare #MAV140400001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.3
   },
@@ -209,7 +209,7 @@
   {
    "activo": "Pagare #MAV140570002",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.27
+   "pct_pn": 0.28
   },
   {
    "activo": "Pagare #MAV140670002",
@@ -222,14 +222,14 @@
    "pct_pn": 0.26
   },
   {
-   "activo": "Pagare #MAV141000001",
+   "activo": "Pagare #MAV140870001",
    "tipo": "Titulos de Deuda en Peso Argentina",
    "pct_pn": 0.26
   },
   {
-   "activo": "Pagare #MAV140870001",
+   "activo": "Pagare #MAV141000001",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.25
+   "pct_pn": 0.26
   },
   {
    "activo": "Pagare #MAV140970005",
@@ -257,14 +257,9 @@
    "pct_pn": 0.05
   },
   {
-   "activo": "Pagare #MAV231060008",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.04
-  },
-  {
    "activo": "Pagare #UMV300370017",
    "tipo": "Titulos de Deuda en Dolar Estadounidense",
-   "pct_pn": 0.05
+   "pct_pn": 0.06
   },
   {
    "activo": "Pagare #UMV300380005",
@@ -309,37 +304,37 @@
   {
    "activo": "YPF S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.04
+   "pct_pn": 0.81
   },
   {
    "activo": "Central Puerto S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.33
+   "pct_pn": 0.28
   },
   {
    "activo": "Banco Macro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.27
+   "pct_pn": 0.24
   },
   {
    "activo": "Pampa Energia S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.23
+   "pct_pn": 0.19
   },
   {
    "activo": "Metrogas S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.14
+   "pct_pn": 0.13
   },
   {
    "activo": "Distribuidora de Gas del Centro S.A.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 0.04
+   "pct_pn": 0.03
   },
   {
    "activo": "FF Invesion Forestal 1 CP",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 3.59
+   "pct_pn": 3.6
   },
   {
    "activo": "FF Vicentin Export S8 A",

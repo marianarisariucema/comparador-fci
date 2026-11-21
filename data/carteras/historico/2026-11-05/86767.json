@@ -1,0 +1,76 @@
+{
+ "fondo": "1822 Raices Renta Fija Internacional",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Provinfondos S.A.S.G.F.C.I.",
+ "depositaria": "Banco Provincia de Buenos Aires",
+ "clasificacion": "Renta Fija",
+ "moneda": "Dolar Estadounidense",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 2306424.56
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.02
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 85.62
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 14.39
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "US Treasury Bill 310527",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 17.73
+  },
+  {
+   "activo": "BC Codelco 5.125% 020233",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 17.36
+  },
+  {
+   "activo": "BC Cencosud 5.95%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 13.41
+  },
+  {
+   "activo": "BC Banco Do Brasil 2029",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.96
+  },
+  {
+   "activo": "BC Vale Overseas Limited 3.75%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.46
+  },
+  {
+   "activo": "BC Falabella 150132",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 11.69
+  },
+  {
+   "activo": "Caucion Colocadora U$S BYMA",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 14.39
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "86767",
+ "nombre_cnv": "1822 RAICES RENTA FIJA INTERNACIONAL",
+ "clave": "1822 raices renta fija internacional"
+}

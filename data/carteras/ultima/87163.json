@@ -1,6 +1,6 @@
 {
  "fondo": "Wise Capital Multistrategy",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Wise Capital Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 6776375108.02
+  "Peso Argentina": 6208503749.67
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 36.95
+   "pct_pn": 31.12
   },
   {
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 23.19
+   "pct_pn": 25.86
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.78
+   "pct_pn": 0.05
   },
   {
    "tipo": "Otros Activos",
@@ -33,29 +33,24 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 39.03
+   "pct_pn": 42.92
   }
  ],
  "activos": [
   {
-   "activo": "Bono Boncer TX26",
+   "activo": "Bono Boncer TZXD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.59
+   "pct_pn": 12.73
   },
   {
-   "activo": "Bono Boncer TZXO6",
+   "activo": "Bono Boncer TXMJ9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.45
+   "pct_pn": 10.56
   },
   {
-   "activo": "Bono del Tesoro Nacional T15E7",
+   "activo": "Bono del Tesoro Nacional TMG28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.76
-  },
-  {
-   "activo": "Bono CER TZX27",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.13
+   "pct_pn": 7.82
   },
   {
    "activo": "Bonos Rep Argentina GD30",
@@ -65,17 +60,12 @@
   {
    "activo": "BC Wise Capital Total Return II S528 Notes 2044",
    "tipo": "Titulos de Deuda en Dolar Estadounidense Cable",
-   "pct_pn": 23.19
+   "pct_pn": 25.86
   },
   {
-   "activo": "FCI BM Smart Money Market - Clase B",
+   "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.74
-  },
-  {
-   "activo": "FCI Allaria Ahorro - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.04
+   "pct_pn": 0.05
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

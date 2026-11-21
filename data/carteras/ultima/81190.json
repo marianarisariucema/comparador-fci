@@ -1,6 +1,6 @@
 {
  "fondo": "SBS Patrimonio III",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "SBS Asset Management S.A.S.G.F.C.I.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 26005347286.18
+  "Peso Argentina": 25902249677.13
  },
  "por_tipo": [
   {
@@ -17,11 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 105.15
+   "pct_pn": 96.59
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 8.5
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.43
+   "pct_pn": 2.46
   },
   {
    "tipo": "Otros Activos",
@@ -34,74 +38,74 @@
  ],
  "activos": [
   {
-   "activo": "Bono Boncer TZXD7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.74
-  },
-  {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.67
+   "pct_pn": 13.82
   },
   {
-   "activo": "Bono Boncer TZX28",
+   "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.34
+   "pct_pn": 13.8
   },
   {
-   "activo": "Bono Boncer TZXS8",
+   "activo": "Bono del Tesoro Nacional T15E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.13
+   "pct_pn": 13.3
+  },
+  {
+   "activo": "Lecap S29E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.08
   },
   {
    "activo": "Bono Prov Cordoba Clase 4",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.51
-  },
-  {
-   "activo": "Bono Boncer 2028 TZXM8",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.63
+   "pct_pn": 10.64
   },
   {
    "activo": "Cheque E *MAV061101200",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.58
+   "pct_pn": 7.69
   },
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 6.57
+   "pct_pn": 6.68
   },
   {
    "activo": "ON Rombo Cia Fciera S66",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.34
+   "pct_pn": 4.39
   },
   {
    "activo": "ON FCA Comp. Finac CL 22 S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.04
+   "pct_pn": 4.08
   },
   {
-   "activo": "Letra Prov Bs As 180327",
+   "activo": "Letra Prov Bs As XBM27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.85
+   "pct_pn": 3.91
   },
   {
-   "activo": "Bono Boncer TZXD6",
+   "activo": "Bono CER TZX27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.35
+   "pct_pn": 2.78
   },
   {
    "activo": "ON Arcor C3",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.38
+   "pct_pn": 2.42
+  },
+  {
+   "activo": "Pzo Fi $ Bco Nacion",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 8.5
   },
   {
    "activo": "FF Mercado Credito 47 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.92
+   "pct_pn": 1.95
   },
   {
    "activo": "FCI Adcap Ahorro Pesos - Clase I",

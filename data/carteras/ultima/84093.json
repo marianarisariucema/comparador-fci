@@ -1,6 +1,6 @@
 {
  "fondo": "Ualintec Renta Fija Pesos",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Ualá Fondos S.A.U.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 4158594316.24
+  "Peso Argentina": 3942958215.72
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.01
+   "pct_pn": 0.13
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 87.2
+   "pct_pn": 87.04
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 12.68
+   "pct_pn": 13.06
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.17
+   "pct_pn": 0.35
   },
   {
    "tipo": "Otros Activos",
@@ -40,37 +40,37 @@
   {
    "activo": "Bono Boncer TZX28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 26.32
+   "pct_pn": 27.96
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 24.5
+   "pct_pn": 22.06
   },
   {
    "activo": "Bono del Tesoro Nacional AO28",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 20.79
+   "pct_pn": 20.34
   },
   {
    "activo": "Bono Boncer TZXD8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 10.52
+   "pct_pn": 11.26
   },
   {
    "activo": "ON Credicuotas Consumo S22",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 5.07
+   "pct_pn": 5.41
   },
   {
-   "activo": "Pzo Fi $ Bco Bibank",
+   "activo": "Caucion Colocadora $ BYMA",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 12.68
+   "pct_pn": 13.06
   },
   {
    "activo": "FCI MEGAQM Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.17
+   "pct_pn": 0.35
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

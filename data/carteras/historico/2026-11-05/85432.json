@@ -1,0 +1,105 @@
+{
+ "fondo": "Stonex Global V",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "StoneX Asset Management S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 8322142761.79
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 1.67
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 87.19
+  },
+  {
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 12.46
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.41
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": 0.32
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 33.54
+  },
+  {
+   "activo": "Letra Tesoro Nac D31M7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 30.3
+  },
+  {
+   "activo": "Bono del Tesoro Nacional AN29",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 13.56
+  },
+  {
+   "activo": "Bonos Rep Argentina AE38",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.79
+  },
+  {
+   "activo": "Cedear Facebook",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.7
+  },
+  {
+   "activo": "Cedear Utilities Select Sectar SPDR Fund",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 3.12
+  },
+  {
+   "activo": "Cedear Amazon",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.74
+  },
+  {
+   "activo": "Cedear Google",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.43
+  },
+  {
+   "activo": "Ternium Argentina S.A.",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 1.21
+  },
+  {
+   "activo": "Cedear NU Holdings Ltd",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.8
+  },
+  {
+   "activo": "Cedear Mercado Libre",
+   "tipo": "Participaciones Accionarias Argentina",
+   "pct_pn": 0.46
+  },
+  {
+   "activo": "FCI Parakeet Pesos - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.41
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "85432",
+ "nombre_cnv": "STONEX GLOBAL V",
+ "clave": "stonex global v"
+}

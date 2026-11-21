@@ -1,0 +1,67 @@
+{
+ "fondo": "Alamerica Renta Fija Dolar Latam",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Dolar Estadounidense",
+ "region": "Global",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Dolar Estadounidense": 7319122.52
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 4.31
+  },
+  {
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 95.85
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "BC Falabella 150132",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 18.21
+  },
+  {
+   "activo": "BC Banco Do Brasil 2029",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.95
+  },
+  {
+   "activo": "BC Codelco 2030",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.68
+  },
+  {
+   "activo": "BC Cencosud 5.95%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 16.44
+  },
+  {
+   "activo": "BC Vale Overseas Limited 3.75%",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 15.24
+  },
+  {
+   "activo": "BC Bradesco 2027",
+   "tipo": "Titulos de Deuda en Dolar Estadounidense",
+   "pct_pn": 12.35
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "64017",
+ "nombre_cnv": "ALAMERICA RENTA FIJA DOLAR LATAM FCI",
+ "clave": "alamerica renta fija dolar latam"
+}

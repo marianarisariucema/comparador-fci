@@ -1,6 +1,6 @@
 {
  "fondo": "Allaria Diversificado",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Fija",
@@ -8,24 +8,24 @@
  "region": "Global",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 42592500922.07
+  "Peso Argentina": 39596572731.94
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.15
+   "pct_pn": 0.16
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 64.49
+   "pct_pn": 75.45
   },
   {
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 33.49
+   "pct_pn": 24.38
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.38
+   "pct_pn": 2.78
   },
   {
    "tipo": "Otros Activos",
@@ -40,72 +40,47 @@
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.98
+   "pct_pn": 30.37
   },
   {
-   "activo": "Bono Boncer TZX28",
+   "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 29.75
+   "pct_pn": 19.15
   },
   {
    "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.76
+   "pct_pn": 16.68
+  },
+  {
+   "activo": "Bono Boncer TZX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 9.24
   },
   {
    "activo": "Cedear SpaceX",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 9.19
-  },
-  {
-   "activo": "Grupo Financiero Galicia S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 4.26
-  },
-  {
-   "activo": "Cedear Google",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.92
-  },
-  {
-   "activo": "YPF S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 3.02
-  },
-  {
-   "activo": "Pampa Energia S.A.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.96
-  },
-  {
-   "activo": "Cedear Taiwan Semiconduct",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.22
-  },
-  {
-   "activo": "Cedear Nvidia Corp.",
-   "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 2.19
+   "pct_pn": 10.07
   },
   {
    "activo": "Cedear Micron Technology",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.96
+   "pct_pn": 5.81
   },
   {
    "activo": "Cedear Broadcom Inc",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.93
+   "pct_pn": 4.47
   },
   {
-   "activo": "Cedear Facebook",
+   "activo": "Cedear Nvidia Corp.",
    "tipo": "Participaciones Accionarias Argentina",
-   "pct_pn": 1.84
+   "pct_pn": 4.03
   },
   {
-   "activo": "FCI Cocos Ahorro - Clase C",
+   "activo": "FCI Gainvest Pesos - Clase B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.38
+   "pct_pn": 2.78
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

@@ -1,0 +1,81 @@
+{
+ "fondo": "Allaria Patrimonio II",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Allaria Fondos Administrados S.G.F.C.I.S.A.",
+ "depositaria": "Banco de Valores S.A.",
+ "clasificacion": "Renta Mixta",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 41023238346.64
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 0.92
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 90.74
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 8.34
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Letra Tesoro Nac D15E7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.64
+  },
+  {
+   "activo": "Lelink D30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 29.46
+  },
+  {
+   "activo": "ON YPF Clase 34",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 18.34
+  },
+  {
+   "activo": "ON Profertil C2",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 4.25
+  },
+  {
+   "activo": "ON Pan American C33",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.99
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C17",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.57
+  },
+  {
+   "activo": "ON Vista Gas y Oil Arg C18",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.49
+  },
+  {
+   "activo": "FCI Schroder Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 8.34
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "83621",
+ "nombre_cnv": "ALLARIA PATRIMONIO II FCI",
+ "clave": "allaria patrimonio ii"
+}

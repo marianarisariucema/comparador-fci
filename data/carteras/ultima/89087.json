@@ -1,6 +1,6 @@
 {
  "fondo": "BAVSA MG Alfa Renta Dolares Balanceado",
- "fecha_cartera": null,
+ "fecha_cartera": "2026-11-05",
  "gerente": "BAVSA Fondos S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,12 +8,20 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": null
+  "Dolar Estadounidense": 1036193.22
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
    "pct_pn": null
+  },
+  {
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 19.3
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 80.7
   },
   {
    "tipo": "Otros Activos",
@@ -24,7 +32,18 @@
    "pct_pn": null
   }
  ],
- "activos": [],
+ "activos": [
+  {
+   "activo": "Caucion Colocadora U$S Merval",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 19.3
+  },
+  {
+   "activo": "FCI Allaria Dólar Ahorro - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 80.7
+  }
+ ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
  "id_cnv": "89087",
  "nombre_cnv": "BAVSA MG ALFA RENTA DÓLARES BALANCEADO",

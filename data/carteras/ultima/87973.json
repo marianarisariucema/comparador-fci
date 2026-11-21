@@ -1,6 +1,6 @@
 {
  "fondo": "Wise Capital Focus II",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Wise Capital Asset Management S.A.",
  "depositaria": "Banco de Valores S.A.",
  "clasificacion": "Renta Mixta",
@@ -8,20 +8,24 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 7896198880.16
+  "Peso Argentina": 8048732886.87
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 0.13
+   "pct_pn": 0.01
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 32.07
+   "pct_pn": 26.01
+  },
+  {
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.73
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 9.56
+   "pct_pn": 0.92
   },
   {
    "tipo": "Otros Activos",
@@ -29,34 +33,39 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 58.24
+   "pct_pn": 69.33
   }
  ],
  "activos": [
   {
    "activo": "Bono Boncer TX26",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 15.62
-  },
-  {
-   "activo": "Bono Boncer TZXO6",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.27
+   "pct_pn": 15.48
   },
   {
    "activo": "Letra Tamar TEM TMF27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.18
+   "pct_pn": 5.28
+  },
+  {
+   "activo": "Lecer X30N6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 3.38
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.87
+  },
+  {
+   "activo": "Caucion Colocadora $ Merval",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 3.73
   },
   {
    "activo": "FCI SBS Ahorro Pesos Cl B",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 7.85
-  },
-  {
-   "activo": "FCI BM Smart Money Market - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.71
+   "pct_pn": 0.92
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

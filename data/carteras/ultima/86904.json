@@ -1,6 +1,6 @@
 {
  "fondo": "BAVSA Ahorro Dólar",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "BAVSA Fondos S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 19665064.15
+  "Dolar Estadounidense": 20063219.96
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 42.15
+   "pct_pn": 20.53
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 45.11
+   "pct_pn": 44.54
   },
   {
    "tipo": "Otros Activos",
@@ -25,59 +25,54 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 12.74
+   "pct_pn": 34.93
   }
  ],
  "activos": [
   {
    "activo": "Pzo Fi U$S Bco Patagonia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 15.28
+   "pct_pn": 13.96
   },
   {
    "activo": "Caucion Colocadora U$S Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 11.5
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Coinag",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 4.59
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Nacion",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 4.07
+   "pct_pn": 13.12
   },
   {
    "activo": "Pzo Fi U$S Bco Sol",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 3.56
+   "pct_pn": 5.98
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Nacion",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 4.49
   },
   {
    "activo": "Pzo Fi U$S Banco de Serv y Transacciones (BST)",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 2.03
-  },
-  {
-   "activo": "Pzo Fi U$S Bco Supervielle",
-   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 1.53
+   "pct_pn": 1.99
   },
   {
    "activo": "Pzo Fi U$S Bco Galicia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 1.53
+   "pct_pn": 1.5
   },
   {
    "activo": "Pzo Fi U$S Bco Mariva",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 0.51
+   "pct_pn": 1.5
+  },
+  {
+   "activo": "Pzo Fi U$S Bco Supervielle",
+   "tipo": "Operaciones a Plazo en Dolar Estadounidense",
+   "pct_pn": 1.5
   },
   {
    "activo": "Caucion Colocadora $ Merval",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense",
-   "pct_pn": 0.51
+   "pct_pn": 0.5
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

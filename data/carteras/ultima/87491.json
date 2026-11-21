@@ -1,6 +1,6 @@
 {
- "fondo": "Gainvest Dólares Premium",
- "fecha_cartera": "2026-10-23",
+ "fondo": "Stonex Dólares Premium",
+ "fecha_cartera": "2026-11-05",
  "gerente": "StoneX Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Plazo Fijo",
@@ -8,16 +8,16 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Dolar Estadounidense": 10642719.74
+  "Dolar Estadounidense": 7622503.24
  },
  "por_tipo": [
   {
    "tipo": "Disponibilidades",
-   "pct_pn": 42.49
+   "pct_pn": 24.93
   },
   {
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 54.56
+   "pct_pn": 70.95
   },
   {
    "tipo": "Otros Activos",
@@ -25,34 +25,34 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 2.95
+   "pct_pn": 4.12
   }
  ],
  "activos": [
   {
    "activo": "Caucion Colocadora U$S BYMA",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 17.85
+   "pct_pn": 19.68
   },
   {
    "activo": "Pzo Fi U$S Bco Nacion",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 11.77
+   "pct_pn": 16.43
   },
   {
    "activo": "Pzo Fi U$S Bco Galicia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 10.82
+   "pct_pn": 15.12
   },
   {
    "activo": "Pzo Fi U$S Bco Patagonia",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 8.0
+   "pct_pn": 11.18
   },
   {
    "activo": "Pzo Fi U$S Nvo Bco Indus",
    "tipo": "Operaciones a Plazo en Dolar Estadounidense Billete",
-   "pct_pn": 6.12
+   "pct_pn": 8.54
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",

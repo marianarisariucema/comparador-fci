@@ -1,0 +1,76 @@
+{
+ "fondo": "Optimum Renta Fija Estrategica",
+ "fecha_cartera": "2026-11-05",
+ "gerente": "Santander Asset Management G.F.C.I.S.A.",
+ "depositaria": "Banco Santander Argentina S.A.",
+ "clasificacion": "Renta Fija",
+ "moneda": "Peso Argentina",
+ "region": "Argentina",
+ "horizonte": "Mediano Plazo",
+ "patrimonio_por_moneda": {
+  "Peso Argentina": 4601239529.74
+ },
+ "por_tipo": [
+  {
+   "tipo": "Disponibilidades",
+   "pct_pn": 6.57
+  },
+  {
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 90.61
+  },
+  {
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.85
+  },
+  {
+   "tipo": "Otros Activos",
+   "pct_pn": null
+  },
+  {
+   "tipo": "Pasivos",
+   "pct_pn": null
+  }
+ ],
+ "activos": [
+  {
+   "activo": "Bono Boncer TX26",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 26.08
+  },
+  {
+   "activo": "Bono Boncer TZXS8",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 25.8
+  },
+  {
+   "activo": "Bono Boncer TZXD6",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 17.18
+  },
+  {
+   "activo": "Bono Bopreal 2027 Serie 1 Clase B BPOB7",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 12.6
+  },
+  {
+   "activo": "Bonos Rep Argentina 2030",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 8.09
+  },
+  {
+   "activo": "ON Agrofina Clase 11",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.85
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 2.85
+  }
+ ],
+ "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
+ "id_cnv": "63525",
+ "nombre_cnv": "Optimum Renta Fija Estrategica Ex OPTIMUM CDB PESO",
+ "clave": "optimum renta fija estrategica"
+}

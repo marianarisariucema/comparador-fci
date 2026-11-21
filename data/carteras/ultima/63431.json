@@ -1,6 +1,6 @@
 {
  "fondo": "MEGAQM Ahorro",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "MEGA QM S.A.",
  "depositaria": "Banco de Servicios y Transacciones S.A. (BST)",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 73278577518.0
+  "Peso Argentina": 67155490141.02
  },
  "por_tipo": [
   {
@@ -17,15 +17,15 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 82.1
+   "pct_pn": 83.7
   },
   {
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.15
+   "pct_pn": 26.12
   },
   {
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 13.69
+   "pct_pn": 13.44
   },
   {
    "tipo": "Otros Activos",
@@ -33,184 +33,174 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": 0.06
+   "pct_pn": null
   }
  ],
  "activos": [
   {
-   "activo": "Lecer X29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 22.29
-  },
-  {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 14.26
+   "pct_pn": 25.4
   },
   {
-   "activo": "Bono del Tesoro Nacional T15E7",
+   "activo": "Lecap S26F7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 13.44
+   "pct_pn": 24.61
   },
   {
-   "activo": "Bono Boncer TXMJ9",
+   "activo": "Bono Boncer 2027 TZXM7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.23
-  },
-  {
-   "activo": "Lecap S29E7",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.16
+   "pct_pn": 10.19
   },
   {
    "activo": "Pagare #MAV171160052",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.02
-  },
-  {
-   "activo": "Bono Dual TXMD9",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.97
+   "pct_pn": 4.43
   },
   {
    "activo": "Pagare #MAV101260028",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.95
+   "pct_pn": 4.35
   },
   {
    "activo": "ON Banco Nacion Argentina Clase 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 3.63
+   "pct_pn": 3.74
   },
   {
    "activo": "ON Tarj Naranja C67 S1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 2.45
+   "pct_pn": 2.7
   },
   {
    "activo": "Bono Muni Cordoba S2 13022027",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.46
+   "pct_pn": 1.63
   },
   {
    "activo": "ON Banco de Galicia 32 BYY1O",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.41
+   "pct_pn": 1.56
   },
   {
    "activo": "ON BBVA Frances Cl 47",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 1.41
+   "pct_pn": 1.55
+  },
+  {
+   "activo": "Pagare MAV221260074",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 1.43
   },
   {
    "activo": "ON NBD Chaco Clase 1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.71
+   "pct_pn": 0.79
+  },
+  {
+   "activo": "Pagare MAV221260076",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 0.57
   },
   {
    "activo": "ON Credicuotas Consumo S22",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.31
+   "pct_pn": 0.34
   },
   {
    "activo": "ON PSA Serie 38",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.17
+   "pct_pn": 0.19
   },
   {
    "activo": "Boncer Mendoza C1",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.15
+   "pct_pn": 0.13
   },
   {
    "activo": "ON Plaza Logistica C1 ZPC1O",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 0.09
+   "pct_pn": 0.1
+  },
+  {
+   "activo": "Caucion Colocadora $ BYMA",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 14.1
+  },
+  {
+   "activo": "Caucion Colocadora $ MAE",
+   "tipo": "Operaciones a Plazo en Peso Argentina",
+   "pct_pn": 7.45
   },
   {
    "activo": "Pzo Fi $ Bco Nacion",
    "tipo": "Operaciones a Plazo en Peso Argentina",
-   "pct_pn": 4.15
+   "pct_pn": 4.57
   },
   {
    "activo": "FF Mercado Credito 48 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.46
+   "pct_pn": 2.72
   },
   {
    "activo": "FF Mercado Credito 49 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 2.32
+   "pct_pn": 2.56
   },
   {
    "activo": "FF Mercado Credito 51 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.63
+   "pct_pn": 1.81
+  },
+  {
+   "activo": "FCI Argenfunds Liquidez - Clase B",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 1.36
   },
   {
    "activo": "FF Megabono 349 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 1.2
-  },
-  {
-   "activo": "FCI ST Zero - Clase C",
-   "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 1.1
-  },
-  {
-   "activo": "FF Megabono 344 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.94
   },
   {
    "activo": "FF Megabono 351 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.87
+   "pct_pn": 0.96
   },
   {
    "activo": "FF Megabono 353 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.81
+   "pct_pn": 0.89
+  },
+  {
+   "activo": "FF Megabono 344 Clase A",
+   "tipo": "Certificados de Participacion Argentina",
+   "pct_pn": 0.7
   },
   {
    "activo": "FF Megabono 346 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.79
-  },
-  {
-   "activo": "FCI Ciclo Nova Ahorro - Clase E",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.68
+   "pct_pn": 0.63
   },
   {
    "activo": "FF Megabono 343 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.29
-  },
-  {
-   "activo": "FCI MAF Money Market - Clase B",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.15
+   "pct_pn": 0.32
   },
   {
    "activo": "FF Waynimovil S13 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.14
-  },
-  {
-   "activo": "FF Megabono 322 Clase A",
-   "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.13
+   "pct_pn": 0.15
   },
   {
    "activo": "FF Mercado Credito 45 CA",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.11
+   "pct_pn": 0.12
   },
   {
-   "activo": "FF Megabono 327 Clase A",
+   "activo": "FF Megabono 322 Clase A",
    "tipo": "Certificados de Participacion Argentina",
-   "pct_pn": 0.03
+   "pct_pn": 0.08
   },
   {
    "activo": "FF Megabono 329 Clase A",
@@ -218,12 +208,12 @@
    "pct_pn": 0.02
   },
   {
-   "activo": "FF Megabono 320 Clase A",
+   "activo": "FCI BM Smart Money Market - Clase B",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.01
   },
   {
-   "activo": "FCI BAVSA Ahorro - Clase B",
+   "activo": "FCI Cocos Ahorro - Clase C",
    "tipo": "Certificados de Participacion Argentina",
    "pct_pn": 0.01
   }

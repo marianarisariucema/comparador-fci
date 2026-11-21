@@ -1,6 +1,6 @@
 {
  "fondo": "Bull Market Ahorro Balanceado II",
- "fecha_cartera": "2026-10-23",
+ "fecha_cartera": "2026-11-05",
  "gerente": "Bull Market Asset Management S.A.",
  "depositaria": "Banco Comafi S.A.",
  "clasificacion": "Renta Fija",
@@ -8,7 +8,7 @@
  "region": "Argentina",
  "horizonte": "Mediano Plazo",
  "patrimonio_por_moneda": {
-  "Peso Argentina": 33054451787.69
+  "Peso Argentina": 33179582629.41
  },
  "por_tipo": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 100.08
+   "pct_pn": 98.06
   },
   {
    "tipo": "Certificados de Participacion Argentina",
@@ -29,49 +29,44 @@
   },
   {
    "tipo": "Pasivos",
-   "pct_pn": null
+   "pct_pn": 1.93
   }
  ],
  "activos": [
   {
    "activo": "Bono del Tesoro Nacional TMVE8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.58
+   "pct_pn": 16.64
   },
   {
    "activo": "Bono Boncer TZXD7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 16.12
+   "pct_pn": 15.99
   },
   {
    "activo": "Bono Boncer TZXS7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 11.25
+   "pct_pn": 11.28
   },
   {
    "activo": "Lecer X29E7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.58
-  },
-  {
-   "activo": "Bono Boncer TX28",
-   "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.38
+   "pct_pn": 9.64
   },
   {
    "activo": "Letra Tesoro Nac T30A7",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 9.04
+   "pct_pn": 9.07
   },
   {
    "activo": "Bono Dual TXMD9",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 8.49
+   "pct_pn": 8.45
   },
   {
    "activo": "Bono del Tesoro Nacional TML27",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 7.83
+   "pct_pn": 7.86
   },
   {
    "activo": "Bono del Tesoro Nacional T31Y7",
@@ -79,9 +74,14 @@
    "pct_pn": 7.35
   },
   {
+   "activo": "Bono Boncer TX28",
+   "tipo": "Titulos de Deuda en Peso Argentina",
+   "pct_pn": 7.32
+  },
+  {
    "activo": "Bono Boncer TZXS8",
    "tipo": "Titulos de Deuda en Peso Argentina",
-   "pct_pn": 4.46
+   "pct_pn": 4.47
   }
  ],
  "fuente": "CNV - Composición Semanal Cartera (art. 34 Cap. XI)",
